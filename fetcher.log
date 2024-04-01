@@ -271,3 +271,33 @@
 [2024-04-02 00:18:10] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
 [2024-04-02 00:18:10] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
 [2024-04-02 00:18:10] INFO root fetch - main [MainThread]: Store serial: [22576574]
+[2024-04-02 00:20:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576574]
+[2024-04-02 00:20:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 00:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-knotinfo
+[2024-04-02 00:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: labelme-parse
+[2024-04-02 00:20:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gusty
+[2024-04-02 00:20:18] INFO root fetch - processPackages [database-knotinfo]: New version: [21.7.15] Old Version: [21.7]
+[2024-04-02 00:20:18] INFO root fetch - processPackages [labelme-parse]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 00:20:18] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/ed/10/02c95e09f90ea3ca6a6622ba42077bf5e1bb8004d969c78a73d79bc763fc/database_knotinfo-21.7.tar.gz
+[2024-04-02 00:20:18] INFO root fetch - processPackages [gusty]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 00:20:19] INFO root fetch - processPackages [labelme-parse]: Downloading https://files.pythonhosted.org/packages/84/74/76ac52a1a5c90d2783adcefde71ff613dabaf4b35c47a4fdb92d8092c688/labelme-parse-1.0.0.tar.gz
+[2024-04-02 00:20:19] INFO root fetch - processPackages [gusty]: Downloading https://files.pythonhosted.org/packages/0a/c3/3f48b8204d761905ee6ab472e4918ee3ceca4047846e14a347cc9e20a57d/gusty-0.9.0.tar.gz
+[2024-04-02 00:20:19] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/41/30/c317860b531bb854820f45d9dd7f7a377cb7f44dc35a5e3f5d73f0521eda/database_knotinfo-21.7.15.tar.gz
+[2024-04-02 00:20:19] INFO root fetch - processPackages [labelme-parse]: Downloading https://files.pythonhosted.org/packages/5e/70/b7bee9c4affa58bbed3671f402e8b854c37f0951da27830f4d29085c4cfe/labelme-parse-1.0.1.tar.gz
+[2024-04-02 00:20:19] INFO root fetch - processPackages [gusty]: Downloading https://files.pythonhosted.org/packages/63/08/51cd1690ba070ab783bbc77e5c5dcd9c4365ba8aed312ee046fcd33a32b8/gusty-0.9.1.tar.gz
+[2024-04-02 00:20:19] INFO root fetch - processPackages [labelme-parse]: executing diffoscope
+[2024-04-02 00:20:19] INFO root fetch - processPackages [labelme-parse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/labelme-parse-1.0.0.tar.gz tmp/labelme-parse-1.0.1.tar.gz --markdown 20240402/l/labelme-parse/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 00:20:19] INFO root fetch - processPackages [database-knotinfo]: executing diffoscope
+[2024-04-02 00:20:19] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20240402/d/database-knotinfo/21.7-21.7.15/diff.md --exclude *.pyd
+[2024-04-02 00:20:19] INFO root fetch - processPackages [gusty]: executing diffoscope
+[2024-04-02 00:20:19] INFO root fetch - processPackages [gusty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gusty-0.9.0.tar.gz tmp/gusty-0.9.1.tar.gz --markdown 20240402/g/gusty/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 00:20:19] INFO root fetch - processPackages [labelme-parse]: Remove: archive file [/home/abi/fetcher/tmp/labelme-parse-1.0.0.tar.gz]
+[2024-04-02 00:20:19] INFO root fetch - processPackages [labelme-parse]: Remove: archive file [/home/abi/fetcher/tmp/labelme-parse-1.0.1.tar.gz]
+[2024-04-02 00:20:19] INFO root fetch - main [MainThread]: End processing [labelme-parse]: success
+[2024-04-02 00:20:20] INFO root fetch - processPackages [gusty]: Remove: archive file [/home/abi/fetcher/tmp/gusty-0.9.0.tar.gz]
+[2024-04-02 00:20:20] INFO root fetch - processPackages [gusty]: Remove: archive file [/home/abi/fetcher/tmp/gusty-0.9.1.tar.gz]
+[2024-04-02 00:20:20] INFO root fetch - main [MainThread]: End processing [gusty]: success
+[2024-04-02 00:20:21] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.tar.gz]
+[2024-04-02 00:20:21] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
+[2024-04-02 00:20:21] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
+[2024-04-02 00:20:21] INFO root fetch - main [MainThread]: Store serial: [22576583]
