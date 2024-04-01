@@ -250,3 +250,12 @@
 [2024-04-02 00:13:47] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
 [2024-04-02 00:13:47] INFO root fetch - main [MainThread]: End processing [modal]: success
 [2024-04-02 00:13:47] INFO root fetch - main [MainThread]: Store serial: [22576563]
+[2024-04-02 00:15:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576563]
+[2024-04-02 00:15:56] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deadline-cloud-for-maya
+[2024-04-02 00:15:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline-cloud-for-nuke
+[2024-04-02 00:15:56] WARNING root fetch - processPackages [deadline-cloud-for-maya]: Skipping, unable to determine old version
+[2024-04-02 00:15:56] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-maya] error
+[2024-04-02 00:15:56] WARNING root fetch - processPackages [deadline-cloud-for-nuke]: Skipping, unable to determine old version
+[2024-04-02 00:15:56] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-nuke] error
+[2024-04-02 00:15:56] INFO root fetch - main [MainThread]: Store serial: [22576574]
