@@ -369,3 +369,60 @@
 [2024-04-02 00:22:32] INFO root fetch - processPackages [jaraco.postgres]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.postgres-5.2.0.tar.gz]
 [2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [jaraco.postgres]: success
 [2024-04-02 00:22:32] INFO root fetch - main [MainThread]: Store serial: [22576613]
+[2024-04-02 00:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576613]
+[2024-04-02 00:24:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vios
+[2024-04-02 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tmnt
+[2024-04-02 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: biofile
+[2024-04-02 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mDeepFRI
+[2024-04-02 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-04-02 00:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: karaoke-prep
+[2024-04-02 00:24:41] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 00:24:41] INFO root fetch - processPackages [mDeepFRI]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-02 00:24:41] INFO root fetch - processPackages [biofile]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-02 00:24:41] INFO root fetch - processPackages [vios]: New version: [2.2.4] Old Version: [2.2.3]
+[2024-04-02 00:24:41] INFO root fetch - processPackages [karaoke-prep]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-02 00:24:41] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47]
+[2024-04-02 00:24:41] INFO root fetch - processPackages [biofile]: Downloading https://files.pythonhosted.org/packages/f8/e3/815faf6e8a33649121beb114772795edca50968d5c72fa7760b569c2dd48/biofile-0.0.9.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [mDeepFRI]: Downloading https://files.pythonhosted.org/packages/b5/f9/4944de197721300aa76cb9c367978c3f5f483e58aad758dcdfadb838994d/mDeepFRI-1.1.4.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/2e/1e/7da3842d90540225f9d4f63857194ef30f43e94955477ecbec971d6e51fa/tmnt-0.7.47.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/11/4c/c301a55872481c14ac14804ce67a0ec89cc5b277fb17e675b6e41945416f/vios-2.2.3-py3-none-any.whl
+[2024-04-02 00:24:41] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [karaoke-prep]: Downloading https://files.pythonhosted.org/packages/72/74/31aa5bddbef22cd2a724315011133fc5f897034b78666de67b16e1994679/karaoke_prep-0.9.1.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 00:24:41] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 00:24:41] INFO root fetch - processPackages [mDeepFRI]: Downloading https://files.pythonhosted.org/packages/83/c8/e642c62efce2b4bbc8e06aaa9f7f70bcdc416c5585c8ec98f8fc83057a80/mDeepFRI-1.1.5.tar.gz
+[2024-04-02 00:24:41] INFO root fetch - processPackages [vios]: Downloading https://files.pythonhosted.org/packages/2d/fd/3839864d6d08b7bba0a51b46aca6751e8f9e6da3a6e2297c48b982a5c3b3/vios-2.2.4-py3-none-any.whl
+[2024-04-02 00:24:41] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-02 00:24:42] INFO root fetch - processPackages [biofile]: Downloading https://files.pythonhosted.org/packages/c9/b6/fc83ab385e97ca08f0ff4cd3aa3fcf682401fe620989a8f974dbc9a69ee5/biofile-0.1.0.tar.gz
+[2024-04-02 00:24:42] INFO root fetch - processPackages [mDeepFRI]: executing diffoscope
+[2024-04-02 00:24:42] INFO root fetch - processPackages [mDeepFRI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mDeepFRI-1.1.4.tar.gz tmp/mDeepFRI-1.1.5.tar.gz --markdown 20240402/m/mDeepFRI/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-02 00:24:42] INFO root fetch - processPackages [karaoke-prep]: Downloading https://files.pythonhosted.org/packages/02/21/44976d771d5bf0dd54797a5686ae74c8ce75c405d10196f4c62e513d1cb1/karaoke_prep-0.9.2.tar.gz
+[2024-04-02 00:24:42] INFO root fetch - processPackages [vios]: executing diffoscope
+[2024-04-02 00:24:42] INFO root fetch - processPackages [vios]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vios-2.2.3-py3-none-any.whl.zip tmp/vios-2.2.4-py3-none-any.whl.zip --markdown 20240402/v/vios/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2024-04-02 00:24:42] INFO root fetch - processPackages [biofile]: executing diffoscope
+[2024-04-02 00:24:42] INFO root fetch - processPackages [biofile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biofile-0.0.9.tar.gz tmp/biofile-0.1.0.tar.gz --markdown 20240402/b/biofile/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 00:24:42] INFO root fetch - processPackages [karaoke-prep]: executing diffoscope
+[2024-04-02 00:24:42] INFO root fetch - processPackages [karaoke-prep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/karaoke_prep-0.9.1.tar.gz tmp/karaoke_prep-0.9.2.tar.gz --markdown 20240402/k/karaoke-prep/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-02 00:24:42] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-02 00:24:42] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240402/t/tmnt/0.7.47-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-02 00:24:42] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 00:24:42] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.3-py3-none-any.whl.zip]
+[2024-04-02 00:24:42] INFO root fetch - processPackages [vios]: Remove: archive file [/home/abi/fetcher/tmp/vios-2.2.4-py3-none-any.whl.zip]
+[2024-04-02 00:24:42] INFO root fetch - main [MainThread]: End processing [vios]: success
+[2024-04-02 00:24:42] INFO root fetch - processPackages [biofile]: Remove: archive file [/home/abi/fetcher/tmp/biofile-0.0.9.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - processPackages [biofile]: Remove: archive file [/home/abi/fetcher/tmp/biofile-0.1.0.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - main [MainThread]: End processing [biofile]: success
+[2024-04-02 00:24:42] INFO root fetch - processPackages [mDeepFRI]: Remove: archive file [/home/abi/fetcher/tmp/mDeepFRI-1.1.4.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - processPackages [mDeepFRI]: Remove: archive file [/home/abi/fetcher/tmp/mDeepFRI-1.1.5.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - main [MainThread]: End processing [mDeepFRI]: success
+[2024-04-02 00:24:42] INFO root fetch - processPackages [karaoke-prep]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_prep-0.9.1.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - processPackages [karaoke-prep]: Remove: archive file [/home/abi/fetcher/tmp/karaoke_prep-0.9.2.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - main [MainThread]: End processing [karaoke-prep]: success
+[2024-04-02 00:24:42] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47.tar.gz]
+[2024-04-02 00:24:42] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-02 00:24:43] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-02 00:24:43] INFO root fetch - main [MainThread]: Store serial: [22576639]
