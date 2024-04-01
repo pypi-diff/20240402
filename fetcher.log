@@ -1535,3 +1535,54 @@
 [2024-04-02 01:29:32] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.90.tar.gz]
 [2024-04-02 01:29:32] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
 [2024-04-02 01:29:32] INFO root fetch - main [MainThread]: Store serial: [22577181]
+[2024-04-02 01:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577181]
+[2024-04-02 01:31:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cgg
+[2024-04-02 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pycracks
+[2024-04-02 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: repid
+[2024-04-02 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-04-02 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langflow-base
+[2024-04-02 01:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openai
+[2024-04-02 01:31:41] WARNING root fetch - processPackages [langflow-base]: Skipping, unable to determine old version
+[2024-04-02 01:31:41] INFO root fetch - main [MainThread]: End processing [langflow-base] error
+[2024-04-02 01:31:41] INFO root fetch - processPackages [pycracks]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 01:31:41] INFO root fetch - processPackages [cgg]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 01:31:41] INFO root fetch - processPackages [repid]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-02 01:31:41] INFO root fetch - processPackages [openai]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-02 01:31:41] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.35] Old Version: [0.4.34]
+[2024-04-02 01:31:41] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/b5/de/e4fada90532cc814c42e0ea556183b8bd5780d4a2deab49c69a02fceb711/MobileInventoryCLI-0.4.34.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [pycracks]: Downloading https://files.pythonhosted.org/packages/a7/9c/ea7ad7072ec5d8f751a34f5c6d1ff7a13f0a1637e9392c676b6e85737afb/pycracks-0.8.0.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/9a/25/578115b5b9cf35478ce098a8242ed82741e56b3452ebc171f7dc7b77c433/openai-1.8.0.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [cgg]: Downloading https://files.pythonhosted.org/packages/4b/fd/3a6f5fdd9eb8e814ccd1da147c9366e1102b3a50f79bc4716d5c391c0adb/cgg-0.2.4.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/67/f2/74da605729ea28afb1dac1aaa0e398b037156ee9509f275dcbddfe207b9b/repid-1.5.2.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/b4/cc/8e3abe9bb16e7ff1c69ecd90c876a684df8ce5c07139838d5b62bf0e6e17/MobileInventoryCLI-0.4.35.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-02 01:31:41] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.34.tar.gz tmp/MobileInventoryCLI-0.4.35.tar.gz --markdown 20240402/M/MobileInventoryCLI/0.4.34-0.4.35/diff.md --exclude *.pyd
+[2024-04-02 01:31:41] INFO root fetch - processPackages [cgg]: Downloading https://files.pythonhosted.org/packages/bf/e9/dfe4a26ee4f70e4c407efe312e88f8a494544b979ad08a1a5938b578993a/cgg-0.2.5.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [pycracks]: Downloading https://files.pythonhosted.org/packages/54/cb/a0e97754d1e25e09bab35f6ceb65af33d854a4536f4700a0466d5cf7e611/pycracks-0.9.0.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [openai]: Downloading https://files.pythonhosted.org/packages/98/0d/d97f8c264ba77978754751a83e5e27a7783a5389b8f18da384f616a43bb8/openai-1.9.0.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [repid]: Downloading https://files.pythonhosted.org/packages/2b/4e/f053c4b0d85292cc4babe479966c1b8c9a56b715d8b2ef0ef114a3fbedea/repid-1.5.3.tar.gz
+[2024-04-02 01:31:41] INFO root fetch - processPackages [cgg]: executing diffoscope
+[2024-04-02 01:31:41] INFO root fetch - processPackages [cgg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgg-0.2.4.tar.gz tmp/cgg-0.2.5.tar.gz --markdown 20240402/c/cgg/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 01:31:41] INFO root fetch - processPackages [pycracks]: executing diffoscope
+[2024-04-02 01:31:41] INFO root fetch - processPackages [pycracks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycracks-0.8.0.tar.gz tmp/pycracks-0.9.0.tar.gz --markdown 20240402/p/pycracks/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 01:31:41] INFO root fetch - processPackages [openai]: executing diffoscope
+[2024-04-02 01:31:41] INFO root fetch - processPackages [openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-1.8.0.tar.gz tmp/openai-1.9.0.tar.gz --markdown 20240402/o/openai/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-02 01:31:41] INFO root fetch - processPackages [repid]: executing diffoscope
+[2024-04-02 01:31:41] INFO root fetch - processPackages [repid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/repid-1.5.2.tar.gz tmp/repid-1.5.3.tar.gz --markdown 20240402/r/repid/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2024-04-02 01:31:42] INFO root fetch - processPackages [pycracks]: Remove: archive file [/home/abi/fetcher/tmp/pycracks-0.8.0.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - processPackages [pycracks]: Remove: archive file [/home/abi/fetcher/tmp/pycracks-0.9.0.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - main [MainThread]: End processing [pycracks]: success
+[2024-04-02 01:31:42] INFO root fetch - processPackages [cgg]: Remove: archive file [/home/abi/fetcher/tmp/cgg-0.2.4.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - processPackages [cgg]: Remove: archive file [/home/abi/fetcher/tmp/cgg-0.2.5.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - main [MainThread]: End processing [cgg]: success
+[2024-04-02 01:31:42] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.34.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.35.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-02 01:31:42] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.5.2.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - processPackages [repid]: Remove: archive file [/home/abi/fetcher/tmp/repid-1.5.3.tar.gz]
+[2024-04-02 01:31:42] INFO root fetch - main [MainThread]: End processing [repid]: success
+[2024-04-02 01:31:43] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.8.0.tar.gz]
+[2024-04-02 01:31:43] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
+[2024-04-02 01:31:43] INFO root fetch - main [MainThread]: End processing [openai]: success
+[2024-04-02 01:31:43] INFO root fetch - main [MainThread]: Store serial: [22577199]
