@@ -73,3 +73,63 @@
 [2024-04-02 00:02:37] INFO root fetch - processPackages [dbt-timescaledb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_timescaledb-1.8.0a4.tar.gz]
 [2024-04-02 00:02:37] INFO root fetch - main [MainThread]: End processing [dbt-timescaledb]: success
 [2024-04-02 00:02:37] INFO root fetch - main [MainThread]: Store serial: [22576389]
+[2024-04-02 00:04:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576389]
+[2024-04-02 00:04:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bitmat-tl
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pointers.py
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usearch
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: c2cciutils
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c2cciutils
+[2024-04-02 00:04:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cciutils
+[2024-04-02 00:04:47] INFO root fetch - processPackages [bitmat-tl]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/a8/61/9e61d57c17203c9b583ccca5d29b6c3dc7e342638af3ae8ebf48042df5bb/bitmat-tl-0.1.6.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [pointers.py]: New version: [3.0.1] Old Version: [2.4.0]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [pointers.py]: Downloading https://files.pythonhosted.org/packages/09/98/0fb8df69813d57e2400f5954a147dbbaa6072d35d10afe4660b3c15a9da3/pointers.py-2.4.0-cp37-cp37m-win_amd64.whl
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [bitmat-tl]: Downloading https://files.pythonhosted.org/packages/f9/c8/b3ddd67a1d7d6a105ca55c97ae674a2d5fedd3880c69baec7e0551e4f378/bitmat-tl-0.1.7.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240402/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 00:04:47] INFO root fetch - processPackages [bitmat-tl]: executing diffoscope
+[2024-04-02 00:04:47] INFO root fetch - processPackages [bitmat-tl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmat-tl-0.1.6.tar.gz tmp/bitmat-tl-0.1.7.tar.gz --markdown 20240402/b/bitmat-tl/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240402/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 00:04:47] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240402/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-02 00:04:47] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240402/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 00:04:47] INFO root fetch - processPackages [pointers.py]: Downloading https://files.pythonhosted.org/packages/36/e4/4f43aba887946c140fdbaa969d224bace2e23c9d74da4154bbea88e39c5b/pointers.py-3.0.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2024-04-02 00:04:47] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-02 00:04:48] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-02 00:04:48] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-02 00:04:48] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-02 00:04:48] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:04:48] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-02 00:04:48] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240402/u/usearch/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-02 00:04:48] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.1.6.tar.gz]
+[2024-04-02 00:04:48] INFO root fetch - processPackages [bitmat-tl]: Remove: archive file [/home/abi/fetcher/tmp/bitmat-tl-0.1.7.tar.gz]
+[2024-04-02 00:04:48] INFO root fetch - main [MainThread]: End processing [bitmat-tl]: success
+[2024-04-02 00:04:48] INFO root fetch - processPackages [pointers.py]: executing diffoscope
+[2024-04-02 00:04:48] INFO root fetch - processPackages [pointers.py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pointers.py-2.4.0-cp37-cp37m-win_amd64.whl.zip tmp/pointers.py-3.0.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20240402/p/pointers.py/2.4.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-02 00:04:48] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:04:48] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:04:48] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:04:49] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 00:04:49] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 00:04:49] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-02 00:04:49] INFO root fetch - processPackages [pointers.py]: Remove: archive file [/home/abi/fetcher/tmp/pointers.py-2.4.0-cp37-cp37m-win_amd64.whl.zip]
+[2024-04-02 00:04:49] INFO root fetch - processPackages [pointers.py]: Remove: archive file [/home/abi/fetcher/tmp/pointers.py-3.0.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2024-04-02 00:04:49] INFO root fetch - main [MainThread]: End processing [pointers.py]: success
+[2024-04-02 00:04:49] INFO root fetch - main [MainThread]: Store serial: [22576466]
