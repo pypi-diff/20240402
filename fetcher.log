@@ -741,3 +741,65 @@
 [2024-04-02 00:42:45] INFO root fetch - processPackages [fused]: Remove: archive file [/home/abi/fetcher/tmp/fused-1.5.1.tar.gz]
 [2024-04-02 00:42:45] INFO root fetch - main [MainThread]: End processing [fused]: success
 [2024-04-02 00:42:45] INFO root fetch - main [MainThread]: Store serial: [22576806]
+[2024-04-02 00:44:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576806]
+[2024-04-02 00:44:55] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsl
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adafruit-circuitpython-requests
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-fedit
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: affixapi
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mat3ra-api-examples
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mbari-pbp
+[2024-04-02 00:44:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cloudparing.aws-cdk
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mbari-pbp]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [affixapi]: New version: [1.1.47] Old Version: [1.1.46]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [cloudparing.aws-cdk]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mat3ra-api-examples]: New version: [2024.4.1.post0] Old Version: [2024.3.30.post3]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/cf/29/ff20d8314376f876aa3a6579740fad1181c084a7d4b03a4ac89e27e35ba7/mbari_pbp-0.3.0b8.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [parsl]: New version: [2024.4.1] Old Version: [2024.3.4]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/83/1c/2e79483c41266f3631d11326c795b38dc6ec002c887b4e2596b13642cc10/affixapi-1.1.46.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/54/bd/01bc46a07d557b7be2a276d1e2059f1836cd19a13d922577c9102a9f50bf/wagtail_fedit-1.0.0.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [adafruit-circuitpython-requests]: New version: [3.2.3] Old Version: [3.2.2]
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mbari-pbp]: Downloading https://files.pythonhosted.org/packages/b4/9a/e36916a9b680f4d1b9465eadb829fcabefd7cc5f6ec46ae5d8c328600254/mbari_pbp-0.3.0b9.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [cloudparing.aws-cdk]: Downloading https://files.pythonhosted.org/packages/ec/34/9f432c748c7d32c8b10cacf86c1bf46d22c0f07928f8c964d52b8d6e19e0/cloudparing.aws-cdk-0.0.14.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/70/54/181042bbc8508b46e93d4a24c419b1d8fae64a1ef66def91465eff374b96/mat3ra-api-examples-2024.3.30.post3.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/4b/b5/05fa7cd3616bc077cc07890ef5b40a91534dd90913d553f9902543cb1abd/parsl-2024.3.4.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mbari-pbp]: executing diffoscope
+[2024-04-02 00:44:55] INFO root fetch - processPackages [mbari-pbp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbari_pbp-0.3.0b8.tar.gz tmp/mbari_pbp-0.3.0b9.tar.gz --markdown 20240402/m/mbari-pbp/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2024-04-02 00:44:55] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/1d/ec/b4b134fe77df5887cf15b4011ff206ccc7b13ca59fb8c0012421436685e8/adafruit-circuitpython-requests-3.2.2.tar.gz
+[2024-04-02 00:44:55] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/99/9d/c7d805e4ee3478ff7863588549b28f4f4e28a6fd8a72637387d9e2a032ef/affixapi-1.1.47.tar.gz
+[2024-04-02 00:44:56] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/60/7f/2aa28865c731d879de8a29d763229975a2300587ad41995908a0ee55b78d/wagtail_fedit-1.0.1.tar.gz
+[2024-04-02 00:44:56] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-04-02 00:44:56] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.46.tar.gz tmp/affixapi-1.1.47.tar.gz --markdown 20240402/a/affixapi/1.1.46-1.1.47/diff.md --exclude *.pyd
+[2024-04-02 00:44:56] INFO root fetch - processPackages [mat3ra-api-examples]: Downloading https://files.pythonhosted.org/packages/3f/5d/28093760aea798a0ad837f51ad5def28fbc2cdf0446bc78638b2ddf5cfae/mat3ra-api-examples-2024.4.1.post0.tar.gz
+[2024-04-02 00:44:56] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-02 00:44:56] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.0.0.tar.gz tmp/wagtail_fedit-1.0.1.tar.gz --markdown 20240402/w/wagtail-fedit/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 00:44:56] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Downloading https://files.pythonhosted.org/packages/95/7e/eb18d9c9dbdc01923dd522b519073e1e795ae5484081b0c1e95ee2b438da/adafruit-circuitpython-requests-3.2.3.tar.gz
+[2024-04-02 00:44:56] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/a0/4c/05dedc0d282922a0b074a0911f0a052bd2562ff4151446b6b73b85af56bc/parsl-2024.4.1.tar.gz
+[2024-04-02 00:44:56] INFO root fetch - processPackages [mat3ra-api-examples]: executing diffoscope
+[2024-04-02 00:44:56] INFO root fetch - processPackages [mat3ra-api-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mat3ra-api-examples-2024.3.30.post3.tar.gz tmp/mat3ra-api-examples-2024.4.1.post0.tar.gz --markdown 20240402/m/mat3ra-api-examples/2024.3.30.post3-2024.4.1.post0/diff.md --exclude *.pyd
+[2024-04-02 00:44:56] INFO root fetch - processPackages [adafruit-circuitpython-requests]: executing diffoscope
+[2024-04-02 00:44:56] INFO root fetch - processPackages [adafruit-circuitpython-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-requests-3.2.2.tar.gz tmp/adafruit-circuitpython-requests-3.2.3.tar.gz --markdown 20240402/a/adafruit-circuitpython-requests/3.2.2-3.2.3/diff.md --exclude *.pyd
+[2024-04-02 00:44:56] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2024-04-02 00:44:56] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2024.3.4.tar.gz tmp/parsl-2024.4.1.tar.gz --markdown 20240402/p/parsl/2024.3.4-2024.4.1/diff.md --exclude *.pyd
+[2024-04-02 00:44:56] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b8.tar.gz]
+[2024-04-02 00:44:56] INFO root fetch - processPackages [mbari-pbp]: Remove: archive file [/home/abi/fetcher/tmp/mbari_pbp-0.3.0b9.tar.gz]
+[2024-04-02 00:44:56] INFO root fetch - main [MainThread]: End processing [mbari-pbp]: success
+[2024-04-02 00:44:56] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.0.0.tar.gz]
+[2024-04-02 00:44:56] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.0.1.tar.gz]
+[2024-04-02 00:44:56] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-02 00:44:57] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-3.2.2.tar.gz]
+[2024-04-02 00:44:57] INFO root fetch - processPackages [adafruit-circuitpython-requests]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-requests-3.2.3.tar.gz]
+[2024-04-02 00:44:57] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-requests]: success
+[2024-04-02 00:44:57] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-api-examples-2024.3.30.post3.tar.gz]
+[2024-04-02 00:44:57] INFO root fetch - processPackages [mat3ra-api-examples]: Remove: archive file [/home/abi/fetcher/tmp/mat3ra-api-examples-2024.4.1.post0.tar.gz]
+[2024-04-02 00:44:57] INFO root fetch - main [MainThread]: End processing [mat3ra-api-examples]: success
+[2024-04-02 00:44:57] WARNING root fetch - processPackages [cloudparing.aws-cdk]: Skipping package: exceeds size limit 16467129>=10485760
+[2024-04-02 00:44:57] INFO root fetch - main [MainThread]: End processing [cloudparing.aws-cdk] error
+[2024-04-02 00:44:57] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.46.tar.gz]
+[2024-04-02 00:44:57] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.47.tar.gz]
+[2024-04-02 00:44:57] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-04-02 00:44:58] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.3.4.tar.gz]
+[2024-04-02 00:44:58] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.1.tar.gz]
+[2024-04-02 00:44:58] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2024-04-02 00:44:58] INFO root fetch - main [MainThread]: Store serial: [22576832]
