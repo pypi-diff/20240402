@@ -1434,3 +1434,83 @@
 [2024-04-02 01:25:05] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip]
 [2024-04-02 01:25:05] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
 [2024-04-02 01:25:05] INFO root fetch - main [MainThread]: Store serial: [22577144]
+[2024-04-02 01:27:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577144]
+[2024-04-02 01:27:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cirq-rigetti
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cirq-web
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cirq-pasqal
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-ionq
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cirq-core
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq-aqt
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: certora-cli-alpha-master
+[2024-04-02 01:27:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipen-args
+[2024-04-02 01:27:14] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240401.9.41.243436] Old Version: [20240401.9.11.953054]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-ionq]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/d9/db/ff9327d4ecf035b6275ff087f162f4488858ef51ed42a7ac77b3267d51b6/certora-cli-alpha-master-20240401.9.11.953054.tar.gz
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [pipen-args]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-web]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-aqt]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14465524>=10485760
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-core]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/6f/ea/96951479f75e812b7454a8324fcde701b914872c86e0fbba565556664daf/cirq_ionq-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/0a/43/1e0fd0bd1ae33d208d991021326aa1ff1b3ec8e41521d40dbb83b0400e3c/cirq_rigetti-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/bc/98/c19ed462010e382c2a8b78873ec82c7b8a89cc9f2f4c819c3ca5d764fcea/pipen_args-0.9.8.tar.gz
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/96/81/b7640f65791d773a23fd72ce10ad8b7b3d7fe6a4c515d2796cb864fa1b97/cirq_web-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/fe/13/801a16dadaa9aa235f3ea895389a52d507d6a68476a0d7ce7f1734bcba2e/cirq_pasqal-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/4f/58/60799ebfeda0078871a558341d2998f485aad6b717a49f9eca0fde8fa763/cirq_aqt-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/29/0f/dd876713a4f44c53543073c1a74ca14b7e224289665d891f4fd38883d3d1/cirq_core-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/4f/d6/f0325c4bf1ae1dd55e717fa6596e58c977d9d39fbf0316781a7e2dd10331/cirq-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/33/c4/0981613d0ce9ef36780b4f289a0a5624fa26b79cd27bace0f1f0939f8986/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/56/cc/24cd2661b051f53b908d340672cd47ab8794f021fd99fed3306796117089/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:14] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/75/d0/706bb404be4face9f29037aae700071958a852d7d48855ee0d1f7e509d43/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:15] INFO root fetch - processPackages [pipen-args]: Downloading https://files.pythonhosted.org/packages/7d/c7/c59d3e8b1e0e76f8a3b2d312da8f37c080b3c0f5b584e0e5baa9955ebdc7/pipen_args-0.9.9.tar.gz
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/28/50/a50f357bcc734fe9274e28034558a40eeaa80b7f41daff30268427b8f62c/cirq-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/63/52/9c935718e4b29aec07a97f563522adf9a2bac50999fb45c34ee20e08a738/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-rigetti/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-ionq/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-pasqal/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/01/8f/d89096f052f7e40d6d7c86c6c5c3f9ee2d7481242fbde2ae2aa3603e57e4/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/dc/8e/99f617110713c328e8da02d40b383ab175a3ca3314b9e66e2ec953584b41/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:27:15] INFO root fetch - processPackages [pipen-args]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [pipen-args]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipen_args-0.9.8.tar.gz tmp/pipen_args-0.9.9.tar.gz --markdown 20240402/p/pipen-args/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-web/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-aqt/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2024-04-02 01:27:15] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-core/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2024-04-02 01:27:16] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.8.tar.gz]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [pipen-args]: Remove: archive file [/home/abi/fetcher/tmp/pipen_args-0.9.9.tar.gz]
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [pipen-args]: success
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:16] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2024-04-02 01:27:19] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:27:19] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:27:19] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2024-04-02 01:27:19] INFO root fetch - main [MainThread]: Store serial: [22577176]
