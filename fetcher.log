@@ -1586,3 +1586,24 @@
 [2024-04-02 01:31:43] INFO root fetch - processPackages [openai]: Remove: archive file [/home/abi/fetcher/tmp/openai-1.9.0.tar.gz]
 [2024-04-02 01:31:43] INFO root fetch - main [MainThread]: End processing [openai]: success
 [2024-04-02 01:31:43] INFO root fetch - main [MainThread]: Store serial: [22577199]
+[2024-04-02 01:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577199]
+[2024-04-02 01:33:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: heaobject
+[2024-04-02 01:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pureml-policy
+[2024-04-02 01:33:53] INFO root fetch - processPackages [pureml-policy]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 01:33:53] INFO root fetch - processPackages [heaobject]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-02 01:33:53] INFO root fetch - processPackages [pureml-policy]: Downloading https://files.pythonhosted.org/packages/38/c9/2b71086d3f6df25a44d69a0dbbd26e5b04c29a0bea7331744db1dcd4cef0/pureml_policy-0.2.3.tar.gz
+[2024-04-02 01:33:53] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/2b/2f/01db89e4869c00e87a6529636aa7b8b4c60620e8e3261fe0763348b23cf6/heaobject-1.1.0.tar.gz
+[2024-04-02 01:33:53] INFO root fetch - processPackages [pureml-policy]: Downloading https://files.pythonhosted.org/packages/f4/d8/4a994ce5c992eb9b2e432e8cd5c891b60fe0e548e6a2de336433b8305f95/pureml_policy-0.2.4.tar.gz
+[2024-04-02 01:33:53] INFO root fetch - processPackages [heaobject]: Downloading https://files.pythonhosted.org/packages/e5/32/5cca90c1c0ce80e3a322ab943db68ede9ab6cbaa10f0b361e156a24daef4/heaobject-1.1.1.tar.gz
+[2024-04-02 01:33:53] INFO root fetch - processPackages [pureml-policy]: executing diffoscope
+[2024-04-02 01:33:53] INFO root fetch - processPackages [pureml-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pureml_policy-0.2.3.tar.gz tmp/pureml_policy-0.2.4.tar.gz --markdown 20240402/p/pureml-policy/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 01:33:53] INFO root fetch - processPackages [heaobject]: executing diffoscope
+[2024-04-02 01:33:53] INFO root fetch - processPackages [heaobject]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaobject-1.1.0.tar.gz tmp/heaobject-1.1.1.tar.gz --markdown 20240402/h/heaobject/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-02 01:33:54] INFO root fetch - processPackages [pureml-policy]: Remove: archive file [/home/abi/fetcher/tmp/pureml_policy-0.2.3.tar.gz]
+[2024-04-02 01:33:54] INFO root fetch - processPackages [pureml-policy]: Remove: archive file [/home/abi/fetcher/tmp/pureml_policy-0.2.4.tar.gz]
+[2024-04-02 01:33:54] INFO root fetch - main [MainThread]: End processing [pureml-policy]: success
+[2024-04-02 01:33:54] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.1.0.tar.gz]
+[2024-04-02 01:33:54] INFO root fetch - processPackages [heaobject]: Remove: archive file [/home/abi/fetcher/tmp/heaobject-1.1.1.tar.gz]
+[2024-04-02 01:33:54] INFO root fetch - main [MainThread]: End processing [heaobject]: success
+[2024-04-02 01:33:54] INFO root fetch - main [MainThread]: Store serial: [22577205]
