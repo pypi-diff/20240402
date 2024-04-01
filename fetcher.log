@@ -1723,3 +1723,42 @@
 [2024-04-02 01:42:38] INFO root fetch - processPackages [gapper]: Remove: archive file [/home/abi/fetcher/tmp/gapper-1.3.6.tar.gz]
 [2024-04-02 01:42:38] INFO root fetch - main [MainThread]: End processing [gapper]: success
 [2024-04-02 01:42:38] INFO root fetch - main [MainThread]: Store serial: [22577242]
+[2024-04-02 01:44:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577242]
+[2024-04-02 01:44:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bit-common
+[2024-04-02 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-cachify
+[2024-04-02 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: totp-auth
+[2024-04-02 01:44:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PyCatFile
+[2024-04-02 01:44:47] INFO root fetch - processPackages [totp-auth]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-02 01:44:47] INFO root fetch - processPackages [totp-auth]: Downloading https://files.pythonhosted.org/packages/b7/e6/55b3797857a9600f214774417a093f76894faa7f4c2ccdf1c03bb3e85ad1/totp_auth-1.1.8.tar.gz
+[2024-04-02 01:44:47] INFO root fetch - processPackages [bit-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 01:44:47] INFO root fetch - processPackages [py-cachify]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-02 01:44:47] INFO root fetch - processPackages [PyCatFile]: New version: [0.7.4] Old Version: [0.7.0]
+[2024-04-02 01:44:47] INFO root fetch - processPackages [totp-auth]: Downloading https://files.pythonhosted.org/packages/dd/8a/bed747dcc3c1ccacc402afdc8d98320988c3333593fc432f8b1393b0cf14/totp_auth-1.1.9.tar.gz
+[2024-04-02 01:44:47] INFO root fetch - processPackages [py-cachify]: Downloading https://files.pythonhosted.org/packages/4f/96/8f4953bf5c33cbe7d0a1d38aac2c7fd06571cf21c9cc9d97249d864277de/py_cachify-1.0.6.tar.gz
+[2024-04-02 01:44:47] INFO root fetch - processPackages [bit-common]: Downloading https://files.pythonhosted.org/packages/54/e4/57ea11fa3eaec8660f961bffaa493757168803250b833d5b9b03fea516fb/bit_common-0.1.8.tar.gz
+[2024-04-02 01:44:47] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/5a/71/7761e0c15551408c7a3900d2899c5aef75afd3d53b917602c82d3d37bf70/PyCatFile-0.7.0.tar.gz
+[2024-04-02 01:44:48] INFO root fetch - processPackages [totp-auth]: executing diffoscope
+[2024-04-02 01:44:48] INFO root fetch - processPackages [totp-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totp_auth-1.1.8.tar.gz tmp/totp_auth-1.1.9.tar.gz --markdown 20240402/t/totp-auth/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-02 01:44:48] INFO root fetch - processPackages [py-cachify]: Downloading https://files.pythonhosted.org/packages/4f/c2/dc42907b234a5cdeed6bb0040e94249c5408f097673816ec9e6d6e2707bc/py_cachify-1.0.7.tar.gz
+[2024-04-02 01:44:48] INFO root fetch - processPackages [PyCatFile]: Downloading https://files.pythonhosted.org/packages/03/92/1ab6f873385319cfc909494c41ffa4895e4244af2f62544e95325b1e393a/PyCatFile-0.7.4.tar.gz
+[2024-04-02 01:44:48] INFO root fetch - processPackages [bit-common]: Downloading https://files.pythonhosted.org/packages/20/26/ff5058dbf5ad161261b8c5b854cbcc2e984f9aecbcbc557838112a647fa3/bit_common-0.1.9.tar.gz
+[2024-04-02 01:44:48] INFO root fetch - processPackages [py-cachify]: executing diffoscope
+[2024-04-02 01:44:48] INFO root fetch - processPackages [py-cachify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_cachify-1.0.6.tar.gz tmp/py_cachify-1.0.7.tar.gz --markdown 20240402/p/py-cachify/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-02 01:44:48] INFO root fetch - processPackages [bit-common]: executing diffoscope
+[2024-04-02 01:44:48] INFO root fetch - processPackages [bit-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bit_common-0.1.8.tar.gz tmp/bit_common-0.1.9.tar.gz --markdown 20240402/b/bit-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 01:44:48] INFO root fetch - processPackages [PyCatFile]: executing diffoscope
+[2024-04-02 01:44:48] INFO root fetch - processPackages [PyCatFile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyCatFile-0.7.0.tar.gz tmp/PyCatFile-0.7.4.tar.gz --markdown 20240402/P/PyCatFile/0.7.0-0.7.4/diff.md --exclude *.pyd
+[2024-04-02 01:44:48] INFO root fetch - processPackages [totp-auth]: Remove: archive file [/home/abi/fetcher/tmp/totp_auth-1.1.8.tar.gz]
+[2024-04-02 01:44:48] INFO root fetch - processPackages [totp-auth]: Remove: archive file [/home/abi/fetcher/tmp/totp_auth-1.1.9.tar.gz]
+[2024-04-02 01:44:48] INFO root fetch - main [MainThread]: End processing [totp-auth]: success
+[2024-04-02 01:44:48] INFO root fetch - processPackages [bit-common]: Remove: archive file [/home/abi/fetcher/tmp/bit_common-0.1.8.tar.gz]
+[2024-04-02 01:44:48] INFO root fetch - processPackages [bit-common]: Remove: archive file [/home/abi/fetcher/tmp/bit_common-0.1.9.tar.gz]
+[2024-04-02 01:44:48] INFO root fetch - main [MainThread]: End processing [bit-common]: success
+[2024-04-02 01:44:49] INFO root fetch - processPackages [py-cachify]: Remove: archive file [/home/abi/fetcher/tmp/py_cachify-1.0.6.tar.gz]
+[2024-04-02 01:44:49] INFO root fetch - processPackages [py-cachify]: Remove: archive file [/home/abi/fetcher/tmp/py_cachify-1.0.7.tar.gz]
+[2024-04-02 01:44:49] INFO root fetch - main [MainThread]: End processing [py-cachify]: success
+[2024-04-02 01:44:49] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/PyCatFile-0.7.0.tar.gz]
+[2024-04-02 01:44:49] INFO root fetch - processPackages [PyCatFile]: Remove: archive file [/home/abi/fetcher/tmp/PyCatFile-0.7.4.tar.gz]
+[2024-04-02 01:44:49] INFO root fetch - main [MainThread]: End processing [PyCatFile]: success
+[2024-04-02 01:44:49] INFO root fetch - main [MainThread]: Store serial: [22577254]
