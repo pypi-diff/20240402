@@ -301,3 +301,71 @@
 [2024-04-02 00:20:21] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
 [2024-04-02 00:20:21] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
 [2024-04-02 00:20:21] INFO root fetch - main [MainThread]: Store serial: [22576583]
+[2024-04-02 00:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576583]
+[2024-04-02 00:22:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sjpy
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leadguru-jobs
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: td-pyspark
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: q2db
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: servir-aces
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gronckle
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nellie
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aic-tools
+[2024-04-02 00:22:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaraco.postgres
+[2024-04-02 00:22:31] INFO root fetch - processPackages [servir-aces]: New version: [0.0.5] Old Version: [0.0.1]
+[2024-04-02 00:22:31] INFO root fetch - processPackages [nellie]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-02 00:22:31] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 00:22:31] WARNING root fetch - processPackages [aic-tools]: Skipping, unable to determine old version
+[2024-04-02 00:22:31] WARNING root fetch - processPackages [sjpy]: Skipping, unable to determine old version
+[2024-04-02 00:22:31] INFO root fetch - main [MainThread]: End processing [aic-tools] error
+[2024-04-02 00:22:31] INFO root fetch - main [MainThread]: End processing [sjpy] error
+[2024-04-02 00:22:31] INFO root fetch - processPackages [td-pyspark]: New version: [24.2.0] Old Version: [23.5.0]
+[2024-04-02 00:22:31] INFO root fetch - processPackages [gronckle]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 00:22:31] INFO root fetch - processPackages [nellie]: Downloading https://files.pythonhosted.org/packages/0f/d8/60eb3ee9eb588399ffef3c95e4f19f63f7e09c15c20f39658f082f756e3c/nellie-0.1.3.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [q2db]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 00:22:31] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/07/fe/bdf3b3a76e961497435d79ebfbd2e72d42a608fd7486adc43ae8a5ce50b2/servir-aces-0.0.1.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [jaraco.postgres]: New version: [5.2.0] Old Version: [5.1.0]
+[2024-04-02 00:22:31] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [gronckle]: Downloading https://files.pythonhosted.org/packages/3f/77/51b54811e68e79e527023e92d34947cc82e984c6d5e601b956a75cbc0008/gronckle-0.0.2.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [servir-aces]: Downloading https://files.pythonhosted.org/packages/90/31/17ad87716c98dd0239d5cc18966569c7cc775d08fdb851ff7e8494d7539e/servir-aces-0.0.5.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [td-pyspark]: Downloading https://files.pythonhosted.org/packages/03/47/11ef159d4071f745f8f2c7e3e9b5eec72145efc1635bbb1ca5294b630b4f/td_pyspark-23.5.0.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/17/38/79b233e045a339bde6d7f5231ab1078cdf7c948755cd92294ac52862b3f8/q2db-0.1.8.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [jaraco.postgres]: Downloading https://files.pythonhosted.org/packages/ee/d1/5504d33707f0ac2c4a1306a18866a2fc7f80bb48db9308fcf7e6d428b0e2/jaraco.postgres-5.1.0.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [nellie]: Downloading https://files.pythonhosted.org/packages/1b/d2/19e81145d39d0908bdc719412cf92f99ed394b16ca0d9c0a22347eb7e78d/nellie-0.1.4.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [servir-aces]: executing diffoscope
+[2024-04-02 00:22:31] INFO root fetch - processPackages [servir-aces]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/servir-aces-0.0.1.tar.gz tmp/servir-aces-0.0.5.tar.gz --markdown 20240402/s/servir-aces/0.0.1-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 00:22:31] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 00:22:31] WARNING root fetch - processPackages [td-pyspark]: Skipping package: exceeds size limit 20999795>=10485760
+[2024-04-02 00:22:31] INFO root fetch - main [MainThread]: End processing [td-pyspark] error
+[2024-04-02 00:22:31] INFO root fetch - processPackages [nellie]: executing diffoscope
+[2024-04-02 00:22:31] INFO root fetch - processPackages [nellie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nellie-0.1.3.tar.gz tmp/nellie-0.1.4.tar.gz --markdown 20240402/n/nellie/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-02 00:22:31] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 00:22:31] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 00:22:31] INFO root fetch - processPackages [gronckle]: Downloading https://files.pythonhosted.org/packages/a3/ec/fcf82c0cbccc8d9f94299ac5ec7de9945be98c6bd4680e0bf2aaf834b178/gronckle-0.0.3.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [q2db]: Downloading https://files.pythonhosted.org/packages/5f/ad/9e4d5db2bcb37b0ac45071edbac7a5449963193849b9df003b9586649cf9/q2db-0.1.9.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [jaraco.postgres]: Downloading https://files.pythonhosted.org/packages/3f/d5/babe605daa9862c2f5bc527e4ccd11f93339235afb9c521b863c04d8928c/jaraco.postgres-5.2.0.tar.gz
+[2024-04-02 00:22:31] INFO root fetch - processPackages [gronckle]: executing diffoscope
+[2024-04-02 00:22:31] INFO root fetch - processPackages [gronckle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gronckle-0.0.2.tar.gz tmp/gronckle-0.0.3.tar.gz --markdown 20240402/g/gronckle/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 00:22:32] INFO root fetch - processPackages [q2db]: executing diffoscope
+[2024-04-02 00:22:32] INFO root fetch - processPackages [q2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2db-0.1.8.tar.gz tmp/q2db-0.1.9.tar.gz --markdown 20240402/q/q2db/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 00:22:32] INFO root fetch - processPackages [jaraco.postgres]: executing diffoscope
+[2024-04-02 00:22:32] INFO root fetch - processPackages [jaraco.postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.postgres-5.1.0.tar.gz tmp/jaraco.postgres-5.2.0.tar.gz --markdown 20240402/j/jaraco.postgres/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2024-04-02 00:22:32] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir-aces-0.0.1.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - processPackages [servir-aces]: Remove: archive file [/home/abi/fetcher/tmp/servir-aces-0.0.5.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [servir-aces]: success
+[2024-04-02 00:22:32] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 00:22:32] INFO root fetch - processPackages [nellie]: Remove: archive file [/home/abi/fetcher/tmp/nellie-0.1.3.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - processPackages [nellie]: Remove: archive file [/home/abi/fetcher/tmp/nellie-0.1.4.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [nellie]: success
+[2024-04-02 00:22:32] INFO root fetch - processPackages [gronckle]: Remove: archive file [/home/abi/fetcher/tmp/gronckle-0.0.2.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - processPackages [gronckle]: Remove: archive file [/home/abi/fetcher/tmp/gronckle-0.0.3.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [gronckle]: success
+[2024-04-02 00:22:32] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.8.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - processPackages [q2db]: Remove: archive file [/home/abi/fetcher/tmp/q2db-0.1.9.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [q2db]: success
+[2024-04-02 00:22:32] INFO root fetch - processPackages [jaraco.postgres]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.postgres-5.1.0.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - processPackages [jaraco.postgres]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.postgres-5.2.0.tar.gz]
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: End processing [jaraco.postgres]: success
+[2024-04-02 00:22:32] INFO root fetch - main [MainThread]: Store serial: [22576613]
