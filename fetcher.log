@@ -1972,3 +1972,12 @@
 [2024-04-02 01:55:41] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.1b0.tar.gz]
 [2024-04-02 01:55:41] INFO root fetch - main [MainThread]: End processing [rubpy]: success
 [2024-04-02 01:55:41] INFO root fetch - main [MainThread]: Store serial: [22577372]
+[2024-04-02 01:57:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577372]
+[2024-04-02 01:57:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 01:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bagelML
+[2024-04-02 01:57:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bagelML
+[2024-04-02 01:57:51] WARNING root fetch - processPackages [bagelML]: Skipping, unable to determine old version
+[2024-04-02 01:57:51] WARNING root fetch - processPackages [bagelML]: Skipping, unable to determine old version
+[2024-04-02 01:57:51] INFO root fetch - main [MainThread]: End processing [bagelML] error
+[2024-04-02 01:57:51] INFO root fetch - main [MainThread]: End processing [bagelML] error
+[2024-04-02 01:57:51] INFO root fetch - main [MainThread]: Store serial: [22577382]
