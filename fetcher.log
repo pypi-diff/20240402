@@ -199,3 +199,33 @@
 [2024-04-02 00:09:25] INFO root fetch - processPackages [plush-fabric]: Remove: archive file [/home/abi/fetcher/tmp/plush-fabric-0.5.9.tar.gz]
 [2024-04-02 00:09:25] INFO root fetch - main [MainThread]: End processing [plush-fabric]: success
 [2024-04-02 00:09:25] INFO root fetch - main [MainThread]: Store serial: [22576550]
+[2024-04-02 00:11:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576550]
+[2024-04-02 00:11:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 00:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: primal-page
+[2024-04-02 00:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zz-pix
+[2024-04-02 00:11:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hwi
+[2024-04-02 00:11:33] INFO root fetch - processPackages [zz-pix]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 00:11:33] INFO root fetch - processPackages [primal-page]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-02 00:11:33] INFO root fetch - processPackages [hwi]: New version: [3.0.0rc1] Old Version: [2.4.0rc1]
+[2024-04-02 00:11:33] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/cd/8f/e218ea99553f3490f4e9ea56edaf3750d5393a6b1cf5a96208c457115b7d/zz-pix-0.0.3.tar.gz
+[2024-04-02 00:11:33] INFO root fetch - processPackages [primal-page]: Downloading https://files.pythonhosted.org/packages/a3/82/faa3d7db9a82101003457c3ceba7b2c60727bb9a406641e96bfc954b6a4d/primal_page-1.5.0.tar.gz
+[2024-04-02 00:11:33] INFO root fetch - processPackages [hwi]: Downloading https://files.pythonhosted.org/packages/33/a8/bc6abea377ba1c9aa380735cfc4773e084125586f4cdce8bd4c6bebd845e/hwi-2.4.0rc1.tar.gz
+[2024-04-02 00:11:34] INFO root fetch - processPackages [primal-page]: Downloading https://files.pythonhosted.org/packages/c9/7f/ff892965241261213880d2236c22c07140d4bbc8794712de9b37f81d0dd5/primal_page-1.5.1.tar.gz
+[2024-04-02 00:11:34] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/11/e8/ab2595b1ae0cfa726fbc43663e736fa28d2ff354676c084b2189061acbb2/zz-pix-0.0.4.tar.gz
+[2024-04-02 00:11:34] INFO root fetch - processPackages [hwi]: Downloading https://files.pythonhosted.org/packages/76/a3/77141c3a52a37c855d80156d4354c33c18e9d704ff4890dfed3ed1b7b6a6/hwi-3.0.0rc1.tar.gz
+[2024-04-02 00:11:34] INFO root fetch - processPackages [primal-page]: executing diffoscope
+[2024-04-02 00:11:34] INFO root fetch - processPackages [primal-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primal_page-1.5.0.tar.gz tmp/primal_page-1.5.1.tar.gz --markdown 20240402/p/primal-page/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2024-04-02 00:11:34] INFO root fetch - processPackages [zz-pix]: executing diffoscope
+[2024-04-02 00:11:34] INFO root fetch - processPackages [zz-pix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zz-pix-0.0.3.tar.gz tmp/zz-pix-0.0.4.tar.gz --markdown 20240402/z/zz-pix/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 00:11:34] INFO root fetch - processPackages [hwi]: executing diffoscope
+[2024-04-02 00:11:34] INFO root fetch - processPackages [hwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hwi-2.4.0rc1.tar.gz tmp/hwi-3.0.0rc1.tar.gz --markdown 20240402/h/hwi/2.4.0rc1-3.0.0rc1/diff.md --exclude *.pyd
+[2024-04-02 00:11:34] INFO root fetch - processPackages [primal-page]: Remove: archive file [/home/abi/fetcher/tmp/primal_page-1.5.0.tar.gz]
+[2024-04-02 00:11:34] INFO root fetch - processPackages [primal-page]: Remove: archive file [/home/abi/fetcher/tmp/primal_page-1.5.1.tar.gz]
+[2024-04-02 00:11:34] INFO root fetch - main [MainThread]: End processing [primal-page]: success
+[2024-04-02 00:11:34] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.3.tar.gz]
+[2024-04-02 00:11:34] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.4.tar.gz]
+[2024-04-02 00:11:34] INFO root fetch - main [MainThread]: End processing [zz-pix]: success
+[2024-04-02 00:11:35] INFO root fetch - processPackages [hwi]: Remove: archive file [/home/abi/fetcher/tmp/hwi-2.4.0rc1.tar.gz]
+[2024-04-02 00:11:35] INFO root fetch - processPackages [hwi]: Remove: archive file [/home/abi/fetcher/tmp/hwi-3.0.0rc1.tar.gz]
+[2024-04-02 00:11:35] INFO root fetch - main [MainThread]: End processing [hwi]: success
+[2024-04-02 00:11:35] INFO root fetch - main [MainThread]: Store serial: [22576559]
