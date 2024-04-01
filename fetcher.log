@@ -980,3 +980,81 @@
 [2024-04-02 00:58:30] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.63.tar.gz]
 [2024-04-02 00:58:30] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
 [2024-04-02 00:58:30] INFO root fetch - main [MainThread]: Store serial: [22576953]
+[2024-04-02 01:00:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576953]
+[2024-04-02 01:00:38] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: papermage
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: betterspread
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: model-explorer
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reflex
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sajjad
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pulumi-aws
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: emailbob-twingate
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dansplotcore
+[2024-04-02 01:00:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: asyncprawcore-stubs
+[2024-04-02 01:00:39] INFO root fetch - processPackages [model-explorer]: New version: [0.0.64] Old Version: [0.0.63]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [dansplotcore]: New version: [6.0.1] Old Version: [6.0.0]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [betterspread]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [sajjad]: New version: [1.4] Old Version: [1.3]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [emailbob-twingate]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [reflex]: New version: [0.4.6a3] Old Version: [0.4.6a2]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [papermage]: New version: [0.19.0] Old Version: [0.18.0]
+[2024-04-02 01:00:39] WARNING root fetch - processPackages [asyncprawcore-stubs]: Skipping, unable to determine old version
+[2024-04-02 01:00:39] INFO root fetch - main [MainThread]: End processing [asyncprawcore-stubs] error
+[2024-04-02 01:00:39] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/cd/9b/a7111969b0ef2d6d32a01f029bfbaad1d0dd34a43b31ea86a798f1550612/model-explorer-0.0.63.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [betterspread]: Downloading https://files.pythonhosted.org/packages/b6/3e/4020ff4aa2f5c7bd40e1279878e13e87edd110af3f9bc35eea4cecb6661a/betterspread-0.1.9.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/50/3b/019371dfcf07816e2ac762c7eeb8ee89a8dfb1fbe9f47f6f1d1afd36c914/dansplotcore-6.0.0.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/1b/99/60b12eb5b98b5a2d585389cea60a93c56522ad39fc051c3c7d56b91bf229/sajjad-1.3.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/18/7e/a687c4e43fc45eff26972a197771eb8e92b254e0f58f3c4716278fe44500/emailbob_twingate-0.0.7.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/9a/30/dc546e1a8f5535c5e63b7963041d58ae7d703722b5abd869783eb52268f4/reflex-0.4.6a2.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-02 01:00:39] INFO root fetch - processPackages [papermage]: Downloading https://files.pythonhosted.org/packages/bc/42/27c1d4fe14aae51cee62f7fa1b3bcea52986bc3511a3af1a1c636700d4a2/papermage-0.18.0.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/19/03/5784ca2d8b22736f2b35364a2665ae8839940ca1823a9ab7bd8410177823/dansplotcore-6.0.1.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [betterspread]: Downloading https://files.pythonhosted.org/packages/1a/76/6348844b756d95cc09c1ccbb2747ecdb22d85d70f25b44fcc49d2b325f80/betterspread-0.2.0.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [reflex]: Downloading https://files.pythonhosted.org/packages/e1/95/74ff2d1d1ff5ec8d0969e0cf4b4176ef6af8ccb282acea992d40df23e91a/reflex-0.4.6a3.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/39/29/fec53ee1205d5b431db8ffecadc9fa27326ded3eac231ee82ebd92269d96/sajjad-1.4.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/07/8d/c311d8169e9a874b9001ea68d0070a70b1baa5e11917d0e7cb8f6e9bdb6a/emailbob_twingate-0.0.9.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [dansplotcore]: executing diffoscope
+[2024-04-02 01:00:39] INFO root fetch - processPackages [dansplotcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dansplotcore-6.0.0.tar.gz tmp/dansplotcore-6.0.1.tar.gz --markdown 20240402/d/dansplotcore/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2024-04-02 01:00:39] INFO root fetch - processPackages [betterspread]: executing diffoscope
+[2024-04-02 01:00:39] INFO root fetch - processPackages [betterspread]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betterspread-0.1.9.tar.gz tmp/betterspread-0.2.0.tar.gz --markdown 20240402/b/betterspread/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 01:00:39] INFO root fetch - processPackages [papermage]: Downloading https://files.pythonhosted.org/packages/70/56/09d79f9223c489053a0d7a5dd62aed26b0f03a561603a7c116c76b71be53/papermage-0.19.0.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/07/e7/abf65f1a418e81ef0dedea28ae2d4ed1d5d848dbaef405d6aed108ee1c8f/model-explorer-0.0.64.tar.gz
+[2024-04-02 01:00:39] INFO root fetch - processPackages [sajjad]: executing diffoscope
+[2024-04-02 01:00:39] INFO root fetch - processPackages [sajjad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sajjad-1.3.tar.gz tmp/sajjad-1.4.tar.gz --markdown 20240402/s/sajjad/1.3-1.4/diff.md --exclude *.pyd
+[2024-04-02 01:00:39] INFO root fetch - processPackages [reflex]: executing diffoscope
+[2024-04-02 01:00:39] INFO root fetch - processPackages [reflex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reflex-0.4.6a2.tar.gz tmp/reflex-0.4.6a3.tar.gz --markdown 20240402/r/reflex/0.4.6a2-0.4.6a3/diff.md --exclude *.pyd
+[2024-04-02 01:00:40] INFO root fetch - processPackages [emailbob-twingate]: executing diffoscope
+[2024-04-02 01:00:40] INFO root fetch - processPackages [emailbob-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailbob_twingate-0.0.7.tar.gz tmp/emailbob_twingate-0.0.9.tar.gz --markdown 20240402/e/emailbob-twingate/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 01:00:40] INFO root fetch - processPackages [papermage]: executing diffoscope
+[2024-04-02 01:00:40] INFO root fetch - processPackages [papermage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papermage-0.18.0.tar.gz tmp/papermage-0.19.0.tar.gz --markdown 20240402/p/papermage/0.18.0-0.19.0/diff.md --exclude *.pyd
+[2024-04-02 01:00:40] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-02 01:00:40] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.63.tar.gz tmp/model-explorer-0.0.64.tar.gz --markdown 20240402/m/model-explorer/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2024-04-02 01:00:40] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.3.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.4.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - main [MainThread]: End processing [sajjad]: success
+[2024-04-02 01:00:40] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.0.0.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.0.1.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - main [MainThread]: End processing [dansplotcore]: success
+[2024-04-02 01:00:40] INFO root fetch - processPackages [betterspread]: Remove: archive file [/home/abi/fetcher/tmp/betterspread-0.1.9.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - processPackages [betterspread]: Remove: archive file [/home/abi/fetcher/tmp/betterspread-0.2.0.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - main [MainThread]: End processing [betterspread]: success
+[2024-04-02 01:00:40] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.7.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.9.tar.gz]
+[2024-04-02 01:00:40] INFO root fetch - main [MainThread]: End processing [emailbob-twingate]: success
+[2024-04-02 01:00:41] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-02 01:00:41] INFO root fetch - processPackages [papermage]: Remove: archive file [/home/abi/fetcher/tmp/papermage-0.18.0.tar.gz]
+[2024-04-02 01:00:41] INFO root fetch - processPackages [papermage]: Remove: archive file [/home/abi/fetcher/tmp/papermage-0.19.0.tar.gz]
+[2024-04-02 01:00:41] INFO root fetch - main [MainThread]: End processing [papermage]: success
+[2024-04-02 01:00:41] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.63.tar.gz]
+[2024-04-02 01:00:41] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.64.tar.gz]
+[2024-04-02 01:00:41] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-02 01:00:42] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a2.tar.gz]
+[2024-04-02 01:00:42] INFO root fetch - processPackages [reflex]: Remove: archive file [/home/abi/fetcher/tmp/reflex-0.4.6a3.tar.gz]
+[2024-04-02 01:00:42] INFO root fetch - main [MainThread]: End processing [reflex]: success
+[2024-04-02 01:00:42] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-02 01:00:42] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240402/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/diff.md --exclude *.pyd
+[2024-04-02 01:00:58] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-02 01:00:58] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-02 01:00:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-02 01:00:58] INFO root fetch - main [MainThread]: Store serial: [22576976]
