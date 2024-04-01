@@ -705,3 +705,39 @@
 [2024-04-02 00:40:34] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.0rc6.tar.gz]
 [2024-04-02 00:40:34] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2024-04-02 00:40:34] INFO root fetch - main [MainThread]: Store serial: [22576764]
+[2024-04-02 00:42:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576764]
+[2024-04-02 00:42:43] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bertagent
+[2024-04-02 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: GenCasting
+[2024-04-02 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fused
+[2024-04-02 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deadline-cloud-for-houdini
+[2024-04-02 00:42:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aic-tools
+[2024-04-02 00:42:43] INFO root fetch - processPackages [fused]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-02 00:42:43] WARNING root fetch - processPackages [aic-tools]: Skipping, unable to determine old version
+[2024-04-02 00:42:43] INFO root fetch - main [MainThread]: End processing [aic-tools] error
+[2024-04-02 00:42:43] INFO root fetch - processPackages [GenCasting]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 00:42:43] INFO root fetch - processPackages [bertagent]: New version: [1.1.0] Old Version: [1.0.7]
+[2024-04-02 00:42:44] WARNING root fetch - processPackages [deadline-cloud-for-houdini]: Skipping, unable to determine old version
+[2024-04-02 00:42:44] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-houdini] error
+[2024-04-02 00:42:44] INFO root fetch - processPackages [GenCasting]: Downloading https://files.pythonhosted.org/packages/f4/e4/0d83108e5c0effb33556f4803c945a4b7cd2bb8c5113186dd7155d582792/GenCasting-0.0.5.tar.gz
+[2024-04-02 00:42:44] INFO root fetch - processPackages [fused]: Downloading https://files.pythonhosted.org/packages/55/c5/7957ae338a4ea766509c205f2bb3d3612e53c43f4f4ba8773fedf9e0420a/fused-1.5.0.tar.gz
+[2024-04-02 00:42:44] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/a2/97/a8298f459b91c30352283a6abf4a88e5d8b5a6de56ae40c41431454f36c2/bertagent-1.0.7.tar.gz
+[2024-04-02 00:42:44] INFO root fetch - processPackages [fused]: Downloading https://files.pythonhosted.org/packages/29/4a/558299903d880f8f2c5000bb52191e4d9be14a89b9f06394fe1c5ec008c4/fused-1.5.1.tar.gz
+[2024-04-02 00:42:44] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/22/9f/fb29e1ffecbfd558337e18da44ce27c52981637c9f60ba6165142c5656ff/bertagent-1.1.0.tar.gz
+[2024-04-02 00:42:44] INFO root fetch - processPackages [GenCasting]: Downloading https://files.pythonhosted.org/packages/9f/06/4fbff39c2ca66cc763d5b101f2ebf6f0a3a53b2ed4eb2284c96522cf04c1/GenCasting-0.0.6.tar.gz
+[2024-04-02 00:42:44] INFO root fetch - processPackages [fused]: executing diffoscope
+[2024-04-02 00:42:44] INFO root fetch - processPackages [fused]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fused-1.5.0.tar.gz tmp/fused-1.5.1.tar.gz --markdown 20240402/f/fused/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2024-04-02 00:42:44] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2024-04-02 00:42:44] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-1.0.7.tar.gz tmp/bertagent-1.1.0.tar.gz --markdown 20240402/b/bertagent/1.0.7-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 00:42:44] INFO root fetch - processPackages [GenCasting]: executing diffoscope
+[2024-04-02 00:42:44] INFO root fetch - processPackages [GenCasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenCasting-0.0.5.tar.gz tmp/GenCasting-0.0.6.tar.gz --markdown 20240402/G/GenCasting/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 00:42:45] INFO root fetch - processPackages [GenCasting]: Remove: archive file [/home/abi/fetcher/tmp/GenCasting-0.0.5.tar.gz]
+[2024-04-02 00:42:45] INFO root fetch - processPackages [GenCasting]: Remove: archive file [/home/abi/fetcher/tmp/GenCasting-0.0.6.tar.gz]
+[2024-04-02 00:42:45] INFO root fetch - main [MainThread]: End processing [GenCasting]: success
+[2024-04-02 00:42:45] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.0.7.tar.gz]
+[2024-04-02 00:42:45] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.1.0.tar.gz]
+[2024-04-02 00:42:45] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2024-04-02 00:42:45] INFO root fetch - processPackages [fused]: Remove: archive file [/home/abi/fetcher/tmp/fused-1.5.0.tar.gz]
+[2024-04-02 00:42:45] INFO root fetch - processPackages [fused]: Remove: archive file [/home/abi/fetcher/tmp/fused-1.5.1.tar.gz]
+[2024-04-02 00:42:45] INFO root fetch - main [MainThread]: End processing [fused]: success
+[2024-04-02 00:42:45] INFO root fetch - main [MainThread]: Store serial: [22576806]
