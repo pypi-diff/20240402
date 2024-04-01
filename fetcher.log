@@ -579,3 +579,33 @@
 [2024-04-02 00:33:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
 [2024-04-02 00:33:36] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-02 00:33:36] INFO root fetch - main [MainThread]: Store serial: [22576690]
+[2024-04-02 00:35:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576690]
+[2024-04-02 00:35:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 00:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rnaseqdata
+[2024-04-02 00:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dansplotcore
+[2024-04-02 00:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opentrons-shared-data
+[2024-04-02 00:35:46] INFO root fetch - processPackages [rnaseqdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 00:35:46] INFO root fetch - processPackages [rnaseqdata]: Downloading https://files.pythonhosted.org/packages/02/ea/7ebd3ba0b10a0180bef9607eaa31d86debc0160bcb7e658ba04ad41e25dc/rnaseqdata-0.0.7.tar.gz
+[2024-04-02 00:35:46] INFO root fetch - processPackages [dansplotcore]: New version: [6.0.1] Old Version: [6.0.0]
+[2024-04-02 00:35:46] INFO root fetch - processPackages [opentrons-shared-data]: New version: [7.2.2a1] Old Version: [7.2.2a0]
+[2024-04-02 00:35:46] INFO root fetch - processPackages [rnaseqdata]: Downloading https://files.pythonhosted.org/packages/ec/69/54812b98888d4db4ab2828dc8c60f0ea645166a4e25130d27a549493c052/rnaseqdata-0.0.8.tar.gz
+[2024-04-02 00:35:46] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/50/3b/019371dfcf07816e2ac762c7eeb8ee89a8dfb1fbe9f47f6f1d1afd36c914/dansplotcore-6.0.0.tar.gz
+[2024-04-02 00:35:46] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/6c/5e/c5955780591566b9aa487ebc9736bbdfd46652be203bbf184f819f346491/opentrons_shared_data-7.2.2a0.tar.gz
+[2024-04-02 00:35:47] INFO root fetch - processPackages [rnaseqdata]: executing diffoscope
+[2024-04-02 00:35:47] INFO root fetch - processPackages [rnaseqdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnaseqdata-0.0.7.tar.gz tmp/rnaseqdata-0.0.8.tar.gz --markdown 20240402/r/rnaseqdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 00:35:47] INFO root fetch - processPackages [opentrons-shared-data]: Downloading https://files.pythonhosted.org/packages/69/8c/374586758b590a53a274a3ce4fb2d8dfde72ac2ef00beb618c2b3637cf17/opentrons_shared_data-7.2.2a1.tar.gz
+[2024-04-02 00:35:47] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/19/03/5784ca2d8b22736f2b35364a2665ae8839940ca1823a9ab7bd8410177823/dansplotcore-6.0.1.tar.gz
+[2024-04-02 00:35:47] INFO root fetch - processPackages [opentrons-shared-data]: executing diffoscope
+[2024-04-02 00:35:47] INFO root fetch - processPackages [opentrons-shared-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons_shared_data-7.2.2a0.tar.gz tmp/opentrons_shared_data-7.2.2a1.tar.gz --markdown 20240402/o/opentrons-shared-data/7.2.2a0-7.2.2a1/diff.md --exclude *.pyd
+[2024-04-02 00:35:47] INFO root fetch - processPackages [rnaseqdata]: Remove: archive file [/home/abi/fetcher/tmp/rnaseqdata-0.0.7.tar.gz]
+[2024-04-02 00:35:47] INFO root fetch - processPackages [rnaseqdata]: Remove: archive file [/home/abi/fetcher/tmp/rnaseqdata-0.0.8.tar.gz]
+[2024-04-02 00:35:47] INFO root fetch - main [MainThread]: End processing [rnaseqdata]: success
+[2024-04-02 00:35:47] INFO root fetch - processPackages [dansplotcore]: executing diffoscope
+[2024-04-02 00:35:47] INFO root fetch - processPackages [dansplotcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dansplotcore-6.0.0.tar.gz tmp/dansplotcore-6.0.1.tar.gz --markdown 20240402/d/dansplotcore/6.0.0-6.0.1/diff.md --exclude *.pyd
+[2024-04-02 00:35:47] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.0.0.tar.gz]
+[2024-04-02 00:35:47] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.0.1.tar.gz]
+[2024-04-02 00:35:47] INFO root fetch - main [MainThread]: End processing [dansplotcore]: success
+[2024-04-02 00:35:48] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.2.2a0.tar.gz]
+[2024-04-02 00:35:48] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.2.2a1.tar.gz]
+[2024-04-02 00:35:48] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
+[2024-04-02 00:35:48] INFO root fetch - main [MainThread]: Store serial: [22576698]
