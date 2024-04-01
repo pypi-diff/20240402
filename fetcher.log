@@ -1371,3 +1371,18 @@
 [2024-04-02 01:20:43] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
 [2024-04-02 01:20:43] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
 [2024-04-02 01:20:43] INFO root fetch - main [MainThread]: Store serial: [22577123]
+[2024-04-02 01:22:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577123]
+[2024-04-02 01:22:52] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: whatdido
+[2024-04-02 01:22:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vision-agent
+[2024-04-02 01:22:52] INFO root fetch - processPackages [vision-agent]: New version: [0.0.44] Old Version: [0.0.43]
+[2024-04-02 01:22:52] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/83/d7/45b0d3567207b0a847e60df2841b618697b2b65e94cb3e692edc1acc14d9/vision_agent-0.0.43.tar.gz
+[2024-04-02 01:22:52] WARNING root fetch - processPackages [whatdido]: Skipping, unable to determine old version
+[2024-04-02 01:22:52] INFO root fetch - main [MainThread]: End processing [whatdido] error
+[2024-04-02 01:22:52] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/43/b6/2f7b965fd169e5f263b13535cbf3b8440506c419804f198f712c256430f0/vision_agent-0.0.44.tar.gz
+[2024-04-02 01:22:52] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-02 01:22:52] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.0.43.tar.gz tmp/vision_agent-0.0.44.tar.gz --markdown 20240402/v/vision-agent/0.0.43-0.0.44/diff.md --exclude *.pyd
+[2024-04-02 01:22:53] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.43.tar.gz]
+[2024-04-02 01:22:53] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.44.tar.gz]
+[2024-04-02 01:22:53] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-02 01:22:53] INFO root fetch - main [MainThread]: Store serial: [22577131]
