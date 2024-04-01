@@ -1,0 +1,75 @@
+[2024-04-02 00:02:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576363]
+[2024-04-02 00:02:34] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cciutils
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiceai
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-ip-address
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: crm1
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: OperationBattleshipCommonUtilities
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-timescaledb
+[2024-04-02 00:02:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vision-agent
+[2024-04-02 00:02:35] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [vision-agent]: New version: [0.0.43] Old Version: [0.0.42]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [dbt-timescaledb]: New version: [1.8.0a4] Old Version: [1.8.0a3]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [spiceai]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [crm1]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [neon-skill-ip-address]: New version: [1.1.1a4] Old Version: [1.1.1a3]
+[2024-04-02 00:02:35] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/9f/2a/f770cb8f17b5cbd9f9fb7c86bef8eff6857e3e17430d6c1f5f4c247b5375/vision_agent-0.0.42.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/3e/3e/ecd8c6994eb43bafd323786c093a94d1019545ee521dc738c1f9b8285e22/spiceai-0.0.1.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/4e/4e/b9683516f615b75cc9420ba4b3287a1c7b6f0aea930b80368089785d9d29/crm1-0.0.7.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [dbt-timescaledb]: Downloading https://files.pythonhosted.org/packages/b7/4a/d9a04a9df98ca6f41d1d2d0ec072fd2702aa841dc2d04c5d89253a8b5229/dbt_timescaledb-1.8.0a3.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/a1/14/db471c8732dcfc77229fd7cde1ab3a82c2d505bbde2e0ec1fb531cdeed26/OperationBattleshipCommonUtilities-0.2.0.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [neon-skill-ip-address]: Downloading https://files.pythonhosted.org/packages/74/34/7c7c4f169bea01326d11a32af655717d0f8f9d38c29f1cad20ab201ac16b/neon-skill-ip_address-1.1.1a3.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [vision-agent]: Downloading https://files.pythonhosted.org/packages/83/d7/45b0d3567207b0a847e60df2841b618697b2b65e94cb3e692edc1acc14d9/vision_agent-0.0.43.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 00:02:35] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 00:02:35] INFO root fetch - processPackages [crm1]: Downloading https://files.pythonhosted.org/packages/ee/e9/9d9ca09c29bec38a9d14665abc2f2a001192d20da0b82272c40711ebe842/crm1-0.0.8.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [vision-agent]: executing diffoscope
+[2024-04-02 00:02:35] INFO root fetch - processPackages [vision-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vision_agent-0.0.42.tar.gz tmp/vision_agent-0.0.43.tar.gz --markdown 20240402/v/vision-agent/0.0.42-0.0.43/diff.md --exclude *.pyd
+[2024-04-02 00:02:35] INFO root fetch - processPackages [dbt-timescaledb]: Downloading https://files.pythonhosted.org/packages/b1/0f/69ea3e1dc45d9d33afb088e2c8aadbff357b39bd37ed050828630980abbf/dbt_timescaledb-1.8.0a4.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-02 00:02:35] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240402/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 00:02:35] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/02/66/cc7629664e60bbb2c6c47682d0d0764425397d67548c8b39933e05cd34b1/OperationBattleshipCommonUtilities-0.3.0.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [neon-skill-ip-address]: Downloading https://files.pythonhosted.org/packages/3d/8e/66ca906927ce4c78adaf8c09650bd91e10f91e6afad0f9c70bca68cfe6d6/neon-skill-ip_address-1.1.1a4.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/ea/6c/b9e1db305cb3735254b7a966c99bb3f37e5a0483f1b8acddb865200d6bf8/spiceai-0.1.0.tar.gz
+[2024-04-02 00:02:35] INFO root fetch - processPackages [crm1]: executing diffoscope
+[2024-04-02 00:02:35] INFO root fetch - processPackages [crm1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crm1-0.0.7.tar.gz tmp/crm1-0.0.8.tar.gz --markdown 20240402/c/crm1/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 00:02:36] INFO root fetch - processPackages [dbt-timescaledb]: executing diffoscope
+[2024-04-02 00:02:36] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-04-02 00:02:36] INFO root fetch - processPackages [dbt-timescaledb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_timescaledb-1.8.0a3.tar.gz tmp/dbt_timescaledb-1.8.0a4.tar.gz --markdown 20240402/d/dbt-timescaledb/1.8.0a3-1.8.0a4/diff.md --exclude *.pyd
+[2024-04-02 00:02:36] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.2.0.tar.gz tmp/OperationBattleshipCommonUtilities-0.3.0.tar.gz --markdown 20240402/O/OperationBattleshipCommonUtilities/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 00:02:36] INFO root fetch - processPackages [neon-skill-ip-address]: executing diffoscope
+[2024-04-02 00:02:36] INFO root fetch - processPackages [neon-skill-ip-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-ip_address-1.1.1a3.tar.gz tmp/neon-skill-ip_address-1.1.1a4.tar.gz --markdown 20240402/n/neon-skill-ip-address/1.1.1a3-1.1.1a4/diff.md --exclude *.pyd
+[2024-04-02 00:02:36] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 00:02:36] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.0.1.tar.gz tmp/spiceai-0.1.0.tar.gz --markdown 20240402/s/spiceai/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 00:02:36] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 00:02:36] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.42.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.43.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
+[2024-04-02 00:02:36] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.0.1.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.0.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 00:02:36] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.7.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - processPackages [crm1]: Remove: archive file [/home/abi/fetcher/tmp/crm1-0.0.8.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - main [MainThread]: End processing [crm1]: success
+[2024-04-02 00:02:36] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 00:02:36] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.2.0.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.3.0.tar.gz]
+[2024-04-02 00:02:36] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-04-02 00:02:37] INFO root fetch - processPackages [neon-skill-ip-address]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-ip_address-1.1.1a3.tar.gz]
+[2024-04-02 00:02:37] INFO root fetch - processPackages [neon-skill-ip-address]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-ip_address-1.1.1a4.tar.gz]
+[2024-04-02 00:02:37] INFO root fetch - main [MainThread]: End processing [neon-skill-ip-address]: success
+[2024-04-02 00:02:37] INFO root fetch - processPackages [dbt-timescaledb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_timescaledb-1.8.0a3.tar.gz]
+[2024-04-02 00:02:37] INFO root fetch - processPackages [dbt-timescaledb]: Remove: archive file [/home/abi/fetcher/tmp/dbt_timescaledb-1.8.0a4.tar.gz]
+[2024-04-02 00:02:37] INFO root fetch - main [MainThread]: End processing [dbt-timescaledb]: success
+[2024-04-02 00:02:37] INFO root fetch - main [MainThread]: Store serial: [22576389]
