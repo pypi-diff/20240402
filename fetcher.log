@@ -914,3 +914,33 @@
 [2024-04-02 00:53:42] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-28.1.0.tar.gz]
 [2024-04-02 00:53:42] INFO root fetch - main [MainThread]: End processing [cpop]: success
 [2024-04-02 00:53:42] INFO root fetch - main [MainThread]: Store serial: [22576883]
+[2024-04-02 00:55:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576883]
+[2024-04-02 00:55:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 00:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: h5analysis
+[2024-04-02 00:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: git-changelog
+[2024-04-02 00:55:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: awkward-cpp
+[2024-04-02 00:55:51] INFO root fetch - processPackages [git-changelog]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-04-02 00:55:51] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 00:55:51] INFO root fetch - processPackages [git-changelog]: Downloading https://files.pythonhosted.org/packages/2c/f9/1bcc1b0ebd6f04cda3eeb87827ea4f9f1f503276d96dc002a1486b215302/git_changelog-2.4.1.tar.gz
+[2024-04-02 00:55:51] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-04-02 00:55:51] INFO root fetch - processPackages [awkward-cpp]: New version: [9] Old Version: [8]
+[2024-04-02 00:55:51] INFO root fetch - processPackages [git-changelog]: Downloading https://files.pythonhosted.org/packages/4d/9f/9cfa2b8c42d84bc2e95d81a480359833fc1b0dc833b669030a9ac7e9100a/git_changelog-2.5.0.tar.gz
+[2024-04-02 00:55:51] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-04-02 00:55:51] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-04-02 00:55:51] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240402/h/h5analysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 00:55:51] INFO root fetch - processPackages [git-changelog]: executing diffoscope
+[2024-04-02 00:55:51] INFO root fetch - processPackages [git-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_changelog-2.4.1.tar.gz tmp/git_changelog-2.5.0.tar.gz --markdown 20240402/g/git-changelog/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2024-04-02 00:55:51] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/aa/f5/64adc43fa8ade78ad35bf90276c8741d996c40c25626e9900d611f752446/awkward-cpp-8.tar.gz
+[2024-04-02 00:55:52] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-04-02 00:55:52] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-04-02 00:55:52] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-04-02 00:55:52] INFO root fetch - processPackages [awkward-cpp]: Downloading https://files.pythonhosted.org/packages/5c/ed/9ea65e3121ca03b329734a45c17b4ba0cda78345f533ba43a30dc9fd4dd8/awkward-cpp-9.tar.gz
+[2024-04-02 00:55:52] INFO root fetch - processPackages [git-changelog]: Remove: archive file [/home/abi/fetcher/tmp/git_changelog-2.4.1.tar.gz]
+[2024-04-02 00:55:52] INFO root fetch - processPackages [git-changelog]: Remove: archive file [/home/abi/fetcher/tmp/git_changelog-2.5.0.tar.gz]
+[2024-04-02 00:55:52] INFO root fetch - main [MainThread]: End processing [git-changelog]: success
+[2024-04-02 00:55:52] INFO root fetch - processPackages [awkward-cpp]: executing diffoscope
+[2024-04-02 00:55:52] INFO root fetch - processPackages [awkward-cpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-cpp-8.tar.gz tmp/awkward-cpp-9.tar.gz --markdown 20240402/a/awkward-cpp/8-9/diff.md --exclude *.pyd
+[2024-04-02 00:56:01] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-8.tar.gz]
+[2024-04-02 00:56:01] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-9.tar.gz]
+[2024-04-02 00:56:01] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
+[2024-04-02 00:56:01] INFO root fetch - main [MainThread]: Store serial: [22576896]
