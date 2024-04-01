@@ -259,3 +259,15 @@
 [2024-04-02 00:15:56] WARNING root fetch - processPackages [deadline-cloud-for-nuke]: Skipping, unable to determine old version
 [2024-04-02 00:15:56] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-nuke] error
 [2024-04-02 00:15:56] INFO root fetch - main [MainThread]: Store serial: [22576574]
+[2024-04-02 00:18:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576574]
+[2024-04-02 00:18:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 00:18:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: database-knotinfo
+[2024-04-02 00:18:06] INFO root fetch - processPackages [database-knotinfo]: New version: [21.7.15] Old Version: [21.7]
+[2024-04-02 00:18:06] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/ed/10/02c95e09f90ea3ca6a6622ba42077bf5e1bb8004d969c78a73d79bc763fc/database_knotinfo-21.7.tar.gz
+[2024-04-02 00:18:07] INFO root fetch - processPackages [database-knotinfo]: Downloading https://files.pythonhosted.org/packages/41/30/c317860b531bb854820f45d9dd7f7a377cb7f44dc35a5e3f5d73f0521eda/database_knotinfo-21.7.15.tar.gz
+[2024-04-02 00:18:08] INFO root fetch - processPackages [database-knotinfo]: executing diffoscope
+[2024-04-02 00:18:08] INFO root fetch - processPackages [database-knotinfo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/database_knotinfo-21.7.tar.gz tmp/database_knotinfo-21.7.15.tar.gz --markdown 20240402/d/database-knotinfo/21.7-21.7.15/diff.md --exclude *.pyd
+[2024-04-02 00:18:10] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.tar.gz]
+[2024-04-02 00:18:10] INFO root fetch - processPackages [database-knotinfo]: Remove: archive file [/home/abi/fetcher/tmp/database_knotinfo-21.7.15.tar.gz]
+[2024-04-02 00:18:10] INFO root fetch - main [MainThread]: End processing [database-knotinfo]: success
+[2024-04-02 00:18:10] INFO root fetch - main [MainThread]: Store serial: [22576574]
