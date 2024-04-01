@@ -636,3 +636,72 @@
 [2024-04-02 00:37:58] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.2.0.tar.gz]
 [2024-04-02 00:37:58] INFO root fetch - main [MainThread]: End processing [ai-characters]: success
 [2024-04-02 00:37:58] INFO root fetch - main [MainThread]: Store serial: [22576711]
+[2024-04-02 00:40:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576711]
+[2024-04-02 00:40:06] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: affixapi
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline-cloud-for-blender
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: granian
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CustomChat
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CloudyDaze
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calctree
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: InvokeAI
+[2024-04-02 00:40:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: opentrons
+[2024-04-02 00:40:06] INFO root fetch - processPackages [CustomChat]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-02 00:40:06] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/31/17/d6559c85ff8af67713cd7a04918da1a6afe926e353997ef84d4d58b1e10f/CustomChat-1.0.3.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CloudyDaze]: New version: [1.5] Old Version: [1.4]
+[2024-04-02 00:40:07] INFO root fetch - processPackages [calctree]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-04-02 00:40:07] INFO root fetch - processPackages [affixapi]: New version: [1.1.47] Old Version: [1.1.46]
+[2024-04-02 00:40:07] WARNING root fetch - processPackages [deadline-cloud-for-blender]: Skipping, unable to determine old version
+[2024-04-02 00:40:07] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-blender] error
+[2024-04-02 00:40:07] INFO root fetch - processPackages [opentrons]: New version: [7.2.2a1] Old Version: [7.2.2a0]
+[2024-04-02 00:40:07] INFO root fetch - processPackages [InvokeAI]: New version: [4.0.0rc6] Old Version: [4.0.0rc5]
+[2024-04-02 00:40:07] INFO root fetch - processPackages [granian]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/6b/51/71daa02c650072d68de8e2ec7c3b776acc8fca864ccf8eed83882ad0a53c/CustomChat-1.0.4.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CloudyDaze]: Downloading https://files.pythonhosted.org/packages/4b/28/ad5bae838328f2d241f511d80fd4766154c51120911ca5c01451dd213e2c/CloudyDaze-1.4.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [calctree]: Downloading https://files.pythonhosted.org/packages/6f/76/66adef31b40ff2e1b94f7529f3f47b3449a01187f9708d1b0cef0c551b4d/calctree-0.1.1.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/83/1c/2e79483c41266f3631d11326c795b38dc6ec002c887b4e2596b13642cc10/affixapi-1.1.46.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [opentrons]: Downloading https://files.pythonhosted.org/packages/dc/a1/30fa05b920913db9e3f310ff776c29d6438e89a5a87db83f73bf9aebeca7/opentrons-7.2.2a0.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CustomChat]: executing diffoscope
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CustomChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomChat-1.0.3.tar.gz tmp/CustomChat-1.0.4.tar.gz --markdown 20240402/C/CustomChat/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-02 00:40:07] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/e1/17/faa36ba8a1d7d5586491fe3ed0eeb4ccab6c5872bfede9baef0c829c63e7/granian-1.2.0.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/6f/2c/584103c37b63cebfff876543c5228bba6d6eecf6ebf53e74ca111ad6c50d/InvokeAI-4.0.0rc5.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CloudyDaze]: Downloading https://files.pythonhosted.org/packages/43/35/fd5f475065f8933e8a6f417fc68c516d1cfe6e245b904950e46ec9ab3701/CloudyDaze-1.5.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [calctree]: Downloading https://files.pythonhosted.org/packages/5c/91/82e77dd4d32607af620de844ef5b8754bb493835c1e9f26cfe94a7b2e44d/calctree-0.2.1.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [granian]: Downloading https://files.pythonhosted.org/packages/9e/01/a13c83aa9d7c9710df3030d6c3ab6dc00e9c453b4d6e155ec0db141eda83/granian-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-02 00:40:07] INFO root fetch - processPackages [affixapi]: Downloading https://files.pythonhosted.org/packages/99/9d/c7d805e4ee3478ff7863588549b28f4f4e28a6fd8a72637387d9e2a032ef/affixapi-1.1.47.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CloudyDaze]: executing diffoscope
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CloudyDaze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CloudyDaze-1.4.tar.gz tmp/CloudyDaze-1.5.tar.gz --markdown 20240402/C/CloudyDaze/1.4-1.5/diff.md --exclude *.pyd
+[2024-04-02 00:40:07] INFO root fetch - processPackages [opentrons]: Downloading https://files.pythonhosted.org/packages/90/fd/0a7da836fd03c235b9b9dcedba7d90356a68a8ad64f5ff561641f0adf40c/opentrons-7.2.2a1.tar.gz
+[2024-04-02 00:40:07] INFO root fetch - processPackages [calctree]: executing diffoscope
+[2024-04-02 00:40:07] INFO root fetch - processPackages [calctree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calctree-0.1.1.tar.gz tmp/calctree-0.2.1.tar.gz --markdown 20240402/c/calctree/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.3.tar.gz]
+[2024-04-02 00:40:07] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.4.tar.gz]
+[2024-04-02 00:40:07] INFO root fetch - main [MainThread]: End processing [CustomChat]: success
+[2024-04-02 00:40:07] INFO root fetch - processPackages [affixapi]: executing diffoscope
+[2024-04-02 00:40:07] INFO root fetch - processPackages [affixapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/affixapi-1.1.46.tar.gz tmp/affixapi-1.1.47.tar.gz --markdown 20240402/a/affixapi/1.1.46-1.1.47/diff.md --exclude *.pyd
+[2024-04-02 00:40:08] INFO root fetch - processPackages [InvokeAI]: Downloading https://files.pythonhosted.org/packages/c3/69/9d7dd757d9cdf5e2b39078f7c30b10e9bcc88aa9aceb9df8742f00b6b43f/InvokeAI-4.0.0rc6.tar.gz
+[2024-04-02 00:40:08] INFO root fetch - processPackages [opentrons]: executing diffoscope
+[2024-04-02 00:40:08] INFO root fetch - processPackages [opentrons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentrons-7.2.2a0.tar.gz tmp/opentrons-7.2.2a1.tar.gz --markdown 20240402/o/opentrons/7.2.2a0-7.2.2a1/diff.md --exclude *.pyd
+[2024-04-02 00:40:08] INFO root fetch - processPackages [InvokeAI]: executing diffoscope
+[2024-04-02 00:40:08] INFO root fetch - processPackages [InvokeAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/InvokeAI-4.0.0rc5.tar.gz tmp/InvokeAI-4.0.0rc6.tar.gz --markdown 20240402/I/InvokeAI/4.0.0rc5-4.0.0rc6/diff.md --exclude *.pyd
+[2024-04-02 00:40:08] INFO root fetch - processPackages [calctree]: Remove: archive file [/home/abi/fetcher/tmp/calctree-0.1.1.tar.gz]
+[2024-04-02 00:40:08] INFO root fetch - processPackages [calctree]: Remove: archive file [/home/abi/fetcher/tmp/calctree-0.2.1.tar.gz]
+[2024-04-02 00:40:08] INFO root fetch - main [MainThread]: End processing [calctree]: success
+[2024-04-02 00:40:08] INFO root fetch - processPackages [CloudyDaze]: Remove: archive file [/home/abi/fetcher/tmp/CloudyDaze-1.4.tar.gz]
+[2024-04-02 00:40:08] INFO root fetch - processPackages [CloudyDaze]: Remove: archive file [/home/abi/fetcher/tmp/CloudyDaze-1.5.tar.gz]
+[2024-04-02 00:40:08] INFO root fetch - main [MainThread]: End processing [CloudyDaze]: success
+[2024-04-02 00:40:08] INFO root fetch - processPackages [granian]: executing diffoscope
+[2024-04-02 00:40:08] INFO root fetch - processPackages [granian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/granian-1.2.0.tar.gz tmp/granian-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240402/g/granian/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-02 00:40:09] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.2.0.tar.gz]
+[2024-04-02 00:40:09] INFO root fetch - processPackages [granian]: Remove: archive file [/home/abi/fetcher/tmp/granian-1.2.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-02 00:40:09] INFO root fetch - main [MainThread]: End processing [granian]: success
+[2024-04-02 00:40:09] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.46.tar.gz]
+[2024-04-02 00:40:09] INFO root fetch - processPackages [affixapi]: Remove: archive file [/home/abi/fetcher/tmp/affixapi-1.1.47.tar.gz]
+[2024-04-02 00:40:09] INFO root fetch - main [MainThread]: End processing [affixapi]: success
+[2024-04-02 00:40:10] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.2.2a0.tar.gz]
+[2024-04-02 00:40:10] INFO root fetch - processPackages [opentrons]: Remove: archive file [/home/abi/fetcher/tmp/opentrons-7.2.2a1.tar.gz]
+[2024-04-02 00:40:10] INFO root fetch - main [MainThread]: End processing [opentrons]: success
+[2024-04-02 00:40:34] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.0rc5.tar.gz]
+[2024-04-02 00:40:34] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-4.0.0rc6.tar.gz]
+[2024-04-02 00:40:34] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
+[2024-04-02 00:40:34] INFO root fetch - main [MainThread]: Store serial: [22576764]
