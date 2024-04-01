@@ -944,3 +944,39 @@
 [2024-04-02 00:56:01] INFO root fetch - processPackages [awkward-cpp]: Remove: archive file [/home/abi/fetcher/tmp/awkward-cpp-9.tar.gz]
 [2024-04-02 00:56:01] INFO root fetch - main [MainThread]: End processing [awkward-cpp]: success
 [2024-04-02 00:56:01] INFO root fetch - main [MainThread]: Store serial: [22576896]
+[2024-04-02 00:58:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576896]
+[2024-04-02 00:58:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decthings-model
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kdp-api-python-client
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ugrc-palletjack
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anterior
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: model-explorer
+[2024-04-02 00:58:10] INFO root fetch - processPackages [model-explorer]: New version: [0.0.63] Old Version: [0.0.62]
+[2024-04-02 00:58:10] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/e2/84/179c892577d7c47f2dcb58996784d28cb9b5e82da7918a7f0e4a72450828/model-explorer-0.0.62.tar.gz
+[2024-04-02 00:58:10] WARNING root fetch - processPackages [anterior]: Skipping, unable to determine old version
+[2024-04-02 00:58:10] INFO root fetch - main [MainThread]: End processing [anterior] error
+[2024-04-02 00:58:10] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.99.0] Old Version: [4.98.0]
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ugrc-palletjack]: New version: [4.3.1] Old Version: [4.3.0]
+[2024-04-02 00:58:10] WARNING root fetch - processPackages [decthings-model]: Skipping, unable to determine old version
+[2024-04-02 00:58:10] INFO root fetch - main [MainThread]: End processing [decthings-model] error
+[2024-04-02 00:58:10] INFO root fetch - processPackages [ugrc-palletjack]: Downloading https://files.pythonhosted.org/packages/9c/30/93a319ccdb18892ad3e65485c833d7c0ceb613edbfcae2562b7339e29958/ugrc-palletjack-4.3.0.tar.gz
+[2024-04-02 00:58:10] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/46/b2/68c43660af0fe2c7d53c93038db9ca31ddd128caca21bb57962a6fc78413/kdp-api-python-client-4.98.0.tar.gz
+[2024-04-02 00:58:11] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/cd/9b/a7111969b0ef2d6d32a01f029bfbaad1d0dd34a43b31ea86a798f1550612/model-explorer-0.0.63.tar.gz
+[2024-04-02 00:58:11] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/10/df/e139683c19dbe53b0109746bec3dc990f3051099839fdf00cf46a309126f/kdp-api-python-client-4.99.0.tar.gz
+[2024-04-02 00:58:11] INFO root fetch - processPackages [ugrc-palletjack]: Downloading https://files.pythonhosted.org/packages/11/2c/e5fad2e84563ed35d0f72d5aa626c50ebbb42ec845b2f1b35c0ca35d9149/ugrc-palletjack-4.3.1.tar.gz
+[2024-04-02 00:58:11] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2024-04-02 00:58:11] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.98.0.tar.gz tmp/kdp-api-python-client-4.99.0.tar.gz --markdown 20240402/k/kdp-api-python-client/4.98.0-4.99.0/diff.md --exclude *.pyd
+[2024-04-02 00:58:11] INFO root fetch - processPackages [ugrc-palletjack]: executing diffoscope
+[2024-04-02 00:58:11] INFO root fetch - processPackages [ugrc-palletjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ugrc-palletjack-4.3.0.tar.gz tmp/ugrc-palletjack-4.3.1.tar.gz --markdown 20240402/u/ugrc-palletjack/4.3.0-4.3.1/diff.md --exclude *.pyd
+[2024-04-02 00:58:11] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-02 00:58:11] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.62.tar.gz tmp/model-explorer-0.0.63.tar.gz --markdown 20240402/m/model-explorer/0.0.62-0.0.63/diff.md --exclude *.pyd
+[2024-04-02 00:58:12] INFO root fetch - processPackages [ugrc-palletjack]: Remove: archive file [/home/abi/fetcher/tmp/ugrc-palletjack-4.3.0.tar.gz]
+[2024-04-02 00:58:12] INFO root fetch - processPackages [ugrc-palletjack]: Remove: archive file [/home/abi/fetcher/tmp/ugrc-palletjack-4.3.1.tar.gz]
+[2024-04-02 00:58:12] INFO root fetch - main [MainThread]: End processing [ugrc-palletjack]: success
+[2024-04-02 00:58:14] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.98.0.tar.gz]
+[2024-04-02 00:58:14] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
+[2024-04-02 00:58:14] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2024-04-02 00:58:30] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.62.tar.gz]
+[2024-04-02 00:58:30] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.63.tar.gz]
+[2024-04-02 00:58:30] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-02 00:58:30] INFO root fetch - main [MainThread]: Store serial: [22576953]
