@@ -1514,3 +1514,24 @@
 [2024-04-02 01:27:19] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.4.0.dev20240401232442-py3-none-any.whl.zip]
 [2024-04-02 01:27:19] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2024-04-02 01:27:19] INFO root fetch - main [MainThread]: Store serial: [22577176]
+[2024-04-02 01:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577176]
+[2024-04-02 01:29:27] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 01:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rattail
+[2024-04-02 01:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Tailbone
+[2024-04-02 01:29:27] INFO root fetch - processPackages [rattail]: New version: [0.9.99] Old Version: [0.9.98]
+[2024-04-02 01:29:27] INFO root fetch - processPackages [Tailbone]: New version: [0.9.90] Old Version: [0.9.9]
+[2024-04-02 01:29:28] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/8a/ab/1d0b66effa702be7aef6de038a0b9a0727d9d4053df5c56aa1ee5b1d9b45/rattail-0.9.98.tar.gz
+[2024-04-02 01:29:28] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2024-04-02 01:29:28] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/e7/03/008a89c9a98e93083c946a945a1ddcfa4657f9b8e88d022603267a02d4e4/Tailbone-0.9.90.tar.gz
+[2024-04-02 01:29:28] INFO root fetch - processPackages [rattail]: Downloading https://files.pythonhosted.org/packages/1e/c3/79e6d80f4a830a425f80fae7cf7f242293341bfd63e5d6f25421dfd44465/rattail-0.9.99.tar.gz
+[2024-04-02 01:29:28] INFO root fetch - processPackages [rattail]: executing diffoscope
+[2024-04-02 01:29:28] INFO root fetch - processPackages [rattail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rattail-0.9.98.tar.gz tmp/rattail-0.9.99.tar.gz --markdown 20240402/r/rattail/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2024-04-02 01:29:28] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2024-04-02 01:29:28] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.9.tar.gz tmp/Tailbone-0.9.90.tar.gz --markdown 20240402/T/Tailbone/0.9.9-0.9.90/diff.md --exclude *.pyd
+[2024-04-02 01:29:30] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.98.tar.gz]
+[2024-04-02 01:29:30] INFO root fetch - processPackages [rattail]: Remove: archive file [/home/abi/fetcher/tmp/rattail-0.9.99.tar.gz]
+[2024-04-02 01:29:30] INFO root fetch - main [MainThread]: End processing [rattail]: success
+[2024-04-02 01:29:32] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2024-04-02 01:29:32] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.90.tar.gz]
+[2024-04-02 01:29:32] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2024-04-02 01:29:32] INFO root fetch - main [MainThread]: Store serial: [22577181]
