@@ -1386,3 +1386,51 @@
 [2024-04-02 01:22:53] INFO root fetch - processPackages [vision-agent]: Remove: archive file [/home/abi/fetcher/tmp/vision_agent-0.0.44.tar.gz]
 [2024-04-02 01:22:53] INFO root fetch - main [MainThread]: End processing [vision-agent]: success
 [2024-04-02 01:22:53] INFO root fetch - main [MainThread]: Store serial: [22577131]
+[2024-04-02 01:24:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577131]
+[2024-04-02 01:25:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modal
+[2024-04-02 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: modal-client
+[2024-04-02 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MobileInventoryCLI
+[2024-04-02 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cirq-google
+[2024-04-02 01:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cirq-ft
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [cirq-google]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:25:03] INFO root fetch - processPackages [cirq-ft]: New version: [1.4.0.dev20240401232442] Old Version: [1.4.0.dev20240330184941]
+[2024-04-02 01:25:03] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.34] Old Version: [0.4.33]
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/31/fe/1186d46c56f9f1bf0f94845ea743e2c9c96d4598013afdf6e4a101c2c7ad/cirq_google-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/7d/64/f03996f9d2bd25896a282d29927aa6b2c22e620a062a9967f794b3fbc0a3/cirq_ft-1.4.0.dev20240330184941-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/02/0b/70b34ca4d7eaf3e8c56f667cc4788916f727323e9a3c5e83c24715463334/MobileInventoryCLI-0.4.33.tar.gz
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240402/m/modal-client/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240402/m/modal/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-02 01:25:03] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/16/5a/faf2e36f4d84381e08f2a1e87040c5189cf1bf086fd073eab6579b28ac7e/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/b5/de/e4fada90532cc814c42e0ea556183b8bd5780d4a2deab49c69a02fceb711/MobileInventoryCLI-0.4.34.tar.gz
+[2024-04-02 01:25:03] INFO root fetch - processPackages [cirq-ft]: Downloading https://files.pythonhosted.org/packages/be/bd/4ba0f03b56e6c822cdbf91ed532098e0e8f178ee2401f2fc24718ae5286f/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-02 01:25:03] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-02 01:25:03] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-02 01:25:03] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-02 01:25:03] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.33.tar.gz tmp/MobileInventoryCLI-0.4.34.tar.gz --markdown 20240402/M/MobileInventoryCLI/0.4.33-0.4.34/diff.md --exclude *.pyd
+[2024-04-02 01:25:04] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2024-04-02 01:25:04] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-google/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:25:04] INFO root fetch - processPackages [cirq-ft]: executing diffoscope
+[2024-04-02 01:25:04] INFO root fetch - processPackages [cirq-ft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ft-1.4.0.dev20240330184941-py3-none-any.whl.zip tmp/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl.zip --markdown 20240402/c/cirq-ft/1.4.0.dev20240330184941-1.4.0.dev20240401232442/diff.md --exclude *.pyd
+[2024-04-02 01:25:04] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.33.tar.gz]
+[2024-04-02 01:25:04] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.34.tar.gz]
+[2024-04-02 01:25:04] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-02 01:25:04] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:25:04] INFO root fetch - processPackages [cirq-ft]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ft-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:25:04] INFO root fetch - main [MainThread]: End processing [cirq-ft]: success
+[2024-04-02 01:25:04] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-02 01:25:04] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-02 01:25:04] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-02 01:25:05] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240330184941-py3-none-any.whl.zip]
+[2024-04-02 01:25:05] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.4.0.dev20240401232442-py3-none-any.whl.zip]
+[2024-04-02 01:25:05] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2024-04-02 01:25:05] INFO root fetch - main [MainThread]: Store serial: [22577144]
