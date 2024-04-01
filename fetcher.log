@@ -1058,3 +1058,43 @@
 [2024-04-02 01:00:58] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-02 01:00:58] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-02 01:00:58] INFO root fetch - main [MainThread]: Store serial: [22576976]
+[2024-04-02 01:03:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576976]
+[2024-04-02 01:03:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 01:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: asyncprawcore-stubs
+[2024-04-02 01:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traffic-taffy
+[2024-04-02 01:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xibabel
+[2024-04-02 01:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xibabel
+[2024-04-02 01:03:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kdp-python-connector
+[2024-04-02 01:03:08] WARNING root fetch - processPackages [asyncprawcore-stubs]: Skipping, unable to determine old version
+[2024-04-02 01:03:08] INFO root fetch - main [MainThread]: End processing [asyncprawcore-stubs] error
+[2024-04-02 01:03:08] INFO root fetch - processPackages [kdp-python-connector]: New version: [0.59.0] Old Version: [0.58.0]
+[2024-04-02 01:03:08] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/ea/26/6bf648a48a555c0f46661c66fafec17eaa769f6cf8c3e7cdb8f972907500/kdp-python-connector-0.58.0.tar.gz
+[2024-04-02 01:03:08] INFO root fetch - processPackages [xibabel]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-02 01:03:08] INFO root fetch - processPackages [xibabel]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-02 01:03:08] INFO root fetch - processPackages [traffic-taffy]: New version: [0.8.5] Old Version: [0.8.1]
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/37/f7/bad1170e0fec1b1ce533d5ff1336128443a802cef31b1cc8a0cc0cb10ad9/xibabel-0.0.1a0.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/37/f7/bad1170e0fec1b1ce533d5ff1336128443a802cef31b1cc8a0cc0cb10ad9/xibabel-0.0.1a0.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [traffic-taffy]: Downloading https://files.pythonhosted.org/packages/99/e7/269774710d7fb750b2783d2d2339a45fb91a1b18de94a2180e46f4b30663/traffic_taffy-0.8.1.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [kdp-python-connector]: Downloading https://files.pythonhosted.org/packages/95/fc/0ea843eff47e27af86a3c5dd2e257203bc7d74db79602bbda2a2dafbdb5a/kdp-python-connector-0.59.0.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [kdp-python-connector]: executing diffoscope
+[2024-04-02 01:03:09] INFO root fetch - processPackages [kdp-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-python-connector-0.58.0.tar.gz tmp/kdp-python-connector-0.59.0.tar.gz --markdown 20240402/k/kdp-python-connector/0.58.0-0.59.0/diff.md --exclude *.pyd
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/cf/39/dbec209ce4082d4a1ebef3c8cc819593cee0fb0134e205cbd85fa3ca75d7/xibabel-0.0.1a1.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/cf/39/dbec209ce4082d4a1ebef3c8cc819593cee0fb0134e205cbd85fa3ca75d7/xibabel-0.0.1a1.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [traffic-taffy]: Downloading https://files.pythonhosted.org/packages/71/8b/a3b0410cca371d01e19e0adf8789f3f7cd92fd8a205e63143a27d604bf23/traffic_taffy-0.8.5.tar.gz
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: executing diffoscope
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xibabel-0.0.1a0.tar.gz tmp/xibabel-0.0.1a1.tar.gz --markdown 20240402/x/xibabel/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: executing diffoscope
+[2024-04-02 01:03:09] INFO root fetch - processPackages [xibabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xibabel-0.0.1a0.tar.gz tmp/xibabel-0.0.1a1.tar.gz --markdown 20240402/x/xibabel/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2024-04-02 01:03:09] INFO root fetch - processPackages [traffic-taffy]: executing diffoscope
+[2024-04-02 01:03:09] INFO root fetch - processPackages [traffic-taffy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traffic_taffy-0.8.1.tar.gz tmp/traffic_taffy-0.8.5.tar.gz --markdown 20240402/t/traffic-taffy/0.8.1-0.8.5/diff.md --exclude *.pyd
+[2024-04-02 01:03:10] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.58.0.tar.gz]
+[2024-04-02 01:03:10] INFO root fetch - processPackages [kdp-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/kdp-python-connector-0.59.0.tar.gz]
+[2024-04-02 01:03:10] INFO root fetch - main [MainThread]: End processing [kdp-python-connector]: success
+[2024-04-02 01:03:10] INFO root fetch - processPackages [xibabel]: Remove: archive file [/home/abi/fetcher/tmp/xibabel-0.0.1a0.tar.gz]
+[2024-04-02 01:03:10] INFO root fetch - processPackages [xibabel]: Remove: archive file [/home/abi/fetcher/tmp/xibabel-0.0.1a1.tar.gz]
+[2024-04-02 01:03:10] INFO root fetch - main [MainThread]: End processing [xibabel]: success
+[2024-04-02 01:03:10] INFO root fetch - main [MainThread]: End processing [xibabel]: success
+[2024-04-02 01:03:10] INFO root fetch - processPackages [traffic-taffy]: Remove: archive file [/home/abi/fetcher/tmp/traffic_taffy-0.8.1.tar.gz]
+[2024-04-02 01:03:10] INFO root fetch - processPackages [traffic-taffy]: Remove: archive file [/home/abi/fetcher/tmp/traffic_taffy-0.8.5.tar.gz]
+[2024-04-02 01:03:10] INFO root fetch - main [MainThread]: End processing [traffic-taffy]: success
+[2024-04-02 01:03:10] INFO root fetch - main [MainThread]: Store serial: [22576996]
