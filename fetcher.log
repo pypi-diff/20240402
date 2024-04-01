@@ -1840,3 +1840,45 @@
 [2024-04-02 01:49:10] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.1.1.tar.gz]
 [2024-04-02 01:49:10] INFO root fetch - main [MainThread]: End processing [safepull]: success
 [2024-04-02 01:49:10] INFO root fetch - main [MainThread]: Store serial: [22577277]
+[2024-04-02 01:51:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577277]
+[2024-04-02 01:51:19] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: easySemanticSearch
+[2024-04-02 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tkchart
+[2024-04-02 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: safepull
+[2024-04-02 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xvideos-api
+[2024-04-02 01:51:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usearch
+[2024-04-02 01:51:19] INFO root fetch - processPackages [safepull]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-02 01:51:19] INFO root fetch - processPackages [xvideos-api]: New version: [1.2] Old Version: [1.1]
+[2024-04-02 01:51:19] WARNING root fetch - processPackages [easySemanticSearch]: Skipping, unable to determine old version
+[2024-04-02 01:51:19] INFO root fetch - main [MainThread]: End processing [easySemanticSearch] error
+[2024-04-02 01:51:19] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/9a/f2/eb8e4b3017be47d1b66aca1ccd9cfc6539fc4070353ae116d199e0e3db77/safepull-2.1.0.tar.gz
+[2024-04-02 01:51:19] INFO root fetch - processPackages [tkchart]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-02 01:51:19] INFO root fetch - processPackages [xvideos-api]: Downloading https://files.pythonhosted.org/packages/52/62/7942134e622f118a5ba7413efcb9c25c323f57840d8072a8ea7afe3607d1/xvideos_api-1.1.tar.gz
+[2024-04-02 01:51:19] INFO root fetch - processPackages [safepull]: Downloading https://files.pythonhosted.org/packages/9c/90/78811784621a0d65dbbfdd5ea6300fef7baba8643c241a0fb53325e47cc3/safepull-2.1.1.tar.gz
+[2024-04-02 01:51:19] INFO root fetch - processPackages [tkchart]: Downloading https://files.pythonhosted.org/packages/2d/9b/2e6ed49a0deca3454b9953e96bc6c18a8a27b89b5271a6381c55d1763956/tkchart-2.0.2.tar.gz
+[2024-04-02 01:51:19] INFO root fetch - processPackages [safepull]: executing diffoscope
+[2024-04-02 01:51:19] INFO root fetch - processPackages [safepull]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/safepull-2.1.0.tar.gz tmp/safepull-2.1.1.tar.gz --markdown 20240402/s/safepull/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-02 01:51:20] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-02 01:51:20] INFO root fetch - processPackages [xvideos-api]: Downloading https://files.pythonhosted.org/packages/a3/3c/90c68be032e15acbd73f5652b73975a1024d950053f6a6ac170e431d616b/xvideos_api-1.2.tar.gz
+[2024-04-02 01:51:20] INFO root fetch - processPackages [tkchart]: Downloading https://files.pythonhosted.org/packages/8e/68/05a4d7976ae9ac7811232172356984bb0eeeb877628615c48dbb980451d1/tkchart-2.0.3.tar.gz
+[2024-04-02 01:51:20] INFO root fetch - processPackages [xvideos-api]: executing diffoscope
+[2024-04-02 01:51:20] INFO root fetch - processPackages [xvideos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xvideos_api-1.1.tar.gz tmp/xvideos_api-1.2.tar.gz --markdown 20240402/x/xvideos-api/1.1-1.2/diff.md --exclude *.pyd
+[2024-04-02 01:51:20] INFO root fetch - processPackages [tkchart]: executing diffoscope
+[2024-04-02 01:51:20] INFO root fetch - processPackages [tkchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tkchart-2.0.2.tar.gz tmp/tkchart-2.0.3.tar.gz --markdown 20240402/t/tkchart/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-02 01:51:20] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-02 01:51:20] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.1.0.tar.gz]
+[2024-04-02 01:51:20] INFO root fetch - processPackages [safepull]: Remove: archive file [/home/abi/fetcher/tmp/safepull-2.1.1.tar.gz]
+[2024-04-02 01:51:20] INFO root fetch - main [MainThread]: End processing [safepull]: success
+[2024-04-02 01:51:20] INFO root fetch - processPackages [xvideos-api]: Remove: archive file [/home/abi/fetcher/tmp/xvideos_api-1.1.tar.gz]
+[2024-04-02 01:51:20] INFO root fetch - processPackages [xvideos-api]: Remove: archive file [/home/abi/fetcher/tmp/xvideos_api-1.2.tar.gz]
+[2024-04-02 01:51:20] INFO root fetch - main [MainThread]: End processing [xvideos-api]: success
+[2024-04-02 01:51:20] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-02 01:51:20] INFO root fetch - processPackages [tkchart]: Remove: archive file [/home/abi/fetcher/tmp/tkchart-2.0.2.tar.gz]
+[2024-04-02 01:51:20] INFO root fetch - processPackages [tkchart]: Remove: archive file [/home/abi/fetcher/tmp/tkchart-2.0.3.tar.gz]
+[2024-04-02 01:51:20] INFO root fetch - main [MainThread]: End processing [tkchart]: success
+[2024-04-02 01:51:21] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-02 01:51:21] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240402/u/usearch/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-02 01:51:21] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 01:51:21] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 01:51:21] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-02 01:51:21] INFO root fetch - main [MainThread]: Store serial: [22577291]
