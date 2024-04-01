@@ -1359,3 +1359,15 @@
 [2024-04-02 01:18:31] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.9.tar.gz]
 [2024-04-02 01:18:31] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2024-04-02 01:18:31] INFO root fetch - main [MainThread]: Store serial: [22577119]
+[2024-04-02 01:20:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577119]
+[2024-04-02 01:20:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 01:20:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ethyca-fides
+[2024-04-02 01:20:39] INFO root fetch - processPackages [ethyca-fides]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-02 01:20:39] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a5/ce/6ad04dd381854d1db26960c5cc1e174a086becd7eea9daa2b89a8dde7a70/ethyca-fides-2.9.1.tar.gz
+[2024-04-02 01:20:40] INFO root fetch - processPackages [ethyca-fides]: Downloading https://files.pythonhosted.org/packages/a3/0c/e979f7bc3c1a405c539d4df6c4c75896975e70d6b87777b8378ea071da2c/ethyca-fides-2.9.2.tar.gz
+[2024-04-02 01:20:40] INFO root fetch - processPackages [ethyca-fides]: executing diffoscope
+[2024-04-02 01:20:40] INFO root fetch - processPackages [ethyca-fides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ethyca-fides-2.9.1.tar.gz tmp/ethyca-fides-2.9.2.tar.gz --markdown 20240402/e/ethyca-fides/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-02 01:20:43] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.1.tar.gz]
+[2024-04-02 01:20:43] INFO root fetch - processPackages [ethyca-fides]: Remove: archive file [/home/abi/fetcher/tmp/ethyca-fides-2.9.2.tar.gz]
+[2024-04-02 01:20:43] INFO root fetch - main [MainThread]: End processing [ethyca-fides]: success
+[2024-04-02 01:20:43] INFO root fetch - main [MainThread]: Store serial: [22577123]
