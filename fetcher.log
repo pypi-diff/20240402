@@ -1203,3 +1203,27 @@
 [2024-04-02 01:09:49] WARNING root fetch - processPackages [maq]: Skipping, unable to determine old version
 [2024-04-02 01:09:49] INFO root fetch - main [MainThread]: End processing [maq] error
 [2024-04-02 01:09:49] INFO root fetch - main [MainThread]: Store serial: [22577063]
+[2024-04-02 01:11:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577063]
+[2024-04-02 01:11:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 01:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cff2toml
+[2024-04-02 01:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: myturn-sdk
+[2024-04-02 01:11:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calculator-papartynas
+[2024-04-02 01:11:57] INFO root fetch - processPackages [cff2toml]: New version: [1.1.1] Old Version: [1.1.0]
+[2024-04-02 01:11:57] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/59/f0/cdbef3125c7fa9d82af1f4f87f17793532c767f9c9fce8ce2ed86c4db2d9/cff2toml-1.1.0.tar.gz
+[2024-04-02 01:11:57] INFO root fetch - processPackages [myturn-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 01:11:57] WARNING root fetch - processPackages [calculator-papartynas]: Skipping, unable to determine old version
+[2024-04-02 01:11:57] INFO root fetch - main [MainThread]: End processing [calculator-papartynas] error
+[2024-04-02 01:11:57] INFO root fetch - processPackages [myturn-sdk]: Downloading https://files.pythonhosted.org/packages/84/0c/3c1e6a6ef8d73d40aefe457d9d57544f212ef8511a9253c3339c48c314f6/myturn-sdk-0.1.0.tar.gz
+[2024-04-02 01:11:58] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/89/88/915f8f0ee198500d74bbdb8864c68f674a673a45d5c9fbab199bba4c33bb/cff2toml-1.1.1.tar.gz
+[2024-04-02 01:11:58] INFO root fetch - processPackages [cff2toml]: executing diffoscope
+[2024-04-02 01:11:58] INFO root fetch - processPackages [cff2toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cff2toml-1.1.0.tar.gz tmp/cff2toml-1.1.1.tar.gz --markdown 20240402/c/cff2toml/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2024-04-02 01:11:58] INFO root fetch - processPackages [myturn-sdk]: Downloading https://files.pythonhosted.org/packages/aa/e6/e958f5f5e99b66aa7e38e59223bad08eefc5a52bab3325bf569dac5d31e8/myturn-sdk-0.1.1.tar.gz
+[2024-04-02 01:11:58] INFO root fetch - processPackages [myturn-sdk]: executing diffoscope
+[2024-04-02 01:11:58] INFO root fetch - processPackages [myturn-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myturn-sdk-0.1.0.tar.gz tmp/myturn-sdk-0.1.1.tar.gz --markdown 20240402/m/myturn-sdk/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 01:11:58] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-1.1.0.tar.gz]
+[2024-04-02 01:11:58] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-1.1.1.tar.gz]
+[2024-04-02 01:11:58] INFO root fetch - main [MainThread]: End processing [cff2toml]: success
+[2024-04-02 01:11:58] INFO root fetch - processPackages [myturn-sdk]: Remove: archive file [/home/abi/fetcher/tmp/myturn-sdk-0.1.0.tar.gz]
+[2024-04-02 01:11:58] INFO root fetch - processPackages [myturn-sdk]: Remove: archive file [/home/abi/fetcher/tmp/myturn-sdk-0.1.1.tar.gz]
+[2024-04-02 01:11:58] INFO root fetch - main [MainThread]: End processing [myturn-sdk]: success
+[2024-04-02 01:11:58] INFO root fetch - main [MainThread]: Store serial: [22577079]
