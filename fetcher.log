@@ -1125,3 +1125,72 @@
 [2024-04-02 01:05:28] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.6.3rc2.tar.gz]
 [2024-04-02 01:05:28] INFO root fetch - main [MainThread]: End processing [awkward]: success
 [2024-04-02 01:05:28] INFO root fetch - main [MainThread]: Store serial: [22577018]
+[2024-04-02 01:07:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577018]
+[2024-04-02 01:07:37] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tmnt
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: model-explorer
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flwr-nightly
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygame-util
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dkist-processing-cryonirsp
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xibabel
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-adapters
+[2024-04-02 01:07:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: paasta-tools
+[2024-04-02 01:07:37] INFO root fetch - processPackages [model-explorer]: New version: [0.0.65] Old Version: [0.0.64]
+[2024-04-02 01:07:37] INFO root fetch - processPackages [xibabel]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2024-04-02 01:07:37] INFO root fetch - processPackages [tmnt]: New version: [0.7.4b20231227] Old Version: [0.7.47]
+[2024-04-02 01:07:37] WARNING root fetch - processPackages [pygame-util]: Skipping, unable to determine old version
+[2024-04-02 01:07:37] INFO root fetch - main [MainThread]: End processing [pygame-util] error
+[2024-04-02 01:07:37] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/37/f7/bad1170e0fec1b1ce533d5ff1336128443a802cef31b1cc8a0cc0cb10ad9/xibabel-0.0.1a0.tar.gz
+[2024-04-02 01:07:37] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/07/e7/abf65f1a418e81ef0dedea28ae2d4ed1d5d848dbaef405d6aed108ee1c8f/model-explorer-0.0.64.tar.gz
+[2024-04-02 01:07:37] INFO root fetch - processPackages [dbt-adapters]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-04-02 01:07:37] INFO root fetch - processPackages [dkist-processing-cryonirsp]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 01:07:37] INFO root fetch - processPackages [paasta-tools]: New version: [0.92.1] Old Version: [0.92.0]
+[2024-04-02 01:07:37] INFO root fetch - processPackages [flwr-nightly]: New version: [1.8.0.dev20240401] Old Version: [1.8.0.dev20240328]
+[2024-04-02 01:07:37] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/2e/1e/7da3842d90540225f9d4f63857194ef30f43e94955477ecbec971d6e51fa/tmnt-0.7.47.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/cf/39/dbec209ce4082d4a1ebef3c8cc819593cee0fb0134e205cbd85fa3ca75d7/xibabel-0.0.1a1.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dbt-adapters]: Downloading https://files.pythonhosted.org/packages/de/a5/022236e508c8550078effb78ae771c4ee5415bad142d623b9b995f6a820a/dbt_adapters-1.0.0b1.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dkist-processing-cryonirsp]: Downloading https://files.pythonhosted.org/packages/64/f8/51516abcaacce8aa8057c35d99c6d62e3f718bf04364cc0fb12a8b4a9a2c/dkist_processing_cryonirsp-0.0.8.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/4a/0d/4404f538f73fd9262e827faffa3ec48b8413a24ff7a44cb416e30e89634c/paasta-tools-0.92.0.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/08/76/27f816590e59e5adfc478068a1621040aa64c696a0ca7d8069c5a94f551e/flwr_nightly-1.8.0.dev20240328.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/ea/3a/0cd54af36ea52550ab5b0361342ea6cbae9843227af8a4fe56d32695a1f3/tmnt-0.7.4b20231227.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [xibabel]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [xibabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xibabel-0.0.1a0.tar.gz tmp/xibabel-0.0.1a1.tar.gz --markdown 20240402/x/xibabel/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2024-04-02 01:07:38] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/db/56/65d5b861dbfe1d9406c462de540472b694e2b6d45348f09266eb89208e2f/model-explorer-0.0.65.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.47.tar.gz tmp/tmnt-0.7.4b20231227.tar.gz --markdown 20240402/t/tmnt/0.7.47-0.7.4b20231227/diff.md --exclude *.pyd
+[2024-04-02 01:07:38] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.64.tar.gz tmp/model-explorer-0.0.65.tar.gz --markdown 20240402/m/model-explorer/0.0.64-0.0.65/diff.md --exclude *.pyd
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dbt-adapters]: Downloading https://files.pythonhosted.org/packages/e1/5b/06e21ddd417c8518603b5d9325ed611335c2c267f8736bca9b5096160095/dbt_adapters-1.0.0b2.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [flwr-nightly]: Downloading https://files.pythonhosted.org/packages/37/d8/0f718d50cd9e3032d674d989d2d87869013b4afd09831e74cb8ab25221a3/flwr_nightly-1.8.0.dev20240401.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dkist-processing-cryonirsp]: Downloading https://files.pythonhosted.org/packages/b4/be/bdb5123a8ca6c10c87c9fc5d05539d4eb33528ea6d9026563061b5b24087/dkist_processing_cryonirsp-0.0.9.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dbt-adapters]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dbt-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_adapters-1.0.0b1.tar.gz tmp/dbt_adapters-1.0.0b2.tar.gz --markdown 20240402/d/dbt-adapters/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2024-04-02 01:07:38] INFO root fetch - processPackages [flwr-nightly]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [flwr-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flwr_nightly-1.8.0.dev20240328.tar.gz tmp/flwr_nightly-1.8.0.dev20240401.tar.gz --markdown 20240402/f/flwr-nightly/1.8.0.dev20240328-1.8.0.dev20240401/diff.md --exclude *.pyd
+[2024-04-02 01:07:38] INFO root fetch - processPackages [paasta-tools]: Downloading https://files.pythonhosted.org/packages/d8/f5/9a4c0134f4d0862da0cbcc57381d5c9f52e37ea937fa628e123433ccb7a4/paasta-tools-0.92.1.tar.gz
+[2024-04-02 01:07:38] INFO root fetch - processPackages [xibabel]: Remove: archive file [/home/abi/fetcher/tmp/xibabel-0.0.1a0.tar.gz]
+[2024-04-02 01:07:38] INFO root fetch - processPackages [xibabel]: Remove: archive file [/home/abi/fetcher/tmp/xibabel-0.0.1a1.tar.gz]
+[2024-04-02 01:07:38] INFO root fetch - main [MainThread]: End processing [xibabel]: success
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dkist-processing-cryonirsp]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [dkist-processing-cryonirsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dkist_processing_cryonirsp-0.0.8.tar.gz tmp/dkist_processing_cryonirsp-0.0.9.tar.gz --markdown 20240402/d/dkist-processing-cryonirsp/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 01:07:38] INFO root fetch - processPackages [paasta-tools]: executing diffoscope
+[2024-04-02 01:07:38] INFO root fetch - processPackages [paasta-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paasta-tools-0.92.0.tar.gz tmp/paasta-tools-0.92.1.tar.gz --markdown 20240402/p/paasta-tools/0.92.0-0.92.1/diff.md --exclude *.pyd
+[2024-04-02 01:07:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.47.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2024-04-02 01:07:39] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.64.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.65.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-02 01:07:39] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.0.0b1.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - processPackages [dbt-adapters]: Remove: archive file [/home/abi/fetcher/tmp/dbt_adapters-1.0.0b2.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - main [MainThread]: End processing [dbt-adapters]: success
+[2024-04-02 01:07:39] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.8.0.dev20240328.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - processPackages [flwr-nightly]: Remove: archive file [/home/abi/fetcher/tmp/flwr_nightly-1.8.0.dev20240401.tar.gz]
+[2024-04-02 01:07:39] INFO root fetch - main [MainThread]: End processing [flwr-nightly]: success
+[2024-04-02 01:07:40] INFO root fetch - processPackages [dkist-processing-cryonirsp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_cryonirsp-0.0.8.tar.gz]
+[2024-04-02 01:07:40] INFO root fetch - processPackages [dkist-processing-cryonirsp]: Remove: archive file [/home/abi/fetcher/tmp/dkist_processing_cryonirsp-0.0.9.tar.gz]
+[2024-04-02 01:07:40] INFO root fetch - main [MainThread]: End processing [dkist-processing-cryonirsp]: success
+[2024-04-02 01:07:40] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.0.tar.gz]
+[2024-04-02 01:07:40] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
+[2024-04-02 01:07:40] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
+[2024-04-02 01:07:40] INFO root fetch - main [MainThread]: Store serial: [22577049]
