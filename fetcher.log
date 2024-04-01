@@ -489,3 +489,36 @@
 [2024-04-02 00:29:03] INFO root fetch - processPackages [fabsync]: Remove: archive file [/home/abi/fetcher/tmp/fabsync-1.2.0.tar.gz]
 [2024-04-02 00:29:03] INFO root fetch - main [MainThread]: End processing [fabsync]: success
 [2024-04-02 00:29:03] INFO root fetch - main [MainThread]: Store serial: [22576662]
+[2024-04-02 00:31:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576662]
+[2024-04-02 00:31:13] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 00:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nerdd-module
+[2024-04-02 00:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Dosepy
+[2024-04-02 00:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mloptimizer
+[2024-04-02 00:31:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: akasaka
+[2024-04-02 00:31:13] INFO root fetch - processPackages [Dosepy]: New version: [0.6.0] Old Version: [0.5.1]
+[2024-04-02 00:31:13] INFO root fetch - processPackages [Dosepy]: Downloading https://files.pythonhosted.org/packages/85/2f/b42adcac867f96540791a05725982c7070017c807a57d10cf92f7cd2e65d/Dosepy-0.5.1.tar.gz
+[2024-04-02 00:31:13] INFO root fetch - processPackages [nerdd-module]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 00:31:13] WARNING root fetch - processPackages [akasaka]: Skipping, unable to determine old version
+[2024-04-02 00:31:13] INFO root fetch - main [MainThread]: End processing [akasaka] error
+[2024-04-02 00:31:13] INFO root fetch - processPackages [mloptimizer]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-02 00:31:13] INFO root fetch - processPackages [Dosepy]: Downloading https://files.pythonhosted.org/packages/2d/4c/67ad1f5d65d9107b77d4539025c4272216a2b5d7943b4b9be753dd16c298/Dosepy-0.6.0.tar.gz
+[2024-04-02 00:31:13] INFO root fetch - processPackages [nerdd-module]: Downloading https://files.pythonhosted.org/packages/69/e8/87bfcc3b2f178afe7f22ab86f888998f035d340671b49fa59be6bb813156/nerdd-module-0.2.3.tar.gz
+[2024-04-02 00:31:13] INFO root fetch - processPackages [mloptimizer]: Downloading https://files.pythonhosted.org/packages/86/0c/be85385d3f4c9846608047909cd8af3d81e347a85f2d5c9ef4605068e952/mloptimizer-0.8.3.tar.gz
+[2024-04-02 00:31:14] INFO root fetch - processPackages [Dosepy]: executing diffoscope
+[2024-04-02 00:31:14] INFO root fetch - processPackages [Dosepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Dosepy-0.5.1.tar.gz tmp/Dosepy-0.6.0.tar.gz --markdown 20240402/D/Dosepy/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2024-04-02 00:31:14] INFO root fetch - processPackages [nerdd-module]: Downloading https://files.pythonhosted.org/packages/df/bb/3b57b85c0630be1d0e50e918ca6e130e7df7c67bf4c8cbee0b6bf33f3275/nerdd-module-0.2.4.tar.gz
+[2024-04-02 00:31:14] INFO root fetch - processPackages [mloptimizer]: Downloading https://files.pythonhosted.org/packages/cd/51/02dac43f67ac6a016d3e709e3da8e79e19338943f9a96d7604ec87c34e71/mloptimizer-0.8.4.tar.gz
+[2024-04-02 00:31:14] INFO root fetch - processPackages [nerdd-module]: executing diffoscope
+[2024-04-02 00:31:14] INFO root fetch - processPackages [nerdd-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerdd-module-0.2.3.tar.gz tmp/nerdd-module-0.2.4.tar.gz --markdown 20240402/n/nerdd-module/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 00:31:14] INFO root fetch - processPackages [mloptimizer]: executing diffoscope
+[2024-04-02 00:31:14] INFO root fetch - processPackages [mloptimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mloptimizer-0.8.3.tar.gz tmp/mloptimizer-0.8.4.tar.gz --markdown 20240402/m/mloptimizer/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2024-04-02 00:31:14] INFO root fetch - processPackages [Dosepy]: Remove: archive file [/home/abi/fetcher/tmp/Dosepy-0.5.1.tar.gz]
+[2024-04-02 00:31:14] INFO root fetch - processPackages [Dosepy]: Remove: archive file [/home/abi/fetcher/tmp/Dosepy-0.6.0.tar.gz]
+[2024-04-02 00:31:14] INFO root fetch - main [MainThread]: End processing [Dosepy]: success
+[2024-04-02 00:31:14] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.8.3.tar.gz]
+[2024-04-02 00:31:14] INFO root fetch - processPackages [mloptimizer]: Remove: archive file [/home/abi/fetcher/tmp/mloptimizer-0.8.4.tar.gz]
+[2024-04-02 00:31:14] INFO root fetch - main [MainThread]: End processing [mloptimizer]: success
+[2024-04-02 00:31:15] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-module-0.2.3.tar.gz]
+[2024-04-02 00:31:15] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-module-0.2.4.tar.gz]
+[2024-04-02 00:31:15] INFO root fetch - main [MainThread]: End processing [nerdd-module]: success
+[2024-04-02 00:31:15] INFO root fetch - main [MainThread]: Store serial: [22576676]
