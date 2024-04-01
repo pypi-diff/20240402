@@ -609,3 +609,30 @@
 [2024-04-02 00:35:48] INFO root fetch - processPackages [opentrons-shared-data]: Remove: archive file [/home/abi/fetcher/tmp/opentrons_shared_data-7.2.2a1.tar.gz]
 [2024-04-02 00:35:48] INFO root fetch - main [MainThread]: End processing [opentrons-shared-data]: success
 [2024-04-02 00:35:48] INFO root fetch - main [MainThread]: Store serial: [22576698]
+[2024-04-02 00:37:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576698]
+[2024-04-02 00:37:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-characters
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ndare
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: filesystemserver
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cff2toml
+[2024-04-02 00:37:57] WARNING root fetch - processPackages [filesystemserver]: Skipping, unable to determine old version
+[2024-04-02 00:37:57] INFO root fetch - processPackages [cff2toml]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-02 00:37:57] INFO root fetch - main [MainThread]: End processing [filesystemserver] error
+[2024-04-02 00:37:57] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/a5/14/f1b9cf85a610fcd2512171a11b552b384fc2ae353bbee3ed98b04c43155a/cff2toml-1.0.0.tar.gz
+[2024-04-02 00:37:57] WARNING root fetch - processPackages [ndare]: Skipping, unable to determine old version
+[2024-04-02 00:37:57] INFO root fetch - main [MainThread]: End processing [ndare] error
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ai-characters]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/30/8f/740b482174a4514d70e11f89a5b30694342adec319edb5b76e81eb0d3bf6/ai_characters-1.1.0.tar.gz
+[2024-04-02 00:37:57] INFO root fetch - processPackages [cff2toml]: Downloading https://files.pythonhosted.org/packages/59/f0/cdbef3125c7fa9d82af1f4f87f17793532c767f9c9fce8ce2ed86c4db2d9/cff2toml-1.1.0.tar.gz
+[2024-04-02 00:37:57] INFO root fetch - processPackages [cff2toml]: executing diffoscope
+[2024-04-02 00:37:57] INFO root fetch - processPackages [cff2toml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cff2toml-1.0.0.tar.gz tmp/cff2toml-1.1.0.tar.gz --markdown 20240402/c/cff2toml/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/17/36/80ed668714ae652079f35b4db8205137560b351f50be89a330bbf0b6ccb0/ai_characters-1.2.0.tar.gz
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ai-characters]: executing diffoscope
+[2024-04-02 00:37:57] INFO root fetch - processPackages [ai-characters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_characters-1.1.0.tar.gz tmp/ai_characters-1.2.0.tar.gz --markdown 20240402/a/ai-characters/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 00:37:58] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-1.0.0.tar.gz]
+[2024-04-02 00:37:58] INFO root fetch - processPackages [cff2toml]: Remove: archive file [/home/abi/fetcher/tmp/cff2toml-1.1.0.tar.gz]
+[2024-04-02 00:37:58] INFO root fetch - main [MainThread]: End processing [cff2toml]: success
+[2024-04-02 00:37:58] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.1.0.tar.gz]
+[2024-04-02 00:37:58] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.2.0.tar.gz]
+[2024-04-02 00:37:58] INFO root fetch - main [MainThread]: End processing [ai-characters]: success
+[2024-04-02 00:37:58] INFO root fetch - main [MainThread]: Store serial: [22576711]
