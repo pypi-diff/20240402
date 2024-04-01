@@ -1630,3 +1630,42 @@
 [2024-04-02 01:38:17] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt_dlp-2024.3.9.232714.dev0.tar.gz]
 [2024-04-02 01:38:17] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
 [2024-04-02 01:38:17] INFO root fetch - main [MainThread]: Store serial: [22577212]
+[2024-04-02 01:40:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577212]
+[2024-04-02 01:40:26] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learningmachine
+[2024-04-02 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: heaserver
+[2024-04-02 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: OperationBattleshipCommonUtilities
+[2024-04-02 01:40:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pbt-simple
+[2024-04-02 01:40:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-02 01:40:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/a1/14/db471c8732dcfc77229fd7cde1ab3a82c2d505bbde2e0ec1fb531cdeed26/OperationBattleshipCommonUtilities-0.2.0.tar.gz
+[2024-04-02 01:40:26] INFO root fetch - processPackages [learningmachine]: New version: [1.1.0] Old Version: [0.2.3]
+[2024-04-02 01:40:26] INFO root fetch - processPackages [pbt-simple]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-02 01:40:26] INFO root fetch - processPackages [heaserver]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-02 01:40:26] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Downloading https://files.pythonhosted.org/packages/02/66/cc7629664e60bbb2c6c47682d0d0764425397d67548c8b39933e05cd34b1/OperationBattleshipCommonUtilities-0.3.0.tar.gz
+[2024-04-02 01:40:26] INFO root fetch - processPackages [pbt-simple]: Downloading https://files.pythonhosted.org/packages/27/da/aa267254a130ecbb1c465f76aa1c4851abadb37bacf92ff05442716dc6d3/pbt_simple-1.6.2.tar.gz
+[2024-04-02 01:40:26] INFO root fetch - processPackages [learningmachine]: Downloading https://files.pythonhosted.org/packages/8b/ae/7633d5ac9f2bed68c5ad97452c9e420fc8c3bc1e2a2ae3ceab581706122e/learningmachine-0.2.3.tar.gz
+[2024-04-02 01:40:26] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/5b/93/a12363a7b3d59dce62a5045863fa2d04bc85d7b89a4b0eb9f2a42200842a/heaserver-1.1.1.tar.gz
+[2024-04-02 01:40:27] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: executing diffoscope
+[2024-04-02 01:40:27] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OperationBattleshipCommonUtilities-0.2.0.tar.gz tmp/OperationBattleshipCommonUtilities-0.3.0.tar.gz --markdown 20240402/O/OperationBattleshipCommonUtilities/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 01:40:27] INFO root fetch - processPackages [learningmachine]: Downloading https://files.pythonhosted.org/packages/19/5a/1df997969806eee77e6c5536c2aa1883d02230443a201481de51c954ddf0/learningmachine-1.1.0.tar.gz
+[2024-04-02 01:40:27] INFO root fetch - processPackages [heaserver]: Downloading https://files.pythonhosted.org/packages/49/31/89356824b51a12f0062bd1caea4c187f6aa3a2bb748c0538c191f0edd83f/heaserver-1.1.2.tar.gz
+[2024-04-02 01:40:27] INFO root fetch - processPackages [pbt-simple]: Downloading https://files.pythonhosted.org/packages/cd/f7/03169e7605adbfe7e1f1a686a312fc8ecd6b3b48d4927b53d15df0a70bcc/pbt_simple-1.6.3.tar.gz
+[2024-04-02 01:40:27] INFO root fetch - processPackages [learningmachine]: executing diffoscope
+[2024-04-02 01:40:27] INFO root fetch - processPackages [learningmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learningmachine-0.2.3.tar.gz tmp/learningmachine-1.1.0.tar.gz --markdown 20240402/l/learningmachine/0.2.3-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 01:40:27] INFO root fetch - processPackages [heaserver]: executing diffoscope
+[2024-04-02 01:40:27] INFO root fetch - processPackages [heaserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/heaserver-1.1.1.tar.gz tmp/heaserver-1.1.2.tar.gz --markdown 20240402/h/heaserver/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-02 01:40:27] INFO root fetch - processPackages [pbt-simple]: executing diffoscope
+[2024-04-02 01:40:27] INFO root fetch - processPackages [pbt-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbt_simple-1.6.2.tar.gz tmp/pbt_simple-1.6.3.tar.gz --markdown 20240402/p/pbt-simple/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2024-04-02 01:40:27] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.2.0.tar.gz]
+[2024-04-02 01:40:27] INFO root fetch - processPackages [OperationBattleshipCommonUtilities]: Remove: archive file [/home/abi/fetcher/tmp/OperationBattleshipCommonUtilities-0.3.0.tar.gz]
+[2024-04-02 01:40:27] INFO root fetch - main [MainThread]: End processing [OperationBattleshipCommonUtilities]: success
+[2024-04-02 01:40:28] INFO root fetch - processPackages [learningmachine]: Remove: archive file [/home/abi/fetcher/tmp/learningmachine-0.2.3.tar.gz]
+[2024-04-02 01:40:28] INFO root fetch - processPackages [learningmachine]: Remove: archive file [/home/abi/fetcher/tmp/learningmachine-1.1.0.tar.gz]
+[2024-04-02 01:40:28] INFO root fetch - main [MainThread]: End processing [learningmachine]: success
+[2024-04-02 01:40:28] INFO root fetch - processPackages [pbt-simple]: Remove: archive file [/home/abi/fetcher/tmp/pbt_simple-1.6.2.tar.gz]
+[2024-04-02 01:40:28] INFO root fetch - processPackages [pbt-simple]: Remove: archive file [/home/abi/fetcher/tmp/pbt_simple-1.6.3.tar.gz]
+[2024-04-02 01:40:28] INFO root fetch - main [MainThread]: End processing [pbt-simple]: success
+[2024-04-02 01:40:28] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.1.1.tar.gz]
+[2024-04-02 01:40:28] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.1.2.tar.gz]
+[2024-04-02 01:40:28] INFO root fetch - main [MainThread]: End processing [heaserver]: success
+[2024-04-02 01:40:28] INFO root fetch - main [MainThread]: Store serial: [22577221]
