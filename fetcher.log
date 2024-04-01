@@ -1669,3 +1669,57 @@
 [2024-04-02 01:40:28] INFO root fetch - processPackages [heaserver]: Remove: archive file [/home/abi/fetcher/tmp/heaserver-1.1.2.tar.gz]
 [2024-04-02 01:40:28] INFO root fetch - main [MainThread]: End processing [heaserver]: success
 [2024-04-02 01:40:28] INFO root fetch - main [MainThread]: Store serial: [22577221]
+[2024-04-02 01:42:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577221]
+[2024-04-02 01:42:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pbt-simple
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: whatdido
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qa-metrics
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: eaf-base-api
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: saphira
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gapper
+[2024-04-02 01:42:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: parsy-stubs
+[2024-04-02 01:42:37] WARNING root fetch - processPackages [whatdido]: Skipping, unable to determine old version
+[2024-04-02 01:42:37] INFO root fetch - main [MainThread]: End processing [whatdido] error
+[2024-04-02 01:42:37] WARNING root fetch - processPackages [parsy-stubs]: Skipping, unable to determine old version
+[2024-04-02 01:42:37] INFO root fetch - main [MainThread]: End processing [parsy-stubs] error
+[2024-04-02 01:42:37] INFO root fetch - processPackages [pbt-simple]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-02 01:42:37] INFO root fetch - processPackages [qa-metrics]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 01:42:37] INFO root fetch - processPackages [eaf-base-api]: New version: [1.5] Old Version: [1.3]
+[2024-04-02 01:42:37] INFO root fetch - processPackages [pbt-simple]: Downloading https://files.pythonhosted.org/packages/27/da/aa267254a130ecbb1c465f76aa1c4851abadb37bacf92ff05442716dc6d3/pbt_simple-1.6.2.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [saphira]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 01:42:37] INFO root fetch - processPackages [gapper]: New version: [1.3.6] Old Version: [1.3.5]
+[2024-04-02 01:42:37] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/fe/b8/550db9db31f7ab28c1505a8bf2cb02a86a911f9b3681197ecfc0598593b2/qa_metrics-0.1.8.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [eaf-base-api]: Downloading https://files.pythonhosted.org/packages/c4/23/7682fa44c1baf65a694f04f3e4ce14c54e5818d979ed09ad0dc2eb43d106/eaf_base_api-1.3.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/43/e6/9efe9128ec01b92fadb68b3c6263b0078bb8d1e23b2a5665ad1910d2c423/qa_metrics-0.1.9.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/c8/05/ecdef3ff5ae2cbfcb2b7da96dbe4997f5f9ec0d08afc796c8f8339363812/saphira-0.0.1.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [pbt-simple]: Downloading https://files.pythonhosted.org/packages/cd/f7/03169e7605adbfe7e1f1a686a312fc8ecd6b3b48d4927b53d15df0a70bcc/pbt_simple-1.6.3.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [gapper]: Downloading https://files.pythonhosted.org/packages/37/93/dfeee073bf625aad10340cda9250dfa0415979b4d3729921579688e8584d/gapper-1.3.5.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-04-02 01:42:37] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.1.8.tar.gz tmp/qa_metrics-0.1.9.tar.gz --markdown 20240402/q/qa-metrics/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 01:42:37] INFO root fetch - processPackages [pbt-simple]: executing diffoscope
+[2024-04-02 01:42:37] INFO root fetch - processPackages [pbt-simple]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pbt_simple-1.6.2.tar.gz tmp/pbt_simple-1.6.3.tar.gz --markdown 20240402/p/pbt-simple/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2024-04-02 01:42:37] INFO root fetch - processPackages [eaf-base-api]: Downloading https://files.pythonhosted.org/packages/b1/04/e61cf41c1b2cca5b4051f9e880fde879776668b216e651dd6a0a0638f7d6/eaf_base_api-1.5.tar.gz
+[2024-04-02 01:42:37] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/65/16/07a6debb9d196e85c530fb0726df4887a4c00936892a7490c335a8597664/saphira-0.0.2.tar.gz
+[2024-04-02 01:42:38] INFO root fetch - processPackages [gapper]: Downloading https://files.pythonhosted.org/packages/d8/82/6bc61e3a6bc3f0034b48c0cef586f4b739fcdda0d64728f011fbf7bdca2c/gapper-1.3.6.tar.gz
+[2024-04-02 01:42:38] INFO root fetch - processPackages [eaf-base-api]: executing diffoscope
+[2024-04-02 01:42:38] INFO root fetch - processPackages [eaf-base-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eaf_base_api-1.3.tar.gz tmp/eaf_base_api-1.5.tar.gz --markdown 20240402/e/eaf-base-api/1.3-1.5/diff.md --exclude *.pyd
+[2024-04-02 01:42:38] INFO root fetch - processPackages [saphira]: executing diffoscope
+[2024-04-02 01:42:38] INFO root fetch - processPackages [saphira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saphira-0.0.1.tar.gz tmp/saphira-0.0.2.tar.gz --markdown 20240402/s/saphira/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 01:42:38] INFO root fetch - processPackages [gapper]: executing diffoscope
+[2024-04-02 01:42:38] INFO root fetch - processPackages [gapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gapper-1.3.5.tar.gz tmp/gapper-1.3.6.tar.gz --markdown 20240402/g/gapper/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2024-04-02 01:42:38] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.1.8.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.1.9.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-04-02 01:42:38] INFO root fetch - processPackages [pbt-simple]: Remove: archive file [/home/abi/fetcher/tmp/pbt_simple-1.6.2.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - processPackages [pbt-simple]: Remove: archive file [/home/abi/fetcher/tmp/pbt_simple-1.6.3.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - main [MainThread]: End processing [pbt-simple]: success
+[2024-04-02 01:42:38] INFO root fetch - processPackages [eaf-base-api]: Remove: archive file [/home/abi/fetcher/tmp/eaf_base_api-1.3.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - processPackages [eaf-base-api]: Remove: archive file [/home/abi/fetcher/tmp/eaf_base_api-1.5.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - main [MainThread]: End processing [eaf-base-api]: success
+[2024-04-02 01:42:38] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.1.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.2.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - main [MainThread]: End processing [saphira]: success
+[2024-04-02 01:42:38] INFO root fetch - processPackages [gapper]: Remove: archive file [/home/abi/fetcher/tmp/gapper-1.3.5.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - processPackages [gapper]: Remove: archive file [/home/abi/fetcher/tmp/gapper-1.3.6.tar.gz]
+[2024-04-02 01:42:38] INFO root fetch - main [MainThread]: End processing [gapper]: success
+[2024-04-02 01:42:38] INFO root fetch - main [MainThread]: Store serial: [22577242]
