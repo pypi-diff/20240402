@@ -426,3 +426,45 @@
 [2024-04-02 00:24:42] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.4b20231227.tar.gz]
 [2024-04-02 00:24:43] INFO root fetch - main [MainThread]: End processing [tmnt]: success
 [2024-04-02 00:24:43] INFO root fetch - main [MainThread]: Store serial: [22576639]
+[2024-04-02 00:26:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576639]
+[2024-04-02 00:26:51] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 00:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dateroll
+[2024-04-02 00:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: q2gui
+[2024-04-02 00:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-common
+[2024-04-02 00:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pycromanager
+[2024-04-02 00:26:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hack4u-promixion
+[2024-04-02 00:26:51] INFO root fetch - processPackages [dateroll]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 00:26:51] INFO root fetch - processPackages [dateroll]: Downloading https://files.pythonhosted.org/packages/43/3d/17c3d90500b073164811b8a5168f83cb38a90cbb8202639f9ae73b815bb0/dateroll-0.1.8-py3-none-any.whl
+[2024-04-02 00:26:51] INFO root fetch - processPackages [dbt-common]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2024-04-02 00:26:51] WARNING root fetch - processPackages [hack4u-promixion]: Skipping, unable to determine old version
+[2024-04-02 00:26:51] INFO root fetch - main [MainThread]: End processing [hack4u-promixion] error
+[2024-04-02 00:26:51] INFO root fetch - processPackages [pycromanager]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 00:26:51] INFO root fetch - processPackages [q2gui]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dbt-common]: Downloading https://files.pythonhosted.org/packages/38/95/dff587e453e886ac5f7a3366f7987934a68960149e70a15d8c6857d552c8/dbt_common-1.0.0b1.tar.gz
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dateroll]: Downloading https://files.pythonhosted.org/packages/df/b0/1d7806f483e8e247450adef2474c30bf2323ddcd62a2e1fac723c6415e69/dateroll-0.1.9-py3-none-any.whl
+[2024-04-02 00:26:52] INFO root fetch - processPackages [pycromanager]: Downloading https://files.pythonhosted.org/packages/d6/d9/1ce85c91ef199b7d1708815ec30a2d301885401029eedbebca5beefd61a3/pycromanager-0.8.0.tar.gz
+[2024-04-02 00:26:52] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/97/15/9a5e27167a28b919a9cddce6abb2321351e6113cdec2d4d638ba8252564d/q2gui-0.1.98.tar.gz
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dateroll]: executing diffoscope
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dateroll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dateroll-0.1.8-py3-none-any.whl.zip tmp/dateroll-0.1.9-py3-none-any.whl.zip --markdown 20240402/d/dateroll/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dbt-common]: Downloading https://files.pythonhosted.org/packages/8c/76/df645d6e3189de7f859fa240c41e306b688289e9f2725c9ba4c9cf4c7b21/dbt_common-1.0.0b2.tar.gz
+[2024-04-02 00:26:52] INFO root fetch - processPackages [q2gui]: Downloading https://files.pythonhosted.org/packages/58/3e/df0471f53d74fc7d0d5885ad90423ae0ffbcaec42bcc77a0b466ed7fef7f/q2gui-0.1.99.tar.gz
+[2024-04-02 00:26:52] INFO root fetch - processPackages [pycromanager]: Downloading https://files.pythonhosted.org/packages/e5/5d/188606415b768217f9830aa158f48062823ef69352eac8938f194b7b35d6/pycromanager-0.9.0.tar.gz
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dbt-common]: executing diffoscope
+[2024-04-02 00:26:52] INFO root fetch - processPackages [dbt-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_common-1.0.0b1.tar.gz tmp/dbt_common-1.0.0b2.tar.gz --markdown 20240402/d/dbt-common/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2024-04-02 00:26:52] INFO root fetch - processPackages [pycromanager]: executing diffoscope
+[2024-04-02 00:26:52] INFO root fetch - processPackages [pycromanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycromanager-0.8.0.tar.gz tmp/pycromanager-0.9.0.tar.gz --markdown 20240402/p/pycromanager/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 00:26:53] INFO root fetch - processPackages [q2gui]: executing diffoscope
+[2024-04-02 00:26:53] INFO root fetch - processPackages [q2gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/q2gui-0.1.98.tar.gz tmp/q2gui-0.1.99.tar.gz --markdown 20240402/q/q2gui/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 00:26:53] INFO root fetch - processPackages [dateroll]: Remove: archive file [/home/abi/fetcher/tmp/dateroll-0.1.8-py3-none-any.whl.zip]
+[2024-04-02 00:26:53] INFO root fetch - processPackages [dateroll]: Remove: archive file [/home/abi/fetcher/tmp/dateroll-0.1.9-py3-none-any.whl.zip]
+[2024-04-02 00:26:53] INFO root fetch - main [MainThread]: End processing [dateroll]: success
+[2024-04-02 00:26:53] INFO root fetch - processPackages [dbt-common]: Remove: archive file [/home/abi/fetcher/tmp/dbt_common-1.0.0b1.tar.gz]
+[2024-04-02 00:26:53] INFO root fetch - processPackages [dbt-common]: Remove: archive file [/home/abi/fetcher/tmp/dbt_common-1.0.0b2.tar.gz]
+[2024-04-02 00:26:53] INFO root fetch - main [MainThread]: End processing [dbt-common]: success
+[2024-04-02 00:26:53] INFO root fetch - processPackages [pycromanager]: Remove: archive file [/home/abi/fetcher/tmp/pycromanager-0.8.0.tar.gz]
+[2024-04-02 00:26:53] INFO root fetch - processPackages [pycromanager]: Remove: archive file [/home/abi/fetcher/tmp/pycromanager-0.9.0.tar.gz]
+[2024-04-02 00:26:53] INFO root fetch - main [MainThread]: End processing [pycromanager]: success
+[2024-04-02 00:26:53] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.98.tar.gz]
+[2024-04-02 00:26:53] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
+[2024-04-02 00:26:53] INFO root fetch - main [MainThread]: End processing [q2gui]: success
+[2024-04-02 00:26:53] INFO root fetch - main [MainThread]: Store serial: [22576656]
