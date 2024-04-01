@@ -1882,3 +1882,45 @@
 [2024-04-02 01:51:21] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
 [2024-04-02 01:51:21] INFO root fetch - main [MainThread]: End processing [usearch]: success
 [2024-04-02 01:51:21] INFO root fetch - main [MainThread]: Store serial: [22577291]
+[2024-04-02 01:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577291]
+[2024-04-02 01:53:29] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 01:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usearch
+[2024-04-02 01:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline-cloud-for-keyshot
+[2024-04-02 01:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-characters
+[2024-04-02 01:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-vault
+[2024-04-02 01:53:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ckanext-ingest
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ai-characters]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-02 01:53:30] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ckanext-ingest]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-02 01:53:30] WARNING root fetch - processPackages [deadline-cloud-for-keyshot]: Skipping, unable to determine old version
+[2024-04-02 01:53:30] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-keyshot] error
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/17/36/80ed668714ae652079f35b4db8205137560b351f50be89a330bbf0b6ccb0/ai_characters-1.2.0.tar.gz
+[2024-04-02 01:53:30] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-02 01:53:30] INFO root fetch - processPackages [vector-vault]: New version: [4.2.4] Old Version: [4.2.3]
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ckanext-ingest]: Downloading https://files.pythonhosted.org/packages/b0/25/bdbe91f3378303c30507cd30cb66dfe0864122464cfb9fab2ac0482b03f4/ckanext-ingest-1.3.0.tar.gz
+[2024-04-02 01:53:30] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-02 01:53:30] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/fc/d9/8eca9543818bd8f9059b2ca248c20fd5fde97356fd2a33134450381f3e46/vector_vault-4.2.3.tar.gz
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/dc/ee/d227a445a2f2ded32f8ea104a5e669b8c3260de4060951761523e70b8eca/ai_characters-1.3.0.tar.gz
+[2024-04-02 01:53:30] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-02 01:53:30] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240402/u/usearch/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ckanext-ingest]: Downloading https://files.pythonhosted.org/packages/fe/68/2b27af286a3a4fa679fae2672a7a5c750c18475fa7a07e7e5a68e5a79903/ckanext-ingest-1.4.0.tar.gz
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ai-characters]: executing diffoscope
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ai-characters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_characters-1.2.0.tar.gz tmp/ai_characters-1.3.0.tar.gz --markdown 20240402/a/ai-characters/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ckanext-ingest]: executing diffoscope
+[2024-04-02 01:53:30] INFO root fetch - processPackages [ckanext-ingest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ckanext-ingest-1.3.0.tar.gz tmp/ckanext-ingest-1.4.0.tar.gz --markdown 20240402/c/ckanext-ingest/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-02 01:53:30] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/0d/90/e1755f7bd70add0c1e20b5eb67af85fdc041fc0b9432eecbb73ae996ceef/vector_vault-4.2.4.tar.gz
+[2024-04-02 01:53:31] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2024-04-02 01:53:31] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-4.2.3.tar.gz tmp/vector_vault-4.2.4.tar.gz --markdown 20240402/v/vector-vault/4.2.3-4.2.4/diff.md --exclude *.pyd
+[2024-04-02 01:53:31] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.2.0.tar.gz]
+[2024-04-02 01:53:31] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.3.0.tar.gz]
+[2024-04-02 01:53:31] INFO root fetch - main [MainThread]: End processing [ai-characters]: success
+[2024-04-02 01:53:31] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 01:53:31] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 01:53:31] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-02 01:53:31] INFO root fetch - processPackages [ckanext-ingest]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ingest-1.3.0.tar.gz]
+[2024-04-02 01:53:31] INFO root fetch - processPackages [ckanext-ingest]: Remove: archive file [/home/abi/fetcher/tmp/ckanext-ingest-1.4.0.tar.gz]
+[2024-04-02 01:53:31] INFO root fetch - main [MainThread]: End processing [ckanext-ingest]: success
+[2024-04-02 01:53:31] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.2.3.tar.gz]
+[2024-04-02 01:53:31] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.2.4.tar.gz]
+[2024-04-02 01:53:31] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2024-04-02 01:53:31] INFO root fetch - main [MainThread]: Store serial: [22577358]
