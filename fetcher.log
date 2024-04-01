@@ -1098,3 +1098,30 @@
 [2024-04-02 01:03:10] INFO root fetch - processPackages [traffic-taffy]: Remove: archive file [/home/abi/fetcher/tmp/traffic_taffy-0.8.5.tar.gz]
 [2024-04-02 01:03:10] INFO root fetch - main [MainThread]: End processing [traffic-taffy]: success
 [2024-04-02 01:03:10] INFO root fetch - main [MainThread]: Store serial: [22576996]
+[2024-04-02 01:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576996]
+[2024-04-02 01:05:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 01:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NumberCommutation
+[2024-04-02 01:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awkward
+[2024-04-02 01:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pureml-llm
+[2024-04-02 01:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sajjad
+[2024-04-02 01:05:18] INFO root fetch - processPackages [sajjad]: New version: [1.5] Old Version: [1.4]
+[2024-04-02 01:05:19] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/39/29/fec53ee1205d5b431db8ffecadc9fa27326ded3eac231ee82ebd92269d96/sajjad-1.4.tar.gz
+[2024-04-02 01:05:19] WARNING root fetch - processPackages [NumberCommutation]: Skipping, unable to determine old version
+[2024-04-02 01:05:19] INFO root fetch - main [MainThread]: End processing [NumberCommutation] error
+[2024-04-02 01:05:19] WARNING root fetch - processPackages [pureml-llm]: Skipping, unable to determine old version
+[2024-04-02 01:05:19] INFO root fetch - main [MainThread]: End processing [pureml-llm] error
+[2024-04-02 01:05:19] INFO root fetch - processPackages [awkward]: New version: [2.6.3rc2] Old Version: [2.6.3]
+[2024-04-02 01:05:19] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/43/1a/2b66a35656753a0a4878d278639bc18dd800772c4b41e40aa76ee6e0dbe8/awkward-2.6.3.tar.gz
+[2024-04-02 01:05:19] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/46/54/8792272cca3ecc9abc7cedd86163c916255f53660f37b2d04bcd463ef70b/sajjad-1.5.tar.gz
+[2024-04-02 01:05:19] INFO root fetch - processPackages [sajjad]: executing diffoscope
+[2024-04-02 01:05:19] INFO root fetch - processPackages [sajjad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sajjad-1.4.tar.gz tmp/sajjad-1.5.tar.gz --markdown 20240402/s/sajjad/1.4-1.5/diff.md --exclude *.pyd
+[2024-04-02 01:05:19] INFO root fetch - processPackages [awkward]: Downloading https://files.pythonhosted.org/packages/0f/42/4cbb76b2d4cc414cde47006f157dfcf99effd1defcd67e4ea6eed3a73f8a/awkward-2.6.3rc2.tar.gz
+[2024-04-02 01:05:20] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.4.tar.gz]
+[2024-04-02 01:05:20] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.5.tar.gz]
+[2024-04-02 01:05:20] INFO root fetch - main [MainThread]: End processing [sajjad]: success
+[2024-04-02 01:05:20] INFO root fetch - processPackages [awkward]: executing diffoscope
+[2024-04-02 01:05:20] INFO root fetch - processPackages [awkward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awkward-2.6.3.tar.gz tmp/awkward-2.6.3rc2.tar.gz --markdown 20240402/a/awkward/2.6.3-2.6.3rc2/diff.md --exclude *.pyd
+[2024-04-02 01:05:28] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.6.3.tar.gz]
+[2024-04-02 01:05:28] INFO root fetch - processPackages [awkward]: Remove: archive file [/home/abi/fetcher/tmp/awkward-2.6.3rc2.tar.gz]
+[2024-04-02 01:05:28] INFO root fetch - main [MainThread]: End processing [awkward]: success
+[2024-04-02 01:05:28] INFO root fetch - main [MainThread]: Store serial: [22577018]
