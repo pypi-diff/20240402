@@ -845,3 +845,45 @@
 [2024-04-02 00:49:18] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
 [2024-04-02 00:49:18] INFO root fetch - main [MainThread]: End processing [freegenius]: success
 [2024-04-02 00:49:18] INFO root fetch - main [MainThread]: Store serial: [22576846]
+[2024-04-02 00:51:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576846]
+[2024-04-02 00:51:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: parsy-stubs
+[2024-04-02 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CustomChat
+[2024-04-02 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nuon
+[2024-04-02 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seeq-spy
+[2024-04-02 00:51:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kafi
+[2024-04-02 00:51:27] INFO root fetch - processPackages [CustomChat]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-02 00:51:27] INFO root fetch - processPackages [kafi]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 00:51:27] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/6b/51/71daa02c650072d68de8e2ec7c3b776acc8fca864ccf8eed83882ad0a53c/CustomChat-1.0.4.tar.gz
+[2024-04-02 00:51:27] INFO root fetch - processPackages [seeq-spy]: New version: [192.7] Old Version: [192.6]
+[2024-04-02 00:51:27] WARNING root fetch - processPackages [parsy-stubs]: Skipping, unable to determine old version
+[2024-04-02 00:51:27] INFO root fetch - main [MainThread]: End processing [parsy-stubs] error
+[2024-04-02 00:51:27] INFO root fetch - processPackages [nuon]: New version: [0.19.88] Old Version: [0.19.87]
+[2024-04-02 00:51:28] INFO root fetch - processPackages [kafi]: Downloading https://files.pythonhosted.org/packages/da/3e/25fd30a6283d67aa2a55f884ebbbb56eb66519f0eb128982ad9f893bb23e/kafi-0.0.8.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [seeq-spy]: Downloading https://files.pythonhosted.org/packages/99/67/c477e703017aa1fee5abd6e036c1082235304dec50d364c0110a064c045e/seeq-spy-192.6.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/10/e1/c80241a990a3022a88855df984318dd0e4f1d341727e6221068892acab9b/nuon-0.19.87.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [CustomChat]: Downloading https://files.pythonhosted.org/packages/58/5e/f109c1723dc280136cf08d45d81b44b66b109cf2a31d4b3252a84bc0ecd7/CustomChat-1.0.5.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [CustomChat]: executing diffoscope
+[2024-04-02 00:51:28] INFO root fetch - processPackages [CustomChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CustomChat-1.0.4.tar.gz tmp/CustomChat-1.0.5.tar.gz --markdown 20240402/C/CustomChat/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-02 00:51:28] INFO root fetch - processPackages [nuon]: Downloading https://files.pythonhosted.org/packages/04/72/2a330fe129663376c872d649c386e26dd209995888ee9c6420e0ca77e538/nuon-0.19.88.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [kafi]: Downloading https://files.pythonhosted.org/packages/28/09/c69fb3ad9c62203cac45129bc83e7dda767df785915a33ce954e116ad2cf/kafi-0.0.9.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [kafi]: executing diffoscope
+[2024-04-02 00:51:28] INFO root fetch - processPackages [kafi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kafi-0.0.8.tar.gz tmp/kafi-0.0.9.tar.gz --markdown 20240402/k/kafi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 00:51:28] INFO root fetch - processPackages [nuon]: executing diffoscope
+[2024-04-02 00:51:28] INFO root fetch - processPackages [nuon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuon-0.19.87.tar.gz tmp/nuon-0.19.88.tar.gz --markdown 20240402/n/nuon/0.19.87-0.19.88/diff.md --exclude *.pyd
+[2024-04-02 00:51:28] INFO root fetch - processPackages [seeq-spy]: Downloading https://files.pythonhosted.org/packages/fe/b4/3fc1a68b049d102a0fc7bf9c0e4bf89f7862a969d0980bfca4a3ff1f09d7/seeq-spy-192.7.tar.gz
+[2024-04-02 00:51:28] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.4.tar.gz]
+[2024-04-02 00:51:28] INFO root fetch - processPackages [CustomChat]: Remove: archive file [/home/abi/fetcher/tmp/CustomChat-1.0.5.tar.gz]
+[2024-04-02 00:51:28] INFO root fetch - main [MainThread]: End processing [CustomChat]: success
+[2024-04-02 00:51:29] INFO root fetch - processPackages [kafi]: Remove: archive file [/home/abi/fetcher/tmp/kafi-0.0.8.tar.gz]
+[2024-04-02 00:51:29] INFO root fetch - processPackages [kafi]: Remove: archive file [/home/abi/fetcher/tmp/kafi-0.0.9.tar.gz]
+[2024-04-02 00:51:29] INFO root fetch - main [MainThread]: End processing [kafi]: success
+[2024-04-02 00:51:29] INFO root fetch - processPackages [seeq-spy]: executing diffoscope
+[2024-04-02 00:51:29] INFO root fetch - processPackages [seeq-spy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-spy-192.6.tar.gz tmp/seeq-spy-192.7.tar.gz --markdown 20240402/s/seeq-spy/192.6-192.7/diff.md --exclude *.pyd
+[2024-04-02 00:51:30] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.87.tar.gz]
+[2024-04-02 00:51:30] INFO root fetch - processPackages [nuon]: Remove: archive file [/home/abi/fetcher/tmp/nuon-0.19.88.tar.gz]
+[2024-04-02 00:51:30] INFO root fetch - main [MainThread]: End processing [nuon]: success
+[2024-04-02 00:51:31] INFO root fetch - processPackages [seeq-spy]: Remove: archive file [/home/abi/fetcher/tmp/seeq-spy-192.6.tar.gz]
+[2024-04-02 00:51:31] INFO root fetch - processPackages [seeq-spy]: Remove: archive file [/home/abi/fetcher/tmp/seeq-spy-192.7.tar.gz]
+[2024-04-02 00:51:31] INFO root fetch - main [MainThread]: End processing [seeq-spy]: success
+[2024-04-02 00:51:31] INFO root fetch - main [MainThread]: Store serial: [22576866]
