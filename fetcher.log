@@ -1924,3 +1924,51 @@
 [2024-04-02 01:53:31] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-4.2.4.tar.gz]
 [2024-04-02 01:53:31] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
 [2024-04-02 01:53:31] INFO root fetch - main [MainThread]: Store serial: [22577358]
+[2024-04-02 01:55:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577358]
+[2024-04-02 01:55:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 01:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aic-tools
+[2024-04-02 01:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rubpy
+[2024-04-02 01:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qa-metrics
+[2024-04-02 01:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xnxx-api
+[2024-04-02 01:55:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai-characters
+[2024-04-02 01:55:40] INFO root fetch - processPackages [qa-metrics]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 01:55:40] INFO root fetch - processPackages [ai-characters]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-02 01:55:40] INFO root fetch - processPackages [xnxx-api]: New version: [1.3] Old Version: [1.2]
+[2024-04-02 01:55:40] INFO root fetch - processPackages [aic-tools]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-02 01:55:40] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/a5/93/0d36ee22760922b70b165e9eb563360be61541a6c16fbeb2e78f97cd2a0f/qa_metrics-0.2.1.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/dc/ee/d227a445a2f2ded32f8ea104a5e669b8c3260de4060951761523e70b8eca/ai_characters-1.3.0.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [rubpy]: New version: [7.0.1b0] Old Version: [7.0.0]
+[2024-04-02 01:55:40] INFO root fetch - processPackages [xnxx-api]: Downloading https://files.pythonhosted.org/packages/02/b1/ec6cc4614ea67c6fd7b380a5ab231250f1c21a96062f002138d9d07b49ce/xnxx_api-1.2.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [aic-tools]: Downloading https://files.pythonhosted.org/packages/5f/a9/934465da35cc981e72f186c0233c96c95eb8668ad1ca27f6af4b0c714070/aic_tools-1.0.0.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/4c/2e/b331a71f5f44cad15ce2c5c228b55520f98260f90b7baad7c427d191ae40/rubpy-7.0.0.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/ce/f4/d74f9f85faae3dc377d50e74396569241edf9038b37bccdbda467b9c6307/qa_metrics-0.2.2.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/c3/5d/9d146d5c2bc1164a8b2638f6556426dbfc949a8e42edcf858263596d3ead/ai_characters-1.4.0.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-04-02 01:55:40] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.2.1.tar.gz tmp/qa_metrics-0.2.2.tar.gz --markdown 20240402/q/qa-metrics/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 01:55:40] INFO root fetch - processPackages [xnxx-api]: Downloading https://files.pythonhosted.org/packages/1e/37/cc7fbf69d834f1d3e9e830d394d22eecdc97ffb60dc4c1913b02d7310230/xnxx_api-1.3.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [ai-characters]: executing diffoscope
+[2024-04-02 01:55:40] INFO root fetch - processPackages [ai-characters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_characters-1.3.0.tar.gz tmp/ai_characters-1.4.0.tar.gz --markdown 20240402/a/ai-characters/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-02 01:55:40] INFO root fetch - processPackages [aic-tools]: Downloading https://files.pythonhosted.org/packages/7e/cd/f3cd49083e7ba8d4b58962e21a67548ef546e915f23468c8307182fb3bcb/aic_tools-1.1.0.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [rubpy]: Downloading https://files.pythonhosted.org/packages/ab/78/dd4259e3b5d945f17f11167746e62f659ee856fe5a2eb33fba5d23ea9cb5/rubpy-7.0.1b0.tar.gz
+[2024-04-02 01:55:40] INFO root fetch - processPackages [xnxx-api]: executing diffoscope
+[2024-04-02 01:55:40] INFO root fetch - processPackages [xnxx-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xnxx_api-1.2.tar.gz tmp/xnxx_api-1.3.tar.gz --markdown 20240402/x/xnxx-api/1.2-1.3/diff.md --exclude *.pyd
+[2024-04-02 01:55:40] INFO root fetch - processPackages [aic-tools]: executing diffoscope
+[2024-04-02 01:55:40] INFO root fetch - processPackages [aic-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aic_tools-1.0.0.tar.gz tmp/aic_tools-1.1.0.tar.gz --markdown 20240402/a/aic-tools/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 01:55:40] INFO root fetch - processPackages [rubpy]: executing diffoscope
+[2024-04-02 01:55:40] INFO root fetch - processPackages [rubpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rubpy-7.0.0.tar.gz tmp/rubpy-7.0.1b0.tar.gz --markdown 20240402/r/rubpy/7.0.0-7.0.1b0/diff.md --exclude *.pyd
+[2024-04-02 01:55:41] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.1.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.2.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-04-02 01:55:41] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.3.0.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.4.0.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - main [MainThread]: End processing [ai-characters]: success
+[2024-04-02 01:55:41] INFO root fetch - processPackages [xnxx-api]: Remove: archive file [/home/abi/fetcher/tmp/xnxx_api-1.2.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - processPackages [xnxx-api]: Remove: archive file [/home/abi/fetcher/tmp/xnxx_api-1.3.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - main [MainThread]: End processing [xnxx-api]: success
+[2024-04-02 01:55:41] INFO root fetch - processPackages [aic-tools]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools-1.0.0.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - processPackages [aic-tools]: Remove: archive file [/home/abi/fetcher/tmp/aic_tools-1.1.0.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - main [MainThread]: End processing [aic-tools]: success
+[2024-04-02 01:55:41] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.0.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - processPackages [rubpy]: Remove: archive file [/home/abi/fetcher/tmp/rubpy-7.0.1b0.tar.gz]
+[2024-04-02 01:55:41] INFO root fetch - main [MainThread]: End processing [rubpy]: success
+[2024-04-02 01:55:41] INFO root fetch - main [MainThread]: Store serial: [22577372]
