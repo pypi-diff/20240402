@@ -1194,3 +1194,12 @@
 [2024-04-02 01:07:40] INFO root fetch - processPackages [paasta-tools]: Remove: archive file [/home/abi/fetcher/tmp/paasta-tools-0.92.1.tar.gz]
 [2024-04-02 01:07:40] INFO root fetch - main [MainThread]: End processing [paasta-tools]: success
 [2024-04-02 01:07:40] INFO root fetch - main [MainThread]: Store serial: [22577049]
+[2024-04-02 01:09:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577049]
+[2024-04-02 01:09:49] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maq
+[2024-04-02 01:09:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: decthings-model
+[2024-04-02 01:09:49] WARNING root fetch - processPackages [decthings-model]: Skipping, unable to determine old version
+[2024-04-02 01:09:49] INFO root fetch - main [MainThread]: End processing [decthings-model] error
+[2024-04-02 01:09:49] WARNING root fetch - processPackages [maq]: Skipping, unable to determine old version
+[2024-04-02 01:09:49] INFO root fetch - main [MainThread]: End processing [maq] error
+[2024-04-02 01:09:49] INFO root fetch - main [MainThread]: Store serial: [22577063]
