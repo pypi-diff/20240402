@@ -468,3 +468,24 @@
 [2024-04-02 00:26:53] INFO root fetch - processPackages [q2gui]: Remove: archive file [/home/abi/fetcher/tmp/q2gui-0.1.99.tar.gz]
 [2024-04-02 00:26:53] INFO root fetch - main [MainThread]: End processing [q2gui]: success
 [2024-04-02 00:26:53] INFO root fetch - main [MainThread]: Store serial: [22576656]
+[2024-04-02 00:28:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576656]
+[2024-04-02 00:29:02] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 00:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fabsync
+[2024-04-02 00:29:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zz-pix
+[2024-04-02 00:29:02] INFO root fetch - processPackages [zz-pix]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 00:29:02] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/cd/8f/e218ea99553f3490f4e9ea56edaf3750d5393a6b1cf5a96208c457115b7d/zz-pix-0.0.3.tar.gz
+[2024-04-02 00:29:02] INFO root fetch - processPackages [fabsync]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-02 00:29:02] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/11/e8/ab2595b1ae0cfa726fbc43663e736fa28d2ff354676c084b2189061acbb2/zz-pix-0.0.4.tar.gz
+[2024-04-02 00:29:02] INFO root fetch - processPackages [fabsync]: Downloading https://files.pythonhosted.org/packages/e4/90/8e3087e43e9eaabf33e49f785a08effb2d1426b06b632604f11b2dd124e8/fabsync-1.1.0.tar.gz
+[2024-04-02 00:29:02] INFO root fetch - processPackages [zz-pix]: executing diffoscope
+[2024-04-02 00:29:02] INFO root fetch - processPackages [zz-pix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zz-pix-0.0.3.tar.gz tmp/zz-pix-0.0.4.tar.gz --markdown 20240402/z/zz-pix/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 00:29:03] INFO root fetch - processPackages [fabsync]: Downloading https://files.pythonhosted.org/packages/9a/e5/9e0aca5ff922e48c805cafc88f1dc71a599ae9bb040c5509b2b715bd0f4b/fabsync-1.2.0.tar.gz
+[2024-04-02 00:29:03] INFO root fetch - processPackages [fabsync]: executing diffoscope
+[2024-04-02 00:29:03] INFO root fetch - processPackages [fabsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabsync-1.1.0.tar.gz tmp/fabsync-1.2.0.tar.gz --markdown 20240402/f/fabsync/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 00:29:03] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.3.tar.gz]
+[2024-04-02 00:29:03] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.4.tar.gz]
+[2024-04-02 00:29:03] INFO root fetch - main [MainThread]: End processing [zz-pix]: success
+[2024-04-02 00:29:03] INFO root fetch - processPackages [fabsync]: Remove: archive file [/home/abi/fetcher/tmp/fabsync-1.1.0.tar.gz]
+[2024-04-02 00:29:03] INFO root fetch - processPackages [fabsync]: Remove: archive file [/home/abi/fetcher/tmp/fabsync-1.2.0.tar.gz]
+[2024-04-02 00:29:03] INFO root fetch - main [MainThread]: End processing [fabsync]: success
+[2024-04-02 00:29:03] INFO root fetch - main [MainThread]: Store serial: [22576662]
