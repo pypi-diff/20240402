@@ -803,3 +803,15 @@
 [2024-04-02 00:44:58] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2024.4.1.tar.gz]
 [2024-04-02 00:44:58] INFO root fetch - main [MainThread]: End processing [parsl]: success
 [2024-04-02 00:44:58] INFO root fetch - main [MainThread]: Store serial: [22576832]
+[2024-04-02 00:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576832]
+[2024-04-02 00:47:07] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 00:47:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-characters
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/30/8f/740b482174a4514d70e11f89a5b30694342adec319edb5b76e81eb0d3bf6/ai_characters-1.1.0.tar.gz
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: Downloading https://files.pythonhosted.org/packages/17/36/80ed668714ae652079f35b4db8205137560b351f50be89a330bbf0b6ccb0/ai_characters-1.2.0.tar.gz
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: executing diffoscope
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_characters-1.1.0.tar.gz tmp/ai_characters-1.2.0.tar.gz --markdown 20240402/a/ai-characters/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.1.0.tar.gz]
+[2024-04-02 00:47:08] INFO root fetch - processPackages [ai-characters]: Remove: archive file [/home/abi/fetcher/tmp/ai_characters-1.2.0.tar.gz]
+[2024-04-02 00:47:08] INFO root fetch - main [MainThread]: End processing [ai-characters]: success
+[2024-04-02 00:47:08] INFO root fetch - main [MainThread]: Store serial: [22576839]
