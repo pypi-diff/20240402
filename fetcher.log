@@ -133,3 +133,21 @@
 [2024-04-02 00:04:49] INFO root fetch - processPackages [pointers.py]: Remove: archive file [/home/abi/fetcher/tmp/pointers.py-3.0.1-cp37-cp37m-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
 [2024-04-02 00:04:49] INFO root fetch - main [MainThread]: End processing [pointers.py]: success
 [2024-04-02 00:04:49] INFO root fetch - main [MainThread]: Store serial: [22576466]
+[2024-04-02 00:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576466]
+[2024-04-02 00:06:59] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 00:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: filesystemserver
+[2024-04-02 00:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moto
+[2024-04-02 00:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: byma
+[2024-04-02 00:06:59] WARNING root fetch - processPackages [byma]: Skipping, unable to determine old version
+[2024-04-02 00:06:59] INFO root fetch - main [MainThread]: End processing [byma] error
+[2024-04-02 00:06:59] WARNING root fetch - processPackages [filesystemserver]: Skipping, unable to determine old version
+[2024-04-02 00:06:59] INFO root fetch - main [MainThread]: End processing [filesystemserver] error
+[2024-04-02 00:06:59] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-02 00:06:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-02 00:07:00] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-02 00:07:00] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-02 00:07:00] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240402/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-02 00:07:12] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-02 00:07:12] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
+[2024-04-02 00:07:12] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-02 00:07:12] INFO root fetch - main [MainThread]: Store serial: [22576532]
