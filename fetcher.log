@@ -522,3 +522,60 @@
 [2024-04-02 00:31:15] INFO root fetch - processPackages [nerdd-module]: Remove: archive file [/home/abi/fetcher/tmp/nerdd-module-0.2.4.tar.gz]
 [2024-04-02 00:31:15] INFO root fetch - main [MainThread]: End processing [nerdd-module]: success
 [2024-04-02 00:31:15] INFO root fetch - main [MainThread]: Store serial: [22576676]
+[2024-04-02 00:33:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22576676]
+[2024-04-02 00:33:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 00:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: git-changelog
+[2024-04-02 00:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keepercommander
+[2024-04-02 00:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stable-ts
+[2024-04-02 00:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2024-04-02 00:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: emailbob-twingate
+[2024-04-02 00:33:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rnaseqdata
+[2024-04-02 00:33:24] INFO root fetch - processPackages [emailbob-twingate]: New version: [0.0.9] Old Version: [0.0.7]
+[2024-04-02 00:33:24] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-02 00:33:24] INFO root fetch - processPackages [git-changelog]: New version: [2.5.0] Old Version: [2.4.1]
+[2024-04-02 00:33:24] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/18/7e/a687c4e43fc45eff26972a197771eb8e92b254e0f58f3c4716278fe44500/emailbob_twingate-0.0.7.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [stable-ts]: New version: [2.9.0] Old Version: [2.8.1]
+[2024-04-02 00:33:24] INFO root fetch - processPackages [rnaseqdata]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 00:33:24] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [keepercommander]: New version: [4.9] Old Version: [4.88]
+[2024-04-02 00:33:24] INFO root fetch - processPackages [git-changelog]: Downloading https://files.pythonhosted.org/packages/2c/f9/1bcc1b0ebd6f04cda3eeb87827ea4f9f1f503276d96dc002a1486b215302/git_changelog-2.4.1.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [emailbob-twingate]: Downloading https://files.pythonhosted.org/packages/07/8d/c311d8169e9a874b9001ea68d0070a70b1baa5e11917d0e7cb8f6e9bdb6a/emailbob_twingate-0.0.9.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/b5/4e/230d64b0c72299e3c08c40e04a51172b8f39e267b1d237cf0897e3ae4599/stable-ts-2.8.1.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [rnaseqdata]: Downloading https://files.pythonhosted.org/packages/02/ea/7ebd3ba0b10a0180bef9607eaa31d86debc0160bcb7e658ba04ad41e25dc/rnaseqdata-0.0.7.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/16/91/5a24b372408888daef4a70bb214157f171e35ef268f1a3904fd190336343/keepercommander-4.88.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [emailbob-twingate]: executing diffoscope
+[2024-04-02 00:33:24] INFO root fetch - processPackages [emailbob-twingate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emailbob_twingate-0.0.7.tar.gz tmp/emailbob_twingate-0.0.9.tar.gz --markdown 20240402/e/emailbob-twingate/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 00:33:24] INFO root fetch - processPackages [git-changelog]: Downloading https://files.pythonhosted.org/packages/4d/9f/9cfa2b8c42d84bc2e95d81a480359833fc1b0dc833b669030a9ac7e9100a/git_changelog-2.5.0.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [git-changelog]: executing diffoscope
+[2024-04-02 00:33:24] INFO root fetch - processPackages [git-changelog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/git_changelog-2.4.1.tar.gz tmp/git_changelog-2.5.0.tar.gz --markdown 20240402/g/git-changelog/2.4.1-2.5.0/diff.md --exclude *.pyd
+[2024-04-02 00:33:24] INFO root fetch - processPackages [rnaseqdata]: Downloading https://files.pythonhosted.org/packages/ec/69/54812b98888d4db4ab2828dc8c60f0ea645166a4e25130d27a549493c052/rnaseqdata-0.0.8.tar.gz
+[2024-04-02 00:33:24] INFO root fetch - processPackages [stable-ts]: Downloading https://files.pythonhosted.org/packages/48/20/4e33cc411acc1eb3efa9decb3190a678dccd77cbe25fe1322a08fcdec691/stable-ts-2.9.0.tar.gz
+[2024-04-02 00:33:25] INFO root fetch - processPackages [keepercommander]: Downloading https://files.pythonhosted.org/packages/81/36/49b1c4234938830448040dbce4a33041541130d80e9ff959c80a7863be75/keepercommander-4.9.tar.gz
+[2024-04-02 00:33:25] INFO root fetch - processPackages [rnaseqdata]: executing diffoscope
+[2024-04-02 00:33:25] INFO root fetch - processPackages [rnaseqdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rnaseqdata-0.0.7.tar.gz tmp/rnaseqdata-0.0.8.tar.gz --markdown 20240402/r/rnaseqdata/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 00:33:25] INFO root fetch - processPackages [stable-ts]: executing diffoscope
+[2024-04-02 00:33:25] INFO root fetch - processPackages [stable-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stable-ts-2.8.1.tar.gz tmp/stable-ts-2.9.0.tar.gz --markdown 20240402/s/stable-ts/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2024-04-02 00:33:25] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-02 00:33:25] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240402/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-02 00:33:25] INFO root fetch - processPackages [keepercommander]: executing diffoscope
+[2024-04-02 00:33:25] INFO root fetch - processPackages [keepercommander]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keepercommander-4.88.tar.gz tmp/keepercommander-4.9.tar.gz --markdown 20240402/k/keepercommander/4.88-4.9/diff.md --exclude *.pyd
+[2024-04-02 00:33:25] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.7.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - processPackages [emailbob-twingate]: Remove: archive file [/home/abi/fetcher/tmp/emailbob_twingate-0.0.9.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - main [MainThread]: End processing [emailbob-twingate]: success
+[2024-04-02 00:33:25] INFO root fetch - processPackages [git-changelog]: Remove: archive file [/home/abi/fetcher/tmp/git_changelog-2.4.1.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - processPackages [git-changelog]: Remove: archive file [/home/abi/fetcher/tmp/git_changelog-2.5.0.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - main [MainThread]: End processing [git-changelog]: success
+[2024-04-02 00:33:25] INFO root fetch - processPackages [rnaseqdata]: Remove: archive file [/home/abi/fetcher/tmp/rnaseqdata-0.0.7.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - processPackages [rnaseqdata]: Remove: archive file [/home/abi/fetcher/tmp/rnaseqdata-0.0.8.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - main [MainThread]: End processing [rnaseqdata]: success
+[2024-04-02 00:33:25] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.8.1.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - processPackages [stable-ts]: Remove: archive file [/home/abi/fetcher/tmp/stable-ts-2.9.0.tar.gz]
+[2024-04-02 00:33:25] INFO root fetch - main [MainThread]: End processing [stable-ts]: success
+[2024-04-02 00:33:26] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.88.tar.gz]
+[2024-04-02 00:33:26] INFO root fetch - processPackages [keepercommander]: Remove: archive file [/home/abi/fetcher/tmp/keepercommander-4.9.tar.gz]
+[2024-04-02 00:33:26] INFO root fetch - main [MainThread]: End processing [keepercommander]: success
+[2024-04-02 00:33:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-02 00:33:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
+[2024-04-02 00:33:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-02 00:33:36] INFO root fetch - main [MainThread]: Store serial: [22576690]
