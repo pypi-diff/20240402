@@ -1227,3 +1227,81 @@
 [2024-04-02 01:11:58] INFO root fetch - processPackages [myturn-sdk]: Remove: archive file [/home/abi/fetcher/tmp/myturn-sdk-0.1.1.tar.gz]
 [2024-04-02 01:11:58] INFO root fetch - main [MainThread]: End processing [myturn-sdk]: success
 [2024-04-02 01:11:58] INFO root fetch - main [MainThread]: Store serial: [22577079]
+[2024-04-02 01:14:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577079]
+[2024-04-02 01:14:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: model-explorer
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sajjad
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cpop
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: MobileInventoryCLI
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: librus-apix
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: NumberCommutation
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xibabel
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: GenCasting
+[2024-04-02 01:14:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dansplotcore
+[2024-04-02 01:14:07] INFO root fetch - processPackages [cpop]: New version: [28.1.0] Old Version: [28.0.7]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [sajjad]: New version: [1.6] Old Version: [1.5]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [model-explorer]: New version: [0.0.66] Old Version: [0.0.65]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [librus-apix]: New version: [0.6.9.post3] Old Version: [0.6.9.post2]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [GenCasting]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [dansplotcore]: New version: [6.0.2] Old Version: [6.0.1]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [xibabel]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [MobileInventoryCLI]: New version: [0.4.32] Old Version: [0.4.31]
+[2024-04-02 01:14:07] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/80/92/1084523995350cdf2015073d9b1d2ed59b454f5d083d41edf716582e7acd/librus_apix-0.6.9.post2.tar.gz
+[2024-04-02 01:14:07] ERROR root fetch - processPackages [NumberCommutation]: Unable to get metadata: No such project 'NumberCommutation'
+[2024-04-02 01:14:07] INFO root fetch - main [MainThread]: End processing [NumberCommutation] error
+[2024-04-02 01:14:08] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/84/ee/e03ddc47d3a550838f1ef71c8d381065a6c3186a6aec5782dba46ae6d6a6/cpop-28.0.7.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/46/54/8792272cca3ecc9abc7cedd86163c916255f53660f37b2d04bcd463ef70b/sajjad-1.5.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/db/56/65d5b861dbfe1d9406c462de540472b694e2b6d45348f09266eb89208e2f/model-explorer-0.0.65.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/19/03/5784ca2d8b22736f2b35364a2665ae8839940ca1823a9ab7bd8410177823/dansplotcore-6.0.1.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/cf/39/dbec209ce4082d4a1ebef3c8cc819593cee0fb0134e205cbd85fa3ca75d7/xibabel-0.0.1a1.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/49/e5/ff52c4032c9192b727bed9fecb88192ba70073f55a09af28380dceabe042/MobileInventoryCLI-0.4.31.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [GenCasting]: Downloading https://files.pythonhosted.org/packages/9f/06/4fbff39c2ca66cc763d5b101f2ebf6f0a3a53b2ed4eb2284c96522cf04c1/GenCasting-0.0.6.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [librus-apix]: Downloading https://files.pythonhosted.org/packages/a3/94/74df5631d825f1689c17ee9ea928e016d0c8c022086352e698660f0a0f17/librus_apix-0.6.9.post3.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [cpop]: Downloading https://files.pythonhosted.org/packages/ad/8c/2cf83cae1c0864a53228d6f75188b8ffc7997784333b6cb88a707cead911/cpop-28.1.0.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [sajjad]: Downloading https://files.pythonhosted.org/packages/36/3f/5d5c3a29b78571f4cdc0301652e1c00f517b097c077066b1cf80fe3ada94/sajjad-1.6.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [librus-apix]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [librus-apix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/librus_apix-0.6.9.post2.tar.gz tmp/librus_apix-0.6.9.post3.tar.gz --markdown 20240402/l/librus-apix/0.6.9.post2-0.6.9.post3/diff.md --exclude *.pyd
+[2024-04-02 01:14:08] INFO root fetch - processPackages [MobileInventoryCLI]: Downloading https://files.pythonhosted.org/packages/ba/b8/2458cfbd5172c91230aa44700c6e52fae54d741d4ddd2e6a4bc9fd4b7b72/MobileInventoryCLI-0.4.32.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [cpop]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [cpop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cpop-28.0.7.tar.gz tmp/cpop-28.1.0.tar.gz --markdown 20240402/c/cpop/28.0.7-28.1.0/diff.md --exclude *.pyd
+[2024-04-02 01:14:08] INFO root fetch - processPackages [dansplotcore]: Downloading https://files.pythonhosted.org/packages/b7/17/8cfb0efddb38623052eab99545f8ee535778b498a077e90a152a6666eb29/dansplotcore-6.0.2.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [xibabel]: Downloading https://files.pythonhosted.org/packages/77/2a/16cd431167b5f518186571b404bfcfefcb652dafdd237b4cab7cd470baa2/xibabel-0.0.1a2.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [GenCasting]: Downloading https://files.pythonhosted.org/packages/db/76/0c7079b8fb38c1e1bdf0f0481e3b17215a20a8029a64d10471cd43d76f97/GenCasting-0.0.7.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [sajjad]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [sajjad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sajjad-1.5.tar.gz tmp/sajjad-1.6.tar.gz --markdown 20240402/s/sajjad/1.5-1.6/diff.md --exclude *.pyd
+[2024-04-02 01:14:08] INFO root fetch - processPackages [model-explorer]: Downloading https://files.pythonhosted.org/packages/b8/2e/b929dd17606cc358d33893ac6444710daa27c9bd88c0ead761ca08d540d9/model-explorer-0.0.66.tar.gz
+[2024-04-02 01:14:08] INFO root fetch - processPackages [MobileInventoryCLI]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [MobileInventoryCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MobileInventoryCLI-0.4.31.tar.gz tmp/MobileInventoryCLI-0.4.32.tar.gz --markdown 20240402/M/MobileInventoryCLI/0.4.31-0.4.32/diff.md --exclude *.pyd
+[2024-04-02 01:14:08] INFO root fetch - processPackages [dansplotcore]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [dansplotcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dansplotcore-6.0.1.tar.gz tmp/dansplotcore-6.0.2.tar.gz --markdown 20240402/d/dansplotcore/6.0.1-6.0.2/diff.md --exclude *.pyd
+[2024-04-02 01:14:08] INFO root fetch - processPackages [GenCasting]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [GenCasting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GenCasting-0.0.6.tar.gz tmp/GenCasting-0.0.7.tar.gz --markdown 20240402/G/GenCasting/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-02 01:14:08] INFO root fetch - processPackages [xibabel]: executing diffoscope
+[2024-04-02 01:14:08] INFO root fetch - processPackages [xibabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xibabel-0.0.1a1.tar.gz tmp/xibabel-0.0.1a2.tar.gz --markdown 20240402/x/xibabel/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2024-04-02 01:14:09] INFO root fetch - processPackages [model-explorer]: executing diffoscope
+[2024-04-02 01:14:09] INFO root fetch - processPackages [model-explorer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model-explorer-0.0.65.tar.gz tmp/model-explorer-0.0.66.tar.gz --markdown 20240402/m/model-explorer/0.0.65-0.0.66/diff.md --exclude *.pyd
+[2024-04-02 01:14:09] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.6.9.post2.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [librus-apix]: Remove: archive file [/home/abi/fetcher/tmp/librus_apix-0.6.9.post3.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [librus-apix]: success
+[2024-04-02 01:14:09] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.5.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [sajjad]: Remove: archive file [/home/abi/fetcher/tmp/sajjad-1.6.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [sajjad]: success
+[2024-04-02 01:14:09] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.0.1.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [dansplotcore]: Remove: archive file [/home/abi/fetcher/tmp/dansplotcore-6.0.2.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [dansplotcore]: success
+[2024-04-02 01:14:09] INFO root fetch - processPackages [xibabel]: Remove: archive file [/home/abi/fetcher/tmp/xibabel-0.0.1a1.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [xibabel]: Remove: archive file [/home/abi/fetcher/tmp/xibabel-0.0.1a2.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [xibabel]: success
+[2024-04-02 01:14:09] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.31.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [MobileInventoryCLI]: Remove: archive file [/home/abi/fetcher/tmp/MobileInventoryCLI-0.4.32.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [MobileInventoryCLI]: success
+[2024-04-02 01:14:09] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-28.0.7.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [cpop]: Remove: archive file [/home/abi/fetcher/tmp/cpop-28.1.0.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [cpop]: success
+[2024-04-02 01:14:09] INFO root fetch - processPackages [GenCasting]: Remove: archive file [/home/abi/fetcher/tmp/GenCasting-0.0.6.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - processPackages [GenCasting]: Remove: archive file [/home/abi/fetcher/tmp/GenCasting-0.0.7.tar.gz]
+[2024-04-02 01:14:09] INFO root fetch - main [MainThread]: End processing [GenCasting]: success
+[2024-04-02 01:14:10] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.65.tar.gz]
+[2024-04-02 01:14:10] INFO root fetch - processPackages [model-explorer]: Remove: archive file [/home/abi/fetcher/tmp/model-explorer-0.0.66.tar.gz]
+[2024-04-02 01:14:10] INFO root fetch - main [MainThread]: End processing [model-explorer]: success
+[2024-04-02 01:14:10] INFO root fetch - main [MainThread]: Store serial: [22577100]
