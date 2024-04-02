@@ -19386,3 +19386,38 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:44:52] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20167728>=10485760
 [2024-04-02 13:44:52] INFO root fetch - main [MainThread]: End processing [Products.urban] error
 [2024-04-02 13:44:52] INFO root fetch - main [MainThread]: Store serial: [22584259]
+[2024-04-02 13:46:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584259]
+[2024-04-02 13:47:02] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 13:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vitya
+[2024-04-02 13:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: eth-erc20
+[2024-04-02 13:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TkEasyGUI
+[2024-04-02 13:47:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-core-xe
+[2024-04-02 13:47:02] INFO root fetch - processPackages [eth-erc20]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 13:47:02] INFO root fetch - processPackages [bigdl-core-xe]: New version: [2.5.0b20240402] Old Version: [2.5.0b20240401]
+[2024-04-02 13:47:02] INFO root fetch - processPackages [TkEasyGUI]: New version: [0.2.4] Old Version: [0.2.38]
+[2024-04-02 13:47:02] INFO root fetch - processPackages [vitya]: New version: [0.20.2] Old Version: [0.20.1]
+[2024-04-02 13:47:02] INFO root fetch - processPackages [bigdl-core-xe]: Downloading https://files.pythonhosted.org/packages/44/93/136f9663d7eb87d3fa206a813c524ab2bacee2a12d62714e12b17acaab4b/bigdl_core_xe-2.5.0b20240401-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-02 13:47:02] INFO root fetch - processPackages [eth-erc20]: Downloading https://files.pythonhosted.org/packages/aa/14/ca0b1ae338c37f8ba84493e635f82902d6850d6aa65226f6b97beabb88f3/eth-erc20-0.8.0.tar.gz
+[2024-04-02 13:47:02] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/c3/15/5fd98b2e0aa136fa1f4f292a1cc60a185f89e74cbb9f2782cc141c171093/TkEasyGUI-0.2.38.tar.gz
+[2024-04-02 13:47:02] WARNING root fetch - processPackages [bigdl-core-xe]: Skipping package: exceeds size limit 110144783>=10485760
+[2024-04-02 13:47:02] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe] error
+[2024-04-02 13:47:02] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/a2/91/a640ec14b6c9ed39d93213d3ca7bd4c91b9a65387f3c83e2924ca41c5a41/vitya-0.20.1.tar.gz
+[2024-04-02 13:47:02] INFO root fetch - processPackages [eth-erc20]: Downloading https://files.pythonhosted.org/packages/ae/e1/6322860749886b2358bbbc6835ba7c6d3aa3747324011f80028d0cbf45ec/eth-erc20-0.9.0.tar.gz
+[2024-04-02 13:47:02] INFO root fetch - processPackages [TkEasyGUI]: Downloading https://files.pythonhosted.org/packages/82/58/75c1e282b2e2d7b5817992c813e1521d2e8c713dd748892954331195a056/tkeasygui-0.2.4.tar.gz
+[2024-04-02 13:47:02] INFO root fetch - processPackages [TkEasyGUI]: executing diffoscope
+[2024-04-02 13:47:02] INFO root fetch - processPackages [TkEasyGUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TkEasyGUI-0.2.38.tar.gz tmp/tkeasygui-0.2.4.tar.gz --markdown 20240402/T/TkEasyGUI/0.2.38-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 13:47:02] INFO root fetch - processPackages [eth-erc20]: executing diffoscope
+[2024-04-02 13:47:02] INFO root fetch - processPackages [eth-erc20]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-erc20-0.8.0.tar.gz tmp/eth-erc20-0.9.0.tar.gz --markdown 20240402/e/eth-erc20/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:47:02] INFO root fetch - processPackages [vitya]: Downloading https://files.pythonhosted.org/packages/2a/7b/5708187d4e5b79b7bebb22e5e0ae39b5ff9bf7f901bfbe801a93ac6a85ca/vitya-0.20.2.tar.gz
+[2024-04-02 13:47:03] INFO root fetch - processPackages [vitya]: executing diffoscope
+[2024-04-02 13:47:03] INFO root fetch - processPackages [vitya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitya-0.20.1.tar.gz tmp/vitya-0.20.2.tar.gz --markdown 20240402/v/vitya/0.20.1-0.20.2/diff.md --exclude *.pyd
+[2024-04-02 13:47:03] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/TkEasyGUI-0.2.38.tar.gz]
+[2024-04-02 13:47:03] INFO root fetch - processPackages [TkEasyGUI]: Remove: archive file [/home/abi/fetcher/tmp/tkeasygui-0.2.4.tar.gz]
+[2024-04-02 13:47:03] INFO root fetch - main [MainThread]: End processing [TkEasyGUI]: success
+[2024-04-02 13:47:03] INFO root fetch - processPackages [eth-erc20]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc20-0.8.0.tar.gz]
+[2024-04-02 13:47:03] INFO root fetch - processPackages [eth-erc20]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc20-0.9.0.tar.gz]
+[2024-04-02 13:47:03] INFO root fetch - main [MainThread]: End processing [eth-erc20]: success
+[2024-04-02 13:47:03] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.1.tar.gz]
+[2024-04-02 13:47:03] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.2.tar.gz]
+[2024-04-02 13:47:03] INFO root fetch - main [MainThread]: End processing [vitya]: success
+[2024-04-02 13:47:03] INFO root fetch - main [MainThread]: Store serial: [22584269]
