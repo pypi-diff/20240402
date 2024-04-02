@@ -20306,3 +20306,78 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:22:45] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-1.1.0rc0.tar.gz]
 [2024-04-02 14:22:45] INFO root fetch - main [MainThread]: End processing [ewoksweb]: success
 [2024-04-02 14:22:45] INFO root fetch - main [MainThread]: Store serial: [22584654]
+[2024-04-02 14:24:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584654]
+[2024-04-02 14:24:56] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openhexa.sdk
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-commission
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyspaceprofiler
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shiboken6
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: c12-callisto-clients
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: social-interaction-cloud
+[2024-04-02 14:24:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: eth-erc721
+[2024-04-02 14:24:56] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [social-interaction-cloud]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [pyspaceprofiler]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/69/ce/6f1f0d2d1129c1d436c123ca357f6c4e0b788393b2cbaf318e12c5f53dcf/social_interaction_cloud-1.1.2.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/cf/6b/d795f55bc58ce47ec63c00f84b3db722350ac9aa54724d9ddb10b0e74f1d/telegram_collector-0.0.8.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [eth-erc721]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [c12-callisto-clients]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [odoo-addon-sale-commission]: New version: [16.0.1.0.1.9] Old Version: [16.0.1.0.1.8]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [openhexa.sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [shiboken6]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-02 14:24:56] INFO root fetch - processPackages [pyspaceprofiler]: Downloading https://files.pythonhosted.org/packages/77/f9/800d6fdd74375be419044e3255b616a54528a2741f0f365db0172b7ca47b/pyspaceprofiler-0.0.3.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [c12-callisto-clients]: Downloading https://files.pythonhosted.org/packages/13/b0/8b5a4bc0b41e75e1c132bcce489bc43bd60324cf89b1bf6276e752913f03/c12_callisto_clients-2.0.0-py2.py3-none-any.whl
+[2024-04-02 14:24:56] INFO root fetch - processPackages [eth-erc721]: Downloading https://files.pythonhosted.org/packages/0a/69/d075cdfc40f8bb3c0a78908137c81fab196b1bda7aaa0d6226e0943a523d/eth-erc721-0.3.0.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/2d/63/6cf8c3d8c690624bf5da3eccae426000fc384f6f2b1e46094f46a261b21e/openhexa.sdk-0.1.8.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/15/46/a93e0fd9cdd5863d27ae5c0f8974171fb422f92bfd621f61d1d57f9ee231/social_interaction_cloud-1.2.0.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [shiboken6]: Downloading https://files.pythonhosted.org/packages/98/06/4f409d6f241f276ac3233023de12d34367af9cfb1bab76bbbdefa8da8182/shiboken6-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-02 14:24:56] INFO root fetch - processPackages [odoo-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/f8/13/0f796a44be0660c786d307bcb53c39650c75747ba3eba192d1f0ea35ce8e/odoo_addon_sale_commission-16.0.1.0.1.8-py3-none-any.whl
+[2024-04-02 14:24:56] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/58/1a/ee9068adc0920b790ade2df5ec45821f0a6508fa20db8761e1cce449c456/telegram_collector-0.0.9.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [pyspaceprofiler]: Downloading https://files.pythonhosted.org/packages/d9/4c/74716ecef47b0d01a52cd45a4b4930421440b34a8b30f1557bcc3e48e3b4/pyspaceprofiler-0.0.4.tar.gz
+[2024-04-02 14:24:56] INFO root fetch - processPackages [social-interaction-cloud]: executing diffoscope
+[2024-04-02 14:24:56] INFO root fetch - processPackages [social-interaction-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_interaction_cloud-1.1.2.tar.gz tmp/social_interaction_cloud-1.2.0.tar.gz --markdown 20240402/s/social-interaction-cloud/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 14:24:56] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-02 14:24:56] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.8.tar.gz tmp/telegram_collector-0.0.9.tar.gz --markdown 20240402/t/telegram-collector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [pyspaceprofiler]: executing diffoscope
+[2024-04-02 14:24:57] INFO root fetch - processPackages [pyspaceprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspaceprofiler-0.0.3.tar.gz tmp/pyspaceprofiler-0.0.4.tar.gz --markdown 20240402/p/pyspaceprofiler/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [c12-callisto-clients]: Downloading https://files.pythonhosted.org/packages/da/38/36c947a3af8ddc76aefd5bfe7fd183d51a635317dab3ec1c519bab53ed72/c12_callisto_clients-2.0.1-py2.py3-none-any.whl
+[2024-04-02 14:24:57] INFO root fetch - processPackages [eth-erc721]: Downloading https://files.pythonhosted.org/packages/ca/18/08db4fb9194776b7bb2c92f8a962c66c978e141c9f57e1c67c4918478bd4/eth-erc721-0.4.0.tar.gz
+[2024-04-02 14:24:57] INFO root fetch - processPackages [openhexa.sdk]: Downloading https://files.pythonhosted.org/packages/01/47/9a54270a3486c1a1712ca7717008e6748264c1125692b213adfd2f68b21c/openhexa.sdk-0.1.9.tar.gz
+[2024-04-02 14:24:57] INFO root fetch - processPackages [odoo-addon-sale-commission]: Downloading https://files.pythonhosted.org/packages/1f/7f/61bdb8a314aaafcef6908c7555f036365aff6317c0995e2cde028b5fb09e/odoo_addon_sale_commission-16.0.1.0.1.9-py3-none-any.whl
+[2024-04-02 14:24:57] INFO root fetch - processPackages [shiboken6]: Downloading https://files.pythonhosted.org/packages/b8/f3/b4153287806a63ee064570ed527f16f9eacedab4f4ea99cb84b55e624e21/shiboken6-6.6.3.1-cp38-abi3-win_amd64.whl
+[2024-04-02 14:24:57] INFO root fetch - processPackages [c12-callisto-clients]: executing diffoscope
+[2024-04-02 14:24:57] INFO root fetch - processPackages [c12-callisto-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c12_callisto_clients-2.0.0-py2.py3-none-any.whl.zip tmp/c12_callisto_clients-2.0.1-py2.py3-none-any.whl.zip --markdown 20240402/c/c12-callisto-clients/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [openhexa.sdk]: executing diffoscope
+[2024-04-02 14:24:57] INFO root fetch - processPackages [openhexa.sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openhexa.sdk-0.1.8.tar.gz tmp/openhexa.sdk-0.1.9.tar.gz --markdown 20240402/o/openhexa.sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [eth-erc721]: executing diffoscope
+[2024-04-02 14:24:57] INFO root fetch - processPackages [eth-erc721]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-erc721-0.3.0.tar.gz tmp/eth-erc721-0.4.0.tar.gz --markdown 20240402/e/eth-erc721/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [odoo-addon-sale-commission]: executing diffoscope
+[2024-04-02 14:24:57] INFO root fetch - processPackages [odoo-addon-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_commission-16.0.1.0.1.8-py3-none-any.whl.zip tmp/odoo_addon_sale_commission-16.0.1.0.1.9-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-sale-commission/16.0.1.0.1.8-16.0.1.0.1.9/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [shiboken6]: executing diffoscope
+[2024-04-02 14:24:57] INFO root fetch - processPackages [shiboken6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiboken6-6.6.3-cp38-abi3-win_amd64.whl.zip tmp/shiboken6-6.6.3.1-cp38-abi3-win_amd64.whl.zip --markdown 20240402/s/shiboken6/6.6.3-6.6.3.1/diff.md --exclude *.pyd
+[2024-04-02 14:24:57] INFO root fetch - processPackages [pyspaceprofiler]: Remove: archive file [/home/abi/fetcher/tmp/pyspaceprofiler-0.0.3.tar.gz]
+[2024-04-02 14:24:57] INFO root fetch - processPackages [pyspaceprofiler]: Remove: archive file [/home/abi/fetcher/tmp/pyspaceprofiler-0.0.4.tar.gz]
+[2024-04-02 14:24:57] INFO root fetch - main [MainThread]: End processing [pyspaceprofiler]: success
+[2024-04-02 14:24:57] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.1.2.tar.gz]
+[2024-04-02 14:24:57] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.2.0.tar.gz]
+[2024-04-02 14:24:57] INFO root fetch - main [MainThread]: End processing [social-interaction-cloud]: success
+[2024-04-02 14:24:57] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.8.tar.gz]
+[2024-04-02 14:24:57] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.9.tar.gz]
+[2024-04-02 14:24:57] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-02 14:24:58] INFO root fetch - processPackages [c12-callisto-clients]: Remove: archive file [/home/abi/fetcher/tmp/c12_callisto_clients-2.0.0-py2.py3-none-any.whl.zip]
+[2024-04-02 14:24:58] INFO root fetch - processPackages [c12-callisto-clients]: Remove: archive file [/home/abi/fetcher/tmp/c12_callisto_clients-2.0.1-py2.py3-none-any.whl.zip]
+[2024-04-02 14:24:58] INFO root fetch - main [MainThread]: End processing [c12-callisto-clients]: success
+[2024-04-02 14:24:58] INFO root fetch - processPackages [odoo-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission-16.0.1.0.1.8-py3-none-any.whl.zip]
+[2024-04-02 14:24:58] INFO root fetch - processPackages [odoo-addon-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_commission-16.0.1.0.1.9-py3-none-any.whl.zip]
+[2024-04-02 14:24:58] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-commission]: success
+[2024-04-02 14:24:58] INFO root fetch - processPackages [eth-erc721]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc721-0.3.0.tar.gz]
+[2024-04-02 14:24:58] INFO root fetch - processPackages [eth-erc721]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc721-0.4.0.tar.gz]
+[2024-04-02 14:24:58] INFO root fetch - main [MainThread]: End processing [eth-erc721]: success
+[2024-04-02 14:24:58] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.8.tar.gz]
+[2024-04-02 14:24:58] INFO root fetch - processPackages [openhexa.sdk]: Remove: archive file [/home/abi/fetcher/tmp/openhexa.sdk-0.1.9.tar.gz]
+[2024-04-02 14:24:58] INFO root fetch - main [MainThread]: End processing [openhexa.sdk]: success
+[2024-04-02 14:25:05] INFO root fetch - processPackages [shiboken6]: Remove: archive file [/home/abi/fetcher/tmp/shiboken6-6.6.3-cp38-abi3-win_amd64.whl.zip]
+[2024-04-02 14:25:05] INFO root fetch - processPackages [shiboken6]: Remove: archive file [/home/abi/fetcher/tmp/shiboken6-6.6.3.1-cp38-abi3-win_amd64.whl.zip]
+[2024-04-02 14:25:05] INFO root fetch - main [MainThread]: End processing [shiboken6]: success
+[2024-04-02 14:25:05] INFO root fetch - main [MainThread]: Store serial: [22584678]
