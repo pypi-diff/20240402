@@ -12464,3 +12464,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:08:36] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.9.tar.gz]
 [2024-04-02 09:08:36] INFO root fetch - main [MainThread]: End processing [validators]: success
 [2024-04-02 09:08:36] INFO root fetch - main [MainThread]: Store serial: [22581437]
+[2024-04-02 09:10:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581437]
+[2024-04-02 09:10:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 09:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isystem.connect
+[2024-04-02 09:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipxu
+[2024-04-02 09:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: virgo-modules
+[2024-04-02 09:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irisml-tasks-training
+[2024-04-02 09:10:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sklearn2pmml
+[2024-04-02 09:10:46] INFO root fetch - processPackages [pipxu]: New version: [1.4] Old Version: [1.3]
+[2024-04-02 09:10:46] INFO root fetch - processPackages [virgo-modules]: New version: [0.0.74] Old Version: [0.0.73]
+[2024-04-02 09:10:46] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.99.3] Old Version: [0.99.2]
+[2024-04-02 09:10:46] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/89/31/d9b6da66268e0a6d182fa65738c152b5afd7598d72ad1ac999a84241f8ca/virgo_modules-0.0.73.tar.gz
+[2024-04-02 09:10:46] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/4a/e8/d3f296df7289c6e57bf7d0328c8985ddfe3ab0b7bbcc66f2cb2241ec2b8c/pipxu-1.3.tar.gz
+[2024-04-02 09:10:46] INFO root fetch - processPackages [irisml-tasks-training]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 09:10:46] INFO root fetch - processPackages [isystem.connect]: New version: [9.21.99.0] Old Version: [9.21.98.0]
+[2024-04-02 09:10:47] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/5d/9f/30b1143a09e60e7a4ac2753bf53d1a1dd6b6de276c7b3b3141d9acc535c7/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl
+[2024-04-02 09:10:47] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/21/2a/847c0af6f9d6ec00f3fa954c4c691c4311da9a8098e84de07e8d2d85107e/sklearn2pmml-0.99.2.tar.gz
+[2024-04-02 09:10:47] INFO root fetch - processPackages [pipxu]: Downloading https://files.pythonhosted.org/packages/c1/c7/f1e44b862af6572998687bb03a7180c6ce0edeb5ca7bdeffd16f6b073a4f/pipxu-1.4.tar.gz
+[2024-04-02 09:10:47] INFO root fetch - processPackages [virgo-modules]: Downloading https://files.pythonhosted.org/packages/db/31/e1c7c1319f245a65e9d4195a919dc011471895db81016f6a2e7326ed48b2/virgo_modules-0.0.74.tar.gz
+[2024-04-02 09:10:47] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/65/c9/9aae8e45128d7d6ec17c9b0bc4dc4764a47b158c360ee2987b6bd5927b7a/irisml-tasks-training-0.0.98.tar.gz
+[2024-04-02 09:10:47] INFO root fetch - processPackages [virgo-modules]: executing diffoscope
+[2024-04-02 09:10:47] INFO root fetch - processPackages [virgo-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virgo_modules-0.0.73.tar.gz tmp/virgo_modules-0.0.74.tar.gz --markdown 20240402/v/virgo-modules/0.0.73-0.0.74/diff.md --exclude *.pyd
+[2024-04-02 09:10:47] INFO root fetch - processPackages [pipxu]: executing diffoscope
+[2024-04-02 09:10:47] INFO root fetch - processPackages [pipxu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipxu-1.3.tar.gz tmp/pipxu-1.4.tar.gz --markdown 20240402/p/pipxu/1.3-1.4/diff.md --exclude *.pyd
+[2024-04-02 09:10:47] INFO root fetch - processPackages [irisml-tasks-training]: Downloading https://files.pythonhosted.org/packages/99/2a/62484e7c2626ac6a7ca4df416c9365d5588725c31f6fed8ed7a24da7e5cd/irisml-tasks-training-0.0.99.tar.gz
+[2024-04-02 09:10:47] INFO root fetch - processPackages [irisml-tasks-training]: executing diffoscope
+[2024-04-02 09:10:47] INFO root fetch - processPackages [irisml-tasks-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irisml-tasks-training-0.0.98.tar.gz tmp/irisml-tasks-training-0.0.99.tar.gz --markdown 20240402/i/irisml-tasks-training/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 09:10:47] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.73.tar.gz]
+[2024-04-02 09:10:47] INFO root fetch - processPackages [virgo-modules]: Remove: archive file [/home/abi/fetcher/tmp/virgo_modules-0.0.74.tar.gz]
+[2024-04-02 09:10:47] INFO root fetch - main [MainThread]: End processing [virgo-modules]: success
+[2024-04-02 09:10:48] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.3.tar.gz]
+[2024-04-02 09:10:48] INFO root fetch - processPackages [pipxu]: Remove: archive file [/home/abi/fetcher/tmp/pipxu-1.4.tar.gz]
+[2024-04-02 09:10:48] INFO root fetch - main [MainThread]: End processing [pipxu]: success
+[2024-04-02 09:10:48] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.98.tar.gz]
+[2024-04-02 09:10:48] INFO root fetch - processPackages [irisml-tasks-training]: Remove: archive file [/home/abi/fetcher/tmp/irisml-tasks-training-0.0.99.tar.gz]
+[2024-04-02 09:10:48] INFO root fetch - main [MainThread]: End processing [irisml-tasks-training]: success
+[2024-04-02 09:10:48] INFO root fetch - processPackages [isystem.connect]: Downloading https://files.pythonhosted.org/packages/27/b1/d981879b837518117ae5b16714ad63be1c2b0214805deb0eac63c5cd22f9/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl
+[2024-04-02 09:10:49] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/85/79/363259bb11041d70c9ae8a5f3258d58b4b7ccb8ceee0294b75162f882252/sklearn2pmml-0.99.3.tar.gz
+[2024-04-02 09:10:50] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2024-04-02 09:10:50] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.99.2.tar.gz tmp/sklearn2pmml-0.99.3.tar.gz --markdown 20240402/s/sklearn2pmml/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2024-04-02 09:10:50] INFO root fetch - processPackages [isystem.connect]: executing diffoscope
+[2024-04-02 09:10:50] INFO root fetch - processPackages [isystem.connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip --markdown 20240402/i/isystem.connect/9.21.98.0-9.21.99.0/diff.md --exclude *.pyd
+[2024-04-02 09:10:51] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.98.0-cp39-none-win_amd64.whl.zip]
+[2024-04-02 09:10:51] INFO root fetch - processPackages [isystem.connect]: Remove: archive file [/home/abi/fetcher/tmp/isystem.connect-9.21.99.0-cp39-none-win_amd64.whl.zip]
+[2024-04-02 09:10:51] INFO root fetch - main [MainThread]: End processing [isystem.connect]: success
+[2024-04-02 09:12:01] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.2.tar.gz]
+[2024-04-02 09:12:01] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
+[2024-04-02 09:12:01] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2024-04-02 09:12:01] INFO root fetch - main [MainThread]: Store serial: [22581456]
