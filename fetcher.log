@@ -10425,3 +10425,78 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:38:05] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240401.0-py3-none-any.whl.zip]
 [2024-04-02 06:38:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
 [2024-04-02 06:38:05] INFO root fetch - main [MainThread]: Store serial: [22580624]
+[2024-04-02 06:40:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580624]
+[2024-04-02 06:40:14] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: morphdb-utils
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openllm
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openllm-client
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openllm-core
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleipnirgroup-jormungandr
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flashcam
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sdss-hal
+[2024-04-02 06:40:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: MLstatkit
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [MLstatkit]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [flashcam]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/14/b7/d41241c216a3c44e672c56743a907eb33bf936c1cd37647ddc720097692d/openllm_core-0.5.0a1.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/b7/d7/a090840ceb67bd699fead638d0a91c7cb7411be2fea8d27c5876919a72ef/openllm-0.5.0a1.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [sdss-hal]: New version: [1.1.0] Old Version: [1.0.3]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev98] Old Version: [0.0.1.dev97]
+[2024-04-02 06:40:15] INFO root fetch - processPackages [MLstatkit]: Downloading https://files.pythonhosted.org/packages/76/8e/3326852d754682e973a568af776bfca70f7e562206e27bb24d1b1ea5a838/MLstatkit-0.1.1.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/c3/d0/0b68eff7beeb7a2fa8885287be488b3d9a89890a9d8ba1b879c6cbeaf4a0/flashcam-1.8.4.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/ce/f2/cbfbde1d56660f28a5446b08d57db5438d77a64f753fa4ae79008c2007a9/openllm_client-0.5.0a1.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/72/ff/dec7c398e7dc00b7b35495dc54f92065ab3c8d87fed9f576c66b46ce39c5/sdss_hal-1.0.3.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/28/418b4215dc7b2fc2d1d5585740b817072e5ec70aef99d61f67c2d914f773/sleipnirgroup_jormungandr-0.0.1.dev97.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/29/50/1ca28a2a324800cb4bca3349e56f99f4ea62ccf0b46172fe23dfb247155a/openllm_core-0.5.0a2.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/1f/28/a598a9d2004615839f3fac88678b0f31db93ff27dc44fd73f2da2b552326/openllm_client-0.5.0a2.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/c5/31/cd8a341d4be6ec7af54ce16acfefa63380bdb41614ff5dc21d4517201e47/openllm-0.5.0a2.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/84/ee/bc11a95b4888f2c3d1e71576a3275c98cfe9c1eaa23beccd7391688eeaff/flashcam-1.8.5.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a1.tar.gz tmp/openllm_client-0.5.0a2.tar.gz --markdown 20240402/o/openllm-client/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2024-04-02 06:40:15] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [MLstatkit]: Downloading https://files.pythonhosted.org/packages/53/3c/3dd81d33f385775d0c332d50cbb80758aa531f9ad87e00b768bd13ffd75c/MLstatkit-0.1.2.tar.gz
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a1.tar.gz tmp/openllm_core-0.5.0a2.tar.gz --markdown 20240402/o/openllm-core/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-04-02 06:40:15] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a1.tar.gz tmp/openllm-0.5.0a2.tar.gz --markdown 20240402/o/openllm/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2024-04-02 06:40:15] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-04-02 06:40:15] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.8.4.tar.gz tmp/flashcam-1.8.5.tar.gz --markdown 20240402/f/flashcam/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2024-04-02 06:40:15] INFO root fetch - processPackages [MLstatkit]: executing diffoscope
+[2024-04-02 06:40:15] INFO root fetch - processPackages [MLstatkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MLstatkit-0.1.1.tar.gz tmp/MLstatkit-0.1.2.tar.gz --markdown 20240402/M/MLstatkit/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 06:40:15] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-04-02 06:40:15] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240402/m/morphdb-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 06:40:15] INFO root fetch - processPackages [sdss-hal]: Downloading https://files.pythonhosted.org/packages/8e/19/dabeaa81d4b1df2cfc4d1656ea03306b852781b74374be81cbd1e18a3451/sdss_hal-1.1.0.tar.gz
+[2024-04-02 06:40:16] INFO root fetch - processPackages [sdss-hal]: executing diffoscope
+[2024-04-02 06:40:16] INFO root fetch - processPackages [sdss-hal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sdss_hal-1.0.3.tar.gz tmp/sdss_hal-1.1.0.tar.gz --markdown 20240402/s/sdss-hal/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 06:40:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-02 06:40:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-02 06:40:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev97.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz --markdown 20240402/s/sleipnirgroup-jormungandr/0.0.1.dev97-0.0.1.dev98/diff.md --exclude *.pyd
+[2024-04-02 06:40:16] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a1.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a2.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-04-02 06:40:16] INFO root fetch - processPackages [MLstatkit]: Remove: archive file [/home/abi/fetcher/tmp/MLstatkit-0.1.1.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - processPackages [MLstatkit]: Remove: archive file [/home/abi/fetcher/tmp/MLstatkit-0.1.2.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - main [MainThread]: End processing [MLstatkit]: success
+[2024-04-02 06:40:16] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-04-02 06:40:16] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a1.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a2.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-04-02 06:40:16] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a1.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a2.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-04-02 06:40:16] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.4.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.5.tar.gz]
+[2024-04-02 06:40:16] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-04-02 06:40:17] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.0.3.tar.gz]
+[2024-04-02 06:40:17] INFO root fetch - processPackages [sdss-hal]: Remove: archive file [/home/abi/fetcher/tmp/sdss_hal-1.1.0.tar.gz]
+[2024-04-02 06:40:17] INFO root fetch - main [MainThread]: End processing [sdss-hal]: success
+[2024-04-02 06:40:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev97.tar.gz]
+[2024-04-02 06:40:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-02 06:40:17] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-02 06:40:17] INFO root fetch - main [MainThread]: Store serial: [22580659]
