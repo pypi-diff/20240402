@@ -9510,3 +9510,78 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:18:43] INFO root fetch - processPackages [p-cmd-runr]: Remove: archive file [/home/abi/fetcher/tmp/p_cmd_runr-0.1.5.tar.gz]
 [2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [p-cmd-runr]: success
 [2024-04-02 05:18:43] INFO root fetch - main [MainThread]: Store serial: [22580266]
+[2024-04-02 05:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580266]
+[2024-04-02 05:20:52] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moyanlib
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: djangosaml
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: GEARLM
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: funasr
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentops
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: keras-nightly
+[2024-04-02 05:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quantes
+[2024-04-02 05:20:52] INFO root fetch - processPackages [quantes]: New version: [2.0.5] Old Version: [2.0.4]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [agentops]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [keras-nightly]: New version: [3.2.0.dev2024040103] Old Version: [3.2.0.dev2024033103]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [moyanlib]: New version: [1.5.1712027947] Old Version: [1.5.1707129404]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [djangosaml]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [quantes]: Downloading https://files.pythonhosted.org/packages/68/e7/9762f7551d28f1aa1df8251939cb217326c9623e584dcd46e56ce436b47e/quantes-2.0.4.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [GEARLM]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [funasr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 05:20:52] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/10/fe/abb836b04b7eae44383f5616ed1c4c6e9aee9beecc3df4617f69f7e3adc5/agentops-0.1.0b4.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/ce/9c/a47ea09ee3d63e5e2bc2ea88c662b2cc110e0d4dd44fb286b193a84eb672/keras-nightly-3.2.0.dev2024033103.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [djangosaml]: Downloading https://files.pythonhosted.org/packages/5d/d3/38df11c2558168825874abf69e423d3e621afd0635c406646223b63e816e/djangosaml-1.0.1.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [moyanlib]: Downloading https://files.pythonhosted.org/packages/56/10/ccfab8baa59840f767da6a2c43c81ca56e16c5933735e64ca804a6d84049/moyanlib-1.5.1707129404.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [GEARLM]: Downloading https://files.pythonhosted.org/packages/f8/0a/fe3603de4a55375211111297db3671f25d184e095504ecccc87c403750a2/GEARLM-0.0.9.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/21/21/731cf3cbf78402270debbdb84df0ea7792894307364fd9d73b168d54311f/funasr-1.0.8.tar.gz
+[2024-04-02 05:20:52] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/84/d6/f0bbe5883b86e749f2f02896d94054ebd84b4d66524e4b7004263ae21a6f/agentops-0.1.0b5.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [quantes]: Downloading https://files.pythonhosted.org/packages/86/86/cebfd077adc55c75a7483ec104c3a717bebcbc232c9afc31c716ce0c7dd0/quantes-2.0.5.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.0b4.tar.gz tmp/agentops-0.1.0b5.tar.gz --markdown 20240402/a/agentops/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [quantes]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [quantes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantes-2.0.4.tar.gz tmp/quantes-2.0.5.tar.gz --markdown 20240402/q/quantes/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [djangosaml]: Downloading https://files.pythonhosted.org/packages/fc/63/e5fcbab13f5f9f76130c66ab2e59528d7192f91fbcc69cbcd44eedec8569/djangosaml-1.0.2.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [moyanlib]: Downloading https://files.pythonhosted.org/packages/94/f7/9b9249c80ae73f0b8b1338d8bc0e2e98c00d565b02d2551c8454c8eaa4bf/moyanlib-1.5.1712027947.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240402/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [keras-nightly]: Downloading https://files.pythonhosted.org/packages/e9/39/138846877a7f5c4c83a903a652078856db415d5e139d7848fa38d25bca30/keras-nightly-3.2.0.dev2024040103.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [GEARLM]: Downloading https://files.pythonhosted.org/packages/a7/79/a400104586bba73405102d61079cdf1a4a644fb0edbf2a6dfce9ef1f0516/GEARLM-0.1.0.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/d0/dd/6f3c701795e79dbbbfe61e62b81fabcb3d7a62598476c4197f8156a012ad/funasr-1.0.9.tar.gz
+[2024-04-02 05:20:53] INFO root fetch - processPackages [djangosaml]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [djangosaml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangosaml-1.0.1.tar.gz tmp/djangosaml-1.0.2.tar.gz --markdown 20240402/d/djangosaml/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [moyanlib]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [moyanlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moyanlib-1.5.1707129404.tar.gz tmp/moyanlib-1.5.1712027947.tar.gz --markdown 20240402/m/moyanlib/1.5.1707129404-1.5.1712027947/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [GEARLM]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [GEARLM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GEARLM-0.0.9.tar.gz tmp/GEARLM-0.1.0.tar.gz --markdown 20240402/G/GEARLM/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-1.0.8.tar.gz tmp/funasr-1.0.9.tar.gz --markdown 20240402/f/funasr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [keras-nightly]: executing diffoscope
+[2024-04-02 05:20:53] INFO root fetch - processPackages [keras-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nightly-3.2.0.dev2024033103.tar.gz tmp/keras-nightly-3.2.0.dev2024040103.tar.gz --markdown 20240402/k/keras-nightly/3.2.0.dev2024033103-3.2.0.dev2024040103/diff.md --exclude *.pyd
+[2024-04-02 05:20:53] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b4.tar.gz]
+[2024-04-02 05:20:53] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b5.tar.gz]
+[2024-04-02 05:20:53] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-04-02 05:20:53] INFO root fetch - processPackages [quantes]: Remove: archive file [/home/abi/fetcher/tmp/quantes-2.0.4.tar.gz]
+[2024-04-02 05:20:53] INFO root fetch - processPackages [quantes]: Remove: archive file [/home/abi/fetcher/tmp/quantes-2.0.5.tar.gz]
+[2024-04-02 05:20:53] INFO root fetch - main [MainThread]: End processing [quantes]: success
+[2024-04-02 05:20:54] INFO root fetch - processPackages [djangosaml]: Remove: archive file [/home/abi/fetcher/tmp/djangosaml-1.0.1.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - processPackages [djangosaml]: Remove: archive file [/home/abi/fetcher/tmp/djangosaml-1.0.2.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - main [MainThread]: End processing [djangosaml]: success
+[2024-04-02 05:20:54] INFO root fetch - processPackages [moyanlib]: Remove: archive file [/home/abi/fetcher/tmp/moyanlib-1.5.1707129404.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - processPackages [moyanlib]: Remove: archive file [/home/abi/fetcher/tmp/moyanlib-1.5.1712027947.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - main [MainThread]: End processing [moyanlib]: success
+[2024-04-02 05:20:54] INFO root fetch - processPackages [GEARLM]: Remove: archive file [/home/abi/fetcher/tmp/GEARLM-0.0.9.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - processPackages [GEARLM]: Remove: archive file [/home/abi/fetcher/tmp/GEARLM-0.1.0.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - main [MainThread]: End processing [GEARLM]: success
+[2024-04-02 05:20:54] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-02 05:20:54] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-02 05:20:55] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.8.tar.gz]
+[2024-04-02 05:20:55] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-1.0.9.tar.gz]
+[2024-04-02 05:20:55] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2024-04-02 05:20:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024033103.tar.gz]
+[2024-04-02 05:20:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040103.tar.gz]
+[2024-04-02 05:20:55] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
+[2024-04-02 05:20:55] INFO root fetch - main [MainThread]: Store serial: [22580289]
