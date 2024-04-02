@@ -14212,3 +14212,39 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:21:51] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc7-py3-none-any.whl.zip]
 [2024-04-02 10:21:51] INFO root fetch - main [MainThread]: End processing [lexikos]: success
 [2024-04-02 10:21:51] INFO root fetch - main [MainThread]: Store serial: [22582096]
+[2024-04-02 10:23:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582096]
+[2024-04-02 10:24:00] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytket-qiskit
+[2024-04-02 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qapp-common
+[2024-04-02 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unifyai
+[2024-04-02 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlfactory
+[2024-04-02 10:24:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccpn-project-checker
+[2024-04-02 10:24:00] WARNING root fetch - processPackages [ccpn-project-checker]: Skipping, unable to determine old version
+[2024-04-02 10:24:00] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker] error
+[2024-04-02 10:24:00] INFO root fetch - processPackages [unifyai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-02 10:24:00] WARNING root fetch - processPackages [sqlfactory]: Skipping, unable to determine old version
+[2024-04-02 10:24:00] INFO root fetch - main [MainThread]: End processing [sqlfactory] error
+[2024-04-02 10:24:00] INFO root fetch - processPackages [qapp-common]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 10:24:00] INFO root fetch - processPackages [pytket-qiskit]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 10:24:00] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/1b/9d/04c5b197d109c8a6c81cda2bddf4aec3f11ca91c907f4b0bf7012c861d52/unifyai-0.3.0.tar.gz
+[2024-04-02 10:24:00] INFO root fetch - processPackages [qapp-common]: Downloading https://files.pythonhosted.org/packages/98/8e/d122d8142783d5862ca199a24fce9556dbd4e50aceb378597f7bc6a9abe4/qapp-common-0.0.2.tar.gz
+[2024-04-02 10:24:00] INFO root fetch - processPackages [pytket-qiskit]: Downloading https://files.pythonhosted.org/packages/ff/b9/8f46cbccd38064746fc115594124a6dff8729f5e246680d9043202787ead/pytket-qiskit-0.9.0.tar.gz
+[2024-04-02 10:24:00] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/eb/4c/d55df30fb432cf7e1fa6f18cad6e1da1c406b3655270ceca7d46c692c77a/unifyai-0.3.1.tar.gz
+[2024-04-02 10:24:00] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-04-02 10:24:00] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.3.0.tar.gz tmp/unifyai-0.3.1.tar.gz --markdown 20240402/u/unifyai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-02 10:24:00] INFO root fetch - processPackages [qapp-common]: Downloading https://files.pythonhosted.org/packages/f1/ac/db8d6b0021b67c45e830ab0d1cddc365ae53e5800c5ef44635cb1c7ee6d7/qapp-common-0.0.3.tar.gz
+[2024-04-02 10:24:00] INFO root fetch - processPackages [qapp-common]: executing diffoscope
+[2024-04-02 10:24:00] INFO root fetch - processPackages [qapp-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qapp-common-0.0.2.tar.gz tmp/qapp-common-0.0.3.tar.gz --markdown 20240402/q/qapp-common/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 10:24:00] INFO root fetch - processPackages [pytket-qiskit]: Downloading https://files.pythonhosted.org/packages/23/19/02ea04ea396821dbc38a6428fe6344ca7c0d8eca52f90f0af34f63647f77/pytket-qiskit-0.9.1.tar.gz
+[2024-04-02 10:24:01] INFO root fetch - processPackages [pytket-qiskit]: executing diffoscope
+[2024-04-02 10:24:01] INFO root fetch - processPackages [pytket-qiskit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-qiskit-0.9.0.tar.gz tmp/pytket-qiskit-0.9.1.tar.gz --markdown 20240402/p/pytket-qiskit/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 10:24:01] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.3.0.tar.gz]
+[2024-04-02 10:24:01] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.3.1.tar.gz]
+[2024-04-02 10:24:01] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-04-02 10:24:01] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.2.tar.gz]
+[2024-04-02 10:24:01] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.3.tar.gz]
+[2024-04-02 10:24:01] INFO root fetch - main [MainThread]: End processing [qapp-common]: success
+[2024-04-02 10:24:01] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.0.tar.gz]
+[2024-04-02 10:24:01] INFO root fetch - processPackages [pytket-qiskit]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qiskit-0.9.1.tar.gz]
+[2024-04-02 10:24:01] INFO root fetch - main [MainThread]: End processing [pytket-qiskit]: success
+[2024-04-02 10:24:01] INFO root fetch - main [MainThread]: Store serial: [22582112]
