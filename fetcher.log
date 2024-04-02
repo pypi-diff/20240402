@@ -22632,3 +22632,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:34:28] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.0.tar.gz]
 [2024-04-02 15:34:28] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-04-02 15:34:28] INFO root fetch - main [MainThread]: Store serial: [22585612]
+[2024-04-02 15:36:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585612]
+[2024-04-02 15:36:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 15:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: buildgrid
+[2024-04-02 15:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voila
+[2024-04-02 15:36:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmap-schemas
+[2024-04-02 15:36:36] INFO root fetch - processPackages [voila]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-02 15:36:36] INFO root fetch - processPackages [cellmap-schemas]: New version: [0.6.0] Old Version: [0.5.0]
+[2024-04-02 15:36:37] INFO root fetch - processPackages [buildgrid]: New version: [0.0.90] Old Version: [0.0.89]
+[2024-04-02 15:36:37] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/69/69/007e83930d1ffdc85c3602432d003167b37cdb9fd5df746cb99d2d20dd05/voila-0.5.4.tar.gz
+[2024-04-02 15:36:37] INFO root fetch - processPackages [cellmap-schemas]: Downloading https://files.pythonhosted.org/packages/aa/79/82c9e2adeea4c8d77ff0c796804db327a701390ee23cefa619183ac0284f/cellmap_schemas-0.5.0.tar.gz
+[2024-04-02 15:36:37] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/0c/67/82dc6148b4a75c1988666aeffb3ec8cd8435c662aa6cdab0a27623135f67/buildgrid-0.0.89.tar.gz
+[2024-04-02 15:36:37] INFO root fetch - processPackages [cellmap-schemas]: Downloading https://files.pythonhosted.org/packages/fd/a9/46a78dd530a393faa88a5878214bad98c1a66674c662c36979bd1b9bfa26/cellmap_schemas-0.6.0.tar.gz
+[2024-04-02 15:36:37] INFO root fetch - processPackages [buildgrid]: Downloading https://files.pythonhosted.org/packages/42/bd/ef2dd21e5d3f094cd1c7e1fd7c5f720cd00cd1e66fd5a646e581fd68f601/buildgrid-0.0.90.tar.gz
+[2024-04-02 15:36:37] INFO root fetch - processPackages [cellmap-schemas]: executing diffoscope
+[2024-04-02 15:36:37] INFO root fetch - processPackages [cellmap-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap_schemas-0.5.0.tar.gz tmp/cellmap_schemas-0.6.0.tar.gz --markdown 20240402/c/cellmap-schemas/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2024-04-02 15:36:37] INFO root fetch - processPackages [buildgrid]: executing diffoscope
+[2024-04-02 15:36:37] INFO root fetch - processPackages [buildgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/buildgrid-0.0.89.tar.gz tmp/buildgrid-0.0.90.tar.gz --markdown 20240402/b/buildgrid/0.0.89-0.0.90/diff.md --exclude *.pyd
+[2024-04-02 15:36:38] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/2c/8f/83b9ef1e4cdd99ccc63cd69661c3e4467b3f973f60f3589417f875bb2e63/voila-0.5.5.tar.gz
+[2024-04-02 15:36:38] INFO root fetch - processPackages [cellmap-schemas]: Remove: archive file [/home/abi/fetcher/tmp/cellmap_schemas-0.5.0.tar.gz]
+[2024-04-02 15:36:38] INFO root fetch - processPackages [cellmap-schemas]: Remove: archive file [/home/abi/fetcher/tmp/cellmap_schemas-0.6.0.tar.gz]
+[2024-04-02 15:36:38] INFO root fetch - main [MainThread]: End processing [cellmap-schemas]: success
+[2024-04-02 15:36:39] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.89.tar.gz]
+[2024-04-02 15:36:39] INFO root fetch - processPackages [buildgrid]: Remove: archive file [/home/abi/fetcher/tmp/buildgrid-0.0.90.tar.gz]
+[2024-04-02 15:36:39] INFO root fetch - main [MainThread]: End processing [buildgrid]: success
+[2024-04-02 15:36:40] INFO root fetch - processPackages [voila]: executing diffoscope
+[2024-04-02 15:36:40] INFO root fetch - processPackages [voila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-0.5.4.tar.gz tmp/voila-0.5.5.tar.gz --markdown 20240402/v/voila/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-02 15:37:12] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.4.tar.gz]
+[2024-04-02 15:37:12] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.5.tar.gz]
+[2024-04-02 15:37:12] INFO root fetch - main [MainThread]: End processing [voila]: success
+[2024-04-02 15:37:12] INFO root fetch - main [MainThread]: Store serial: [22585628]
