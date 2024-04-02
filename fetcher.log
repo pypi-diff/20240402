@@ -9746,3 +9746,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:31:21] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040203.tar.gz]
 [2024-04-02 05:31:21] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
 [2024-04-02 05:31:21] INFO root fetch - main [MainThread]: Store serial: [22580339]
+[2024-04-02 05:33:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580339]
+[2024-04-02 05:33:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 05:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coiled
+[2024-04-02 05:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yyxx-game-pkg
+[2024-04-02 05:33:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plotly3d
+[2024-04-02 05:33:29] INFO root fetch - processPackages [plotly3d]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-02 05:33:30] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/7c/4c/7903c4ded4d482d17be03af5ef0cca51ed7afdf453869e8c00a29acbc4de/plotly3d-0.2.0.tar.gz
+[2024-04-02 05:33:30] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2024.4.2.1] Old Version: [2024.3.5.2]
+[2024-04-02 05:33:30] INFO root fetch - processPackages [coiled]: New version: [1.9.1.dev9] Old Version: [1.9.1.dev8]
+[2024-04-02 05:33:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/8b/97/14337c08d9fc8bec2c9c7a5961519e141cf75d7dffa582bb987eecacefa4/coiled-1.9.1.dev8.tar.gz
+[2024-04-02 05:33:30] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/78/e6/4ca1c87a83cb3ec3863803e8eed3d22dc5924c14cda89d6688262ef91112/yyxx_game_pkg-2024.3.5.2.tar.gz
+[2024-04-02 05:33:30] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/58/16/aec6b9100728dfee740792b7dd55fc6e56240fdadb5ef317a1d120e019d7/coiled-1.9.1.dev9.tar.gz
+[2024-04-02 05:33:30] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/f0/19/8304ac1b1a0d56a72c1a543a0112d9d0bbef2c5620d3f3aff23b9cd58ff2/plotly3d-0.3.0.tar.gz
+[2024-04-02 05:33:30] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-02 05:33:30] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.2.0.tar.gz tmp/plotly3d-0.3.0.tar.gz --markdown 20240402/p/plotly3d/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 05:33:30] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2024-04-02 05:33:30] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-1.9.1.dev8.tar.gz tmp/coiled-1.9.1.dev9.tar.gz --markdown 20240402/c/coiled/1.9.1.dev8-1.9.1.dev9/diff.md --exclude *.pyd
+[2024-04-02 05:33:31] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.2.0.tar.gz]
+[2024-04-02 05:33:31] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.3.0.tar.gz]
+[2024-04-02 05:33:31] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-02 05:33:31] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/42/a3/8883dc4abb02d61e13cf2094ce414bc6d63e3b9fbe2c2b8e145ec7725044/yyxx_game_pkg-2024.4.2.1.tar.gz
+[2024-04-02 05:33:31] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev8.tar.gz]
+[2024-04-02 05:33:31] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-1.9.1.dev9.tar.gz]
+[2024-04-02 05:33:31] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2024-04-02 05:33:31] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2024-04-02 05:33:31] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2024.3.5.2.tar.gz tmp/yyxx_game_pkg-2024.4.2.1.tar.gz --markdown 20240402/y/yyxx-game-pkg/2024.3.5.2-2024.4.2.1/diff.md --exclude *.pyd
+[2024-04-02 05:33:33] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.3.5.2.tar.gz]
+[2024-04-02 05:33:33] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2024.4.2.1.tar.gz]
+[2024-04-02 05:33:33] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2024-04-02 05:33:33] INFO root fetch - main [MainThread]: Store serial: [22580353]
