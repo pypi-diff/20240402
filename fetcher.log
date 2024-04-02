@@ -20855,3 +20855,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:38:42] INFO root fetch - processPackages [ITR-examples]: Remove: archive file [/home/abi/fetcher/tmp/itr_examples-1.1.4.tar.gz]
 [2024-04-02 14:38:42] INFO root fetch - main [MainThread]: End processing [ITR-examples]: success
 [2024-04-02 14:38:42] INFO root fetch - main [MainThread]: Store serial: [22584851]
+[2024-04-02 14:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584851]
+[2024-04-02 14:40:52] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 14:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: irispie
+[2024-04-02 14:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: h5analysis
+[2024-04-02 14:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stock-open-api
+[2024-04-02 14:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d-fake-seeder
+[2024-04-02 14:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tensorcircuit-nightly
+[2024-04-02 14:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: splunk-add-on-ucc-framework
+[2024-04-02 14:40:52] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:40:52] INFO root fetch - processPackages [h5analysis]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:40:52] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 14:40:52] INFO root fetch - processPackages [stock-open-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:40:52] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 14:40:52] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/7f/06/223f03a9b5227e2cabcdf1f98cc947fba9598187d96356c06382b85286c8/h5analysis-0.0.8.tar.gz
+[2024-04-02 14:40:52] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-02 14:40:52] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: New version: [6.0.0b2] Old Version: [6.0.0b1]
+[2024-04-02 14:40:52] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2024-04-02 14:40:53] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/a5/90/6329cb1873f5c13ee39173c227f94769f2b92b6b4a9b928bbf4ed6931b2c/stock-open-api-0.0.8.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/78/eb/e017cbe06f19daeaed3e507943d6fdf8d5f8e9834542528c1a025b4596be/splunk_add_on_ucc_framework-6.0.0b1.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [h5analysis]: Downloading https://files.pythonhosted.org/packages/87/86/17cc06879d035e5f154ecad9530c7c01df2439dd1eb54378379f99ee122f/h5analysis-0.0.9.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [h5analysis]: executing diffoscope
+[2024-04-02 14:40:53] INFO root fetch - processPackages [h5analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5analysis-0.0.8.tar.gz tmp/h5analysis-0.0.9.tar.gz --markdown 20240402/h/h5analysis/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:40:53] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 14:40:53] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:40:53] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [stock-open-api]: Downloading https://files.pythonhosted.org/packages/02/8b/2860ce693bbf1b303e7230a40c8f06b9ccf286d66304293f51f919a7f136/stock-open-api-0.0.9.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2024-04-02 14:40:53] INFO root fetch - processPackages [stock-open-api]: executing diffoscope
+[2024-04-02 14:40:53] INFO root fetch - processPackages [stock-open-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stock-open-api-0.0.8.tar.gz tmp/stock-open-api-0.0.9.tar.gz --markdown 20240402/s/stock-open-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:40:53] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2024-04-02 14:40:53] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20240402/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2024-04-02 14:40:53] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-02 14:40:53] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240402/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 14:40:53] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Downloading https://files.pythonhosted.org/packages/05/3f/3b6b317e7aef8128151e4751ee17636b01e39b3f95acb7e7c50789587dcf/splunk_add_on_ucc_framework-6.0.0b2.tar.gz
+[2024-04-02 14:40:54] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.8.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - processPackages [h5analysis]: Remove: archive file [/home/abi/fetcher/tmp/h5analysis-0.0.9.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - main [MainThread]: End processing [h5analysis]: success
+[2024-04-02 14:40:54] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 14:40:54] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: executing diffoscope
+[2024-04-02 14:40:54] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz --markdown 20240402/s/splunk-add-on-ucc-framework/6.0.0b1-6.0.0b2/diff.md --exclude *.pyd
+[2024-04-02 14:40:54] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.8.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - processPackages [stock-open-api]: Remove: archive file [/home/abi/fetcher/tmp/stock-open-api-0.0.9.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - main [MainThread]: End processing [stock-open-api]: success
+[2024-04-02 14:40:54] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2024-04-02 14:40:54] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2024-04-02 14:40:55] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-02 14:40:55] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-02 14:40:55] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-02 14:40:55] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b1.tar.gz]
+[2024-04-02 14:40:55] INFO root fetch - processPackages [splunk-add-on-ucc-framework]: Remove: archive file [/home/abi/fetcher/tmp/splunk_add_on_ucc_framework-6.0.0b2.tar.gz]
+[2024-04-02 14:40:55] INFO root fetch - main [MainThread]: End processing [splunk-add-on-ucc-framework]: success
+[2024-04-02 14:40:55] INFO root fetch - main [MainThread]: Store serial: [22584871]
