@@ -16012,3 +16012,69 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:31:22] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.9.tar.gz]
 [2024-04-02 11:31:22] INFO root fetch - main [MainThread]: End processing [tidydata]: success
 [2024-04-02 11:31:22] INFO root fetch - main [MainThread]: Store serial: [22582851]
+[2024-04-02 11:33:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582851]
+[2024-04-02 11:33:30] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: box-packager
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kiara
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remotion-lambda
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yellowdog-python-examples
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hellozen
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esentity
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-request-idx
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: krabby
+[2024-04-02 11:33:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:33:30] INFO root fetch - processPackages [hellozen]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 11:33:30] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-02 11:33:30] INFO root fetch - processPackages [krabby]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 11:33:30] WARNING root fetch - processPackages [flask-request-idx]: Skipping, unable to determine old version
+[2024-04-02 11:33:30] INFO root fetch - main [MainThread]: End processing [flask-request-idx] error
+[2024-04-02 11:33:30] WARNING root fetch - processPackages [box-packager]: Skipping, unable to determine old version
+[2024-04-02 11:33:30] INFO root fetch - main [MainThread]: End processing [box-packager] error
+[2024-04-02 11:33:30] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/81/43/322c72eedc21fb3ea17c8e0132cc5362e3d6a6f1b2b94a4f12affb177990/krabby-0.1.8.tar.gz
+[2024-04-02 11:33:30] INFO root fetch - processPackages [yellowdog-python-examples]: New version: [7.8.3] Old Version: [7.8.2]
+[2024-04-02 11:33:30] INFO root fetch - processPackages [remotion-lambda]: New version: [4.1.0a12] Old Version: [4.0.98]
+[2024-04-02 11:33:30] INFO root fetch - processPackages [kiara]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-02 11:33:30] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2024-04-02 11:33:31] WARNING root fetch - processPackages [lightning-whisper-mlx]: Skipping, unable to determine old version
+[2024-04-02 11:33:31] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx] error
+[2024-04-02 11:33:31] INFO root fetch - processPackages [hellozen]: Downloading https://files.pythonhosted.org/packages/6d/99/e8bcb5c3304f9c228d0fbf9a6d60e9b28518c3d0492b181a196606beb919/hellozen-0.0.4.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/3f/c5/94eff7677b9dca598bdba065311eeb371512d0bb7b2ded018d2bffb1597a/remotion_lambda-4.0.98.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/d3/41/52c9dcf66064f48e3e893fc3da63eb913f13c84014e73651dbf62b320891/yellowdog-python-examples-7.8.2.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/1f/db/10494e32863f3695390a542bc62646288a1c8cdd42cac212122562d847df/kiara-0.5.8.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/14/b2/dde75359c4b87fe1fe26ff24086bc515e612ff9253940b1e509844c4c7c2/krabby-0.1.9.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [hellozen]: Downloading https://files.pythonhosted.org/packages/56/03/bce6abc1c90021d56ac3e44d6fa9a2f55f27547a87cd8df1066d8a21f68d/hellozen-0.0.5.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [krabby]: executing diffoscope
+[2024-04-02 11:33:31] INFO root fetch - processPackages [krabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krabby-0.1.8.tar.gz tmp/krabby-0.1.9.tar.gz --markdown 20240402/k/krabby/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 11:33:31] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2024-04-02 11:33:31] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20240402/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-02 11:33:31] INFO root fetch - processPackages [hellozen]: executing diffoscope
+[2024-04-02 11:33:31] INFO root fetch - processPackages [hellozen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hellozen-0.0.4.tar.gz tmp/hellozen-0.0.5.tar.gz --markdown 20240402/h/hellozen/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 11:33:31] INFO root fetch - processPackages [yellowdog-python-examples]: Downloading https://files.pythonhosted.org/packages/eb/5a/bc82984960ca553d738e602c174c640242094c48810ad4d6ef423ccdbfc7/yellowdog-python-examples-7.8.3.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [remotion-lambda]: Downloading https://files.pythonhosted.org/packages/e2/46/7d3e726fcba2427f51b340f14b65270f6df2b6123085c439b9855a0ab1cd/remotion_lambda-4.1.0a12.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [kiara]: Downloading https://files.pythonhosted.org/packages/0d/8d/03683bc8d1ea391f9eb521c6c3da0725b0f8397246e6fe734b47d7afa005/kiara-0.5.9.tar.gz
+[2024-04-02 11:33:31] INFO root fetch - processPackages [yellowdog-python-examples]: executing diffoscope
+[2024-04-02 11:33:31] INFO root fetch - processPackages [yellowdog-python-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yellowdog-python-examples-7.8.2.tar.gz tmp/yellowdog-python-examples-7.8.3.tar.gz --markdown 20240402/y/yellowdog-python-examples/7.8.2-7.8.3/diff.md --exclude *.pyd
+[2024-04-02 11:33:31] INFO root fetch - processPackages [remotion-lambda]: executing diffoscope
+[2024-04-02 11:33:31] INFO root fetch - processPackages [remotion-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotion_lambda-4.0.98.tar.gz tmp/remotion_lambda-4.1.0a12.tar.gz --markdown 20240402/r/remotion-lambda/4.0.98-4.1.0a12/diff.md --exclude *.pyd
+[2024-04-02 11:33:31] INFO root fetch - processPackages [kiara]: executing diffoscope
+[2024-04-02 11:33:31] INFO root fetch - processPackages [kiara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiara-0.5.8.tar.gz tmp/kiara-0.5.9.tar.gz --markdown 20240402/k/kiara/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-02 11:33:32] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.8.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.9.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - main [MainThread]: End processing [krabby]: success
+[2024-04-02 11:33:32] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2024-04-02 11:33:32] INFO root fetch - processPackages [hellozen]: Remove: archive file [/home/abi/fetcher/tmp/hellozen-0.0.4.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - processPackages [hellozen]: Remove: archive file [/home/abi/fetcher/tmp/hellozen-0.0.5.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - main [MainThread]: End processing [hellozen]: success
+[2024-04-02 11:33:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.0.98.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - processPackages [remotion-lambda]: Remove: archive file [/home/abi/fetcher/tmp/remotion_lambda-4.1.0a12.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - main [MainThread]: End processing [remotion-lambda]: success
+[2024-04-02 11:33:32] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-7.8.2.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - processPackages [yellowdog-python-examples]: Remove: archive file [/home/abi/fetcher/tmp/yellowdog-python-examples-7.8.3.tar.gz]
+[2024-04-02 11:33:32] INFO root fetch - main [MainThread]: End processing [yellowdog-python-examples]: success
+[2024-04-02 11:33:33] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.5.8.tar.gz]
+[2024-04-02 11:33:33] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.5.9.tar.gz]
+[2024-04-02 11:33:33] INFO root fetch - main [MainThread]: End processing [kiara]: success
+[2024-04-02 11:33:33] INFO root fetch - main [MainThread]: Store serial: [22582885]
