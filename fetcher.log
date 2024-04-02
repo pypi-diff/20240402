@@ -11506,3 +11506,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:58:02] INFO root fetch - processPackages [odoo-addon-stock-barcodes]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes-15.0.3.0.0-py3-none-any.whl.zip]
 [2024-04-02 07:58:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes]: success
 [2024-04-02 07:58:02] INFO root fetch - main [MainThread]: Store serial: [22581088]
+[2024-04-02 08:00:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581088]
+[2024-04-02 08:00:11] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 08:00:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantplay
+[2024-04-02 08:00:11] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-02 08:00:12] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-02 08:00:12] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-02 08:00:12] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-02 08:00:12] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240402/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-02 08:00:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-02 08:00:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-02 08:00:13] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-02 08:00:13] INFO root fetch - main [MainThread]: Store serial: [22581091]
