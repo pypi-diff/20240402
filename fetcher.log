@@ -8101,3 +8101,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:48:25] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.3.3.tar.gz]
 [2024-04-02 03:48:25] INFO root fetch - main [MainThread]: End processing [gwcelery]: success
 [2024-04-02 03:48:25] INFO root fetch - main [MainThread]: Store serial: [22579714]
+[2024-04-02 03:50:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579714]
+[2024-04-02 03:50:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 03:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: test-tele
+[2024-04-02 03:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2024-04-02 03:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: marioutils
+[2024-04-02 03:50:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lunary
+[2024-04-02 03:50:35] INFO root fetch - processPackages [lunary]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 03:50:35] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-02 03:50:35] INFO root fetch - processPackages [marioutils]: New version: [1.0.1] Old Version: [0.0.2]
+[2024-04-02 03:50:35] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-02 03:50:35] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/8b/66/046c48d8cbd2f8690fd6eb22a1ca1d5d05054d98a4e53fa8f76814b8deb3/lunary-0.2.8.tar.gz
+[2024-04-02 03:50:36] WARNING root fetch - processPackages [test-tele]: Skipping, unable to determine old version
+[2024-04-02 03:50:36] INFO root fetch - main [MainThread]: End processing [test-tele] error
+[2024-04-02 03:50:36] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/87/06/4a73e206303419d7f7d38cd534c9bdca0f7e169007cde0b31e02db630c4b/lunary-0.2.9.tar.gz
+[2024-04-02 03:50:36] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-02 03:50:36] INFO root fetch - processPackages [marioutils]: Downloading https://files.pythonhosted.org/packages/18/25/069cd6e1f2e5ec8445b902ba75afbd31af86a8308978e7595b32bf7aec87/marioutils-0.0.2.tar.gz
+[2024-04-02 03:50:36] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-04-02 03:50:36] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-0.2.8.tar.gz tmp/lunary-0.2.9.tar.gz --markdown 20240402/l/lunary/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 03:50:36] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-02 03:50:36] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240402/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-02 03:50:36] INFO root fetch - processPackages [marioutils]: Downloading https://files.pythonhosted.org/packages/4d/7e/7403e15eddf29dc9974bb4638f00a1bd6b0a2cc4f3398cf2b0d1cd4d3f45/marioutils-1.0.1.tar.gz
+[2024-04-02 03:50:36] INFO root fetch - processPackages [marioutils]: executing diffoscope
+[2024-04-02 03:50:36] INFO root fetch - processPackages [marioutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/marioutils-0.0.2.tar.gz tmp/marioutils-1.0.1.tar.gz --markdown 20240402/m/marioutils/0.0.2-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 03:50:36] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-02 03:50:36] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-02 03:50:36] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-02 03:50:37] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-0.2.8.tar.gz]
+[2024-04-02 03:50:37] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-0.2.9.tar.gz]
+[2024-04-02 03:50:37] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-04-02 03:50:37] INFO root fetch - processPackages [marioutils]: Remove: archive file [/home/abi/fetcher/tmp/marioutils-0.0.2.tar.gz]
+[2024-04-02 03:50:37] INFO root fetch - processPackages [marioutils]: Remove: archive file [/home/abi/fetcher/tmp/marioutils-1.0.1.tar.gz]
+[2024-04-02 03:50:37] INFO root fetch - main [MainThread]: End processing [marioutils]: success
+[2024-04-02 03:50:37] INFO root fetch - main [MainThread]: Store serial: [22579731]
