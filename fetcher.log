@@ -10689,3 +10689,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:57:38] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.2.tar.gz]
 [2024-04-02 06:57:38] INFO root fetch - main [MainThread]: End processing [qapp-common]: success
 [2024-04-02 06:57:38] INFO root fetch - main [MainThread]: Store serial: [22580740]
+[2024-04-02 06:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580740]
+[2024-04-02 06:59:48] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: olscrypto
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wakautosolver
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ogameasure
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spiceai
+[2024-04-02 06:59:48] INFO root fetch - processPackages [olscrypto]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 06:59:48] INFO root fetch - processPackages [wakautosolver]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-02 06:59:48] INFO root fetch - processPackages [spiceai]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ogameasure]: New version: [0.5.8] Old Version: [0.5.7]
+[2024-04-02 06:59:48] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/01/17/a09fa7a774ce2bb49a6276e9d797b4f570f5271442430b996681a545c22d/wakautosolver-2024.4.1-py3-none-any.whl
+[2024-04-02 06:59:48] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/ea/6c/b9e1db305cb3735254b7a966c99bb3f37e5a0483f1b8acddb865200d6bf8/spiceai-0.1.0.tar.gz
+[2024-04-02 06:59:48] INFO root fetch - processPackages [olscrypto]: Downloading https://files.pythonhosted.org/packages/15/4a/79d7cc47cfc65329f2f23551d08e6f20f6b25c0b98bdc80cd15a16f14608/olscrypto-0.1.5.tar.gz
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ogameasure]: Downloading https://files.pythonhosted.org/packages/bf/3b/03a2bcb13cf6c6a11acf1a82ae759e9072fa7fdbc16add9303f9e675c4ca/ogameasure-0.5.7.tar.gz
+[2024-04-02 06:59:48] INFO root fetch - processPackages [olscrypto]: Downloading https://files.pythonhosted.org/packages/f1/a5/afae6288fd468e5b6001f52dbb2567abfa375ff223144cd7e418a0572535/olscrypto-0.1.6.tar.gz
+[2024-04-02 06:59:48] INFO root fetch - processPackages [olscrypto]: executing diffoscope
+[2024-04-02 06:59:48] INFO root fetch - processPackages [olscrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olscrypto-0.1.5.tar.gz tmp/olscrypto-0.1.6.tar.gz --markdown 20240402/o/olscrypto/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 06:59:48] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/23/2c/e120ca160bd3fa4a1a4bfe4c1886f99cec2b97420667f6960e82b242ca21/spiceai-0.1.1.tar.gz
+[2024-04-02 06:59:48] INFO root fetch - processPackages [ogameasure]: Downloading https://files.pythonhosted.org/packages/b0/05/bf37354c841c22057cfac8a0c7eeb3c81e4b3e68c727de33eeab6c80f2a6/ogameasure-0.5.8.tar.gz
+[2024-04-02 06:59:48] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 06:59:48] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.0.tar.gz tmp/spiceai-0.1.1.tar.gz --markdown 20240402/s/spiceai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 06:59:48] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/0a/14/83ad246e0313977cca6ddf2ebaa28e06aa3b84163fe5366898de330dd216/wakautosolver-2024.4.2-py3-none-any.whl
+[2024-04-02 06:59:49] INFO root fetch - processPackages [ogameasure]: executing diffoscope
+[2024-04-02 06:59:49] INFO root fetch - processPackages [ogameasure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogameasure-0.5.7.tar.gz tmp/ogameasure-0.5.8.tar.gz --markdown 20240402/o/ogameasure/0.5.7-0.5.8/diff.md --exclude *.pyd
+[2024-04-02 06:59:49] INFO root fetch - processPackages [wakautosolver]: executing diffoscope
+[2024-04-02 06:59:49] INFO root fetch - processPackages [wakautosolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip tmp/wakautosolver-2024.4.2-py3-none-any.whl.zip --markdown 20240402/w/wakautosolver/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-02 06:59:49] INFO root fetch - processPackages [olscrypto]: Remove: archive file [/home/abi/fetcher/tmp/olscrypto-0.1.5.tar.gz]
+[2024-04-02 06:59:49] INFO root fetch - processPackages [olscrypto]: Remove: archive file [/home/abi/fetcher/tmp/olscrypto-0.1.6.tar.gz]
+[2024-04-02 06:59:49] INFO root fetch - main [MainThread]: End processing [olscrypto]: success
+[2024-04-02 06:59:49] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.0.tar.gz]
+[2024-04-02 06:59:49] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.1.tar.gz]
+[2024-04-02 06:59:49] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 06:59:49] INFO root fetch - processPackages [ogameasure]: Remove: archive file [/home/abi/fetcher/tmp/ogameasure-0.5.7.tar.gz]
+[2024-04-02 06:59:49] INFO root fetch - processPackages [ogameasure]: Remove: archive file [/home/abi/fetcher/tmp/ogameasure-0.5.8.tar.gz]
+[2024-04-02 06:59:49] INFO root fetch - main [MainThread]: End processing [ogameasure]: success
+[2024-04-02 06:59:50] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip]
+[2024-04-02 06:59:50] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.2-py3-none-any.whl.zip]
+[2024-04-02 06:59:50] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
+[2024-04-02 06:59:50] INFO root fetch - main [MainThread]: Store serial: [22580751]
