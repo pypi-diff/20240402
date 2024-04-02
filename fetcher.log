@@ -17509,3 +17509,79 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:34:12] INFO root fetch - processPackages [ring-doorbell]: Remove: archive file [/home/abi/fetcher/tmp/ring_doorbell-0.8.9.tar.gz]
 [2024-04-02 12:34:12] INFO root fetch - main [MainThread]: End processing [ring-doorbell]: success
 [2024-04-02 12:34:12] INFO root fetch - main [MainThread]: Store serial: [22583542]
+[2024-04-02 12:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583542]
+[2024-04-02 12:36:21] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Jetski
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valmi-connector-lib
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: intelli
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RL-OM
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: owasp-depscan
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyclipmgr
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CrunchyrollAPI
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: RL-OM
+[2024-04-02 12:36:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qwak-core
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.84]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [pyclipmgr]: New version: [4.0.0] Old Version: [3.0.0]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [CrunchyrollAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.84]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [owasp-depscan]: New version: [5.3.0] Old Version: [5.2.9]
+[2024-04-02 12:36:22] WARNING root fetch - processPackages [Jetski]: Skipping, unable to determine old version
+[2024-04-02 12:36:22] INFO root fetch - main [MainThread]: End processing [Jetski] error
+[2024-04-02 12:36:22] INFO root fetch - processPackages [intelli]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0b/45/53971441e2e6c3fcfee57d7d054c21fc281a9ae25dbd3313927d36a86dfa/pyclipmgr-3.0.0.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/47/c3/4c840a0d3da7428a0f4519a12807caef3020219646668e528987c612ca59/CrunchyrollAPI-0.1.8.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [qwak-core]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-02 12:36:22] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [owasp-depscan]: Downloading https://files.pythonhosted.org/packages/0b/66/dc3244dfcea99c94cb737511a6d643334a9686dba3c099ace65de9cb2fef/owasp-depscan-5.2.9.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/24/94/c4e29e3053bfc7924ed5c6e90154de5fe4faec7f061246dc5cb19ffd8183/RL_OM-0.7.84.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/24/94/c4e29e3053bfc7924ed5c6e90154de5fe4faec7f061246dc5cb19ffd8183/RL_OM-0.7.84.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [intelli]: Downloading https://files.pythonhosted.org/packages/f0/7a/3f2a7dbab7df7abe391067183425e6ee76f18d713666677eb3ae7b0930f5/intelli-0.3.1.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/59/3f/bd28e625e13a379a9463795eed9d170cceaf191d98c6ea302e910c4788e1/qwak_core-0.3.98.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/82/c4/e254689dbe16dedbb5e992b2f142db7dec288d6d8f5c4d429f596ff41212/pyclipmgr-4.0.0.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [CrunchyrollAPI]: Downloading https://files.pythonhosted.org/packages/97/bf/9695615b27883251a6c836eafd3dbecfb350d07f29ef5d502b6b0dae7339/CrunchyrollAPI-0.1.9.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [owasp-depscan]: Downloading https://files.pythonhosted.org/packages/12/92/6f39605542e56c683cb700b4422b91852eedbd85df03053b588a3a5d0839/owasp-depscan-5.3.0.tar.gz
+[2024-04-02 12:36:22] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-02 12:36:22] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240402/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 12:36:22] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 12:36:22] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-3.0.0.tar.gz tmp/pyclipmgr-4.0.0.tar.gz --markdown 20240402/p/pyclipmgr/3.0.0-4.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.84.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240402/R/RL-OM/0.7.84-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 12:36:22] INFO root fetch - processPackages [CrunchyrollAPI]: executing diffoscope
+[2024-04-02 12:36:22] INFO root fetch - processPackages [CrunchyrollAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrunchyrollAPI-0.1.8.tar.gz tmp/CrunchyrollAPI-0.1.9.tar.gz --markdown 20240402/C/CrunchyrollAPI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-02 12:36:22] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.84.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240402/R/RL-OM/0.7.84-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 12:36:22] INFO root fetch - processPackages [intelli]: Downloading https://files.pythonhosted.org/packages/83/3e/c6a90dd2f1470090234d8f4e3ca9e1cba5052f1ed0657f41768eb6a6148e/intelli-0.3.2.tar.gz
+[2024-04-02 12:36:23] INFO root fetch - processPackages [intelli]: executing diffoscope
+[2024-04-02 12:36:23] INFO root fetch - processPackages [intelli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelli-0.3.1.tar.gz tmp/intelli-0.3.2.tar.gz --markdown 20240402/i/intelli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-02 12:36:23] INFO root fetch - processPackages [owasp-depscan]: executing diffoscope
+[2024-04-02 12:36:23] INFO root fetch - processPackages [owasp-depscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/owasp-depscan-5.2.9.tar.gz tmp/owasp-depscan-5.3.0.tar.gz --markdown 20240402/o/owasp-depscan/5.2.9-5.3.0/diff.md --exclude *.pyd
+[2024-04-02 12:36:23] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/71/0e/e7c880c764df31bf9e71679c2a411ac1a48667bfd4caee997236b1cc61fb/qwak_core-0.3.99.tar.gz
+[2024-04-02 12:36:23] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-04-02 12:36:23] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.3.98.tar.gz tmp/qwak_core-0.3.99.tar.gz --markdown 20240402/q/qwak-core/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-02 12:36:23] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-3.0.0.tar.gz]
+[2024-04-02 12:36:23] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-4.0.0.tar.gz]
+[2024-04-02 12:36:23] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 12:36:23] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-02 12:36:23] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-02 12:36:23] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-02 12:36:24] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.8.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - processPackages [CrunchyrollAPI]: Remove: archive file [/home/abi/fetcher/tmp/CrunchyrollAPI-0.1.9.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - main [MainThread]: End processing [CrunchyrollAPI]: success
+[2024-04-02 12:36:24] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.84.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-02 12:36:24] INFO root fetch - processPackages [intelli]: Remove: archive file [/home/abi/fetcher/tmp/intelli-0.3.1.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - processPackages [intelli]: Remove: archive file [/home/abi/fetcher/tmp/intelli-0.3.2.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - main [MainThread]: End processing [intelli]: success
+[2024-04-02 12:36:24] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-02 12:36:24] INFO root fetch - processPackages [owasp-depscan]: Remove: archive file [/home/abi/fetcher/tmp/owasp-depscan-5.2.9.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - processPackages [owasp-depscan]: Remove: archive file [/home/abi/fetcher/tmp/owasp-depscan-5.3.0.tar.gz]
+[2024-04-02 12:36:24] INFO root fetch - main [MainThread]: End processing [owasp-depscan]: success
+[2024-04-02 12:36:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.98.tar.gz]
+[2024-04-02 12:36:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
+[2024-04-02 12:36:26] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-04-02 12:36:26] INFO root fetch - main [MainThread]: Store serial: [22583569]
