@@ -17996,3 +17996,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:54:18] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
 [2024-04-02 12:54:18] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 12:54:18] INFO root fetch - main [MainThread]: Store serial: [22583716]
+[2024-04-02 12:56:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583716]
+[2024-04-02 12:56:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: harreveltools
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-horizon-sdk
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bailo
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ebi-eva-common-pyutils
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb-admin-assets
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ebi-eva-common-pyutils]: New version: [0.6.5] Old Version: [0.6.4]
+[2024-04-02 12:56:28] INFO root fetch - processPackages [bailo]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-02 12:56:28] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1451] Old Version: [1.0.0.post1450]
+[2024-04-02 12:56:28] INFO root fetch - processPackages [harreveltools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 12:56:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/ca/04/8ab02f2097f2fbaa556fc4bd6078299f23c2ffec6a8f067a652402a4f92c/ebi_eva_common_pyutils-0.6.4.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [harreveltools]: Downloading https://files.pythonhosted.org/packages/a3/7c/a788b819827a655d692a9af7b42a7df07c200069551a6970fbecd8ab630f/harreveltools-0.0.3.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/3d/7b/1202daf2cf02a497405e835788d0bbb86bbac0254cf6ca5128c8e353d942/nucliadb_admin_assets-1.0.0.post1450-py3-none-any.whl
+[2024-04-02 12:56:28] INFO root fetch - processPackages [bailo]: Downloading https://files.pythonhosted.org/packages/62/09/8f9915b44796538b5ef8e0d9a92187747e2f07791e1ea5fb1df07b4172bb/bailo-2.0.1.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/06/c9/47ee3aea0e17410b358d1981bc3457d72efa489b5bd7cdfd8e0dae8d1e99/finbourne_horizon_sdk-2.0.98.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [harreveltools]: Downloading https://files.pythonhosted.org/packages/33/ca/0953cc9883e5ec9a41fc505e3ae8e9d330e16e508793498daed0bb0a1d71/harreveltools-0.0.4.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Downloading https://files.pythonhosted.org/packages/2d/18/590e2bfa30803989c85a3f8d1840d62f0390c16a18c0cf5423c43430eaa7/ebi_eva_common_pyutils-0.6.5.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [bailo]: Downloading https://files.pythonhosted.org/packages/dd/61/8f475792e19ab6e20e0ad3f3f4922594b0dbd97e2f59f8d4c8e2121b3ae0/bailo-2.1.0.tar.gz
+[2024-04-02 12:56:28] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/78/30/c8aa55f3740a10194cea54a7943732f1ba72b33f8746d97a07270902dae1/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl
+[2024-04-02 12:56:29] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/00/39/af6f8e607b0c244600f9bbe82842b5739b5f5bbd08171e54da6ba158fc09/finbourne_horizon_sdk-2.0.99.tar.gz
+[2024-04-02 12:56:29] INFO root fetch - processPackages [ebi-eva-common-pyutils]: executing diffoscope
+[2024-04-02 12:56:29] INFO root fetch - processPackages [ebi-eva-common-pyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebi_eva_common_pyutils-0.6.4.tar.gz tmp/ebi_eva_common_pyutils-0.6.5.tar.gz --markdown 20240402/e/ebi-eva-common-pyutils/0.6.4-0.6.5/diff.md --exclude *.pyd
+[2024-04-02 12:56:29] INFO root fetch - processPackages [harreveltools]: executing diffoscope
+[2024-04-02 12:56:29] INFO root fetch - processPackages [harreveltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harreveltools-0.0.3.tar.gz tmp/harreveltools-0.0.4.tar.gz --markdown 20240402/h/harreveltools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 12:56:29] INFO root fetch - processPackages [bailo]: executing diffoscope
+[2024-04-02 12:56:29] INFO root fetch - processPackages [bailo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bailo-2.0.1.tar.gz tmp/bailo-2.1.0.tar.gz --markdown 20240402/b/bailo/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 12:56:29] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-02 12:56:29] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.0.98.tar.gz tmp/finbourne_horizon_sdk-2.0.99.tar.gz --markdown 20240402/f/finbourne-horizon-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 12:56:29] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-02 12:56:29] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1450-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-admin-assets/1.0.0.post1450-1.0.0.post1451/diff.md --exclude *.pyd
+[2024-04-02 12:56:29] INFO root fetch - processPackages [harreveltools]: Remove: archive file [/home/abi/fetcher/tmp/harreveltools-0.0.3.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - processPackages [harreveltools]: Remove: archive file [/home/abi/fetcher/tmp/harreveltools-0.0.4.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - main [MainThread]: End processing [harreveltools]: success
+[2024-04-02 12:56:29] INFO root fetch - processPackages [bailo]: Remove: archive file [/home/abi/fetcher/tmp/bailo-2.0.1.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - processPackages [bailo]: Remove: archive file [/home/abi/fetcher/tmp/bailo-2.1.0.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - main [MainThread]: End processing [bailo]: success
+[2024-04-02 12:56:29] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.6.4.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - processPackages [ebi-eva-common-pyutils]: Remove: archive file [/home/abi/fetcher/tmp/ebi_eva_common_pyutils-0.6.5.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - main [MainThread]: End processing [ebi-eva-common-pyutils]: success
+[2024-04-02 12:56:29] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.98.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.99.tar.gz]
+[2024-04-02 12:56:29] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-02 12:56:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1450-py3-none-any.whl.zip]
+[2024-04-02 12:56:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl.zip]
+[2024-04-02 12:56:43] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-02 12:56:43] INFO root fetch - main [MainThread]: Store serial: [22583730]
