@@ -16263,3 +16263,64 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:42:25] INFO root fetch - processPackages [field-compression-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/field-compression-benchmark-0.0.2.tar.gz]
 [2024-04-02 11:42:25] INFO root fetch - main [MainThread]: End processing [field-compression-benchmark]: success
 [2024-04-02 11:42:25] INFO root fetch - main [MainThread]: Store serial: [22582987]
+[2024-04-02 11:44:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582987]
+[2024-04-02 11:44:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-device-support-plugin
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpipe
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: py-trello-api
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-lambda-typing
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentimentAnalizis
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickfin
+[2024-04-02 11:44:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:44:35] INFO root fetch - processPackages [lightning-whisper-mlx]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 11:44:35] INFO root fetch - processPackages [quickfin]: New version: [1.6.0] Old Version: [1.5.0]
+[2024-04-02 11:44:35] INFO root fetch - processPackages [lightning-whisper-mlx]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 11:44:35] WARNING root fetch - processPackages [sentimentAnalizis]: Skipping, unable to determine old version
+[2024-04-02 11:44:35] INFO root fetch - main [MainThread]: End processing [sentimentAnalizis] error
+[2024-04-02 11:44:35] WARNING root fetch - processPackages [py-trello-api]: Skipping, unable to determine old version
+[2024-04-02 11:44:35] INFO root fetch - main [MainThread]: End processing [py-trello-api] error
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/e7/02/9f4957701f7a1056fa527d18dbf744f0145d6b338394440f19f76712f2f4/lightning-whisper-mlx-0.0.2.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [netbox-device-support-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/e7/02/9f4957701f7a1056fa527d18dbf744f0145d6b338394440f19f76712f2f4/lightning-whisper-mlx-0.0.2.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [rpipe]: New version: [6.2.2] Old Version: [6.2.1]
+[2024-04-02 11:44:36] INFO root fetch - processPackages [aws-lambda-typing]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-02 11:44:36] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/22/63/54a0d336717f04fe73c19c63dd03dec14bdbe9e0fe602bf8076c6ea1d085/quickfin-1.5.0.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/92/05/870566f7e3f3fbe6ee8f097418076f8d5bd920d67190f6eeb0100aef08c6/netbox-device-support-plugin-0.0.8.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [rpipe]: Downloading https://files.pythonhosted.org/packages/aa/2c/079b5438c46409ae8416347e82af4fca1433a8fca467cc2cfed89ab74eab/rpipe-6.2.1.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [aws-lambda-typing]: Downloading https://files.pythonhosted.org/packages/73/5d/c29b476c241769b1c01eb6addcc3eee4bc32bdb8362ba99594fe1864ae02/aws-lambda-typing-2.9.8.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/02/d1/7f648871ccae7824eb76df4853f16937db7f58ee47faf968691cdfaef8b9/lightning-whisper-mlx-0.0.3.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/02/d1/7f648871ccae7824eb76df4853f16937db7f58ee47faf968691cdfaef8b9/lightning-whisper-mlx-0.0.3.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/25/56/61811204e48822b266e5a9476e4555345f0c963a52783784a275a7224fae/quickfin-1.6.0.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: executing diffoscope
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-whisper-mlx-0.0.2.tar.gz tmp/lightning-whisper-mlx-0.0.3.tar.gz --markdown 20240402/l/lightning-whisper-mlx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: executing diffoscope
+[2024-04-02 11:44:36] INFO root fetch - processPackages [lightning-whisper-mlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-whisper-mlx-0.0.2.tar.gz tmp/lightning-whisper-mlx-0.0.3.tar.gz --markdown 20240402/l/lightning-whisper-mlx/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 11:44:36] INFO root fetch - processPackages [rpipe]: Downloading https://files.pythonhosted.org/packages/26/11/d553c3b338be5d8f7c0dab7dfad77b90adacc0e2f57793d89c44ded0a30d/rpipe-6.2.2.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-02 11:44:36] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.5.0.tar.gz tmp/quickfin-1.6.0.tar.gz --markdown 20240402/q/quickfin/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-02 11:44:36] INFO root fetch - processPackages [netbox-device-support-plugin]: Downloading https://files.pythonhosted.org/packages/bc/73/c18a4c2e7adfa3cb2a184b33f8c5fd7bca2af8fda3abeab9b59400978fa6/netbox-device-support-plugin-0.0.9.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [aws-lambda-typing]: Downloading https://files.pythonhosted.org/packages/3a/12/550c7621dd5a5c00e1cc4e98cd1ce8d741b3b783408aa3a327900d29fe7b/aws-lambda-typing-2.9.9.tar.gz
+[2024-04-02 11:44:36] INFO root fetch - processPackages [rpipe]: executing diffoscope
+[2024-04-02 11:44:36] INFO root fetch - processPackages [rpipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpipe-6.2.1.tar.gz tmp/rpipe-6.2.2.tar.gz --markdown 20240402/r/rpipe/6.2.1-6.2.2/diff.md --exclude *.pyd
+[2024-04-02 11:44:36] INFO root fetch - processPackages [aws-lambda-typing]: executing diffoscope
+[2024-04-02 11:44:36] INFO root fetch - processPackages [aws-lambda-typing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws-lambda-typing-2.9.8.tar.gz tmp/aws-lambda-typing-2.9.9.tar.gz --markdown 20240402/a/aws-lambda-typing/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-02 11:44:36] INFO root fetch - processPackages [netbox-device-support-plugin]: executing diffoscope
+[2024-04-02 11:44:36] INFO root fetch - processPackages [netbox-device-support-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-device-support-plugin-0.0.8.tar.gz tmp/netbox-device-support-plugin-0.0.9.tar.gz --markdown 20240402/n/netbox-device-support-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:44:37] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.2.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.3.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
+[2024-04-02 11:44:37] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.5.0.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.6.0.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
+[2024-04-02 11:44:37] INFO root fetch - processPackages [rpipe]: Remove: archive file [/home/abi/fetcher/tmp/rpipe-6.2.1.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - processPackages [rpipe]: Remove: archive file [/home/abi/fetcher/tmp/rpipe-6.2.2.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [rpipe]: success
+[2024-04-02 11:44:37] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-device-support-plugin-0.0.8.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - processPackages [netbox-device-support-plugin]: Remove: archive file [/home/abi/fetcher/tmp/netbox-device-support-plugin-0.0.9.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [netbox-device-support-plugin]: success
+[2024-04-02 11:44:37] INFO root fetch - processPackages [aws-lambda-typing]: Remove: archive file [/home/abi/fetcher/tmp/aws-lambda-typing-2.9.8.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - processPackages [aws-lambda-typing]: Remove: archive file [/home/abi/fetcher/tmp/aws-lambda-typing-2.9.9.tar.gz]
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [aws-lambda-typing]: success
+[2024-04-02 11:44:37] INFO root fetch - main [MainThread]: Store serial: [22583015]
