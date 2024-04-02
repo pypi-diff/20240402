@@ -9365,3 +9365,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:09:13] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-2.0.2-py3-none-any.whl.zip]
 [2024-04-02 05:09:13] INFO root fetch - main [MainThread]: End processing [algokit]: success
 [2024-04-02 05:09:13] INFO root fetch - main [MainThread]: Store serial: [22580206]
+[2024-04-02 05:11:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580206]
+[2024-04-02 05:11:22] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 05:11:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kwess
+[2024-04-02 05:11:22] INFO root fetch - processPackages [kwess]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-02 05:11:22] INFO root fetch - processPackages [kwess]: Downloading https://files.pythonhosted.org/packages/2b/9d/48658f1980358aac5adb1559de980063b63a2f0e9d2894a7cbedfd151090/kwess-0.0.6.tar.gz
+[2024-04-02 05:11:23] INFO root fetch - processPackages [kwess]: Downloading https://files.pythonhosted.org/packages/a0/11/8c56d05abf38b4b4909a01ce25958cc078b8cda5c19c2e7ed6dfcf9236e7/kwess-0.0.7.tar.gz
+[2024-04-02 05:11:23] INFO root fetch - processPackages [kwess]: executing diffoscope
+[2024-04-02 05:11:23] INFO root fetch - processPackages [kwess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kwess-0.0.6.tar.gz tmp/kwess-0.0.7.tar.gz --markdown 20240402/k/kwess/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-02 05:11:23] INFO root fetch - processPackages [kwess]: Remove: archive file [/home/abi/fetcher/tmp/kwess-0.0.6.tar.gz]
+[2024-04-02 05:11:23] INFO root fetch - processPackages [kwess]: Remove: archive file [/home/abi/fetcher/tmp/kwess-0.0.7.tar.gz]
+[2024-04-02 05:11:23] INFO root fetch - main [MainThread]: End processing [kwess]: success
+[2024-04-02 05:11:23] INFO root fetch - main [MainThread]: Store serial: [22580209]
