@@ -9042,3 +9042,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:40:31] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
 [2024-04-02 04:40:31] INFO root fetch - main [MainThread]: End processing [litellm]: success
 [2024-04-02 04:40:31] INFO root fetch - main [MainThread]: Store serial: [22580094]
+[2024-04-02 04:42:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580094]
+[2024-04-02 04:42:40] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 04:42:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-slack
+[2024-04-02 04:42:40] INFO root fetch - processPackages [shipyard-slack]: New version: [0.1.4a0] Old Version: [0.1.3a0]
+[2024-04-02 04:42:40] INFO root fetch - processPackages [shipyard-slack]: Downloading https://files.pythonhosted.org/packages/a5/dc/989472dc5db8bc4293c44a7986579280dbacd0d2e75e941e949cf17e8632/shipyard_slack-0.1.3a0.tar.gz
+[2024-04-02 04:42:41] INFO root fetch - processPackages [shipyard-slack]: Downloading https://files.pythonhosted.org/packages/f8/ff/e01342c243dd4edd9f397656afb40fede151e33be30f429b7901c3a5cf87/shipyard_slack-0.1.4a0.tar.gz
+[2024-04-02 04:42:41] INFO root fetch - processPackages [shipyard-slack]: executing diffoscope
+[2024-04-02 04:42:41] INFO root fetch - processPackages [shipyard-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_slack-0.1.3a0.tar.gz tmp/shipyard_slack-0.1.4a0.tar.gz --markdown 20240402/s/shipyard-slack/0.1.3a0-0.1.4a0/diff.md --exclude *.pyd
+[2024-04-02 04:42:41] INFO root fetch - processPackages [shipyard-slack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_slack-0.1.3a0.tar.gz]
+[2024-04-02 04:42:41] INFO root fetch - processPackages [shipyard-slack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_slack-0.1.4a0.tar.gz]
+[2024-04-02 04:42:41] INFO root fetch - main [MainThread]: End processing [shipyard-slack]: success
+[2024-04-02 04:42:41] INFO root fetch - main [MainThread]: Store serial: [22580097]
