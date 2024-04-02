@@ -2802,3 +2802,18 @@
 [2024-04-02 02:39:49] INFO root fetch - processPackages [bmtk]: Remove: archive file [/home/abi/fetcher/tmp/bmtk-1.1.0.tar.gz]
 [2024-04-02 02:39:49] INFO root fetch - main [MainThread]: End processing [bmtk]: success
 [2024-04-02 02:39:49] INFO root fetch - main [MainThread]: Store serial: [22577776]
+[2024-04-02 02:41:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577776]
+[2024-04-02 02:41:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 02:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pymetasnap
+[2024-04-02 02:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-rocm-gtt
+[2024-04-02 02:41:58] INFO root fetch - processPackages [pymetasnap]: New version: [0.30.1] Old Version: [0.30.0]
+[2024-04-02 02:41:58] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/0c/c1/e8b47a1085104d55b2c4b4047a58060ea71e854b638288ffec4bb7ee4293/pymetasnap-0.30.0.tar.gz
+[2024-04-02 02:41:58] WARNING root fetch - processPackages [pytorch-rocm-gtt]: Skipping, unable to determine old version
+[2024-04-02 02:41:58] INFO root fetch - main [MainThread]: End processing [pytorch-rocm-gtt] error
+[2024-04-02 02:41:58] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/0a/ad/f7f2dfa595348b4918e19e7a55b2dc0664b1c1b19b7cf3bb8da3cd8f987e/pymetasnap-0.30.1.tar.gz
+[2024-04-02 02:41:58] INFO root fetch - processPackages [pymetasnap]: executing diffoscope
+[2024-04-02 02:41:58] INFO root fetch - processPackages [pymetasnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetasnap-0.30.0.tar.gz tmp/pymetasnap-0.30.1.tar.gz --markdown 20240402/p/pymetasnap/0.30.0-0.30.1/diff.md --exclude *.pyd
+[2024-04-02 02:41:59] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.30.0.tar.gz]
+[2024-04-02 02:41:59] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.30.1.tar.gz]
+[2024-04-02 02:41:59] INFO root fetch - main [MainThread]: End processing [pymetasnap]: success
+[2024-04-02 02:41:59] INFO root fetch - main [MainThread]: Store serial: [22577786]
