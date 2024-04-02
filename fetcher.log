@@ -13293,3 +13293,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:49:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
 [2024-04-02 09:49:41] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
 [2024-04-02 09:49:41] INFO root fetch - main [MainThread]: Store serial: [22581767]
+[2024-04-02 09:51:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581767]
+[2024-04-02 09:51:50] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 09:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DynamicForms
+[2024-04-02 09:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: itcpr
+[2024-04-02 09:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANBUtils
+[2024-04-02 09:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AkitaCode
+[2024-04-02 09:51:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pywebasto
+[2024-04-02 09:51:50] INFO root fetch - processPackages [itcpr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 09:51:50] INFO root fetch - processPackages [itcpr]: Downloading https://files.pythonhosted.org/packages/6c/30/11eb81111b0398ccc45c445b35952fb676c5bc5cdc5e5146956865db2c0e/itcpr-1.0.8.tar.gz
+[2024-04-02 09:51:50] INFO root fetch - processPackages [pywebasto]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-02 09:51:50] INFO root fetch - processPackages [AkitaCode]: New version: [2.1] Old Version: [2.0.2b0]
+[2024-04-02 09:51:50] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/c1/73/8ede1d25d22da8a697a6788d98cc824ce742810f02c5b6e61ba0dbb52301/AkitaCode-2.0.2b0.tar.gz
+[2024-04-02 09:51:50] INFO root fetch - processPackages [itcpr]: Downloading https://files.pythonhosted.org/packages/f9/40/a7cc942973f9e514f2ab71117552a8131487c9b1711fa47b5bcc6c6e3891/itcpr-1.0.9.tar.gz
+[2024-04-02 09:51:50] INFO root fetch - processPackages [itcpr]: executing diffoscope
+[2024-04-02 09:51:50] INFO root fetch - processPackages [itcpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itcpr-1.0.8.tar.gz tmp/itcpr-1.0.9.tar.gz --markdown 20240402/i/itcpr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:51:51] INFO root fetch - processPackages [AkitaCode]: Downloading https://files.pythonhosted.org/packages/29/18/163d6a988e80a15bd40158514237b4191556dc712b8a56dce221055218ed/AkitaCode-2.1-py3-none-any.whl
+[2024-04-02 09:51:51] INFO root fetch - processPackages [AkitaCode]: executing diffoscope
+[2024-04-02 09:51:51] INFO root fetch - processPackages [AkitaCode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AkitaCode-2.0.2b0.tar.gz tmp/AkitaCode-2.1-py3-none-any.whl.zip --markdown 20240402/A/AkitaCode/2.0.2b0-2.1/diff.md --exclude *.pyd
+[2024-04-02 09:51:51] INFO root fetch - processPackages [itcpr]: Remove: archive file [/home/abi/fetcher/tmp/itcpr-1.0.8.tar.gz]
+[2024-04-02 09:51:51] INFO root fetch - processPackages [itcpr]: Remove: archive file [/home/abi/fetcher/tmp/itcpr-1.0.9.tar.gz]
+[2024-04-02 09:51:51] INFO root fetch - main [MainThread]: End processing [itcpr]: success
+[2024-04-02 09:51:51] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.0.2b0.tar.gz]
+[2024-04-02 09:51:51] INFO root fetch - processPackages [AkitaCode]: Remove: archive file [/home/abi/fetcher/tmp/AkitaCode-2.1-py3-none-any.whl.zip]
+[2024-04-02 09:51:51] INFO root fetch - main [MainThread]: End processing [AkitaCode]: success
+[2024-04-02 09:52:00] INFO root fetch - processPackages [ANBUtils]: New version: [1.7.1] Old Version: [1.6.6]
+[2024-04-02 09:52:00] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/d4/27/ad893c424d4890ffcb01b19628ff6194d3547271106ddbaab3409d4492ef/ANBUtils-1.6.6.tar.gz
+[2024-04-02 09:52:00] INFO root fetch - processPackages [DynamicForms]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 09:52:00] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/4c/62/887320f69cd8ff16996e78fa6cfb6a29439bc3bcc9a916381a0499de1d98/ANBUtils-1.7.1.tar.gz
+[2024-04-02 09:52:00] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/c1/a3/a9391b0a0ba21940c726b8e676f919e072e53da35bfe6fdc30f6cd4976ed/DynamicForms-0.9.8.tar.gz
+[2024-04-02 09:52:00] INFO root fetch - processPackages [pywebasto]: Downloading https://files.pythonhosted.org/packages/83/b9/875c8d53f5b2e2de2c74dde13591df746ba58f8cce9c062e80fa94731f35/pywebasto-1.0.3.tar.gz
+[2024-04-02 09:52:00] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2024-04-02 09:52:00] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.6.6.tar.gz tmp/ANBUtils-1.7.1.tar.gz --markdown 20240402/A/ANBUtils/1.6.6-1.7.1/diff.md --exclude *.pyd
+[2024-04-02 09:52:01] INFO root fetch - processPackages [pywebasto]: Downloading https://files.pythonhosted.org/packages/97/08/cf106e0a0a14f0631bde4418621f0a04d316b54ff1e801a9328ce4f8a330/pywebasto-1.0.4.tar.gz
+[2024-04-02 09:52:01] INFO root fetch - processPackages [pywebasto]: executing diffoscope
+[2024-04-02 09:52:01] INFO root fetch - processPackages [pywebasto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywebasto-1.0.3.tar.gz tmp/pywebasto-1.0.4.tar.gz --markdown 20240402/p/pywebasto/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-02 09:52:01] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.6.tar.gz]
+[2024-04-02 09:52:01] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.1.tar.gz]
+[2024-04-02 09:52:01] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2024-04-02 09:52:01] INFO root fetch - processPackages [DynamicForms]: Downloading https://files.pythonhosted.org/packages/17/92/2562c5f02d4953bc96c46e2b195343702ea6763233eceaed5091889f2ab8/DynamicForms-0.9.9.tar.gz
+[2024-04-02 09:52:01] INFO root fetch - processPackages [pywebasto]: Remove: archive file [/home/abi/fetcher/tmp/pywebasto-1.0.3.tar.gz]
+[2024-04-02 09:52:01] INFO root fetch - processPackages [pywebasto]: Remove: archive file [/home/abi/fetcher/tmp/pywebasto-1.0.4.tar.gz]
+[2024-04-02 09:52:01] INFO root fetch - main [MainThread]: End processing [pywebasto]: success
+[2024-04-02 09:52:01] INFO root fetch - processPackages [DynamicForms]: executing diffoscope
+[2024-04-02 09:52:01] INFO root fetch - processPackages [DynamicForms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DynamicForms-0.9.8.tar.gz tmp/DynamicForms-0.9.9.tar.gz --markdown 20240402/D/DynamicForms/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 09:52:03] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.8.tar.gz]
+[2024-04-02 09:52:03] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
+[2024-04-02 09:52:03] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
+[2024-04-02 09:52:03] INFO root fetch - main [MainThread]: Store serial: [22581781]
