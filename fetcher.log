@@ -8526,3 +8526,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:14:07] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.7-py3-none-any.whl.zip]
 [2024-04-02 04:14:07] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-02 04:14:07] INFO root fetch - main [MainThread]: Store serial: [22579901]
+[2024-04-02 04:16:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579901]
+[2024-04-02 04:16:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: startai
+[2024-04-02 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepl-translator
+[2024-04-02 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyclipmgr
+[2024-04-02 04:16:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: petrosa
+[2024-04-02 04:16:16] INFO root fetch - processPackages [pyclipmgr]: New version: [2.5] Old Version: [2.4]
+[2024-04-02 04:16:16] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 04:16:16] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/16/d0/42bcf62ce374d0215730c064570c1967c6c79df2981b51b56def221a341f/pyclipmgr-2.4.tar.gz
+[2024-04-02 04:16:16] WARNING root fetch - processPackages [startai]: Skipping, unable to determine old version
+[2024-04-02 04:16:16] INFO root fetch - main [MainThread]: End processing [startai] error
+[2024-04-02 04:16:16] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/d1/6b/0213ce704d21677ebe32767f91f48378f7f61f946cacaeea794fd77d0f9d/deepl_translator-0.1.2.tar.gz
+[2024-04-02 04:16:16] INFO root fetch - processPackages [petrosa]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 04:16:16] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/cc/a0/38b036b8a08c4ec4f41e2e4d8836c1f7c7ddb7db6b7e8e3998312de482fc/deepl_translator-0.1.3.tar.gz
+[2024-04-02 04:16:16] INFO root fetch - processPackages [petrosa]: Downloading https://files.pythonhosted.org/packages/e6/b9/0d446977c84ba028c6ed2dacf861f0724f3cb58cf628ae8bf9ab062ac258/petrosa-0.0.8.tar.gz
+[2024-04-02 04:16:16] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/fc/d6/3aaf87f39a88373664c978389a412542dce84019ac78e811cda5f7975b0d/pyclipmgr-2.5.tar.gz
+[2024-04-02 04:16:16] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2024-04-02 04:16:16] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.2.tar.gz tmp/deepl_translator-0.1.3.tar.gz --markdown 20240402/d/deepl-translator/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 04:16:16] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 04:16:16] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-2.4.tar.gz tmp/pyclipmgr-2.5.tar.gz --markdown 20240402/p/pyclipmgr/2.4-2.5/diff.md --exclude *.pyd
+[2024-04-02 04:16:17] INFO root fetch - processPackages [petrosa]: Downloading https://files.pythonhosted.org/packages/44/fe/1f3118a8d146a7e23eec51b4caff69f7fe9aa77052269f8ca078482d6985/petrosa-0.0.9.tar.gz
+[2024-04-02 04:16:17] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.2.tar.gz]
+[2024-04-02 04:16:17] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.3.tar.gz]
+[2024-04-02 04:16:17] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2024-04-02 04:16:17] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.4.tar.gz]
+[2024-04-02 04:16:17] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.5.tar.gz]
+[2024-04-02 04:16:17] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 04:16:17] INFO root fetch - processPackages [petrosa]: executing diffoscope
+[2024-04-02 04:16:17] INFO root fetch - processPackages [petrosa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petrosa-0.0.8.tar.gz tmp/petrosa-0.0.9.tar.gz --markdown 20240402/p/petrosa/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 04:16:18] INFO root fetch - processPackages [petrosa]: Remove: archive file [/home/abi/fetcher/tmp/petrosa-0.0.8.tar.gz]
+[2024-04-02 04:16:18] INFO root fetch - processPackages [petrosa]: Remove: archive file [/home/abi/fetcher/tmp/petrosa-0.0.9.tar.gz]
+[2024-04-02 04:16:18] INFO root fetch - main [MainThread]: End processing [petrosa]: success
+[2024-04-02 04:16:18] INFO root fetch - main [MainThread]: Store serial: [22579926]
