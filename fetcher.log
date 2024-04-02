@@ -17885,3 +17885,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:47:37] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.3.7.tar.gz]
 [2024-04-02 12:47:37] INFO root fetch - main [MainThread]: End processing [PYield]: success
 [2024-04-02 12:47:37] INFO root fetch - main [MainThread]: Store serial: [22583683]
+[2024-04-02 12:49:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583683]
+[2024-04-02 12:49:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: codec-sdk
+[2024-04-02 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muti.numer
+[2024-04-02 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ecoscope
+[2024-04-02 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sunholo
+[2024-04-02 12:49:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plasmidCC
+[2024-04-02 12:49:46] INFO root fetch - processPackages [muti.numer]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 12:49:46] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-02 12:49:46] INFO root fetch - processPackages [codec-sdk]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-02 12:49:46] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/01/35/06e68bce6c6551e2f1580b2fd9b0f99d6fd6e6f3f65130ce4bc60ef0bcdf/muti.numer-0.0.5.tar.gz
+[2024-04-02 12:49:46] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-02 12:49:46] INFO root fetch - processPackages [plasmidCC]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 12:49:46] INFO root fetch - processPackages [codec-sdk]: Downloading https://files.pythonhosted.org/packages/6d/25/c5215ab6494b70ef63b656070f37dbbd7e642b41feb6cbd3f28d284758c4/codec_sdk-0.2.2.tar.gz
+[2024-04-02 12:49:46] INFO root fetch - processPackages [ecoscope]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-02 12:49:47] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [plasmidCC]: Downloading https://files.pythonhosted.org/packages/13/a7/3b4340c14e30d95ed4aa98e63c5fc0c111d217f44376ed9f32cfe0a59733/plasmidCC-1.0.0.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/a1/75/2f927385623549ab306d4159b1667590425c3ebea6e076bc89ec95401636/muti.numer-0.0.6.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-02 12:49:47] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240402/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-02 12:49:47] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/fe/33/6f30a11c8ba7cbbe6079df08f5a216b364ea601cdc048bc0bbfdf997b069/ecoscope-1.6.0.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [muti.numer]: executing diffoscope
+[2024-04-02 12:49:47] INFO root fetch - processPackages [muti.numer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.numer-0.0.5.tar.gz tmp/muti.numer-0.0.6.tar.gz --markdown 20240402/m/muti.numer/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 12:49:47] INFO root fetch - processPackages [codec-sdk]: Downloading https://files.pythonhosted.org/packages/38/8e/9b6ffc181ed101792c1bee499e723f8f1f1e9d55d0bb9f2387132660674d/codec_sdk-0.2.3.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [codec-sdk]: executing diffoscope
+[2024-04-02 12:49:47] INFO root fetch - processPackages [codec-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codec_sdk-0.2.2.tar.gz tmp/codec_sdk-0.2.3.tar.gz --markdown 20240402/c/codec-sdk/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-02 12:49:47] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/66/ed/b395fefb0f9df541b43e987e8e938c1c6504d63ceebe79c89ef6516a2909/ecoscope-1.6.1.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [plasmidCC]: Downloading https://files.pythonhosted.org/packages/0f/09/0f6e634c4df5dfc7074a33d088f96c42c8448079b2c99632f79ea150a9b3/plasmidCC-1.0.1.tar.gz
+[2024-04-02 12:49:47] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2024-04-02 12:49:47] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.6.0.tar.gz tmp/ecoscope-1.6.1.tar.gz --markdown 20240402/e/ecoscope/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-02 12:49:47] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.5.tar.gz]
+[2024-04-02 12:49:47] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.6.tar.gz]
+[2024-04-02 12:49:47] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
+[2024-04-02 12:49:47] INFO root fetch - processPackages [codec-sdk]: Remove: archive file [/home/abi/fetcher/tmp/codec_sdk-0.2.2.tar.gz]
+[2024-04-02 12:49:47] INFO root fetch - processPackages [codec-sdk]: Remove: archive file [/home/abi/fetcher/tmp/codec_sdk-0.2.3.tar.gz]
+[2024-04-02 12:49:47] INFO root fetch - main [MainThread]: End processing [codec-sdk]: success
+[2024-04-02 12:49:48] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-02 12:49:48] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-02 12:49:48] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-02 12:49:48] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.6.0.tar.gz]
+[2024-04-02 12:49:48] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.6.1.tar.gz]
+[2024-04-02 12:49:48] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2024-04-02 12:49:49] INFO root fetch - processPackages [plasmidCC]: executing diffoscope
+[2024-04-02 12:49:49] INFO root fetch - processPackages [plasmidCC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmidCC-1.0.0.tar.gz tmp/plasmidCC-1.0.1.tar.gz --markdown 20240402/p/plasmidCC/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 12:49:50] INFO root fetch - processPackages [plasmidCC]: Remove: archive file [/home/abi/fetcher/tmp/plasmidCC-1.0.0.tar.gz]
+[2024-04-02 12:49:50] INFO root fetch - processPackages [plasmidCC]: Remove: archive file [/home/abi/fetcher/tmp/plasmidCC-1.0.1.tar.gz]
+[2024-04-02 12:49:50] INFO root fetch - main [MainThread]: End processing [plasmidCC]: success
+[2024-04-02 12:49:50] INFO root fetch - main [MainThread]: Store serial: [22583695]
