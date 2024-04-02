@@ -20465,3 +20465,84 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:27:31] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl.zip]
 [2024-04-02 14:27:31] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-02 14:27:31] INFO root fetch - main [MainThread]: Store serial: [22584716]
+[2024-04-02 14:29:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584716]
+[2024-04-02 14:29:41] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arion-library
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mns-common
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prusek-spheroid
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oebuild
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide6
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dataskillhub
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyUnite
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: varvamp
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-access-sdk
+[2024-04-02 14:29:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Java2Jar
+[2024-04-02 14:29:41] INFO root fetch - processPackages [dataskillhub]: New version: [1.4.3] Old Version: [1.4.2]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [prusek-spheroid]: New version: [3.3] Old Version: [3.2]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [arion-library]: New version: [2.1.0] Old Version: [1.1.0]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:29:41] WARNING root fetch - processPackages [pyUnite]: Skipping, unable to determine old version
+[2024-04-02 14:29:41] INFO root fetch - main [MainThread]: End processing [pyUnite] error
+[2024-04-02 14:29:41] ERROR root fetch - processPackages [Java2Jar]: Unable to get metadata: No such project 'Java2Jar'
+[2024-04-02 14:29:41] INFO root fetch - main [MainThread]: End processing [Java2Jar] error
+[2024-04-02 14:29:41] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/dc/ea/3669ae21330504134236c7f5485d69446b3c6c554b2e737f85a9a2531430/dataskillhub-1.4.2-py3-none-any.whl
+[2024-04-02 14:29:41] INFO root fetch - processPackages [varvamp]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [mns-common]: New version: [1.0.7.4.2] Old Version: [1.0.7.4.1]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [PySide6]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-02 14:29:41] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/ee/03/dd6de1963bc47d899c6e5de50b8e5791bca7a494fead33833b13134d29ea/finbourne_access_sdk-2.0.98.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/85/5a/73243aeaff620ba21105a0fed4c88451c96bb985e58b351e0961a921382d/arion_library-1.1.0.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/1c/f9/3f8e6a9ce3b8e426007813a0bb57a632e8ce75490a28bdcb0fed52765f81/prusek_spheroid-3.2.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-04-02 14:29:41] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/7c/f9/e543f56cd38de8886b60b8a8ebf9e8abdda3b23ff2cc933730b3fc295079/mns_common-1.0.7.4.1.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/06/e9/31ed81d96afc652dd8329e9fef8fad995400e706d740fb3aef21169520a7/varvamp-1.1.1.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [PySide6]: Downloading https://files.pythonhosted.org/packages/c0/a2/5e70cfd298c33f9d7a658086367999306c09d99eb75b0ad2e042fdc84279/PySide6-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-02 14:29:41] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/b9/9d/d9e34bbe69c5c09e1bebcf6e1fb0172dabee5038a4993f822163ff8df7cf/finbourne_access_sdk-2.0.99.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/2c/87adc33285dcbf332ed15bf5ed557c3d1e77602946b1028ac5c309599552/arion_library-2.1.0.tar.gz
+[2024-04-02 14:29:41] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/ed/93/362ab1a6583de6152138ec31a90d36d90716efd8544628f264082b275e7c/dataskillhub-1.4.3-py3-none-any.whl
+[2024-04-02 14:29:41] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-04-02 14:29:41] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/17/b5/3a6f4df3ca3cee11350c07ecd27bca3acf5d3519f62e22dd4040a34332d1/prusek_spheroid-3.3.tar.gz
+[2024-04-02 14:29:42] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1.0.tar.gz tmp/arion_library-2.1.0.tar.gz --markdown 20240402/a/arion-library/1.1.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.0.98.tar.gz tmp/finbourne_access_sdk-2.0.99.tar.gz --markdown 20240402/f/finbourne-access-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240402/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-3.2.tar.gz tmp/prusek_spheroid-3.3.tar.gz --markdown 20240402/p/prusek-spheroid/3.2-3.3/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.4.2-py3-none-any.whl.zip tmp/dataskillhub-1.4.3-py3-none-any.whl.zip --markdown 20240402/d/dataskillhub/1.4.2-1.4.3/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [mns-common]: Downloading https://files.pythonhosted.org/packages/11/05/ad30ea813b2dcefe5be056f43469786c4a40e8b29ff76d0fddfea7ebaa20/mns_common-1.0.7.4.2.tar.gz
+[2024-04-02 14:29:42] INFO root fetch - processPackages [PySide6]: Downloading https://files.pythonhosted.org/packages/af/90/3164ace42cb80ed55642e965934133d0c49bfa3ea79e43631dd331cdc866/PySide6-6.6.3.1-cp38-abi3-win_amd64.whl
+[2024-04-02 14:29:42] INFO root fetch - processPackages [varvamp]: Downloading https://files.pythonhosted.org/packages/9d/e1/e1a685228b73f1cc254c66051e866a80d93b02638556135639d057a58388/varvamp-1.1.2.tar.gz
+[2024-04-02 14:29:42] INFO root fetch - processPackages [mns-common]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [mns-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns_common-1.0.7.4.1.tar.gz tmp/mns_common-1.0.7.4.2.tar.gz --markdown 20240402/m/mns-common/1.0.7.4.1-1.0.7.4.2/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [varvamp]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [varvamp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/varvamp-1.1.1.tar.gz tmp/varvamp-1.1.2.tar.gz --markdown 20240402/v/varvamp/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [PySide6]: executing diffoscope
+[2024-04-02 14:29:42] INFO root fetch - processPackages [PySide6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-6.6.3-cp38-abi3-win_amd64.whl.zip tmp/PySide6-6.6.3.1-cp38-abi3-win_amd64.whl.zip --markdown 20240402/P/PySide6/6.6.3-6.6.3.1/diff.md --exclude *.pyd
+[2024-04-02 14:29:42] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1.0.tar.gz]
+[2024-04-02 14:29:42] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-2.1.0.tar.gz]
+[2024-04-02 14:29:42] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.4.2-py3-none-any.whl.zip]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.4.3-py3-none-any.whl.zip]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-3.2.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-3.3.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-1.1.1.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [varvamp]: Remove: archive file [/home/abi/fetcher/tmp/varvamp-1.1.2.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [varvamp]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.1.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [mns-common]: Remove: archive file [/home/abi/fetcher/tmp/mns_common-1.0.7.4.2.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [mns-common]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.98.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.99.tar.gz]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-02 14:29:43] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.6.3-cp38-abi3-win_amd64.whl.zip]
+[2024-04-02 14:29:43] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.6.3.1-cp38-abi3-win_amd64.whl.zip]
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [PySide6]: success
+[2024-04-02 14:29:43] INFO root fetch - main [MainThread]: Store serial: [22584749]
