@@ -17585,3 +17585,113 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:36:26] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
 [2024-04-02 12:36:26] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-04-02 12:36:26] INFO root fetch - main [MainThread]: Store serial: [22583569]
+[2024-04-02 12:38:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583569]
+[2024-04-02 12:38:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: CureQ
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: starlette-async-jinja
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guessing-game-ww
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: increase
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hestia-earth-aggregation
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-dingtalk
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyclipmgr
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: maykin-python3-saml
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kadi
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccpn-project-checker
+[2024-04-02 12:38:35] INFO root fetch - processPackages [CureQ]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [pyclipmgr]: New version: [5.0.0] Old Version: [4.0.0]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [starlette-async-jinja]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [CureQ]: Downloading https://files.pythonhosted.org/packages/e5/0e/7e16ef7e1254367a97361633693a4922960a7f1bd4e366acc2efaf93ebc5/CureQ-0.0.4.tar.gz
+[2024-04-02 12:38:35] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/82/c4/e254689dbe16dedbb5e992b2f142db7dec288d6d8f5c4d429f596ff41212/pyclipmgr-4.0.0.tar.gz
+[2024-04-02 12:38:35] INFO root fetch - processPackages [kadi]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/4a/aa/e464f9a7d515579d56b8f5a3fea70035ba8a19d4cc24d4d4adc310ae5fd8/ccpn_project_checker-0.1.8.tar.gz
+[2024-04-02 12:38:35] WARNING root fetch - processPackages [guessing-game-ww]: Skipping, unable to determine old version
+[2024-04-02 12:38:35] INFO root fetch - processPackages [guessing-game-ww]: Start processing: lljz-tools
+[2024-04-02 12:38:35] INFO root fetch - main [MainThread]: End processing [guessing-game-ww] error
+[2024-04-02 12:38:35] INFO root fetch - processPackages [hestia-earth-aggregation]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [maykin-python3-saml]: New version: [1.16.1] Old Version: [1.16.0.post2]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [alibabacloud-dingtalk]: New version: [2.0.93] Old Version: [2.0.92]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [increase]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 12:38:35] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 12:38:36] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/74/31/3c8c911d85b389874c147f0e23e1e38d94a1e81167d30503e5ae1fbd835c/lljz_tools-0.2.4.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/b8/a2/6df89e1ddd1eb8cd6aa5d09412ac32d0539b827ddad5d270452674d02b9e/starlette_async_jinja-1.7.1.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/38/04/23245208877a10fba93c724199da0ea129bcdee0336c4a86f3be0888834e/increase-0.8.1.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [kadi]: Downloading https://files.pythonhosted.org/packages/3c/13/66ad2967333480e214c9d11d19338d16d5b8eba8c98ce2d7100416b06050/kadi-0.8.1-py3-none-any.whl
+[2024-04-02 12:38:36] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/5e/f8/c3f0d3c77a022f0e348386703237222ce289387213d21d03f63c34dfb2e3/hestia-earth-aggregation-0.9.2.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/2c/d9/587e91cf347152af0d48cbb913069b28899d49e6567ba5452ab92d3bbc7d/alibabacloud_dingtalk-2.0.92.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [maykin-python3-saml]: Downloading https://files.pythonhosted.org/packages/be/ca/8410d1173393f085889698ca07dbf5b57da99be116467746729fa25f35ac/maykin_python3_saml-1.16.0.post2.tar.gz
+[2024-04-02 12:38:36] WARNING root fetch - processPackages [kadi]: Skipping package: exceeds size limit 16380155>=10485760
+[2024-04-02 12:38:36] INFO root fetch - processPackages [kadi]: Start processing: steering-vectors
+[2024-04-02 12:38:36] INFO root fetch - main [MainThread]: End processing [kadi] error
+[2024-04-02 12:38:36] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/9a/e1/5f3e6c8b4bca4f289db6fe9a948ba868b3034c289278ebbf524793c13f7f/ccpn_project_checker-0.1.9.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/3f/e1/811d089646fd162e25ea464ef568465095a210335fdeda9b531c2b39292b/pyclipmgr-5.0.0-py3-none-any.whl
+[2024-04-02 12:38:36] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/15/03/370c03bd6b84cb9d0f1a4382cc350bb878b88bde2af933d660cd95d45499/lljz_tools-0.2.5.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [CureQ]: Downloading https://files.pythonhosted.org/packages/ab/b6/d16be94f2e638895c56140a85c7586873ca7eec06e0faf0e05a2de851305/CureQ-0.0.5.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.4.tar.gz tmp/lljz_tools-0.2.5.tar.gz --markdown 20240402/l/lljz-tools/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [steering-vectors]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 12:38:36] INFO root fetch - processPackages [starlette-async-jinja]: Downloading https://files.pythonhosted.org/packages/79/e6/193d8f3e95455417cc1e99ad7e17fe9ef5d71b87ed53ca77ab50ec88daf8/starlette_async_jinja-1.7.2.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [CureQ]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [CureQ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CureQ-0.0.4.tar.gz tmp/CureQ-0.0.5.tar.gz --markdown 20240402/C/CureQ/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-4.0.0.tar.gz tmp/pyclipmgr-5.0.0-py3-none-any.whl.zip --markdown 20240402/p/pyclipmgr/4.0.0-5.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [increase]: Downloading https://files.pythonhosted.org/packages/35/1a/9728c759dc28ac734c6c3220f0abf89c385a19f2c0b2edab7e7707dd5fe5/increase-0.9.0.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.8.tar.gz tmp/ccpn_project_checker-0.1.9.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [hestia-earth-aggregation]: Downloading https://files.pythonhosted.org/packages/65/c9/38d65314c17e531d4bf2af618fccff360f8867a19ac63232d815ca4b6187/hestia-earth-aggregation-0.9.3.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [starlette-async-jinja]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [starlette-async-jinja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/starlette_async_jinja-1.7.1.tar.gz tmp/starlette_async_jinja-1.7.2.tar.gz --markdown 20240402/s/starlette-async-jinja/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [maykin-python3-saml]: Downloading https://files.pythonhosted.org/packages/37/1d/990529e4db98b9a8bc487e87792ea223248e3d4973ddded5999cd0ac62d4/maykin_python3_saml-1.16.1.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [alibabacloud-dingtalk]: Downloading https://files.pythonhosted.org/packages/b5/9b/dba1d5c1cfc659253b9a527a9bd366baa467f08facf99f9bc26828953bdc/alibabacloud_dingtalk-2.0.93.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [increase]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [increase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increase-0.8.1.tar.gz tmp/increase-0.9.0.tar.gz --markdown 20240402/i/increase/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [steering-vectors]: Downloading https://files.pythonhosted.org/packages/55/4c/02cfaff0cea630159380469fe60e3add0c40c2d18ec00fa8820eb7fcedd2/steering_vectors-0.8.0.tar.gz
+[2024-04-02 12:38:36] INFO root fetch - processPackages [hestia-earth-aggregation]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [hestia-earth-aggregation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-aggregation-0.9.2.tar.gz tmp/hestia-earth-aggregation-0.9.3.tar.gz --markdown 20240402/h/hestia-earth-aggregation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-02 12:38:36] INFO root fetch - processPackages [maykin-python3-saml]: executing diffoscope
+[2024-04-02 12:38:36] INFO root fetch - processPackages [maykin-python3-saml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maykin_python3_saml-1.16.0.post2.tar.gz tmp/maykin_python3_saml-1.16.1.tar.gz --markdown 20240402/m/maykin-python3-saml/1.16.0.post2-1.16.1/diff.md --exclude *.pyd
+[2024-04-02 12:38:37] INFO root fetch - processPackages [alibabacloud-dingtalk]: executing diffoscope
+[2024-04-02 12:38:37] INFO root fetch - processPackages [alibabacloud-dingtalk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_dingtalk-2.0.92.tar.gz tmp/alibabacloud_dingtalk-2.0.93.tar.gz --markdown 20240402/a/alibabacloud-dingtalk/2.0.92-2.0.93/diff.md --exclude *.pyd
+[2024-04-02 12:38:37] INFO root fetch - processPackages [steering-vectors]: Downloading https://files.pythonhosted.org/packages/0c/51/268916db8e3115fc7a625e26530817706576e9c6a5492dad06615d33df32/steering_vectors-0.9.0.tar.gz
+[2024-04-02 12:38:37] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.4.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.5.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [lljz-tools]: Start processing: schemaorg-lite
+[2024-04-02 12:38:37] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-04-02 12:38:37] INFO root fetch - processPackages [steering-vectors]: executing diffoscope
+[2024-04-02 12:38:37] INFO root fetch - processPackages [steering-vectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steering_vectors-0.8.0.tar.gz tmp/steering_vectors-0.9.0.tar.gz --markdown 20240402/s/steering-vectors/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 12:38:37] INFO root fetch - processPackages [CureQ]: Remove: archive file [/home/abi/fetcher/tmp/CureQ-0.0.4.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [CureQ]: Remove: archive file [/home/abi/fetcher/tmp/CureQ-0.0.5.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - main [MainThread]: End processing [CureQ]: success
+[2024-04-02 12:38:37] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-4.0.0.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-5.0.0-py3-none-any.whl.zip]
+[2024-04-02 12:38:37] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 12:38:37] INFO root fetch - processPackages [schemaorg-lite]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.1.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [starlette-async-jinja]: Remove: archive file [/home/abi/fetcher/tmp/starlette_async_jinja-1.7.2.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - main [MainThread]: End processing [starlette-async-jinja]: success
+[2024-04-02 12:38:37] INFO root fetch - processPackages [schemaorg-lite]: Downloading https://files.pythonhosted.org/packages/fd/fe/0b65a01d3301d990ed848139acac1829e28f7e65373ce4d5adbd6643d6dc/schemaorg_lite-0.1.7.tar.gz
+[2024-04-02 12:38:37] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.2.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - processPackages [hestia-earth-aggregation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-aggregation-0.9.3.tar.gz]
+[2024-04-02 12:38:37] INFO root fetch - main [MainThread]: End processing [hestia-earth-aggregation]: success
+[2024-04-02 12:38:38] INFO root fetch - processPackages [steering-vectors]: Remove: archive file [/home/abi/fetcher/tmp/steering_vectors-0.8.0.tar.gz]
+[2024-04-02 12:38:38] INFO root fetch - processPackages [steering-vectors]: Remove: archive file [/home/abi/fetcher/tmp/steering_vectors-0.9.0.tar.gz]
+[2024-04-02 12:38:38] INFO root fetch - main [MainThread]: End processing [steering-vectors]: success
+[2024-04-02 12:38:38] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.8.1.tar.gz]
+[2024-04-02 12:38:38] INFO root fetch - processPackages [increase]: Remove: archive file [/home/abi/fetcher/tmp/increase-0.9.0.tar.gz]
+[2024-04-02 12:38:38] INFO root fetch - main [MainThread]: End processing [increase]: success
+[2024-04-02 12:38:38] INFO root fetch - processPackages [maykin-python3-saml]: Remove: archive file [/home/abi/fetcher/tmp/maykin_python3_saml-1.16.0.post2.tar.gz]
+[2024-04-02 12:38:38] INFO root fetch - processPackages [maykin-python3-saml]: Remove: archive file [/home/abi/fetcher/tmp/maykin_python3_saml-1.16.1.tar.gz]
+[2024-04-02 12:38:38] INFO root fetch - main [MainThread]: End processing [maykin-python3-saml]: success
+[2024-04-02 12:38:39] INFO root fetch - processPackages [schemaorg-lite]: Downloading https://files.pythonhosted.org/packages/76/ea/f8da322ad9c463fb3674baa7f3cede2984ff76804d617531f29706753fe2/schemaorg_lite-0.1.8.tar.gz
+[2024-04-02 12:38:39] INFO root fetch - processPackages [schemaorg-lite]: executing diffoscope
+[2024-04-02 12:38:39] INFO root fetch - processPackages [schemaorg-lite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schemaorg_lite-0.1.7.tar.gz tmp/schemaorg_lite-0.1.8.tar.gz --markdown 20240402/s/schemaorg-lite/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-02 12:38:40] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.92.tar.gz]
+[2024-04-02 12:38:40] INFO root fetch - processPackages [alibabacloud-dingtalk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_dingtalk-2.0.93.tar.gz]
+[2024-04-02 12:38:40] INFO root fetch - main [MainThread]: End processing [alibabacloud-dingtalk]: success
+[2024-04-02 12:38:44] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.8.tar.gz]
+[2024-04-02 12:38:44] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
+[2024-04-02 12:38:44] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 12:38:47] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.7.tar.gz]
+[2024-04-02 12:38:47] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.8.tar.gz]
+[2024-04-02 12:38:47] INFO root fetch - main [MainThread]: End processing [schemaorg-lite]: success
+[2024-04-02 12:38:47] INFO root fetch - main [MainThread]: Store serial: [22583612]
