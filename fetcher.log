@@ -9123,3 +9123,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:49:11] INFO root fetch - processPackages [gepref_text]: Remove: archive file [/home/abi/fetcher/tmp/gepref_text-0.1.2.tar.gz]
 [2024-04-02 04:49:11] INFO root fetch - main [MainThread]: End processing [gepref_text]: success
 [2024-04-02 04:49:11] INFO root fetch - main [MainThread]: Store serial: [22580124]
+[2024-04-02 04:51:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580124]
+[2024-04-02 04:51:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 04:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astromcad
+[2024-04-02 04:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyjavaz
+[2024-04-02 04:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shipyard-postgresql
+[2024-04-02 04:51:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AppWrapper
+[2024-04-02 04:51:20] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 04:51:20] INFO root fetch - processPackages [astromcad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 04:51:20] WARNING root fetch - processPackages [pyjavaz]: Skipping, unable to determine old version
+[2024-04-02 04:51:20] INFO root fetch - main [MainThread]: End processing [pyjavaz] error
+[2024-04-02 04:51:20] INFO root fetch - processPackages [shipyard-postgresql]: New version: [0.2.0a4] Old Version: [0.2.0a3]
+[2024-04-02 04:51:20] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/54/54/f5f1047507d7f6cfe23f020c17acfa39739f5d1523461298986df02800a8/AppWrapper-0.2.3.tar.gz
+[2024-04-02 04:51:20] INFO root fetch - processPackages [astromcad]: Downloading https://files.pythonhosted.org/packages/45/c1/cd9e92bbc689afadb40e8e48dbf9284cfb090cc7abf410c7dbeb30e3bccf/astromcad-0.0.8.tar.gz
+[2024-04-02 04:51:20] INFO root fetch - processPackages [shipyard-postgresql]: Downloading https://files.pythonhosted.org/packages/ee/57/c9c90bc8286a3faa504e4126f07d3a3115ca8c3dfd455bf81f222d633720/shipyard_postgresql-0.2.0a3.tar.gz
+[2024-04-02 04:51:20] INFO root fetch - processPackages [astromcad]: Downloading https://files.pythonhosted.org/packages/d3/74/c39b12c027b4d38eefdd4fc6da05eb77c094938402f48e86fdbe2c47cbce/astromcad-0.0.9.tar.gz
+[2024-04-02 04:51:20] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/f6/29/4705ae80d70e80952abd2364e13ab6b11fb86de117c4a75df960c3889a79/AppWrapper-0.2.4.tar.gz
+[2024-04-02 04:51:20] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-02 04:51:20] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.3.tar.gz tmp/AppWrapper-0.2.4.tar.gz --markdown 20240402/A/AppWrapper/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 04:51:20] INFO root fetch - processPackages [astromcad]: executing diffoscope
+[2024-04-02 04:51:20] INFO root fetch - processPackages [astromcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromcad-0.0.8.tar.gz tmp/astromcad-0.0.9.tar.gz --markdown 20240402/a/astromcad/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 04:51:21] INFO root fetch - processPackages [shipyard-postgresql]: Downloading https://files.pythonhosted.org/packages/68/68/83e2835876a36e1a4bc26d7b751f33693e03801efa4db4aeb09d330b67d1/shipyard_postgresql-0.2.0a4.tar.gz
+[2024-04-02 04:51:21] INFO root fetch - processPackages [shipyard-postgresql]: executing diffoscope
+[2024-04-02 04:51:21] INFO root fetch - processPackages [shipyard-postgresql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_postgresql-0.2.0a3.tar.gz tmp/shipyard_postgresql-0.2.0a4.tar.gz --markdown 20240402/s/shipyard-postgresql/0.2.0a3-0.2.0a4/diff.md --exclude *.pyd
+[2024-04-02 04:51:21] INFO root fetch - processPackages [astromcad]: Remove: archive file [/home/abi/fetcher/tmp/astromcad-0.0.8.tar.gz]
+[2024-04-02 04:51:21] INFO root fetch - processPackages [astromcad]: Remove: archive file [/home/abi/fetcher/tmp/astromcad-0.0.9.tar.gz]
+[2024-04-02 04:51:21] INFO root fetch - main [MainThread]: End processing [astromcad]: success
+[2024-04-02 04:51:21] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.3.tar.gz]
+[2024-04-02 04:51:21] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.4.tar.gz]
+[2024-04-02 04:51:21] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-02 04:51:21] INFO root fetch - processPackages [shipyard-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_postgresql-0.2.0a3.tar.gz]
+[2024-04-02 04:51:21] INFO root fetch - processPackages [shipyard-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_postgresql-0.2.0a4.tar.gz]
+[2024-04-02 04:51:21] INFO root fetch - main [MainThread]: End processing [shipyard-postgresql]: success
+[2024-04-02 04:51:21] INFO root fetch - main [MainThread]: Store serial: [22580137]
