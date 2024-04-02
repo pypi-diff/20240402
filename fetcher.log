@@ -20196,3 +20196,69 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:17:55] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.4.3.post0.tar.gz]
 [2024-04-02 14:17:55] INFO root fetch - main [MainThread]: End processing [fluidimage]: success
 [2024-04-02 14:17:55] INFO root fetch - main [MainThread]: Store serial: [22584619]
+[2024-04-02 14:20:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584619]
+[2024-04-02 14:20:05] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eth-owned
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ansys-tools-path
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-socio-grpc
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxonloader
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: crim_intervals
+[2024-04-02 14:20:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoviz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [crim_intervals]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [autoviz]: New version: [0.1.807] Old Version: [0.1.806]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [ansys-tools-path]: New version: [0.5.0] Old Version: [0.4.1]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [eth-owned]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [jaxonloader]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/ce/70/80d3c62f44f9bd71f47c5fd3e6f04d88e43453288878d22322cb4d20671e/autoviz-0.1.806.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-02 14:20:06] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/14/10/db1639610adea92e48bee314e4539d2ae8c2d70f743cf00f19636fa93fae/crim_intervals-2.0.8.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/5d/2f/10a12693887a8ec3a52a127c844e86e68dbcf0409a9260a9fd5c059f677c/ansys_tools_path-0.4.1.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/00/b6/af7c47e12b24b90c3fb01ae1489208bbaeb38b7724dae4c723df3f04026a/eth-owned-0.2.0.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [jaxonloader]: Downloading https://files.pythonhosted.org/packages/c3/ed/6873e79f74fdc0255125045de920009f3e327dfb34a3a8a66bc19376bb06/jaxonloader-0.2.6.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [crim_intervals]: Downloading https://files.pythonhosted.org/packages/36/f0/00176e039f8e2b2fdea7dd3a42ec3c2f1bd95c9baed349d57619592266e6/crim_intervals-2.0.9.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/cd/6a/48bad43abbbc2bbb09c09f2680a1dfade32635d7b2d200ccdcf960ed97dd/autoviz-0.1.807.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-02 14:20:06] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240402/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-02 14:20:06] INFO root fetch - processPackages [ansys-tools-path]: Downloading https://files.pythonhosted.org/packages/35/0d/7b83d8c08fff41125aadfbeb2e94030ac0a33527e0b56a9a3f13e2754658/ansys_tools_path-0.5.0.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [crim_intervals]: executing diffoscope
+[2024-04-02 14:20:06] INFO root fetch - processPackages [crim_intervals]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crim_intervals-2.0.8.tar.gz tmp/crim_intervals-2.0.9.tar.gz --markdown 20240402/c/crim_intervals/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:20:06] INFO root fetch - processPackages [eth-owned]: Downloading https://files.pythonhosted.org/packages/95/4b/fad0a6abf400b111a11ccaddf24176de65644549d1fe6f61eac69f353572/eth-owned-0.3.0.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2024-04-02 14:20:06] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.806.tar.gz tmp/autoviz-0.1.807.tar.gz --markdown 20240402/a/autoviz/0.1.806-0.1.807/diff.md --exclude *.pyd
+[2024-04-02 14:20:06] INFO root fetch - processPackages [jaxonloader]: Downloading https://files.pythonhosted.org/packages/87/27/fad6d430e9f9cdbaddf8adf6397638d8e4b18e030b7e5cf413e43a931f88/jaxonloader-0.2.7.tar.gz
+[2024-04-02 14:20:06] INFO root fetch - processPackages [ansys-tools-path]: executing diffoscope
+[2024-04-02 14:20:06] INFO root fetch - processPackages [ansys-tools-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_tools_path-0.4.1.tar.gz tmp/ansys_tools_path-0.5.0.tar.gz --markdown 20240402/a/ansys-tools-path/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2024-04-02 14:20:07] INFO root fetch - processPackages [eth-owned]: executing diffoscope
+[2024-04-02 14:20:07] INFO root fetch - processPackages [eth-owned]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-owned-0.2.0.tar.gz tmp/eth-owned-0.3.0.tar.gz --markdown 20240402/e/eth-owned/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 14:20:07] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2024-04-02 14:20:07] INFO root fetch - processPackages [jaxonloader]: executing diffoscope
+[2024-04-02 14:20:07] INFO root fetch - processPackages [jaxonloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxonloader-0.2.6.tar.gz tmp/jaxonloader-0.2.7.tar.gz --markdown 20240402/j/jaxonloader/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-02 14:20:07] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2024-04-02 14:20:07] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20240402/d/django-socio-grpc/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 14:20:07] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.8.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - processPackages [crim_intervals]: Remove: archive file [/home/abi/fetcher/tmp/crim_intervals-2.0.9.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - main [MainThread]: End processing [crim_intervals]: success
+[2024-04-02 14:20:07] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.4.1.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.806.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - processPackages [ansys-tools-path]: Remove: archive file [/home/abi/fetcher/tmp/ansys_tools_path-0.5.0.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.807.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - main [MainThread]: End processing [ansys-tools-path]: success
+[2024-04-02 14:20:07] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2024-04-02 14:20:07] INFO root fetch - processPackages [eth-owned]: Remove: archive file [/home/abi/fetcher/tmp/eth-owned-0.2.0.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - processPackages [eth-owned]: Remove: archive file [/home/abi/fetcher/tmp/eth-owned-0.3.0.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - main [MainThread]: End processing [eth-owned]: success
+[2024-04-02 14:20:07] INFO root fetch - processPackages [jaxonloader]: Remove: archive file [/home/abi/fetcher/tmp/jaxonloader-0.2.6.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - processPackages [jaxonloader]: Remove: archive file [/home/abi/fetcher/tmp/jaxonloader-0.2.7.tar.gz]
+[2024-04-02 14:20:07] INFO root fetch - main [MainThread]: End processing [jaxonloader]: success
+[2024-04-02 14:20:08] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.8.9.tar.gz]
+[2024-04-02 14:20:08] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
+[2024-04-02 14:20:08] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2024-04-02 14:20:08] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-02 14:20:08] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-02 14:20:08] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-02 14:20:08] INFO root fetch - main [MainThread]: Store serial: [22584640]
