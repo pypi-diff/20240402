@@ -17302,3 +17302,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:25:19] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev11.tar.gz]
 [2024-04-02 12:25:19] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
 [2024-04-02 12:25:19] INFO root fetch - main [MainThread]: Store serial: [22583457]
+[2024-04-02 12:27:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583457]
+[2024-04-02 12:27:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccpn-project-checker
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: grass-gis-helpers
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ultralytics
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lamindb
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: keble-documents-loader
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 12:27:28] INFO root fetch - processPackages [keble-documents-loader]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ultralytics]: New version: [8.1.9] Old Version: [8.1.8]
+[2024-04-02 12:27:28] INFO root fetch - processPackages [grass-gis-helpers]: New version: [1.0.0] Old Version: [0.6.0]
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/4a/aa/e464f9a7d515579d56b8f5a3fea70035ba8a19d4cc24d4d4adc310ae5fd8/ccpn_project_checker-0.1.8.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [keble-documents-loader]: Downloading https://files.pythonhosted.org/packages/0a/fc/07a0ca8a5199ebed65f0142451458a88cf640c6273f061cdfc549e468944/keble_documents_loader-0.0.8.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [lamindb]: New version: [0.9.6] Old Version: [0.9.4]
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/2c/9f/b8fbc96b626cd7fa56aa383ed824b5475ef86c22efaa5bc701992f8a5b12/ultralytics-8.1.8.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [grass-gis-helpers]: Downloading https://files.pythonhosted.org/packages/70/bd/77b6df69c78627a3b36323bf91f100f2d7711d1a3ade244e9e5a10f8a6fa/grass_gis_helpers-0.6.0.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/15/74/34148a2f59ec5fafeee3ffbc599388444e1e8d22d525c0b2e244aa151fef/lamindb-0.9.4.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [keble-documents-loader]: Downloading https://files.pythonhosted.org/packages/ae/c8/5a720bdeca450398b25a026432d1cf3cf05d96baa6a7933318f651a75bc9/keble_documents_loader-0.0.9.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/9a/e1/5f3e6c8b4bca4f289db6fe9a948ba868b3034c289278ebbf524793c13f7f/ccpn_project_checker-0.1.9.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [keble-documents-loader]: executing diffoscope
+[2024-04-02 12:27:28] INFO root fetch - processPackages [keble-documents-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_documents_loader-0.0.8.tar.gz tmp/keble_documents_loader-0.0.9.tar.gz --markdown 20240402/k/keble-documents-loader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:27:28] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/70/2c/d7de774dece06044c0162dcf39caf5794871e45144cda9998425196f776f/ultralytics-8.1.9.tar.gz
+[2024-04-02 12:27:28] INFO root fetch - processPackages [grass-gis-helpers]: Downloading https://files.pythonhosted.org/packages/fb/c5/3acb6693b9d218230bcf9012888fa67d5fe68dc8dd3345a45df3d97def0f/grass_gis_helpers-1.0.0.tar.gz
+[2024-04-02 12:27:29] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 12:27:29] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.8.tar.gz tmp/ccpn_project_checker-0.1.9.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 12:27:29] INFO root fetch - processPackages [lamindb]: Downloading https://files.pythonhosted.org/packages/a8/dd/da42b7dd3f39064fda6a4977c93f1a040eefa69ef3a3cefd7b4b8d13efb6/lamindb-0.9.6.tar.gz
+[2024-04-02 12:27:29] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2024-04-02 12:27:29] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.1.8.tar.gz tmp/ultralytics-8.1.9.tar.gz --markdown 20240402/u/ultralytics/8.1.8-8.1.9/diff.md --exclude *.pyd
+[2024-04-02 12:27:29] INFO root fetch - processPackages [grass-gis-helpers]: executing diffoscope
+[2024-04-02 12:27:29] INFO root fetch - processPackages [grass-gis-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grass_gis_helpers-0.6.0.tar.gz tmp/grass_gis_helpers-1.0.0.tar.gz --markdown 20240402/g/grass-gis-helpers/0.6.0-1.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:27:29] INFO root fetch - processPackages [lamindb]: executing diffoscope
+[2024-04-02 12:27:29] INFO root fetch - processPackages [lamindb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamindb-0.9.4.tar.gz tmp/lamindb-0.9.6.tar.gz --markdown 20240402/l/lamindb/0.9.4-0.9.6/diff.md --exclude *.pyd
+[2024-04-02 12:27:29] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.8.tar.gz]
+[2024-04-02 12:27:29] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.9.tar.gz]
+[2024-04-02 12:27:29] INFO root fetch - main [MainThread]: End processing [keble-documents-loader]: success
+[2024-04-02 12:27:29] INFO root fetch - processPackages [grass-gis-helpers]: Remove: archive file [/home/abi/fetcher/tmp/grass_gis_helpers-0.6.0.tar.gz]
+[2024-04-02 12:27:29] INFO root fetch - processPackages [grass-gis-helpers]: Remove: archive file [/home/abi/fetcher/tmp/grass_gis_helpers-1.0.0.tar.gz]
+[2024-04-02 12:27:29] INFO root fetch - main [MainThread]: End processing [grass-gis-helpers]: success
+[2024-04-02 12:27:30] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.4.tar.gz]
+[2024-04-02 12:27:30] INFO root fetch - processPackages [lamindb]: Remove: archive file [/home/abi/fetcher/tmp/lamindb-0.9.6.tar.gz]
+[2024-04-02 12:27:30] INFO root fetch - main [MainThread]: End processing [lamindb]: success
+[2024-04-02 12:27:30] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.8.tar.gz]
+[2024-04-02 12:27:30] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.1.9.tar.gz]
+[2024-04-02 12:27:30] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2024-04-02 12:27:37] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.8.tar.gz]
+[2024-04-02 12:27:37] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
+[2024-04-02 12:27:37] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 12:27:37] INFO root fetch - main [MainThread]: Store serial: [22583473]
