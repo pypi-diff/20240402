@@ -17443,3 +17443,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:29:49] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
 [2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [encord]: success
 [2024-04-02 12:29:49] INFO root fetch - main [MainThread]: Store serial: [22583511]
+[2024-04-02 12:31:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583511]
+[2024-04-02 12:31:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 12:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: RL-OM
+[2024-04-02 12:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codedepot-git-ai
+[2024-04-02 12:31:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: valmi-connector-lib
+[2024-04-02 12:31:58] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.82]
+[2024-04-02 12:31:58] WARNING root fetch - processPackages [codedepot-git-ai]: Skipping, unable to determine old version
+[2024-04-02 12:31:58] INFO root fetch - main [MainThread]: End processing [codedepot-git-ai] error
+[2024-04-02 12:31:58] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 12:31:59] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/e7/a7/e3c36969eb782a81c36b130b774a854f209b17128efaa54394c2a7ddd5a3/RL_OM-0.7.82.tar.gz
+[2024-04-02 12:31:59] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-02 12:31:59] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-02 12:31:59] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-02 12:31:59] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.82.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240402/R/RL-OM/0.7.82-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 12:31:59] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-02 12:31:59] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-02 12:31:59] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240402/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 12:32:00] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-02 12:32:00] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-02 12:32:00] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-02 12:32:00] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.82.tar.gz]
+[2024-04-02 12:32:00] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-02 12:32:00] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-02 12:32:00] INFO root fetch - main [MainThread]: Store serial: [22583526]
