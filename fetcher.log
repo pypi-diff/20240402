@@ -10554,3 +10554,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:44:38] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.6-py3-none-any.whl.zip]
 [2024-04-02 06:44:38] INFO root fetch - main [MainThread]: End processing [markets-insights]: success
 [2024-04-02 06:44:38] INFO root fetch - main [MainThread]: Store serial: [22580685]
+[2024-04-02 06:46:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580685]
+[2024-04-02 06:46:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 06:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-project-manager
+[2024-04-02 06:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: markets-insights
+[2024-04-02 06:46:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: unstract-adapters
+[2024-04-02 06:46:47] INFO root fetch - processPackages [python-project-manager]: New version: [1.0.0] Old Version: [0.2.9]
+[2024-04-02 06:46:47] INFO root fetch - processPackages [markets-insights]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-02 06:46:47] INFO root fetch - processPackages [unstract-adapters]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-02 06:46:47] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/c4/a3/75896524c8e8846d5fefda0adeb6cf7ccaf94ced3a5cd4926e3d4c52f394/python-project-manager-0.2.9.tar.gz
+[2024-04-02 06:46:47] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/9b/b2/d6fd4a40dd75e6ec501f96a65e063a2ff5a6e32e5cf92cdd7a43c83148df/markets_insights-0.4.5.tar.gz
+[2024-04-02 06:46:48] INFO root fetch - processPackages [python-project-manager]: Downloading https://files.pythonhosted.org/packages/ed/ea/a12ece5e3595e985296b68500bd7e4f3e6abf0315235599aef47793d1cba/python-project-manager-1.0.0.tar.gz
+[2024-04-02 06:46:48] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/e1/fe/1f2c2ae06b1d76cbc038d1685bf2de8ee5172860dfbdb83879ed487a0ac2/unstract_adapters-0.7.1.tar.gz
+[2024-04-02 06:46:48] INFO root fetch - processPackages [python-project-manager]: executing diffoscope
+[2024-04-02 06:46:48] INFO root fetch - processPackages [python-project-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-project-manager-0.2.9.tar.gz tmp/python-project-manager-1.0.0.tar.gz --markdown 20240402/p/python-project-manager/0.2.9-1.0.0/diff.md --exclude *.pyd
+[2024-04-02 06:46:48] INFO root fetch - processPackages [markets-insights]: Downloading https://files.pythonhosted.org/packages/25/04/e1af28352afa760830ed2d41b1687c692e0bad59fd927bca31ab23aa63dc/markets_insights-0.4.6-py3-none-any.whl
+[2024-04-02 06:46:48] INFO root fetch - processPackages [markets-insights]: executing diffoscope
+[2024-04-02 06:46:48] INFO root fetch - processPackages [markets-insights]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markets_insights-0.4.5.tar.gz tmp/markets_insights-0.4.6-py3-none-any.whl.zip --markdown 20240402/m/markets-insights/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2024-04-02 06:46:48] INFO root fetch - processPackages [unstract-adapters]: Downloading https://files.pythonhosted.org/packages/1f/16/fea7361f2f38ebd13fce0aeb3445abad3dc359fec968e33d1d4dc8140efa/unstract_adapters-0.8.0.tar.gz
+[2024-04-02 06:46:48] INFO root fetch - processPackages [unstract-adapters]: executing diffoscope
+[2024-04-02 06:46:48] INFO root fetch - processPackages [unstract-adapters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_adapters-0.7.1.tar.gz tmp/unstract_adapters-0.8.0.tar.gz --markdown 20240402/u/unstract-adapters/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-02 06:46:49] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python-project-manager-0.2.9.tar.gz]
+[2024-04-02 06:46:49] INFO root fetch - processPackages [python-project-manager]: Remove: archive file [/home/abi/fetcher/tmp/python-project-manager-1.0.0.tar.gz]
+[2024-04-02 06:46:49] INFO root fetch - main [MainThread]: End processing [python-project-manager]: success
+[2024-04-02 06:46:49] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.5.tar.gz]
+[2024-04-02 06:46:49] INFO root fetch - processPackages [markets-insights]: Remove: archive file [/home/abi/fetcher/tmp/markets_insights-0.4.6-py3-none-any.whl.zip]
+[2024-04-02 06:46:49] INFO root fetch - main [MainThread]: End processing [markets-insights]: success
+[2024-04-02 06:46:49] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.7.1.tar.gz]
+[2024-04-02 06:46:49] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.8.0.tar.gz]
+[2024-04-02 06:46:49] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
+[2024-04-02 06:46:49] INFO root fetch - main [MainThread]: Store serial: [22580694]
