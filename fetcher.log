@@ -9842,3 +9842,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:40:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.3.tar.gz]
 [2024-04-02 05:40:03] INFO root fetch - main [MainThread]: End processing [swarms]: success
 [2024-04-02 05:40:03] INFO root fetch - main [MainThread]: Store serial: [22580393]
+[2024-04-02 05:42:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580393]
+[2024-04-02 05:42:12] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 05:42:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptfast
+[2024-04-02 05:42:12] INFO root fetch - processPackages [gptfast]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-02 05:42:13] INFO root fetch - processPackages [gptfast]: Downloading https://files.pythonhosted.org/packages/76/67/6879777e655ce5dbcca4bd54bc89e93bab9458fdafa1125019af5a90a31d/gptfast-0.1.0.tar.gz
+[2024-04-02 05:42:13] INFO root fetch - processPackages [gptfast]: Downloading https://files.pythonhosted.org/packages/80/d9/8cf7616da571ba65925c3b3a99e45d2f3aaaaa6b78818966b62edcf41787/gptfast-0.2.0.tar.gz
+[2024-04-02 05:42:13] INFO root fetch - processPackages [gptfast]: executing diffoscope
+[2024-04-02 05:42:13] INFO root fetch - processPackages [gptfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptfast-0.1.0.tar.gz tmp/gptfast-0.2.0.tar.gz --markdown 20240402/g/gptfast/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 05:42:14] INFO root fetch - processPackages [gptfast]: Remove: archive file [/home/abi/fetcher/tmp/gptfast-0.1.0.tar.gz]
+[2024-04-02 05:42:14] INFO root fetch - processPackages [gptfast]: Remove: archive file [/home/abi/fetcher/tmp/gptfast-0.2.0.tar.gz]
+[2024-04-02 05:42:14] INFO root fetch - main [MainThread]: End processing [gptfast]: success
+[2024-04-02 05:42:14] INFO root fetch - main [MainThread]: Store serial: [22580396]
