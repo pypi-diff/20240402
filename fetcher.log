@@ -21897,3 +21897,168 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:10:12] INFO root fetch - processPackages [ewatercycle-DA]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_da-0.0.3.tar.gz]
 [2024-04-02 15:10:12] INFO root fetch - main [MainThread]: End processing [ewatercycle-DA]: success
 [2024-04-02 15:10:12] INFO root fetch - main [MainThread]: Store serial: [22585280]
+[2024-04-02 15:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585280]
+[2024-04-02 15:12:21] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mlrun
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valmi-connector-lib
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: afeng-py-tools
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: asyncio-pool-ng
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fluiddyn
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iotcore-api
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: atomic-execution-control
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-dataset
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ansar-connect
+[2024-04-02 15:12:21] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [asyncio-pool-ng]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [iotcore-api]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [atomic-execution-control]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 15:12:21] INFO root fetch - processPackages [fluiddyn]: New version: [0.6.1] Old Version: [0.6.0rc0]
+[2024-04-02 15:12:22] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/69/e0c8382177a6b58e5572bc6a81ad6abe299546d4cdeaa6b4ed8a1a58fec6/ansar-connect-0.1.98.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [afeng-py-tools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 15:12:22] INFO root fetch - processPackages [mlrun]: New version: [1.7.0rc6] Old Version: [1.7.0rc5]
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [asyncio-pool-ng]: Downloading https://files.pythonhosted.org/packages/50/f8/ef56d70f5be4245e3af21ea51a6841fe7c16a5d7b4cd1f0f7aaeb2a0f8e3/asyncio_pool_ng-0.8.0.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/ed/31/0d193d43fb02382b8c0a32128dd59e81684e79959b4cfa6881dc60511b8a/iotcore_api-1.3.0-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [atomic-execution-control]: Downloading https://files.pythonhosted.org/packages/ae/42/6b0b942df7f0accf5b125e21d2558358a1cca7d89cd2dd135e79d4b1da2b/atomic_execution_control-0.1.4.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [fluiddyn]: Downloading https://files.pythonhosted.org/packages/e8/5a/37048315c2593c1f7988b191299a56d7ecd688d726a25b2fc2d261cccb57/fluiddyn-0.6.0rc0.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/03/96/e24f6bbf418707708ed1ab31dd8f4af000cdfcd56c3955e6bcf876e28182/afeng-py-tools-0.0.98.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/e3/5c/00192f49ffe0cb838874abf1d5b721de32df5d08ad9d98b909d46a32fef0/mlrun-1.7.0rc5-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/74/0b/c504b4248bc3ebe37c314702983a44dcf646e21a88df19adb226aee27b66/ansar-connect-0.1.99.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240402/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.98.tar.gz tmp/ansar-connect-0.1.99.tar.gz --markdown 20240402/a/ansar-connect/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [asyncio-pool-ng]: Downloading https://files.pythonhosted.org/packages/98/5f/6d473dd82f3f6d9af977343a5d38d4ffc9c948160fa4006ffd9641233de5/asyncio_pool_ng-0.8.1.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [fluiddyn]: Downloading https://files.pythonhosted.org/packages/fe/6b/484807e1af83d956b1ae3d431f0e64930dae07d5ec52b5298f8b032b725b/fluiddyn-0.6.1.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [atomic-execution-control]: Downloading https://files.pythonhosted.org/packages/35/96/05539f8ebb34aed350a10d7959f76d24fabd05009632c67a472789ae3b87/atomic_execution_control-0.1.5.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [iotcore-api]: Downloading https://files.pythonhosted.org/packages/32/c3/f3b8eae9cb63e073fad97c4367f45772b98b5c89acf49733c3936363df00/iotcore_api-1.4.0-py3-none-any.whl
+[2024-04-02 15:12:22] INFO root fetch - processPackages [atomic-execution-control]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [atomic-execution-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_execution_control-0.1.4.tar.gz tmp/atomic_execution_control-0.1.5.tar.gz --markdown 20240402/a/atomic-execution-control/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [afeng-py-tools]: Downloading https://files.pythonhosted.org/packages/b2/0a/41c6034fd5c224a859e4249b1b09e63d7acefba4ae5ac80d406a778a1e32/afeng-py-tools-0.0.99.tar.gz
+[2024-04-02 15:12:22] INFO root fetch - processPackages [fluiddyn]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [fluiddyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluiddyn-0.6.0rc0.tar.gz tmp/fluiddyn-0.6.1.tar.gz --markdown 20240402/f/fluiddyn/0.6.0rc0-0.6.1/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [asyncio-pool-ng]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [asyncio-pool-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asyncio_pool_ng-0.8.0.tar.gz tmp/asyncio_pool_ng-0.8.1.tar.gz --markdown 20240402/a/asyncio-pool-ng/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2024-04-02 15:12:22] INFO root fetch - processPackages [iotcore-api]: executing diffoscope
+[2024-04-02 15:12:22] INFO root fetch - processPackages [iotcore-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iotcore_api-1.3.0-py3-none-any.whl.zip tmp/iotcore_api-1.4.0-py3-none-any.whl.zip --markdown 20240402/i/iotcore-api/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-02 15:12:23] INFO root fetch - processPackages [mlrun]: Downloading https://files.pythonhosted.org/packages/3e/d6/3422d26a169737dd5ba632b737361773dac1a875ec94e293aba575630962/mlrun-1.7.0rc6-py3-none-any.whl
+[2024-04-02 15:12:23] INFO root fetch - processPackages [afeng-py-tools]: executing diffoscope
+[2024-04-02 15:12:23] INFO root fetch - processPackages [afeng-py-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afeng-py-tools-0.0.98.tar.gz tmp/afeng-py-tools-0.0.99.tar.gz --markdown 20240402/a/afeng-py-tools/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 15:12:23] INFO root fetch - processPackages [mlrun]: executing diffoscope
+[2024-04-02 15:12:23] INFO root fetch - processPackages [mlrun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlrun-1.7.0rc5-py3-none-any.whl.zip tmp/mlrun-1.7.0rc6-py3-none-any.whl.zip --markdown 20240402/m/mlrun/1.7.0rc5-1.7.0rc6/diff.md --exclude *.pyd
+[2024-04-02 15:12:23] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [valmi-connector-lib]: Start processing: nucliadb-models
+[2024-04-02 15:12:23] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-02 15:12:23] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.98.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [ansar-connect]: Start processing: deploymodel
+[2024-04-02 15:12:23] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-02 15:12:23] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [nucliadb-dataset]: Start processing: nucliadb-protos
+[2024-04-02 15:12:23] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-02 15:12:23] INFO root fetch - processPackages [deploymodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [atomic-execution-control]: Remove: archive file [/home/abi/fetcher/tmp/atomic_execution_control-0.1.4.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [atomic-execution-control]: Remove: archive file [/home/abi/fetcher/tmp/atomic_execution_control-0.1.5.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [atomic-execution-control]: Start processing: cdktf-cdk8s
+[2024-04-02 15:12:23] INFO root fetch - main [MainThread]: End processing [atomic-execution-control]: success
+[2024-04-02 15:12:23] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [asyncio-pool-ng]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_pool_ng-0.8.0.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [asyncio-pool-ng]: Remove: archive file [/home/abi/fetcher/tmp/asyncio_pool_ng-0.8.1.tar.gz]
+[2024-04-02 15:12:23] INFO root fetch - processPackages [asyncio-pool-ng]: Start processing: nucliadb-sdk
+[2024-04-02 15:12:23] INFO root fetch - main [MainThread]: End processing [asyncio-pool-ng]: success
+[2024-04-02 15:12:24] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/b1/8e/2a2f4c098d565ef1a51c8a1ef885f8b0dfb8e084975494b6cb2a4058242d/deploymodel-0.1.8.tar.gz
+[2024-04-02 15:12:24] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [iotcore-api]: Remove: archive file [/home/abi/fetcher/tmp/iotcore_api-1.3.0-py3-none-any.whl.zip]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [iotcore-api]: Remove: archive file [/home/abi/fetcher/tmp/iotcore_api-1.4.0-py3-none-any.whl.zip]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [iotcore-api]: Start processing: nucliadb-telemetry
+[2024-04-02 15:12:24] INFO root fetch - main [MainThread]: End processing [iotcore-api]: success
+[2024-04-02 15:12:24] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post381] Old Version: [2.46.1.post380]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/8e/f4/c2263f09361c7e23469a1fdc4aa8ed7525bd9e48ff97edcfa3b723a2fa3e/deploymodel-0.1.9.tar.gz
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/20/40/7fa4ae209ea22689558d02949b0022b7c6b04b5a0dc5ea2616619668eabe/nucliadb_telemetry-2.46.1.post380-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [fluiddyn]: Remove: archive file [/home/abi/fetcher/tmp/fluiddyn-0.6.0rc0.tar.gz]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [fluiddyn]: Remove: archive file [/home/abi/fetcher/tmp/fluiddyn-0.6.1.tar.gz]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [fluiddyn]: Start processing: nucliadb-utils
+[2024-04-02 15:12:24] INFO root fetch - main [MainThread]: End processing [fluiddyn]: success
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [deploymodel]: executing diffoscope
+[2024-04-02 15:12:24] INFO root fetch - processPackages [deploymodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymodel-0.1.8.tar.gz tmp/deploymodel-0.1.9.tar.gz --markdown 20240402/d/deploymodel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 15:12:24] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-04-02 15:12:24] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240402/c/cdktf-cdk8s/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/4d/63/e3eb32e1a72ea99ef57a5ca3085303fa26b0ad9b3543c69bffe33966f4ba/nucliadb_telemetry-2.46.1.post381-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-02 15:12:24] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.1.post380-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post381-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-telemetry/2.46.1.post380-2.46.1.post381/diff.md --exclude *.pyd
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb]: Start processing: vegspec
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 15:12:25] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.98.tar.gz]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [afeng-py-tools]: Remove: archive file [/home/abi/fetcher/tmp/afeng-py-tools-0.0.99.tar.gz]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [afeng-py-tools]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [vegspec]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [vegspec]: Downloading https://files.pythonhosted.org/packages/58/4b/736bbc8dc38e48dcdb30958d41b5a5abd36a9936fcf5715143f6dd9136ab/vegspec-1.0.1.tar.gz
+[2024-04-02 15:12:25] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.8.tar.gz]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.9.tar.gz]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [deploymodel]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-04-02 15:12:25] INFO root fetch - processPackages [vegspec]: Downloading https://files.pythonhosted.org/packages/a9/50/bc865a1a67ee6500bf823df0fa432bd3a4e6bab49b2df5b7b41874821783/vegspec-1.0.2.tar.gz
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 15:12:25] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-02 15:12:26] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post380-py3-none-any.whl.zip]
+[2024-04-02 15:12:26] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post381-py3-none-any.whl.zip]
+[2024-04-02 15:12:26] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-02 15:12:26] INFO root fetch - processPackages [vegspec]: executing diffoscope
+[2024-04-02 15:12:26] INFO root fetch - processPackages [vegspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vegspec-1.0.1.tar.gz tmp/vegspec-1.0.2.tar.gz --markdown 20240402/v/vegspec/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 15:12:26] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc5-py3-none-any.whl.zip]
+[2024-04-02 15:12:26] INFO root fetch - processPackages [mlrun]: Remove: archive file [/home/abi/fetcher/tmp/mlrun-1.7.0rc6-py3-none-any.whl.zip]
+[2024-04-02 15:12:26] INFO root fetch - main [MainThread]: End processing [mlrun]: success
+[2024-04-02 15:12:26] INFO root fetch - processPackages [vegspec]: Remove: archive file [/home/abi/fetcher/tmp/vegspec-1.0.1.tar.gz]
+[2024-04-02 15:12:26] INFO root fetch - processPackages [vegspec]: Remove: archive file [/home/abi/fetcher/tmp/vegspec-1.0.2.tar.gz]
+[2024-04-02 15:12:26] INFO root fetch - main [MainThread]: End processing [vegspec]: success
+[2024-04-02 15:12:26] INFO root fetch - main [MainThread]: Store serial: [22585329]
