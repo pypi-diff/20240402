@@ -17162,3 +17162,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:16:33] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
 [2024-04-02 12:16:33] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
 [2024-04-02 12:16:33] INFO root fetch - main [MainThread]: Store serial: [22583398]
+[2024-04-02 12:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583398]
+[2024-04-02 12:18:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keble-documents-loader
+[2024-04-02 12:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creyPY
+[2024-04-02 12:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soarca-fin-library
+[2024-04-02 12:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: robotframework-creartramas
+[2024-04-02 12:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: telegram-collector
+[2024-04-02 12:18:41] INFO root fetch - processPackages [creyPY]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-02 12:18:41] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:18:42] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.1.1] Old Version: [2.0.0]
+[2024-04-02 12:18:42] WARNING root fetch - processPackages [soarca-fin-library]: Skipping, unable to determine old version
+[2024-04-02 12:18:42] INFO root fetch - main [MainThread]: End processing [soarca-fin-library] error
+[2024-04-02 12:18:42] INFO root fetch - processPackages [keble-documents-loader]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:18:42] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/24/38/2bdc4529ec8712f6adbcf3a33de01d2644613d39d0c23078c8222127aa06/creyPY-0.1.2.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/cf/6b/d795f55bc58ce47ec63c00f84b3db722350ac9aa54724d9ddb10b0e74f1d/telegram_collector-0.0.8.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/74/bc/fcc5435cffd099abb314fd30ca1cca2d021c0573c1282b7f0b4d44a6d845/robotframework_creartramas-2.0.0.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [keble-documents-loader]: Downloading https://files.pythonhosted.org/packages/0a/fc/07a0ca8a5199ebed65f0142451458a88cf640c6273f061cdfc549e468944/keble_documents_loader-0.0.8.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/58/1a/ee9068adc0920b790ade2df5ec45821f0a6508fa20db8761e1cce449c456/telegram_collector-0.0.9.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/b7/41/e66964f8343fb4a70120e630661d08062a089b11268ff92158604a76310f/creyPY-0.2.0.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-02 12:18:42] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.8.tar.gz tmp/telegram_collector-0.0.9.tar.gz --markdown 20240402/t/telegram-collector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:18:42] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-02 12:18:42] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.1.2.tar.gz tmp/creyPY-0.2.0.tar.gz --markdown 20240402/c/creyPY/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 12:18:42] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/0f/4a/dd9c614b470d910e3c0e2a436dbfd1635c2900c9500124a641ba775b8638/robotframework_creartramas-2.1.1.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [keble-documents-loader]: Downloading https://files.pythonhosted.org/packages/ae/c8/5a720bdeca450398b25a026432d1cf3cf05d96baa6a7933318f651a75bc9/keble_documents_loader-0.0.9.tar.gz
+[2024-04-02 12:18:42] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-02 12:18:42] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.0.0.tar.gz tmp/robotframework_creartramas-2.1.1.tar.gz --markdown 20240402/r/robotframework-creartramas/2.0.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-02 12:18:42] INFO root fetch - processPackages [keble-documents-loader]: executing diffoscope
+[2024-04-02 12:18:42] INFO root fetch - processPackages [keble-documents-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_documents_loader-0.0.8.tar.gz tmp/keble_documents_loader-0.0.9.tar.gz --markdown 20240402/k/keble-documents-loader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:18:43] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.1.2.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.2.0.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-02 12:18:43] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.8.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.9.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-02 12:18:43] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.0.0.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.1.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-02 12:18:43] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.8.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.9.tar.gz]
+[2024-04-02 12:18:43] INFO root fetch - main [MainThread]: End processing [keble-documents-loader]: success
+[2024-04-02 12:18:43] INFO root fetch - main [MainThread]: Store serial: [22583412]
