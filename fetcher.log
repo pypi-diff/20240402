@@ -20546,3 +20546,96 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:29:43] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.6.3.1-cp38-abi3-win_amd64.whl.zip]
 [2024-04-02 14:29:43] INFO root fetch - main [MainThread]: End processing [PySide6]: success
 [2024-04-02 14:29:43] INFO root fetch - main [MainThread]: Store serial: [22584749]
+[2024-04-02 14:31:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584749]
+[2024-04-02 14:31:53] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpaframework-assistant
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skillcorner
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flashcam
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eth-erc712
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: glycogenius
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cloudforet-console-api-v2
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyviewer
+[2024-04-02 14:31:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: TypeDAL
+[2024-04-02 14:31:54] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [cloudforet-console-api-v2]: New version: [2.0.dev98] Old Version: [2.0.dev97]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [flashcam]: New version: [1.8.8] Old Version: [1.8.7]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [eth-erc712]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402100122] Old Version: [3.3.1.dev20240402095004]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [rpaframework-assistant]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [glycogenius]: New version: [1.1.8] Old Version: [1.1.7]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/f3/c1/53486cadda0d23b5e9bc9e0486d76333618b3b59499c45fc1a8224dd40ed/flashcam-1.8.7.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/e6/6e/02ce3ae09d979b471fe4417cdbceb5137b27f166e5b8ecc6c6875fdc3523/cloudforet-console-api-v2-2.0.dev97.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/91/33fc5680170af444b14b71d83d16e1e6cdef1465328b0618877fc451f4e6/localstack-core-3.3.1.dev20240402095004.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [TypeDAL]: New version: [3.0.0b4] Old Version: [3.0.0b3]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [skillcorner]: New version: [2.2.9] Old Version: [2.2.8]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [eth-erc712]: Downloading https://files.pythonhosted.org/packages/c4/ae/c927964aab070b2088070650abf0d74925d597cfed621fd36e3e90209552/eth-erc712-0.0.1.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [rpaframework-assistant]: Downloading https://files.pythonhosted.org/packages/4e/2c/7ff7f4f7e869737e6f7144648751f0fe371ac5d45ee0961b70f968eef71f/rpaframework_assistant-3.0.2.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [glycogenius]: Downloading https://files.pythonhosted.org/packages/50/62/8eb524616f402d1821467a29ce7a1da3a608a6b697cdb05f69f94450fbf6/glycogenius-1.1.7.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [pyviewer]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-02 14:31:54] INFO root fetch - processPackages [cloudforet-console-api-v2]: Downloading https://files.pythonhosted.org/packages/b1/83/382d576c7baaf1076b4ba63610379bfef3bb2bd2d564ad1843394c61f1a8/cloudforet-console-api-v2-2.0.dev98.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [TypeDAL]: Downloading https://files.pythonhosted.org/packages/d6/af/06a0ed67e7a4e7fa85b7b851768a13826c4ba78fbfe94f325653573829a8/typedal-3.0.0b3.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [skillcorner]: Downloading https://files.pythonhosted.org/packages/00/8c/d91547f652f7753ce2e281fa0c25d69611b458775f5b92c45b7158063c66/skillcorner-2.2.8.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [pyviewer]: Downloading https://files.pythonhosted.org/packages/c6/ab/8461a7c2ee2524e05a0d34ac76161f86dd8d9d79c9d2db3e70c17e0b6eb4/pyviewer-1.3.8.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/12/52/24398f492f68127b302bf378b45fb72ada8592e89b0c0590a01c8448d97b/flashcam-1.8.8.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [cloudforet-console-api-v2]: executing diffoscope
+[2024-04-02 14:31:54] INFO root fetch - processPackages [cloudforet-console-api-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudforet-console-api-v2-2.0.dev97.tar.gz tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz --markdown 20240402/c/cloudforet-console-api-v2/2.0.dev97-2.0.dev98/diff.md --exclude *.pyd
+[2024-04-02 14:31:54] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-02 14:31:54] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240402/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-02 14:31:54] INFO root fetch - processPackages [rpaframework-assistant]: Downloading https://files.pythonhosted.org/packages/c2/19/e7b127e156cec8195117882a3223c86c593f03738a29f8b4c3fad5fec76e/rpaframework_assistant-3.0.3.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/df/6e/387171794fe49cf5b8bb5430fbcf6def5385cc98e17ed451433421f4d303/localstack-core-3.3.1.dev20240402100122.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [glycogenius]: Downloading https://files.pythonhosted.org/packages/e9/3d/971839c46186f8807508de0d064b9bc321de6e9254895fdb02159b67d5d6/glycogenius-1.1.8.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [eth-erc712]: Downloading https://files.pythonhosted.org/packages/d9/e9/7f9e36f4da66ef9aa06391df53b2c19a699cf76a4c2d06e7d01332e49c3e/eth-erc712-0.0.2.tar.gz
+[2024-04-02 14:31:54] INFO root fetch - processPackages [rpaframework-assistant]: executing diffoscope
+[2024-04-02 14:31:54] INFO root fetch - processPackages [rpaframework-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_assistant-3.0.2.tar.gz tmp/rpaframework_assistant-3.0.3.tar.gz --markdown 20240402/r/rpaframework-assistant/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.8.7.tar.gz tmp/flashcam-1.8.8.tar.gz --markdown 20240402/f/flashcam/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [eth-erc712]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [eth-erc712]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-erc712-0.0.1.tar.gz tmp/eth-erc712-0.0.2.tar.gz --markdown 20240402/e/eth-erc712/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [skillcorner]: Downloading https://files.pythonhosted.org/packages/72/2d/13eb42ee2426c1d9b06200e91146c955a5aba9471fe4ecaec7d352261fb5/skillcorner-2.2.9.tar.gz
+[2024-04-02 14:31:55] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240402095004.tar.gz tmp/localstack-core-3.3.1.dev20240402100122.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240402095004-3.3.1.dev20240402100122/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [glycogenius]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [glycogenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glycogenius-1.1.7.tar.gz tmp/glycogenius-1.1.8.tar.gz --markdown 20240402/g/glycogenius/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [TypeDAL]: Downloading https://files.pythonhosted.org/packages/f4/c8/ed9518e456a0ceb2b10bcfe7f772317215ea3e190306b291f81b9b22bc26/typedal-3.0.0b4.tar.gz
+[2024-04-02 14:31:55] INFO root fetch - processPackages [skillcorner]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [skillcorner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skillcorner-2.2.8.tar.gz tmp/skillcorner-2.2.9.tar.gz --markdown 20240402/s/skillcorner/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev97.tar.gz]
+[2024-04-02 14:31:55] INFO root fetch - processPackages [cloudforet-console-api-v2]: Remove: archive file [/home/abi/fetcher/tmp/cloudforet-console-api-v2-2.0.dev98.tar.gz]
+[2024-04-02 14:31:55] INFO root fetch - main [MainThread]: End processing [cloudforet-console-api-v2]: success
+[2024-04-02 14:31:55] INFO root fetch - processPackages [TypeDAL]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [TypeDAL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedal-3.0.0b3.tar.gz tmp/typedal-3.0.0b4.tar.gz --markdown 20240402/T/TypeDAL/3.0.0b3-3.0.0b4/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [pyviewer]: Downloading https://files.pythonhosted.org/packages/7c/e7/2d2e432c9f38b27ee0d1c1eccbd22c62f7221ace7036cafc084549d8b2a3/pyviewer-1.3.9.tar.gz
+[2024-04-02 14:31:55] INFO root fetch - processPackages [pyviewer]: executing diffoscope
+[2024-04-02 14:31:55] INFO root fetch - processPackages [pyviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyviewer-1.3.8.tar.gz tmp/pyviewer-1.3.9.tar.gz --markdown 20240402/p/pyviewer/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-02 14:31:55] INFO root fetch - processPackages [eth-erc712]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc712-0.0.1.tar.gz]
+[2024-04-02 14:31:55] INFO root fetch - processPackages [eth-erc712]: Remove: archive file [/home/abi/fetcher/tmp/eth-erc712-0.0.2.tar.gz]
+[2024-04-02 14:31:55] INFO root fetch - main [MainThread]: End processing [eth-erc712]: success
+[2024-04-02 14:31:56] INFO root fetch - processPackages [rpaframework-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_assistant-3.0.2.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - processPackages [rpaframework-assistant]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_assistant-3.0.3.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - main [MainThread]: End processing [rpaframework-assistant]: success
+[2024-04-02 14:31:56] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.7.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.8.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-04-02 14:31:56] INFO root fetch - processPackages [skillcorner]: Remove: archive file [/home/abi/fetcher/tmp/skillcorner-2.2.8.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - processPackages [skillcorner]: Remove: archive file [/home/abi/fetcher/tmp/skillcorner-2.2.9.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - main [MainThread]: End processing [skillcorner]: success
+[2024-04-02 14:31:56] INFO root fetch - processPackages [glycogenius]: Remove: archive file [/home/abi/fetcher/tmp/glycogenius-1.1.7.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - processPackages [glycogenius]: Remove: archive file [/home/abi/fetcher/tmp/glycogenius-1.1.8.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - main [MainThread]: End processing [glycogenius]: success
+[2024-04-02 14:31:56] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-02 14:31:56] INFO root fetch - processPackages [pyviewer]: Remove: archive file [/home/abi/fetcher/tmp/pyviewer-1.3.8.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - processPackages [pyviewer]: Remove: archive file [/home/abi/fetcher/tmp/pyviewer-1.3.9.tar.gz]
+[2024-04-02 14:31:56] INFO root fetch - main [MainThread]: End processing [pyviewer]: success
+[2024-04-02 14:31:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402095004.tar.gz]
+[2024-04-02 14:31:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402100122.tar.gz]
+[2024-04-02 14:31:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 14:32:08] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.0.0b3.tar.gz]
+[2024-04-02 14:32:08] INFO root fetch - processPackages [TypeDAL]: Remove: archive file [/home/abi/fetcher/tmp/typedal-3.0.0b4.tar.gz]
+[2024-04-02 14:32:08] INFO root fetch - main [MainThread]: End processing [TypeDAL]: success
+[2024-04-02 14:32:08] INFO root fetch - main [MainThread]: Store serial: [22584776]
