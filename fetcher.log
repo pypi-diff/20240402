@@ -11076,3 +11076,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:27:18] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.1.0.tar.gz]
 [2024-04-02 07:27:18] INFO root fetch - main [MainThread]: End processing [fleece-network]: success
 [2024-04-02 07:27:18] INFO root fetch - main [MainThread]: Store serial: [22580917]
+[2024-04-02 07:29:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580917]
+[2024-04-02 07:29:27] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 07:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poc-tool
+[2024-04-02 07:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-04-02 07:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bride-of-frankensystem
+[2024-04-02 07:29:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mximport
+[2024-04-02 07:29:27] INFO root fetch - processPackages [bride-of-frankensystem]: New version: [1.9.3.1] Old Version: [1.9.3.0]
+[2024-04-02 07:29:27] INFO root fetch - processPackages [lambkid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 07:29:27] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/bf/13/69600f39344b2188cabb9c3ef6384f361df68bb1fd649bc3cdba1088d43e/bride-of-frankensystem-1.9.3.0.tar.gz
+[2024-04-02 07:29:27] INFO root fetch - processPackages [poc-tool]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-02 07:29:27] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/a4/1d/a402c5f85ef6696c76f47780a2a9b4a6d1e22f67e018fac29ed5ab142ba1/lambkid-0.0.8.tar.gz
+[2024-04-02 07:29:27] INFO root fetch - processPackages [mximport]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-02 07:29:28] INFO root fetch - processPackages [poc-tool]: Downloading https://files.pythonhosted.org/packages/f3/f6/4c017b1226c6114c2f72db134f0f68c59d898ae6c2c499e82987edb68a30/poc_tool-1.1.9.tar.gz
+[2024-04-02 07:29:28] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/4f/e8/fe3ffb0ac4fb24b3455167d57cb2cd8ab326fbb2f862aab16c13d38fde49/lambkid-0.0.9.tar.gz
+[2024-04-02 07:29:28] INFO root fetch - processPackages [mximport]: Downloading https://files.pythonhosted.org/packages/b3/00/c66378323c58bda986177bf03ec58f9e5a042e1ced9657ad07123de3a517/mximport-0.0.1.tar.gz
+[2024-04-02 07:29:28] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/8a/a2/b333184a6e8f719936c4f86ae5cb8e582c0cc9f3bf4e721751aef76ce796/bride-of-frankensystem-1.9.3.1.tar.gz
+[2024-04-02 07:29:28] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-02 07:29:28] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.0.8.tar.gz tmp/lambkid-0.0.9.tar.gz --markdown 20240402/l/lambkid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 07:29:28] INFO root fetch - processPackages [poc-tool]: Downloading https://files.pythonhosted.org/packages/ed/40/b767549db7698edf9650eddcf1985532d1009d3df30682320deedcdc994a/poc_tool-1.2.0.tar.gz
+[2024-04-02 07:29:28] INFO root fetch - processPackages [bride-of-frankensystem]: executing diffoscope
+[2024-04-02 07:29:28] INFO root fetch - processPackages [bride-of-frankensystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bride-of-frankensystem-1.9.3.0.tar.gz tmp/bride-of-frankensystem-1.9.3.1.tar.gz --markdown 20240402/b/bride-of-frankensystem/1.9.3.0-1.9.3.1/diff.md --exclude *.pyd
+[2024-04-02 07:29:28] INFO root fetch - processPackages [mximport]: Downloading https://files.pythonhosted.org/packages/76/37/5c9a04e8840c9d09d4cd38a5c21c21382193254899d3314a6e031af0b7d6/mximport-0.1.0.tar.gz
+[2024-04-02 07:29:28] INFO root fetch - processPackages [poc-tool]: executing diffoscope
+[2024-04-02 07:29:28] INFO root fetch - processPackages [poc-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poc_tool-1.1.9.tar.gz tmp/poc_tool-1.2.0.tar.gz --markdown 20240402/p/poc-tool/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 07:29:28] INFO root fetch - processPackages [mximport]: executing diffoscope
+[2024-04-02 07:29:28] INFO root fetch - processPackages [mximport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mximport-0.0.1.tar.gz tmp/mximport-0.1.0.tar.gz --markdown 20240402/m/mximport/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 07:29:28] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.8.tar.gz]
+[2024-04-02 07:29:28] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.9.tar.gz]
+[2024-04-02 07:29:28] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-02 07:29:29] INFO root fetch - processPackages [poc-tool]: Remove: archive file [/home/abi/fetcher/tmp/poc_tool-1.1.9.tar.gz]
+[2024-04-02 07:29:29] INFO root fetch - processPackages [poc-tool]: Remove: archive file [/home/abi/fetcher/tmp/poc_tool-1.2.0.tar.gz]
+[2024-04-02 07:29:29] INFO root fetch - main [MainThread]: End processing [poc-tool]: success
+[2024-04-02 07:29:29] INFO root fetch - processPackages [mximport]: Remove: archive file [/home/abi/fetcher/tmp/mximport-0.0.1.tar.gz]
+[2024-04-02 07:29:29] INFO root fetch - processPackages [mximport]: Remove: archive file [/home/abi/fetcher/tmp/mximport-0.1.0.tar.gz]
+[2024-04-02 07:29:29] INFO root fetch - main [MainThread]: End processing [mximport]: success
+[2024-04-02 07:29:31] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.0.tar.gz]
+[2024-04-02 07:29:31] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.1.tar.gz]
+[2024-04-02 07:29:31] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
+[2024-04-02 07:29:31] INFO root fetch - main [MainThread]: Store serial: [22580927]
