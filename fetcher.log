@@ -23309,3 +23309,114 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:57:44] INFO root fetch - processPackages [lonboard]: Remove: archive file [/home/abi/fetcher/tmp/lonboard-0.8.0b1.tar.gz]
 [2024-04-02 15:57:44] INFO root fetch - main [MainThread]: End processing [lonboard]: success
 [2024-04-02 15:57:44] INFO root fetch - main [MainThread]: Store serial: [22585888]
+[2024-04-02 15:59:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585888]
+[2024-04-02 15:59:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rucio
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genericsuite-ai
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rucio-clients
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: special-octo-robot
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rucio-webui
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: swebench
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: invoicing-pdf-20240402
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tiledb-cloud
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bencheval
+[2024-04-02 15:59:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vdk-dag
+[2024-04-02 15:59:54] INFO root fetch - processPackages [vdk-dag]: New version: [0.1.948436673] Old Version: [0.1.884801326]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [genericsuite-ai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 15:59:54] WARNING root fetch - processPackages [special-octo-robot]: Skipping, unable to determine old version
+[2024-04-02 15:59:54] INFO root fetch - processPackages [special-octo-robot]: Start processing: irispie
+[2024-04-02 15:59:54] INFO root fetch - main [MainThread]: End processing [special-octo-robot] error
+[2024-04-02 15:59:54] INFO root fetch - processPackages [tiledb-cloud]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-02 15:59:54] WARNING root fetch - processPackages [invoicing-pdf-20240402]: Skipping, unable to determine old version
+[2024-04-02 15:59:54] INFO root fetch - processPackages [invoicing-pdf-20240402]: Start processing: eo-man
+[2024-04-02 15:59:54] INFO root fetch - main [MainThread]: End processing [invoicing-pdf-20240402] error
+[2024-04-02 15:59:54] INFO root fetch - processPackages [bencheval]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [swebench]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [rucio]: New version: [34.1.0] Old Version: [34.0.0rc2]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [rucio-clients]: New version: [34.1.0] Old Version: [34.0.0rc2]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [rucio-webui]: New version: [34.1.0] Old Version: [34.0.0rc2]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 15:59:54] INFO root fetch - processPackages [eo-man]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 15:59:55] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/f1/49/be74eb1318b6efc8952ab509ca9edc5746d0f44796d2009449f67f33d0d1/vdk-dag-0.1.884801326.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/4d/e2/38ce15b3fcb2200474c3f28f12ab07f8fedb6d754ec30860278cc1b550fd/tiledb_cloud-0.9.4-py3-none-any.whl
+[2024-04-02 15:59:55] INFO root fetch - processPackages [genericsuite-ai]: Downloading https://files.pythonhosted.org/packages/1e/48/a72c164124cbfe51ce2c5aa8187e0f217aad06d0de095fe30bea1dac0f5d/genericsuite_ai-0.1.1.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [bencheval]: Downloading https://files.pythonhosted.org/packages/7d/17/984a8839528365bc3ba96140fc6e4ecf911bf00959a38698eed304aa8723/bencheval-1.3.1.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/e6/e6/01c9a676897ec66d315b9888160e5bbaf1f388bb95552abdb9539b653786/rucio-34.0.0rc2.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/a9/60/c55f85e28479b9ffcb864249c875085a863d05aede7a1e1d08e2fc4a5581/swebench-1.0.1.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/57/3a/ece7d2771ca6e469f6c93a13e1ac56218e24a3966a12ab2d6530f4e5f943/rucio-clients-34.0.0rc2.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f0/60/b684d7e4fbbe353b00c7e3ee0d343af05bf4afbd47f6a58ae9b9eb9881a5/rucio-webui-34.0.0rc2.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [eo-man]: Downloading https://files.pythonhosted.org/packages/5f/f6/62e408d39757f2c0c0c679a3936b77b3d3f90e5c181c16c8c2e98d58b8f1/eo_man-0.1.8.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [vdk-dag]: Downloading https://files.pythonhosted.org/packages/e2/05/32a3cb2d8f45b40e7bd19b33fa88c4515df4041d025a701e6d2d9b386955/vdk-dag-0.1.948436673.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [swebench]: Downloading https://files.pythonhosted.org/packages/7a/fb/e05257d65d1653891c347001447575411ab3351885449760f4e18707286c/swebench-1.0.2.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [bencheval]: Downloading https://files.pythonhosted.org/packages/76/45/3e285d7554e27925c028fddd8e93721e74c2b425ebd3813953b59134618c/bencheval-1.3.2.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [genericsuite-ai]: Downloading https://files.pythonhosted.org/packages/79/c7/6fb8a71ea508b3f9cd483b38508792a5bf50be33a3de9fe125701489e95c/genericsuite_ai-0.1.2.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [vdk-dag]: executing diffoscope
+[2024-04-02 15:59:55] INFO root fetch - processPackages [vdk-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdk-dag-0.1.884801326.tar.gz tmp/vdk-dag-0.1.948436673.tar.gz --markdown 20240402/v/vdk-dag/0.1.884801326-0.1.948436673/diff.md --exclude *.pyd
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio-webui]: Downloading https://files.pythonhosted.org/packages/f0/3d/5952f8460efaa2ff4ae7a336affb9d9df62596be7f256ab48d04bada9ae6/rucio-webui-34.1.0.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [tiledb-cloud]: Downloading https://files.pythonhosted.org/packages/aa/55/f0fcd5db15793f389dfd3c37e59718e290812cc782a170f0e8e71ed01c95/tiledb_cloud-0.9.5-py3-none-any.whl
+[2024-04-02 15:59:55] INFO root fetch - processPackages [eo-man]: Downloading https://files.pythonhosted.org/packages/53/05/13066f8b1064ffb32f602287c10286ebac61d959063d33a8658e27772972/eo_man-0.1.9.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio-clients]: Downloading https://files.pythonhosted.org/packages/32/56/06b1cc162d7e7be7f02c1650531c681b3a8659397f7bafbd7571e2c662ca/rucio-clients-34.1.0.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [genericsuite-ai]: executing diffoscope
+[2024-04-02 15:59:55] INFO root fetch - processPackages [genericsuite-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genericsuite_ai-0.1.1.tar.gz tmp/genericsuite_ai-0.1.2.tar.gz --markdown 20240402/g/genericsuite-ai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 15:59:55] INFO root fetch - processPackages [swebench]: executing diffoscope
+[2024-04-02 15:59:55] INFO root fetch - processPackages [swebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swebench-1.0.1.tar.gz tmp/swebench-1.0.2.tar.gz --markdown 20240402/s/swebench/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio]: Downloading https://files.pythonhosted.org/packages/be/ef/a0704d4e22716b2535324ae4648ca610fc173a422f0ffbebd205e695840e/rucio-34.1.0.tar.gz
+[2024-04-02 15:59:55] INFO root fetch - processPackages [bencheval]: executing diffoscope
+[2024-04-02 15:59:55] INFO root fetch - processPackages [bencheval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bencheval-1.3.1.tar.gz tmp/bencheval-1.3.2.tar.gz --markdown 20240402/b/bencheval/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio-webui]: executing diffoscope
+[2024-04-02 15:59:55] INFO root fetch - processPackages [rucio-webui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-webui-34.0.0rc2.tar.gz tmp/rucio-webui-34.1.0.tar.gz --markdown 20240402/r/rucio-webui/34.0.0rc2-34.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:59:55] INFO root fetch - processPackages [eo-man]: executing diffoscope
+[2024-04-02 15:59:55] INFO root fetch - processPackages [eo-man]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eo_man-0.1.8.tar.gz tmp/eo_man-0.1.9.tar.gz --markdown 20240402/e/eo-man/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 15:59:56] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-02 15:59:56] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240402/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 15:59:56] INFO root fetch - processPackages [rucio-clients]: executing diffoscope
+[2024-04-02 15:59:56] INFO root fetch - processPackages [rucio-clients]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-clients-34.0.0rc2.tar.gz tmp/rucio-clients-34.1.0.tar.gz --markdown 20240402/r/rucio-clients/34.0.0rc2-34.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:59:56] INFO root fetch - processPackages [tiledb-cloud]: executing diffoscope
+[2024-04-02 15:59:56] INFO root fetch - processPackages [tiledb-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip --markdown 20240402/t/tiledb-cloud/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-02 15:59:56] INFO root fetch - processPackages [rucio]: executing diffoscope
+[2024-04-02 15:59:56] INFO root fetch - processPackages [rucio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-34.0.0rc2.tar.gz tmp/rucio-34.1.0.tar.gz --markdown 20240402/r/rucio/34.0.0rc2-34.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:59:56] INFO root fetch - processPackages [vdk-dag]: Remove: archive file [/home/abi/fetcher/tmp/vdk-dag-0.1.884801326.tar.gz]
+[2024-04-02 15:59:56] INFO root fetch - processPackages [vdk-dag]: Remove: archive file [/home/abi/fetcher/tmp/vdk-dag-0.1.948436673.tar.gz]
+[2024-04-02 15:59:56] INFO root fetch - processPackages [vdk-dag]: Start processing: direnumerate
+[2024-04-02 15:59:56] INFO root fetch - main [MainThread]: End processing [vdk-dag]: success
+[2024-04-02 15:59:56] INFO root fetch - processPackages [direnumerate]: New version: [3.0rc7] Old Version: [3.0rc6]
+[2024-04-02 15:59:56] INFO root fetch - processPackages [genericsuite-ai]: Remove: archive file [/home/abi/fetcher/tmp/genericsuite_ai-0.1.1.tar.gz]
+[2024-04-02 15:59:56] INFO root fetch - processPackages [genericsuite-ai]: Remove: archive file [/home/abi/fetcher/tmp/genericsuite_ai-0.1.2.tar.gz]
+[2024-04-02 15:59:56] INFO root fetch - processPackages [genericsuite-ai]: Start processing: hltv-aio
+[2024-04-02 15:59:56] INFO root fetch - main [MainThread]: End processing [genericsuite-ai]: success
+[2024-04-02 15:59:57] WARNING root fetch - processPackages [hltv-aio]: Skipping, unable to determine old version
+[2024-04-02 15:59:57] INFO root fetch - main [MainThread]: End processing [hltv-aio] error
+[2024-04-02 15:59:57] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/22/c1/bb0d71a3efef6aeac68977e47e32d4c6c9a6c019bab493fffae4ed5e7176/direnumerate-3.0rc6.tar.gz
+[2024-04-02 15:59:57] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.1.tar.gz]
+[2024-04-02 15:59:57] INFO root fetch - processPackages [swebench]: Remove: archive file [/home/abi/fetcher/tmp/swebench-1.0.2.tar.gz]
+[2024-04-02 15:59:57] INFO root fetch - main [MainThread]: End processing [swebench]: success
+[2024-04-02 15:59:57] INFO root fetch - processPackages [eo-man]: Remove: archive file [/home/abi/fetcher/tmp/eo_man-0.1.8.tar.gz]
+[2024-04-02 15:59:57] INFO root fetch - processPackages [eo-man]: Remove: archive file [/home/abi/fetcher/tmp/eo_man-0.1.9.tar.gz]
+[2024-04-02 15:59:57] INFO root fetch - main [MainThread]: End processing [eo-man]: success
+[2024-04-02 15:59:57] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/39/eb/5244753e2fd3d27dfaa214bc7d66efc4d3e73f9017405b0834422114fc8c/direnumerate-3.0rc7.tar.gz
+[2024-04-02 15:59:57] INFO root fetch - processPackages [bencheval]: Remove: archive file [/home/abi/fetcher/tmp/bencheval-1.3.1.tar.gz]
+[2024-04-02 15:59:57] INFO root fetch - processPackages [bencheval]: Remove: archive file [/home/abi/fetcher/tmp/bencheval-1.3.2.tar.gz]
+[2024-04-02 15:59:57] INFO root fetch - main [MainThread]: End processing [bencheval]: success
+[2024-04-02 15:59:57] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-04-02 15:59:57] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.0rc6.tar.gz tmp/direnumerate-3.0rc7.tar.gz --markdown 20240402/d/direnumerate/3.0rc6-3.0rc7/diff.md --exclude *.pyd
+[2024-04-02 15:59:58] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc6.tar.gz]
+[2024-04-02 15:59:58] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc7.tar.gz]
+[2024-04-02 15:59:58] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-04-02 15:59:58] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-02 15:59:58] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-02 15:59:58] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-02 15:59:58] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.4-py3-none-any.whl.zip]
+[2024-04-02 15:59:58] INFO root fetch - processPackages [tiledb-cloud]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_cloud-0.9.5-py3-none-any.whl.zip]
+[2024-04-02 15:59:58] INFO root fetch - main [MainThread]: End processing [tiledb-cloud]: success
+[2024-04-02 15:59:59] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-34.0.0rc2.tar.gz]
+[2024-04-02 15:59:59] INFO root fetch - processPackages [rucio-webui]: Remove: archive file [/home/abi/fetcher/tmp/rucio-webui-34.1.0.tar.gz]
+[2024-04-02 15:59:59] INFO root fetch - main [MainThread]: End processing [rucio-webui]: success
+[2024-04-02 15:59:59] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-34.0.0rc2.tar.gz]
+[2024-04-02 15:59:59] INFO root fetch - processPackages [rucio-clients]: Remove: archive file [/home/abi/fetcher/tmp/rucio-clients-34.1.0.tar.gz]
+[2024-04-02 15:59:59] INFO root fetch - main [MainThread]: End processing [rucio-clients]: success
+[2024-04-02 16:00:03] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.0.0rc2.tar.gz]
+[2024-04-02 16:00:03] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.1.0.tar.gz]
+[2024-04-02 16:00:03] INFO root fetch - main [MainThread]: End processing [rucio]: success
+[2024-04-02 16:00:03] INFO root fetch - main [MainThread]: Store serial: [22585933]
