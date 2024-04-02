@@ -17069,3 +17069,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:12:08] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b9.tar.gz]
 [2024-04-02 12:12:08] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
 [2024-04-02 12:12:08] INFO root fetch - main [MainThread]: Store serial: [22583346]
+[2024-04-02 12:14:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583346]
+[2024-04-02 12:14:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf
+[2024-04-02 12:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meringue
+[2024-04-02 12:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: delphai-utils
+[2024-04-02 12:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muti.basic
+[2024-04-02 12:14:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: opplast-v2
+[2024-04-02 12:14:18] INFO root fetch - processPackages [muti.basic]: New version: [0.0.6] Old Version: [0.0.1]
+[2024-04-02 12:14:18] INFO root fetch - processPackages [meringue]: New version: [1.2.0.dev4] Old Version: [1.2.0.dev3]
+[2024-04-02 12:14:18] INFO root fetch - processPackages [delphai-utils]: New version: [4.0.0] Old Version: [3.4.2]
+[2024-04-02 12:14:18] WARNING root fetch - processPackages [opplast-v2]: Skipping, unable to determine old version
+[2024-04-02 12:14:18] INFO root fetch - main [MainThread]: End processing [opplast-v2] error
+[2024-04-02 12:14:18] INFO root fetch - processPackages [muti.basic]: Downloading https://files.pythonhosted.org/packages/09/0e/f64aa00e10aa6fa32151e4751145d969944db2fb336dc3fe670cc32a4af8/muti.basic-0.0.1.tar.gz
+[2024-04-02 12:14:18] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/d1/24/6ffb03a8bd3538c5dcb1744499227208379d87fed46ceccb20be3766784b/delphai_utils-3.4.2.tar.gz
+[2024-04-02 12:14:18] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/a3/2b/359af7efe26397e58f9a7ad354933a93998db92ca3f9d2c2c58f1790c1e4/meringue-1.2.0.dev3.tar.gz
+[2024-04-02 12:14:18] INFO root fetch - processPackages [cdktf]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-02 12:14:18] INFO root fetch - processPackages [muti.basic]: Downloading https://files.pythonhosted.org/packages/c7/6a/52d4eec72f5418b9a5c640f5ef4e14978a44f0bd7b6407cf12af15ba3613/muti.basic-0.0.6.tar.gz
+[2024-04-02 12:14:18] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/93/38/f216b77a0c5e02f71a17dec1a04846835f8515efc2e427b60267de40375e/delphai_utils-4.0.0.tar.gz
+[2024-04-02 12:14:18] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/87/b3/c146d54086d890741cc9d05c63504e1386b268ef8cbc52d9aa78c1080aa3/cdktf-0.9.3.tar.gz
+[2024-04-02 12:14:18] INFO root fetch - processPackages [meringue]: Downloading https://files.pythonhosted.org/packages/3b/67/7f9ecc5db4c31f924798f0db4c48eba09002c106935af70cbf7ba74fb211/meringue-1.2.0.dev4.tar.gz
+[2024-04-02 12:14:19] INFO root fetch - processPackages [muti.basic]: executing diffoscope
+[2024-04-02 12:14:19] INFO root fetch - processPackages [muti.basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.basic-0.0.1.tar.gz tmp/muti.basic-0.0.6.tar.gz --markdown 20240402/m/muti.basic/0.0.1-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 12:14:19] INFO root fetch - processPackages [delphai-utils]: executing diffoscope
+[2024-04-02 12:14:19] INFO root fetch - processPackages [delphai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_utils-3.4.2.tar.gz tmp/delphai_utils-4.0.0.tar.gz --markdown 20240402/d/delphai-utils/3.4.2-4.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:14:19] INFO root fetch - processPackages [meringue]: executing diffoscope
+[2024-04-02 12:14:19] INFO root fetch - processPackages [meringue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meringue-1.2.0.dev3.tar.gz tmp/meringue-1.2.0.dev4.tar.gz --markdown 20240402/m/meringue/1.2.0.dev3-1.2.0.dev4/diff.md --exclude *.pyd
+[2024-04-02 12:14:19] INFO root fetch - processPackages [cdktf]: Downloading https://files.pythonhosted.org/packages/80/8d/cbc9ef418f046a8c17f614889aba72b6e668540a2966498bef6f1dbb3a10/cdktf-0.9.4.tar.gz
+[2024-04-02 12:14:19] INFO root fetch - processPackages [cdktf]: executing diffoscope
+[2024-04-02 12:14:19] INFO root fetch - processPackages [cdktf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-0.9.3.tar.gz tmp/cdktf-0.9.4.tar.gz --markdown 20240402/c/cdktf/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-02 12:14:19] INFO root fetch - processPackages [muti.basic]: Remove: archive file [/home/abi/fetcher/tmp/muti.basic-0.0.1.tar.gz]
+[2024-04-02 12:14:19] INFO root fetch - processPackages [muti.basic]: Remove: archive file [/home/abi/fetcher/tmp/muti.basic-0.0.6.tar.gz]
+[2024-04-02 12:14:19] INFO root fetch - main [MainThread]: End processing [muti.basic]: success
+[2024-04-02 12:14:19] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-3.4.2.tar.gz]
+[2024-04-02 12:14:19] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.0.0.tar.gz]
+[2024-04-02 12:14:19] INFO root fetch - main [MainThread]: End processing [delphai-utils]: success
+[2024-04-02 12:14:19] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev3.tar.gz]
+[2024-04-02 12:14:19] INFO root fetch - processPackages [meringue]: Remove: archive file [/home/abi/fetcher/tmp/meringue-1.2.0.dev4.tar.gz]
+[2024-04-02 12:14:19] INFO root fetch - main [MainThread]: End processing [meringue]: success
+[2024-04-02 12:14:20] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.3.tar.gz]
+[2024-04-02 12:14:20] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
+[2024-04-02 12:14:20] INFO root fetch - main [MainThread]: End processing [cdktf]: success
+[2024-04-02 12:14:20] INFO root fetch - main [MainThread]: Store serial: [22583368]
