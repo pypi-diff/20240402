@@ -16625,3 +16625,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:55:50] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.4.tar.gz]
 [2024-04-02 11:55:50] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
 [2024-04-02 11:55:50] INFO root fetch - main [MainThread]: Store serial: [22583130]
+[2024-04-02 11:57:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583130]
+[2024-04-02 11:57:58] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 11:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chainlit
+[2024-04-02 11:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: domb-napari
+[2024-04-02 11:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-commission
+[2024-04-02 11:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: shellplus
+[2024-04-02 11:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccpn-project-checker
+[2024-04-02 11:57:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sentimentAnalizis
+[2024-04-02 11:57:59] INFO root fetch - processPackages [sentimentAnalizis]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 11:57:59] INFO root fetch - processPackages [sentimentAnalizis]: Downloading https://files.pythonhosted.org/packages/c2/ae/78d806c5627c7f175943c9014a229ab5886dc38376a2d92de09be107d969/sentimentanalizis-0.0.2.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [odoo-addon-account-commission]: New version: [16.0.2.2.0.1] Old Version: [16.0.2.2.0]
+[2024-04-02 11:57:59] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 11:57:59] INFO root fetch - processPackages [shellplus]: New version: [0.0.7a1] Old Version: [0.0.6a0]
+[2024-04-02 11:57:59] INFO root fetch - processPackages [domb-napari]: New version: [2024.2.29] Old Version: [2024.2.13.1]
+[2024-04-02 11:57:59] INFO root fetch - processPackages [chainlit]: New version: [1.0.500] Old Version: [1.0.401]
+[2024-04-02 11:57:59] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/4a/aa/e464f9a7d515579d56b8f5a3fea70035ba8a19d4cc24d4d4adc310ae5fd8/ccpn_project_checker-0.1.8.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/2e/62/8b3d7c5c08cf1f1b944c756cb72109326b885d3674ecde71549164d2df6a/odoo_addon_account_commission-16.0.2.2.0-py3-none-any.whl
+[2024-04-02 11:57:59] INFO root fetch - processPackages [shellplus]: Downloading https://files.pythonhosted.org/packages/40/7e/0dbbf9c658a46f1044c8345e070f75c5e63bf41d7e9789ad385fb60c334b/shellplus-0.0.6a0.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/98/51/354ce0f1dd74ee560670442908ccd09aba07314e109f5ffd63ce0431a7af/chainlit-1.0.401.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [domb-napari]: Downloading https://files.pythonhosted.org/packages/ce/51/33500913000dee079ec54eb4bd6c9efc5c55f46697664019bbd5f694c40e/domb-napari-2024.2.13.1.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [sentimentAnalizis]: Downloading https://files.pythonhosted.org/packages/63/c7/63e4260d416358be3f45a2d1537f0075c5289808f95fcf789f5dfac3febb/sentimentanalizis-0.0.3.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [domb-napari]: Downloading https://files.pythonhosted.org/packages/dd/c8/b79030e68f56e6fff217953d6d50b8af0700cf8300d7abe0a3d305c338ae/domb-napari-2024.2.29.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [odoo-addon-account-commission]: Downloading https://files.pythonhosted.org/packages/78/5a/ada8fc7374781354fdd98db9f2b87bef0d9e71749fa946ab1be3a25e5ea0/odoo_addon_account_commission-16.0.2.2.0.1-py3-none-any.whl
+[2024-04-02 11:57:59] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/9a/e1/5f3e6c8b4bca4f289db6fe9a948ba868b3034c289278ebbf524793c13f7f/ccpn_project_checker-0.1.9.tar.gz
+[2024-04-02 11:57:59] INFO root fetch - processPackages [sentimentAnalizis]: executing diffoscope
+[2024-04-02 11:57:59] INFO root fetch - processPackages [sentimentAnalizis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentimentanalizis-0.0.2.tar.gz tmp/sentimentanalizis-0.0.3.tar.gz --markdown 20240402/s/sentimentAnalizis/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 11:58:00] INFO root fetch - processPackages [shellplus]: Downloading https://files.pythonhosted.org/packages/28/75/80b0c12e3aaaff89dcf5f073997f3cf631cb22ce05a8110cd17d9e93d20e/shellplus-0.0.7a1.tar.gz
+[2024-04-02 11:58:00] INFO root fetch - processPackages [domb-napari]: executing diffoscope
+[2024-04-02 11:58:00] INFO root fetch - processPackages [domb-napari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domb-napari-2024.2.13.1.tar.gz tmp/domb-napari-2024.2.29.tar.gz --markdown 20240402/d/domb-napari/2024.2.13.1-2024.2.29/diff.md --exclude *.pyd
+[2024-04-02 11:58:00] INFO root fetch - processPackages [odoo-addon-account-commission]: executing diffoscope
+[2024-04-02 11:58:00] INFO root fetch - processPackages [odoo-addon-account-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_commission-16.0.2.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_commission-16.0.2.2.0.1-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-account-commission/16.0.2.2.0-16.0.2.2.0.1/diff.md --exclude *.pyd
+[2024-04-02 11:58:00] INFO root fetch - processPackages [shellplus]: executing diffoscope
+[2024-04-02 11:58:00] INFO root fetch - processPackages [shellplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellplus-0.0.6a0.tar.gz tmp/shellplus-0.0.7a1.tar.gz --markdown 20240402/s/shellplus/0.0.6a0-0.0.7a1/diff.md --exclude *.pyd
+[2024-04-02 11:58:00] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 11:58:00] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.8.tar.gz tmp/ccpn_project_checker-0.1.9.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 11:58:00] INFO root fetch - processPackages [domb-napari]: Remove: archive file [/home/abi/fetcher/tmp/domb-napari-2024.2.13.1.tar.gz]
+[2024-04-02 11:58:00] INFO root fetch - processPackages [domb-napari]: Remove: archive file [/home/abi/fetcher/tmp/domb-napari-2024.2.29.tar.gz]
+[2024-04-02 11:58:00] INFO root fetch - main [MainThread]: End processing [domb-napari]: success
+[2024-04-02 11:58:00] INFO root fetch - processPackages [shellplus]: Remove: archive file [/home/abi/fetcher/tmp/shellplus-0.0.6a0.tar.gz]
+[2024-04-02 11:58:00] INFO root fetch - processPackages [shellplus]: Remove: archive file [/home/abi/fetcher/tmp/shellplus-0.0.7a1.tar.gz]
+[2024-04-02 11:58:00] INFO root fetch - main [MainThread]: End processing [shellplus]: success
+[2024-04-02 11:58:00] INFO root fetch - processPackages [chainlit]: Downloading https://files.pythonhosted.org/packages/53/7b/dab9e5fec9ca36ffb8ea2177199ced35ac5afcd23a6af03829ad05395459/chainlit-1.0.500.tar.gz
+[2024-04-02 11:58:00] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.2.0-py3-none-any.whl.zip]
+[2024-04-02 11:58:00] INFO root fetch - processPackages [odoo-addon-account-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_commission-16.0.2.2.0.1-py3-none-any.whl.zip]
+[2024-04-02 11:58:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-commission]: success
+[2024-04-02 11:58:01] INFO root fetch - processPackages [chainlit]: executing diffoscope
+[2024-04-02 11:58:01] INFO root fetch - processPackages [chainlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlit-1.0.401.tar.gz tmp/chainlit-1.0.500.tar.gz --markdown 20240402/c/chainlit/1.0.401-1.0.500/diff.md --exclude *.pyd
+[2024-04-02 11:58:01] INFO root fetch - processPackages [sentimentAnalizis]: Remove: archive file [/home/abi/fetcher/tmp/sentimentanalizis-0.0.2.tar.gz]
+[2024-04-02 11:58:01] INFO root fetch - processPackages [sentimentAnalizis]: Remove: archive file [/home/abi/fetcher/tmp/sentimentanalizis-0.0.3.tar.gz]
+[2024-04-02 11:58:01] INFO root fetch - main [MainThread]: End processing [sentimentAnalizis]: success
+[2024-04-02 11:58:08] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.8.tar.gz]
+[2024-04-02 11:58:08] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
+[2024-04-02 11:58:08] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 11:59:59] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.401.tar.gz]
+[2024-04-02 11:59:59] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.500.tar.gz]
+[2024-04-02 11:59:59] INFO root fetch - main [MainThread]: End processing [chainlit]: success
+[2024-04-02 11:59:59] INFO root fetch - main [MainThread]: Store serial: [22583150]
