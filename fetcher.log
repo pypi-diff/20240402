@@ -3072,3 +3072,48 @@
 [2024-04-02 02:57:39] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b5.tar.gz]
 [2024-04-02 02:57:39] INFO root fetch - main [MainThread]: End processing [agentops]: success
 [2024-04-02 02:57:39] INFO root fetch - main [MainThread]: Store serial: [22577892]
+[2024-04-02 02:59:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577892]
+[2024-04-02 02:59:48] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 02:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apache-beam-li
+[2024-04-02 02:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unicorn-binance-websocket-api
+[2024-04-02 02:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cloudflare
+[2024-04-02 02:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-tele
+[2024-04-02 02:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: getbc
+[2024-04-02 02:59:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: steam-web-tools
+[2024-04-02 02:59:48] WARNING root fetch - processPackages [steam-web-tools]: Skipping, unable to determine old version
+[2024-04-02 02:59:48] INFO root fetch - main [MainThread]: End processing [steam-web-tools] error
+[2024-04-02 02:59:48] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.8.10.1] Old Version: [0.0.4.9.8.10]
+[2024-04-02 02:59:48] WARNING root fetch - processPackages [getbc]: Skipping, unable to determine old version
+[2024-04-02 02:59:48] INFO root fetch - main [MainThread]: End processing [getbc] error
+[2024-04-02 02:59:48] INFO root fetch - processPackages [apache-beam-li]: New version: [200.45.18.5] Old Version: [200.45.18.4]
+[2024-04-02 02:59:48] INFO root fetch - processPackages [cloudflare]: New version: [3.0.0b7] Old Version: [3.0.0b6]
+[2024-04-02 02:59:48] INFO root fetch - processPackages [unicorn-binance-websocket-api]: New version: [2.4.0] Old Version: [2.3.0]
+[2024-04-02 02:59:48] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/3c/ea/113d72847046ca39a2e5866437ef74ddb9254fe18846fdef012f9530ff84/test_tele-0.0.4.9.8.10.tar.gz
+[2024-04-02 02:59:48] INFO root fetch - processPackages [apache-beam-li]: Downloading https://files.pythonhosted.org/packages/1b/5e/959617ac01986d29b082319d48f565d4904f848b2c3be887bffb807b9661/apache-beam-li-200.45.18.4.zip
+[2024-04-02 02:59:48] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/fc/a1/281a50c0092d2ebdeca43c26387c4b966f2c9c608bf9c152436894d21e1e/cloudflare-3.0.0b6.tar.gz
+[2024-04-02 02:59:49] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Downloading https://files.pythonhosted.org/packages/06/70/8dcf03c320be8dc22d0edfb7d25639f2dea2315afc0f8194119fa4050a1d/unicorn-binance-websocket-api-2.3.0.tar.gz
+[2024-04-02 02:59:49] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/bd/68/b6f0918da34dbcdf93b97131baa4c8da17dcf277907b6d01b265669d1272/test_tele-0.0.4.9.8.10.1.tar.gz
+[2024-04-02 02:59:49] INFO root fetch - processPackages [cloudflare]: Downloading https://files.pythonhosted.org/packages/e3/fb/e18463bced89426df17e49d76539b23df0f3310fa0f23e373b41374b9f92/cloudflare-3.0.0b7.tar.gz
+[2024-04-02 02:59:49] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-02 02:59:49] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.8.10.tar.gz tmp/test_tele-0.0.4.9.8.10.1.tar.gz --markdown 20240402/t/test-tele/0.0.4.9.8.10-0.0.4.9.8.10.1/diff.md --exclude *.pyd
+[2024-04-02 02:59:49] INFO root fetch - processPackages [cloudflare]: executing diffoscope
+[2024-04-02 02:59:49] INFO root fetch - processPackages [cloudflare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudflare-3.0.0b6.tar.gz tmp/cloudflare-3.0.0b7.tar.gz --markdown 20240402/c/cloudflare/3.0.0b6-3.0.0b7/diff.md --exclude *.pyd
+[2024-04-02 02:59:49] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Downloading https://files.pythonhosted.org/packages/f1/1e/295c6a1a6f7dccbfe779308e7ad44b9906323350a608a72c08591dbcdf8b/unicorn_binance_websocket_api-2.4.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl
+[2024-04-02 02:59:50] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.10.tar.gz]
+[2024-04-02 02:59:50] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.10.1.tar.gz]
+[2024-04-02 02:59:50] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-02 02:59:50] INFO root fetch - processPackages [apache-beam-li]: Downloading https://files.pythonhosted.org/packages/66/51/6e49afd485a2e652084ad26e87646ab9a64f8824ffbe3e3cb6785a65f2cb/apache-beam-li-200.45.18.5.zip
+[2024-04-02 02:59:51] INFO root fetch - processPackages [apache-beam-li]: executing diffoscope
+[2024-04-02 02:59:51] INFO root fetch - processPackages [apache-beam-li]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apache-beam-li-200.45.18.4.zip tmp/apache-beam-li-200.45.18.5.zip --markdown 20240402/a/apache-beam-li/200.45.18.4-200.45.18.5/diff.md --exclude *.pyd
+[2024-04-02 02:59:54] INFO root fetch - processPackages [unicorn-binance-websocket-api]: executing diffoscope
+[2024-04-02 02:59:54] INFO root fetch - processPackages [unicorn-binance-websocket-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unicorn-binance-websocket-api-2.3.0.tar.gz tmp/unicorn_binance_websocket_api-2.4.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip --markdown 20240402/u/unicorn-binance-websocket-api/2.3.0-2.4.0/diff.md --exclude *.pyd
+[2024-04-02 02:59:55] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn-binance-websocket-api-2.3.0.tar.gz]
+[2024-04-02 02:59:55] INFO root fetch - processPackages [unicorn-binance-websocket-api]: Remove: archive file [/home/abi/fetcher/tmp/unicorn_binance_websocket_api-2.4.0-cp39-cp39-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl.zip]
+[2024-04-02 02:59:55] INFO root fetch - main [MainThread]: End processing [unicorn-binance-websocket-api]: success
+[2024-04-02 02:59:55] INFO root fetch - processPackages [apache-beam-li]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-li-200.45.18.4.zip]
+[2024-04-02 02:59:55] INFO root fetch - processPackages [apache-beam-li]: Remove: archive file [/home/abi/fetcher/tmp/apache-beam-li-200.45.18.5.zip]
+[2024-04-02 02:59:55] INFO root fetch - main [MainThread]: End processing [apache-beam-li]: success
+[2024-04-02 03:00:01] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b6.tar.gz]
+[2024-04-02 03:00:01] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b7.tar.gz]
+[2024-04-02 03:00:01] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
+[2024-04-02 03:00:01] INFO root fetch - main [MainThread]: Store serial: [22577947]
