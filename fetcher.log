@@ -11169,3 +11169,43 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:36:04] INFO root fetch - processPackages [selenium-dolphin]: Remove: archive file [/home/abi/fetcher/tmp/selenium_dolphin-1.0.5.tar.gz]
 [2024-04-02 07:36:04] INFO root fetch - main [MainThread]: End processing [selenium-dolphin]: success
 [2024-04-02 07:36:04] INFO root fetch - main [MainThread]: Store serial: [22580943]
+[2024-04-02 07:38:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580943]
+[2024-04-02 07:38:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 07:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pydbase
+[2024-04-02 07:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiceai
+[2024-04-02 07:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mod-taiga
+[2024-04-02 07:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spiceai
+[2024-04-02 07:38:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: czo
+[2024-04-02 07:38:13] INFO root fetch - processPackages [spiceai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 07:38:13] INFO root fetch - processPackages [spiceai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 07:38:13] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/0a/c6/f9f647c412d109b8f041b0cc5d0ff758a11898f1c77500246adca098a6fe/spiceai-0.1.2.tar.gz
+[2024-04-02 07:38:13] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/0a/c6/f9f647c412d109b8f041b0cc5d0ff758a11898f1c77500246adca098a6fe/spiceai-0.1.2.tar.gz
+[2024-04-02 07:38:13] INFO root fetch - processPackages [pydbase]: New version: [1.5.0] Old Version: [1.4.8]
+[2024-04-02 07:38:13] WARNING root fetch - processPackages [mod-taiga]: Skipping, unable to determine old version
+[2024-04-02 07:38:13] INFO root fetch - main [MainThread]: End processing [mod-taiga] error
+[2024-04-02 07:38:13] INFO root fetch - processPackages [czo]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 07:38:13] INFO root fetch - processPackages [czo]: Downloading https://files.pythonhosted.org/packages/ee/a1/8c8481d81134b6d280f549aeb7b4476db5063bfea234133a9c4e6996d446/czo-0.1.5.tar.gz
+[2024-04-02 07:38:13] INFO root fetch - processPackages [pydbase]: Downloading https://files.pythonhosted.org/packages/45/86/ca5001863451c7c87eae38320a11b67b7cdba072b38a1fbc64b0e0b86ce6/pydbase-1.4.8.tar.gz
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/cb/a3/a230bd8656af333fb102e60c3b2acf64a02b72e6912ffed7b104fee28a44/spiceai-0.1.3.tar.gz
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/cb/a3/a230bd8656af333fb102e60c3b2acf64a02b72e6912ffed7b104fee28a44/spiceai-0.1.3.tar.gz
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.2.tar.gz tmp/spiceai-0.1.3.tar.gz --markdown 20240402/s/spiceai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.2.tar.gz tmp/spiceai-0.1.3.tar.gz --markdown 20240402/s/spiceai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 07:38:14] INFO root fetch - processPackages [czo]: Downloading https://files.pythonhosted.org/packages/fe/24/80bbcd9681a220edff619d22a788425c7d73ff03369230ffa753b3514bae/czo-0.1.6.tar.gz
+[2024-04-02 07:38:14] INFO root fetch - processPackages [pydbase]: Downloading https://files.pythonhosted.org/packages/83/df/0fdab4552bee9332f00bd88f7fafc1fedf8148afbcbc9b27dd198b2a7f7b/pydbase-1.5.0.tar.gz
+[2024-04-02 07:38:14] INFO root fetch - processPackages [pydbase]: executing diffoscope
+[2024-04-02 07:38:14] INFO root fetch - processPackages [pydbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydbase-1.4.8.tar.gz tmp/pydbase-1.5.0.tar.gz --markdown 20240402/p/pydbase/1.4.8-1.5.0/diff.md --exclude *.pyd
+[2024-04-02 07:38:14] INFO root fetch - processPackages [czo]: executing diffoscope
+[2024-04-02 07:38:14] INFO root fetch - processPackages [czo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/czo-0.1.5.tar.gz tmp/czo-0.1.6.tar.gz --markdown 20240402/c/czo/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.2.tar.gz]
+[2024-04-02 07:38:14] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.3.tar.gz]
+[2024-04-02 07:38:14] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 07:38:14] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 07:38:14] INFO root fetch - processPackages [czo]: Remove: archive file [/home/abi/fetcher/tmp/czo-0.1.5.tar.gz]
+[2024-04-02 07:38:14] INFO root fetch - processPackages [czo]: Remove: archive file [/home/abi/fetcher/tmp/czo-0.1.6.tar.gz]
+[2024-04-02 07:38:14] INFO root fetch - main [MainThread]: End processing [czo]: success
+[2024-04-02 07:38:15] INFO root fetch - processPackages [pydbase]: Remove: archive file [/home/abi/fetcher/tmp/pydbase-1.4.8.tar.gz]
+[2024-04-02 07:38:15] INFO root fetch - processPackages [pydbase]: Remove: archive file [/home/abi/fetcher/tmp/pydbase-1.5.0.tar.gz]
+[2024-04-02 07:38:15] INFO root fetch - main [MainThread]: End processing [pydbase]: success
+[2024-04-02 07:38:15] INFO root fetch - main [MainThread]: Store serial: [22580961]
