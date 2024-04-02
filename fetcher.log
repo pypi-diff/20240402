@@ -11542,3 +11542,53 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:02:27] INFO root fetch - processPackages [genice2-cage]: Remove: archive file [/home/abi/fetcher/tmp/genice2_cage-2.3.tar.gz]
 [2024-04-02 08:02:27] INFO root fetch - main [MainThread]: End processing [genice2-cage]: success
 [2024-04-02 08:02:27] INFO root fetch - main [MainThread]: Store serial: [22581103]
+[2024-04-02 08:04:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581103]
+[2024-04-02 08:04:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-identity
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FreeTVG-karjakak
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vnstock
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ih-common
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hmtaiga
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: haskellian-async
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: petsc
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-02 08:04:36] INFO root fetch - processPackages [vnstock]: New version: [0.2.9.0] Old Version: [0.2.8.9]
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-02 08:04:36] WARNING root fetch - processPackages [hmtaiga]: Skipping, unable to determine old version
+[2024-04-02 08:04:36] INFO root fetch - main [MainThread]: End processing [hmtaiga] error
+[2024-04-02 08:04:36] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.5.9] Old Version: [3.5.8]
+[2024-04-02 08:04:36] INFO root fetch - processPackages [spaceone-identity]: New version: [2.0.dev99] Old Version: [2.0.dev98]
+[2024-04-02 08:04:36] INFO root fetch - processPackages [petsc]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-02 08:04:36] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/81/ac/e8093fc34866df67554544ba803589d67e9f9f59607b1aa5c8fd7936d20f/vnstock-0.2.8.9.tar.gz
+[2024-04-02 08:04:36] WARNING root fetch - processPackages [haskellian-async]: Skipping, unable to determine old version
+[2024-04-02 08:04:36] INFO root fetch - main [MainThread]: End processing [haskellian-async] error
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/bd/a4/13647a8160864691cdb7f4fa0e603cc9affabb4ccc104d56da13c69a33a0/FreeTVG-karjakak-3.5.8.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/f6/06/1de9a43d552682ae8e4a18d4660a13662795d5389a0b6cfde31e31aeb9c0/spaceone-identity-2.0.dev98.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [petsc]: Downloading https://files.pythonhosted.org/packages/e6/6c/555ad15fd1f9f2d8a044577c2df9fe855a7cd0f47d2716ebf478a2ca0a37/petsc-3.9.1.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-02 08:04:36] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240402/i/ih-common/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2024-04-02 08:04:36] INFO root fetch - processPackages [spaceone-identity]: Downloading https://files.pythonhosted.org/packages/3a/f9/802fb8123677b99c90a587b67faa5443d403022fbbd70d8bff1c49920e02/spaceone-identity-2.0.dev99.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [vnstock]: Downloading https://files.pythonhosted.org/packages/1e/d1/a84b78045dc984546fff18ce1c9d1476494f90343ef72c34bac7fcc44226/vnstock-0.2.9.0.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/cc/28/52ad50e3757b6c1775856cf9915d3d6c9f57295dc2ab273cb7ceea10632d/FreeTVG-karjakak-3.5.9.tar.gz
+[2024-04-02 08:04:36] INFO root fetch - processPackages [spaceone-identity]: executing diffoscope
+[2024-04-02 08:04:36] INFO root fetch - processPackages [spaceone-identity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-identity-2.0.dev98.tar.gz tmp/spaceone-identity-2.0.dev99.tar.gz --markdown 20240402/s/spaceone-identity/2.0.dev98-2.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 08:04:36] INFO root fetch - processPackages [vnstock]: executing diffoscope
+[2024-04-02 08:04:36] INFO root fetch - processPackages [vnstock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnstock-0.2.8.9.tar.gz tmp/vnstock-0.2.9.0.tar.gz --markdown 20240402/v/vnstock/0.2.8.9-0.2.9.0/diff.md --exclude *.pyd
+[2024-04-02 08:04:37] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-02 08:04:37] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-02 08:04:37] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-02 08:04:37] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2024-04-02 08:04:37] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.5.8.tar.gz tmp/FreeTVG-karjakak-3.5.9.tar.gz --markdown 20240402/F/FreeTVG-karjakak/3.5.8-3.5.9/diff.md --exclude *.pyd
+[2024-04-02 08:04:37] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.2.8.9.tar.gz]
+[2024-04-02 08:04:37] INFO root fetch - processPackages [vnstock]: Remove: archive file [/home/abi/fetcher/tmp/vnstock-0.2.9.0.tar.gz]
+[2024-04-02 08:04:37] INFO root fetch - main [MainThread]: End processing [vnstock]: success
+[2024-04-02 08:04:37] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev98.tar.gz]
+[2024-04-02 08:04:37] INFO root fetch - processPackages [spaceone-identity]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-identity-2.0.dev99.tar.gz]
+[2024-04-02 08:04:37] INFO root fetch - main [MainThread]: End processing [spaceone-identity]: success
+[2024-04-02 08:04:38] WARNING root fetch - processPackages [petsc]: Skipping package: exceeds size limit 11609124>=10485760
+[2024-04-02 08:04:38] INFO root fetch - main [MainThread]: End processing [petsc] error
+[2024-04-02 08:04:39] INFO root fetch - processPackages [FreeTVG-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/FreeTVG-karjakak-3.5.8.tar.gz]
+[2024-04-02 08:04:39] INFO root fetch - processPackages [FreeTVG-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/FreeTVG-karjakak-3.5.9.tar.gz]
+[2024-04-02 08:04:39] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2024-04-02 08:04:39] INFO root fetch - main [MainThread]: Store serial: [22581125]
