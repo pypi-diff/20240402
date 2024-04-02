@@ -1981,3 +1981,39 @@
 [2024-04-02 01:57:51] INFO root fetch - main [MainThread]: End processing [bagelML] error
 [2024-04-02 01:57:51] INFO root fetch - main [MainThread]: End processing [bagelML] error
 [2024-04-02 01:57:51] INFO root fetch - main [MainThread]: Store serial: [22577382]
+[2024-04-02 01:59:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577382]
+[2024-04-02 01:59:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 01:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cuenca
+[2024-04-02 01:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boomgate
+[2024-04-02 01:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luscioustwitch
+[2024-04-02 01:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: example_package_samreynoldsmath
+[2024-04-02 01:59:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deadline-cloud-for-unreal-engine
+[2024-04-02 02:00:00] INFO root fetch - processPackages [luscioustwitch]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-02 02:00:00] WARNING root fetch - processPackages [boomgate]: Skipping, unable to determine old version
+[2024-04-02 02:00:00] INFO root fetch - main [MainThread]: End processing [boomgate] error
+[2024-04-02 02:00:00] WARNING root fetch - processPackages [deadline-cloud-for-unreal-engine]: Skipping, unable to determine old version
+[2024-04-02 02:00:00] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-unreal-engine] error
+[2024-04-02 02:00:00] INFO root fetch - processPackages [example_package_samreynoldsmath]: New version: [0.2.1] Old Version: [0.1.16]
+[2024-04-02 02:00:00] INFO root fetch - processPackages [cuenca]: New version: [1.0.0] Old Version: [0.9.4.dev0]
+[2024-04-02 02:00:00] INFO root fetch - processPackages [luscioustwitch]: Downloading https://files.pythonhosted.org/packages/c2/6e/c5f29ce9cb22ea2ba041ca763b8d03dcfc1ab7ce9645fd9972766ac2812e/luscioustwitch-0.3.8.tar.gz
+[2024-04-02 02:00:00] INFO root fetch - processPackages [example_package_samreynoldsmath]: Downloading https://files.pythonhosted.org/packages/97/a2/03f761a4826f1dcf19f8aa30584182507b7b32a68c10c6639d2a9f1970fa/example_package_samreynoldsmath-0.1.16.tar.gz
+[2024-04-02 02:00:00] INFO root fetch - processPackages [cuenca]: Downloading https://files.pythonhosted.org/packages/06/9c/e74d87b8a337eb49532029b96394490cdf4b3dceca2b4b59e190bb5cc8c0/cuenca-0.9.4.dev0.tar.gz
+[2024-04-02 02:00:00] INFO root fetch - processPackages [example_package_samreynoldsmath]: Downloading https://files.pythonhosted.org/packages/02/7b/8ff44476051fd7ebc6f0289c0e6d164894d58b5134970e888f5e315edd63/example_package_samreynoldsmath-0.2.1.tar.gz
+[2024-04-02 02:00:00] INFO root fetch - processPackages [cuenca]: Downloading https://files.pythonhosted.org/packages/b9/74/bce170948ae005e95a50db3ace46b73da7ce9ce2f6e72df1aa5e5d29ecba/cuenca-1.0.0.tar.gz
+[2024-04-02 02:00:00] INFO root fetch - processPackages [luscioustwitch]: Downloading https://files.pythonhosted.org/packages/72/e4/61c0fed6562ea2f5b0acb054369acc62eeaae25045e41ca0aed3853a00df/luscioustwitch-0.3.9.tar.gz
+[2024-04-02 02:00:00] INFO root fetch - processPackages [example_package_samreynoldsmath]: executing diffoscope
+[2024-04-02 02:00:00] INFO root fetch - processPackages [example_package_samreynoldsmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_samreynoldsmath-0.1.16.tar.gz tmp/example_package_samreynoldsmath-0.2.1.tar.gz --markdown 20240402/e/example_package_samreynoldsmath/0.1.16-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 02:00:00] INFO root fetch - processPackages [cuenca]: executing diffoscope
+[2024-04-02 02:00:00] INFO root fetch - processPackages [cuenca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cuenca-0.9.4.dev0.tar.gz tmp/cuenca-1.0.0.tar.gz --markdown 20240402/c/cuenca/0.9.4.dev0-1.0.0/diff.md --exclude *.pyd
+[2024-04-02 02:00:00] INFO root fetch - processPackages [luscioustwitch]: executing diffoscope
+[2024-04-02 02:00:00] INFO root fetch - processPackages [luscioustwitch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luscioustwitch-0.3.8.tar.gz tmp/luscioustwitch-0.3.9.tar.gz --markdown 20240402/l/luscioustwitch/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-02 02:00:01] INFO root fetch - processPackages [example_package_samreynoldsmath]: Remove: archive file [/home/abi/fetcher/tmp/example_package_samreynoldsmath-0.1.16.tar.gz]
+[2024-04-02 02:00:01] INFO root fetch - processPackages [example_package_samreynoldsmath]: Remove: archive file [/home/abi/fetcher/tmp/example_package_samreynoldsmath-0.2.1.tar.gz]
+[2024-04-02 02:00:01] INFO root fetch - main [MainThread]: End processing [example_package_samreynoldsmath]: success
+[2024-04-02 02:00:01] INFO root fetch - processPackages [luscioustwitch]: Remove: archive file [/home/abi/fetcher/tmp/luscioustwitch-0.3.8.tar.gz]
+[2024-04-02 02:00:01] INFO root fetch - processPackages [luscioustwitch]: Remove: archive file [/home/abi/fetcher/tmp/luscioustwitch-0.3.9.tar.gz]
+[2024-04-02 02:00:01] INFO root fetch - main [MainThread]: End processing [luscioustwitch]: success
+[2024-04-02 02:00:01] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-0.9.4.dev0.tar.gz]
+[2024-04-02 02:00:01] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-1.0.0.tar.gz]
+[2024-04-02 02:00:01] INFO root fetch - main [MainThread]: End processing [cuenca]: success
+[2024-04-02 02:00:01] INFO root fetch - main [MainThread]: Store serial: [22577401]
