@@ -11801,3 +11801,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:20:11] INFO root fetch - processPackages [genice2-svg]: Remove: archive file [/home/abi/fetcher/tmp/genice2_svg-2.4.1.tar.gz]
 [2024-04-02 08:20:11] INFO root fetch - main [MainThread]: End processing [genice2-svg]: success
 [2024-04-02 08:20:11] INFO root fetch - main [MainThread]: Store serial: [22581193]
+[2024-04-02 08:22:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581193]
+[2024-04-02 08:22:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-notify
+[2024-04-02 08:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyapi
+[2024-04-02 08:22:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pylips
+[2024-04-02 08:22:20] INFO root fetch - processPackages [dyapi]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-02 08:22:20] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.1]
+[2024-04-02 08:22:20] INFO root fetch - processPackages [pylips]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 08:22:20] INFO root fetch - processPackages [dyapi]: Downloading https://files.pythonhosted.org/packages/1c/fb/6075ec13cfca5b2cdb42aac89c68ae3cb3b43febe8d9d9b9f45a5e8cff05/dyapi-0.6.0.tar.gz
+[2024-04-02 08:22:20] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/9a/3d/d442520364267c43ded169b0ff26fe9c9193ecc14f617173ccdc52ccd94c/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl
+[2024-04-02 08:22:20] INFO root fetch - processPackages [pylips]: Downloading https://files.pythonhosted.org/packages/e4/fd/b08dd0749f35b59febdc03264805053efc63170703d592197735ca325678/pylips-0.0.8.tar.gz
+[2024-04-02 08:22:20] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/9d/30/57c1f456f8eaf5a4f0fce9bff84cec48e1f6867d18a316d8297bccd7394c/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl
+[2024-04-02 08:22:20] INFO root fetch - processPackages [dyapi]: Downloading https://files.pythonhosted.org/packages/b2/30/fcddd0f6c170c392ffc7fefdfa323d0688447199e5bda8b23c0feaceefa4/dyapi-0.7.0.tar.gz
+[2024-04-02 08:22:20] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2024-04-02 08:22:20] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-web-notify/16.0.1.0.1-16.0.2.0.0/diff.md --exclude *.pyd
+[2024-04-02 08:22:20] INFO root fetch - processPackages [dyapi]: executing diffoscope
+[2024-04-02 08:22:20] INFO root fetch - processPackages [dyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyapi-0.6.0.tar.gz tmp/dyapi-0.7.0.tar.gz --markdown 20240402/d/dyapi/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-02 08:22:20] INFO root fetch - processPackages [pylips]: Downloading https://files.pythonhosted.org/packages/7a/a4/8a4f81d34dade748d5e38d599594f36afb6be012e47da25d600503eca645/pylips-0.0.9.tar.gz
+[2024-04-02 08:22:20] INFO root fetch - processPackages [pylips]: executing diffoscope
+[2024-04-02 08:22:20] INFO root fetch - processPackages [pylips]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylips-0.0.8.tar.gz tmp/pylips-0.0.9.tar.gz --markdown 20240402/p/pylips/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 08:22:21] INFO root fetch - processPackages [dyapi]: Remove: archive file [/home/abi/fetcher/tmp/dyapi-0.6.0.tar.gz]
+[2024-04-02 08:22:21] INFO root fetch - processPackages [dyapi]: Remove: archive file [/home/abi/fetcher/tmp/dyapi-0.7.0.tar.gz]
+[2024-04-02 08:22:21] INFO root fetch - main [MainThread]: End processing [dyapi]: success
+[2024-04-02 08:22:21] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-02 08:22:21] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-02 08:22:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2024-04-02 08:22:21] INFO root fetch - processPackages [pylips]: Remove: archive file [/home/abi/fetcher/tmp/pylips-0.0.8.tar.gz]
+[2024-04-02 08:22:21] INFO root fetch - processPackages [pylips]: Remove: archive file [/home/abi/fetcher/tmp/pylips-0.0.9.tar.gz]
+[2024-04-02 08:22:21] INFO root fetch - main [MainThread]: End processing [pylips]: success
+[2024-04-02 08:22:21] INFO root fetch - main [MainThread]: Store serial: [22581201]
