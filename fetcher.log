@@ -12195,3 +12195,30 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:53:13] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.9.tar.gz]
 [2024-04-02 08:53:13] INFO root fetch - main [MainThread]: End processing [bioimageio-chatbot]: success
 [2024-04-02 08:53:13] INFO root fetch - main [MainThread]: Store serial: [22581346]
+[2024-04-02 08:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581346]
+[2024-04-02 08:55:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 08:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SoiUtils
+[2024-04-02 08:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-verified-permissions
+[2024-04-02 08:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radosdb
+[2024-04-02 08:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: turbomind
+[2024-04-02 08:55:22] WARNING root fetch - processPackages [radosdb]: Skipping, unable to determine old version
+[2024-04-02 08:55:22] INFO root fetch - main [MainThread]: End processing [radosdb] error
+[2024-04-02 08:55:22] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: New version: [0.0.1a4] Old Version: [0.0.1a3]
+[2024-04-02 08:55:22] WARNING root fetch - processPackages [turbomind]: Skipping, unable to determine old version
+[2024-04-02 08:55:22] INFO root fetch - processPackages [SoiUtils]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 08:55:22] INFO root fetch - main [MainThread]: End processing [turbomind] error
+[2024-04-02 08:55:22] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Downloading https://files.pythonhosted.org/packages/f7/94/8168361b10486399a02521e3ac0b8d3890b2c7e952869ec6e3c796ccbae4/cdklabs.cdk-verified-permissions-0.0.1a3.tar.gz
+[2024-04-02 08:55:22] INFO root fetch - processPackages [SoiUtils]: Downloading https://files.pythonhosted.org/packages/74/0e/1badb3134dc5c03870fb4fb7ba2114bd4cbc524e035052b4a0ed49649650/SoiUtils-0.2.8.tar.gz
+[2024-04-02 08:55:22] INFO root fetch - processPackages [SoiUtils]: Downloading https://files.pythonhosted.org/packages/d0/27/6ebdaa43e32b1f293f28864a7b1fe7aa0d99d9274015a656294aa005af84/SoiUtils-0.2.9.tar.gz
+[2024-04-02 08:55:22] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Downloading https://files.pythonhosted.org/packages/fc/81/666fed18cec95478cd9fb853d25482d2c68679d111511c0830779c5a4645/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz
+[2024-04-02 08:55:22] INFO root fetch - processPackages [SoiUtils]: executing diffoscope
+[2024-04-02 08:55:22] INFO root fetch - processPackages [SoiUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SoiUtils-0.2.8.tar.gz tmp/SoiUtils-0.2.9.tar.gz --markdown 20240402/S/SoiUtils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 08:55:23] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: executing diffoscope
+[2024-04-02 08:55:23] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-verified-permissions-0.0.1a3.tar.gz tmp/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz --markdown 20240402/c/cdklabs.cdk-verified-permissions/0.0.1a3-0.0.1a4/diff.md --exclude *.pyd
+[2024-04-02 08:55:23] INFO root fetch - processPackages [SoiUtils]: Remove: archive file [/home/abi/fetcher/tmp/SoiUtils-0.2.8.tar.gz]
+[2024-04-02 08:55:23] INFO root fetch - processPackages [SoiUtils]: Remove: archive file [/home/abi/fetcher/tmp/SoiUtils-0.2.9.tar.gz]
+[2024-04-02 08:55:23] INFO root fetch - main [MainThread]: End processing [SoiUtils]: success
+[2024-04-02 08:55:23] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a3.tar.gz]
+[2024-04-02 08:55:23] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz]
+[2024-04-02 08:55:23] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-verified-permissions]: success
+[2024-04-02 08:55:23] INFO root fetch - main [MainThread]: Store serial: [22581358]
