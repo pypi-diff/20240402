@@ -23518,3 +23518,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 16:04:26] INFO root fetch - processPackages [discogs-scraper]: Remove: archive file [/home/abi/fetcher/tmp/discogs_scraper-0.9.tar.gz]
 [2024-04-02 16:04:26] INFO root fetch - main [MainThread]: End processing [discogs-scraper]: success
 [2024-04-02 16:04:26] INFO root fetch - main [MainThread]: Store serial: [22585970]
+[2024-04-02 16:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585970]
+[2024-04-02 16:06:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 16:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: goth
+[2024-04-02 16:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: voila
+[2024-04-02 16:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-tomotwin
+[2024-04-02 16:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepview-validator
+[2024-04-02 16:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langflow-base
+[2024-04-02 16:06:36] INFO root fetch - processPackages [deepview-validator]: New version: [3.2.2] Old Version: [3.2.1]
+[2024-04-02 16:06:36] INFO root fetch - processPackages [voila]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-02 16:06:36] INFO root fetch - processPackages [langflow-base]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-04-02 16:06:36] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/a2/40/aaf0df83c09eff3477b1617a5dd7f9f2bab4bbb0a6ad7e4045681c9e986d/deepview_validator-3.2.1-py3-none-any.whl
+[2024-04-02 16:06:36] INFO root fetch - processPackages [scipion-em-tomotwin]: New version: [3.5] Old Version: [3.4]
+[2024-04-02 16:06:36] INFO root fetch - processPackages [goth]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 16:06:36] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/2c/8f/83b9ef1e4cdd99ccc63cd69661c3e4467b3f973f60f3589417f875bb2e63/voila-0.5.5.tar.gz
+[2024-04-02 16:06:36] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/14/a7/5f347660a1ea32396293fc424aeec2f70de76af0e0df2a72ab64b554d9b2/langflow_base-0.0.14.tar.gz
+[2024-04-02 16:06:36] INFO root fetch - processPackages [scipion-em-tomotwin]: Downloading https://files.pythonhosted.org/packages/2e/e4/de20063d87a76570f8cf0217b033be7fd79e7aee978e7dca16cc3ed300a1/scipion-em-tomotwin-3.4.tar.gz
+[2024-04-02 16:06:36] INFO root fetch - processPackages [deepview-validator]: Downloading https://files.pythonhosted.org/packages/c9/c6/be32364c12e96bd38baf655a49e9cc934d3fb447d6a124628f7fe7449099/deepview_validator-3.2.2-py3-none-any.whl
+[2024-04-02 16:06:36] INFO root fetch - processPackages [goth]: Downloading https://files.pythonhosted.org/packages/a6/9b/24ee9c32d18d0f92b8cd1593b39ec3fcef8d249ce92b7abdc03bc7ed87d3/goth-0.8.0.tar.gz
+[2024-04-02 16:06:36] INFO root fetch - processPackages [deepview-validator]: executing diffoscope
+[2024-04-02 16:06:36] INFO root fetch - processPackages [deepview-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_validator-3.2.1-py3-none-any.whl.zip tmp/deepview_validator-3.2.2-py3-none-any.whl.zip --markdown 20240402/d/deepview-validator/3.2.1-3.2.2/diff.md --exclude *.pyd
+[2024-04-02 16:06:37] INFO root fetch - processPackages [voila]: Downloading https://files.pythonhosted.org/packages/e7/5d/8281a408b2636ed3b23ce44b6a203441db8e74be7de601b22e069229b713/voila-0.5.6.tar.gz
+[2024-04-02 16:06:37] INFO root fetch - processPackages [goth]: Downloading https://files.pythonhosted.org/packages/81/a7/e9644b0f8f3fd06c176809cd2e85b34256bcdf3b078ab7cbf964fcfb20c5/goth-0.9.0.tar.gz
+[2024-04-02 16:06:37] INFO root fetch - processPackages [scipion-em-tomotwin]: Downloading https://files.pythonhosted.org/packages/de/c2/dc849cbc4214b8820b447b467ddf263e6342d04503a92de6f7289b65e066/scipion-em-tomotwin-3.5.tar.gz
+[2024-04-02 16:06:37] INFO root fetch - processPackages [scipion-em-tomotwin]: executing diffoscope
+[2024-04-02 16:06:37] INFO root fetch - processPackages [scipion-em-tomotwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-tomotwin-3.4.tar.gz tmp/scipion-em-tomotwin-3.5.tar.gz --markdown 20240402/s/scipion-em-tomotwin/3.4-3.5/diff.md --exclude *.pyd
+[2024-04-02 16:06:37] INFO root fetch - processPackages [goth]: executing diffoscope
+[2024-04-02 16:06:37] INFO root fetch - processPackages [goth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goth-0.8.0.tar.gz tmp/goth-0.9.0.tar.gz --markdown 20240402/g/goth/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 16:06:37] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/94/d4/b7fb7cffb5c19fec05f5a2048192d3c6ffc99fda91272ab9ce41b0fd3c18/langflow_base-0.0.15.tar.gz
+[2024-04-02 16:06:37] INFO root fetch - processPackages [voila]: executing diffoscope
+[2024-04-02 16:06:37] INFO root fetch - processPackages [voila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voila-0.5.5.tar.gz tmp/voila-0.5.6.tar.gz --markdown 20240402/v/voila/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2024-04-02 16:06:37] INFO root fetch - processPackages [deepview-validator]: Remove: archive file [/home/abi/fetcher/tmp/deepview_validator-3.2.1-py3-none-any.whl.zip]
+[2024-04-02 16:06:37] INFO root fetch - processPackages [deepview-validator]: Remove: archive file [/home/abi/fetcher/tmp/deepview_validator-3.2.2-py3-none-any.whl.zip]
+[2024-04-02 16:06:37] INFO root fetch - main [MainThread]: End processing [deepview-validator]: success
+[2024-04-02 16:06:37] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-04-02 16:06:37] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.14.tar.gz tmp/langflow_base-0.0.15.tar.gz --markdown 20240402/l/langflow-base/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2024-04-02 16:06:38] INFO root fetch - processPackages [goth]: Remove: archive file [/home/abi/fetcher/tmp/goth-0.8.0.tar.gz]
+[2024-04-02 16:06:38] INFO root fetch - processPackages [goth]: Remove: archive file [/home/abi/fetcher/tmp/goth-0.9.0.tar.gz]
+[2024-04-02 16:06:38] INFO root fetch - main [MainThread]: End processing [goth]: success
+[2024-04-02 16:06:38] INFO root fetch - processPackages [scipion-em-tomotwin]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-tomotwin-3.4.tar.gz]
+[2024-04-02 16:06:38] INFO root fetch - processPackages [scipion-em-tomotwin]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-tomotwin-3.5.tar.gz]
+[2024-04-02 16:06:38] INFO root fetch - main [MainThread]: End processing [scipion-em-tomotwin]: success
+[2024-04-02 16:06:43] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.14.tar.gz]
+[2024-04-02 16:06:43] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.15.tar.gz]
+[2024-04-02 16:06:43] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-04-02 16:07:58] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.5.tar.gz]
+[2024-04-02 16:07:58] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.6.tar.gz]
+[2024-04-02 16:07:58] INFO root fetch - main [MainThread]: End processing [voila]: success
+[2024-04-02 16:07:58] INFO root fetch - main [MainThread]: Store serial: [22585984]
