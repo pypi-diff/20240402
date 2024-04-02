@@ -8994,3 +8994,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:38:20] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.0a4.tar.gz]
 [2024-04-02 04:38:20] INFO root fetch - main [MainThread]: End processing [didcomm-messaging]: success
 [2024-04-02 04:38:20] INFO root fetch - main [MainThread]: Store serial: [22580081]
+[2024-04-02 04:40:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580081]
+[2024-04-02 04:40:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 04:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-editor
+[2024-04-02 04:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepfos-celery
+[2024-04-02 04:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2024-04-02 04:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xcsc-dataapi
+[2024-04-02 04:40:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jhammer
+[2024-04-02 04:40:29] INFO root fetch - processPackages [deepfos-celery]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-02 04:40:29] INFO root fetch - processPackages [xcsc-dataapi]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 04:40:29] INFO root fetch - processPackages [jhammer]: New version: [3.1.2] Old Version: [3.1.1]
+[2024-04-02 04:40:29] INFO root fetch - processPackages [litellm]: New version: [1.9.dev0] Old Version: [1.9.5]
+[2024-04-02 04:40:29] INFO root fetch - processPackages [auto-editor]: New version: [24.9.1] Old Version: [24.7.1]
+[2024-04-02 04:40:29] INFO root fetch - processPackages [xcsc-dataapi]: Downloading https://files.pythonhosted.org/packages/40/9b/accdd22b6f6620df6afacce417f6ffafff34cc259883b0ac0104e2ce78fd/xcsc_dataapi-1.0.1.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [deepfos-celery]: Downloading https://files.pythonhosted.org/packages/04/6a/28ee2648a93e4147e71c818589b39b4351aa6886c3beb57c9faffb8f50b1/deepfos_celery-1.1.8-py3-none-any.whl
+[2024-04-02 04:40:29] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/38/f3/1cbeaf4074e7b284cd140263ff165948d8f4cc8f5dd72c89be43a0469387/litellm-1.9.5.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [jhammer]: Downloading https://files.pythonhosted.org/packages/57/c1/192db82136e94ef3cd2e927dd5130703cba888036046bbada34c3ac2309f/jhammer-3.1.1.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/32/67/bb09ca05b1a8c4f80454fe72ed6f25a7d2ee5e48e4d4c8e62e8a7facaa21/auto-editor-24.7.1.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [xcsc-dataapi]: Downloading https://files.pythonhosted.org/packages/27/ee/9d2f1bb684ae12b7ce3405d7ede6aac54807b069654262bf7c5dd009c45a/xcsc_dataapi-1.0.2.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [jhammer]: Downloading https://files.pythonhosted.org/packages/ee/a3/83e4d668e10c84dcd3c698f177a706e09b19349dce4fc43f40cc009ae46f/jhammer-3.1.2.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/83/47/8664c92644b42e4ee600cf0a4b4d7124817a725190170f430230ed7d5052/auto-editor-24.9.1.tar.gz
+[2024-04-02 04:40:29] INFO root fetch - processPackages [xcsc-dataapi]: executing diffoscope
+[2024-04-02 04:40:29] INFO root fetch - processPackages [xcsc-dataapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcsc_dataapi-1.0.1.tar.gz tmp/xcsc_dataapi-1.0.2.tar.gz --markdown 20240402/x/xcsc-dataapi/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 04:40:29] INFO root fetch - processPackages [jhammer]: executing diffoscope
+[2024-04-02 04:40:29] INFO root fetch - processPackages [jhammer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhammer-3.1.1.tar.gz tmp/jhammer-3.1.2.tar.gz --markdown 20240402/j/jhammer/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2024-04-02 04:40:29] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ad/6c/162b83e9cf68f5a94c30153e835414c3ee11c8602ffaacc9a032851dfa26/litellm-1.9.dev0.tar.gz
+[2024-04-02 04:40:30] INFO root fetch - processPackages [deepfos-celery]: Downloading https://files.pythonhosted.org/packages/60/cf/df9801bea8faea7dad7e10296fd918710d1dc00d260d89e69b1fea0c3af0/deepfos_celery-1.1.9-py3-none-any.whl
+[2024-04-02 04:40:30] INFO root fetch - processPackages [auto-editor]: executing diffoscope
+[2024-04-02 04:40:30] INFO root fetch - processPackages [auto-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-editor-24.7.1.tar.gz tmp/auto-editor-24.9.1.tar.gz --markdown 20240402/a/auto-editor/24.7.1-24.9.1/diff.md --exclude *.pyd
+[2024-04-02 04:40:30] INFO root fetch - processPackages [deepfos-celery]: executing diffoscope
+[2024-04-02 04:40:30] INFO root fetch - processPackages [deepfos-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepfos_celery-1.1.8-py3-none-any.whl.zip tmp/deepfos_celery-1.1.9-py3-none-any.whl.zip --markdown 20240402/d/deepfos-celery/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-02 04:40:30] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2024-04-02 04:40:30] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-1.9.5.tar.gz tmp/litellm-1.9.dev0.tar.gz --markdown 20240402/l/litellm/1.9.5-1.9.dev0/diff.md --exclude *.pyd
+[2024-04-02 04:40:30] INFO root fetch - processPackages [xcsc-dataapi]: Remove: archive file [/home/abi/fetcher/tmp/xcsc_dataapi-1.0.1.tar.gz]
+[2024-04-02 04:40:30] INFO root fetch - processPackages [xcsc-dataapi]: Remove: archive file [/home/abi/fetcher/tmp/xcsc_dataapi-1.0.2.tar.gz]
+[2024-04-02 04:40:30] INFO root fetch - main [MainThread]: End processing [xcsc-dataapi]: success
+[2024-04-02 04:40:30] INFO root fetch - processPackages [jhammer]: Remove: archive file [/home/abi/fetcher/tmp/jhammer-3.1.1.tar.gz]
+[2024-04-02 04:40:30] INFO root fetch - processPackages [jhammer]: Remove: archive file [/home/abi/fetcher/tmp/jhammer-3.1.2.tar.gz]
+[2024-04-02 04:40:30] INFO root fetch - main [MainThread]: End processing [jhammer]: success
+[2024-04-02 04:40:31] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-24.7.1.tar.gz]
+[2024-04-02 04:40:31] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-24.9.1.tar.gz]
+[2024-04-02 04:40:31] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
+[2024-04-02 04:40:31] INFO root fetch - processPackages [deepfos-celery]: Remove: archive file [/home/abi/fetcher/tmp/deepfos_celery-1.1.8-py3-none-any.whl.zip]
+[2024-04-02 04:40:31] INFO root fetch - processPackages [deepfos-celery]: Remove: archive file [/home/abi/fetcher/tmp/deepfos_celery-1.1.9-py3-none-any.whl.zip]
+[2024-04-02 04:40:31] INFO root fetch - main [MainThread]: End processing [deepfos-celery]: success
+[2024-04-02 04:40:31] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.5.tar.gz]
+[2024-04-02 04:40:31] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-1.9.dev0.tar.gz]
+[2024-04-02 04:40:31] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2024-04-02 04:40:31] INFO root fetch - main [MainThread]: Store serial: [22580094]
