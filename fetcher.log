@@ -9854,3 +9854,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:42:14] INFO root fetch - processPackages [gptfast]: Remove: archive file [/home/abi/fetcher/tmp/gptfast-0.2.0.tar.gz]
 [2024-04-02 05:42:14] INFO root fetch - main [MainThread]: End processing [gptfast]: success
 [2024-04-02 05:42:14] INFO root fetch - main [MainThread]: Store serial: [22580396]
+[2024-04-02 05:44:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580396]
+[2024-04-02 05:44:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 05:44:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rongdaVbaAddinsLight
+[2024-04-02 05:44:23] INFO root fetch - processPackages [rongdaVbaAddinsLight]: New version: [0.2.0.61] Old Version: [0.2.0.60]
+[2024-04-02 05:44:23] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Downloading https://files.pythonhosted.org/packages/e0/8c/9c38397b3817f2a8ef6725900002503eb81e25da8b1db7ebcd45c038864d/rongdaVbaAddinsLight-0.2.0.60.tar.gz
+[2024-04-02 05:44:23] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Downloading https://files.pythonhosted.org/packages/d1/19/c7bd979571ed8d0ff52e4bc3410fe62809bee51b8f5cf3dc880a8e411c86/rongdaVbaAddinsLight-0.2.0.61.tar.gz
+[2024-04-02 05:44:23] INFO root fetch - processPackages [rongdaVbaAddinsLight]: executing diffoscope
+[2024-04-02 05:44:23] INFO root fetch - processPackages [rongdaVbaAddinsLight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdaVbaAddinsLight-0.2.0.60.tar.gz tmp/rongdaVbaAddinsLight-0.2.0.61.tar.gz --markdown 20240402/r/rongdaVbaAddinsLight/0.2.0.60-0.2.0.61/diff.md --exclude *.pyd
+[2024-04-02 05:44:25] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Remove: archive file [/home/abi/fetcher/tmp/rongdaVbaAddinsLight-0.2.0.60.tar.gz]
+[2024-04-02 05:44:25] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Remove: archive file [/home/abi/fetcher/tmp/rongdaVbaAddinsLight-0.2.0.61.tar.gz]
+[2024-04-02 05:44:25] INFO root fetch - main [MainThread]: End processing [rongdaVbaAddinsLight]: success
+[2024-04-02 05:44:25] INFO root fetch - main [MainThread]: Store serial: [22580403]
