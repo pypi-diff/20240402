@@ -8371,3 +8371,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:07:32] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.2a0-py3-none-any.whl.zip]
 [2024-04-02 04:07:32] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
 [2024-04-02 04:07:32] INFO root fetch - main [MainThread]: Store serial: [22579848]
+[2024-04-02 04:09:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579848]
+[2024-04-02 04:09:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ytmusic-deleter
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: test-tele
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyclipmgr
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zonevu
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: OZI
+[2024-04-02 04:09:41] INFO root fetch - processPackages [zonevu]: New version: [1.1.6] Old Version: [1.1.5]
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.1.2a0] Old Version: [2.1.1a1]
+[2024-04-02 04:09:41] INFO root fetch - processPackages [pyclipmgr]: New version: [2.2] Old Version: [2.1]
+[2024-04-02 04:09:41] WARNING root fetch - processPackages [test-tele]: Skipping, unable to determine old version
+[2024-04-02 04:09:41] INFO root fetch - main [MainThread]: End processing [test-tele] error
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/e7/0b/97eea6b02ecf6aeec8721cdbb0636c8bcc62c040c4c4780a729b58ea30a6/ytmusic_deleter-2.1.1a1.tar.gz
+[2024-04-02 04:09:41] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/71/b3/7a7af56e7e5a0f97df36c754c2961af1747f56a60bbdb9426eca69df8031/pyclipmgr-2.1.tar.gz
+[2024-04-02 04:09:41] INFO root fetch - processPackages [OZI]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 04:09:41] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/a0/93/2c111d4ce7baac350c2a75f9c2fbd2d20c0526ff86498ce90bfbad8d72e0/zonevu-1.1.5-py3-none-any.whl
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/9a/0b/f689dbce9a752f2e00f190094d031a6340f724ab6abb4f177be0c2b358b6/ytmusic_deleter-2.1.2a0-py3-none-any.whl
+[2024-04-02 04:09:41] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/38/2b/d8f8ce2f774ca66b1e32e65068783b15ac56715cbfa1ab1faef6d2c91a13/OZI-0.0.98-py39-none-any.whl
+[2024-04-02 04:09:41] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0c/ff/070a12dd6a2fa09947ef4dfdb1c9112d5f60dc2e90eb0c3770432450758a/pyclipmgr-2.2.tar.gz
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-04-02 04:09:41] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.1.1a1.tar.gz tmp/ytmusic_deleter-2.1.2a0-py3-none-any.whl.zip --markdown 20240402/y/ytmusic-deleter/2.1.1a1-2.1.2a0/diff.md --exclude *.pyd
+[2024-04-02 04:09:41] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 04:09:41] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-2.1.tar.gz tmp/pyclipmgr-2.2.tar.gz --markdown 20240402/p/pyclipmgr/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-02 04:09:41] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/e9/38/615eb4e80c528096e81f9400f56b37074659f65824f2f8698aa6c8077e66/zonevu-1.1.6-py3-none-any.whl
+[2024-04-02 04:09:41] INFO root fetch - processPackages [OZI]: Downloading https://files.pythonhosted.org/packages/4c/bb/b5eaa9984b59532639030a4989b508e0252f662844d9a3e3f9a3d9aeef2c/OZI-0.0.99-py39-none-any.whl
+[2024-04-02 04:09:42] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.1a1.tar.gz]
+[2024-04-02 04:09:42] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.2a0-py3-none-any.whl.zip]
+[2024-04-02 04:09:42] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-04-02 04:09:42] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-02 04:09:42] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.5-py3-none-any.whl.zip tmp/zonevu-1.1.6-py3-none-any.whl.zip --markdown 20240402/z/zonevu/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2024-04-02 04:09:42] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.1.tar.gz]
+[2024-04-02 04:09:42] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.2.tar.gz]
+[2024-04-02 04:09:42] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 04:09:42] INFO root fetch - processPackages [OZI]: executing diffoscope
+[2024-04-02 04:09:42] INFO root fetch - processPackages [OZI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OZI-0.0.98-py39-none-any.whl.zip tmp/OZI-0.0.99-py39-none-any.whl.zip --markdown 20240402/O/OZI/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 04:09:43] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.98-py39-none-any.whl.zip]
+[2024-04-02 04:09:43] INFO root fetch - processPackages [OZI]: Remove: archive file [/home/abi/fetcher/tmp/OZI-0.0.99-py39-none-any.whl.zip]
+[2024-04-02 04:09:43] INFO root fetch - main [MainThread]: End processing [OZI]: success
+[2024-04-02 04:09:44] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.5-py3-none-any.whl.zip]
+[2024-04-02 04:09:44] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.6-py3-none-any.whl.zip]
+[2024-04-02 04:09:44] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-02 04:09:44] INFO root fetch - main [MainThread]: Store serial: [22579864]
