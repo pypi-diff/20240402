@@ -22416,3 +22416,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:25:39] INFO root fetch - processPackages [bloock]: Remove: archive file [/home/abi/fetcher/tmp/bloock-2.8.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2024-04-02 15:25:39] INFO root fetch - main [MainThread]: End processing [bloock]: success
 [2024-04-02 15:25:39] INFO root fetch - main [MainThread]: Store serial: [22585492]
+[2024-04-02 15:27:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585492]
+[2024-04-02 15:27:48] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lljz-tools
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peakrdl-python
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-scheduler-sdk
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepAntigen
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: reapit-cdk.email-receiver
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PandaPosMetrik
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: reapit-cdk.cross-region-stack-export
+[2024-04-02 15:27:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: equation-database
+[2024-04-02 15:27:48] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 15:27:48] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-02 15:27:48] INFO root fetch - processPackages [PandaPosMetrik]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/25/24/930fba790ff3da670183d6579dca6d5f98b176840fbd7d9e5158233d2105/lljz_tools-0.2.6.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/8c/8b/6b228fc21b1d563e5932ab4c9367f6c46a1c9db7dbaa2390aca8cbbf771f/lusid_scheduler_sdk-2.0.8.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [peakrdl-python]: New version: [0.7.4] Old Version: [0.7.3]
+[2024-04-02 15:27:49] ERROR root fetch - processPackages [reapit-cdk.cross-region-stack-export]: Unable to get metadata: No such project 'reapit-cdk.cross-region-stack-export'
+[2024-04-02 15:27:49] ERROR root fetch - processPackages [reapit-cdk.email-receiver]: Unable to get metadata: No such project 'reapit-cdk.email-receiver'
+[2024-04-02 15:27:49] INFO root fetch - main [MainThread]: End processing [reapit-cdk.cross-region-stack-export] error
+[2024-04-02 15:27:49] INFO root fetch - main [MainThread]: End processing [reapit-cdk.email-receiver] error
+[2024-04-02 15:27:49] WARNING root fetch - processPackages [deepAntigen]: Skipping, unable to determine old version
+[2024-04-02 15:27:49] INFO root fetch - main [MainThread]: End processing [deepAntigen] error
+[2024-04-02 15:27:49] INFO root fetch - processPackages [equation-database]: New version: [2024.4.2] Old Version: [2024.3.30]
+[2024-04-02 15:27:49] INFO root fetch - processPackages [PandaPosMetrik]: Downloading https://files.pythonhosted.org/packages/c1/17/d6e5a7be81651642d34447ee84e23b82d9875d70b60a730029a63b426cbd/PandaPosMetrik-2.0.5.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [peakrdl-python]: Downloading https://files.pythonhosted.org/packages/bb/3e/a595fb82c7c414f6a93c7ba89359cf055dd5c4394af9ff90c6d1536a4432/peakrdl-python-0.7.3.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/61/62/b2d102364a99692c2b330edc98b8215430a51370b9e7d1b13ef5ee74b69b/lusid_scheduler_sdk-2.0.9.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [equation-database]: Downloading https://files.pythonhosted.org/packages/96/71/6de50803188dee2140e0ce52966707aace93f8e2acc7e743d6a85611e623/equation_database-2024.3.30.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/b5/48/e2f9574f1a335f8983315e1aba077006c9ebbe5ad375a9bee383ce37797b/lljz_tools-0.2.7.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [PandaPosMetrik]: Downloading https://files.pythonhosted.org/packages/f9/cb/cd14e533af6fa61a3171c98dbdfbc08735e46d32eb2ad36e2d5b767f6e80/PandaPosMetrik-2.0.6.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.0.8.tar.gz tmp/lusid_scheduler_sdk-2.0.9.tar.gz --markdown 20240402/l/lusid-scheduler-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-04-02 15:27:49] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.6.tar.gz tmp/lljz_tools-0.2.7.tar.gz --markdown 20240402/l/lljz-tools/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-02 15:27:49] INFO root fetch - processPackages [PandaPosMetrik]: executing diffoscope
+[2024-04-02 15:27:49] INFO root fetch - processPackages [PandaPosMetrik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandaPosMetrik-2.0.5.tar.gz tmp/PandaPosMetrik-2.0.6.tar.gz --markdown 20240402/P/PandaPosMetrik/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2024-04-02 15:27:49] INFO root fetch - processPackages [peakrdl-python]: Downloading https://files.pythonhosted.org/packages/68/55/210fad59ce807d97aa684fb2b2282a0ece5b1ab52d3a577432aeeced3637/peakrdl-python-0.7.4.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [equation-database]: Downloading https://files.pythonhosted.org/packages/fa/4e/8a9cb6be381bd106a72c302fb3d89c1b0d06e59727cc169f86110f011479/equation_database-2024.4.2.tar.gz
+[2024-04-02 15:27:49] INFO root fetch - processPackages [peakrdl-python]: executing diffoscope
+[2024-04-02 15:27:49] INFO root fetch - processPackages [peakrdl-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peakrdl-python-0.7.3.tar.gz tmp/peakrdl-python-0.7.4.tar.gz --markdown 20240402/p/peakrdl-python/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2024-04-02 15:27:50] INFO root fetch - processPackages [PandaPosMetrik]: Remove: archive file [/home/abi/fetcher/tmp/PandaPosMetrik-2.0.5.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - processPackages [PandaPosMetrik]: Remove: archive file [/home/abi/fetcher/tmp/PandaPosMetrik-2.0.6.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - main [MainThread]: End processing [PandaPosMetrik]: success
+[2024-04-02 15:27:50] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.6.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.7.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-04-02 15:27:50] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.0.8.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.0.9.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-04-02 15:27:50] INFO root fetch - processPackages [equation-database]: executing diffoscope
+[2024-04-02 15:27:50] INFO root fetch - processPackages [equation-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/equation_database-2024.3.30.tar.gz tmp/equation_database-2024.4.2.tar.gz --markdown 20240402/e/equation-database/2024.3.30-2024.4.2/diff.md --exclude *.pyd
+[2024-04-02 15:27:50] INFO root fetch - processPackages [peakrdl-python]: Remove: archive file [/home/abi/fetcher/tmp/peakrdl-python-0.7.3.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - processPackages [peakrdl-python]: Remove: archive file [/home/abi/fetcher/tmp/peakrdl-python-0.7.4.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - main [MainThread]: End processing [peakrdl-python]: success
+[2024-04-02 15:27:50] INFO root fetch - processPackages [equation-database]: Remove: archive file [/home/abi/fetcher/tmp/equation_database-2024.3.30.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - processPackages [equation-database]: Remove: archive file [/home/abi/fetcher/tmp/equation_database-2024.4.2.tar.gz]
+[2024-04-02 15:27:50] INFO root fetch - main [MainThread]: End processing [equation-database]: success
+[2024-04-02 15:27:50] INFO root fetch - main [MainThread]: Store serial: [22585552]
