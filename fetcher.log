@@ -9920,3 +9920,68 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:48:48] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-3.0.0.tar.gz]
 [2024-04-02 05:48:48] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
 [2024-04-02 05:48:48] INFO root fetch - main [MainThread]: Store serial: [22580422]
+[2024-04-02 05:50:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580422]
+[2024-04-02 05:51:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alibabacloud-rds20140815
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mtutils
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: layernext-beta
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sccastle
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aws-pdk
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openllm
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openllm-client
+[2024-04-02 05:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openllm-core
+[2024-04-02 05:51:01] WARNING root fetch - processPackages [sccastle]: Skipping, unable to determine old version
+[2024-04-02 05:51:01] INFO root fetch - main [MainThread]: End processing [sccastle] error
+[2024-04-02 05:51:01] INFO root fetch - processPackages [openllm-core]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [4.0.0] Old Version: [3.2.1]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [openllm-client]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [mtutils]: New version: [2.1.9] Old Version: [2.1.84]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [layernext-beta]: New version: [3.2.0b0] Old Version: [3.1.1b6]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [openllm]: New version: [0.5.0a2] Old Version: [0.5.0a1]
+[2024-04-02 05:51:01] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/14/b7/d41241c216a3c44e672c56743a907eb33bf936c1cd37647ddc720097692d/openllm_core-0.5.0a1.tar.gz
+[2024-04-02 05:51:01] INFO root fetch - processPackages [mtutils]: Downloading https://files.pythonhosted.org/packages/d2/67/98220010b72e5a717547742dc89e049b17ce005c2d8f95cca69392c76d0c/mtutils-2.1.84.tar.gz
+[2024-04-02 05:51:01] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-02 05:51:01] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/ce/f2/cbfbde1d56660f28a5446b08d57db5438d77a64f753fa4ae79008c2007a9/openllm_client-0.5.0a1.tar.gz
+[2024-04-02 05:51:01] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/17/39/173e7d5f94fac9f18644849ddc78f9ff7415af63df025507f30d6969c2c7/alibabacloud_rds20140815-3.2.1.tar.gz
+[2024-04-02 05:51:01] INFO root fetch - processPackages [layernext-beta]: Downloading https://files.pythonhosted.org/packages/fe/77/cae46d9098a6eb51fdb933de32c5b30fcb15ea709dd3a150951b296ed800/layernext-beta-3.1.1b6.tar.gz
+[2024-04-02 05:51:01] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/b7/d7/a090840ceb67bd699fead638d0a91c7cb7411be2fea8d27c5876919a72ef/openllm-0.5.0a1.tar.gz
+[2024-04-02 05:51:02] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-02 05:51:02] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm]: Downloading https://files.pythonhosted.org/packages/c5/31/cd8a341d4be6ec7af54ce16acfefa63380bdb41614ff5dc21d4517201e47/openllm-0.5.0a2.tar.gz
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm-core]: Downloading https://files.pythonhosted.org/packages/29/50/1ca28a2a324800cb4bca3349e56f99f4ea62ccf0b46172fe23dfb247155a/openllm_core-0.5.0a2.tar.gz
+[2024-04-02 05:51:02] INFO root fetch - processPackages [layernext-beta]: Downloading https://files.pythonhosted.org/packages/a1/4d/bed0020d7b9471e02855268810972714b5782aa6ecc4f5e37937fd3b5d17/layernext-beta-3.2.0b0.tar.gz
+[2024-04-02 05:51:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/0e/61/09263bf7e8e9369a708b12ed1098fbddd8f119c1a87aa3bfe4c730290b9a/alibabacloud_rds20140815-4.0.0.tar.gz
+[2024-04-02 05:51:02] INFO root fetch - processPackages [mtutils]: Downloading https://files.pythonhosted.org/packages/09/0b/f97ea00148e58ba821750da9233f98bde684788e7383c8b5006b35858f3e/mtutils-2.1.9.tar.gz
+[2024-04-02 05:51:02] INFO root fetch - processPackages [layernext-beta]: executing diffoscope
+[2024-04-02 05:51:02] INFO root fetch - processPackages [layernext-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layernext-beta-3.1.1b6.tar.gz tmp/layernext-beta-3.2.0b0.tar.gz --markdown 20240402/l/layernext-beta/3.1.1b6-3.2.0b0/diff.md --exclude *.pyd
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm]: executing diffoscope
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm-0.5.0a1.tar.gz tmp/openllm-0.5.0a2.tar.gz --markdown 20240402/o/openllm/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm-client]: Downloading https://files.pythonhosted.org/packages/1f/28/a598a9d2004615839f3fac88678b0f31db93ff27dc44fd73f2da2b552326/openllm_client-0.5.0a2.tar.gz
+[2024-04-02 05:51:02] INFO root fetch - processPackages [mtutils]: executing diffoscope
+[2024-04-02 05:51:02] INFO root fetch - processPackages [mtutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtutils-2.1.84.tar.gz tmp/mtutils-2.1.9.tar.gz --markdown 20240402/m/mtutils/2.1.84-2.1.9/diff.md --exclude *.pyd
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm-core]: executing diffoscope
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_core-0.5.0a1.tar.gz tmp/openllm_core-0.5.0a2.tar.gz --markdown 20240402/o/openllm-core/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2024-04-02 05:51:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2024-04-02 05:51:02] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-3.2.1.tar.gz tmp/alibabacloud_rds20140815-4.0.0.tar.gz --markdown 20240402/a/alibabacloud-rds20140815/3.2.1-4.0.0/diff.md --exclude *.pyd
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm-client]: executing diffoscope
+[2024-04-02 05:51:02] INFO root fetch - processPackages [openllm-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openllm_client-0.5.0a1.tar.gz tmp/openllm_client-0.5.0a2.tar.gz --markdown 20240402/o/openllm-client/0.5.0a1-0.5.0a2/diff.md --exclude *.pyd
+[2024-04-02 05:51:03] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a1.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - processPackages [openllm-core]: Remove: archive file [/home/abi/fetcher/tmp/openllm_core-0.5.0a2.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - main [MainThread]: End processing [openllm-core]: success
+[2024-04-02 05:51:03] INFO root fetch - processPackages [layernext-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-beta-3.1.1b6.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - processPackages [layernext-beta]: Remove: archive file [/home/abi/fetcher/tmp/layernext-beta-3.2.0b0.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - main [MainThread]: End processing [layernext-beta]: success
+[2024-04-02 05:51:03] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a1.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - processPackages [openllm-client]: Remove: archive file [/home/abi/fetcher/tmp/openllm_client-0.5.0a2.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - main [MainThread]: End processing [openllm-client]: success
+[2024-04-02 05:51:03] INFO root fetch - processPackages [mtutils]: Remove: archive file [/home/abi/fetcher/tmp/mtutils-2.1.84.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - processPackages [mtutils]: Remove: archive file [/home/abi/fetcher/tmp/mtutils-2.1.9.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - main [MainThread]: End processing [mtutils]: success
+[2024-04-02 05:51:03] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a1.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - processPackages [openllm]: Remove: archive file [/home/abi/fetcher/tmp/openllm-0.5.0a2.tar.gz]
+[2024-04-02 05:51:03] INFO root fetch - main [MainThread]: End processing [openllm]: success
+[2024-04-02 05:51:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-3.2.1.tar.gz]
+[2024-04-02 05:51:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-4.0.0.tar.gz]
+[2024-04-02 05:51:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2024-04-02 05:51:05] INFO root fetch - main [MainThread]: Store serial: [22580447]
