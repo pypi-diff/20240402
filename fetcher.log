@@ -10026,3 +10026,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:57:36] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
 [2024-04-02 05:57:36] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
 [2024-04-02 05:57:36] INFO root fetch - main [MainThread]: Store serial: [22580477]
+[2024-04-02 05:59:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580477]
+[2024-04-02 05:59:44] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 05:59:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spellbot
+[2024-04-02 05:59:44] INFO root fetch - processPackages [spellbot]: New version: [9.7.0] Old Version: [9.6.0]
+[2024-04-02 05:59:44] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/bb/8f/7c6a5965d590a40e0b3b3cb13060af533453443abeaf6d14aecd126d140b/spellbot-9.6.0.tar.gz
+[2024-04-02 05:59:44] INFO root fetch - processPackages [spellbot]: Downloading https://files.pythonhosted.org/packages/a6/68/173f1a8698ba9760f0184841d7e89ce10a9fb700484560df249d3b2f1389/spellbot-9.7.0.tar.gz
+[2024-04-02 05:59:45] INFO root fetch - processPackages [spellbot]: executing diffoscope
+[2024-04-02 05:59:45] INFO root fetch - processPackages [spellbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spellbot-9.6.0.tar.gz tmp/spellbot-9.7.0.tar.gz --markdown 20240402/s/spellbot/9.6.0-9.7.0/diff.md --exclude *.pyd
+[2024-04-02 05:59:45] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.6.0.tar.gz]
+[2024-04-02 05:59:45] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.7.0.tar.gz]
+[2024-04-02 05:59:45] INFO root fetch - main [MainThread]: End processing [spellbot]: success
+[2024-04-02 05:59:45] INFO root fetch - main [MainThread]: Store serial: [22580479]
