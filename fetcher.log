@@ -13380,3 +13380,132 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:54:14] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
 [2024-04-02 09:54:14] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
 [2024-04-02 09:54:14] INFO root fetch - main [MainThread]: Store serial: [22581792]
+[2024-04-02 09:56:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581792]
+[2024-04-02 09:56:23] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rockai-cli-app
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testingcgsdk
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prediction-market-agent-tooling
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tanx-connector
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nucliadb
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anaplan-api
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nucliadb-dataset
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-models
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nucliadb-protos
+[2024-04-02 09:56:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nucliadb-sdk
+[2024-04-02 09:56:23] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-dataset]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-sdk]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-models]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/59/0a/d3f83d8040d69213031270fb583dd903b8765a48c7eb9218333bf0ef5efb/testingcgsdk-0.0.3-py3-none-any.whl
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-protos]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [anaplan-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [tanx-connector]: New version: [2.0.2] Old Version: [2.0.1]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/9d/8c/04f4e6e6978cc4b1e1d986c14f79112e8de0be728bd896ef5a01ad3824a0/rockai_cli_app-0.1.3.tar.gz
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/3b/2d/e4d68391765b0e9f57ca1023e2aec3cf60968a9418e00f24c1554bb0041e/nucliadb_models-2.9.0.post266-py3-none-any.whl
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/a1/64/be41afa3acf3d90a5d9575ac0e1c151ff6e91fb473f9724dac60fea85414/nucliadb_sdk-2.9.0.post266-py3-none-any.whl
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/56/4b/fc2d9cfebab3c585f1cb9965c827bf2aca2a655f2fec6b1fffcac6eef1c1/nucliadb_dataset-2.9.0.post266-py3-none-any.whl
+[2024-04-02 09:56:23] INFO root fetch - processPackages [tanx-connector]: Downloading https://files.pythonhosted.org/packages/a8/e0/7195a48ecb0deac0a6248a95f3526002364e6a83e526c80c82e9c851e3c6/tanx-connector-2.0.1.tar.gz
+[2024-04-02 09:56:23] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/16/50/6ab2e4f9cca425d97ef0824c338fea58b8e3a0bfb590231f3196942875c0/nucliadb_protos-2.9.0.post266-py3-none-any.whl
+[2024-04-02 09:56:23] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/65/dc/893ad0107e7eff5838474df6cea46fc2bd66ce9466c9052ff711f0432a76/prediction_market_agent_tooling-0.6.0.tar.gz
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/7c/ff/0a879c94d307d6130c47fa95a8a217386c5cbb1838101d660244b068cd95/nucliadb-2.9.0.post266-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/19/58/d84f16439676f7866564cbd227240a8164237d2a0e4357af41ee9069c71d/anaplan-api-0.2.8.tar.gz
+[2024-04-02 09:56:24] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/55/7f/2d0c7d2b31619856256c25e01468a3341aab954845653bccf4e7f0122e1b/testingcgsdk-0.0.4-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/5b/32/b8a01b170a84c20763044eb66af9d5ca3b6855775c2232d06debd18e8f25/rockai_cli_app-0.1.4.tar.gz
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-models]: Downloading https://files.pythonhosted.org/packages/33/34/554de7935ae3aecd4129d1f85d83822f97fd284da917d6aced4c09802f1a/nucliadb_models-2.9.0.post267-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-sdk]: Downloading https://files.pythonhosted.org/packages/35/7b/660db604a69a01811bfa1b2ce906d520705e186b4f8a91c3972cb4446303/nucliadb_sdk-2.9.0.post267-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-dataset]: Downloading https://files.pythonhosted.org/packages/80/9f/9ffeb0e3d1b4da8f1178595f75fb1c1ffe183913036ae2a60f569c8c7dc7/nucliadb_dataset-2.9.0.post267-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.3-py3-none-any.whl.zip tmp/testingcgsdk-0.0.4-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.1.3.tar.gz tmp/rockai_cli_app-0.1.4.tar.gz --markdown 20240402/r/rockai-cli-app/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-protos]: Downloading https://files.pythonhosted.org/packages/21/bd/4fffaf241f826293c98c1317bdaff65a5d202f9ec94d08322b2fd017f3b0/nucliadb_protos-2.9.0.post267-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [tanx-connector]: Downloading https://files.pythonhosted.org/packages/b7/03/6df47654681cecfd832d3165494cb60cbe3c120b723a1e2de03f346a09c1/tanx-connector-2.0.2.tar.gz
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-models]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-models/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-sdk]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-sdk/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-dataset]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-dataset/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/96/b0/ad4e30b2f187f6c7d0bbd93612b6a42f35bf4121ec94f0582edc51218eaa/prediction_market_agent_tooling-0.7.0.tar.gz
+[2024-04-02 09:56:24] INFO root fetch - processPackages [anaplan-api]: Downloading https://files.pythonhosted.org/packages/47/4f/86453686ead3ecec8521548b11ce56440208ffaa95e4220d8d7f295ffde3/anaplan-api-0.2.9.tar.gz
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-protos]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb-protos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-protos/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb]: Downloading https://files.pythonhosted.org/packages/d0/e8/3c39cb6a2ed6ad97a3e0dec5110ec85934306f7a7d052b0cb4fe4762aa0f/nucliadb-2.9.0.post267-py3-none-any.whl
+[2024-04-02 09:56:24] INFO root fetch - processPackages [tanx-connector]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [tanx-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tanx-connector-2.0.1.tar.gz tmp/tanx-connector-2.0.2.tar.gz --markdown 20240402/t/tanx-connector/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.6.0.tar.gz tmp/prediction_market_agent_tooling-0.7.0.tar.gz --markdown 20240402/p/prediction-market-agent-tooling/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [anaplan-api]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [anaplan-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anaplan-api-0.2.8.tar.gz tmp/anaplan-api-0.2.9.tar.gz --markdown 20240402/a/anaplan-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb]: executing diffoscope
+[2024-04-02 09:56:24] INFO root fetch - processPackages [nucliadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 09:56:25] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.3-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.4-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [testingcgsdk]: Start processing: notdiamond-openai
+[2024-04-02 09:56:25] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 09:56:25] INFO root fetch - processPackages [notdiamond-openai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_sdk-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-sdk]: Start processing: nucliadb-telemetry
+[2024-04-02 09:56:25] INFO root fetch - main [MainThread]: End processing [nucliadb-sdk]: success
+[2024-04-02 09:56:25] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.3.tar.gz]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.4.tar.gz]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [rockai-cli-app]: Start processing: nucliadb-utils
+[2024-04-02 09:56:25] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-models]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_models-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-models]: Start processing: picaso
+[2024-04-02 09:56:25] INFO root fetch - main [MainThread]: End processing [nucliadb-models]: success
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-telemetry]: New version: [2.46.1.post378] Old Version: [2.46.0.post376]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [notdiamond-openai]: Downloading https://files.pythonhosted.org/packages/0a/11/ccde40fdd4d14feb9cf412ad1e97cf9f3a3d882b151bc9d6a538db3c97fc/notdiamond_openai-0.1.2.tar.gz
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-dataset]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_dataset-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 09:56:25] INFO root fetch - processPackages [nucliadb-utils]: New version: [2.9.0.post267] Old Version: [2.9.0.post266]
+[2024-04-02 09:56:25] INFO root fetch - main [MainThread]: End processing [nucliadb-dataset]: success
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-protos]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_protos-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 09:56:26] INFO root fetch - main [MainThread]: End processing [nucliadb-protos]: success
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/e6/75/a28fdab57512e07e0f065739cc9c877ce72aa88a0bc6a4d4441cb380ad4e/nucliadb_telemetry-2.46.0.post376-py3-none-any.whl
+[2024-04-02 09:56:26] INFO root fetch - processPackages [picaso]: New version: [3.2] Old Version: [3.1.2]
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/9c/a6/d6dd21ed1948bdcc0b560698e72d117f3fdad522e2ac0894dd980e184631/nucliadb_utils-2.9.0.post266-py3-none-any.whl
+[2024-04-02 09:56:26] INFO root fetch - processPackages [tanx-connector]: Remove: archive file [/home/abi/fetcher/tmp/tanx-connector-2.0.1.tar.gz]
+[2024-04-02 09:56:26] INFO root fetch - processPackages [tanx-connector]: Remove: archive file [/home/abi/fetcher/tmp/tanx-connector-2.0.2.tar.gz]
+[2024-04-02 09:56:26] INFO root fetch - main [MainThread]: End processing [tanx-connector]: success
+[2024-04-02 09:56:26] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.8.tar.gz]
+[2024-04-02 09:56:26] INFO root fetch - processPackages [anaplan-api]: Remove: archive file [/home/abi/fetcher/tmp/anaplan-api-0.2.9.tar.gz]
+[2024-04-02 09:56:26] INFO root fetch - main [MainThread]: End processing [anaplan-api]: success
+[2024-04-02 09:56:26] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.6.0.tar.gz]
+[2024-04-02 09:56:26] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.7.0.tar.gz]
+[2024-04-02 09:56:26] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-02 09:56:26] INFO root fetch - processPackages [picaso]: Downloading https://files.pythonhosted.org/packages/ee/c8/bef3a9b341e344ad9cb4249f3396a01bfe3458adca48fc957b46354248f2/picaso-3.1.2.tar.gz
+[2024-04-02 09:56:26] INFO root fetch - processPackages [notdiamond-openai]: Downloading https://files.pythonhosted.org/packages/47/15/2b085ed30c86c738b86b4be9c7329d7d91b86b9ec976ebeb9e8dd7283606/notdiamond_openai-0.1.3.tar.gz
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-utils]: Downloading https://files.pythonhosted.org/packages/a2/ce/8ce8a66a2ef214d8ae9f81cb70eb5d8d5396c8bd94794cf92d145fdccd31/nucliadb_utils-2.9.0.post267-py3-none-any.whl
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-telemetry]: Downloading https://files.pythonhosted.org/packages/40/4e/520af2a948dacfbceeca0326b7e8570212c758be9f8ef2bbe8aee819d142/nucliadb_telemetry-2.46.1.post378-py3-none-any.whl
+[2024-04-02 09:56:26] INFO root fetch - processPackages [notdiamond-openai]: executing diffoscope
+[2024-04-02 09:56:26] INFO root fetch - processPackages [notdiamond-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond_openai-0.1.2.tar.gz tmp/notdiamond_openai-0.1.3.tar.gz --markdown 20240402/n/notdiamond-openai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-utils]: executing diffoscope
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-utils/2.9.0.post266-2.9.0.post267/diff.md --exclude *.pyd
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-telemetry]: executing diffoscope
+[2024-04-02 09:56:26] INFO root fetch - processPackages [nucliadb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_telemetry-2.46.0.post376-py3-none-any.whl.zip tmp/nucliadb_telemetry-2.46.1.post378-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-telemetry/2.46.0.post376-2.46.1.post378/diff.md --exclude *.pyd
+[2024-04-02 09:56:26] INFO root fetch - processPackages [picaso]: Downloading https://files.pythonhosted.org/packages/84/fb/c5cf01e5b7f4dbea161b91101e6578fda0b99a52660ac56630b07b658413/picaso-3.2.tar.gz
+[2024-04-02 09:56:26] INFO root fetch - processPackages [picaso]: executing diffoscope
+[2024-04-02 09:56:26] INFO root fetch - processPackages [picaso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/picaso-3.1.2.tar.gz tmp/picaso-3.2.tar.gz --markdown 20240402/p/picaso/3.1.2-3.2/diff.md --exclude *.pyd
+[2024-04-02 09:56:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 09:56:27] INFO root fetch - processPackages [nucliadb]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 09:56:27] INFO root fetch - main [MainThread]: End processing [nucliadb]: success
+[2024-04-02 09:56:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post266-py3-none-any.whl.zip]
+[2024-04-02 09:56:27] INFO root fetch - processPackages [nucliadb-utils]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_utils-2.9.0.post267-py3-none-any.whl.zip]
+[2024-04-02 09:56:27] INFO root fetch - main [MainThread]: End processing [nucliadb-utils]: success
+[2024-04-02 09:56:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.0.post376-py3-none-any.whl.zip]
+[2024-04-02 09:56:27] INFO root fetch - processPackages [nucliadb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_telemetry-2.46.1.post378-py3-none-any.whl.zip]
+[2024-04-02 09:56:27] INFO root fetch - main [MainThread]: End processing [nucliadb-telemetry]: success
+[2024-04-02 09:56:27] INFO root fetch - processPackages [notdiamond-openai]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond_openai-0.1.2.tar.gz]
+[2024-04-02 09:56:27] INFO root fetch - processPackages [notdiamond-openai]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond_openai-0.1.3.tar.gz]
+[2024-04-02 09:56:27] INFO root fetch - main [MainThread]: End processing [notdiamond-openai]: success
+[2024-04-02 09:56:27] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.1.2.tar.gz]
+[2024-04-02 09:56:27] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.2.tar.gz]
+[2024-04-02 09:56:27] INFO root fetch - main [MainThread]: End processing [picaso]: success
+[2024-04-02 09:56:27] INFO root fetch - main [MainThread]: Store serial: [22581826]
