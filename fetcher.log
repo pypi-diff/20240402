@@ -13023,3 +13023,47 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:34:20] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1rc1.tar.gz]
 [2024-04-02 09:34:20] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
 [2024-04-02 09:34:20] INFO root fetch - main [MainThread]: Store serial: [22581658]
+[2024-04-02 09:36:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581658]
+[2024-04-02 09:36:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 09:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wiliot-deployment-tools
+[2024-04-02 09:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testingcgsdk
+[2024-04-02 09:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m3-objectpack
+[2024-04-02 09:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dapla-statbank-client
+[2024-04-02 09:36:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d-fake-seeder
+[2024-04-02 09:36:30] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 09:36:30] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-02 09:36:30] INFO root fetch - processPackages [m3-objectpack]: New version: [3.0.1.4] Old Version: [3.0.1.3]
+[2024-04-02 09:36:30] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 09:36:30] INFO root fetch - processPackages [dapla-statbank-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-02 09:36:30] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/f8/43/7361f89dc6eda4030eaa950fb500162697c75b0826d57c5834f2562992da/wiliot-deployment-tools-4.1.8.tar.gz
+[2024-04-02 09:36:30] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 09:36:30] WARNING root fetch - processPackages [wiliot-deployment-tools]: Skipping package: exceeds size limit 19415206>=10485760
+[2024-04-02 09:36:30] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools] error
+[2024-04-02 09:36:31] INFO root fetch - processPackages [m3-objectpack]: Downloading https://files.pythonhosted.org/packages/f0/cb/48af56aabc0d693c721e65ffab7f8f5e1cc481681185704607ee09973ab3/m3-objectpack-3.0.1.3.tar.gz
+[2024-04-02 09:36:31] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/b3/f8/57bc0281a13cdbd429701ad4c65afa3f53820bea7feb655c1b5870da674e/dapla_statbank_client-1.1.1.tar.gz
+[2024-04-02 09:36:31] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/59/0a/d3f83d8040d69213031270fb583dd903b8765a48c7eb9218333bf0ef5efb/testingcgsdk-0.0.3-py3-none-any.whl
+[2024-04-02 09:36:31] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 09:36:31] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 09:36:31] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:36:31] INFO root fetch - processPackages [m3-objectpack]: Downloading https://files.pythonhosted.org/packages/45/93/9c3931c9c5ab33017b0d6d2056f9563aaaa91d1e0d9042b8f1c8b4a609aa/m3-objectpack-3.0.1.4.tar.gz
+[2024-04-02 09:36:31] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/55/7f/2d0c7d2b31619856256c25e01468a3341aab954845653bccf4e7f0122e1b/testingcgsdk-0.0.4-py3-none-any.whl
+[2024-04-02 09:36:31] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/82/e3/83a55b3043056f7e9a5a464151d1ee94d6852bd4a49b8f9c1e1cf190d0b1/dapla_statbank_client-1.1.2.tar.gz
+[2024-04-02 09:36:31] INFO root fetch - processPackages [m3-objectpack]: executing diffoscope
+[2024-04-02 09:36:31] INFO root fetch - processPackages [m3-objectpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-objectpack-3.0.1.3.tar.gz tmp/m3-objectpack-3.0.1.4.tar.gz --markdown 20240402/m/m3-objectpack/3.0.1.3-3.0.1.4/diff.md --exclude *.pyd
+[2024-04-02 09:36:31] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 09:36:31] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.3-py3-none-any.whl.zip tmp/testingcgsdk-0.0.4-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 09:36:31] INFO root fetch - processPackages [dapla-statbank-client]: executing diffoscope
+[2024-04-02 09:36:31] INFO root fetch - processPackages [dapla-statbank-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_statbank_client-1.1.1.tar.gz tmp/dapla_statbank_client-1.1.2.tar.gz --markdown 20240402/d/dapla-statbank-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-02 09:36:32] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 09:36:32] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 09:36:32] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 09:36:32] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.3-py3-none-any.whl.zip]
+[2024-04-02 09:36:32] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.4-py3-none-any.whl.zip]
+[2024-04-02 09:36:32] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 09:36:32] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.1.1.tar.gz]
+[2024-04-02 09:36:32] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.1.2.tar.gz]
+[2024-04-02 09:36:32] INFO root fetch - main [MainThread]: End processing [dapla-statbank-client]: success
+[2024-04-02 09:36:32] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.3.tar.gz]
+[2024-04-02 09:36:32] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.4.tar.gz]
+[2024-04-02 09:36:32] INFO root fetch - main [MainThread]: End processing [m3-objectpack]: success
+[2024-04-02 09:36:32] INFO root fetch - main [MainThread]: Store serial: [22581672]
