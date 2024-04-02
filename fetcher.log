@@ -21002,3 +21002,57 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:43:16] INFO root fetch - processPackages [domain-admin]: Remove: archive file [/home/abi/fetcher/tmp/domain-admin-1.6.9.tar.gz]
 [2024-04-02 14:43:16] INFO root fetch - main [MainThread]: End processing [domain-admin]: success
 [2024-04-02 14:43:16] INFO root fetch - main [MainThread]: Store serial: [22584905]
+[2024-04-02 14:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584905]
+[2024-04-02 14:45:27] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pingan-gpt-client
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leafmap
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pretix-mtn-momo
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assoc-obj
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Java2Jar
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: geopic-tag-reader
+[2024-04-02 14:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quat3d
+[2024-04-02 14:45:27] INFO root fetch - processPackages [quat3d]: New version: [0.3.2] Old Version: [0.3.1]
+[2024-04-02 14:45:27] INFO root fetch - processPackages [Java2Jar]: New version: [1.5] Old Version: [1.4]
+[2024-04-02 14:45:27] INFO root fetch - processPackages [pingan-gpt-client]: New version: [0.3.4] Old Version: [0.3.3]
+[2024-04-02 14:45:27] INFO root fetch - processPackages [quat3d]: Downloading https://files.pythonhosted.org/packages/d8/c2/64b0c75540b423e0b5b3457d00a1ed6c157a91fb4a6fbbde1ec235b1485a/quat3d-0.3.1.tar.gz
+[2024-04-02 14:45:27] INFO root fetch - processPackages [Java2Jar]: Downloading https://files.pythonhosted.org/packages/c5/c3/a16be55f89cada33f9c49d36a12f13e728a585dfa55984870a04fa4db156/Java2Jar-1.4-py3-none-any.whl
+[2024-04-02 14:45:27] WARNING root fetch - processPackages [pretix-mtn-momo]: Skipping, unable to determine old version
+[2024-04-02 14:45:27] INFO root fetch - main [MainThread]: End processing [pretix-mtn-momo] error
+[2024-04-02 14:45:27] WARNING root fetch - processPackages [assoc-obj]: Skipping, unable to determine old version
+[2024-04-02 14:45:27] INFO root fetch - main [MainThread]: End processing [assoc-obj] error
+[2024-04-02 14:45:27] INFO root fetch - processPackages [pingan-gpt-client]: Downloading https://files.pythonhosted.org/packages/79/0d/8ab158a8d1a33f9fafe0ef384b06c3d39c71af5db674c014bf352446142f/pingan_gpt_client-0.3.3.tar.gz
+[2024-04-02 14:45:27] INFO root fetch - processPackages [geopic-tag-reader]: New version: [1.0.6] Old Version: [1.0.5]
+[2024-04-02 14:45:27] INFO root fetch - processPackages [leafmap]: New version: [0.9.6] Old Version: [0.9.5]
+[2024-04-02 14:45:27] INFO root fetch - processPackages [leafmap]: Downloading https://files.pythonhosted.org/packages/c7/06/719b97b642d663f4528bd69b8bd0c22e66eb9d8cab0e459bbabc20094b8d/leafmap-0.9.5.tar.gz
+[2024-04-02 14:45:27] INFO root fetch - processPackages [pingan-gpt-client]: Downloading https://files.pythonhosted.org/packages/17/86/332b380a2583afee6027cc690ae796024fe210abe3f19a546ed4bb271e2a/pingan_gpt_client-0.3.4.tar.gz
+[2024-04-02 14:45:27] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/8b/16/dfe4127bcff34d121dc428bdf266986008d8a352e18713083916d46d3af3/geopic_tag_reader-1.0.5.tar.gz
+[2024-04-02 14:45:27] INFO root fetch - processPackages [Java2Jar]: Downloading https://files.pythonhosted.org/packages/d8/35/f037c9458ca675f1dc47fcb3c5320e9c4527a2fd805d44209216c7723c53/Java2Jar-1.5-py3-none-any.whl
+[2024-04-02 14:45:27] INFO root fetch - processPackages [quat3d]: Downloading https://files.pythonhosted.org/packages/be/e8/287dc9044965229b3d7d765c4f92b595d52916b374e197199fd2a472504a/quat3d-0.3.2.tar.gz
+[2024-04-02 14:45:27] INFO root fetch - processPackages [pingan-gpt-client]: executing diffoscope
+[2024-04-02 14:45:27] INFO root fetch - processPackages [pingan-gpt-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pingan_gpt_client-0.3.3.tar.gz tmp/pingan_gpt_client-0.3.4.tar.gz --markdown 20240402/p/pingan-gpt-client/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2024-04-02 14:45:27] INFO root fetch - processPackages [Java2Jar]: executing diffoscope
+[2024-04-02 14:45:27] INFO root fetch - processPackages [Java2Jar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Java2Jar-1.4-py3-none-any.whl.zip tmp/Java2Jar-1.5-py3-none-any.whl.zip --markdown 20240402/J/Java2Jar/1.4-1.5/diff.md --exclude *.pyd
+[2024-04-02 14:45:27] INFO root fetch - processPackages [quat3d]: executing diffoscope
+[2024-04-02 14:45:27] INFO root fetch - processPackages [quat3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quat3d-0.3.1.tar.gz tmp/quat3d-0.3.2.tar.gz --markdown 20240402/q/quat3d/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2024-04-02 14:45:28] INFO root fetch - processPackages [leafmap]: Downloading https://files.pythonhosted.org/packages/74/59/375f8e1ca2eb029e521f2e04761219f715186963c29a089229743730a6cd/leafmap-0.9.6.tar.gz
+[2024-04-02 14:45:28] INFO root fetch - processPackages [geopic-tag-reader]: Downloading https://files.pythonhosted.org/packages/c9/fe/a2036fe2df0c3b6a206071276ea05d7bc46fd58d02db492b431b81e1cb71/geopic_tag_reader-1.0.6.tar.gz
+[2024-04-02 14:45:28] INFO root fetch - processPackages [leafmap]: executing diffoscope
+[2024-04-02 14:45:28] INFO root fetch - processPackages [leafmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leafmap-0.9.5.tar.gz tmp/leafmap-0.9.6.tar.gz --markdown 20240402/l/leafmap/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2024-04-02 14:45:28] INFO root fetch - processPackages [pingan-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/pingan_gpt_client-0.3.3.tar.gz]
+[2024-04-02 14:45:28] INFO root fetch - processPackages [pingan-gpt-client]: Remove: archive file [/home/abi/fetcher/tmp/pingan_gpt_client-0.3.4.tar.gz]
+[2024-04-02 14:45:28] INFO root fetch - main [MainThread]: End processing [pingan-gpt-client]: success
+[2024-04-02 14:45:28] INFO root fetch - processPackages [geopic-tag-reader]: executing diffoscope
+[2024-04-02 14:45:28] INFO root fetch - processPackages [geopic-tag-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopic_tag_reader-1.0.5.tar.gz tmp/geopic_tag_reader-1.0.6.tar.gz --markdown 20240402/g/geopic-tag-reader/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2024-04-02 14:45:28] INFO root fetch - processPackages [Java2Jar]: Remove: archive file [/home/abi/fetcher/tmp/Java2Jar-1.4-py3-none-any.whl.zip]
+[2024-04-02 14:45:28] INFO root fetch - processPackages [Java2Jar]: Remove: archive file [/home/abi/fetcher/tmp/Java2Jar-1.5-py3-none-any.whl.zip]
+[2024-04-02 14:45:28] INFO root fetch - main [MainThread]: End processing [Java2Jar]: success
+[2024-04-02 14:45:28] INFO root fetch - processPackages [quat3d]: Remove: archive file [/home/abi/fetcher/tmp/quat3d-0.3.1.tar.gz]
+[2024-04-02 14:45:28] INFO root fetch - processPackages [quat3d]: Remove: archive file [/home/abi/fetcher/tmp/quat3d-0.3.2.tar.gz]
+[2024-04-02 14:45:28] INFO root fetch - main [MainThread]: End processing [quat3d]: success
+[2024-04-02 14:45:29] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.5.tar.gz]
+[2024-04-02 14:45:29] INFO root fetch - processPackages [leafmap]: Remove: archive file [/home/abi/fetcher/tmp/leafmap-0.9.6.tar.gz]
+[2024-04-02 14:45:29] INFO root fetch - main [MainThread]: End processing [leafmap]: success
+[2024-04-02 14:45:29] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.0.5.tar.gz]
+[2024-04-02 14:45:29] INFO root fetch - processPackages [geopic-tag-reader]: Remove: archive file [/home/abi/fetcher/tmp/geopic_tag_reader-1.0.6.tar.gz]
+[2024-04-02 14:45:29] INFO root fetch - main [MainThread]: End processing [geopic-tag-reader]: success
+[2024-04-02 14:45:29] INFO root fetch - main [MainThread]: Store serial: [22584939]
