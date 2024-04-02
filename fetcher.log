@@ -22734,3 +22734,76 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:39:39] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1452-py3-none-any.whl.zip]
 [2024-04-02 15:39:39] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-02 15:39:39] INFO root fetch - main [MainThread]: Store serial: [22585664]
+[2024-04-02 15:41:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585664]
+[2024-04-02 15:41:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openmeter
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jax-scipy-spatial
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hymir
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyEmailTemplate
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: roc-dingo
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mass-mailing-custom-unsubscribe
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: exp-heatmap
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: globallock
+[2024-04-02 15:41:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: model-compression-toolkit
+[2024-04-02 15:41:49] INFO root fetch - processPackages [EasyEmailTemplate]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 15:41:49] INFO root fetch - processPackages [jax-scipy-spatial]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 15:41:49] WARNING root fetch - processPackages [exp-heatmap]: Skipping, unable to determine old version
+[2024-04-02 15:41:49] INFO root fetch - main [MainThread]: End processing [exp-heatmap] error
+[2024-04-02 15:41:49] INFO root fetch - processPackages [model-compression-toolkit]: New version: [2.0.0] Old Version: [1.9.1]
+[2024-04-02 15:41:49] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.3]
+[2024-04-02 15:41:49] INFO root fetch - processPackages [hymir]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 15:41:49] INFO root fetch - processPackages [openmeter]: New version: [1.0.0b60] Old Version: [1.0.0b59]
+[2024-04-02 15:41:49] INFO root fetch - processPackages [globallock]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 15:41:49] INFO root fetch - processPackages [roc-dingo]: New version: [1.4.1] Old Version: [1.4.0]
+[2024-04-02 15:41:49] ERROR root fetch - processPackages [EasyEmailTemplate]: Unable to fetch info: No such project/version 'EasyEmailTemplate' 0.0.1
+[2024-04-02 15:41:49] INFO root fetch - main [MainThread]: End processing [EasyEmailTemplate] error
+[2024-04-02 15:41:50] INFO root fetch - processPackages [jax-scipy-spatial]: Downloading https://files.pythonhosted.org/packages/cb/2d/eea41fba99e9220ce744b172ee758174446263abe9228965c00fb568d9d1/jax-scipy-spatial-0.2.1.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [roc-dingo]: Downloading https://files.pythonhosted.org/packages/f9/0f/7ca83b05badabbc90cb69c576effaa2d8cfd2596271e322a17b511a287d7/roc_dingo-1.4.0.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/33/52/ebb5525905cdd0a9b22a753cf23d55c83bbe7bf33c74f1fad6eaff970c85/openmeter-1.0.0b59.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [globallock]: Downloading https://files.pythonhosted.org/packages/3a/0a/afb95e21c798bb162d497b3039134754d35eccfffc232f0a4e08aa41487b/globallock-0.1.2.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/97/21/0a22bbff85b9ac93d46a4abb0515795ddbddf4b6637afaa59b51bc79b8e0/odoo_addon_mass_mailing_custom_unsubscribe-16.0.1.0.0.3-py3-none-any.whl
+[2024-04-02 15:41:50] INFO root fetch - processPackages [model-compression-toolkit]: Downloading https://files.pythonhosted.org/packages/45/bf/b7cddf437e025516df4ad2af414cdf6af7b2e0c3fcd0accef2f96da19fd7/model_compression_toolkit-1.9.1.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [hymir]: Downloading https://files.pythonhosted.org/packages/84/e9/5477e30b9cfa3a84a09fdecf6b2de4c86f1153e529d3993c7863ee435b07/hymir-0.1.4.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [jax-scipy-spatial]: Downloading https://files.pythonhosted.org/packages/4a/10/8cd9900b872eee4db8e40ef130403b9a96306cc28cb1e846c1a80039387b/jax-scipy-spatial-0.2.2.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [openmeter]: Downloading https://files.pythonhosted.org/packages/a0/b7/f050a5e507d96c22e5849b7e5176592df92d11322bfba03620194fab9664/openmeter-1.0.0b60.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [roc-dingo]: Downloading https://files.pythonhosted.org/packages/82/22/0ef6e0ca5d8c00a99ca6dc5586a66b516fee4e4dff7d7e65aabca4fbd382/roc_dingo-1.4.1.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [globallock]: Downloading https://files.pythonhosted.org/packages/04/50/e396e92a9331d9958015bd4e12f283188be01daa9a8869cb2dc57cf867e8/globallock-0.1.3.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [jax-scipy-spatial]: executing diffoscope
+[2024-04-02 15:41:50] INFO root fetch - processPackages [jax-scipy-spatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jax-scipy-spatial-0.2.1.tar.gz tmp/jax-scipy-spatial-0.2.2.tar.gz --markdown 20240402/j/jax-scipy-spatial/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 15:41:50] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Downloading https://files.pythonhosted.org/packages/e3/64/458cb66c24c672c0668f974f231d116bf9cf57354d8b4d30e283c053a1fd/odoo_addon_mass_mailing_custom_unsubscribe-16.0.1.0.1-py3-none-any.whl
+[2024-04-02 15:41:50] INFO root fetch - processPackages [hymir]: Downloading https://files.pythonhosted.org/packages/95/83/3d6ca4e9ed6e27c5fefbab59374a4f74cd1ee7c54369cc3120a12579c440/hymir-0.1.5.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [openmeter]: executing diffoscope
+[2024-04-02 15:41:50] INFO root fetch - processPackages [openmeter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmeter-1.0.0b59.tar.gz tmp/openmeter-1.0.0b60.tar.gz --markdown 20240402/o/openmeter/1.0.0b59-1.0.0b60/diff.md --exclude *.pyd
+[2024-04-02 15:41:50] INFO root fetch - processPackages [model-compression-toolkit]: Downloading https://files.pythonhosted.org/packages/02/0a/4f2ac77f7aafe1c1657da24275eccfcf01b0ff22e35657ee965b723f82fc/model_compression_toolkit-2.0.0.tar.gz
+[2024-04-02 15:41:50] INFO root fetch - processPackages [hymir]: executing diffoscope
+[2024-04-02 15:41:50] INFO root fetch - processPackages [hymir]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hymir-0.1.4.tar.gz tmp/hymir-0.1.5.tar.gz --markdown 20240402/h/hymir/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 15:41:50] INFO root fetch - processPackages [roc-dingo]: executing diffoscope
+[2024-04-02 15:41:50] INFO root fetch - processPackages [roc-dingo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/roc_dingo-1.4.0.tar.gz tmp/roc_dingo-1.4.1.tar.gz --markdown 20240402/r/roc-dingo/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2024-04-02 15:41:50] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: executing diffoscope
+[2024-04-02 15:41:50] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mass_mailing_custom_unsubscribe-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_mass_mailing_custom_unsubscribe-16.0.1.0.1-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-mass-mailing-custom-unsubscribe/16.0.1.0.0.3-16.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-02 15:41:50] INFO root fetch - processPackages [globallock]: executing diffoscope
+[2024-04-02 15:41:50] INFO root fetch - processPackages [globallock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/globallock-0.1.2.tar.gz tmp/globallock-0.1.3.tar.gz --markdown 20240402/g/globallock/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 15:41:51] INFO root fetch - processPackages [jax-scipy-spatial]: Remove: archive file [/home/abi/fetcher/tmp/jax-scipy-spatial-0.2.1.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - processPackages [jax-scipy-spatial]: Remove: archive file [/home/abi/fetcher/tmp/jax-scipy-spatial-0.2.2.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - main [MainThread]: End processing [jax-scipy-spatial]: success
+[2024-04-02 15:41:51] INFO root fetch - processPackages [hymir]: Remove: archive file [/home/abi/fetcher/tmp/hymir-0.1.4.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - processPackages [hymir]: Remove: archive file [/home/abi/fetcher/tmp/hymir-0.1.5.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - main [MainThread]: End processing [hymir]: success
+[2024-04-02 15:41:51] INFO root fetch - processPackages [globallock]: Remove: archive file [/home/abi/fetcher/tmp/globallock-0.1.2.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - processPackages [globallock]: Remove: archive file [/home/abi/fetcher/tmp/globallock-0.1.3.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - main [MainThread]: End processing [globallock]: success
+[2024-04-02 15:41:51] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b59.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - processPackages [openmeter]: Remove: archive file [/home/abi/fetcher/tmp/openmeter-1.0.0b60.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - main [MainThread]: End processing [openmeter]: success
+[2024-04-02 15:41:51] INFO root fetch - processPackages [model-compression-toolkit]: executing diffoscope
+[2024-04-02 15:41:51] INFO root fetch - processPackages [model-compression-toolkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_compression_toolkit-1.9.1.tar.gz tmp/model_compression_toolkit-2.0.0.tar.gz --markdown 20240402/m/model-compression-toolkit/1.9.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 15:41:51] INFO root fetch - processPackages [roc-dingo]: Remove: archive file [/home/abi/fetcher/tmp/roc_dingo-1.4.0.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - processPackages [roc-dingo]: Remove: archive file [/home/abi/fetcher/tmp/roc_dingo-1.4.1.tar.gz]
+[2024-04-02 15:41:51] INFO root fetch - main [MainThread]: End processing [roc-dingo]: success
+[2024-04-02 15:41:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_mailing_custom_unsubscribe-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-02 15:41:51] INFO root fetch - processPackages [odoo-addon-mass-mailing-custom-unsubscribe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mass_mailing_custom_unsubscribe-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-02 15:41:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mass-mailing-custom-unsubscribe]: success
+[2024-04-02 15:41:54] INFO root fetch - processPackages [model-compression-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/model_compression_toolkit-1.9.1.tar.gz]
+[2024-04-02 15:41:54] INFO root fetch - processPackages [model-compression-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/model_compression_toolkit-2.0.0.tar.gz]
+[2024-04-02 15:41:54] INFO root fetch - main [MainThread]: End processing [model-compression-toolkit]: success
+[2024-04-02 15:41:54] INFO root fetch - main [MainThread]: Store serial: [22585699]
