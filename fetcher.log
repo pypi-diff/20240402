@@ -16351,3 +16351,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:46:47] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.6.tar.gz]
 [2024-04-02 11:46:47] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
 [2024-04-02 11:46:47] INFO root fetch - main [MainThread]: Store serial: [22583031]
+[2024-04-02 11:48:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583031]
+[2024-04-02 11:48:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 11:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: metal-python
+[2024-04-02 11:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:48:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccpn-project-checker
+[2024-04-02 11:48:56] INFO root fetch - processPackages [lightning-whisper-mlx]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-02 11:48:56] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 11:48:56] INFO root fetch - processPackages [metal-python]: New version: [0.9.5] Old Version: [0.9.4]
+[2024-04-02 11:48:56] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/e0/50/723a6f9217deb98f04bc07bc399b1d44ecb504e5234d421e10c46145c9db/lightning-whisper-mlx-0.0.6.tar.gz
+[2024-04-02 11:48:56] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/d9/a4/20729f48adf4248b63e456ea4696e3ed69e0067efd8f11837fae027e0505/ccpn_project_checker-0.1.5.tar.gz
+[2024-04-02 11:48:56] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/da/87/ea7df78e12e58839edf84e22e55f4828fa269abd4eda5b854ca1a3f2ae3c/metal_python-0.9.4.tar.gz
+[2024-04-02 11:48:56] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/36/a5/ec7001a28277460760097d09eaae7974612e329bb953418ef29222e531ce/lightning-whisper-mlx-0.0.7.tar.gz
+[2024-04-02 11:48:56] INFO root fetch - processPackages [lightning-whisper-mlx]: executing diffoscope
+[2024-04-02 11:48:56] INFO root fetch - processPackages [lightning-whisper-mlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-whisper-mlx-0.0.6.tar.gz tmp/lightning-whisper-mlx-0.0.7.tar.gz --markdown 20240402/l/lightning-whisper-mlx/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-02 11:48:56] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/2f/a2/081368e8856648ebe86fd1231d18559b817a39eac43c5aed3e2a4926d167/ccpn_project_checker-0.1.6.tar.gz
+[2024-04-02 11:48:56] INFO root fetch - processPackages [metal-python]: Downloading https://files.pythonhosted.org/packages/d5/0e/f54a789448e772fa8f88c2a2f7da9e92cfc6a441cc42a238b2013db9901e/metal_python-0.9.5.tar.gz
+[2024-04-02 11:48:56] INFO root fetch - processPackages [metal-python]: executing diffoscope
+[2024-04-02 11:48:56] INFO root fetch - processPackages [metal-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metal_python-0.9.4.tar.gz tmp/metal_python-0.9.5.tar.gz --markdown 20240402/m/metal-python/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2024-04-02 11:48:56] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 11:48:56] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.5.tar.gz tmp/ccpn_project_checker-0.1.6.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 11:48:57] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.6.tar.gz]
+[2024-04-02 11:48:57] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.7.tar.gz]
+[2024-04-02 11:48:57] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
+[2024-04-02 11:48:59] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.4.tar.gz]
+[2024-04-02 11:48:59] INFO root fetch - processPackages [metal-python]: Remove: archive file [/home/abi/fetcher/tmp/metal_python-0.9.5.tar.gz]
+[2024-04-02 11:48:59] INFO root fetch - main [MainThread]: End processing [metal-python]: success
+[2024-04-02 11:49:07] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.5.tar.gz]
+[2024-04-02 11:49:07] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.6.tar.gz]
+[2024-04-02 11:49:07] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 11:49:07] INFO root fetch - main [MainThread]: Store serial: [22583039]
