@@ -10344,3 +10344,18 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:26:46] INFO root fetch - processPackages [py-ballisticcalc.exts]: Remove: archive file [/home/abi/fetcher/tmp/py_ballisticcalc.exts-2.0.0b2.tar.gz]
 [2024-04-02 06:26:46] INFO root fetch - main [MainThread]: End processing [py-ballisticcalc.exts]: success
 [2024-04-02 06:26:46] INFO root fetch - main [MainThread]: Store serial: [22580594]
+[2024-04-02 06:28:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580594]
+[2024-04-02 06:28:55] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 06:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eyelinkio
+[2024-04-02 06:28:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: makdo
+[2024-04-02 06:28:55] INFO root fetch - processPackages [makdo]: New version: [7.2] Old Version: [7.1]
+[2024-04-02 06:28:55] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/98/72/2ce25b7d489a90c108d8b2ddc4f96b19ae792d2b93dec444f89c187ebb5f/makdo-7.1.tar.gz
+[2024-04-02 06:28:55] WARNING root fetch - processPackages [eyelinkio]: Skipping, unable to determine old version
+[2024-04-02 06:28:55] INFO root fetch - main [MainThread]: End processing [eyelinkio] error
+[2024-04-02 06:28:55] INFO root fetch - processPackages [makdo]: Downloading https://files.pythonhosted.org/packages/ee/02/feee47c80627ecdee740db26a1c742f4755e6dbd2482f234ee0a5c5e1fd4/makdo-7.2.tar.gz
+[2024-04-02 06:28:55] INFO root fetch - processPackages [makdo]: executing diffoscope
+[2024-04-02 06:28:55] INFO root fetch - processPackages [makdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/makdo-7.1.tar.gz tmp/makdo-7.2.tar.gz --markdown 20240402/m/makdo/7.1-7.2/diff.md --exclude *.pyd
+[2024-04-02 06:28:56] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.1.tar.gz]
+[2024-04-02 06:28:56] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.2.tar.gz]
+[2024-04-02 06:28:56] INFO root fetch - main [MainThread]: End processing [makdo]: success
+[2024-04-02 06:28:56] INFO root fetch - main [MainThread]: Store serial: [22580606]
