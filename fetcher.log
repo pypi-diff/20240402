@@ -11933,3 +11933,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:28:58] INFO root fetch - processPackages [rayoptics]: Remove: archive file [/home/abi/fetcher/tmp/rayoptics-0.8.6-py3-none-any.whl.zip]
 [2024-04-02 08:28:58] INFO root fetch - main [MainThread]: End processing [rayoptics]: success
 [2024-04-02 08:28:58] INFO root fetch - main [MainThread]: Store serial: [22581239]
+[2024-04-02 08:31:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581239]
+[2024-04-02 08:31:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-clickhouse
+[2024-04-02 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gio-importer
+[2024-04-02 08:31:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyallffs
+[2024-04-02 08:31:07] INFO root fetch - processPackages [gio-importer]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 08:31:07] INFO root fetch - processPackages [dbt-clickhouse]: New version: [1.7.5] Old Version: [1.7.4]
+[2024-04-02 08:31:07] WARNING root fetch - processPackages [pyallffs]: Skipping, unable to determine old version
+[2024-04-02 08:31:07] INFO root fetch - main [MainThread]: End processing [pyallffs] error
+[2024-04-02 08:31:07] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/97/be/7325eda536adacdc92990a846ca419538ee9dd300e65c8a9c6b43b673378/gio_importer-1.0.8.tar.gz
+[2024-04-02 08:31:07] INFO root fetch - processPackages [dbt-clickhouse]: Downloading https://files.pythonhosted.org/packages/ed/ee/93debd1c11955b217a2586a6c484a2c6aeac7e0f6fbe0553454958ac93f6/dbt-clickhouse-1.7.4.tar.gz
+[2024-04-02 08:31:08] INFO root fetch - processPackages [gio-importer]: Downloading https://files.pythonhosted.org/packages/1d/46/2fed0c103342a4f35ebc1e100c82aabb3a77f2b5878fb513705358a47e5c/gio_importer-1.0.9.tar.gz
+[2024-04-02 08:31:08] INFO root fetch - processPackages [dbt-clickhouse]: Downloading https://files.pythonhosted.org/packages/db/9f/91a449304b944c1ab33bee49129477ce946ce7340ad45c55d71348f82f66/dbt-clickhouse-1.7.5.tar.gz
+[2024-04-02 08:31:08] INFO root fetch - processPackages [gio-importer]: executing diffoscope
+[2024-04-02 08:31:08] INFO root fetch - processPackages [gio-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gio_importer-1.0.8.tar.gz tmp/gio_importer-1.0.9.tar.gz --markdown 20240402/g/gio-importer/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 08:31:08] INFO root fetch - processPackages [dbt-clickhouse]: executing diffoscope
+[2024-04-02 08:31:08] INFO root fetch - processPackages [dbt-clickhouse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickhouse-1.7.4.tar.gz tmp/dbt-clickhouse-1.7.5.tar.gz --markdown 20240402/d/dbt-clickhouse/1.7.4-1.7.5/diff.md --exclude *.pyd
+[2024-04-02 08:31:08] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.0.8.tar.gz]
+[2024-04-02 08:31:08] INFO root fetch - processPackages [gio-importer]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer-1.0.9.tar.gz]
+[2024-04-02 08:31:08] INFO root fetch - main [MainThread]: End processing [gio-importer]: success
+[2024-04-02 08:31:08] INFO root fetch - processPackages [dbt-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickhouse-1.7.4.tar.gz]
+[2024-04-02 08:31:08] INFO root fetch - processPackages [dbt-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickhouse-1.7.5.tar.gz]
+[2024-04-02 08:31:08] INFO root fetch - main [MainThread]: End processing [dbt-clickhouse]: success
+[2024-04-02 08:31:08] INFO root fetch - main [MainThread]: Store serial: [22581252]
