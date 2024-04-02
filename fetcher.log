@@ -15236,3 +15236,41 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:00:18] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.4-py3-none-any.whl.zip]
 [2024-04-02 11:00:18] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
 [2024-04-02 11:00:18] INFO root fetch - main [MainThread]: Store serial: [22582501]
+[2024-04-02 11:02:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582501]
+[2024-04-02 11:02:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 11:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: todomdcli
+[2024-04-02 11:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xcai
+[2024-04-02 11:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: invenio-users-resources
+[2024-04-02 11:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-remote-desktop-proxy
+[2024-04-02 11:02:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxsim
+[2024-04-02 11:02:28] INFO root fetch - processPackages [xcai]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 11:02:28] WARNING root fetch - processPackages [todomdcli]: Skipping, unable to determine old version
+[2024-04-02 11:02:28] INFO root fetch - main [MainThread]: End processing [todomdcli] error
+[2024-04-02 11:02:28] INFO root fetch - processPackages [jupyter-remote-desktop-proxy]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-02 11:02:28] INFO root fetch - processPackages [invenio-users-resources]: New version: [5.1.1] Old Version: [5.1.0]
+[2024-04-02 11:02:28] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-02 11:02:28] INFO root fetch - processPackages [xcai]: Downloading https://files.pythonhosted.org/packages/99/c8/d438a05c183ddee81598310a4008a345de90634f695de93ecc9c9787e847/xcai-0.1.4.tar.gz
+[2024-04-02 11:02:28] INFO root fetch - processPackages [jupyter-remote-desktop-proxy]: Downloading https://files.pythonhosted.org/packages/75/f0/208d4d8d7c3c7ba6c73645177806f2ca572fb7ffac2654098acae6c17904/jupyter-remote-desktop-proxy-1.2.1.tar.gz
+[2024-04-02 11:02:28] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/c4/82/72ce192bfd663b637d24597d02c964553e7d1ffdabd95c28572fdf4861b0/invenio-users-resources-5.1.0.tar.gz
+[2024-04-02 11:02:28] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-02 11:02:30] WARNING root fetch - processPackages [jupyter-remote-desktop-proxy]: Skipping package: exceeds size limit 10637806>=10485760
+[2024-04-02 11:02:30] INFO root fetch - main [MainThread]: End processing [jupyter-remote-desktop-proxy] error
+[2024-04-02 11:02:30] INFO root fetch - processPackages [xcai]: Downloading https://files.pythonhosted.org/packages/24/c7/0c4ca40fe84ad28060289d0d742c4e567fdab68db515923ea384b81aab82/xcai-0.1.5.tar.gz
+[2024-04-02 11:02:30] INFO root fetch - processPackages [invenio-users-resources]: Downloading https://files.pythonhosted.org/packages/e4/6c/36effd089c4fd2569927def82b45aa0666c33bc55b7cdd9a3a0e66dff601/invenio-users-resources-5.1.1.tar.gz
+[2024-04-02 11:02:30] INFO root fetch - processPackages [xcai]: executing diffoscope
+[2024-04-02 11:02:30] INFO root fetch - processPackages [xcai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xcai-0.1.4.tar.gz tmp/xcai-0.1.5.tar.gz --markdown 20240402/x/xcai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 11:02:30] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-02 11:02:30] INFO root fetch - processPackages [invenio-users-resources]: executing diffoscope
+[2024-04-02 11:02:30] INFO root fetch - processPackages [invenio-users-resources]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-users-resources-5.1.0.tar.gz tmp/invenio-users-resources-5.1.1.tar.gz --markdown 20240402/i/invenio-users-resources/5.1.0-5.1.1/diff.md --exclude *.pyd
+[2024-04-02 11:02:30] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-02 11:02:30] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240402/j/jaxsim/0.2.dev87-0.2.dev92/diff.md --exclude *.pyd
+[2024-04-02 11:02:30] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.4.tar.gz]
+[2024-04-02 11:02:30] INFO root fetch - processPackages [xcai]: Remove: archive file [/home/abi/fetcher/tmp/xcai-0.1.5.tar.gz]
+[2024-04-02 11:02:30] INFO root fetch - main [MainThread]: End processing [xcai]: success
+[2024-04-02 11:02:31] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-02 11:02:31] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-02 11:02:31] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-02 11:02:31] INFO root fetch - processPackages [invenio-users-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-users-resources-5.1.0.tar.gz]
+[2024-04-02 11:02:31] INFO root fetch - processPackages [invenio-users-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-users-resources-5.1.1.tar.gz]
+[2024-04-02 11:02:31] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
+[2024-04-02 11:02:31] INFO root fetch - main [MainThread]: Store serial: [22582519]
