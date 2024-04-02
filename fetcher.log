@@ -9377,3 +9377,40 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:11:23] INFO root fetch - processPackages [kwess]: Remove: archive file [/home/abi/fetcher/tmp/kwess-0.0.7.tar.gz]
 [2024-04-02 05:11:23] INFO root fetch - main [MainThread]: End processing [kwess]: success
 [2024-04-02 05:11:23] INFO root fetch - main [MainThread]: Store serial: [22580209]
+[2024-04-02 05:13:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580209]
+[2024-04-02 05:13:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 05:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: drf-sse
+[2024-04-02 05:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dcicsnovault
+[2024-04-02 05:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: drf-sse
+[2024-04-02 05:13:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vxutils
+[2024-04-02 05:13:33] INFO root fetch - processPackages [dcicsnovault]: New version: [9.9.9.0b0] Old Version: [9.1.1]
+[2024-04-02 05:13:33] INFO root fetch - processPackages [drf-sse]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 05:13:33] INFO root fetch - processPackages [drf-sse]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 05:13:33] INFO root fetch - processPackages [vxutils]: New version: [20240401] Old Version: [20240331]
+[2024-04-02 05:13:33] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/d9/56/60bf7990e8d3aa29414af29d0d3ac120091b7e42b64e880cc77388d6e641/dcicsnovault-9.1.1.tar.gz
+[2024-04-02 05:13:33] INFO root fetch - processPackages [drf-sse]: Downloading https://files.pythonhosted.org/packages/51/4e/de498541066253760bf3f3c731b7f5058ee78402733b2503a2d589030d06/drf-sse-1.0.0.tar.gz
+[2024-04-02 05:13:33] INFO root fetch - processPackages [drf-sse]: Downloading https://files.pythonhosted.org/packages/51/4e/de498541066253760bf3f3c731b7f5058ee78402733b2503a2d589030d06/drf-sse-1.0.0.tar.gz
+[2024-04-02 05:13:33] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/77/77/4bd5937bf382ab8f1d6bcbb122a90ff457333de413665bf7c55f087a7454/vxutils-20240331.tar.gz
+[2024-04-02 05:13:33] INFO root fetch - processPackages [dcicsnovault]: Downloading https://files.pythonhosted.org/packages/5b/69/2d661efc29e872887f547a770c16dcae8bd7f059e2d578d1a0eb526564f9/dcicsnovault-9.9.9.0b0.tar.gz
+[2024-04-02 05:13:33] INFO root fetch - processPackages [drf-sse]: Downloading https://files.pythonhosted.org/packages/a0/02/79ca1f8f7924afc9ca005f47f5bb4c15600953cb4dec846549365e36d366/drf-sse-1.0.1.tar.gz
+[2024-04-02 05:13:33] INFO root fetch - processPackages [drf-sse]: Downloading https://files.pythonhosted.org/packages/a0/02/79ca1f8f7924afc9ca005f47f5bb4c15600953cb4dec846549365e36d366/drf-sse-1.0.1.tar.gz
+[2024-04-02 05:13:34] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/57/45/929f169d7a4c648c35a448c94643bebaf411ca7b0d1b225baed0b86ca880/vxutils-20240401.tar.gz
+[2024-04-02 05:13:34] INFO root fetch - processPackages [dcicsnovault]: executing diffoscope
+[2024-04-02 05:13:34] INFO root fetch - processPackages [dcicsnovault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcicsnovault-9.1.1.tar.gz tmp/dcicsnovault-9.9.9.0b0.tar.gz --markdown 20240402/d/dcicsnovault/9.1.1-9.9.9.0b0/diff.md --exclude *.pyd
+[2024-04-02 05:13:34] INFO root fetch - processPackages [drf-sse]: executing diffoscope
+[2024-04-02 05:13:34] INFO root fetch - processPackages [drf-sse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-sse-1.0.0.tar.gz tmp/drf-sse-1.0.1.tar.gz --markdown 20240402/d/drf-sse/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 05:13:34] INFO root fetch - processPackages [drf-sse]: executing diffoscope
+[2024-04-02 05:13:34] INFO root fetch - processPackages [drf-sse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-sse-1.0.0.tar.gz tmp/drf-sse-1.0.1.tar.gz --markdown 20240402/d/drf-sse/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 05:13:34] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-04-02 05:13:34] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240331.tar.gz tmp/vxutils-20240401.tar.gz --markdown 20240402/v/vxutils/20240331-20240401/diff.md --exclude *.pyd
+[2024-04-02 05:13:34] INFO root fetch - processPackages [drf-sse]: Remove: archive file [/home/abi/fetcher/tmp/drf-sse-1.0.0.tar.gz]
+[2024-04-02 05:13:34] INFO root fetch - processPackages [drf-sse]: Remove: archive file [/home/abi/fetcher/tmp/drf-sse-1.0.1.tar.gz]
+[2024-04-02 05:13:34] INFO root fetch - main [MainThread]: End processing [drf-sse]: success
+[2024-04-02 05:13:34] INFO root fetch - main [MainThread]: End processing [drf-sse]: success
+[2024-04-02 05:13:34] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240331.tar.gz]
+[2024-04-02 05:13:34] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240401.tar.gz]
+[2024-04-02 05:13:34] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-04-02 05:13:35] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.1.1.tar.gz]
+[2024-04-02 05:13:35] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
+[2024-04-02 05:13:35] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
+[2024-04-02 05:13:35] INFO root fetch - main [MainThread]: Store serial: [22580225]
