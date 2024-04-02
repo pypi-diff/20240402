@@ -15805,3 +15805,75 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:22:27] INFO root fetch - processPackages [vampytest]: Remove: archive file [/home/abi/fetcher/tmp/vampytest-0.0.9.tar.gz]
 [2024-04-02 11:22:27] INFO root fetch - main [MainThread]: End processing [vampytest]: success
 [2024-04-02 11:22:27] INFO root fetch - main [MainThread]: Store serial: [22582775]
+[2024-04-02 11:24:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582775]
+[2024-04-02 11:24:36] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kcli
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: uagents-ai-engine
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpm-api
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: iec-api
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vbao-MVVM
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: plotwhynot
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: profin
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: quat3d
+[2024-04-02 11:24:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: oterm
+[2024-04-02 11:24:36] WARNING root fetch - processPackages [quat3d]: Skipping, unable to determine old version
+[2024-04-02 11:24:36] INFO root fetch - main [MainThread]: End processing [quat3d] error
+[2024-04-02 11:24:36] INFO root fetch - processPackages [iec-api]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-02 11:24:36] INFO root fetch - processPackages [vbao-MVVM]: New version: [0.2] Old Version: [0.1]
+[2024-04-02 11:24:36] INFO root fetch - processPackages [gpm-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 11:24:36] INFO root fetch - processPackages [uagents-ai-engine]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 11:24:36] INFO root fetch - processPackages [profin]: New version: [1.3] Old Version: [1.2]
+[2024-04-02 11:24:36] WARNING root fetch - processPackages [plotwhynot]: Skipping, unable to determine old version
+[2024-04-02 11:24:36] INFO root fetch - main [MainThread]: End processing [plotwhynot] error
+[2024-04-02 11:24:36] INFO root fetch - processPackages [oterm]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 11:24:36] INFO root fetch - processPackages [kcli]: New version: [99.0.202404020921] Old Version: [99.0.202404011739]
+[2024-04-02 11:24:36] INFO root fetch - processPackages [gpm-api]: Downloading https://files.pythonhosted.org/packages/99/d6/cfa0eb5a657844e9fd106063f660adb1d08ac20a96178a5f603421d2ed89/gpm_api-0.2.8.tar.gz
+[2024-04-02 11:24:36] INFO root fetch - processPackages [iec-api]: Downloading https://files.pythonhosted.org/packages/17/9c/a202f11d8db7eda3f183477b7605c7c18dd4bc509bd6a79f807c86a99266/iec_api-0.2.7.tar.gz
+[2024-04-02 11:24:36] INFO root fetch - processPackages [uagents-ai-engine]: Downloading https://files.pythonhosted.org/packages/50/08/cfcef508a0d9531f72276548fe2cec089bb7abd15d3323b672f5ac643297/uagents_ai_engine-0.1.2.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [vbao-MVVM]: Downloading https://files.pythonhosted.org/packages/ec/45/ac4412c99ce068848dbc869963310109060ac8927b81632713bcbfa1ff3b/vbao_MVVM-0.1.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [profin]: Downloading https://files.pythonhosted.org/packages/df/5e/09440a8a285a6b8b7aac6d752d5a682c46ae48d7f3836fb4e71bbb85400d/profin-1.2.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [oterm]: Downloading https://files.pythonhosted.org/packages/d9/b7/5ee0baffdfa08e23c845244e44a4378f930a036e33aceca8484cd120fd62/oterm-0.2.4.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/48/f2/56357c6b8cef37843b05411830370e669c47de388d5181d863d80300af77/kcli-99.0.202404011739.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [iec-api]: Downloading https://files.pythonhosted.org/packages/7f/cf/4472bb3fefbe8b5e4c1f9425608d821e94332e2815d8236713d592012272/iec_api-0.2.8.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [profin]: Downloading https://files.pythonhosted.org/packages/22/3f/7b2e4071453006f8afb2bbe9a57d58629df6866f8fbbc6541dc51c166019/profin-1.3.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [uagents-ai-engine]: Downloading https://files.pythonhosted.org/packages/00/4c/b2fa6da69348985ffd31b8037243fd2e1878642ae9f28a230ff91986436c/uagents_ai_engine-0.1.3.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [gpm-api]: Downloading https://files.pythonhosted.org/packages/56/c4/0f75cda5fb04f0a7fa347edeacc7fc68aa59d34aaa465b77c9c76cb66190/gpm_api-0.2.9.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [vbao-MVVM]: Downloading https://files.pythonhosted.org/packages/6a/ca/53f751fe7bd6ce03242449ee9c06ee9cb1d046e0f31f21420a4e53834821/vbao_MVVM-0.2-py3-none-any.whl
+[2024-04-02 11:24:37] INFO root fetch - processPackages [oterm]: Downloading https://files.pythonhosted.org/packages/25/52/0a2787915677ed5eca0c127f27d4da62602a6f234a734a4a0ee9bd07b985/oterm-0.2.5.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [profin]: executing diffoscope
+[2024-04-02 11:24:37] INFO root fetch - processPackages [profin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/profin-1.2.tar.gz tmp/profin-1.3.tar.gz --markdown 20240402/p/profin/1.2-1.3/diff.md --exclude *.pyd
+[2024-04-02 11:24:37] INFO root fetch - processPackages [uagents-ai-engine]: executing diffoscope
+[2024-04-02 11:24:37] INFO root fetch - processPackages [uagents-ai-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uagents_ai_engine-0.1.2.tar.gz tmp/uagents_ai_engine-0.1.3.tar.gz --markdown 20240402/u/uagents-ai-engine/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 11:24:37] INFO root fetch - processPackages [iec-api]: executing diffoscope
+[2024-04-02 11:24:37] INFO root fetch - processPackages [iec-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iec_api-0.2.7.tar.gz tmp/iec_api-0.2.8.tar.gz --markdown 20240402/i/iec-api/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-02 11:24:37] INFO root fetch - processPackages [vbao-MVVM]: executing diffoscope
+[2024-04-02 11:24:37] INFO root fetch - processPackages [vbao-MVVM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vbao_MVVM-0.1.tar.gz tmp/vbao_MVVM-0.2-py3-none-any.whl.zip --markdown 20240402/v/vbao-MVVM/0.1-0.2/diff.md --exclude *.pyd
+[2024-04-02 11:24:37] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/ed/27/ff8e6c73214e2440494bb6e9982247bfa71d27feabd1af754cae6be598d4/kcli-99.0.202404020921.tar.gz
+[2024-04-02 11:24:37] INFO root fetch - processPackages [gpm-api]: executing diffoscope
+[2024-04-02 11:24:37] INFO root fetch - processPackages [gpm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpm_api-0.2.8.tar.gz tmp/gpm_api-0.2.9.tar.gz --markdown 20240402/g/gpm-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 11:24:37] INFO root fetch - processPackages [oterm]: executing diffoscope
+[2024-04-02 11:24:37] INFO root fetch - processPackages [oterm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oterm-0.2.4.tar.gz tmp/oterm-0.2.5.tar.gz --markdown 20240402/o/oterm/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 11:24:38] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2024-04-02 11:24:38] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202404011739.tar.gz tmp/kcli-99.0.202404020921.tar.gz --markdown 20240402/k/kcli/99.0.202404011739-99.0.202404020921/diff.md --exclude *.pyd
+[2024-04-02 11:24:38] INFO root fetch - processPackages [uagents-ai-engine]: Remove: archive file [/home/abi/fetcher/tmp/uagents_ai_engine-0.1.2.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - processPackages [uagents-ai-engine]: Remove: archive file [/home/abi/fetcher/tmp/uagents_ai_engine-0.1.3.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - main [MainThread]: End processing [uagents-ai-engine]: success
+[2024-04-02 11:24:38] INFO root fetch - processPackages [vbao-MVVM]: Remove: archive file [/home/abi/fetcher/tmp/vbao_MVVM-0.1.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - processPackages [vbao-MVVM]: Remove: archive file [/home/abi/fetcher/tmp/vbao_MVVM-0.2-py3-none-any.whl.zip]
+[2024-04-02 11:24:38] INFO root fetch - main [MainThread]: End processing [vbao-MVVM]: success
+[2024-04-02 11:24:38] INFO root fetch - processPackages [iec-api]: Remove: archive file [/home/abi/fetcher/tmp/iec_api-0.2.7.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - processPackages [iec-api]: Remove: archive file [/home/abi/fetcher/tmp/iec_api-0.2.8.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - main [MainThread]: End processing [iec-api]: success
+[2024-04-02 11:24:38] INFO root fetch - processPackages [profin]: Remove: archive file [/home/abi/fetcher/tmp/profin-1.2.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - processPackages [profin]: Remove: archive file [/home/abi/fetcher/tmp/profin-1.3.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - main [MainThread]: End processing [profin]: success
+[2024-04-02 11:24:38] INFO root fetch - processPackages [oterm]: Remove: archive file [/home/abi/fetcher/tmp/oterm-0.2.4.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - processPackages [oterm]: Remove: archive file [/home/abi/fetcher/tmp/oterm-0.2.5.tar.gz]
+[2024-04-02 11:24:38] INFO root fetch - main [MainThread]: End processing [oterm]: success
+[2024-04-02 11:24:39] INFO root fetch - processPackages [gpm-api]: Remove: archive file [/home/abi/fetcher/tmp/gpm_api-0.2.8.tar.gz]
+[2024-04-02 11:24:39] INFO root fetch - processPackages [gpm-api]: Remove: archive file [/home/abi/fetcher/tmp/gpm_api-0.2.9.tar.gz]
+[2024-04-02 11:24:39] INFO root fetch - main [MainThread]: End processing [gpm-api]: success
+[2024-04-02 11:24:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404011739.tar.gz]
+[2024-04-02 11:24:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202404020921.tar.gz]
+[2024-04-02 11:24:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2024-04-02 11:24:40] INFO root fetch - main [MainThread]: Store serial: [22582801]
