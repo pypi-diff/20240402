@@ -18074,3 +18074,66 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:58:55] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.8.2.tar.gz]
 [2024-04-02 12:58:55] INFO root fetch - main [MainThread]: End processing [ssb-datadoc]: success
 [2024-04-02 12:58:55] INFO root fetch - main [MainThread]: Store serial: [22583739]
+[2024-04-02 13:01:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583739]
+[2024-04-02 13:01:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testingcgsdk
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: typed-config
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eth-cache
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SimuBox
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: langchain-decorators
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: libdeeplake
+[2024-04-02 13:01:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: foss-flame
+[2024-04-02 13:01:05] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [homeassistant]: New version: [2024.4.0b5] Old Version: [2024.4.0b4]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 13:01:05] INFO root fetch - processPackages [typed-config]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [eth-cache]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [SimuBox]: New version: [0.2.1] Old Version: [0.1.9]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [foss-flame]: New version: [0.19.9] Old Version: [0.19.8]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [langchain-decorators]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [libdeeplake]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 13:01:05] INFO root fetch - processPackages [typed-config]: Downloading https://files.pythonhosted.org/packages/79/fe/a4392c45286dea45891df3fbf076d56cd41667acab5c21868b9fac0040ae/typed-config-1.4.0.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/13/4e/2f16042f4a5541136a461860abc6ce4f4305b10199f4614f0a1061516a3f/homeassistant-2024.4.0b4.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 13:01:05] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 20628245>=10485760
+[2024-04-02 13:01:05] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-04-02 13:01:05] INFO root fetch - processPackages [eth-cache]: Downloading https://files.pythonhosted.org/packages/f0/a4/c98dddb41a409c7251b9e8605892002e7309324ecb64ae36dd17c09a2f41/eth-cache-0.3.0.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [SimuBox]: Downloading https://files.pythonhosted.org/packages/ae/f4/a36cd27266df527676db3af35da2b4d785c1fe34f2a2b4e9742875ecbc22/SimuBox-0.1.9.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/82/07/a74bea6d07c52e9a1a73af4554f7222c9a9a91836f01abf758083daee273/langchain-decorators-0.5.4.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [foss-flame]: Downloading https://files.pythonhosted.org/packages/02/4e/96829e5fbfcc3fb128fa0106843f804569b225ca36326d549d5493c39ab7/foss-flame-0.19.8.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [libdeeplake]: Downloading https://files.pythonhosted.org/packages/72/1b/98a4f343688cf918ba1e3f51f408a91cff754434b6e95d4e8090657449a3/libdeeplake-0.0.98-cp39-cp39-manylinux2014_x86_64.whl
+[2024-04-02 13:01:05] WARNING root fetch - processPackages [libdeeplake]: Skipping package: exceeds size limit 16175016>=10485760
+[2024-04-02 13:01:05] INFO root fetch - main [MainThread]: End processing [libdeeplake] error
+[2024-04-02 13:01:05] INFO root fetch - processPackages [typed-config]: Downloading https://files.pythonhosted.org/packages/12/42/a4ef5ff843c9947878533c181bb2980eacb248e35dc86a34e8f45bb45006/typed-config-1.5.0.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [eth-cache]: Downloading https://files.pythonhosted.org/packages/57/5f/34a3acc7db939186be7aa34af5c154e485c542e4b6ca1f4de03f174b6f34/eth-cache-0.4.0.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [langchain-decorators]: Downloading https://files.pythonhosted.org/packages/58/b9/afbcc513a07b61559a82de9843df278afbde9b5c6850ae5926b11b1b2564/langchain-decorators-0.5.5.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [typed-config]: executing diffoscope
+[2024-04-02 13:01:05] INFO root fetch - processPackages [typed-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typed-config-1.4.0.tar.gz tmp/typed-config-1.5.0.tar.gz --markdown 20240402/t/typed-config/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2024-04-02 13:01:05] INFO root fetch - processPackages [foss-flame]: Downloading https://files.pythonhosted.org/packages/c4/16/fd0ba022d708570c30f87f3771ced43ef0dda7112ca80acb1dc3b3566fa1/foss-flame-0.19.9.tar.gz
+[2024-04-02 13:01:05] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 13:01:05] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:01:06] INFO root fetch - processPackages [langchain-decorators]: executing diffoscope
+[2024-04-02 13:01:06] INFO root fetch - processPackages [langchain-decorators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-decorators-0.5.4.tar.gz tmp/langchain-decorators-0.5.5.tar.gz --markdown 20240402/l/langchain-decorators/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-02 13:01:06] INFO root fetch - processPackages [eth-cache]: executing diffoscope
+[2024-04-02 13:01:06] INFO root fetch - processPackages [eth-cache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-cache-0.3.0.tar.gz tmp/eth-cache-0.4.0.tar.gz --markdown 20240402/e/eth-cache/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-02 13:01:06] INFO root fetch - processPackages [foss-flame]: executing diffoscope
+[2024-04-02 13:01:06] INFO root fetch - processPackages [foss-flame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foss-flame-0.19.8.tar.gz tmp/foss-flame-0.19.9.tar.gz --markdown 20240402/f/foss-flame/0.19.8-0.19.9/diff.md --exclude *.pyd
+[2024-04-02 13:01:06] WARNING root fetch - processPackages [SimuBox]: Skipping package: exceeds size limit 17615074>=10485760
+[2024-04-02 13:01:06] INFO root fetch - main [MainThread]: End processing [SimuBox] error
+[2024-04-02 13:01:06] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 13:01:06] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 13:01:06] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 13:01:06] INFO root fetch - processPackages [eth-cache]: Remove: archive file [/home/abi/fetcher/tmp/eth-cache-0.3.0.tar.gz]
+[2024-04-02 13:01:06] INFO root fetch - processPackages [eth-cache]: Remove: archive file [/home/abi/fetcher/tmp/eth-cache-0.4.0.tar.gz]
+[2024-04-02 13:01:06] INFO root fetch - main [MainThread]: End processing [eth-cache]: success
+[2024-04-02 13:01:06] INFO root fetch - processPackages [typed-config]: Remove: archive file [/home/abi/fetcher/tmp/typed-config-1.4.0.tar.gz]
+[2024-04-02 13:01:06] INFO root fetch - processPackages [typed-config]: Remove: archive file [/home/abi/fetcher/tmp/typed-config-1.5.0.tar.gz]
+[2024-04-02 13:01:06] INFO root fetch - main [MainThread]: End processing [typed-config]: success
+[2024-04-02 13:01:06] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.5.4.tar.gz]
+[2024-04-02 13:01:06] INFO root fetch - processPackages [langchain-decorators]: Remove: archive file [/home/abi/fetcher/tmp/langchain-decorators-0.5.5.tar.gz]
+[2024-04-02 13:01:06] INFO root fetch - main [MainThread]: End processing [langchain-decorators]: success
+[2024-04-02 13:01:07] INFO root fetch - processPackages [foss-flame]: Remove: archive file [/home/abi/fetcher/tmp/foss-flame-0.19.8.tar.gz]
+[2024-04-02 13:01:07] INFO root fetch - processPackages [foss-flame]: Remove: archive file [/home/abi/fetcher/tmp/foss-flame-0.19.9.tar.gz]
+[2024-04-02 13:01:07] INFO root fetch - main [MainThread]: End processing [foss-flame]: success
+[2024-04-02 13:01:07] INFO root fetch - main [MainThread]: Store serial: [22583759]
