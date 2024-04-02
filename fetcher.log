@@ -16324,3 +16324,30 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:44:37] INFO root fetch - processPackages [aws-lambda-typing]: Remove: archive file [/home/abi/fetcher/tmp/aws-lambda-typing-2.9.9.tar.gz]
 [2024-04-02 11:44:37] INFO root fetch - main [MainThread]: End processing [aws-lambda-typing]: success
 [2024-04-02 11:44:37] INFO root fetch - main [MainThread]: Store serial: [22583015]
+[2024-04-02 11:46:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583015]
+[2024-04-02 11:46:46] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 11:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenfinal
+[2024-04-02 11:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fcc-project
+[2024-04-02 11:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: boomgate
+[2024-04-02 11:46:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:46:46] INFO root fetch - processPackages [lightning-whisper-mlx]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 11:46:46] INFO root fetch - processPackages [boomgate]: New version: [0.0.2] Old Version: [0.0.1.dev2]
+[2024-04-02 11:46:46] WARNING root fetch - processPackages [zenfinal]: Skipping, unable to determine old version
+[2024-04-02 11:46:46] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/3f/ab/d2d30cfdf81153e7942ad6c43a61aa2c3eadf95ab449f612507d87a79279/boomgate-0.0.1.dev2.tar.gz
+[2024-04-02 11:46:46] INFO root fetch - main [MainThread]: End processing [zenfinal] error
+[2024-04-02 11:46:46] WARNING root fetch - processPackages [fcc-project]: Skipping, unable to determine old version
+[2024-04-02 11:46:46] INFO root fetch - main [MainThread]: End processing [fcc-project] error
+[2024-04-02 11:46:46] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/65/d6/417df74a2596a9862f3e578ec2b5044b53c51575e59e6bf21fdb13eec036/lightning-whisper-mlx-0.0.5.tar.gz
+[2024-04-02 11:46:46] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/33/1f/00026142e86861719f439ec965cf35ebef9aaa0b051670464088da2136da/boomgate-0.0.2.tar.gz
+[2024-04-02 11:46:46] INFO root fetch - processPackages [boomgate]: executing diffoscope
+[2024-04-02 11:46:46] INFO root fetch - processPackages [boomgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boomgate-0.0.1.dev2.tar.gz tmp/boomgate-0.0.2.tar.gz --markdown 20240402/b/boomgate/0.0.1.dev2-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 11:46:46] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/e0/50/723a6f9217deb98f04bc07bc399b1d44ecb504e5234d421e10c46145c9db/lightning-whisper-mlx-0.0.6.tar.gz
+[2024-04-02 11:46:46] INFO root fetch - processPackages [lightning-whisper-mlx]: executing diffoscope
+[2024-04-02 11:46:46] INFO root fetch - processPackages [lightning-whisper-mlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-whisper-mlx-0.0.5.tar.gz tmp/lightning-whisper-mlx-0.0.6.tar.gz --markdown 20240402/l/lightning-whisper-mlx/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 11:46:47] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.1.dev2.tar.gz]
+[2024-04-02 11:46:47] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.2.tar.gz]
+[2024-04-02 11:46:47] INFO root fetch - main [MainThread]: End processing [boomgate]: success
+[2024-04-02 11:46:47] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.5.tar.gz]
+[2024-04-02 11:46:47] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.6.tar.gz]
+[2024-04-02 11:46:47] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
+[2024-04-02 11:46:47] INFO root fetch - main [MainThread]: Store serial: [22583031]
