@@ -14804,3 +14804,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:44:25] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.1.0.tar.gz]
 [2024-04-02 10:44:25] INFO root fetch - main [MainThread]: End processing [ftrack-qt-style]: success
 [2024-04-02 10:44:25] INFO root fetch - main [MainThread]: Store serial: [22582331]
+[2024-04-02 10:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582331]
+[2024-04-02 10:46:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arcticfreeze
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-cpu
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zlcyun
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: doors
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addon-photovoltaic-api
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: revert-api
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: haskellian-asyn
+[2024-04-02 10:46:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: comet-toolbox
+[2024-04-02 10:46:36] WARNING root fetch - processPackages [zlcyun]: Skipping, unable to determine old version
+[2024-04-02 10:46:36] INFO root fetch - main [MainThread]: End processing [zlcyun] error
+[2024-04-02 10:46:36] WARNING root fetch - processPackages [arcticfreeze]: Skipping, unable to determine old version
+[2024-04-02 10:46:36] INFO root fetch - main [MainThread]: End processing [arcticfreeze] error
+[2024-04-02 10:46:36] INFO root fetch - processPackages [revert-api]: New version: [0.0.795] Old Version: [0.0.785]
+[2024-04-02 10:46:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: New version: [13.0.1.1.9] Old Version: [13.0.1.1.8]
+[2024-04-02 10:46:36] INFO root fetch - processPackages [comet-toolbox]: New version: [0.1.4] Old Version: [0.1.2]
+[2024-04-02 10:46:36] INFO root fetch - processPackages [doors]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 10:46:36] INFO root fetch - processPackages [tf-nightly-cpu]: New version: [2.17.0.dev20240402] Old Version: [2.17.0.dev20240401]
+[2024-04-02 10:46:36] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/bb/8c/63234a9995913922d5545a0419e611cbb397f790beb3581cb377a0e42d2b/revert_api-0.0.785.tar.gz
+[2024-04-02 10:46:36] WARNING root fetch - processPackages [haskellian-asyn]: Skipping, unable to determine old version
+[2024-04-02 10:46:36] INFO root fetch - main [MainThread]: End processing [haskellian-asyn] error
+[2024-04-02 10:46:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/10/1e/0b0cc8eb273e9b2b2675b349a155493ebe136169886e86af1026c50463d5/odoo13-addon-photovoltaic_api-13.0.1.1.8.tar.gz
+[2024-04-02 10:46:36] INFO root fetch - processPackages [doors]: Downloading https://files.pythonhosted.org/packages/89/18/04c0d41290d9c3a0d33ad68e50227d59ce3c7f1e7fa1baeee9cf6ef35d2b/doors-0.0.7-py2.py3-none-any.whl
+[2024-04-02 10:46:36] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/66/ad/b3f4c106bf5dc5df568ac536d0fda5466127cd0fa1925d61ccef4ea2de01/comet_toolbox-0.1.2.tar.gz
+[2024-04-02 10:46:36] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/68/e1/b82c5db6e1ae444a4c8b3110477525322d9b4ccaf79068fd6f8a46904e6f/tf_nightly_cpu-2.17.0.dev20240401-cp39-cp39-win_amd64.whl
+[2024-04-02 10:46:36] INFO root fetch - processPackages [revert-api]: Downloading https://files.pythonhosted.org/packages/2f/f1/f9f054815bf6326ab384dc96476cc2b5b2c9a3d620bfdce9c215c70cd3fa/revert_api-0.0.795.tar.gz
+[2024-04-02 10:46:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Downloading https://files.pythonhosted.org/packages/cd/ca/e0bbc9b82757c92ef4cc7f070f8780a102404579b31524b31c83483e6c51/odoo13-addon-photovoltaic_api-13.0.1.1.9.tar.gz
+[2024-04-02 10:46:36] INFO root fetch - processPackages [tf-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/fd/e9/3a4cea525afe29027b455218cfd138f643cf9210bdabdbe7f5bd62f907b6/tf_nightly_cpu-2.17.0.dev20240402-cp39-cp39-win_amd64.whl
+[2024-04-02 10:46:36] INFO root fetch - processPackages [doors]: Downloading https://files.pythonhosted.org/packages/ad/ac/ab688d98d88a93b0a5da398e86ca096abb84213ec11a8bd588bc0aab15fd/doors-0.0.8.tar.gz
+[2024-04-02 10:46:36] INFO root fetch - processPackages [revert-api]: executing diffoscope
+[2024-04-02 10:46:36] INFO root fetch - processPackages [revert-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revert_api-0.0.785.tar.gz tmp/revert_api-0.0.795.tar.gz --markdown 20240402/r/revert-api/0.0.785-0.0.795/diff.md --exclude *.pyd
+[2024-04-02 10:46:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: executing diffoscope
+[2024-04-02 10:46:36] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13-addon-photovoltaic_api-13.0.1.1.8.tar.gz tmp/odoo13-addon-photovoltaic_api-13.0.1.1.9.tar.gz --markdown 20240402/o/odoo13-addon-photovoltaic-api/13.0.1.1.8-13.0.1.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:46:36] INFO root fetch - processPackages [doors]: executing diffoscope
+[2024-04-02 10:46:36] INFO root fetch - processPackages [doors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/doors-0.0.7-py2.py3-none-any.whl.zip tmp/doors-0.0.8.tar.gz --markdown 20240402/d/doors/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 10:46:36] INFO root fetch - processPackages [tf-nightly-cpu]: executing diffoscope
+[2024-04-02 10:46:36] INFO root fetch - processPackages [tf-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly_cpu-2.17.0.dev20240401-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly_cpu-2.17.0.dev20240402-cp39-cp39-win_amd64.whl.zip --markdown 20240402/t/tf-nightly-cpu/2.17.0.dev20240401-2.17.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 10:46:36] INFO root fetch - processPackages [comet-toolbox]: Downloading https://files.pythonhosted.org/packages/a5/b1/8a30e91ad67d2364877863006b34d229ed5a4504bc65a21bd412b1d5ca7a/comet_toolbox-0.1.4.tar.gz
+[2024-04-02 10:46:37] INFO root fetch - processPackages [doors]: Remove: archive file [/home/abi/fetcher/tmp/doors-0.0.7-py2.py3-none-any.whl.zip]
+[2024-04-02 10:46:37] INFO root fetch - processPackages [doors]: Remove: archive file [/home/abi/fetcher/tmp/doors-0.0.8.tar.gz]
+[2024-04-02 10:46:37] INFO root fetch - main [MainThread]: End processing [doors]: success
+[2024-04-02 10:46:37] INFO root fetch - processPackages [comet-toolbox]: executing diffoscope
+[2024-04-02 10:46:37] INFO root fetch - processPackages [comet-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comet_toolbox-0.1.2.tar.gz tmp/comet_toolbox-0.1.4.tar.gz --markdown 20240402/c/comet-toolbox/0.1.2-0.1.4/diff.md --exclude *.pyd
+[2024-04-02 10:46:37] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240401-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 10:46:37] INFO root fetch - processPackages [tf-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly_cpu-2.17.0.dev20240402-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 10:46:37] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu]: success
+[2024-04-02 10:46:37] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.8.tar.gz]
+[2024-04-02 10:46:37] INFO root fetch - processPackages [odoo13-addon-photovoltaic-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo13-addon-photovoltaic_api-13.0.1.1.9.tar.gz]
+[2024-04-02 10:46:37] INFO root fetch - main [MainThread]: End processing [odoo13-addon-photovoltaic-api]: success
+[2024-04-02 10:46:37] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.785.tar.gz]
+[2024-04-02 10:46:37] INFO root fetch - processPackages [revert-api]: Remove: archive file [/home/abi/fetcher/tmp/revert_api-0.0.795.tar.gz]
+[2024-04-02 10:46:37] INFO root fetch - main [MainThread]: End processing [revert-api]: success
+[2024-04-02 10:46:38] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.1.2.tar.gz]
+[2024-04-02 10:46:38] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.1.4.tar.gz]
+[2024-04-02 10:46:38] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
+[2024-04-02 10:46:38] INFO root fetch - main [MainThread]: Store serial: [22582363]
