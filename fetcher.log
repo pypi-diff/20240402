@@ -11957,3 +11957,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:31:08] INFO root fetch - processPackages [dbt-clickhouse]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickhouse-1.7.5.tar.gz]
 [2024-04-02 08:31:08] INFO root fetch - main [MainThread]: End processing [dbt-clickhouse]: success
 [2024-04-02 08:31:08] INFO root fetch - main [MainThread]: Store serial: [22581252]
+[2024-04-02 08:33:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581252]
+[2024-04-02 08:33:17] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 08:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pgbelt
+[2024-04-02 08:33:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pybts
+[2024-04-02 08:33:17] INFO root fetch - processPackages [pybts]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-02 08:33:17] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/82/d1/b465c8793d20de9c5dca2641c8aa8145ef9f92819db4ccaa7bcc2edbc9ba/pybts-1.2.0.tar.gz
+[2024-04-02 08:33:17] INFO root fetch - processPackages [pgbelt]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-02 08:33:17] INFO root fetch - processPackages [pgbelt]: Downloading https://files.pythonhosted.org/packages/0c/2a/d80d5440ca0714a5d407bb139e4f146241402e6d6e14337bad3789439f43/pgbelt-0.7.2.tar.gz
+[2024-04-02 08:33:17] INFO root fetch - processPackages [pybts]: Downloading https://files.pythonhosted.org/packages/5d/1b/8b81dd310ff008e9c7e9afd8a8451b0950fc53e654c1486fe8e2e627b9be/pybts-1.2.1.tar.gz
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pybts]: executing diffoscope
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pybts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybts-1.2.0.tar.gz tmp/pybts-1.2.1.tar.gz --markdown 20240402/p/pybts/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pgbelt]: Downloading https://files.pythonhosted.org/packages/88/7b/3bde91c31e452267d97664c338f7644df5226b5ac85dc9672ce4c87beec8/pgbelt-0.7.3.tar.gz
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pgbelt]: executing diffoscope
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pgbelt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgbelt-0.7.2.tar.gz tmp/pgbelt-0.7.3.tar.gz --markdown 20240402/p/pgbelt/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pgbelt]: Remove: archive file [/home/abi/fetcher/tmp/pgbelt-0.7.2.tar.gz]
+[2024-04-02 08:33:18] INFO root fetch - processPackages [pgbelt]: Remove: archive file [/home/abi/fetcher/tmp/pgbelt-0.7.3.tar.gz]
+[2024-04-02 08:33:18] INFO root fetch - main [MainThread]: End processing [pgbelt]: success
+[2024-04-02 08:33:36] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.0.tar.gz]
+[2024-04-02 08:33:36] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.1.tar.gz]
+[2024-04-02 08:33:36] INFO root fetch - main [MainThread]: End processing [pybts]: success
+[2024-04-02 08:33:36] INFO root fetch - main [MainThread]: Store serial: [22581258]
