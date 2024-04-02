@@ -10791,3 +10791,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:06:21] INFO root fetch - processPackages [py-domain-driven-design]: Remove: archive file [/home/abi/fetcher/tmp/py-domain-driven-design-1.0.0a2.tar.gz]
 [2024-04-02 07:06:21] INFO root fetch - main [MainThread]: End processing [py-domain-driven-design]: success
 [2024-04-02 07:06:21] INFO root fetch - main [MainThread]: Store serial: [22580813]
+[2024-04-02 07:08:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580813]
+[2024-04-02 07:08:30] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 07:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: engcom
+[2024-04-02 07:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiceai
+[2024-04-02 07:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: papermodels
+[2024-04-02 07:08:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zerohertzLib
+[2024-04-02 07:08:30] INFO root fetch - processPackages [spiceai]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 07:08:30] INFO root fetch - processPackages [papermodels]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 07:08:30] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/23/2c/e120ca160bd3fa4a1a4bfe4c1886f99cec2b97420667f6960e82b242ca21/spiceai-0.1.1.tar.gz
+[2024-04-02 07:08:30] INFO root fetch - processPackages [engcom]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 07:08:30] INFO root fetch - processPackages [zerohertzLib]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 07:08:31] INFO root fetch - processPackages [papermodels]: Downloading https://files.pythonhosted.org/packages/eb/95/70814736b87c28fec61be07bc6afb608e6be182ddd67c5adf7ac932e1717/papermodels-0.0.8.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [engcom]: Downloading https://files.pythonhosted.org/packages/23/35/d23f8654c0345a3950cbfedbc19f03960b0b47d6339450ed75f5cf533ddf/engcom-0.1.8.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/d8/86/079c797b353fe12da688307e9f5474b1b872774ef823b9f2bae3eb783cf8/zerohertzLib-1.0.0.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/0a/c6/f9f647c412d109b8f041b0cc5d0ff758a11898f1c77500246adca098a6fe/spiceai-0.1.2.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 07:08:31] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.1.tar.gz tmp/spiceai-0.1.2.tar.gz --markdown 20240402/s/spiceai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 07:08:31] INFO root fetch - processPackages [papermodels]: Downloading https://files.pythonhosted.org/packages/1c/4a/fb23bbaa43a43f626218f05b4bcb0874162a637d54bdd6b2525b8dd19f26/papermodels-0.0.9.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [engcom]: Downloading https://files.pythonhosted.org/packages/58/23/e3cc266d8a819c6b69efb50ab737513b8ad73d2da1b6c89d753cdb270dea/engcom-0.1.9.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [papermodels]: executing diffoscope
+[2024-04-02 07:08:31] INFO root fetch - processPackages [papermodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/papermodels-0.0.8.tar.gz tmp/papermodels-0.0.9.tar.gz --markdown 20240402/p/papermodels/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 07:08:31] INFO root fetch - processPackages [engcom]: executing diffoscope
+[2024-04-02 07:08:31] INFO root fetch - processPackages [engcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/engcom-0.1.8.tar.gz tmp/engcom-0.1.9.tar.gz --markdown 20240402/e/engcom/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 07:08:31] INFO root fetch - processPackages [zerohertzLib]: Downloading https://files.pythonhosted.org/packages/58/58/c94aeb2dd979a53578e51bd87d7cf61d36a1b0724df40de82b89f9021b47/zerohertzLib-1.0.1.tar.gz
+[2024-04-02 07:08:31] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.1.tar.gz]
+[2024-04-02 07:08:31] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.2.tar.gz]
+[2024-04-02 07:08:31] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 07:08:32] INFO root fetch - processPackages [papermodels]: Remove: archive file [/home/abi/fetcher/tmp/papermodels-0.0.8.tar.gz]
+[2024-04-02 07:08:32] INFO root fetch - processPackages [papermodels]: Remove: archive file [/home/abi/fetcher/tmp/papermodels-0.0.9.tar.gz]
+[2024-04-02 07:08:32] INFO root fetch - main [MainThread]: End processing [papermodels]: success
+[2024-04-02 07:08:32] INFO root fetch - processPackages [engcom]: Remove: archive file [/home/abi/fetcher/tmp/engcom-0.1.8.tar.gz]
+[2024-04-02 07:08:32] INFO root fetch - processPackages [engcom]: Remove: archive file [/home/abi/fetcher/tmp/engcom-0.1.9.tar.gz]
+[2024-04-02 07:08:32] INFO root fetch - main [MainThread]: End processing [engcom]: success
+[2024-04-02 07:08:32] INFO root fetch - processPackages [zerohertzLib]: executing diffoscope
+[2024-04-02 07:08:32] INFO root fetch - processPackages [zerohertzLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zerohertzLib-1.0.0.tar.gz tmp/zerohertzLib-1.0.1.tar.gz --markdown 20240402/z/zerohertzLib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 07:08:33] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.0.tar.gz]
+[2024-04-02 07:08:33] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.1.tar.gz]
+[2024-04-02 07:08:33] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
+[2024-04-02 07:08:33] INFO root fetch - main [MainThread]: Store serial: [22580825]
