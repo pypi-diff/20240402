@@ -13183,3 +13183,65 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:45:15] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.0.tar.gz]
 [2024-04-02 09:45:15] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
 [2024-04-02 09:45:15] INFO root fetch - main [MainThread]: Store serial: [22581730]
+[2024-04-02 09:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581730]
+[2024-04-02 09:47:25] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spine-items
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spinedb-api
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spinetoolbox
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cbrkit
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyE2
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lmcloud
+[2024-04-02 09:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: redpic
+[2024-04-02 09:47:26] INFO root fetch - processPackages [cbrkit]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [redpic]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spine-items]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/89/a0/4f32a7b26af1ddf7c27297d571a4eef556067d58b9ac2e71a8ab957601fb/cbrkit-0.7.0.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spinedb-api]: New version: [0.30.4] Old Version: [0.30.3]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spinetoolbox]: New version: [0.7.3] Old Version: [0.7.2]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [lmcloud]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [PyE2]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-02 09:47:26] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/0f/82/cb7522937cdd7fe09287fa41270efc524051da3700cfe01ce050f90a476f/redpic-1.0.0.1.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/7c/1f/ddc8b7c8209074ff0d22a75a309898a450f3e9e4116be5a7194e75d33974/pye2-0.7.8.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spine-items]: Downloading https://files.pythonhosted.org/packages/09/3e/fe9f9843f278bcb14622db34ffe624766e4894b8d7f0f627f3ebe38dde4f/spine_items-0.8.0.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spinedb-api]: Downloading https://files.pythonhosted.org/packages/5f/6f/fd30269b473098671051263bb5ebf0c48302fa6d5ece20153ff5bc3f8d75/spinedb_api-0.30.3.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spinetoolbox]: Downloading https://files.pythonhosted.org/packages/02/34/4c8f10e2537fff5c707c5e4e6bcc3f71531cbc78cd932fbab7bef7108259/spinetoolbox-0.7.2.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [cbrkit]: Downloading https://files.pythonhosted.org/packages/3e/c3/79378c8d519516f0a254a2a44f332d13aaf57767c616046f3376fb3b183c/cbrkit-0.8.0.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/d3/94/fde8ef1f71f0ec75c2ba3a1249b8f52ece088c8f2b19ef0e928e7f8ff94e/lmcloud-1.1.6.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/c7/66/10575ff380bee010a101dbfa4f9b43c18fb5b8ff3ae4401b50a6d1c42087/redpic-1.0.0.2.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [cbrkit]: executing diffoscope
+[2024-04-02 09:47:26] INFO root fetch - processPackages [cbrkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cbrkit-0.7.0.tar.gz tmp/cbrkit-0.8.0.tar.gz --markdown 20240402/c/cbrkit/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-02 09:47:26] INFO root fetch - processPackages [redpic]: executing diffoscope
+[2024-04-02 09:47:26] INFO root fetch - processPackages [redpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redpic-1.0.0.1.tar.gz tmp/redpic-1.0.0.2.tar.gz --markdown 20240402/r/redpic/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:47:26] INFO root fetch - processPackages [PyE2]: Downloading https://files.pythonhosted.org/packages/e9/40/83bee283c4c5388414ec9563877eaf42c60425426715578ebc136fe413cb/pye2-0.7.9.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/82/55/ad5acd67d0edfee03e44bd97285e21088bf2bc0eecb47828d859a843e339/lmcloud-1.1.7.tar.gz
+[2024-04-02 09:47:26] WARNING root fetch - processPackages [spinetoolbox]: Skipping package: exceeds size limit 11173227>=10485760
+[2024-04-02 09:47:26] INFO root fetch - main [MainThread]: End processing [spinetoolbox] error
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spine-items]: Downloading https://files.pythonhosted.org/packages/d0/ab/f73cf2e24832abcdd7afa07114716db753e33e6fa9a5ed444d59339533ea/spine_items-0.9.0.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [PyE2]: executing diffoscope
+[2024-04-02 09:47:26] INFO root fetch - processPackages [PyE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pye2-0.7.8.tar.gz tmp/pye2-0.7.9.tar.gz --markdown 20240402/P/PyE2/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spinedb-api]: Downloading https://files.pythonhosted.org/packages/52/55/f2ca5f2c810fd2552429d5723660b5159046c8959fefbaea010dd3c6c8bb/spinedb_api-0.30.4.tar.gz
+[2024-04-02 09:47:26] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2024-04-02 09:47:26] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-1.1.6.tar.gz tmp/lmcloud-1.1.7.tar.gz --markdown 20240402/l/lmcloud/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spine-items]: executing diffoscope
+[2024-04-02 09:47:26] INFO root fetch - processPackages [spine-items]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spine_items-0.8.0.tar.gz tmp/spine_items-0.9.0.tar.gz --markdown 20240402/s/spine-items/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 09:47:27] INFO root fetch - processPackages [spinedb-api]: executing diffoscope
+[2024-04-02 09:47:27] INFO root fetch - processPackages [spinedb-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinedb_api-0.30.3.tar.gz tmp/spinedb_api-0.30.4.tar.gz --markdown 20240402/s/spinedb-api/0.30.3-0.30.4/diff.md --exclude *.pyd
+[2024-04-02 09:47:27] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.1.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.2.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - main [MainThread]: End processing [redpic]: success
+[2024-04-02 09:47:27] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.7.0.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - processPackages [cbrkit]: Remove: archive file [/home/abi/fetcher/tmp/cbrkit-0.8.0.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - main [MainThread]: End processing [cbrkit]: success
+[2024-04-02 09:47:27] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.8.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - processPackages [PyE2]: Remove: archive file [/home/abi/fetcher/tmp/pye2-0.7.9.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - main [MainThread]: End processing [PyE2]: success
+[2024-04-02 09:47:27] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-1.1.6.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-1.1.7.tar.gz]
+[2024-04-02 09:47:27] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2024-04-02 09:47:28] INFO root fetch - processPackages [spine-items]: Remove: archive file [/home/abi/fetcher/tmp/spine_items-0.8.0.tar.gz]
+[2024-04-02 09:47:28] INFO root fetch - processPackages [spine-items]: Remove: archive file [/home/abi/fetcher/tmp/spine_items-0.9.0.tar.gz]
+[2024-04-02 09:47:28] INFO root fetch - main [MainThread]: End processing [spine-items]: success
+[2024-04-02 09:47:29] INFO root fetch - processPackages [spinedb-api]: Remove: archive file [/home/abi/fetcher/tmp/spinedb_api-0.30.3.tar.gz]
+[2024-04-02 09:47:29] INFO root fetch - processPackages [spinedb-api]: Remove: archive file [/home/abi/fetcher/tmp/spinedb_api-0.30.4.tar.gz]
+[2024-04-02 09:47:29] INFO root fetch - main [MainThread]: End processing [spinedb-api]: success
+[2024-04-02 09:47:29] INFO root fetch - main [MainThread]: Store serial: [22581752]
