@@ -20136,3 +20136,63 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:15:41] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
 [2024-04-02 14:15:41] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
 [2024-04-02 14:15:41] INFO root fetch - main [MainThread]: Store serial: [22584575]
+[2024-04-02 14:17:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584575]
+[2024-04-02 14:17:51] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: msfabricpysdkcoretest
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbt-teradata
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fluidimage
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zz-pix
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: shdo
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esbmc-ai
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipdm
+[2024-04-02 14:17:51] INFO root fetch - processPackages [esbmc-ai]: New version: [0.4.0.post0] Old Version: [0.4.0.dev6]
+[2024-04-02 14:17:51] INFO root fetch - processPackages [shdo]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 14:17:51] INFO root fetch - processPackages [zz-pix]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 14:17:51] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/4b/ce/788582ac7b99b8f144247fbc3e05bcc9d53e0eaf66286f9e3da0b30bbe0f/esbmc_ai-0.4.0.dev6.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/5f/29/07664d9cf70d03f5684e351bd9aac6bc01b80a9f1153555cf1a995de5400/shdo-0.0.2.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/11/e8/ab2595b1ae0cfa726fbc43663e736fa28d2ff354676c084b2189061acbb2/zz-pix-0.0.4.tar.gz
+[2024-04-02 14:17:51] ERROR root fetch - processPackages [msfabricpysdkcoretest]: Unable to get metadata: No such project 'msfabricpysdkcoretest'
+[2024-04-02 14:17:51] INFO root fetch - main [MainThread]: End processing [msfabricpysdkcoretest] error
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ipdm]: New version: [0.2.0rc2] Old Version: [0.2.0rc1]
+[2024-04-02 14:17:51] INFO root fetch - processPackages [dbt-teradata]: New version: [1.7.2] Old Version: [1.7.1]
+[2024-04-02 14:17:51] INFO root fetch - processPackages [fluidimage]: New version: [0.4.3.post0] Old Version: [0.4.3]
+[2024-04-02 14:17:51] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/9d/62/b8e93306342271888fffe7d00708ee7175faa3b51f061e43d0a272085767/dbt-teradata-1.7.1.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [fluidimage]: Downloading https://files.pythonhosted.org/packages/ea/63/3f29fc2597e9c695a1cd829e5a82cdb1898ea4ba19e4a1a37987bb1f26ef/fluidimage-0.4.3.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/12/21/0148215f4788627f0406dc7583f4f7be5076c13a4d2d86cd660df75f30d1/esbmc_ai-0.4.0.post0.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [ipdm]: Downloading https://files.pythonhosted.org/packages/47/51/34f0979dd31df9747cbec71edb7d21dd1c8985635d9f0fcce212cbe2d5e7/ipdm-0.2.0rc1.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/9b/22/9138f7fd845158bdb7b888378ebb415086b390fc7bc3bfc87027f3a63f19/shdo-0.0.3.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/0c/8a/10356f66632a43dfabe354203998fed92b2c13e9c40ca01582e92239e4ad/zz-pix-0.0.5.tar.gz
+[2024-04-02 14:17:51] INFO root fetch - processPackages [esbmc-ai]: executing diffoscope
+[2024-04-02 14:17:51] INFO root fetch - processPackages [esbmc-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmc_ai-0.4.0.dev6.tar.gz tmp/esbmc_ai-0.4.0.post0.tar.gz --markdown 20240402/e/esbmc-ai/0.4.0.dev6-0.4.0.post0/diff.md --exclude *.pyd
+[2024-04-02 14:17:51] INFO root fetch - processPackages [zz-pix]: executing diffoscope
+[2024-04-02 14:17:51] INFO root fetch - processPackages [zz-pix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zz-pix-0.0.4.tar.gz tmp/zz-pix-0.0.5.tar.gz --markdown 20240402/z/zz-pix/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 14:17:51] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-02 14:17:51] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.2.tar.gz tmp/shdo-0.0.3.tar.gz --markdown 20240402/s/shdo/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 14:17:52] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/d8/ba/ae17d3ed6321b9f01d7e2e996a7ee8567494afccb1492a06424ed702968a/dbt-teradata-1.7.2.tar.gz
+[2024-04-02 14:17:52] INFO root fetch - processPackages [ipdm]: Downloading https://files.pythonhosted.org/packages/e6/64/e31210d66296ab46161a3657048185a463a9c1cf720394de8484894825f0/ipdm-0.2.0rc2.tar.gz
+[2024-04-02 14:17:52] INFO root fetch - processPackages [fluidimage]: Downloading https://files.pythonhosted.org/packages/29/bc/8733733733ad3d4ada10022f5f6d20e1b1f71dbaeb744ca80ba63232da02/fluidimage-0.4.3.post0.tar.gz
+[2024-04-02 14:17:52] INFO root fetch - processPackages [dbt-teradata]: executing diffoscope
+[2024-04-02 14:17:52] INFO root fetch - processPackages [dbt-teradata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-teradata-1.7.1.tar.gz tmp/dbt-teradata-1.7.2.tar.gz --markdown 20240402/d/dbt-teradata/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2024-04-02 14:17:52] INFO root fetch - processPackages [ipdm]: executing diffoscope
+[2024-04-02 14:17:52] INFO root fetch - processPackages [ipdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipdm-0.2.0rc1.tar.gz tmp/ipdm-0.2.0rc2.tar.gz --markdown 20240402/i/ipdm/0.2.0rc1-0.2.0rc2/diff.md --exclude *.pyd
+[2024-04-02 14:17:52] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.2.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.3.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-02 14:17:52] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.4.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.5.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - main [MainThread]: End processing [zz-pix]: success
+[2024-04-02 14:17:52] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.4.0.dev6.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.4.0.post0.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - main [MainThread]: End processing [esbmc-ai]: success
+[2024-04-02 14:17:52] INFO root fetch - processPackages [dbt-teradata]: Remove: archive file [/home/abi/fetcher/tmp/dbt-teradata-1.7.1.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - processPackages [dbt-teradata]: Remove: archive file [/home/abi/fetcher/tmp/dbt-teradata-1.7.2.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - main [MainThread]: End processing [dbt-teradata]: success
+[2024-04-02 14:17:52] INFO root fetch - processPackages [ipdm]: Remove: archive file [/home/abi/fetcher/tmp/ipdm-0.2.0rc1.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - processPackages [ipdm]: Remove: archive file [/home/abi/fetcher/tmp/ipdm-0.2.0rc2.tar.gz]
+[2024-04-02 14:17:52] INFO root fetch - main [MainThread]: End processing [ipdm]: success
+[2024-04-02 14:17:53] INFO root fetch - processPackages [fluidimage]: executing diffoscope
+[2024-04-02 14:17:53] INFO root fetch - processPackages [fluidimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidimage-0.4.3.tar.gz tmp/fluidimage-0.4.3.post0.tar.gz --markdown 20240402/f/fluidimage/0.4.3-0.4.3.post0/diff.md --exclude *.pyd
+[2024-04-02 14:17:55] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.4.3.tar.gz]
+[2024-04-02 14:17:55] INFO root fetch - processPackages [fluidimage]: Remove: archive file [/home/abi/fetcher/tmp/fluidimage-0.4.3.post0.tar.gz]
+[2024-04-02 14:17:55] INFO root fetch - main [MainThread]: End processing [fluidimage]: success
+[2024-04-02 14:17:55] INFO root fetch - main [MainThread]: Store serial: [22584619]
