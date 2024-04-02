@@ -12692,3 +12692,35 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:20:54] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.4.tar.gz]
 [2024-04-02 09:20:54] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
 [2024-04-02 09:20:54] INFO root fetch - main [MainThread]: Store serial: [22581535]
+[2024-04-02 09:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581535]
+[2024-04-02 09:23:03] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 09:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: QT-PyQt-PySide-Custom-Widgets
+[2024-04-02 09:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: poll_schumann
+[2024-04-02 09:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ai-butler-sdk
+[2024-04-02 09:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwpeval
+[2024-04-02 09:23:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langtest
+[2024-04-02 09:23:03] WARNING root fetch - processPackages [poll_schumann]: Skipping, unable to determine old version
+[2024-04-02 09:23:03] INFO root fetch - main [MainThread]: End processing [poll_schumann] error
+[2024-04-02 09:23:03] INFO root fetch - processPackages [ai-butler-sdk]: New version: [0.4.7] Old Version: [0.4.6]
+[2024-04-02 09:23:04] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/83/d6/246bead58b5a4a1dd8642c3b27bc6347aa4c0e11d2eec246250e7930667b/ai_butler_sdk-0.4.6.tar.gz
+[2024-04-02 09:23:04] WARNING root fetch - processPackages [nwpeval]: Skipping, unable to determine old version
+[2024-04-02 09:23:04] INFO root fetch - main [MainThread]: End processing [nwpeval] error
+[2024-04-02 09:23:04] INFO root fetch - processPackages [langtest]: New version: [2.1.0rc2] Old Version: [2.1.0rc1]
+[2024-04-02 09:23:04] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-02 09:23:04] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/0b/29/a5730e4cfdf0e34aa6a9e187011822232842017e194195f82c8ac0332145/QT-PyQt-PySide-Custom-Widgets-0.9.2.tar.gz
+[2024-04-02 09:23:04] INFO root fetch - processPackages [langtest]: Downloading https://files.pythonhosted.org/packages/c1/b5/9ad8498855796f3dbe05c6fcadd6dbae5b19e43bd45e03236b3c950e3563/langtest-2.1.0rc1.tar.gz
+[2024-04-02 09:23:04] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/a3/07/912eb98b087d4e57ee0ec6fda273a60522a54ae5199cfc3067487788e478/ai_butler_sdk-0.4.7.tar.gz
+[2024-04-02 09:23:04] INFO root fetch - processPackages [ai-butler-sdk]: executing diffoscope
+[2024-04-02 09:23:04] INFO root fetch - processPackages [ai-butler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_butler_sdk-0.4.6.tar.gz tmp/ai_butler_sdk-0.4.7.tar.gz --markdown 20240402/a/ai-butler-sdk/0.4.6-0.4.7/diff.md --exclude *.pyd
+[2024-04-02 09:23:04] WARNING root fetch - processPackages [langtest]: Skipping package: exceeds size limit 19414392>=10485760
+[2024-04-02 09:23:04] INFO root fetch - main [MainThread]: End processing [langtest] error
+[2024-04-02 09:23:04] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/ea/94/e3bbe8170d9a7bb9a8823fde31afef548bdbf5941b33fc8dfaba1e660fb0/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz
+[2024-04-02 09:23:05] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.6.tar.gz]
+[2024-04-02 09:23:05] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.7.tar.gz]
+[2024-04-02 09:23:05] INFO root fetch - main [MainThread]: End processing [ai-butler-sdk]: success
+[2024-04-02 09:23:05] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: executing diffoscope
+[2024-04-02 09:23:05] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QT-PyQt-PySide-Custom-Widgets-0.9.2.tar.gz tmp/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz --markdown 20240402/Q/QT-PyQt-PySide-Custom-Widgets/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-02 09:23:22] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.2.tar.gz]
+[2024-04-02 09:23:22] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz]
+[2024-04-02 09:23:22] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
+[2024-04-02 09:23:22] INFO root fetch - main [MainThread]: Store serial: [22581556]
