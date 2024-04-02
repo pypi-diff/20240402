@@ -10650,3 +10650,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.7.tar.gz]
 [2024-04-02 06:55:27] INFO root fetch - main [MainThread]: End processing [LdShell]: success
 [2024-04-02 06:55:27] INFO root fetch - main [MainThread]: Store serial: [22580717]
+[2024-04-02 06:57:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580717]
+[2024-04-02 06:57:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: qapp-common
+[2024-04-02 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sleipnirgroup-jormungandr
+[2024-04-02 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: komoutils
+[2024-04-02 06:57:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LdShell
+[2024-04-02 06:57:36] INFO root fetch - processPackages [LdShell]: New version: [1.6.8] Old Version: [1.6.7]
+[2024-04-02 06:57:36] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev98] Old Version: [0.0.1.dev97]
+[2024-04-02 06:57:36] INFO root fetch - processPackages [qapp-common]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 06:57:36] INFO root fetch - processPackages [komoutils]: New version: [0.0.219] Old Version: [0.0.218]
+[2024-04-02 06:57:36] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/d8/59/54babb042696f2ca7f408a6b18beed89a67c85284ebcb5b70a8d0daf654f/LdShell-1.6.7.tar.gz
+[2024-04-02 06:57:36] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/28/418b4215dc7b2fc2d1d5585740b817072e5ec70aef99d61f67c2d914f773/sleipnirgroup_jormungandr-0.0.1.dev97.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [qapp-common]: Downloading https://files.pythonhosted.org/packages/6a/b6/3558beea1ef64772f2af4b19e1dff6953c924dff5c0ac1e21ed930867911/qapp-common-0.0.1.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/54/a1/a303587fdac321210e592d4aac22a079ddcd2d04d87a7111a4f31f9c15a4/komoutils-0.0.218.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/6d/7d/de652f192654933ea22191662367b1f43fcd666ef4f6593a6e16d65b4f02/LdShell-1.6.8.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-02 06:57:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev97.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz --markdown 20240402/s/sleipnirgroup-jormungandr/0.0.1.dev97-0.0.1.dev98/diff.md --exclude *.pyd
+[2024-04-02 06:57:37] INFO root fetch - processPackages [LdShell]: executing diffoscope
+[2024-04-02 06:57:37] INFO root fetch - processPackages [LdShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LdShell-1.6.7.tar.gz tmp/LdShell-1.6.8.tar.gz --markdown 20240402/L/LdShell/1.6.7-1.6.8/diff.md --exclude *.pyd
+[2024-04-02 06:57:37] INFO root fetch - processPackages [qapp-common]: Downloading https://files.pythonhosted.org/packages/98/8e/d122d8142783d5862ca199a24fce9556dbd4e50aceb378597f7bc6a9abe4/qapp-common-0.0.2.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/c6/98/d1c45b1b3a1d8b395087d9b6be823ee6853bd8461cee47d73bc9b46528b2/komoutils-0.0.219.tar.gz
+[2024-04-02 06:57:37] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-04-02 06:57:37] INFO root fetch - processPackages [qapp-common]: executing diffoscope
+[2024-04-02 06:57:37] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.218.tar.gz tmp/komoutils-0.0.219.tar.gz --markdown 20240402/k/komoutils/0.0.218-0.0.219/diff.md --exclude *.pyd
+[2024-04-02 06:57:37] INFO root fetch - processPackages [qapp-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qapp-common-0.0.1.tar.gz tmp/qapp-common-0.0.2.tar.gz --markdown 20240402/q/qapp-common/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 06:57:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev97.tar.gz]
+[2024-04-02 06:57:37] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-02 06:57:37] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-02 06:57:38] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.7.tar.gz]
+[2024-04-02 06:57:38] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.8.tar.gz]
+[2024-04-02 06:57:38] INFO root fetch - main [MainThread]: End processing [LdShell]: success
+[2024-04-02 06:57:38] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.218.tar.gz]
+[2024-04-02 06:57:38] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.219.tar.gz]
+[2024-04-02 06:57:38] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-04-02 06:57:38] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.1.tar.gz]
+[2024-04-02 06:57:38] INFO root fetch - processPackages [qapp-common]: Remove: archive file [/home/abi/fetcher/tmp/qapp-common-0.0.2.tar.gz]
+[2024-04-02 06:57:38] INFO root fetch - main [MainThread]: End processing [qapp-common]: success
+[2024-04-02 06:57:38] INFO root fetch - main [MainThread]: Store serial: [22580740]
