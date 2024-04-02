@@ -12112,3 +12112,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:46:40] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc1-py3-none-any.whl.zip]
 [2024-04-02 08:46:40] INFO root fetch - main [MainThread]: End processing [keelson]: success
 [2024-04-02 08:46:40] INFO root fetch - main [MainThread]: Store serial: [22581316]
+[2024-04-02 08:48:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581316]
+[2024-04-02 08:48:50] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: synctl
+[2024-04-02 08:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pweb-extra
+[2024-04-02 08:48:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-02 08:48:50] INFO root fetch - processPackages [pweb-extra]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 08:48:50] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-02 08:48:50] INFO root fetch - processPackages [pweb-extra]: Downloading https://files.pythonhosted.org/packages/59/73/d392a2efd8122067aa1c177e407708ad1958743525924d5d2307146f851d/pweb-extra-1.0.1.tar.gz
+[2024-04-02 08:48:50] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/a8/3e/daf640cf70746f0803a54917371a6b9d998d24610b46285c5da996e09597/telegram_collector-0.0.6.tar.gz
+[2024-04-02 08:48:50] INFO root fetch - processPackages [synctl]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-02 08:48:51] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/d5/85/89b55d0bc5d6f347a423312b98d2a07b5be2fa39fb84d3f054ab9ae0fc66/synctl-1.1.6.tar.gz
+[2024-04-02 08:48:51] INFO root fetch - processPackages [pweb-extra]: Downloading https://files.pythonhosted.org/packages/8f/b7/7938aee1d6f29a7c159cd3f510b99ecda036d0d192a9e1eb30cbf100290e/pweb-extra-1.0.2.tar.gz
+[2024-04-02 08:48:51] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/88/9d/c3b7dc84b6195c417ea8411012dce12a1d04354232d0c3d544e629490dd1/telegram_collector-0.0.7.tar.gz
+[2024-04-02 08:48:51] INFO root fetch - processPackages [pweb-extra]: executing diffoscope
+[2024-04-02 08:48:51] INFO root fetch - processPackages [pweb-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pweb-extra-1.0.1.tar.gz tmp/pweb-extra-1.0.2.tar.gz --markdown 20240402/p/pweb-extra/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 08:48:51] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-02 08:48:51] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.6.tar.gz tmp/telegram_collector-0.0.7.tar.gz --markdown 20240402/t/telegram-collector/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-02 08:48:51] INFO root fetch - processPackages [synctl]: Downloading https://files.pythonhosted.org/packages/36/81/2b410408eb308611bcd168ba17468b284d09bae2dab8e916051ef2d96ab4/synctl-1.1.7.tar.gz
+[2024-04-02 08:48:51] INFO root fetch - processPackages [synctl]: executing diffoscope
+[2024-04-02 08:48:51] INFO root fetch - processPackages [synctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synctl-1.1.6.tar.gz tmp/synctl-1.1.7.tar.gz --markdown 20240402/s/synctl/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-02 08:48:51] INFO root fetch - processPackages [pweb-extra]: Remove: archive file [/home/abi/fetcher/tmp/pweb-extra-1.0.1.tar.gz]
+[2024-04-02 08:48:51] INFO root fetch - processPackages [pweb-extra]: Remove: archive file [/home/abi/fetcher/tmp/pweb-extra-1.0.2.tar.gz]
+[2024-04-02 08:48:51] INFO root fetch - main [MainThread]: End processing [pweb-extra]: success
+[2024-04-02 08:48:51] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.6.tar.gz]
+[2024-04-02 08:48:51] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.7.tar.gz]
+[2024-04-02 08:48:51] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-02 08:48:52] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.6.tar.gz]
+[2024-04-02 08:48:52] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.7.tar.gz]
+[2024-04-02 08:48:52] INFO root fetch - main [MainThread]: End processing [synctl]: success
+[2024-04-02 08:48:52] INFO root fetch - main [MainThread]: Store serial: [22581324]
