@@ -13680,3 +13680,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:00:58] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
 [2024-04-02 10:00:58] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
 [2024-04-02 10:00:58] INFO root fetch - main [MainThread]: Store serial: [22581879]
+[2024-04-02 10:03:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581879]
+[2024-04-02 10:03:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 10:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-reportmodifier
+[2024-04-02 10:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: junifer
+[2024-04-02 10:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ypricemagic
+[2024-04-02 10:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testingcgsdk
+[2024-04-02 10:03:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botasaurus
+[2024-04-02 10:03:07] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.7] Old Version: [0.0.6]
+[2024-04-02 10:03:07] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/a6/29/ded1204cf298a5497d284f58ba0502e9598419b155672f81009d1b19fbef/testingcgsdk-0.0.6-py3-none-any.whl
+[2024-04-02 10:03:07] INFO root fetch - processPackages [robotframework-reportmodifier]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-02 10:03:07] INFO root fetch - processPackages [botasaurus]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-02 10:03:07] INFO root fetch - processPackages [junifer]: New version: [0.0.4.dev90] Old Version: [0.0.4.dev85]
+[2024-04-02 10:03:07] INFO root fetch - processPackages [ypricemagic]: New version: [3.4.5] Old Version: [3.4.4]
+[2024-04-02 10:03:08] INFO root fetch - processPackages [robotframework-reportmodifier]: Downloading https://files.pythonhosted.org/packages/b4/aa/75a502db820869740c78891f096b5af843f12d13abcaff5e033dd82406cd/robotframework_reportmodifier-0.1.9.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/16/4a/b4b9a0dabecf2510edc5649109db43fb9fa51c6ae4ddedd1e6a195dbc11b/junifer-0.0.4.dev85.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [botasaurus]: Downloading https://files.pythonhosted.org/packages/ad/bc/f4729acfd46dc760de590e2e3698c002b1b341d8f01ff3b5e4bb8eeab44b/botasaurus-4.0.8.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/60/34/4eaa526c35096a3cad4ce75ceec67758924ebba39f142d6266eb3e464c17/ypricemagic-3.4.4.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [ypricemagic]: Downloading https://files.pythonhosted.org/packages/b2/2d/1f007a94637c0ed116f6d61d583a77e14955ea67f3f0803afce40465d7aa/ypricemagic-3.4.5.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [robotframework-reportmodifier]: Downloading https://files.pythonhosted.org/packages/d8/1f/2b8496cfbd9597d2ab056420d4efdbd788166a0b02c4787033abce1ac2f0/robotframework_reportmodifier-0.2.0.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [botasaurus]: Downloading https://files.pythonhosted.org/packages/48/85/aa89407c3f2e6d22d0ccb32b3fc4efbcba7b7cca99b59decbb1bca8fb313/botasaurus-4.0.9.tar.gz
+[2024-04-02 10:03:08] INFO root fetch - processPackages [robotframework-reportmodifier]: executing diffoscope
+[2024-04-02 10:03:08] INFO root fetch - processPackages [robotframework-reportmodifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_reportmodifier-0.1.9.tar.gz tmp/robotframework_reportmodifier-0.2.0.tar.gz --markdown 20240402/r/robotframework-reportmodifier/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 10:03:08] INFO root fetch - processPackages [ypricemagic]: executing diffoscope
+[2024-04-02 10:03:08] INFO root fetch - processPackages [ypricemagic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ypricemagic-3.4.4.tar.gz tmp/ypricemagic-3.4.5.tar.gz --markdown 20240402/y/ypricemagic/3.4.4-3.4.5/diff.md --exclude *.pyd
+[2024-04-02 10:03:08] INFO root fetch - processPackages [botasaurus]: executing diffoscope
+[2024-04-02 10:03:08] INFO root fetch - processPackages [botasaurus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus-4.0.8.tar.gz tmp/botasaurus-4.0.9.tar.gz --markdown 20240402/b/botasaurus/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:03:09] INFO root fetch - processPackages [robotframework-reportmodifier]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_reportmodifier-0.1.9.tar.gz]
+[2024-04-02 10:03:09] INFO root fetch - processPackages [robotframework-reportmodifier]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_reportmodifier-0.2.0.tar.gz]
+[2024-04-02 10:03:09] INFO root fetch - main [MainThread]: End processing [robotframework-reportmodifier]: success
+[2024-04-02 10:03:09] INFO root fetch - processPackages [botasaurus]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus-4.0.8.tar.gz]
+[2024-04-02 10:03:09] INFO root fetch - processPackages [botasaurus]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus-4.0.9.tar.gz]
+[2024-04-02 10:03:09] INFO root fetch - main [MainThread]: End processing [botasaurus]: success
+[2024-04-02 10:03:09] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-3.4.4.tar.gz]
+[2024-04-02 10:03:09] INFO root fetch - processPackages [ypricemagic]: Remove: archive file [/home/abi/fetcher/tmp/ypricemagic-3.4.5.tar.gz]
+[2024-04-02 10:03:09] INFO root fetch - main [MainThread]: End processing [ypricemagic]: success
+[2024-04-02 10:03:18] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/e2/a1/f7ee580671c86ca5707cfc07d228917ba019fc6e571eec339a6ad5f74f87/testingcgsdk-0.0.7-py3-none-any.whl
+[2024-04-02 10:03:18] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 10:03:18] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.6-py3-none-any.whl.zip tmp/testingcgsdk-0.0.7-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2024-04-02 10:03:18] INFO root fetch - processPackages [junifer]: Downloading https://files.pythonhosted.org/packages/e6/05/c7c91db975a267f8eed19e16c7050ca736d00f3ba07d885b1c775a0477c9/junifer-0.0.4.dev90.tar.gz
+[2024-04-02 10:03:18] INFO root fetch - processPackages [junifer]: executing diffoscope
+[2024-04-02 10:03:18] INFO root fetch - processPackages [junifer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/junifer-0.0.4.dev85.tar.gz tmp/junifer-0.0.4.dev90.tar.gz --markdown 20240402/j/junifer/0.0.4.dev85-0.0.4.dev90/diff.md --exclude *.pyd
+[2024-04-02 10:03:18] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.6-py3-none-any.whl.zip]
+[2024-04-02 10:03:18] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.7-py3-none-any.whl.zip]
+[2024-04-02 10:03:18] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 10:03:20] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev85.tar.gz]
+[2024-04-02 10:03:20] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
+[2024-04-02 10:03:20] INFO root fetch - main [MainThread]: End processing [junifer]: success
+[2024-04-02 10:03:20] INFO root fetch - main [MainThread]: Store serial: [22581893]
