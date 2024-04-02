@@ -2017,3 +2017,42 @@
 [2024-04-02 02:00:01] INFO root fetch - processPackages [cuenca]: Remove: archive file [/home/abi/fetcher/tmp/cuenca-1.0.0.tar.gz]
 [2024-04-02 02:00:01] INFO root fetch - main [MainThread]: End processing [cuenca]: success
 [2024-04-02 02:00:01] INFO root fetch - main [MainThread]: Store serial: [22577401]
+[2024-04-02 02:02:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577401]
+[2024-04-02 02:02:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-04-02 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cybrid-api-id-python
+[2024-04-02 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: totp-auth
+[2024-04-02 02:02:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-bank-python
+[2024-04-02 02:02:11] INFO root fetch - processPackages [totp-auth]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-02 02:02:11] INFO root fetch - processPackages [cybrid-api-bank-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-02 02:02:11] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-02 02:02:11] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-02 02:02:11] INFO root fetch - processPackages [totp-auth]: Downloading https://files.pythonhosted.org/packages/b7/e6/55b3797857a9600f214774417a093f76894faa7f4c2ccdf1c03bb3e85ad1/totp_auth-1.1.8.tar.gz
+[2024-04-02 02:02:11] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/da/dd/e8ea2fc7e8f671e18adae35333d00fdc692f7637860f9e361fba5fe3b85a/cybrid-api-bank-python-0.98.2.tar.gz
+[2024-04-02 02:02:11] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-02 02:02:12] INFO root fetch - processPackages [totp-auth]: Downloading https://files.pythonhosted.org/packages/dd/8a/bed747dcc3c1ccacc402afdc8d98320988c3333593fc432f8b1393b0cf14/totp_auth-1.1.9.tar.gz
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-bank-python]: Downloading https://files.pythonhosted.org/packages/a1/e6/1c6a95191a8826ea0636949d5bfdb7d34a65b1f81b3cb27e1863a88a1552/cybrid-api-bank-python-0.99.0.tar.gz
+[2024-04-02 02:02:12] INFO root fetch - processPackages [totp-auth]: executing diffoscope
+[2024-04-02 02:02:12] INFO root fetch - processPackages [totp-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/totp_auth-1.1.8.tar.gz tmp/totp_auth-1.1.9.tar.gz --markdown 20240402/t/totp-auth/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-bank-python]: executing diffoscope
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-bank-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-bank-python-0.98.2.tar.gz tmp/cybrid-api-bank-python-0.99.0.tar.gz --markdown 20240402/c/cybrid-api-bank-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240402/c/cybrid-api-id-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-02 02:02:12] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240402/c/cybrid-api-organization-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 02:02:12] INFO root fetch - processPackages [totp-auth]: Remove: archive file [/home/abi/fetcher/tmp/totp_auth-1.1.8.tar.gz]
+[2024-04-02 02:02:12] INFO root fetch - processPackages [totp-auth]: Remove: archive file [/home/abi/fetcher/tmp/totp_auth-1.1.9.tar.gz]
+[2024-04-02 02:02:12] INFO root fetch - main [MainThread]: End processing [totp-auth]: success
+[2024-04-02 02:02:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-02 02:02:13] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-02 02:02:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-02 02:02:13] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-02 02:02:13] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-02 02:02:13] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-02 02:02:14] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.98.2.tar.gz]
+[2024-04-02 02:02:14] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
+[2024-04-02 02:02:14] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
+[2024-04-02 02:02:14] INFO root fetch - main [MainThread]: Store serial: [22577413]
