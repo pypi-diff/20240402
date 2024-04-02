@@ -12142,3 +12142,29 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:48:52] INFO root fetch - processPackages [synctl]: Remove: archive file [/home/abi/fetcher/tmp/synctl-1.1.7.tar.gz]
 [2024-04-02 08:48:52] INFO root fetch - main [MainThread]: End processing [synctl]: success
 [2024-04-02 08:48:52] INFO root fetch - main [MainThread]: Store serial: [22581324]
+[2024-04-02 08:50:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581324]
+[2024-04-02 08:51:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-04-02 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muti.numer
+[2024-04-02 08:51:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stable-diffusion-cpp-python
+[2024-04-02 08:51:02] INFO root fetch - processPackages [muti.numer]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 08:51:02] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc2] Old Version: [0.3.0rc1]
+[2024-04-02 08:51:02] INFO root fetch - processPackages [stable-diffusion-cpp-python]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 08:51:02] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/ab/1c/132a73630943cc13c45586167c5dc0c04b08784d73c8eba1df2b0a4b549e/keelson-0.3.0rc1-py3-none-any.whl
+[2024-04-02 08:51:02] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/f8/2f/2d6212f866be06d14c23729029bc5bf42758da6bba8ede6fc07d0029a9c5/muti.numer-0.0.1.tar.gz
+[2024-04-02 08:51:02] INFO root fetch - processPackages [stable-diffusion-cpp-python]: Downloading https://files.pythonhosted.org/packages/db/6b/838767b07935da31adc70c195f7db53ae937da0cebc3a5c459340251b5db/stable_diffusion_cpp_python-0.1.2.tar.gz
+[2024-04-02 08:51:02] WARNING root fetch - processPackages [stable-diffusion-cpp-python]: Skipping package: exceeds size limit 30864266>=10485760
+[2024-04-02 08:51:02] INFO root fetch - main [MainThread]: End processing [stable-diffusion-cpp-python] error
+[2024-04-02 08:51:02] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/d3/8a/15224e14eb0becefb55f59e0445af6ac27c99040287343e684cb83dbe332/keelson-0.3.0rc2-py3-none-any.whl
+[2024-04-02 08:51:02] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/46/00/224d1ec4f0b77341e6428bdd00404c89ee2c45118762fff92d62fe66247c/muti.numer-0.0.2.tar.gz
+[2024-04-02 08:51:02] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-02 08:51:02] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc1-py3-none-any.whl.zip tmp/keelson-0.3.0rc2-py3-none-any.whl.zip --markdown 20240402/k/keelson/0.3.0rc1-0.3.0rc2/diff.md --exclude *.pyd
+[2024-04-02 08:51:02] INFO root fetch - processPackages [muti.numer]: executing diffoscope
+[2024-04-02 08:51:02] INFO root fetch - processPackages [muti.numer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.numer-0.0.1.tar.gz tmp/muti.numer-0.0.2.tar.gz --markdown 20240402/m/muti.numer/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 08:51:03] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc1-py3-none-any.whl.zip]
+[2024-04-02 08:51:03] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc2-py3-none-any.whl.zip]
+[2024-04-02 08:51:03] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-02 08:51:03] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.1.tar.gz]
+[2024-04-02 08:51:03] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.2.tar.gz]
+[2024-04-02 08:51:03] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
+[2024-04-02 08:51:03] INFO root fetch - main [MainThread]: Store serial: [22581331]
