@@ -11789,3 +11789,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:17:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402022341.tar.gz]
 [2024-04-02 08:17:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-02 08:17:59] INFO root fetch - main [MainThread]: Store serial: [22581190]
+[2024-04-02 08:20:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581190]
+[2024-04-02 08:20:10] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 08:20:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genice2-svg
+[2024-04-02 08:20:10] INFO root fetch - processPackages [genice2-svg]: New version: [2.4.1] Old Version: [2.2]
+[2024-04-02 08:20:10] INFO root fetch - processPackages [genice2-svg]: Downloading https://files.pythonhosted.org/packages/39/9e/1d9635470c1254aa6706e34c8564f75cc1afccd6fc33b706bdbef35c3257/genice2-svg-2.2.tar.gz
+[2024-04-02 08:20:10] INFO root fetch - processPackages [genice2-svg]: Downloading https://files.pythonhosted.org/packages/06/41/75bc2f5ac26f90b722c2401dcef69bdff231e61bb3ba6740b9decc572526/genice2_svg-2.4.1.tar.gz
+[2024-04-02 08:20:11] INFO root fetch - processPackages [genice2-svg]: executing diffoscope
+[2024-04-02 08:20:11] INFO root fetch - processPackages [genice2-svg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genice2-svg-2.2.tar.gz tmp/genice2_svg-2.4.1.tar.gz --markdown 20240402/g/genice2-svg/2.2-2.4.1/diff.md --exclude *.pyd
+[2024-04-02 08:20:11] INFO root fetch - processPackages [genice2-svg]: Remove: archive file [/home/abi/fetcher/tmp/genice2-svg-2.2.tar.gz]
+[2024-04-02 08:20:11] INFO root fetch - processPackages [genice2-svg]: Remove: archive file [/home/abi/fetcher/tmp/genice2_svg-2.4.1.tar.gz]
+[2024-04-02 08:20:11] INFO root fetch - main [MainThread]: End processing [genice2-svg]: success
+[2024-04-02 08:20:11] INFO root fetch - main [MainThread]: Store serial: [22581193]
