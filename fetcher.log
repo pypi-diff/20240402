@@ -21796,3 +21796,104 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:07:59] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.8.tar.gz]
 [2024-04-02 15:07:59] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
 [2024-04-02 15:07:59] INFO root fetch - main [MainThread]: Store serial: [22585243]
+[2024-04-02 15:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585243]
+[2024-04-02 15:10:08] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: peaqevcore
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flickr-photos-api
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantplay
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: arion-library
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-local-exec
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ewatercycle-DA
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dask-kubernetes
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mediapipe-nightly
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-cdk8s
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bert4keras3
+[2024-04-02 15:10:08] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [arion-library]: New version: [2.1.0] Old Version: [1.1.0]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [bert4keras3]: New version: [1.2.6] Old Version: [1.2.5]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2024-04-02 15:10:08] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/85/5a/73243aeaff620ba21105a0fed4c88451c96bb985e58b351e0961a921382d/arion_library-1.1.0.tar.gz
+[2024-04-02 15:10:08] INFO root fetch - processPackages [ewatercycle-DA]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/dd/a1/721efd8a9e7657d0da18d6d31b4123f379ecb7c1e85ad65ed759f2cea389/bert4keras3-1.2.5-py3-none-any.whl
+[2024-04-02 15:10:08] INFO root fetch - processPackages [mediapipe-nightly]: New version: [0.10.12.post20240402] Old Version: [0.10.12.post20240325]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [flickr-photos-api]: New version: [1.9.2] Old Version: [1.9.1]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [dask-kubernetes]: New version: [2024.4.0] Old Version: [2024.3.1]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [cdktf-local-exec]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-02 15:10:08] INFO root fetch - processPackages [cdktf-cdk8s]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 15:10:09] INFO root fetch - processPackages [mediapipe-nightly]: Downloading https://files.pythonhosted.org/packages/f7/62/996c3b749e5af6f29559bbae0800a50efb34799a6db35f52ed10df2263c6/mediapipe_nightly-0.10.12.post20240325-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-02 15:10:09] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/29/d2/dfaa2d9faa31a88f1c421f4b58a0d4ba312aa191495033ea3f8aac37a200/flickr-photos-api-1.9.1.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/2c/87adc33285dcbf332ed15bf5ed557c3d1e77602946b1028ac5c309599552/arion_library-2.1.0.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [ewatercycle-DA]: Downloading https://files.pythonhosted.org/packages/af/3d/bfd6ce69b68139250c9729b2a6287305b20886b411701ac1d30a3bb3fec3/ewatercycle_da-0.0.2.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2024-04-02 15:10:09] WARNING root fetch - processPackages [mediapipe-nightly]: Skipping package: exceeds size limit 50281001>=10485760
+[2024-04-02 15:10:09] INFO root fetch - processPackages [mediapipe-nightly]: Start processing: SSQQSS
+[2024-04-02 15:10:09] INFO root fetch - main [MainThread]: End processing [mediapipe-nightly] error
+[2024-04-02 15:10:09] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/85/aa/1152f84f63e3831f43b0fed18c7ebeca68394b041b44cc6dfbaf928fc19d/dask-kubernetes-2024.3.1.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/99/a9/22344888a8fca72d2966fa4f98932af4bdd98bcac60e5d091a8e0b304cce/cdktf-cdk8s-0.9.8.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/2e/c5/c7466186e123ce498250d5bcf9a74d6fb62a4d7add3b345da0ce48901c49/cdktf-local-exec-0.5.8.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [bert4keras3]: Downloading https://files.pythonhosted.org/packages/4c/04/86903283afa7576fb9f9543889dc35c759d040718c40acff11f095dfb70f/bert4keras3-1.2.6-py3-none-any.whl
+[2024-04-02 15:10:09] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1.0.tar.gz tmp/arion_library-2.1.0.tar.gz --markdown 20240402/a/arion-library/1.1.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] WARNING root fetch - processPackages [SSQQSS]: Skipping, unable to determine old version
+[2024-04-02 15:10:09] INFO root fetch - processPackages [SSQQSS]: Start processing: cdktf-tf-module-stack
+[2024-04-02 15:10:09] INFO root fetch - main [MainThread]: End processing [SSQQSS] error
+[2024-04-02 15:10:09] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20240402/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] INFO root fetch - processPackages [bert4keras3]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [bert4keras3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bert4keras3-1.2.5-py3-none-any.whl.zip tmp/bert4keras3-1.2.6-py3-none-any.whl.zip --markdown 20240402/b/bert4keras3/1.2.5-1.2.6/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-tf-module-stack]: New version: [5.0.9] Old Version: [5.0.8]
+[2024-04-02 15:10:09] INFO root fetch - processPackages [flickr-photos-api]: Downloading https://files.pythonhosted.org/packages/38/ac/07447b6ae1d72699cff5c06fed59a01c0e90667034da3f730eacfbc3a77f/flickr-photos-api-1.9.2.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-cdk8s]: Downloading https://files.pythonhosted.org/packages/20/45/51fb70e05adcb2ecf1886baf859815ec9ba32caaa0a97ffb3e4c544d7025/cdktf-cdk8s-0.9.9.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [flickr-photos-api]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [flickr-photos-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flickr-photos-api-1.9.1.tar.gz tmp/flickr-photos-api-1.9.2.tar.gz --markdown 20240402/f/flickr-photos-api/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] INFO root fetch - processPackages [dask-kubernetes]: Downloading https://files.pythonhosted.org/packages/49/7d/e3f1f5d057a06d8b66fd859353aede9403a843a82fd893cd5cf03710880f/dask-kubernetes-2024.4.0.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-local-exec]: Downloading https://files.pythonhosted.org/packages/74/2d/a8a976a3354f955288422458b23352fe0a12f11928fcc3369a6d8a2254a1/cdktf-local-exec-0.5.9.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/c1/d6/bcdb03cd6a1d878e00460831e6347159681b80373ee2f77adf41661e8719/cdktf-tf-module-stack-5.0.8.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-02 15:10:09] INFO root fetch - processPackages [dask-kubernetes]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [dask-kubernetes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-kubernetes-2024.3.1.tar.gz tmp/dask-kubernetes-2024.4.0.tar.gz --markdown 20240402/d/dask-kubernetes/2024.3.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240402/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-local-exec]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-local-exec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-local-exec-0.5.8.tar.gz tmp/cdktf-local-exec-0.5.9.tar.gz --markdown 20240402/c/cdktf-local-exec/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-cdk8s]: executing diffoscope
+[2024-04-02 15:10:09] INFO root fetch - processPackages [cdktf-cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdk8s-0.9.8.tar.gz tmp/cdktf-cdk8s-0.9.9.tar.gz --markdown 20240402/c/cdktf-cdk8s/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 15:10:10] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1.0.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-2.1.0.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: Downloading https://files.pythonhosted.org/packages/af/b7/75603d995d5224ba49ee11765e757fab2ecf9e2a28e00a542ad9d8669ba4/cdktf-tf-module-stack-5.0.9.tar.gz
+[2024-04-02 15:10:10] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.5-py3-none-any.whl.zip]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [bert4keras3]: Remove: archive file [/home/abi/fetcher/tmp/bert4keras3-1.2.6-py3-none-any.whl.zip]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [bert4keras3]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: executing diffoscope
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-tf-module-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-tf-module-stack-5.0.8.tar.gz tmp/cdktf-tf-module-stack-5.0.9.tar.gz --markdown 20240402/c/cdktf-tf-module-stack/5.0.8-5.0.9/diff.md --exclude *.pyd
+[2024-04-02 15:10:10] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.1.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [flickr-photos-api]: Remove: archive file [/home/abi/fetcher/tmp/flickr-photos-api-1.9.2.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [flickr-photos-api]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.8.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-local-exec]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-local-exec-0.5.9.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [cdktf-local-exec]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [ewatercycle-DA]: Downloading https://files.pythonhosted.org/packages/16/9a/a38b2e971e42d38bcff3c88d7db89d364aa20f1b37792f2ef97bc9ae021d/ewatercycle_da-0.0.3.tar.gz
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.8.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [cdktf-cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdk8s-0.9.9.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [cdktf-cdk8s]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-02 15:10:10] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2024.3.1.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - processPackages [dask-kubernetes]: Remove: archive file [/home/abi/fetcher/tmp/dask-kubernetes-2024.4.0.tar.gz]
+[2024-04-02 15:10:10] INFO root fetch - main [MainThread]: End processing [dask-kubernetes]: success
+[2024-04-02 15:10:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.8.tar.gz]
+[2024-04-02 15:10:11] INFO root fetch - processPackages [cdktf-tf-module-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-tf-module-stack-5.0.9.tar.gz]
+[2024-04-02 15:10:11] INFO root fetch - main [MainThread]: End processing [cdktf-tf-module-stack]: success
+[2024-04-02 15:10:11] INFO root fetch - processPackages [ewatercycle-DA]: executing diffoscope
+[2024-04-02 15:10:11] INFO root fetch - processPackages [ewatercycle-DA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewatercycle_da-0.0.2.tar.gz tmp/ewatercycle_da-0.0.3.tar.gz --markdown 20240402/e/ewatercycle-DA/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 15:10:12] INFO root fetch - processPackages [ewatercycle-DA]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_da-0.0.2.tar.gz]
+[2024-04-02 15:10:12] INFO root fetch - processPackages [ewatercycle-DA]: Remove: archive file [/home/abi/fetcher/tmp/ewatercycle_da-0.0.3.tar.gz]
+[2024-04-02 15:10:12] INFO root fetch - main [MainThread]: End processing [ewatercycle-DA]: success
+[2024-04-02 15:10:12] INFO root fetch - main [MainThread]: Store serial: [22585280]
