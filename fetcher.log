@@ -8917,3 +8917,26 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:31:49] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.8-py3-none-any.whl.zip]
 [2024-04-02 04:31:49] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-02 04:31:49] INFO root fetch - main [MainThread]: Store serial: [22580041]
+[2024-04-02 04:33:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580041]
+[2024-04-02 04:33:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: homeassistant
+[2024-04-02 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seidart
+[2024-04-02 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dask-ml
+[2024-04-02 04:33:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: SlideDetector
+[2024-04-02 04:33:58] INFO root fetch - processPackages [homeassistant]: New version: [2024.4.0b4] Old Version: [2024.4.0b3]
+[2024-04-02 04:33:58] WARNING root fetch - processPackages [SlideDetector]: Skipping, unable to determine old version
+[2024-04-02 04:33:58] INFO root fetch - main [MainThread]: End processing [SlideDetector] error
+[2024-04-02 04:33:58] WARNING root fetch - processPackages [seidart]: Skipping, unable to determine old version
+[2024-04-02 04:33:58] INFO root fetch - main [MainThread]: End processing [seidart] error
+[2024-04-02 04:33:58] INFO root fetch - processPackages [dask-ml]: New version: [2024.4.4] Old Version: [2024.3.20]
+[2024-04-02 04:33:58] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/71/06/f73985ef11fea76641c713f00a8adbb3ca6d06667670bb5bebf8a2ba5df2/homeassistant-2024.4.0b3.tar.gz
+[2024-04-02 04:33:58] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 20554236>=10485760
+[2024-04-02 04:33:58] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2024-04-02 04:33:58] INFO root fetch - processPackages [dask-ml]: Downloading https://files.pythonhosted.org/packages/a6/ed/429e227e069f51a5b2e3a7c3a1b71df02fbda00616615f6ef2f17c1e0d7b/dask-ml-2024.3.20.tar.gz
+[2024-04-02 04:33:58] INFO root fetch - processPackages [dask-ml]: Downloading https://files.pythonhosted.org/packages/e2/16/bd171c0f7df2a830c457ded31b81a68af812691fcd57fd6815b64ca5c94c/dask_ml-2024.4.4.tar.gz
+[2024-04-02 04:33:58] INFO root fetch - processPackages [dask-ml]: executing diffoscope
+[2024-04-02 04:33:58] INFO root fetch - processPackages [dask-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-ml-2024.3.20.tar.gz tmp/dask_ml-2024.4.4.tar.gz --markdown 20240402/d/dask-ml/2024.3.20-2024.4.4/diff.md --exclude *.pyd
+[2024-04-02 04:33:59] INFO root fetch - processPackages [dask-ml]: Remove: archive file [/home/abi/fetcher/tmp/dask-ml-2024.3.20.tar.gz]
+[2024-04-02 04:33:59] INFO root fetch - processPackages [dask-ml]: Remove: archive file [/home/abi/fetcher/tmp/dask_ml-2024.4.4.tar.gz]
+[2024-04-02 04:33:59] INFO root fetch - main [MainThread]: End processing [dask-ml]: success
+[2024-04-02 04:33:59] INFO root fetch - main [MainThread]: Store serial: [22580055]
