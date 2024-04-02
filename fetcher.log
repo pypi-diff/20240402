@@ -15695,3 +15695,74 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:18:05] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2024-04-02 11:18:05] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2024-04-02 11:18:05] INFO root fetch - main [MainThread]: Store serial: [22582742]
+[2024-04-02 11:20:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582742]
+[2024-04-02 11:20:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shapeout2
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: delayed-rm
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: napari-toothfairy-annotator
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wata
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zen-test
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: covjson-pydantic
+[2024-04-02 11:20:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alohapy
+[2024-04-02 11:20:13] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 11:20:13] INFO root fetch - processPackages [alohapy]: New version: [0.2.1] Old Version: [0.1]
+[2024-04-02 11:20:13] INFO root fetch - processPackages [zen-test]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 11:20:14] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/88/9d/c3b7dc84b6195c417ea8411012dce12a1d04354232d0c3d544e629490dd1/telegram_collector-0.0.7.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [wata]: New version: [0.1.2.15.2] Old Version: [0.1.2.15.1]
+[2024-04-02 11:20:14] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 11:20:14] INFO root fetch - processPackages [alohapy]: Downloading https://files.pythonhosted.org/packages/b0/66/5e35b29823b6c21fd140036baf2042013a4e67dc57a92e8b9c3bfed21842/alohapy-0.1.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [covjson-pydantic]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-02 11:20:14] INFO root fetch - processPackages [shapeout2]: New version: [2.9.6] Old Version: [2.9.5]
+[2024-04-02 11:20:14] INFO root fetch - processPackages [zen-test]: Downloading https://files.pythonhosted.org/packages/31/b7/b17106b4e3ce8588e42b4e1e637366c8eca17fb7d1ed300a86a5d990e55f/zen-test-0.0.1.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [delayed-rm]: New version: [2.8.2] Old Version: [2.8.1]
+[2024-04-02 11:20:14] INFO root fetch - processPackages [wata]: Downloading https://files.pythonhosted.org/packages/dc/4f/7d91ef4fb4221ffc53de7e67b813140f1a4cbed3d7a6315bfaa48530019b/wata-0.1.2.15.1-py3-none-any.whl
+[2024-04-02 11:20:14] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/47/26/eb7c58a76ec036cbccd2f98055a12d20cf63d6332f0f970915e97edf02da/napari-toothfairy-annotator-0.0.2.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/27/26/7e5e08bc714db215c9103bad6c7528a292dad54c0cd3e56a556dd2fd660a/shapeout2-2.9.5.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [covjson-pydantic]: Downloading https://files.pythonhosted.org/packages/1f/b9/4401d7417353f3cbf51839e7c1834986396a74813dc24a993fe1f501a999/covjson_pydantic-0.2.1.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [alohapy]: Downloading https://files.pythonhosted.org/packages/7e/eb/77f212f80bc26aebf65879d4f4ca8f41d4d5daf0b25386ac18cfe698e468/alohapy-0.2.1.tar.gz
+[2024-04-02 11:20:14] WARNING root fetch - processPackages [wata]: Skipping package: exceeds size limit 45882422>=10485760
+[2024-04-02 11:20:14] INFO root fetch - main [MainThread]: End processing [wata] error
+[2024-04-02 11:20:14] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/cf/6b/d795f55bc58ce47ec63c00f84b3db722350ac9aa54724d9ddb10b0e74f1d/telegram_collector-0.0.8.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [delayed-rm]: Downloading https://files.pythonhosted.org/packages/f5/8e/3eb54351e4e0e6c32f20b5f1226a23814cdb9ac485664e7be6115f52e768/delayed_rm-2.8.1.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [alohapy]: executing diffoscope
+[2024-04-02 11:20:14] INFO root fetch - processPackages [alohapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alohapy-0.1.tar.gz tmp/alohapy-0.2.1.tar.gz --markdown 20240402/a/alohapy/0.1-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 11:20:14] INFO root fetch - processPackages [zen-test]: Downloading https://files.pythonhosted.org/packages/87/5b/a56650ec83ebd77eeab81b07c33472e632c4bfa096a0bae2243f52d43b2a/zen-test-0.0.2.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-02 11:20:14] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.7.tar.gz tmp/telegram_collector-0.0.8.tar.gz --markdown 20240402/t/telegram-collector/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 11:20:14] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/ee/12/f16984001cd9a7860c594049bb7b90b77607d33e913c72f384ee88a7cd3b/napari-toothfairy-annotator-0.0.3.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [covjson-pydantic]: Downloading https://files.pythonhosted.org/packages/e3/a7/52411395f128c70c847e0f8aab9b848918d363985a2e3da6fa6efddb9375/covjson_pydantic-0.3.0.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [zen-test]: executing diffoscope
+[2024-04-02 11:20:14] INFO root fetch - processPackages [zen-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zen-test-0.0.1.tar.gz tmp/zen-test-0.0.2.tar.gz --markdown 20240402/z/zen-test/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 11:20:14] INFO root fetch - processPackages [covjson-pydantic]: executing diffoscope
+[2024-04-02 11:20:14] INFO root fetch - processPackages [covjson-pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covjson_pydantic-0.2.1.tar.gz tmp/covjson_pydantic-0.3.0.tar.gz --markdown 20240402/c/covjson-pydantic/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 11:20:14] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-02 11:20:14] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.2.tar.gz tmp/napari-toothfairy-annotator-0.0.3.tar.gz --markdown 20240402/n/napari-toothfairy-annotator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 11:20:14] INFO root fetch - processPackages [delayed-rm]: Downloading https://files.pythonhosted.org/packages/0b/ba/6b0505bba45de6aa764b17fe1d8ce23156e4d13d2b70522393ca0e15d800/delayed_rm-2.8.2.tar.gz
+[2024-04-02 11:20:14] INFO root fetch - processPackages [delayed-rm]: executing diffoscope
+[2024-04-02 11:20:14] INFO root fetch - processPackages [delayed-rm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delayed_rm-2.8.1.tar.gz tmp/delayed_rm-2.8.2.tar.gz --markdown 20240402/d/delayed-rm/2.8.1-2.8.2/diff.md --exclude *.pyd
+[2024-04-02 11:20:15] INFO root fetch - processPackages [shapeout2]: Downloading https://files.pythonhosted.org/packages/35/23/3e2b923fd3a130e068a59c3125d5bcfcc7bcf9ff2dfd5df0df3ce914dfa7/shapeout2-2.9.6.tar.gz
+[2024-04-02 11:20:15] INFO root fetch - processPackages [alohapy]: Remove: archive file [/home/abi/fetcher/tmp/alohapy-0.1.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - processPackages [alohapy]: Remove: archive file [/home/abi/fetcher/tmp/alohapy-0.2.1.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - main [MainThread]: End processing [alohapy]: success
+[2024-04-02 11:20:15] INFO root fetch - processPackages [shapeout2]: executing diffoscope
+[2024-04-02 11:20:15] INFO root fetch - processPackages [shapeout2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shapeout2-2.9.5.tar.gz tmp/shapeout2-2.9.6.tar.gz --markdown 20240402/s/shapeout2/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2024-04-02 11:20:15] INFO root fetch - processPackages [zen-test]: Remove: archive file [/home/abi/fetcher/tmp/zen-test-0.0.1.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - processPackages [zen-test]: Remove: archive file [/home/abi/fetcher/tmp/zen-test-0.0.2.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - main [MainThread]: End processing [zen-test]: success
+[2024-04-02 11:20:15] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.7.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.8.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-02 11:20:15] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.2.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.3.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-02 11:20:15] INFO root fetch - processPackages [covjson-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/covjson_pydantic-0.2.1.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - processPackages [covjson-pydantic]: Remove: archive file [/home/abi/fetcher/tmp/covjson_pydantic-0.3.0.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - main [MainThread]: End processing [covjson-pydantic]: success
+[2024-04-02 11:20:15] INFO root fetch - processPackages [delayed-rm]: Remove: archive file [/home/abi/fetcher/tmp/delayed_rm-2.8.1.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - processPackages [delayed-rm]: Remove: archive file [/home/abi/fetcher/tmp/delayed_rm-2.8.2.tar.gz]
+[2024-04-02 11:20:15] INFO root fetch - main [MainThread]: End processing [delayed-rm]: success
+[2024-04-02 11:20:16] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.5.tar.gz]
+[2024-04-02 11:20:16] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.6.tar.gz]
+[2024-04-02 11:20:16] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
+[2024-04-02 11:20:16] INFO root fetch - main [MainThread]: Store serial: [22582765]
