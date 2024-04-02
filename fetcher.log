@@ -9638,3 +9638,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:24:38] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
 [2024-04-02 05:24:38] INFO root fetch - main [MainThread]: End processing [sf-heu]: success
 [2024-04-02 05:24:38] INFO root fetch - main [MainThread]: Store serial: [22580304]
+[2024-04-02 05:26:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580304]
+[2024-04-02 05:26:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-metabase
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AppWrapper
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moyanlib
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ezlocalai
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scripture-phaser
+[2024-04-02 05:26:56] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.4a0] Old Version: [0.2.4]
+[2024-04-02 05:26:56] INFO root fetch - processPackages [moyanlib]: New version: [1.5.1712027947] Old Version: [1.5.1707129404]
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ezlocalai]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-02 05:26:56] INFO root fetch - processPackages [scripture-phaser]: New version: [1.2.0] Old Version: [1.1.1]
+[2024-04-02 05:26:56] INFO root fetch - processPackages [dbt-metabase]: New version: [1.3.0] Old Version: [1.2.1]
+[2024-04-02 05:26:56] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/f6/29/4705ae80d70e80952abd2364e13ab6b11fb86de117c4a75df960c3889a79/AppWrapper-0.2.4.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [moyanlib]: Downloading https://files.pythonhosted.org/packages/56/10/ccfab8baa59840f767da6a2c43c81ca56e16c5933735e64ca804a6d84049/moyanlib-1.5.1707129404.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [scripture-phaser]: Downloading https://files.pythonhosted.org/packages/ae/9c/23ff4252e4e983367fac24c17adff0d06696ba5323536d1e32d2d525dcb4/scripture_phaser-1.1.1.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [ezlocalai]: Downloading https://files.pythonhosted.org/packages/b0/a8/0ae253999e3772c0fde2ea88556b91390991e08c1eff2870ced481d39491/ezlocalai-0.1.6.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [dbt-metabase]: Downloading https://files.pythonhosted.org/packages/42/a1/3d3b3723b5487230fc66a66f85690231423a71f453d4a5f83c8519fa4f47/dbt-metabase-1.2.1.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [moyanlib]: Downloading https://files.pythonhosted.org/packages/94/f7/9b9249c80ae73f0b8b1338d8bc0e2e98c00d565b02d2551c8454c8eaa4bf/moyanlib-1.5.1712027947.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/3c/a9/e59bf892d853d587a4a514ee6a53f1241b984e23eb90a85ccc5fd97091ab/AppWrapper-0.2.4a0.tar.gz
+[2024-04-02 05:26:56] INFO root fetch - processPackages [moyanlib]: executing diffoscope
+[2024-04-02 05:26:56] INFO root fetch - processPackages [moyanlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moyanlib-1.5.1707129404.tar.gz tmp/moyanlib-1.5.1712027947.tar.gz --markdown 20240402/m/moyanlib/1.5.1707129404-1.5.1712027947/diff.md --exclude *.pyd
+[2024-04-02 05:26:57] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-02 05:26:57] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.4.tar.gz tmp/AppWrapper-0.2.4a0.tar.gz --markdown 20240402/A/AppWrapper/0.2.4-0.2.4a0/diff.md --exclude *.pyd
+[2024-04-02 05:26:57] INFO root fetch - processPackages [scripture-phaser]: Downloading https://files.pythonhosted.org/packages/07/fa/3ecdcf75ef7e3ffc8be5e7d45d0fbd04b35c47c99b580ccd6172c61a563a/scripture_phaser-1.2.0.tar.gz
+[2024-04-02 05:26:57] INFO root fetch - processPackages [dbt-metabase]: Downloading https://files.pythonhosted.org/packages/01/ba/757c88e04f8b028fa40b66443733fa1f36e8f5d81739aab23e2115fc5613/dbt-metabase-1.3.0.tar.gz
+[2024-04-02 05:26:57] INFO root fetch - processPackages [dbt-metabase]: executing diffoscope
+[2024-04-02 05:26:57] INFO root fetch - processPackages [dbt-metabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-metabase-1.2.1.tar.gz tmp/dbt-metabase-1.3.0.tar.gz --markdown 20240402/d/dbt-metabase/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2024-04-02 05:26:57] INFO root fetch - processPackages [ezlocalai]: Downloading https://files.pythonhosted.org/packages/d7/6c/b60d993a1e3769a58665653e50db1f2f95aee47205e13ab2d2a091d36af2/ezlocalai-0.1.7.tar.gz
+[2024-04-02 05:26:57] INFO root fetch - processPackages [scripture-phaser]: executing diffoscope
+[2024-04-02 05:26:57] INFO root fetch - processPackages [scripture-phaser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scripture_phaser-1.1.1.tar.gz tmp/scripture_phaser-1.2.0.tar.gz --markdown 20240402/s/scripture-phaser/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 05:26:57] INFO root fetch - processPackages [moyanlib]: Remove: archive file [/home/abi/fetcher/tmp/moyanlib-1.5.1707129404.tar.gz]
+[2024-04-02 05:26:57] INFO root fetch - processPackages [moyanlib]: Remove: archive file [/home/abi/fetcher/tmp/moyanlib-1.5.1712027947.tar.gz]
+[2024-04-02 05:26:57] INFO root fetch - main [MainThread]: End processing [moyanlib]: success
+[2024-04-02 05:26:57] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.4.tar.gz]
+[2024-04-02 05:26:57] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.4a0.tar.gz]
+[2024-04-02 05:26:57] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-02 05:26:57] INFO root fetch - processPackages [ezlocalai]: executing diffoscope
+[2024-04-02 05:26:57] INFO root fetch - processPackages [ezlocalai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezlocalai-0.1.6.tar.gz tmp/ezlocalai-0.1.7.tar.gz --markdown 20240402/e/ezlocalai/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-02 05:26:58] INFO root fetch - processPackages [scripture-phaser]: Remove: archive file [/home/abi/fetcher/tmp/scripture_phaser-1.1.1.tar.gz]
+[2024-04-02 05:26:58] INFO root fetch - processPackages [scripture-phaser]: Remove: archive file [/home/abi/fetcher/tmp/scripture_phaser-1.2.0.tar.gz]
+[2024-04-02 05:26:58] INFO root fetch - main [MainThread]: End processing [scripture-phaser]: success
+[2024-04-02 05:26:58] INFO root fetch - processPackages [dbt-metabase]: Remove: archive file [/home/abi/fetcher/tmp/dbt-metabase-1.2.1.tar.gz]
+[2024-04-02 05:26:58] INFO root fetch - processPackages [dbt-metabase]: Remove: archive file [/home/abi/fetcher/tmp/dbt-metabase-1.3.0.tar.gz]
+[2024-04-02 05:26:58] INFO root fetch - main [MainThread]: End processing [dbt-metabase]: success
+[2024-04-02 05:26:58] INFO root fetch - processPackages [ezlocalai]: Remove: archive file [/home/abi/fetcher/tmp/ezlocalai-0.1.6.tar.gz]
+[2024-04-02 05:26:58] INFO root fetch - processPackages [ezlocalai]: Remove: archive file [/home/abi/fetcher/tmp/ezlocalai-0.1.7.tar.gz]
+[2024-04-02 05:26:58] INFO root fetch - main [MainThread]: End processing [ezlocalai]: success
+[2024-04-02 05:26:58] INFO root fetch - main [MainThread]: Store serial: [22580320]
