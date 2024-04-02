@@ -11978,3 +11978,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:33:36] INFO root fetch - processPackages [pybts]: Remove: archive file [/home/abi/fetcher/tmp/pybts-1.2.1.tar.gz]
 [2024-04-02 08:33:36] INFO root fetch - main [MainThread]: End processing [pybts]: success
 [2024-04-02 08:33:36] INFO root fetch - main [MainThread]: Store serial: [22581258]
+[2024-04-02 08:35:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581258]
+[2024-04-02 08:35:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botasaurus-proxy-authentication
+[2024-04-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: maling
+[2024-04-02 08:35:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graas-observability-utility
+[2024-04-02 08:35:46] INFO root fetch - processPackages [botasaurus-proxy-authentication]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 08:35:46] INFO root fetch - processPackages [graas-observability-utility]: New version: [1.5.3] Old Version: [1.5.2]
+[2024-04-02 08:35:47] INFO root fetch - processPackages [maling]: New version: [2.1.5] Old Version: [2.1.4]
+[2024-04-02 08:35:47] INFO root fetch - processPackages [botasaurus-proxy-authentication]: Downloading https://files.pythonhosted.org/packages/79/c5/c8800f375c5477ba9dad4440c1befa1e7e22f3072d4ec401614b39e91345/botasaurus_proxy_authentication-1.0.8.tar.gz
+[2024-04-02 08:35:47] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/e4/58/dbf1f923d47ca4d55ced0133b518f900caf35b7989d05cae0f4601f7ac44/graas-observability-utility-1.5.2.tar.gz
+[2024-04-02 08:35:47] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/1c/f5/562c52dd9b3e3127391699b67ebb9f3646dfe533b39cc7507d61a79a86bc/maling-2.1.4.tar.gz
+[2024-04-02 08:35:47] INFO root fetch - processPackages [graas-observability-utility]: Downloading https://files.pythonhosted.org/packages/de/85/9bac5509d21da3269d041287520ffb6de7d39e804c92f9fcc1b418a4c49d/graas-observability-utility-1.5.3.tar.gz
+[2024-04-02 08:35:47] INFO root fetch - processPackages [maling]: Downloading https://files.pythonhosted.org/packages/67/2f/76e8371b1c4e50bd9d01d2b9c96052c675149deea80c7da58a600c2f6c61/maling-2.1.5.tar.gz
+[2024-04-02 08:35:47] INFO root fetch - processPackages [botasaurus-proxy-authentication]: Downloading https://files.pythonhosted.org/packages/7b/77/44e453ceaffb7ce5bbc256dbef18a6090ccbd5ddb52ee74559de0fc93571/botasaurus_proxy_authentication-1.0.9.tar.gz
+[2024-04-02 08:35:47] INFO root fetch - processPackages [graas-observability-utility]: executing diffoscope
+[2024-04-02 08:35:47] INFO root fetch - processPackages [graas-observability-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graas-observability-utility-1.5.2.tar.gz tmp/graas-observability-utility-1.5.3.tar.gz --markdown 20240402/g/graas-observability-utility/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2024-04-02 08:35:47] INFO root fetch - processPackages [maling]: executing diffoscope
+[2024-04-02 08:35:47] INFO root fetch - processPackages [maling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maling-2.1.4.tar.gz tmp/maling-2.1.5.tar.gz --markdown 20240402/m/maling/2.1.4-2.1.5/diff.md --exclude *.pyd
+[2024-04-02 08:35:47] INFO root fetch - processPackages [botasaurus-proxy-authentication]: executing diffoscope
+[2024-04-02 08:35:47] INFO root fetch - processPackages [botasaurus-proxy-authentication]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_proxy_authentication-1.0.8.tar.gz tmp/botasaurus_proxy_authentication-1.0.9.tar.gz --markdown 20240402/b/botasaurus-proxy-authentication/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 08:35:48] INFO root fetch - processPackages [botasaurus-proxy-authentication]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_proxy_authentication-1.0.8.tar.gz]
+[2024-04-02 08:35:48] INFO root fetch - processPackages [botasaurus-proxy-authentication]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_proxy_authentication-1.0.9.tar.gz]
+[2024-04-02 08:35:48] INFO root fetch - main [MainThread]: End processing [botasaurus-proxy-authentication]: success
+[2024-04-02 08:35:48] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.2.tar.gz]
+[2024-04-02 08:35:48] INFO root fetch - processPackages [graas-observability-utility]: Remove: archive file [/home/abi/fetcher/tmp/graas-observability-utility-1.5.3.tar.gz]
+[2024-04-02 08:35:48] INFO root fetch - main [MainThread]: End processing [graas-observability-utility]: success
+[2024-04-02 08:35:49] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.4.tar.gz]
+[2024-04-02 08:35:49] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.5.tar.gz]
+[2024-04-02 08:35:49] INFO root fetch - main [MainThread]: End processing [maling]: success
+[2024-04-02 08:35:49] INFO root fetch - main [MainThread]: Store serial: [22581266]
