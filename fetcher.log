@@ -10245,3 +10245,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:15:52] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.6.tar.gz]
 [2024-04-02 06:15:52] INFO root fetch - main [MainThread]: End processing [feliz-db]: success
 [2024-04-02 06:15:52] INFO root fetch - main [MainThread]: Store serial: [22580560]
+[2024-04-02 06:17:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580560]
+[2024-04-02 06:18:01] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genice2-extra
+[2024-04-02 06:18:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-ecg
+[2024-04-02 06:18:01] INFO root fetch - processPackages [genice2-extra]: New version: [2.2] Old Version: [2.1]
+[2024-04-02 06:18:01] INFO root fetch - processPackages [torch-ecg]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 06:18:01] INFO root fetch - processPackages [genice2-extra]: Downloading https://files.pythonhosted.org/packages/75/29/386eafd682da29fad4e4839589310a8419cfaa0212c06cd81e18dbe9c4a8/genice2_extra-2.1.tar.gz
+[2024-04-02 06:18:01] INFO root fetch - processPackages [torch-ecg]: Downloading https://files.pythonhosted.org/packages/22/bc/b3616fd718ef6ce6c516554246ffc06c36f6769a62de6e22c7528df02c50/torch_ecg-0.0.8.tar.gz
+[2024-04-02 06:18:01] INFO root fetch - processPackages [genice2-extra]: Downloading https://files.pythonhosted.org/packages/ed/ed/faec15118e08535d989f56b216ceef3ea0ae2294aa2b5f5b1239bfd3acd0/genice2_extra-2.2.tar.gz
+[2024-04-02 06:18:02] INFO root fetch - processPackages [genice2-extra]: executing diffoscope
+[2024-04-02 06:18:02] INFO root fetch - processPackages [torch-ecg]: Downloading https://files.pythonhosted.org/packages/1f/99/695f00b9c2b174cd4c74bcb9b5e129a3c55fd3f5809882bca1fa58081e38/torch_ecg-0.0.9.tar.gz
+[2024-04-02 06:18:02] INFO root fetch - processPackages [genice2-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genice2_extra-2.1.tar.gz tmp/genice2_extra-2.2.tar.gz --markdown 20240402/g/genice2-extra/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-02 06:18:02] INFO root fetch - processPackages [torch-ecg]: executing diffoscope
+[2024-04-02 06:18:02] INFO root fetch - processPackages [torch-ecg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_ecg-0.0.8.tar.gz tmp/torch_ecg-0.0.9.tar.gz --markdown 20240402/t/torch-ecg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 06:18:02] INFO root fetch - processPackages [genice2-extra]: Remove: archive file [/home/abi/fetcher/tmp/genice2_extra-2.1.tar.gz]
+[2024-04-02 06:18:02] INFO root fetch - processPackages [genice2-extra]: Remove: archive file [/home/abi/fetcher/tmp/genice2_extra-2.2.tar.gz]
+[2024-04-02 06:18:02] INFO root fetch - main [MainThread]: End processing [genice2-extra]: success
+[2024-04-02 06:18:03] INFO root fetch - processPackages [torch-ecg]: Remove: archive file [/home/abi/fetcher/tmp/torch_ecg-0.0.8.tar.gz]
+[2024-04-02 06:18:03] INFO root fetch - processPackages [torch-ecg]: Remove: archive file [/home/abi/fetcher/tmp/torch_ecg-0.0.9.tar.gz]
+[2024-04-02 06:18:03] INFO root fetch - main [MainThread]: End processing [torch-ecg]: success
+[2024-04-02 06:18:03] INFO root fetch - main [MainThread]: Store serial: [22580566]
