@@ -7927,3 +7927,39 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:37:15] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
 [2024-04-02 03:37:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
 [2024-04-02 03:37:15] INFO root fetch - main [MainThread]: Store serial: [22579635]
+[2024-04-02 03:39:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579635]
+[2024-04-02 03:39:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 03:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: calctree
+[2024-04-02 03:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: langflow-base
+[2024-04-02 03:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystring
+[2024-04-02 03:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyclipmgr
+[2024-04-02 03:39:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-imgui-redux
+[2024-04-02 03:39:24] WARNING root fetch - processPackages [pyclipmgr]: Skipping, unable to determine old version
+[2024-04-02 03:39:24] INFO root fetch - main [MainThread]: End processing [pyclipmgr] error
+[2024-04-02 03:39:24] WARNING root fetch - processPackages [langflow-base]: Skipping, unable to determine old version
+[2024-04-02 03:39:24] INFO root fetch - main [MainThread]: End processing [langflow-base] error
+[2024-04-02 03:39:24] INFO root fetch - processPackages [calctree]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 03:39:24] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-02 03:39:24] INFO root fetch - processPackages [calctree]: Downloading https://files.pythonhosted.org/packages/5c/91/82e77dd4d32607af620de844ef5b8754bb493835c1e9f26cfe94a7b2e44d/calctree-0.2.1.tar.gz
+[2024-04-02 03:39:24] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-02 03:39:24] INFO root fetch - processPackages [py-imgui-redux]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-02 03:39:24] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-02 03:39:24] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-02 03:39:24] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240402/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-02 03:39:24] INFO root fetch - processPackages [py-imgui-redux]: Downloading https://files.pythonhosted.org/packages/3d/e1/5c7375001da5fa99cdc811024b2a609fa83d4781abd79736a5842354b4c5/py-imgui-redux-2.0.1.tar.gz
+[2024-04-02 03:39:24] INFO root fetch - processPackages [calctree]: Downloading https://files.pythonhosted.org/packages/4b/79/ca4d44ed0b2c818e14fed80d62e552dd7a4fb9aca68ddb1debb95a28765d/calctree-0.2.2.tar.gz
+[2024-04-02 03:39:25] INFO root fetch - processPackages [calctree]: executing diffoscope
+[2024-04-02 03:39:25] INFO root fetch - processPackages [calctree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calctree-0.2.1.tar.gz tmp/calctree-0.2.2.tar.gz --markdown 20240402/c/calctree/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 03:39:25] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-02 03:39:25] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-02 03:39:25] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-02 03:39:25] INFO root fetch - processPackages [calctree]: Remove: archive file [/home/abi/fetcher/tmp/calctree-0.2.1.tar.gz]
+[2024-04-02 03:39:25] INFO root fetch - processPackages [calctree]: Remove: archive file [/home/abi/fetcher/tmp/calctree-0.2.2.tar.gz]
+[2024-04-02 03:39:25] INFO root fetch - main [MainThread]: End processing [calctree]: success
+[2024-04-02 03:39:26] INFO root fetch - processPackages [py-imgui-redux]: Downloading https://files.pythonhosted.org/packages/fe/ef/5655221bd856ba6cc44952761c93cb6635e56c1ee4cdf14d456a3ea07e0f/py_imgui_redux-2.1.0-cp312-cp312-manylinux_2_28_x86_64.whl
+[2024-04-02 03:39:27] INFO root fetch - processPackages [py-imgui-redux]: executing diffoscope
+[2024-04-02 03:39:27] INFO root fetch - processPackages [py-imgui-redux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-imgui-redux-2.0.1.tar.gz tmp/py_imgui_redux-2.1.0-cp312-cp312-manylinux_2_28_x86_64.whl.zip --markdown 20240402/p/py-imgui-redux/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 03:39:28] INFO root fetch - processPackages [py-imgui-redux]: Remove: archive file [/home/abi/fetcher/tmp/py-imgui-redux-2.0.1.tar.gz]
+[2024-04-02 03:39:28] INFO root fetch - processPackages [py-imgui-redux]: Remove: archive file [/home/abi/fetcher/tmp/py_imgui_redux-2.1.0-cp312-cp312-manylinux_2_28_x86_64.whl.zip]
+[2024-04-02 03:39:28] INFO root fetch - main [MainThread]: End processing [py-imgui-redux]: success
+[2024-04-02 03:39:28] INFO root fetch - main [MainThread]: Store serial: [22579649]
