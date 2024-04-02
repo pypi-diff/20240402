@@ -9171,3 +9171,41 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:53:31] INFO root fetch - processPackages [shipyard-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_sqlserver-0.2.0a6.tar.gz]
 [2024-04-02 04:53:31] INFO root fetch - main [MainThread]: End processing [shipyard-sqlserver]: success
 [2024-04-02 04:53:31] INFO root fetch - main [MainThread]: Store serial: [22580143]
+[2024-04-02 04:55:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580143]
+[2024-04-02 04:55:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 04:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shipyard-file-manipulation
+[2024-04-02 04:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline-cloud-for-rhino
+[2024-04-02 04:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: abfy
+[2024-04-02 04:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sourcery-nightly
+[2024-04-02 04:55:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-banking-sepa-direct-debit
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 04:55:42] INFO root fetch - processPackages [shipyard-file-manipulation]: New version: [0.2.0a0] Old Version: [0.2.0]
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: Downloading https://files.pythonhosted.org/packages/06/b0/24b9b9245f5f832494c70437e718b27cd343d738d299d72f96847f4cc6e7/deadline_cloud_for_rhino-0.1.0.tar.gz
+[2024-04-02 04:55:42] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-02 04:55:42] WARNING root fetch - processPackages [abfy]: Skipping, unable to determine old version
+[2024-04-02 04:55:42] INFO root fetch - main [MainThread]: End processing [abfy] error
+[2024-04-02 04:55:42] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2024-04-02 04:55:42] INFO root fetch - processPackages [shipyard-file-manipulation]: Downloading https://files.pythonhosted.org/packages/59/2b/2c2dbce67ddc11e8babc40088c81fd97e0aa915112145d7a3d28fc8fe929/shipyard_file_manipulation-0.2.0.tar.gz
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: Downloading https://files.pythonhosted.org/packages/af/20/dc726db823d4f2124362a933ada77055c912f092f9df1f7104a0b4f0cf4f/deadline_cloud_for_rhino-0.1.1.tar.gz
+[2024-04-02 04:55:42] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/53/c3/6633071e69f9b7c9fa4dc3fd942df526a00564a3b06fde4e568a9d207143/sourcery_nightly-1.8.0-py2.py3-none-win_amd64.whl
+[2024-04-02 04:55:42] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/23/9f/fcdfdabc7161f382160b71084cf8c662954ce59fd59a6e52003fd7654b52/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0-py3-none-any.whl
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: executing diffoscope
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadline_cloud_for_rhino-0.1.0.tar.gz tmp/deadline_cloud_for_rhino-0.1.1.tar.gz --markdown 20240402/d/deadline-cloud-for-rhino/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 04:55:42] INFO root fetch - processPackages [shipyard-file-manipulation]: Downloading https://files.pythonhosted.org/packages/00/0d/061029a902399e8979835fd2dd461d43cfddfbd2ddbcc05ef93ca64a862d/shipyard_file_manipulation-0.2.0a0.tar.gz
+[2024-04-02 04:55:42] INFO root fetch - processPackages [shipyard-file-manipulation]: executing diffoscope
+[2024-04-02 04:55:42] INFO root fetch - processPackages [shipyard-file-manipulation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_file_manipulation-0.2.0.tar.gz tmp/shipyard_file_manipulation-0.2.0a0.tar.gz --markdown 20240402/s/shipyard-file-manipulation/0.2.0-0.2.0a0/diff.md --exclude *.pyd
+[2024-04-02 04:55:42] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Downloading https://files.pythonhosted.org/packages/ce/c8/26d5ee8e75f6508c5ac865d8dd9e60847caad7fde1747471a88bb23412a7/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0.1-py3-none-any.whl
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_rhino-0.1.0.tar.gz]
+[2024-04-02 04:55:42] INFO root fetch - processPackages [deadline-cloud-for-rhino]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_rhino-0.1.1.tar.gz]
+[2024-04-02 04:55:42] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-rhino]: success
+[2024-04-02 04:55:43] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: executing diffoscope
+[2024-04-02 04:55:43] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-account-banking-sepa-direct-debit/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2024-04-02 04:55:43] INFO root fetch - processPackages [shipyard-file-manipulation]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_file_manipulation-0.2.0.tar.gz]
+[2024-04-02 04:55:43] INFO root fetch - processPackages [shipyard-file-manipulation]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_file_manipulation-0.2.0a0.tar.gz]
+[2024-04-02 04:55:43] INFO root fetch - main [MainThread]: End processing [shipyard-file-manipulation]: success
+[2024-04-02 04:55:43] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0-py3-none-any.whl.zip]
+[2024-04-02 04:55:43] INFO root fetch - processPackages [odoo-addon-account-banking-sepa-direct-debit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_banking_sepa_direct_debit-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2024-04-02 04:55:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-banking-sepa-direct-debit]: success
+[2024-04-02 04:55:44] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
+[2024-04-02 04:55:44] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2024-04-02 04:55:44] INFO root fetch - main [MainThread]: Store serial: [22580155]
