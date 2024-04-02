@@ -9782,3 +9782,29 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:35:42] WARNING root fetch - processPackages [booookscore]: Skipping, unable to determine old version
 [2024-04-02 05:35:42] INFO root fetch - main [MainThread]: End processing [booookscore] error
 [2024-04-02 05:35:42] INFO root fetch - main [MainThread]: Store serial: [22580358]
+[2024-04-02 05:37:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580358]
+[2024-04-02 05:37:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 05:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prodvana
+[2024-04-02 05:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: libbs
+[2024-04-02 05:37:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fennel-ai
+[2024-04-02 05:37:51] INFO root fetch - processPackages [prodvana]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-02 05:37:51] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/05/29/b305e83e3145ff688dc20fcaf7e9acc6387d8bcb0be66a1bad5781bb7543/prodvana-0.3.8.tar.gz
+[2024-04-02 05:37:51] INFO root fetch - processPackages [libbs]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-02 05:37:51] INFO root fetch - processPackages [fennel-ai]: New version: [1.1.6] Old Version: [1.1.4]
+[2024-04-02 05:37:52] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/a5/a6/be779ad91d42ddf3a4e84e943a8049e1e1d71ca61177cb2966694a4454d6/libbs-1.1.0.tar.gz
+[2024-04-02 05:37:52] INFO root fetch - processPackages [fennel-ai]: Downloading https://files.pythonhosted.org/packages/68/87/c91351d653ed8cb7c6cc89bf8446489021c49dfa099f649972cc575920db/fennel_ai-1.1.4.tar.gz
+[2024-04-02 05:37:52] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/b2/62/1999f7e3eed16a266b39c7205e01fda3f018d873f514114d86cdf999983b/prodvana-0.3.9.tar.gz
+[2024-04-02 05:37:52] WARNING root fetch - processPackages [fennel-ai]: Skipping package: exceeds size limit 40184427>=10485760
+[2024-04-02 05:37:52] INFO root fetch - main [MainThread]: End processing [fennel-ai] error
+[2024-04-02 05:37:52] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2024-04-02 05:37:52] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.3.8.tar.gz tmp/prodvana-0.3.9.tar.gz --markdown 20240402/p/prodvana/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-02 05:37:52] INFO root fetch - processPackages [libbs]: Downloading https://files.pythonhosted.org/packages/64/37/9d9b40b25527e7b52dd2d55666c77e7502368af44693663bdcda48c0a3cf/libbs-1.2.0.tar.gz
+[2024-04-02 05:37:52] INFO root fetch - processPackages [libbs]: executing diffoscope
+[2024-04-02 05:37:52] INFO root fetch - processPackages [libbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libbs-1.1.0.tar.gz tmp/libbs-1.2.0.tar.gz --markdown 20240402/l/libbs/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 05:37:53] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.1.0.tar.gz]
+[2024-04-02 05:37:53] INFO root fetch - processPackages [libbs]: Remove: archive file [/home/abi/fetcher/tmp/libbs-1.2.0.tar.gz]
+[2024-04-02 05:37:53] INFO root fetch - main [MainThread]: End processing [libbs]: success
+[2024-04-02 05:37:53] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.8.tar.gz]
+[2024-04-02 05:37:53] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
+[2024-04-02 05:37:53] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2024-04-02 05:37:53] INFO root fetch - main [MainThread]: Store serial: [22580376]
