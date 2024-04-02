@@ -14861,3 +14861,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:46:38] INFO root fetch - processPackages [comet-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/comet_toolbox-0.1.4.tar.gz]
 [2024-04-02 10:46:38] INFO root fetch - main [MainThread]: End processing [comet-toolbox]: success
 [2024-04-02 10:46:38] INFO root fetch - main [MainThread]: Store serial: [22582363]
+[2024-04-02 10:48:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582363]
+[2024-04-02 10:48:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AnalysisG
+[2024-04-02 10:48:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cj-package
+[2024-04-02 10:48:47] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 10:48:47] INFO root fetch - processPackages [AnalysisG]: New version: [4.5.2] Old Version: [4.5.1]
+[2024-04-02 10:48:48] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-02 10:48:48] INFO root fetch - processPackages [AnalysisG]: Downloading https://files.pythonhosted.org/packages/26/39/604129caff7839d7b1c1a2f567e67befb6ab4395e72141a7580f2888c6a8/AnalysisG-4.5.1.tar.gz
+[2024-04-02 10:48:48] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-02 10:48:48] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-02 10:48:48] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240402/c/cj-package/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:48:48] INFO root fetch - processPackages [AnalysisG]: Downloading https://files.pythonhosted.org/packages/ed/74/f66e14e7453b632978fbc59155517c65257895ef8910761c81136d5a35a1/AnalysisG-4.5.2.tar.gz
+[2024-04-02 10:48:49] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-02 10:48:49] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-02 10:48:49] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-02 10:48:49] INFO root fetch - processPackages [AnalysisG]: executing diffoscope
+[2024-04-02 10:48:49] INFO root fetch - processPackages [AnalysisG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnalysisG-4.5.1.tar.gz tmp/AnalysisG-4.5.2.tar.gz --markdown 20240402/A/AnalysisG/4.5.1-4.5.2/diff.md --exclude *.pyd
+[2024-04-02 10:48:56] INFO root fetch - processPackages [AnalysisG]: Remove: archive file [/home/abi/fetcher/tmp/AnalysisG-4.5.1.tar.gz]
+[2024-04-02 10:48:56] INFO root fetch - processPackages [AnalysisG]: Remove: archive file [/home/abi/fetcher/tmp/AnalysisG-4.5.2.tar.gz]
+[2024-04-02 10:48:56] INFO root fetch - main [MainThread]: End processing [AnalysisG]: success
+[2024-04-02 10:48:56] INFO root fetch - main [MainThread]: Store serial: [22582374]
