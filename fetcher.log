@@ -19372,3 +19372,17 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:42:41] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
 [2024-04-02 13:42:41] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
 [2024-04-02 13:42:41] INFO root fetch - main [MainThread]: Store serial: [22584246]
+[2024-04-02 13:44:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584246]
+[2024-04-02 13:44:51] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 13:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zhaolinchao
+[2024-04-02 13:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-ok-likes-latest
+[2024-04-02 13:44:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Products.urban
+[2024-04-02 13:44:51] INFO root fetch - processPackages [Products.urban]: New version: [2.7.7] Old Version: [2.7.6]
+[2024-04-02 13:44:51] WARNING root fetch - processPackages [django-ok-likes-latest]: Skipping, unable to determine old version
+[2024-04-02 13:44:51] INFO root fetch - main [MainThread]: End processing [django-ok-likes-latest] error
+[2024-04-02 13:44:51] WARNING root fetch - processPackages [zhaolinchao]: Skipping, unable to determine old version
+[2024-04-02 13:44:51] INFO root fetch - main [MainThread]: End processing [zhaolinchao] error
+[2024-04-02 13:44:51] INFO root fetch - processPackages [Products.urban]: Downloading https://files.pythonhosted.org/packages/05/5a/fa99df71af2ffee66892b80a75ae028e62cd53886692b292d51dc81484cb/Products.urban-2.7.6.tar.gz
+[2024-04-02 13:44:52] WARNING root fetch - processPackages [Products.urban]: Skipping package: exceeds size limit 20167728>=10485760
+[2024-04-02 13:44:52] INFO root fetch - main [MainThread]: End processing [Products.urban] error
+[2024-04-02 13:44:52] INFO root fetch - main [MainThread]: Store serial: [22584259]
