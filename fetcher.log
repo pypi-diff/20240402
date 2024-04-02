@@ -14634,3 +14634,81 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:39:49] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.4.tar.gz]
 [2024-04-02 10:39:49] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 10:39:49] INFO root fetch - main [MainThread]: Store serial: [22582270]
+[2024-04-02 10:41:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582270]
+[2024-04-02 10:41:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lakefs-spec
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: universal-common
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: RTSAI
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: g4f
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aalam-common
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wath
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: moto
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adsdatahub
+[2024-04-02 10:41:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gg-release-notes
+[2024-04-02 10:41:58] INFO root fetch - processPackages [gg-release-notes]: New version: [1.6.0] Old Version: [1.4.0]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [RTSAI]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [universal-common]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-02 10:41:58] ERROR root fetch - processPackages [wath]: Unable to get metadata: No such project 'wath'
+[2024-04-02 10:41:58] INFO root fetch - main [MainThread]: End processing [wath] error
+[2024-04-02 10:41:58] INFO root fetch - processPackages [lakefs-spec]: New version: [0.8.0] Old Version: [0.7.1]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/18/ae/90a187ac8b0f20c64a11fdc7e2fcd877b23a21e267a55868ff76c0d9712e/gg-release-notes-1.4.0.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [adsdatahub]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/09/a1/6518477628477f5d5da74f13ff3edc1dafcc9c3a1ce22ab007f657d79267/RTSAI-0.1.1.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [aalam-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [g4f]: New version: [0.2.7.2] Old Version: [0.2.7.1]
+[2024-04-02 10:41:58] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [universal-common]: Downloading https://files.pythonhosted.org/packages/21/41/7773be3965bb3bccce7073453d79a1f193f57e6c2986c911905acac4b1fc/universal_common-1.1.0.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [lakefs-spec]: Downloading https://files.pythonhosted.org/packages/fa/85/02b43c259bec2848e4a12735914df8598787b66f0fd63f9dd0269cd88a8c/lakefs-spec-0.7.1.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [adsdatahub]: Downloading https://files.pythonhosted.org/packages/1d/4e/fddd56737b9b3ed8520433f8e66bf1e6355e27ea4fbdd2305a19ca2e77d7/adsdatahub-0.0.1.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/16/ee/8281aa25e49a7b41c1d8409d1da0a6ef9411eb412161a13752286cbe757a/aalam-common-0.1.8.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/ae/f4/4315db07150e7fda97c19b00263e3cc848103bab84c4aa471ba971385d7f/g4f-0.2.7.1.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/40/61/7c361566deead8c030d52f8cf8ae6102adde53b8c047bf5703078b7fd1e9/gg-release-notes-1.6.0.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/ca/06/f2eaad4566e1342a02e2a592b3e04fa4e8d654f42493c71d88336b16d203/RTSAI-0.1.2.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2024-04-02 10:41:58] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg-release-notes-1.4.0.tar.gz tmp/gg-release-notes-1.6.0.tar.gz --markdown 20240402/g/gg-release-notes/1.4.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-02 10:41:58] INFO root fetch - processPackages [universal-common]: Downloading https://files.pythonhosted.org/packages/17/1c/9c740fc7f77f8a4855031e480563a1e37977cdc73b428728557a33de3762/universal_common-1.2.0.tar.gz
+[2024-04-02 10:41:58] INFO root fetch - processPackages [RTSAI]: executing diffoscope
+[2024-04-02 10:41:58] INFO root fetch - processPackages [RTSAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSAI-0.1.1.tar.gz tmp/RTSAI-0.1.2.tar.gz --markdown 20240402/R/RTSAI/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 10:41:58] INFO root fetch - processPackages [adsdatahub]: Downloading https://files.pythonhosted.org/packages/4e/b8/3cbda5bd8173a83a7c45d44b602856b470c9127775fde35d038cc25fe699/adsdatahub-0.0.2.tar.gz
+[2024-04-02 10:41:59] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-02 10:41:59] INFO root fetch - processPackages [lakefs-spec]: Downloading https://files.pythonhosted.org/packages/19/ce/119da83b18754e4f0c881155841ecec614662f6d56cfba533cd55a13b63a/lakefs-spec-0.8.0.tar.gz
+[2024-04-02 10:41:59] INFO root fetch - processPackages [g4f]: Downloading https://files.pythonhosted.org/packages/eb/cd/059e2083ba07a4aaddcb79afd725e164d0bbf75e8296adc180922d4973e5/g4f-0.2.7.2.tar.gz
+[2024-04-02 10:41:59] INFO root fetch - processPackages [universal-common]: executing diffoscope
+[2024-04-02 10:41:59] INFO root fetch - processPackages [universal-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/universal_common-1.1.0.tar.gz tmp/universal_common-1.2.0.tar.gz --markdown 20240402/u/universal-common/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 10:41:59] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/4a/1b/4643ceb92ad9052d40ca33c98621f00956b046d0f395991401c764b57319/aalam-common-0.1.9.tar.gz
+[2024-04-02 10:41:59] INFO root fetch - processPackages [adsdatahub]: executing diffoscope
+[2024-04-02 10:41:59] INFO root fetch - processPackages [adsdatahub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsdatahub-0.0.1.tar.gz tmp/adsdatahub-0.0.2.tar.gz --markdown 20240402/a/adsdatahub/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 10:41:59] INFO root fetch - processPackages [aalam-common]: executing diffoscope
+[2024-04-02 10:41:59] INFO root fetch - processPackages [aalam-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalam-common-0.1.8.tar.gz tmp/aalam-common-0.1.9.tar.gz --markdown 20240402/a/aalam-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:41:59] INFO root fetch - processPackages [lakefs-spec]: executing diffoscope
+[2024-04-02 10:41:59] INFO root fetch - processPackages [lakefs-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lakefs-spec-0.7.1.tar.gz tmp/lakefs-spec-0.8.0.tar.gz --markdown 20240402/l/lakefs-spec/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2024-04-02 10:41:59] INFO root fetch - processPackages [g4f]: executing diffoscope
+[2024-04-02 10:41:59] INFO root fetch - processPackages [g4f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/g4f-0.2.7.1.tar.gz tmp/g4f-0.2.7.2.tar.gz --markdown 20240402/g/g4f/0.2.7.1-0.2.7.2/diff.md --exclude *.pyd
+[2024-04-02 10:41:59] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-02 10:41:59] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240402/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-02 10:41:59] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.4.0.tar.gz]
+[2024-04-02 10:41:59] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.0.tar.gz]
+[2024-04-02 10:41:59] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2024-04-02 10:41:59] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.1.tar.gz]
+[2024-04-02 10:41:59] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.2.tar.gz]
+[2024-04-02 10:41:59] INFO root fetch - main [MainThread]: End processing [RTSAI]: success
+[2024-04-02 10:41:59] INFO root fetch - processPackages [universal-common]: Remove: archive file [/home/abi/fetcher/tmp/universal_common-1.1.0.tar.gz]
+[2024-04-02 10:41:59] INFO root fetch - processPackages [universal-common]: Remove: archive file [/home/abi/fetcher/tmp/universal_common-1.2.0.tar.gz]
+[2024-04-02 10:41:59] INFO root fetch - main [MainThread]: End processing [universal-common]: success
+[2024-04-02 10:42:00] INFO root fetch - processPackages [aalam-common]: Remove: archive file [/home/abi/fetcher/tmp/aalam-common-0.1.8.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - processPackages [aalam-common]: Remove: archive file [/home/abi/fetcher/tmp/aalam-common-0.1.9.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - main [MainThread]: End processing [aalam-common]: success
+[2024-04-02 10:42:00] INFO root fetch - processPackages [adsdatahub]: Remove: archive file [/home/abi/fetcher/tmp/adsdatahub-0.0.1.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - processPackages [adsdatahub]: Remove: archive file [/home/abi/fetcher/tmp/adsdatahub-0.0.2.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - main [MainThread]: End processing [adsdatahub]: success
+[2024-04-02 10:42:00] INFO root fetch - processPackages [lakefs-spec]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-spec-0.7.1.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - processPackages [lakefs-spec]: Remove: archive file [/home/abi/fetcher/tmp/lakefs-spec-0.8.0.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - main [MainThread]: End processing [lakefs-spec]: success
+[2024-04-02 10:42:00] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.7.1.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - processPackages [g4f]: Remove: archive file [/home/abi/fetcher/tmp/g4f-0.2.7.2.tar.gz]
+[2024-04-02 10:42:00] INFO root fetch - main [MainThread]: End processing [g4f]: success
+[2024-04-02 10:42:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-02 10:42:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
+[2024-04-02 10:42:11] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-02 10:42:11] INFO root fetch - main [MainThread]: Store serial: [22582298]
