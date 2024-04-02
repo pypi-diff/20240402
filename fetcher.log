@@ -22158,3 +22158,72 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:16:49] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.5.tar.gz]
 [2024-04-02 15:16:49] INFO root fetch - main [MainThread]: End processing [trainml]: success
 [2024-04-02 15:16:49] INFO root fetch - main [MainThread]: Store serial: [22585372]
+[2024-04-02 15:18:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585372]
+[2024-04-02 15:18:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dfsync
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sirji-agents
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: WebServerStatusCheckerAJM
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: proximl
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: peaqevcore
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zz-pix
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flask-monocrud
+[2024-04-02 15:18:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: monviso
+[2024-04-02 15:18:58] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2024-04-02 15:18:58] INFO root fetch - processPackages [zz-pix]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 15:18:58] WARNING root fetch - processPackages [sirji-agents]: Skipping, unable to determine old version
+[2024-04-02 15:18:58] INFO root fetch - main [MainThread]: End processing [sirji-agents] error
+[2024-04-02 15:18:58] INFO root fetch - processPackages [proximl]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-02 15:18:58] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2024-04-02 15:18:58] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: New version: [1.3] Old Version: [1.2.3]
+[2024-04-02 15:18:58] INFO root fetch - processPackages [dfsync]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-02 15:18:58] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/0c/8a/10356f66632a43dfabe354203998fed92b2c13e9c40ca01582e92239e4ad/zz-pix-0.0.5.tar.gz
+[2024-04-02 15:18:58] INFO root fetch - processPackages [monviso]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 15:18:58] INFO root fetch - processPackages [flask-monocrud]: New version: [0.0.1rc9] Old Version: [0.0.1rc8]
+[2024-04-02 15:18:59] INFO root fetch - processPackages [proximl]: Downloading https://files.pythonhosted.org/packages/32/f6/46b9ff3cddc4c7eb9d11a862c37cb93081f8f5dad5d448bb717907d61fc5/proximl-0.5.4.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: Downloading https://files.pythonhosted.org/packages/4f/9f/4313692d94a15bbae283171b3ac10c66afbef3245abffa0bd266b5efe5fe/WebServerStatusCheckerAJM-1.2.3.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/c3/bb/17d2d9180e24f6ed79fbfc73ed10a859048726247ae633c4a09faf286ba1/dfsync-0.4.8.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/94/3a/6223d21907de67f9fe7beef95eab87199404563534a834f0a531b3d32727/monviso-0.1.0.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [flask-monocrud]: Downloading https://files.pythonhosted.org/packages/3c/f0/127c0010b0e18b72a7dfa4838fa95132bc26c02bde8e0dc67877ecb85935/flask-monocrud-0.0.1rc8.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [zz-pix]: Downloading https://files.pythonhosted.org/packages/0f/86/7c280a8dbd456770005ace4bc0b7e69bfc1e21ca52b80c5b7c323f6598c2/zz-pix-0.0.6.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2024-04-02 15:18:59] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20240402/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2024-04-02 15:18:59] INFO root fetch - processPackages [zz-pix]: executing diffoscope
+[2024-04-02 15:18:59] INFO root fetch - processPackages [zz-pix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zz-pix-0.0.5.tar.gz tmp/zz-pix-0.0.6.tar.gz --markdown 20240402/z/zz-pix/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 15:18:59] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/65/69/8e5b0040ab4a0539b65c09c46a1c85dce9466934467d2a74f6f50105234d/dfsync-0.4.9.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [proximl]: Downloading https://files.pythonhosted.org/packages/4b/c2/e20e5b29cd6415f90a86ceac28db3a39d704b411ebcf37cef69a33d0f12d/proximl-0.5.5.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: Downloading https://files.pythonhosted.org/packages/1a/18/0f492c19b74ffd0ccd2cfcc1ba180361fbbe249d848553df334f5f56fc11/WebServerStatusCheckerAJM-1.3.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [flask-monocrud]: Downloading https://files.pythonhosted.org/packages/5e/f0/c25bab30cd1e0f4758e29e2c278b3b68b36d8d37bc91063058827a23c67e/flask-monocrud-0.0.1rc9.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [dfsync]: executing diffoscope
+[2024-04-02 15:18:59] INFO root fetch - processPackages [dfsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsync-0.4.8.tar.gz tmp/dfsync-0.4.9.tar.gz --markdown 20240402/d/dfsync/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-02 15:18:59] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: executing diffoscope
+[2024-04-02 15:18:59] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WebServerStatusCheckerAJM-1.2.3.tar.gz tmp/WebServerStatusCheckerAJM-1.3.tar.gz --markdown 20240402/W/WebServerStatusCheckerAJM/1.2.3-1.3/diff.md --exclude *.pyd
+[2024-04-02 15:18:59] INFO root fetch - processPackages [proximl]: executing diffoscope
+[2024-04-02 15:18:59] INFO root fetch - processPackages [proximl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proximl-0.5.4.tar.gz tmp/proximl-0.5.5.tar.gz --markdown 20240402/p/proximl/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-02 15:18:59] INFO root fetch - processPackages [monviso]: Downloading https://files.pythonhosted.org/packages/a9/8a/5e0b13546e06575e97edb83d18a080950186d4c4aca8614bf8f2934499c4/monviso-0.1.1.tar.gz
+[2024-04-02 15:18:59] INFO root fetch - processPackages [flask-monocrud]: executing diffoscope
+[2024-04-02 15:18:59] INFO root fetch - processPackages [flask-monocrud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-monocrud-0.0.1rc8.tar.gz tmp/flask-monocrud-0.0.1rc9.tar.gz --markdown 20240402/f/flask-monocrud/0.0.1rc8-0.0.1rc9/diff.md --exclude *.pyd
+[2024-04-02 15:19:00] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.5.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - processPackages [zz-pix]: Remove: archive file [/home/abi/fetcher/tmp/zz-pix-0.0.6.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - main [MainThread]: End processing [zz-pix]: success
+[2024-04-02 15:19:00] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2024-04-02 15:19:00] INFO root fetch - processPackages [monviso]: executing diffoscope
+[2024-04-02 15:19:00] INFO root fetch - processPackages [monviso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/monviso-0.1.0.tar.gz tmp/monviso-0.1.1.tar.gz --markdown 20240402/m/monviso/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 15:19:00] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.4.8.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.4.9.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - main [MainThread]: End processing [dfsync]: success
+[2024-04-02 15:19:00] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: Remove: archive file [/home/abi/fetcher/tmp/WebServerStatusCheckerAJM-1.2.3.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - processPackages [WebServerStatusCheckerAJM]: Remove: archive file [/home/abi/fetcher/tmp/WebServerStatusCheckerAJM-1.3.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - main [MainThread]: End processing [WebServerStatusCheckerAJM]: success
+[2024-04-02 15:19:00] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.4.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - processPackages [proximl]: Remove: archive file [/home/abi/fetcher/tmp/proximl-0.5.5.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - main [MainThread]: End processing [proximl]: success
+[2024-04-02 15:19:00] INFO root fetch - processPackages [flask-monocrud]: Remove: archive file [/home/abi/fetcher/tmp/flask-monocrud-0.0.1rc8.tar.gz]
+[2024-04-02 15:19:00] INFO root fetch - processPackages [flask-monocrud]: Remove: archive file [/home/abi/fetcher/tmp/flask-monocrud-0.0.1rc9.tar.gz]
+[2024-04-02 15:19:01] INFO root fetch - main [MainThread]: End processing [flask-monocrud]: success
+[2024-04-02 15:19:01] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.0.tar.gz]
+[2024-04-02 15:19:01] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.1.tar.gz]
+[2024-04-02 15:19:01] INFO root fetch - main [MainThread]: End processing [monviso]: success
+[2024-04-02 15:19:01] INFO root fetch - main [MainThread]: Store serial: [22585398]
