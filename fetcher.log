@@ -11636,3 +11636,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:06:57] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.1.tar.gz]
 [2024-04-02 08:06:57] INFO root fetch - main [MainThread]: End processing [petsc4py]: success
 [2024-04-02 08:06:57] INFO root fetch - main [MainThread]: Store serial: [22581139]
+[2024-04-02 08:09:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581139]
+[2024-04-02 08:09:06] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 08:09:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automl-tools
+[2024-04-02 08:09:06] INFO root fetch - processPackages [automl-tools]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 08:09:06] INFO root fetch - processPackages [automl-tools]: Downloading https://files.pythonhosted.org/packages/1c/80/3f1f12ab55b265e1a3dd653a11610fc3dd719898bca896eda7caa135fac8/automl_tools-0.2.1.tar.gz
+[2024-04-02 08:09:07] INFO root fetch - processPackages [automl-tools]: Downloading https://files.pythonhosted.org/packages/92/95/f18b59c61e99c9fa737233bf72bc409df4e13e2770a6bf15facec6f01836/automl_tools-0.2.2.tar.gz
+[2024-04-02 08:09:07] INFO root fetch - processPackages [automl-tools]: executing diffoscope
+[2024-04-02 08:09:07] INFO root fetch - processPackages [automl-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automl_tools-0.2.1.tar.gz tmp/automl_tools-0.2.2.tar.gz --markdown 20240402/a/automl-tools/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 08:09:07] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.2.1.tar.gz]
+[2024-04-02 08:09:07] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.2.2.tar.gz]
+[2024-04-02 08:09:07] INFO root fetch - main [MainThread]: End processing [automl-tools]: success
+[2024-04-02 08:09:07] INFO root fetch - main [MainThread]: Store serial: [22581142]
