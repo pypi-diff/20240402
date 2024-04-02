@@ -17048,3 +17048,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:09:57] INFO root fetch - processPackages [tf-keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_keras-nightly-2.17.0.dev2024040109.tar.gz]
 [2024-04-02 12:09:57] INFO root fetch - main [MainThread]: End processing [tf-keras-nightly]: success
 [2024-04-02 12:09:57] INFO root fetch - main [MainThread]: Store serial: [22583339]
+[2024-04-02 12:12:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583339]
+[2024-04-02 12:12:06] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 12:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cloudpss
+[2024-04-02 12:12:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glasflow
+[2024-04-02 12:12:06] INFO root fetch - processPackages [glasflow]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-02 12:12:06] INFO root fetch - processPackages [cloudpss]: New version: [4.1.1b9] Old Version: [4.1.1b8]
+[2024-04-02 12:12:06] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/65/0d/e9ba31f289288d38ec199f38c22f1178ac0366abcaa1e81a28f168399008/cloudpss-4.1.1b8.tar.gz
+[2024-04-02 12:12:06] INFO root fetch - processPackages [glasflow]: Downloading https://files.pythonhosted.org/packages/58/d0/05afe2044abfd35b222bc3f921fbc615433f55efeaad7659f50b0c348064/glasflow-0.3.0.tar.gz
+[2024-04-02 12:12:07] INFO root fetch - processPackages [glasflow]: Downloading https://files.pythonhosted.org/packages/33/0c/5bcb636167a9bc4975005a1d420629f16a9ea7b18ddbf7c7a01dd620171d/glasflow-0.3.1.tar.gz
+[2024-04-02 12:12:07] INFO root fetch - processPackages [cloudpss]: Downloading https://files.pythonhosted.org/packages/5b/24/24989e49cb8cf21d5d2c8b071d835f6a78aca17eceeb1885baa86476f8d4/cloudpss-4.1.1b9.tar.gz
+[2024-04-02 12:12:07] INFO root fetch - processPackages [glasflow]: executing diffoscope
+[2024-04-02 12:12:07] INFO root fetch - processPackages [glasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glasflow-0.3.0.tar.gz tmp/glasflow-0.3.1.tar.gz --markdown 20240402/g/glasflow/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-02 12:12:07] INFO root fetch - processPackages [cloudpss]: executing diffoscope
+[2024-04-02 12:12:07] INFO root fetch - processPackages [cloudpss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudpss-4.1.1b8.tar.gz tmp/cloudpss-4.1.1b9.tar.gz --markdown 20240402/c/cloudpss/4.1.1b8-4.1.1b9/diff.md --exclude *.pyd
+[2024-04-02 12:12:08] INFO root fetch - processPackages [glasflow]: Remove: archive file [/home/abi/fetcher/tmp/glasflow-0.3.0.tar.gz]
+[2024-04-02 12:12:08] INFO root fetch - processPackages [glasflow]: Remove: archive file [/home/abi/fetcher/tmp/glasflow-0.3.1.tar.gz]
+[2024-04-02 12:12:08] INFO root fetch - main [MainThread]: End processing [glasflow]: success
+[2024-04-02 12:12:08] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b8.tar.gz]
+[2024-04-02 12:12:08] INFO root fetch - processPackages [cloudpss]: Remove: archive file [/home/abi/fetcher/tmp/cloudpss-4.1.1b9.tar.gz]
+[2024-04-02 12:12:08] INFO root fetch - main [MainThread]: End processing [cloudpss]: success
+[2024-04-02 12:12:08] INFO root fetch - main [MainThread]: Store serial: [22583346]
