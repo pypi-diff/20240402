@@ -13245,3 +13245,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:47:29] INFO root fetch - processPackages [spinedb-api]: Remove: archive file [/home/abi/fetcher/tmp/spinedb_api-0.30.4.tar.gz]
 [2024-04-02 09:47:29] INFO root fetch - main [MainThread]: End processing [spinedb-api]: success
 [2024-04-02 09:47:29] INFO root fetch - main [MainThread]: Store serial: [22581752]
+[2024-04-02 09:49:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581752]
+[2024-04-02 09:49:39] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 09:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: atomicshop
+[2024-04-02 09:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: d-fake-seeder
+[2024-04-02 09:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: soffosai
+[2024-04-02 09:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ANBUtils
+[2024-04-02 09:49:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: oslo.log
+[2024-04-02 09:49:39] INFO root fetch - processPackages [oslo.log]: New version: [5.5.0] Old Version: [5.4.0]
+[2024-04-02 09:49:39] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 09:49:39] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-02 09:49:39] INFO root fetch - processPackages [soffosai]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 09:49:39] INFO root fetch - processPackages [ANBUtils]: New version: [1.7.1] Old Version: [1.6.6]
+[2024-04-02 09:49:39] INFO root fetch - processPackages [oslo.log]: Downloading https://files.pythonhosted.org/packages/2b/d5/b3b9a02d09eb0b7c9d05958908b881e23182dac95d448377eb564598e52f/oslo.log-5.4.0.tar.gz
+[2024-04-02 09:49:39] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 09:49:39] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-02 09:49:39] INFO root fetch - processPackages [soffosai]: Downloading https://files.pythonhosted.org/packages/84/f4/a27307a95125636f1e8dcd9e307396d8ec9bb718f9ac3155782e5f3fa030/soffosai-0.2.1.tar.gz
+[2024-04-02 09:49:40] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/d4/27/ad893c424d4890ffcb01b19628ff6194d3547271106ddbaab3409d4492ef/ANBUtils-1.6.6.tar.gz
+[2024-04-02 09:49:40] INFO root fetch - processPackages [oslo.log]: Downloading https://files.pythonhosted.org/packages/b5/9b/21cb487426ec7e39807a1996ae16325e62230de49f514638bf376ac15a72/oslo.log-5.5.0.tar.gz
+[2024-04-02 09:49:40] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 09:49:40] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-02 09:49:40] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 09:49:40] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:49:40] INFO root fetch - processPackages [oslo.log]: executing diffoscope
+[2024-04-02 09:49:40] INFO root fetch - processPackages [oslo.log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.log-5.4.0.tar.gz tmp/oslo.log-5.5.0.tar.gz --markdown 20240402/o/oslo.log/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2024-04-02 09:49:40] INFO root fetch - processPackages [soffosai]: Downloading https://files.pythonhosted.org/packages/a5/cf/50ab3dce76d2bba6c7234a78aa7d56758083cce356af63c32e14b83f81f7/soffosai-0.2.2.tar.gz
+[2024-04-02 09:49:40] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-02 09:49:40] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240402/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-02 09:49:40] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/4c/62/887320f69cd8ff16996e78fa6cfb6a29439bc3bcc9a916381a0499de1d98/ANBUtils-1.7.1.tar.gz
+[2024-04-02 09:49:40] INFO root fetch - processPackages [soffosai]: executing diffoscope
+[2024-04-02 09:49:40] INFO root fetch - processPackages [soffosai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soffosai-0.2.1.tar.gz tmp/soffosai-0.2.2.tar.gz --markdown 20240402/s/soffosai/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 09:49:40] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2024-04-02 09:49:40] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.6.6.tar.gz tmp/ANBUtils-1.7.1.tar.gz --markdown 20240402/A/ANBUtils/1.6.6-1.7.1/diff.md --exclude *.pyd
+[2024-04-02 09:49:40] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 09:49:40] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 09:49:40] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 09:49:41] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.6.6.tar.gz]
+[2024-04-02 09:49:41] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.7.1.tar.gz]
+[2024-04-02 09:49:41] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2024-04-02 09:49:41] INFO root fetch - processPackages [oslo.log]: Remove: archive file [/home/abi/fetcher/tmp/oslo.log-5.4.0.tar.gz]
+[2024-04-02 09:49:41] INFO root fetch - processPackages [oslo.log]: Remove: archive file [/home/abi/fetcher/tmp/oslo.log-5.5.0.tar.gz]
+[2024-04-02 09:49:41] INFO root fetch - main [MainThread]: End processing [oslo.log]: success
+[2024-04-02 09:49:41] INFO root fetch - processPackages [soffosai]: Remove: archive file [/home/abi/fetcher/tmp/soffosai-0.2.1.tar.gz]
+[2024-04-02 09:49:41] INFO root fetch - processPackages [soffosai]: Remove: archive file [/home/abi/fetcher/tmp/soffosai-0.2.2.tar.gz]
+[2024-04-02 09:49:41] INFO root fetch - main [MainThread]: End processing [soffosai]: success
+[2024-04-02 09:49:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-02 09:49:41] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-02 09:49:41] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-02 09:49:41] INFO root fetch - main [MainThread]: Store serial: [22581767]
