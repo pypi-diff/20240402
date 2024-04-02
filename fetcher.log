@@ -8329,3 +8329,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:05:22] INFO root fetch - processPackages [gh-util]: Remove: archive file [/home/abi/fetcher/tmp/gh_util-0.1.9.tar.gz]
 [2024-04-02 04:05:22] INFO root fetch - main [MainThread]: End processing [gh-util]: success
 [2024-04-02 04:05:22] INFO root fetch - main [MainThread]: Store serial: [22579833]
+[2024-04-02 04:07:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579833]
+[2024-04-02 04:07:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepl-translator
+[2024-04-02 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: seidart
+[2024-04-02 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantes
+[2024-04-02 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bamboo-stash
+[2024-04-02 04:07:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ytmusic-deleter
+[2024-04-02 04:07:31] INFO root fetch - processPackages [quantes]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-02 04:07:31] INFO root fetch - processPackages [deepl-translator]: New version: [0.1.2] Old Version: [0.1]
+[2024-04-02 04:07:31] INFO root fetch - processPackages [bamboo-stash]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 04:07:31] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.1.2a0] Old Version: [2.1.1a1]
+[2024-04-02 04:07:31] INFO root fetch - processPackages [quantes]: Downloading https://files.pythonhosted.org/packages/5e/9b/1c925e3eae32a04df7c9951839b7913db4fa8df5de398b1b2f97b2ff8d17/quantes-2.0.3.tar.gz
+[2024-04-02 04:07:31] WARNING root fetch - processPackages [seidart]: Skipping, unable to determine old version
+[2024-04-02 04:07:31] INFO root fetch - main [MainThread]: End processing [seidart] error
+[2024-04-02 04:07:31] INFO root fetch - processPackages [bamboo-stash]: Downloading https://files.pythonhosted.org/packages/43/82/29c9b4f285aa09972e8347da3d2150c843180f4defbbdadd610a32d3dbed/bamboo_stash-0.1.1.tar.gz
+[2024-04-02 04:07:31] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/35/da/bb5aa8ec26cb123b8ab6ec99174d5012cad2c83dd5f59802b0113762768d/deepl_translator-0.1.tar.gz
+[2024-04-02 04:07:31] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/e7/0b/97eea6b02ecf6aeec8721cdbb0636c8bcc62c040c4c4780a729b58ea30a6/ytmusic_deleter-2.1.1a1.tar.gz
+[2024-04-02 04:07:31] INFO root fetch - processPackages [quantes]: Downloading https://files.pythonhosted.org/packages/68/e7/9762f7551d28f1aa1df8251939cb217326c9623e584dcd46e56ce436b47e/quantes-2.0.4.tar.gz
+[2024-04-02 04:07:31] INFO root fetch - processPackages [bamboo-stash]: Downloading https://files.pythonhosted.org/packages/44/75/290023ad27648306f9ae349f47230c19c36bed06632854435884b537f54a/bamboo_stash-0.1.2.tar.gz
+[2024-04-02 04:07:31] INFO root fetch - processPackages [quantes]: executing diffoscope
+[2024-04-02 04:07:31] INFO root fetch - processPackages [quantes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantes-2.0.3.tar.gz tmp/quantes-2.0.4.tar.gz --markdown 20240402/q/quantes/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-02 04:07:31] INFO root fetch - processPackages [bamboo-stash]: executing diffoscope
+[2024-04-02 04:07:31] INFO root fetch - processPackages [bamboo-stash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo_stash-0.1.1.tar.gz tmp/bamboo_stash-0.1.2.tar.gz --markdown 20240402/b/bamboo-stash/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 04:07:31] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/9a/0b/f689dbce9a752f2e00f190094d031a6340f724ab6abb4f177be0c2b358b6/ytmusic_deleter-2.1.2a0-py3-none-any.whl
+[2024-04-02 04:07:31] INFO root fetch - processPackages [deepl-translator]: Downloading https://files.pythonhosted.org/packages/d1/6b/0213ce704d21677ebe32767f91f48378f7f61f946cacaeea794fd77d0f9d/deepl_translator-0.1.2.tar.gz
+[2024-04-02 04:07:31] INFO root fetch - processPackages [deepl-translator]: executing diffoscope
+[2024-04-02 04:07:31] INFO root fetch - processPackages [deepl-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepl_translator-0.1.tar.gz tmp/deepl_translator-0.1.2.tar.gz --markdown 20240402/d/deepl-translator/0.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 04:07:32] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-04-02 04:07:32] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.1.1a1.tar.gz tmp/ytmusic_deleter-2.1.2a0-py3-none-any.whl.zip --markdown 20240402/y/ytmusic-deleter/2.1.1a1-2.1.2a0/diff.md --exclude *.pyd
+[2024-04-02 04:07:32] INFO root fetch - processPackages [quantes]: Remove: archive file [/home/abi/fetcher/tmp/quantes-2.0.3.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - processPackages [quantes]: Remove: archive file [/home/abi/fetcher/tmp/quantes-2.0.4.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - main [MainThread]: End processing [quantes]: success
+[2024-04-02 04:07:32] INFO root fetch - processPackages [bamboo-stash]: Remove: archive file [/home/abi/fetcher/tmp/bamboo_stash-0.1.1.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - processPackages [bamboo-stash]: Remove: archive file [/home/abi/fetcher/tmp/bamboo_stash-0.1.2.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - main [MainThread]: End processing [bamboo-stash]: success
+[2024-04-02 04:07:32] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - processPackages [deepl-translator]: Remove: archive file [/home/abi/fetcher/tmp/deepl_translator-0.1.2.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - main [MainThread]: End processing [deepl-translator]: success
+[2024-04-02 04:07:32] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.1a1.tar.gz]
+[2024-04-02 04:07:32] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.2a0-py3-none-any.whl.zip]
+[2024-04-02 04:07:32] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-04-02 04:07:32] INFO root fetch - main [MainThread]: Store serial: [22579848]
