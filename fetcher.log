@@ -15201,3 +15201,38 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:58:07] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.0.9.tar.gz]
 [2024-04-02 10:58:07] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
 [2024-04-02 10:58:07] INFO root fetch - main [MainThread]: Store serial: [22582486]
+[2024-04-02 11:00:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582486]
+[2024-04-02 11:00:16] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 11:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sedcreator
+[2024-04-02 11:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dyacon
+[2024-04-02 11:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: periodicity-detection
+[2024-04-02 11:00:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-operator
+[2024-04-02 11:00:16] INFO root fetch - processPackages [sedcreator]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-02 11:00:16] INFO root fetch - processPackages [sedcreator]: Downloading https://files.pythonhosted.org/packages/99/4c/8a1e47e87b5c6b8f741d14030065543d99d6301ac64df11596974a35955c/sedcreator-0.9.2.tar.gz
+[2024-04-02 11:00:16] INFO root fetch - processPackages [gaea-operator]: New version: [1.2.0.4] Old Version: [1.2.0.3]
+[2024-04-02 11:00:16] INFO root fetch - processPackages [periodicity-detection]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 11:00:16] INFO root fetch - processPackages [dyacon]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 11:00:16] WARNING root fetch - processPackages [sedcreator]: Skipping package: exceeds size limit 81599634>=10485760
+[2024-04-02 11:00:16] INFO root fetch - main [MainThread]: End processing [sedcreator] error
+[2024-04-02 11:00:16] INFO root fetch - processPackages [dyacon]: Downloading https://files.pythonhosted.org/packages/0e/9f/f0810fdaddffb36c5c234b22efdb98d12d7e788a635e3807cf7e69422825/dyacon-0.0.8.tar.gz
+[2024-04-02 11:00:16] INFO root fetch - processPackages [periodicity-detection]: Downloading https://files.pythonhosted.org/packages/aa/94/038fb477c7ac6efe2c11289a18d156289adfce4cb7a6b785a7f3a0b8ce25/periodicity_detection-0.1.1.tar.gz
+[2024-04-02 11:00:16] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/8a/51/2e87e3940065f6d2f09293dab260db9e7e06ee11108293ed26baeae311c4/gaea_operator-1.2.0.3-py3-none-any.whl
+[2024-04-02 11:00:17] INFO root fetch - processPackages [dyacon]: Downloading https://files.pythonhosted.org/packages/d3/6f/8cab9219086c9dfe75e956204d2210a93e54cc15c75041ade1767313ea08/dyacon-0.0.9.tar.gz
+[2024-04-02 11:00:17] INFO root fetch - processPackages [gaea-operator]: Downloading https://files.pythonhosted.org/packages/62/1b/e79c672549e1e72b963ade665d0c2d1c3a984fb3dd3935a3e8971fbd6ea5/gaea_operator-1.2.0.4-py3-none-any.whl
+[2024-04-02 11:00:17] INFO root fetch - processPackages [dyacon]: executing diffoscope
+[2024-04-02 11:00:17] INFO root fetch - processPackages [dyacon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyacon-0.0.8.tar.gz tmp/dyacon-0.0.9.tar.gz --markdown 20240402/d/dyacon/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:00:17] INFO root fetch - processPackages [periodicity-detection]: Downloading https://files.pythonhosted.org/packages/e9/d1/204b65cebc18b745a38e45f6ea4c7096f5fda3e24e455a22799ea2dbc139/periodicity_detection-0.1.2.tar.gz
+[2024-04-02 11:00:17] INFO root fetch - processPackages [gaea-operator]: executing diffoscope
+[2024-04-02 11:00:17] INFO root fetch - processPackages [gaea-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_operator-1.2.0.3-py3-none-any.whl.zip tmp/gaea_operator-1.2.0.4-py3-none-any.whl.zip --markdown 20240402/g/gaea-operator/1.2.0.3-1.2.0.4/diff.md --exclude *.pyd
+[2024-04-02 11:00:17] INFO root fetch - processPackages [periodicity-detection]: executing diffoscope
+[2024-04-02 11:00:17] INFO root fetch - processPackages [periodicity-detection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/periodicity_detection-0.1.1.tar.gz tmp/periodicity_detection-0.1.2.tar.gz --markdown 20240402/p/periodicity-detection/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 11:00:17] INFO root fetch - processPackages [dyacon]: Remove: archive file [/home/abi/fetcher/tmp/dyacon-0.0.8.tar.gz]
+[2024-04-02 11:00:17] INFO root fetch - processPackages [dyacon]: Remove: archive file [/home/abi/fetcher/tmp/dyacon-0.0.9.tar.gz]
+[2024-04-02 11:00:17] INFO root fetch - main [MainThread]: End processing [dyacon]: success
+[2024-04-02 11:00:17] INFO root fetch - processPackages [periodicity-detection]: Remove: archive file [/home/abi/fetcher/tmp/periodicity_detection-0.1.1.tar.gz]
+[2024-04-02 11:00:17] INFO root fetch - processPackages [periodicity-detection]: Remove: archive file [/home/abi/fetcher/tmp/periodicity_detection-0.1.2.tar.gz]
+[2024-04-02 11:00:17] INFO root fetch - main [MainThread]: End processing [periodicity-detection]: success
+[2024-04-02 11:00:18] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.3-py3-none-any.whl.zip]
+[2024-04-02 11:00:18] INFO root fetch - processPackages [gaea-operator]: Remove: archive file [/home/abi/fetcher/tmp/gaea_operator-1.2.0.4-py3-none-any.whl.zip]
+[2024-04-02 11:00:18] INFO root fetch - main [MainThread]: End processing [gaea-operator]: success
+[2024-04-02 11:00:18] INFO root fetch - main [MainThread]: Store serial: [22582501]
