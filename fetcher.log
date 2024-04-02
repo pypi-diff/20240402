@@ -13067,3 +13067,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:36:32] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.4.tar.gz]
 [2024-04-02 09:36:32] INFO root fetch - main [MainThread]: End processing [m3-objectpack]: success
 [2024-04-02 09:36:32] INFO root fetch - main [MainThread]: Store serial: [22581672]
+[2024-04-02 09:38:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581672]
+[2024-04-02 09:38:41] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genlib
+[2024-04-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: windmill-train
+[2024-04-02 09:38:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cerc-persistence
+[2024-04-02 09:38:41] WARNING root fetch - processPackages [genlib]: Skipping, unable to determine old version
+[2024-04-02 09:38:41] INFO root fetch - main [MainThread]: End processing [genlib] error
+[2024-04-02 09:38:41] INFO root fetch - processPackages [cerc-persistence]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-04-02 09:38:41] INFO root fetch - processPackages [windmill-train]: New version: [1.0.0.9] Old Version: [1.0.0.8]
+[2024-04-02 09:38:41] INFO root fetch - processPackages [cerc-persistence]: Downloading https://files.pythonhosted.org/packages/4d/80/4768c470da523d28bfd155ffe15bcd6c593ff7fee280c2617e450cc6fd49/cerc-persistence-1.0.0.1.tar.gz
+[2024-04-02 09:38:41] INFO root fetch - processPackages [windmill-train]: Downloading https://files.pythonhosted.org/packages/02/6c/166080b93ce79c9307ab8bdec7d89a8a1c6a8c5e2df94f0d77cf845e8203/windmill_train-1.0.0.8-py3-none-any.whl
+[2024-04-02 09:38:41] INFO root fetch - processPackages [windmill-train]: Downloading https://files.pythonhosted.org/packages/9f/fe/c258ffb4a942647648da914cd82683bbd155724de5bfab3f48ffa5e06046/windmill_train-1.0.0.9-py3-none-any.whl
+[2024-04-02 09:38:41] INFO root fetch - processPackages [cerc-persistence]: Downloading https://files.pythonhosted.org/packages/25/13/cd91752c4633e089438dfc9d4c7dff355d27cd2b9e1a97cc76caa37e05db/cerc-persistence-1.0.0.2.tar.gz
+[2024-04-02 09:38:42] INFO root fetch - processPackages [windmill-train]: executing diffoscope
+[2024-04-02 09:38:42] INFO root fetch - processPackages [windmill-train]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_train-1.0.0.8-py3-none-any.whl.zip tmp/windmill_train-1.0.0.9-py3-none-any.whl.zip --markdown 20240402/w/windmill-train/1.0.0.8-1.0.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:38:42] INFO root fetch - processPackages [cerc-persistence]: executing diffoscope
+[2024-04-02 09:38:42] INFO root fetch - processPackages [cerc-persistence]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cerc-persistence-1.0.0.1.tar.gz tmp/cerc-persistence-1.0.0.2.tar.gz --markdown 20240402/c/cerc-persistence/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:38:42] INFO root fetch - processPackages [windmill-train]: Remove: archive file [/home/abi/fetcher/tmp/windmill_train-1.0.0.8-py3-none-any.whl.zip]
+[2024-04-02 09:38:42] INFO root fetch - processPackages [windmill-train]: Remove: archive file [/home/abi/fetcher/tmp/windmill_train-1.0.0.9-py3-none-any.whl.zip]
+[2024-04-02 09:38:42] INFO root fetch - main [MainThread]: End processing [windmill-train]: success
+[2024-04-02 09:38:42] INFO root fetch - processPackages [cerc-persistence]: Remove: archive file [/home/abi/fetcher/tmp/cerc-persistence-1.0.0.1.tar.gz]
+[2024-04-02 09:38:42] INFO root fetch - processPackages [cerc-persistence]: Remove: archive file [/home/abi/fetcher/tmp/cerc-persistence-1.0.0.2.tar.gz]
+[2024-04-02 09:38:42] INFO root fetch - main [MainThread]: End processing [cerc-persistence]: success
+[2024-04-02 09:38:42] INFO root fetch - main [MainThread]: Store serial: [22581682]
