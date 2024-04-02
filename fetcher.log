@@ -11209,3 +11209,21 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:38:15] INFO root fetch - processPackages [pydbase]: Remove: archive file [/home/abi/fetcher/tmp/pydbase-1.5.0.tar.gz]
 [2024-04-02 07:38:15] INFO root fetch - main [MainThread]: End processing [pydbase]: success
 [2024-04-02 07:38:15] INFO root fetch - main [MainThread]: Store serial: [22580961]
+[2024-04-02 07:40:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580961]
+[2024-04-02 07:40:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: automl-tools
+[2024-04-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mod-taiga
+[2024-04-02 07:40:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysoltransfer
+[2024-04-02 07:40:23] INFO root fetch - processPackages [automl-tools]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-02 07:40:23] WARNING root fetch - processPackages [mod-taiga]: Skipping, unable to determine old version
+[2024-04-02 07:40:23] INFO root fetch - main [MainThread]: End processing [mod-taiga] error
+[2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: Downloading https://files.pythonhosted.org/packages/d0/29/014605ccc96c3c177663f3624cb1d047d5186c2d0871c3d6f6246fb2962b/automl_tools-0.1.6.tar.gz
+[2024-04-02 07:40:24] WARNING root fetch - processPackages [pysoltransfer]: Skipping, unable to determine old version
+[2024-04-02 07:40:24] INFO root fetch - main [MainThread]: End processing [pysoltransfer] error
+[2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: Downloading https://files.pythonhosted.org/packages/1c/60/688c7bc182a9e9fb326f7940942405760c1dc0ea34b229f382ca9cc1ae89/automl_tools-0.2.0.tar.gz
+[2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: executing diffoscope
+[2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automl_tools-0.1.6.tar.gz tmp/automl_tools-0.2.0.tar.gz --markdown 20240402/a/automl-tools/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.1.6.tar.gz]
+[2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.2.0.tar.gz]
+[2024-04-02 07:40:24] INFO root fetch - main [MainThread]: End processing [automl-tools]: success
+[2024-04-02 07:40:24] INFO root fetch - main [MainThread]: Store serial: [22580972]
