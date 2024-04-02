@@ -14403,3 +14403,69 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:30:47] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.8.0.tar.gz]
 [2024-04-02 10:30:47] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
 [2024-04-02 10:30:47] INFO root fetch - main [MainThread]: Store serial: [22582203]
+[2024-04-02 10:32:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582203]
+[2024-04-02 10:32:56] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain-qianwen
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-testing
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccpn-project-checker
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antfyutils
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testingcgsdk
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: delayed
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AcraNetwork
+[2024-04-02 10:32:56] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 10:32:56] INFO root fetch - processPackages [antfyutils]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [langchain-qianwen]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/27/21/e179a1ff27e7aabc6b7884e0ac738725cf4c662cc1cfefbf03a83caf5e12/ccpn_project_checker-0.1.1.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [dve-lumipy-testing]: New version: [0.1.999] Old Version: [0.1.998]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [delayed]: New version: [1.2.0b1] Old Version: [1.0.1b1]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [AcraNetwork]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-02 10:32:56] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/4f/dc/ffd0d81e0ccb2e194afba503774b56099e9a17e9fdb8019f02b262396e32/antfyutils-0.0.3.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [langchain-qianwen]: Downloading https://files.pythonhosted.org/packages/d6/65/fe38e4434a716ecfadc554e5162786d88935c2941258f5137083843d01e7/langchain_qianwen-0.1.8.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/4a/c4/15da184529d541065896d6fc08baeb0cf0cd8306dc7f581261291ee49d80/dve_lumipy_testing-0.1.998-py3-none-any.whl
+[2024-04-02 10:32:56] INFO root fetch - processPackages [delayed]: Downloading https://files.pythonhosted.org/packages/61/d4/626d7ad9088db24cab223ae8b77b5a3756b4e39fb56fade8157e092c6837/delayed-1.0.1b1.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 10:32:56] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/36/22/643c455ac0c50d42916d52b9b476e86fe245f03e8d9e8b8ee8dc66fc7970/AcraNetwork-0.7.4.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 10:32:56] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:32:56] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/f1/93/72ac536a576231abc424b8a0e680a4dca21b994f08ed8c05749d832d06eb/ccpn_project_checker-0.1.2.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [antfyutils]: Downloading https://files.pythonhosted.org/packages/40/71/3148bfab6666bdaef426c0a59fcc7d4ae6330b763978a9e7a27309351a2b/antfyutils-0.0.4.tar.gz
+[2024-04-02 10:32:56] INFO root fetch - processPackages [langchain-qianwen]: Downloading https://files.pythonhosted.org/packages/85/84/cbf26b6411eb73ffa76f66d0a1789d12c0d9f06df67d15e46aed20b468f2/langchain_qianwen-0.1.9.tar.gz
+[2024-04-02 10:32:57] INFO root fetch - processPackages [delayed]: Downloading https://files.pythonhosted.org/packages/0d/3f/804003c0f5e21cf0bed1580c8cacf2d23db4162f6e5b9aaa6b04f55779d2/delayed-1.2.0b1.tar.gz
+[2024-04-02 10:32:57] INFO root fetch - processPackages [antfyutils]: executing diffoscope
+[2024-04-02 10:32:57] INFO root fetch - processPackages [antfyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antfyutils-0.0.3.tar.gz tmp/antfyutils-0.0.4.tar.gz --markdown 20240402/a/antfyutils/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 10:32:57] INFO root fetch - processPackages [langchain-qianwen]: executing diffoscope
+[2024-04-02 10:32:57] INFO root fetch - processPackages [langchain-qianwen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_qianwen-0.1.8.tar.gz tmp/langchain_qianwen-0.1.9.tar.gz --markdown 20240402/l/langchain-qianwen/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:32:57] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 10:32:57] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.1.tar.gz tmp/ccpn_project_checker-0.1.2.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 10:32:57] INFO root fetch - processPackages [delayed]: executing diffoscope
+[2024-04-02 10:32:57] INFO root fetch - processPackages [delayed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delayed-1.0.1b1.tar.gz tmp/delayed-1.2.0b1.tar.gz --markdown 20240402/d/delayed/1.0.1b1-1.2.0b1/diff.md --exclude *.pyd
+[2024-04-02 10:32:57] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/e8/d6/0fa21a06a24cc9d9763db8970944b4e1b837b1d07fb53fdb074d68f7147f/AcraNetwork-0.7.5.zip
+[2024-04-02 10:32:57] INFO root fetch - processPackages [AcraNetwork]: executing diffoscope
+[2024-04-02 10:32:57] INFO root fetch - processPackages [AcraNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AcraNetwork-0.7.4.tar.gz tmp/AcraNetwork-0.7.5.zip --markdown 20240402/A/AcraNetwork/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-02 10:32:57] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 10:32:57] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 10:32:57] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 10:32:57] INFO root fetch - processPackages [dve-lumipy-testing]: Downloading https://files.pythonhosted.org/packages/c4/37/ad6b4a98b1693f15c493b39fe5b70f5aa0561579d7d5b2d4c4eee74ad89a/dve_lumipy_testing-0.1.999-py3-none-any.whl
+[2024-04-02 10:32:57] INFO root fetch - processPackages [langchain-qianwen]: Remove: archive file [/home/abi/fetcher/tmp/langchain_qianwen-0.1.8.tar.gz]
+[2024-04-02 10:32:57] INFO root fetch - processPackages [langchain-qianwen]: Remove: archive file [/home/abi/fetcher/tmp/langchain_qianwen-0.1.9.tar.gz]
+[2024-04-02 10:32:57] INFO root fetch - main [MainThread]: End processing [langchain-qianwen]: success
+[2024-04-02 10:32:57] INFO root fetch - processPackages [dve-lumipy-testing]: executing diffoscope
+[2024-04-02 10:32:57] INFO root fetch - processPackages [dve-lumipy-testing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip --markdown 20240402/d/dve-lumipy-testing/0.1.998-0.1.999/diff.md --exclude *.pyd
+[2024-04-02 10:32:57] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.3.tar.gz]
+[2024-04-02 10:32:57] INFO root fetch - processPackages [antfyutils]: Remove: archive file [/home/abi/fetcher/tmp/antfyutils-0.0.4.tar.gz]
+[2024-04-02 10:32:57] INFO root fetch - main [MainThread]: End processing [antfyutils]: success
+[2024-04-02 10:32:57] INFO root fetch - processPackages [delayed]: Remove: archive file [/home/abi/fetcher/tmp/delayed-1.0.1b1.tar.gz]
+[2024-04-02 10:32:57] INFO root fetch - processPackages [delayed]: Remove: archive file [/home/abi/fetcher/tmp/delayed-1.2.0b1.tar.gz]
+[2024-04-02 10:32:57] INFO root fetch - main [MainThread]: End processing [delayed]: success
+[2024-04-02 10:32:58] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.4.tar.gz]
+[2024-04-02 10:32:58] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.5.zip]
+[2024-04-02 10:32:58] INFO root fetch - main [MainThread]: End processing [AcraNetwork]: success
+[2024-04-02 10:32:59] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.998-py3-none-any.whl.zip]
+[2024-04-02 10:32:59] INFO root fetch - processPackages [dve-lumipy-testing]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_testing-0.1.999-py3-none-any.whl.zip]
+[2024-04-02 10:32:59] INFO root fetch - main [MainThread]: End processing [dve-lumipy-testing]: success
+[2024-04-02 10:33:04] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.1.tar.gz]
+[2024-04-02 10:33:04] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.2.tar.gz]
+[2024-04-02 10:33:04] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 10:33:04] INFO root fetch - main [MainThread]: Store serial: [22582220]
