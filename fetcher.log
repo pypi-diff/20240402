@@ -12222,3 +12222,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:55:23] INFO root fetch - processPackages [cdklabs.cdk-verified-permissions]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-verified-permissions-0.0.1a4.tar.gz]
 [2024-04-02 08:55:23] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-verified-permissions]: success
 [2024-04-02 08:55:23] INFO root fetch - main [MainThread]: Store serial: [22581358]
+[2024-04-02 08:57:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581358]
+[2024-04-02 08:57:31] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2024-04-02 08:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catnekaise.cdk-iam-utilities
+[2024-04-02 08:57:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radosdb
+[2024-04-02 08:57:32] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 08:57:32] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-04-02 08:57:32] INFO root fetch - processPackages [radosdb]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 08:57:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: New version: [0.0.20] Old Version: [0.0.19]
+[2024-04-02 08:57:32] INFO root fetch - processPackages [radosdb]: Downloading https://files.pythonhosted.org/packages/51/46/d3abc4df23b048dff8009998ef9094fe4bea45ccf9b01995043e44a4b26c/radosdb-0.1.1.tar.gz
+[2024-04-02 08:57:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/c1/19/d48a32c079024776429536af2facfafe87409c84694799caa90cf70f48fd/catnekaise.cdk-iam-utilities-0.0.19.tar.gz
+[2024-04-02 08:57:32] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-04-02 08:57:32] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-04-02 08:57:32] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240402/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 08:57:32] INFO root fetch - processPackages [radosdb]: Downloading https://files.pythonhosted.org/packages/d0/30/2a744d2c2fed5c46fdc32532b0bc130c140a8eb0f0790e1ef21ac05054f3/radosdb-0.1.2.tar.gz
+[2024-04-02 08:57:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Downloading https://files.pythonhosted.org/packages/43/ef/9762a0666cc179e4e62e906b5a763ebb5f77881ac021b166dc141ab25f20/catnekaise.cdk-iam-utilities-0.0.20.tar.gz
+[2024-04-02 08:57:32] INFO root fetch - processPackages [radosdb]: executing diffoscope
+[2024-04-02 08:57:32] INFO root fetch - processPackages [radosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radosdb-0.1.1.tar.gz tmp/radosdb-0.1.2.tar.gz --markdown 20240402/r/radosdb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 08:57:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: executing diffoscope
+[2024-04-02 08:57:32] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.cdk-iam-utilities-0.0.19.tar.gz tmp/catnekaise.cdk-iam-utilities-0.0.20.tar.gz --markdown 20240402/c/catnekaise.cdk-iam-utilities/0.0.19-0.0.20/diff.md --exclude *.pyd
+[2024-04-02 08:57:33] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 08:57:33] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 08:57:33] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-04-02 08:57:33] INFO root fetch - processPackages [radosdb]: Remove: archive file [/home/abi/fetcher/tmp/radosdb-0.1.1.tar.gz]
+[2024-04-02 08:57:33] INFO root fetch - processPackages [radosdb]: Remove: archive file [/home/abi/fetcher/tmp/radosdb-0.1.2.tar.gz]
+[2024-04-02 08:57:33] INFO root fetch - main [MainThread]: End processing [radosdb]: success
+[2024-04-02 08:57:33] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.19.tar.gz]
+[2024-04-02 08:57:33] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.20.tar.gz]
+[2024-04-02 08:57:33] INFO root fetch - main [MainThread]: End processing [catnekaise.cdk-iam-utilities]: success
+[2024-04-02 08:57:33] INFO root fetch - main [MainThread]: Store serial: [22581365]
