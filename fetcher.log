@@ -2131,3 +2131,54 @@
 [2024-04-02 02:08:50] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.1.tar.gz]
 [2024-04-02 02:08:50] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
 [2024-04-02 02:08:50] INFO root fetch - main [MainThread]: Store serial: [22577436]
+[2024-04-02 02:10:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577436]
+[2024-04-02 02:10:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 02:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-common
+[2024-04-02 02:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boomgate
+[2024-04-02 02:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qa-metrics
+[2024-04-02 02:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openbb-nightly
+[2024-04-02 02:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-openupgrade-scripts
+[2024-04-02 02:10:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: architect-py
+[2024-04-02 02:10:59] INFO root fetch - processPackages [qa-metrics]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-02 02:10:59] WARNING root fetch - processPackages [boomgate]: Skipping, unable to determine old version
+[2024-04-02 02:10:59] INFO root fetch - main [MainThread]: End processing [boomgate] error
+[2024-04-02 02:10:59] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/ce/f4/d74f9f85faae3dc377d50e74396569241edf9038b37bccdbda467b9c6307/qa_metrics-0.2.2.tar.gz
+[2024-04-02 02:10:59] INFO root fetch - processPackages [architect-py]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-02 02:10:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [17.0.1.0.1.1] Old Version: [17.0.1.0.1]
+[2024-04-02 02:10:59] INFO root fetch - processPackages [openbb-nightly]: New version: [4.1.6.dev202404020009] Old Version: [4.1.5.dev202404010010]
+[2024-04-02 02:10:59] INFO root fetch - processPackages [cdk-common]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 02:10:59] INFO root fetch - processPackages [architect-py]: Downloading https://files.pythonhosted.org/packages/81/64/2207efa26c327d3767a2e70f44fd1ab1985b4990cec1b72f8d3bf766c3ee/architect_py-0.1.0.tar.gz
+[2024-04-02 02:10:59] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ac/89/1dbbab632b9797a344253e7b7ce222a549a0f9008ea4e6090bd23e63f4a1/odoo_addon_openupgrade_scripts-17.0.1.0.1-py3-none-any.whl
+[2024-04-02 02:10:59] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/f3/30/796e7080e9a9b293ccf386b0d95f40dde8e214e0415d2c59be9c661105a9/cdk-common-2.0.98.tar.gz
+[2024-04-02 02:10:59] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/da/21/65ba7b026ed08b22d9803563bdc37565e3698406a19002278c1b55218301/openbb_nightly-4.1.5.dev202404010010.tar.gz
+[2024-04-02 02:10:59] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/0c/24/a393bca1755f50578a8b24a8aa8d80d3aecee02f8de89c1b8f272e6932fd/qa_metrics-0.2.3.tar.gz
+[2024-04-02 02:10:59] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-04-02 02:10:59] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.2.2.tar.gz tmp/qa_metrics-0.2.3.tar.gz --markdown 20240402/q/qa-metrics/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-02 02:11:00] INFO root fetch - processPackages [architect-py]: Downloading https://files.pythonhosted.org/packages/12/c1/b71b75b837e13b347f0eeb7c0089699500fd06ab9a3eb81fce69b46a3281/architect_py-0.2.0.tar.gz
+[2024-04-02 02:11:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/db/05/04688d4f82370e4bae4a14ef6020e82e09ade6c98c3acef20837d8590431/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl
+[2024-04-02 02:11:00] INFO root fetch - processPackages [openbb-nightly]: Downloading https://files.pythonhosted.org/packages/a7/0e/2ca7d4a67c2fd3d7d1d39b7b705b82c09eb19c90ca05cdd861d28fe258a2/openbb_nightly-4.1.6.dev202404020009.tar.gz
+[2024-04-02 02:11:00] INFO root fetch - processPackages [architect-py]: executing diffoscope
+[2024-04-02 02:11:00] INFO root fetch - processPackages [architect-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/architect_py-0.1.0.tar.gz tmp/architect_py-0.2.0.tar.gz --markdown 20240402/a/architect-py/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 02:11:00] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.2.tar.gz]
+[2024-04-02 02:11:00] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.3.tar.gz]
+[2024-04-02 02:11:00] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-04-02 02:11:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2024-04-02 02:11:00] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-openupgrade-scripts/17.0.1.0.1-17.0.1.0.1.1/diff.md --exclude *.pyd
+[2024-04-02 02:11:00] INFO root fetch - processPackages [openbb-nightly]: executing diffoscope
+[2024-04-02 02:11:00] INFO root fetch - processPackages [openbb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openbb_nightly-4.1.5.dev202404010010.tar.gz tmp/openbb_nightly-4.1.6.dev202404020009.tar.gz --markdown 20240402/o/openbb-nightly/4.1.5.dev202404010010-4.1.6.dev202404020009/diff.md --exclude *.pyd
+[2024-04-02 02:11:01] INFO root fetch - processPackages [architect-py]: Remove: archive file [/home/abi/fetcher/tmp/architect_py-0.1.0.tar.gz]
+[2024-04-02 02:11:01] INFO root fetch - processPackages [architect-py]: Remove: archive file [/home/abi/fetcher/tmp/architect_py-0.2.0.tar.gz]
+[2024-04-02 02:11:01] INFO root fetch - main [MainThread]: End processing [architect-py]: success
+[2024-04-02 02:11:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-02 02:11:02] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-17.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-02 02:11:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2024-04-02 02:11:02] INFO root fetch - processPackages [cdk-common]: Downloading https://files.pythonhosted.org/packages/11/10/ca183f281275ec945ede082d9491c0bb5bfb9152c437124c86e37cba7079/cdk-common-2.0.99.tar.gz
+[2024-04-02 02:11:04] INFO root fetch - processPackages [cdk-common]: executing diffoscope
+[2024-04-02 02:11:04] INFO root fetch - processPackages [cdk-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-common-2.0.98.tar.gz tmp/cdk-common-2.0.99.tar.gz --markdown 20240402/c/cdk-common/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 02:11:04] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.5.dev202404010010.tar.gz]
+[2024-04-02 02:11:04] INFO root fetch - processPackages [openbb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/openbb_nightly-4.1.6.dev202404020009.tar.gz]
+[2024-04-02 02:11:04] INFO root fetch - main [MainThread]: End processing [openbb-nightly]: success
+[2024-04-02 02:11:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.98.tar.gz]
+[2024-04-02 02:11:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
+[2024-04-02 02:11:04] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
+[2024-04-02 02:11:04] INFO root fetch - main [MainThread]: Store serial: [22577454]
