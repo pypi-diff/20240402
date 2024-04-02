@@ -17287,3 +17287,18 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:23:06] INFO root fetch - processPackages [basecampapi]: Remove: archive file [/home/abi/fetcher/tmp/basecampapi-1.1.0.tar.gz]
 [2024-04-02 12:23:06] INFO root fetch - main [MainThread]: End processing [basecampapi]: success
 [2024-04-02 12:23:06] INFO root fetch - main [MainThread]: Store serial: [22583452]
+[2024-04-02 12:25:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583452]
+[2024-04-02 12:25:16] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 12:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-02 12:25:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spln-sentiment-analysis
+[2024-04-02 12:25:16] WARNING root fetch - processPackages [spln-sentiment-analysis]: Skipping, unable to determine old version
+[2024-04-02 12:25:16] INFO root fetch - main [MainThread]: End processing [spln-sentiment-analysis] error
+[2024-04-02 12:25:16] INFO root fetch - processPackages [khoj-assistant]: New version: [1.8.1.dev11] Old Version: [1.8.0]
+[2024-04-02 12:25:17] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f6/70/af3d362810c47595bde9491476c026d0918ab222bfc1d35d3f1b43cad868/khoj_assistant-1.8.0.tar.gz
+[2024-04-02 12:25:17] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/66/ad/77c0624acacedf1e00778c8f5301175dc6197f35903d59145b0c739d4139/khoj_assistant-1.8.1.dev11.tar.gz
+[2024-04-02 12:25:18] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-02 12:25:18] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.8.0.tar.gz tmp/khoj_assistant-1.8.1.dev11.tar.gz --markdown 20240402/k/khoj-assistant/1.8.0-1.8.1.dev11/diff.md --exclude *.pyd
+[2024-04-02 12:25:19] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.0.tar.gz]
+[2024-04-02 12:25:19] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev11.tar.gz]
+[2024-04-02 12:25:19] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-02 12:25:19] INFO root fetch - main [MainThread]: Store serial: [22583457]
