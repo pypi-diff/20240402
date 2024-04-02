@@ -8973,3 +8973,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:36:10] INFO root fetch - processPackages [dbt-starrocks]: Remove: archive file [/home/abi/fetcher/tmp/dbt-starrocks-1.6.1.tar.gz]
 [2024-04-02 04:36:10] INFO root fetch - main [MainThread]: End processing [dbt-starrocks]: success
 [2024-04-02 04:36:10] INFO root fetch - main [MainThread]: Store serial: [22580075]
+[2024-04-02 04:38:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580075]
+[2024-04-02 04:38:18] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 04:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: didcomm-messaging
+[2024-04-02 04:38:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ANX
+[2024-04-02 04:38:19] INFO root fetch - processPackages [didcomm-messaging]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-04-02 04:38:19] INFO root fetch - processPackages [ANX]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-02 04:38:19] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/39/71/98ba29da77df52d0cced04993d2ae974d8b59a8feb436de91355275f8006/ANX-0.7.0.tar.gz
+[2024-04-02 04:38:19] INFO root fetch - processPackages [didcomm-messaging]: Downloading https://files.pythonhosted.org/packages/fc/91/b189d9a95ed83ea62912adeaa9b47bfec4eb997ba57202cb737e2aa1f718/didcomm_messaging-0.1.0a3.tar.gz
+[2024-04-02 04:38:19] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/df/cd/a354bfd7ad11a07bd366d417d5f24434e3a2b6dd72e751374836fee38aa5/ANX-0.7.1.tar.gz
+[2024-04-02 04:38:19] INFO root fetch - processPackages [didcomm-messaging]: Downloading https://files.pythonhosted.org/packages/6b/b7/2a4bafdcfac7e22f0ab690a1633f64dbe3a70ae1399d327e94689f568f42/didcomm_messaging-0.1.0a4.tar.gz
+[2024-04-02 04:38:19] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-04-02 04:38:19] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.0.tar.gz tmp/ANX-0.7.1.tar.gz --markdown 20240402/A/ANX/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-02 04:38:19] INFO root fetch - processPackages [didcomm-messaging]: executing diffoscope
+[2024-04-02 04:38:19] INFO root fetch - processPackages [didcomm-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/didcomm_messaging-0.1.0a3.tar.gz tmp/didcomm_messaging-0.1.0a4.tar.gz --markdown 20240402/d/didcomm-messaging/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2024-04-02 04:38:20] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.0.tar.gz]
+[2024-04-02 04:38:20] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.1.tar.gz]
+[2024-04-02 04:38:20] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-04-02 04:38:20] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.0a3.tar.gz]
+[2024-04-02 04:38:20] INFO root fetch - processPackages [didcomm-messaging]: Remove: archive file [/home/abi/fetcher/tmp/didcomm_messaging-0.1.0a4.tar.gz]
+[2024-04-02 04:38:20] INFO root fetch - main [MainThread]: End processing [didcomm-messaging]: success
+[2024-04-02 04:38:20] INFO root fetch - main [MainThread]: Store serial: [22580081]
