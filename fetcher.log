@@ -19219,3 +19219,96 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:38:01] INFO root fetch - processPackages [ipex-llm]: Remove: archive file [/home/abi/fetcher/tmp/ipex_llm-2.1.0b20240401-py3-none-win_amd64.whl.zip]
 [2024-04-02 13:38:01] INFO root fetch - main [MainThread]: End processing [ipex-llm]: success
 [2024-04-02 13:38:01] INFO root fetch - main [MainThread]: Store serial: [22584187]
+[2024-04-02 13:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584187]
+[2024-04-02 13:40:10] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geosss
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chainlib-eth
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eth-monitor
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crabpy
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nvfuser-cu121
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: amsdal_models
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rpaframework-windows
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nvfuser-cu118
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ocf-datapipes
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: yamk
+[2024-04-02 13:40:10] INFO root fetch - processPackages [amsdal_models]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [crabpy]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [geosss]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [eth-monitor]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [chainlib-eth]: New version: [0.6.0] Old Version: [0.5.2]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [rpaframework-windows]: New version: [7.5.1] Old Version: [7.5.0]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.2.0.dev20240402] Old Version: [0.2.0.dev20240401]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [yamk]: New version: [6.1.0] Old Version: [6.0.1]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [ocf-datapipes]: New version: [3.3.8] Old Version: [3.3.7]
+[2024-04-02 13:40:10] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/de/66/30a8005f2e3191b58e25c647559bb0e5aa0c9535a386a49a4b79296b7741/amsdal_models-0.1.4-cp311-cp311-win_amd64.whl
+[2024-04-02 13:40:10] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.2.0.dev20240402] Old Version: [0.2.0.dev20240401]
+[2024-04-02 13:40:11] INFO root fetch - processPackages [geosss]: Downloading https://files.pythonhosted.org/packages/02/36/83454d5a9a42c1824fe3304cec6518bf9c69249b94a2f87fa059ed5da046/geosss-0.1.8.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/e0/6c/a6822c3d376cb915ce54d41ba2d970c853337c4deb5b62e4e10e3b066cbe/ocf_datapipes-3.3.7.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [crabpy]: Downloading https://files.pythonhosted.org/packages/cd/b0/368243511e90493885585a466fb5028ca21c5f6752005bcc23e48b86a9db/crabpy-1.3.1.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [chainlib-eth]: Downloading https://files.pythonhosted.org/packages/55/59/c8089002cdad3f390cd5d8234cfc24bb124e65242da51172333595adeea4/chainlib-eth-0.5.2.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [rpaframework-windows]: Downloading https://files.pythonhosted.org/packages/fb/54/eeee15d9715a88b2b1f16e33afe4f490f58f3d36d00b2bc755ef226c2701/rpaframework_windows-7.5.0.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/30/f4/dc390e9e0df6e0110a1d712c2d9d465448fc2e382ce2bb456aaf2bb22d72/eth-monitor-0.8.8.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/76/10/237990dae6a403f0f5d8a3a7e24943616c0561e607dd62fcb0105faf27a3/nvfuser_cu121-0.2.0.dev20240401.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/cc/01/e712b8036ba4761c2af5df1c24ba31006b54f8dbec22f556e21a427a22c4/nvfuser_cu118-0.2.0.dev20240401.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [yamk]: Downloading https://files.pythonhosted.org/packages/91/3d/122dfb2372864bcf29288f086a1670bfea2a870321cbc8650e0f0ef478fd/yamk-6.0.1.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [geosss]: Downloading https://files.pythonhosted.org/packages/6c/e0/77d0362f979624cc2eeeae46330f7a42dd88cbe2db25117b5375622ef1eb/geosss-0.1.9.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [amsdal_models]: Downloading https://files.pythonhosted.org/packages/ef/8e/a9dcb801fee30653341182fe6aefad379501f216bf6308d42d340651e57d/amsdal_models-0.1.5-cp311-cp311-win_amd64.whl
+[2024-04-02 13:40:11] INFO root fetch - processPackages [ocf-datapipes]: Downloading https://files.pythonhosted.org/packages/15/c1/a7b606f36344fabf944e15a0797bc3247212355d28ff2a63eef5077883b8/ocf_datapipes-3.3.8.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/ef/aa/b2075b29356593b127f8239be95e96b75202ad6aae4fd0c52ee07ecc9f6f/nvfuser_cu118-0.2.0.dev20240402.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [geosss]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [geosss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geosss-0.1.8.tar.gz tmp/geosss-0.1.9.tar.gz --markdown 20240402/g/geosss/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/13/1a/70b9846353ed86020ac531a041343361578873f77d132ff39e4836f28b3d/nvfuser_cu121-0.2.0.dev20240402.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [crabpy]: Downloading https://files.pythonhosted.org/packages/a8/64/343450bc2e74e15cd69aaefcb3ce1ccde54195edacc3131b046bd508ee94/crabpy-1.3.2.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [chainlib-eth]: Downloading https://files.pythonhosted.org/packages/2f/29/61625681fddd6faa6e14b02488112b53f8c8bad035065ccd165230ceffb2/chainlib-eth-0.6.0.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [yamk]: Downloading https://files.pythonhosted.org/packages/b1/ad/cab8f0ca4784a16d969a1849243ff9bfe3f1dd7307dbcab65109dae76de2/yamk-6.1.0.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [eth-monitor]: Downloading https://files.pythonhosted.org/packages/08/66/02fe1b9deb675de09db89e9cd441162a45ccac987a1d3ce7c433595c1943/eth-monitor-0.8.9.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.2.0.dev20240401.tar.gz tmp/nvfuser_cu121-0.2.0.dev20240402.tar.gz --markdown 20240402/n/nvfuser-cu121/0.2.0.dev20240401-0.2.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.2.0.dev20240401.tar.gz tmp/nvfuser_cu118-0.2.0.dev20240402.tar.gz --markdown 20240402/n/nvfuser-cu118/0.2.0.dev20240401-0.2.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [crabpy]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [crabpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crabpy-1.3.1.tar.gz tmp/crabpy-1.3.2.tar.gz --markdown 20240402/c/crabpy/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [chainlib-eth]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [chainlib-eth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-eth-0.5.2.tar.gz tmp/chainlib-eth-0.6.0.tar.gz --markdown 20240402/c/chainlib-eth/0.5.2-0.6.0/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [eth-monitor]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [eth-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eth-monitor-0.8.8.tar.gz tmp/eth-monitor-0.8.9.tar.gz --markdown 20240402/e/eth-monitor/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [amsdal_models]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [amsdal_models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_models-0.1.4-cp311-cp311-win_amd64.whl.zip tmp/amsdal_models-0.1.5-cp311-cp311-win_amd64.whl.zip --markdown 20240402/a/amsdal_models/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 13:40:11] INFO root fetch - processPackages [rpaframework-windows]: Downloading https://files.pythonhosted.org/packages/fd/60/561af1c56c0178e1b0b5635695f0911a945cd7d1fb08560b8f59c003353a/rpaframework_windows-7.5.1.tar.gz
+[2024-04-02 13:40:11] INFO root fetch - processPackages [yamk]: executing diffoscope
+[2024-04-02 13:40:11] INFO root fetch - processPackages [yamk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yamk-6.0.1.tar.gz tmp/yamk-6.1.0.tar.gz --markdown 20240402/y/yamk/6.0.1-6.1.0/diff.md --exclude *.pyd
+[2024-04-02 13:40:12] INFO root fetch - processPackages [rpaframework-windows]: executing diffoscope
+[2024-04-02 13:40:12] INFO root fetch - processPackages [rpaframework-windows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_windows-7.5.0.tar.gz tmp/rpaframework_windows-7.5.1.tar.gz --markdown 20240402/r/rpaframework-windows/7.5.0-7.5.1/diff.md --exclude *.pyd
+[2024-04-02 13:40:12] INFO root fetch - processPackages [ocf-datapipes]: executing diffoscope
+[2024-04-02 13:40:12] INFO root fetch - processPackages [ocf-datapipes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocf_datapipes-3.3.7.tar.gz tmp/ocf_datapipes-3.3.8.tar.gz --markdown 20240402/o/ocf-datapipes/3.3.7-3.3.8/diff.md --exclude *.pyd
+[2024-04-02 13:40:12] INFO root fetch - processPackages [geosss]: Remove: archive file [/home/abi/fetcher/tmp/geosss-0.1.8.tar.gz]
+[2024-04-02 13:40:12] INFO root fetch - processPackages [geosss]: Remove: archive file [/home/abi/fetcher/tmp/geosss-0.1.9.tar.gz]
+[2024-04-02 13:40:12] INFO root fetch - main [MainThread]: End processing [geosss]: success
+[2024-04-02 13:40:12] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240401.tar.gz]
+[2024-04-02 13:40:12] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.2.0.dev20240402.tar.gz]
+[2024-04-02 13:40:12] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2024-04-02 13:40:12] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240401.tar.gz]
+[2024-04-02 13:40:12] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.2.0.dev20240402.tar.gz]
+[2024-04-02 13:40:12] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [yamk]: Remove: archive file [/home/abi/fetcher/tmp/yamk-6.0.1.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [yamk]: Remove: archive file [/home/abi/fetcher/tmp/yamk-6.1.0.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [yamk]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [crabpy]: Remove: archive file [/home/abi/fetcher/tmp/crabpy-1.3.1.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [crabpy]: Remove: archive file [/home/abi/fetcher/tmp/crabpy-1.3.2.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [crabpy]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [rpaframework-windows]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_windows-7.5.0.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [rpaframework-windows]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_windows-7.5.1.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [rpaframework-windows]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.8.8.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [eth-monitor]: Remove: archive file [/home/abi/fetcher/tmp/eth-monitor-0.8.9.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [eth-monitor]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.5.2.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [chainlib-eth]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-eth-0.6.0.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [chainlib-eth]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.4-cp311-cp311-win_amd64.whl.zip]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [amsdal_models]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_models-0.1.5-cp311-cp311-win_amd64.whl.zip]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [amsdal_models]: success
+[2024-04-02 13:40:13] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.7.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
+[2024-04-02 13:40:13] INFO root fetch - main [MainThread]: Store serial: [22584224]
