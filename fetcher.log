@@ -8833,3 +8833,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:25:16] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401115342.tar.gz]
 [2024-04-02 04:25:16] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2024-04-02 04:25:16] INFO root fetch - main [MainThread]: Store serial: [22580009]
+[2024-04-02 04:27:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580009]
+[2024-04-02 04:27:24] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 04:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tg-flask-sse-common
+[2024-04-02 04:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mystring
+[2024-04-02 04:27:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: naja-atra
+[2024-04-02 04:27:25] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-02 04:27:25] WARNING root fetch - processPackages [naja-atra]: Skipping, unable to determine old version
+[2024-04-02 04:27:25] INFO root fetch - main [MainThread]: End processing [naja-atra] error
+[2024-04-02 04:27:25] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [1.9.6] Old Version: [1.9.5]
+[2024-04-02 04:27:25] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-02 04:27:25] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-02 04:27:25] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/57/35/360c528341267e81696f5c6639a50b165ab2d9da78620a8dbaa426bfa77d/tg_flask_sse_common-1.9.5.tar.gz
+[2024-04-02 04:27:25] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-02 04:27:25] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240402/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-02 04:27:25] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/29/40/94dce215ea9a7909d9023b85eb9212ad61ebc0f9fbec7589152109a32110/tg_flask_sse_common-1.9.6.tar.gz
+[2024-04-02 04:27:25] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-02 04:27:25] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-1.9.5.tar.gz tmp/tg_flask_sse_common-1.9.6.tar.gz --markdown 20240402/t/tg-flask-sse-common/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2024-04-02 04:27:26] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-02 04:27:26] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-02 04:27:26] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-02 04:27:26] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.5.tar.gz]
+[2024-04-02 04:27:26] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.6.tar.gz]
+[2024-04-02 04:27:26] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-02 04:27:26] INFO root fetch - main [MainThread]: Store serial: [22580021]
