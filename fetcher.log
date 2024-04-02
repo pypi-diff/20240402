@@ -22227,3 +22227,81 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:19:01] INFO root fetch - processPackages [monviso]: Remove: archive file [/home/abi/fetcher/tmp/monviso-0.1.1.tar.gz]
 [2024-04-02 15:19:01] INFO root fetch - main [MainThread]: End processing [monviso]: success
 [2024-04-02 15:19:01] INFO root fetch - main [MainThread]: Store serial: [22585398]
+[2024-04-02 15:21:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585398]
+[2024-04-02 15:21:09] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: prediction-market-agent-tooling
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: antigranular-enterprise
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-flask-sse-common
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dynamicpy
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LbAPCommon
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: FPC
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygoogalytics
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pmpt
+[2024-04-02 15:21:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhaolinchao
+[2024-04-02 15:21:09] INFO root fetch - processPackages [LbAPCommon]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 15:21:09] INFO root fetch - processPackages [prediction-market-agent-tooling]: New version: [0.7.0] Old Version: [0.6.0]
+[2024-04-02 15:21:09] INFO root fetch - processPackages [pmpt]: New version: [1.0.1.post8487904168] Old Version: [1.0.1.8510971585]
+[2024-04-02 15:21:09] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2024-04-02 15:21:09] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/a2/4c/873b2a6b734b48cc0f1cf7b790236c8234e9cba9a7eee71c763e8d1d6296/LbAPCommon-0.9.8.tar.gz
+[2024-04-02 15:21:09] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [2.0.0] Old Version: [1.9.9]
+[2024-04-02 15:21:09] ERROR root fetch - processPackages [zhaolinchao]: Unable to get metadata: No such project 'zhaolinchao'
+[2024-04-02 15:21:09] INFO root fetch - main [MainThread]: End processing [zhaolinchao] error
+[2024-04-02 15:21:09] INFO root fetch - processPackages [pygoogalytics]: New version: [0.6.9] Old Version: [0.6.8]
+[2024-04-02 15:21:09] INFO root fetch - processPackages [antigranular-enterprise]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 15:21:09] INFO root fetch - processPackages [dynamicpy]: New version: [1.2.2] Old Version: [1.2.1]
+[2024-04-02 15:21:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/65/dc/893ad0107e7eff5838474df6cea46fc2bd66ce9466c9052ff711f0432a76/prediction_market_agent_tooling-0.6.0.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pmpt]: Downloading https://files.pythonhosted.org/packages/40/e4/91f9d63d49b828376841acfe90a680e118862265ddcaed226fbec3fd3529/pmpt-1.0.1.8510971585.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/1b/91/f1c87d3dd588d92f54b1d9abc16a3d0442024fc3e3862a578fb13436c1cd/pygoogalytics-0.6.8.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [antigranular-enterprise]: Downloading https://files.pythonhosted.org/packages/dc/48/f85d1c91a1eb7c426d4fa1547c6be50a626792f013105f0894512a870b7d/antigranular_enterprise-0.0.8.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/dc/ed/d6882307c12123046791a866b430162d39963572f34e9e6a0a11db467408/tg_flask_sse_common-1.9.9.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [dynamicpy]: Downloading https://files.pythonhosted.org/packages/64/d5/aa703774a13458ee9075a774e666c4ddbe7b8fbd6282ecde27816313e12e/dynamicpy-1.2.1.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: Downloading https://files.pythonhosted.org/packages/96/b0/ad4e30b2f187f6c7d0bbd93612b6a42f35bf4121ec94f0582edc51218eaa/prediction_market_agent_tooling-0.7.0.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/8d/40/270ffe24cea731ed2cbe8e73d29b72ca20b5d707e3aaf201d50d97ac74d4/LbAPCommon-0.9.9.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pmpt]: Downloading https://files.pythonhosted.org/packages/7b/6d/fb99ef4119f2c434f6ae75f56da77e119554c3b7d30e6a9bb10c93b35ac5/pmpt-1.0.1.post8487904168-py3-none-any.whl
+[2024-04-02 15:21:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [prediction-market-agent-tooling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prediction_market_agent_tooling-0.6.0.tar.gz tmp/prediction_market_agent_tooling-0.7.0.tar.gz --markdown 20240402/p/prediction-market-agent-tooling/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [antigranular-enterprise]: Downloading https://files.pythonhosted.org/packages/5d/18/702094ea5066cebb773782930cf6b5542d08502fa3475a55793509e8c859/antigranular_enterprise-0.0.9.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pmpt]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pmpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmpt-1.0.1.8510971585.tar.gz tmp/pmpt-1.0.1.post8487904168-py3-none-any.whl.zip --markdown 20240402/p/pmpt/1.0.1.8510971585-1.0.1.post8487904168/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [LbAPCommon]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [LbAPCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPCommon-0.9.8.tar.gz tmp/LbAPCommon-0.9.9.tar.gz --markdown 20240402/L/LbAPCommon/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/04/99/66059c996308517aa7300070c376d96da65cf00eab64af4b28a0bf1ae5e1/tg_flask_sse_common-2.0.0.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pygoogalytics]: Downloading https://files.pythonhosted.org/packages/c8/45/2026883e07e10ce826c33444a90c539e25e489ab2b8539b08e55efa185b7/pygoogalytics-0.6.9.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [dynamicpy]: Downloading https://files.pythonhosted.org/packages/24/8a/b4262c11d866a1f26337ca46d388200cf50af0ba82b71bb1214ef04adb9f/dynamicpy-1.2.2.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2024-04-02 15:21:10] INFO root fetch - processPackages [antigranular-enterprise]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [antigranular-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antigranular_enterprise-0.0.8.tar.gz tmp/antigranular_enterprise-0.0.9.tar.gz --markdown 20240402/a/antigranular-enterprise/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-1.9.9.tar.gz tmp/tg_flask_sse_common-2.0.0.tar.gz --markdown 20240402/t/tg-flask-sse-common/1.9.9-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pygoogalytics]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [pygoogalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygoogalytics-0.6.8.tar.gz tmp/pygoogalytics-0.6.9.tar.gz --markdown 20240402/p/pygoogalytics/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [dynamicpy]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [dynamicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dynamicpy-1.2.1.tar.gz tmp/dynamicpy-1.2.2.tar.gz --markdown 20240402/d/dynamicpy/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2024-04-02 15:21:10] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2024-04-02 15:21:10] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20240402/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-02 15:21:11] INFO root fetch - processPackages [pmpt]: Remove: archive file [/home/abi/fetcher/tmp/pmpt-1.0.1.8510971585.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [pmpt]: Remove: archive file [/home/abi/fetcher/tmp/pmpt-1.0.1.post8487904168-py3-none-any.whl.zip]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [pmpt]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.9.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-2.0.0.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [dynamicpy]: Remove: archive file [/home/abi/fetcher/tmp/dynamicpy-1.2.1.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [dynamicpy]: Remove: archive file [/home/abi/fetcher/tmp/dynamicpy-1.2.2.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [dynamicpy]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [antigranular-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/antigranular_enterprise-0.0.8.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [antigranular-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/antigranular_enterprise-0.0.9.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [antigranular-enterprise]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.8.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.9.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.6.8.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [pygoogalytics]: Remove: archive file [/home/abi/fetcher/tmp/pygoogalytics-0.6.9.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [pygoogalytics]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2024-04-02 15:21:11] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.6.0.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - processPackages [prediction-market-agent-tooling]: Remove: archive file [/home/abi/fetcher/tmp/prediction_market_agent_tooling-0.7.0.tar.gz]
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: End processing [prediction-market-agent-tooling]: success
+[2024-04-02 15:21:11] INFO root fetch - main [MainThread]: Store serial: [22585428]
