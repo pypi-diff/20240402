@@ -19421,3 +19421,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:47:03] INFO root fetch - processPackages [vitya]: Remove: archive file [/home/abi/fetcher/tmp/vitya-0.20.2.tar.gz]
 [2024-04-02 13:47:03] INFO root fetch - main [MainThread]: End processing [vitya]: success
 [2024-04-02 13:47:03] INFO root fetch - main [MainThread]: Store serial: [22584269]
+[2024-04-02 13:49:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584269]
+[2024-04-02 13:49:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicAlgLib
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: webscout
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: libvirt-python
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ansys-fluent-parametric
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiboa-cli
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cgmzscore
+[2024-04-02 13:49:13] INFO root fetch - processPackages [musicAlgLib]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-02 13:49:13] INFO root fetch - processPackages [libvirt-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2024-04-02 13:49:13] INFO root fetch - processPackages [ansys-fluent-parametric]: New version: [0.9.0] Old Version: [0.8.dev0]
+[2024-04-02 13:49:13] INFO root fetch - processPackages [webscout]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-02 13:49:13] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/1f/bb/42b1248c7b2db8f99ce628f630502c2b416e831e74f00fa177ffc5e03442/musicAlgLib-1.0.2.tar.gz
+[2024-04-02 13:49:13] INFO root fetch - processPackages [cgmzscore]: New version: [3.3.1] Old Version: [3.3.0]
+[2024-04-02 13:49:13] INFO root fetch - processPackages [fiboa-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 13:49:14] INFO root fetch - processPackages [ansys-fluent-parametric]: Downloading https://files.pythonhosted.org/packages/53/7d/4f4df0725d35f51c6d492aa3bdcfeb6c5fd7037a9f0b822f482cf4ea9139/ansys_fluent_parametric-0.8.dev0.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/90/63/722b08934531bf0842295b0532d2b2120d30774ed6b04ec44dff85a26db6/libvirt-python-9.8.0.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/cc/ba/6d647d869b7b3d212ae2123b4266ce384d8071f6485827faf80260e44381/webscout-1.2.3.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/89/23/b4a63814c7157ea0c9e6af607e3d42cf4857cb0173ee3fb9d5582829e174/fiboa-cli-0.1.0.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [cgmzscore]: Downloading https://files.pythonhosted.org/packages/2f/81/c432827582d23f887c82c8501ee48bb2d2e1ae669dd1c0bb19a55015d8f8/cgmzscore-3.3.0-py3-none-any.whl
+[2024-04-02 13:49:14] INFO root fetch - processPackages [ansys-fluent-parametric]: Downloading https://files.pythonhosted.org/packages/58/e1/edbf72c776099c72128979309ead4a97f2643f858c2552325997f5eec94f/ansys_fluent_parametric-0.9.0.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [ansys-fluent-parametric]: executing diffoscope
+[2024-04-02 13:49:14] INFO root fetch - processPackages [ansys-fluent-parametric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_fluent_parametric-0.8.dev0.tar.gz tmp/ansys_fluent_parametric-0.9.0.tar.gz --markdown 20240402/a/ansys-fluent-parametric/0.8.dev0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:49:14] INFO root fetch - processPackages [libvirt-python]: Downloading https://files.pythonhosted.org/packages/92/92/315e66f442147369a592d2afe07df1321602c5c5ef93ed15cf4eecf90ffb/libvirt-python-9.9.0.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/3c/4a/74946617d3c12ced7323e85fcf60f0a91fe986cc204aafaa379d07c823da/musicAlgLib-1.0.3.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [fiboa-cli]: Downloading https://files.pythonhosted.org/packages/8f/1f/816f8ab461f9283ed7f85c6c5a35cd428b4f3d3ef029e91a0021d05b84e4/fiboa-cli-0.1.1.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [webscout]: Downloading https://files.pythonhosted.org/packages/cc/c3/ba0ecc7c058a6fa20c9f00892745334b2b093f2479ccc1b1e6d0f10b5842/webscout-1.2.4.tar.gz
+[2024-04-02 13:49:14] INFO root fetch - processPackages [libvirt-python]: executing diffoscope
+[2024-04-02 13:49:14] INFO root fetch - processPackages [libvirt-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libvirt-python-9.8.0.tar.gz tmp/libvirt-python-9.9.0.tar.gz --markdown 20240402/l/libvirt-python/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:49:14] INFO root fetch - processPackages [webscout]: executing diffoscope
+[2024-04-02 13:49:14] INFO root fetch - processPackages [webscout]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscout-1.2.3.tar.gz tmp/webscout-1.2.4.tar.gz --markdown 20240402/w/webscout/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2024-04-02 13:49:14] INFO root fetch - processPackages [fiboa-cli]: executing diffoscope
+[2024-04-02 13:49:14] INFO root fetch - processPackages [fiboa-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiboa-cli-0.1.0.tar.gz tmp/fiboa-cli-0.1.1.tar.gz --markdown 20240402/f/fiboa-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 13:49:14] INFO root fetch - processPackages [cgmzscore]: Downloading https://files.pythonhosted.org/packages/be/59/1bf5ec495388084dba973131aff05ecd50b7748db8be6c6d39b0b546daa7/cgmzscore-3.3.1-py3-none-any.whl
+[2024-04-02 13:49:14] INFO root fetch - processPackages [musicAlgLib]: executing diffoscope
+[2024-04-02 13:49:14] INFO root fetch - processPackages [musicAlgLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicAlgLib-1.0.2.tar.gz tmp/musicAlgLib-1.0.3.tar.gz --markdown 20240402/m/musicAlgLib/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-02 13:49:14] INFO root fetch - processPackages [cgmzscore]: executing diffoscope
+[2024-04-02 13:49:14] INFO root fetch - processPackages [cgmzscore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgmzscore-3.3.0-py3-none-any.whl.zip tmp/cgmzscore-3.3.1-py3-none-any.whl.zip --markdown 20240402/c/cgmzscore/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2024-04-02 13:49:15] INFO root fetch - processPackages [ansys-fluent-parametric]: Remove: archive file [/home/abi/fetcher/tmp/ansys_fluent_parametric-0.8.dev0.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - processPackages [ansys-fluent-parametric]: Remove: archive file [/home/abi/fetcher/tmp/ansys_fluent_parametric-0.9.0.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: End processing [ansys-fluent-parametric]: success
+[2024-04-02 13:49:15] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa-cli-0.1.0.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - processPackages [fiboa-cli]: Remove: archive file [/home/abi/fetcher/tmp/fiboa-cli-0.1.1.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: End processing [fiboa-cli]: success
+[2024-04-02 13:49:15] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.2.3.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - processPackages [webscout]: Remove: archive file [/home/abi/fetcher/tmp/webscout-1.2.4.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: End processing [webscout]: success
+[2024-04-02 13:49:15] INFO root fetch - processPackages [cgmzscore]: Remove: archive file [/home/abi/fetcher/tmp/cgmzscore-3.3.0-py3-none-any.whl.zip]
+[2024-04-02 13:49:15] INFO root fetch - processPackages [cgmzscore]: Remove: archive file [/home/abi/fetcher/tmp/cgmzscore-3.3.1-py3-none-any.whl.zip]
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: End processing [cgmzscore]: success
+[2024-04-02 13:49:15] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.2.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.3.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
+[2024-04-02 13:49:15] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.8.0.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - processPackages [libvirt-python]: Remove: archive file [/home/abi/fetcher/tmp/libvirt-python-9.9.0.tar.gz]
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: End processing [libvirt-python]: success
+[2024-04-02 13:49:15] INFO root fetch - main [MainThread]: Store serial: [22584288]
