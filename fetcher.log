@@ -8803,3 +8803,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:23:03] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2024-04-02 04:23:03] INFO root fetch - main [MainThread]: End processing [deepchem]: success
 [2024-04-02 04:23:03] INFO root fetch - main [MainThread]: Store serial: [22580001]
+[2024-04-02 04:25:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580001]
+[2024-04-02 04:25:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 04:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-02 04:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-02 04:25:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muti.basic
+[2024-04-02 04:25:11] INFO root fetch - processPackages [lambkid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 04:25:11] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240401115342] Old Version: [3.3.1.dev20240401022330]
+[2024-04-02 04:25:11] INFO root fetch - processPackages [muti.basic]: New version: [0.0.6] Old Version: [0.0.1]
+[2024-04-02 04:25:11] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/a4/1d/a402c5f85ef6696c76f47780a2a9b4a6d1e22f67e018fac29ed5ab142ba1/lambkid-0.0.8.tar.gz
+[2024-04-02 04:25:12] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/71/9b/23c6a60da934bae2a5d8f91f5cd321b460117ccf1ba35d0ab2efe6ad125e/localstack-core-3.3.1.dev20240401022330.tar.gz
+[2024-04-02 04:25:12] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/4f/e8/fe3ffb0ac4fb24b3455167d57cb2cd8ab326fbb2f862aab16c13d38fde49/lambkid-0.0.9.tar.gz
+[2024-04-02 04:25:12] INFO root fetch - processPackages [muti.basic]: Downloading https://files.pythonhosted.org/packages/09/0e/f64aa00e10aa6fa32151e4751145d969944db2fb336dc3fe670cc32a4af8/muti.basic-0.0.1.tar.gz
+[2024-04-02 04:25:12] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e4/17/36507d17decdcc5360d1a00912ba268e21b2b787c884d117afda10abb8ef/localstack-core-3.3.1.dev20240401115342.tar.gz
+[2024-04-02 04:25:12] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-02 04:25:12] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.0.8.tar.gz tmp/lambkid-0.0.9.tar.gz --markdown 20240402/l/lambkid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 04:25:12] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 04:25:12] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240401022330.tar.gz tmp/localstack-core-3.3.1.dev20240401115342.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240401022330-3.3.1.dev20240401115342/diff.md --exclude *.pyd
+[2024-04-02 04:25:12] INFO root fetch - processPackages [muti.basic]: Downloading https://files.pythonhosted.org/packages/c7/6a/52d4eec72f5418b9a5c640f5ef4e14978a44f0bd7b6407cf12af15ba3613/muti.basic-0.0.6.tar.gz
+[2024-04-02 04:25:12] INFO root fetch - processPackages [muti.basic]: executing diffoscope
+[2024-04-02 04:25:12] INFO root fetch - processPackages [muti.basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.basic-0.0.1.tar.gz tmp/muti.basic-0.0.6.tar.gz --markdown 20240402/m/muti.basic/0.0.1-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 04:25:12] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.8.tar.gz]
+[2024-04-02 04:25:12] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.9.tar.gz]
+[2024-04-02 04:25:12] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-02 04:25:13] INFO root fetch - processPackages [muti.basic]: Remove: archive file [/home/abi/fetcher/tmp/muti.basic-0.0.1.tar.gz]
+[2024-04-02 04:25:13] INFO root fetch - processPackages [muti.basic]: Remove: archive file [/home/abi/fetcher/tmp/muti.basic-0.0.6.tar.gz]
+[2024-04-02 04:25:13] INFO root fetch - main [MainThread]: End processing [muti.basic]: success
+[2024-04-02 04:25:16] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401022330.tar.gz]
+[2024-04-02 04:25:16] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401115342.tar.gz]
+[2024-04-02 04:25:16] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 04:25:16] INFO root fetch - main [MainThread]: Store serial: [22580009]
