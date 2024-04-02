@@ -14712,3 +14712,95 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:42:11] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
 [2024-04-02 10:42:11] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-02 10:42:11] INFO root fetch - main [MainThread]: Store serial: [22582298]
+[2024-04-02 10:44:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582298]
+[2024-04-02 10:44:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-ddmrp-adjustment
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-ddmrp-adjustment
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ftrack-framework-core
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ftrack-framework-qt
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ftrack-qt
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ftrack-utils
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bhpy
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ftrack-qt-style
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: defect-detection
+[2024-04-02 10:44:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: payze-pkg
+[2024-04-02 10:44:20] INFO root fetch - processPackages [payze-pkg]: New version: [2.3] Old Version: [2.2.2]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.3]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/e5/a1/d120da9f41b6bdf2fea685a79a291bf98fc2a4ecf4b7e4d052c489fdc91c/payze-pkg-2.2.2.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-framework-qt]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-framework-core]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/7e/36/15f14e60c00ca0aa2bb9dd6ab6fa59b985a73171071249ad85e36a9bf2b9/odoo_addon_ddmrp_adjustment-16.0.1.3.0.3-py3-none-any.whl
+[2024-04-02 10:44:20] INFO root fetch - processPackages [bhpy]: New version: [3.1.0] Old Version: [3.0.0]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-qt-style]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-02 10:44:20] WARNING root fetch - processPackages [defect-detection]: Skipping, unable to determine old version
+[2024-04-02 10:44:20] INFO root fetch - processPackages [defect-detection]: Start processing: tablestore
+[2024-04-02 10:44:20] INFO root fetch - main [MainThread]: End processing [defect-detection] error
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-qt]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-utils]: New version: [2.1.0] Old Version: [2.0.1]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: New version: [13.0.1.3.1.dev1] Old Version: [13.0.1.3.1]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-framework-qt]: Downloading https://files.pythonhosted.org/packages/b4/3f/c497a2b5d87c721f070d816ee4c66fb3c30a1716de14f8d5977700d00c56/ftrack_framework_qt-2.0.0.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [tablestore]: New version: [5.4.4] Old Version: [5.4.3]
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/6f/d1/eaa690a3eeb6607e1dc788c80426e338241c3098428bd0e31ce3af59b360/ftrack_framework_core-2.0.1.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-qt-style]: Downloading https://files.pythonhosted.org/packages/98/9d/154c4f6e251509cd6098802dd92e60268ce671bcc7f2ccb7e361cea73492/ftrack_qt_style-2.0.0.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [bhpy]: Downloading https://files.pythonhosted.org/packages/c4/22/eacdedc6cd41fdda568849e5f04659221ef05011efe27f24ec36bd6f5047/bhpy-3.0.0.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/34/99/75c910992d92011290dc2528973bc3ecc8306c0fe34c2e16e2226e00ff52/payze-pkg-2.3.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-qt]: Downloading https://files.pythonhosted.org/packages/f2/90/1ae8bbf67576087f6aa5190470e586f35666708977063ec0a49fc85d4f60/ftrack_qt-2.0.1.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/74/d7/917f1b4dd01a7b17407b516958ac574b4cfa8fe483cae54821785007dfea/odoo13_addon_ddmrp_adjustment-13.0.1.3.1-py3-none-any.whl
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-utils]: Downloading https://files.pythonhosted.org/packages/eb/fd/773b16bbf5002a529e67c158b7195add651c72275b2701f6f889bf0d2855/ftrack_utils-2.0.1.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/49/ec/3278c87fdbe34ed844901eb4bc1dec937c921004e71385801b686ca5cf5f/odoo_addon_ddmrp_adjustment-16.0.1.4.0-py3-none-any.whl
+[2024-04-02 10:44:20] WARNING root fetch - processPackages [bhpy]: Skipping package: exceeds size limit 20263646>=10485760
+[2024-04-02 10:44:20] INFO root fetch - main [MainThread]: End processing [bhpy] error
+[2024-04-02 10:44:20] INFO root fetch - processPackages [payze-pkg]: executing diffoscope
+[2024-04-02 10:44:20] INFO root fetch - processPackages [payze-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payze-pkg-2.2.2.tar.gz tmp/payze-pkg-2.3.tar.gz --markdown 20240402/p/payze-pkg/2.2.2-2.3/diff.md --exclude *.pyd
+[2024-04-02 10:44:20] INFO root fetch - processPackages [tablestore]: Downloading https://files.pythonhosted.org/packages/0d/b0/1ae8b571cd84250679138ff7be74f3e33e8744abe94a5db7151b52ee2688/tablestore-5.4.3.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: executing diffoscope
+[2024-04-02 10:44:20] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_adjustment-16.0.1.3.0.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_adjustment-16.0.1.4.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-ddmrp-adjustment/16.0.1.3.0.3-16.0.1.4.0/diff.md --exclude *.pyd
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-framework-qt]: Downloading https://files.pythonhosted.org/packages/ea/86/8b30a815c793891b9a3d5c5b36dc95327569556f3f0ea9cb28ea6dcbec03/ftrack_framework_qt-2.1.0.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-framework-core]: Downloading https://files.pythonhosted.org/packages/da/4e/781941a238cfb898021248a5b42593464e6d9ee2f821e122363a3b0e1184/ftrack_framework_core-2.1.0.tar.gz
+[2024-04-02 10:44:20] INFO root fetch - processPackages [ftrack-utils]: Downloading https://files.pythonhosted.org/packages/15/45/cf503deff1a2eeab6c7f019939a463abc4360b14027266be577a4917bcb9/ftrack_utils-2.1.0.tar.gz
+[2024-04-02 10:44:21] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/b7/45/803943f70e8a7e1a7e76386202678751491eaee32209833f10a4b1fbe0f5/odoo13_addon_ddmrp_adjustment-13.0.1.3.1.dev1-py3-none-any.whl
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-framework-qt]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-framework-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_qt-2.0.0.tar.gz tmp/ftrack_framework_qt-2.1.0.tar.gz --markdown 20240402/f/ftrack-framework-qt/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-qt-style]: Downloading https://files.pythonhosted.org/packages/ee/6a/28ae3fe43f2bde57a671da035e1dfda4f3da7f1965b854bd142b3e9f09ef/ftrack_qt_style-2.1.0.tar.gz
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-qt]: Downloading https://files.pythonhosted.org/packages/a4/08/2e922ffee872747259926eb4bd02d99a9f8484f661f4b76b067389a36b6e/ftrack_qt-2.1.0.tar.gz
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-framework-core]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-framework-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_framework_core-2.0.1.tar.gz tmp/ftrack_framework_core-2.1.0.tar.gz --markdown 20240402/f/ftrack-framework-core/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-utils]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_utils-2.0.1.tar.gz tmp/ftrack_utils-2.1.0.tar.gz --markdown 20240402/f/ftrack-utils/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [tablestore]: Downloading https://files.pythonhosted.org/packages/62/e1/4324320ead4ed3d8d09fc19dd2272c3b5b69d6eeed621d186302e313ad8b/tablestore-5.4.4.tar.gz
+[2024-04-02 10:44:21] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_ddmrp_adjustment-13.0.1.3.1-py3-none-any.whl.zip tmp/odoo13_addon_ddmrp_adjustment-13.0.1.3.1.dev1-py3-none-any.whl.zip --markdown 20240402/o/odoo13-addon-ddmrp-adjustment/13.0.1.3.1-13.0.1.3.1.dev1/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-qt]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-qt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_qt-2.0.1.tar.gz tmp/ftrack_qt-2.1.0.tar.gz --markdown 20240402/f/ftrack-qt/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-qt-style]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-qt-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ftrack_qt_style-2.0.0.tar.gz tmp/ftrack_qt_style-2.1.0.tar.gz --markdown 20240402/f/ftrack-qt-style/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [tablestore]: executing diffoscope
+[2024-04-02 10:44:21] INFO root fetch - processPackages [tablestore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablestore-5.4.3.tar.gz tmp/tablestore-5.4.4.tar.gz --markdown 20240402/t/tablestore/5.4.3-5.4.4/diff.md --exclude *.pyd
+[2024-04-02 10:44:21] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.2.2.tar.gz]
+[2024-04-02 10:44:21] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.3.tar.gz]
+[2024-04-02 10:44:21] INFO root fetch - main [MainThread]: End processing [payze-pkg]: success
+[2024-04-02 10:44:21] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_adjustment-16.0.1.3.0.3-py3-none-any.whl.zip]
+[2024-04-02 10:44:21] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_adjustment-16.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-02 10:44:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-adjustment]: success
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-framework-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_qt-2.0.0.tar.gz]
+[2024-04-02 10:44:21] INFO root fetch - processPackages [ftrack-framework-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_qt-2.1.0.tar.gz]
+[2024-04-02 10:44:21] INFO root fetch - main [MainThread]: End processing [ftrack-framework-qt]: success
+[2024-04-02 10:44:22] INFO root fetch - processPackages [ftrack-utils]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_utils-2.0.1.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - processPackages [ftrack-utils]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_utils-2.1.0.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - main [MainThread]: End processing [ftrack-utils]: success
+[2024-04-02 10:44:22] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.0.1.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - processPackages [ftrack-framework-core]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_framework_core-2.1.0.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - main [MainThread]: End processing [ftrack-framework-core]: success
+[2024-04-02 10:44:22] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp_adjustment-13.0.1.3.1-py3-none-any.whl.zip]
+[2024-04-02 10:44:22] INFO root fetch - processPackages [odoo13-addon-ddmrp-adjustment]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_ddmrp_adjustment-13.0.1.3.1.dev1-py3-none-any.whl.zip]
+[2024-04-02 10:44:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-ddmrp-adjustment]: success
+[2024-04-02 10:44:22] INFO root fetch - processPackages [ftrack-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt-2.0.1.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - processPackages [ftrack-qt]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt-2.1.0.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - main [MainThread]: End processing [ftrack-qt]: success
+[2024-04-02 10:44:22] INFO root fetch - processPackages [tablestore]: Remove: archive file [/home/abi/fetcher/tmp/tablestore-5.4.3.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - processPackages [tablestore]: Remove: archive file [/home/abi/fetcher/tmp/tablestore-5.4.4.tar.gz]
+[2024-04-02 10:44:22] INFO root fetch - main [MainThread]: End processing [tablestore]: success
+[2024-04-02 10:44:25] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.0.0.tar.gz]
+[2024-04-02 10:44:25] INFO root fetch - processPackages [ftrack-qt-style]: Remove: archive file [/home/abi/fetcher/tmp/ftrack_qt_style-2.1.0.tar.gz]
+[2024-04-02 10:44:25] INFO root fetch - main [MainThread]: End processing [ftrack-qt-style]: success
+[2024-04-02 10:44:25] INFO root fetch - main [MainThread]: Store serial: [22582331]
