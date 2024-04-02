@@ -8290,3 +8290,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:03:11] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.6b2.tar.gz]
 [2024-04-02 04:03:11] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
 [2024-04-02 04:03:11] INFO root fetch - main [MainThread]: Store serial: [22579822]
+[2024-04-02 04:05:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579822]
+[2024-04-02 04:05:19] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 04:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyclipmgr
+[2024-04-02 04:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gh-util
+[2024-04-02 04:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-annalist
+[2024-04-02 04:05:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: req-compile
+[2024-04-02 04:05:19] INFO root fetch - processPackages [pyclipmgr]: New version: [2.1] Old Version: [2.0]
+[2024-04-02 04:05:19] INFO root fetch - processPackages [gh-util]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 04:05:19] INFO root fetch - processPackages [data-annalist]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-02 04:05:19] INFO root fetch - processPackages [req-compile]: New version: [1.0.0rc9] Old Version: [1.0.0rc8]
+[2024-04-02 04:05:19] INFO root fetch - processPackages [gh-util]: Downloading https://files.pythonhosted.org/packages/12/19/16ad7f3bba41799d3be6c8f35b5b924952b288f4164331df7829d54245ae/gh_util-0.1.8.tar.gz
+[2024-04-02 04:05:19] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0a/36/e7fb9ae694eae366905a42a162d2d2b7e9a5d676f47c0f9b958baeaf48b9/pyclipmgr-2.0.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [req-compile]: Downloading https://files.pythonhosted.org/packages/96/9b/d5e46a5c84a6cf0477d84a18587a02cef26b51708a41c9dcc16b6f6ec748/req-compile-1.0.0rc8.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [data-annalist]: Downloading https://files.pythonhosted.org/packages/8a/3d/87ed0d428face0a274e497579d21f1f72fb2a5f0d8bfd413a94f1b432ecd/data-annalist-0.4.1.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/71/b3/7a7af56e7e5a0f97df36c754c2961af1747f56a60bbdb9426eca69df8031/pyclipmgr-2.1.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 04:05:20] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-2.0.tar.gz tmp/pyclipmgr-2.1.tar.gz --markdown 20240402/p/pyclipmgr/2.0-2.1/diff.md --exclude *.pyd
+[2024-04-02 04:05:20] INFO root fetch - processPackages [data-annalist]: Downloading https://files.pythonhosted.org/packages/5d/2f/a741765aead58d1d7673b104f2ed4e4dfb358a600cb8bd120d76f4a978ef/data-annalist-0.4.2.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [gh-util]: Downloading https://files.pythonhosted.org/packages/eb/d4/697bc877cb9ef5b789ecccae7ddd11d7b0c97463359d4f2ee02ac77a8268/gh_util-0.1.9.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [data-annalist]: executing diffoscope
+[2024-04-02 04:05:20] INFO root fetch - processPackages [data-annalist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-annalist-0.4.1.tar.gz tmp/data-annalist-0.4.2.tar.gz --markdown 20240402/d/data-annalist/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-02 04:05:20] INFO root fetch - processPackages [req-compile]: Downloading https://files.pythonhosted.org/packages/fc/cb/0a81d71ea9afc0f413877a3fa62c1fb73698e1166c5e241802b8739c7fcd/req-compile-1.0.0rc9.tar.gz
+[2024-04-02 04:05:20] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.0.tar.gz]
+[2024-04-02 04:05:20] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.1.tar.gz]
+[2024-04-02 04:05:20] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 04:05:20] INFO root fetch - processPackages [gh-util]: executing diffoscope
+[2024-04-02 04:05:20] INFO root fetch - processPackages [gh-util]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gh_util-0.1.8.tar.gz tmp/gh_util-0.1.9.tar.gz --markdown 20240402/g/gh-util/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 04:05:20] INFO root fetch - processPackages [req-compile]: executing diffoscope
+[2024-04-02 04:05:20] INFO root fetch - processPackages [req-compile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/req-compile-1.0.0rc8.tar.gz tmp/req-compile-1.0.0rc9.tar.gz --markdown 20240402/r/req-compile/1.0.0rc8-1.0.0rc9/diff.md --exclude *.pyd
+[2024-04-02 04:05:21] INFO root fetch - processPackages [data-annalist]: Remove: archive file [/home/abi/fetcher/tmp/data-annalist-0.4.1.tar.gz]
+[2024-04-02 04:05:21] INFO root fetch - processPackages [data-annalist]: Remove: archive file [/home/abi/fetcher/tmp/data-annalist-0.4.2.tar.gz]
+[2024-04-02 04:05:21] INFO root fetch - main [MainThread]: End processing [data-annalist]: success
+[2024-04-02 04:05:21] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc8.tar.gz]
+[2024-04-02 04:05:21] INFO root fetch - processPackages [req-compile]: Remove: archive file [/home/abi/fetcher/tmp/req-compile-1.0.0rc9.tar.gz]
+[2024-04-02 04:05:21] INFO root fetch - main [MainThread]: End processing [req-compile]: success
+[2024-04-02 04:05:22] INFO root fetch - processPackages [gh-util]: Remove: archive file [/home/abi/fetcher/tmp/gh_util-0.1.8.tar.gz]
+[2024-04-02 04:05:22] INFO root fetch - processPackages [gh-util]: Remove: archive file [/home/abi/fetcher/tmp/gh_util-0.1.9.tar.gz]
+[2024-04-02 04:05:22] INFO root fetch - main [MainThread]: End processing [gh-util]: success
+[2024-04-02 04:05:22] INFO root fetch - main [MainThread]: Store serial: [22579833]
