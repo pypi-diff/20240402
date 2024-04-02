@@ -19312,3 +19312,63 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:40:13] INFO root fetch - processPackages [ocf-datapipes]: Remove: archive file [/home/abi/fetcher/tmp/ocf_datapipes-3.3.8.tar.gz]
 [2024-04-02 13:40:13] INFO root fetch - main [MainThread]: End processing [ocf-datapipes]: success
 [2024-04-02 13:40:13] INFO root fetch - main [MainThread]: Store serial: [22584224]
+[2024-04-02 13:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584224]
+[2024-04-02 13:42:22] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leap-model-parser
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amsdal_cli
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: function2widgets
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zukti
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytorch-sidu
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arion-library
+[2024-04-02 13:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: httpgo
+[2024-04-02 13:42:22] WARNING root fetch - processPackages [zukti]: Skipping, unable to determine old version
+[2024-04-02 13:42:22] INFO root fetch - main [MainThread]: End processing [zukti] error
+[2024-04-02 13:42:22] INFO root fetch - processPackages [function2widgets]: New version: [0.6.2] Old Version: [0.6.1]
+[2024-04-02 13:42:22] INFO root fetch - processPackages [pytorch-sidu]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-02 13:42:22] INFO root fetch - processPackages [amsdal_cli]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 13:42:22] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/28/56/fcacd6f457d566da2370f76c2aeaaf235eb17f82b8fd853c878bc7a53f10/pytorch-sidu-1.0.7.tar.gz
+[2024-04-02 13:42:22] INFO root fetch - processPackages [arion-library]: New version: [2.1.0] Old Version: [1.1.0]
+[2024-04-02 13:42:22] INFO root fetch - processPackages [httpgo]: New version: [0.4.0] Old Version: [0.30.0]
+[2024-04-02 13:42:22] INFO root fetch - processPackages [leap-model-parser]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 13:42:22] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/6d/a0/ab7f4cc8b67b8929379636a23a731a0fa49ed5a061c423352457507e8509/function2widgets-0.6.1.tar.gz
+[2024-04-02 13:42:22] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/78/96/d895e2b9d14121edf5894f9c064cbdc4fffcfbc35af55c0a13199fa62638/amsdal_cli-0.1.5.tar.gz
+[2024-04-02 13:42:22] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/85/5a/73243aeaff620ba21105a0fed4c88451c96bb985e58b351e0961a921382d/arion_library-1.1.0.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [httpgo]: Downloading https://files.pythonhosted.org/packages/25/ae/241f1ea528bf2850a8c7e6f9d01d8fda41f591a2da8a99c7f01b71490d8b/httpgo-0.30.0.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/31/16/e960ae1155e6e7ad719fd258e5beac6d7125352c0bfd2d8e37248f5ed9d8/pytorch-sidu-1.0.8.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/9e/21/dca060e54af9d262ff3c7db5881970d454aabed10a4a09138f0f135d7271/leap_model_parser-0.1.98.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [function2widgets]: Downloading https://files.pythonhosted.org/packages/47/24/fa41832439a7cd72ed184f263f33c789d78dbd340251a722b97bcb2dcbdd/function2widgets-0.6.2.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/2c/87adc33285dcbf332ed15bf5ed557c3d1e77602946b1028ac5c309599552/arion_library-2.1.0.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [amsdal_cli]: Downloading https://files.pythonhosted.org/packages/4c/16/16b50502f396e4e8b546707829d74fec55cfb56922cb45e5211f542dcdd4/amsdal_cli-0.1.6.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [pytorch-sidu]: executing diffoscope
+[2024-04-02 13:42:23] INFO root fetch - processPackages [pytorch-sidu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-sidu-1.0.7.tar.gz tmp/pytorch-sidu-1.0.8.tar.gz --markdown 20240402/p/pytorch-sidu/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-02 13:42:23] INFO root fetch - processPackages [function2widgets]: executing diffoscope
+[2024-04-02 13:42:23] INFO root fetch - processPackages [function2widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/function2widgets-0.6.1.tar.gz tmp/function2widgets-0.6.2.tar.gz --markdown 20240402/f/function2widgets/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2024-04-02 13:42:23] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-02 13:42:23] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1.0.tar.gz tmp/arion_library-2.1.0.tar.gz --markdown 20240402/a/arion-library/1.1.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 13:42:23] INFO root fetch - processPackages [amsdal_cli]: executing diffoscope
+[2024-04-02 13:42:23] INFO root fetch - processPackages [amsdal_cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsdal_cli-0.1.5.tar.gz tmp/amsdal_cli-0.1.6.tar.gz --markdown 20240402/a/amsdal_cli/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 13:42:23] INFO root fetch - processPackages [httpgo]: Downloading https://files.pythonhosted.org/packages/e8/41/7b5a9ee541bb3c3021e6fdfba5fd2dc146e8ca50e045d8fed5709659ce6d/httpgo-0.4.0.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [leap-model-parser]: Downloading https://files.pythonhosted.org/packages/de/85/627b6119883db46691990e41cb4a673afe0913625d499dc365b69c6fe6f6/leap_model_parser-0.1.99.tar.gz
+[2024-04-02 13:42:23] INFO root fetch - processPackages [httpgo]: executing diffoscope
+[2024-04-02 13:42:23] INFO root fetch - processPackages [httpgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/httpgo-0.30.0.tar.gz tmp/httpgo-0.4.0.tar.gz --markdown 20240402/h/httpgo/0.30.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-02 13:42:23] INFO root fetch - processPackages [leap-model-parser]: executing diffoscope
+[2024-04-02 13:42:23] INFO root fetch - processPackages [leap-model-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leap_model_parser-0.1.98.tar.gz tmp/leap_model_parser-0.1.99.tar.gz --markdown 20240402/l/leap-model-parser/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 13:42:24] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.7.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.8.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - main [MainThread]: End processing [pytorch-sidu]: success
+[2024-04-02 13:42:24] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.1.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - processPackages [function2widgets]: Remove: archive file [/home/abi/fetcher/tmp/function2widgets-0.6.2.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - main [MainThread]: End processing [function2widgets]: success
+[2024-04-02 13:42:24] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1.0.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-2.1.0.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-02 13:42:24] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.5.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - processPackages [amsdal_cli]: Remove: archive file [/home/abi/fetcher/tmp/amsdal_cli-0.1.6.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - main [MainThread]: End processing [amsdal_cli]: success
+[2024-04-02 13:42:24] INFO root fetch - processPackages [httpgo]: Remove: archive file [/home/abi/fetcher/tmp/httpgo-0.30.0.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - processPackages [httpgo]: Remove: archive file [/home/abi/fetcher/tmp/httpgo-0.4.0.tar.gz]
+[2024-04-02 13:42:24] INFO root fetch - main [MainThread]: End processing [httpgo]: success
+[2024-04-02 13:42:41] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.98.tar.gz]
+[2024-04-02 13:42:41] INFO root fetch - processPackages [leap-model-parser]: Remove: archive file [/home/abi/fetcher/tmp/leap_model_parser-0.1.99.tar.gz]
+[2024-04-02 13:42:41] INFO root fetch - main [MainThread]: End processing [leap-model-parser]: success
+[2024-04-02 13:42:41] INFO root fetch - main [MainThread]: Store serial: [22584246]
