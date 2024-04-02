@@ -21102,3 +21102,84 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:47:54] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-02 14:47:54] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2024-04-02 14:47:54] INFO root fetch - main [MainThread]: Store serial: [22584961]
+[2024-04-02 14:50:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584961]
+[2024-04-02 14:50:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gptfast
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdo-sdk-python
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: d-fake-seeder
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qbee-gpio
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qudora-sdk
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cardioception-toolbox
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quat3d
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: beatlesalbuns
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quantplay
+[2024-04-02 14:50:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: es-client
+[2024-04-02 14:50:05] INFO root fetch - processPackages [quat3d]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [qbee-gpio]: New version: [3.0.0] Old Version: [2.0.1]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [gptfast]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [quantplay]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [qbee-gpio]: Downloading https://files.pythonhosted.org/packages/c5/0a/e4c2e5c04a9603b044670f190b8eadcd95b59353bfc092a7bc7884d96e08/qbee_gpio-2.0.1.tar.gz
+[2024-04-02 14:50:05] WARNING root fetch - processPackages [cardioception-toolbox]: Skipping, unable to determine old version
+[2024-04-02 14:50:05] INFO root fetch - main [MainThread]: End processing [cardioception-toolbox] error
+[2024-04-02 14:50:05] WARNING root fetch - processPackages [qudora-sdk]: Skipping, unable to determine old version
+[2024-04-02 14:50:05] INFO root fetch - main [MainThread]: End processing [qudora-sdk] error
+[2024-04-02 14:50:05] INFO root fetch - processPackages [beatlesalbuns]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [es-client]: New version: [8.9.0] Old Version: [8.8.2.post1]
+[2024-04-02 14:50:05] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [quat3d]: Downloading https://files.pythonhosted.org/packages/be/e8/287dc9044965229b3d7d765c4f92b595d52916b374e197199fd2a472504a/quat3d-0.3.2.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [gptfast]: Downloading https://files.pythonhosted.org/packages/76/67/6879777e655ce5dbcca4bd54bc89e93bab9458fdafa1125019af5a90a31d/gptfast-0.1.0.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/71/23/85a802491d69beb714dd8831f123c9440301eb94caca43392e50be63fff6/quantplay-1.5.8.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [qbee-gpio]: Downloading https://files.pythonhosted.org/packages/cf/33/ee37d98979d6397e24272aa524b720fc3cd648cd6f8af40ad30fd01d92ad/qbee_gpio-3.0.0.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [es-client]: Downloading https://files.pythonhosted.org/packages/d4/f8/b9a7a377b06897fe1d1ac4c8c870100d34aeba05caab6c6c5f2ac2380d8d/es_client-8.8.2.post1.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [gptfast]: Downloading https://files.pythonhosted.org/packages/80/d9/8cf7616da571ba65925c3b3a99e45d2f3aaaaa6b78818966b62edcf41787/gptfast-0.2.0.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [beatlesalbuns]: Downloading https://files.pythonhosted.org/packages/26/46/34351eca01f70eb5d174ba96b2450db07c877f1b0ffecfca7e0155e016e6/beatlesalbuns-0.0.4.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [quantplay]: Downloading https://files.pythonhosted.org/packages/29/44/bc619a0a4e2ecba52ee7f6eac8f51f600a1d90bb67f88a28638d7d9f9c62/quantplay-1.5.9.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [qbee-gpio]: executing diffoscope
+[2024-04-02 14:50:05] INFO root fetch - processPackages [qbee-gpio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qbee_gpio-2.0.1.tar.gz tmp/qbee_gpio-3.0.0.tar.gz --markdown 20240402/q/qbee-gpio/2.0.1-3.0.0/diff.md --exclude *.pyd
+[2024-04-02 14:50:05] INFO root fetch - processPackages [quat3d]: Downloading https://files.pythonhosted.org/packages/4e/a2/32bde70ff3e57d633be25022db066430b842eec36d2d038cd014ee05ec30/quat3d-0.3.3.tar.gz
+[2024-04-02 14:50:05] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 14:50:06] INFO root fetch - processPackages [gptfast]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [gptfast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gptfast-0.1.0.tar.gz tmp/gptfast-0.2.0.tar.gz --markdown 20240402/g/gptfast/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240402/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [quat3d]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [quat3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quat3d-0.3.2.tar.gz tmp/quat3d-0.3.3.tar.gz --markdown 20240402/q/quat3d/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [quantplay]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [quantplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantplay-1.5.8.tar.gz tmp/quantplay-1.5.9.tar.gz --markdown 20240402/q/quantplay/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [es-client]: Downloading https://files.pythonhosted.org/packages/5a/48/a646d3f62184b5fe5e397b0188778161ed146858f3d4a0bb099554cfefc3/es_client-8.9.0.tar.gz
+[2024-04-02 14:50:06] INFO root fetch - processPackages [es-client]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [es-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/es_client-8.8.2.post1.tar.gz tmp/es_client-8.9.0.tar.gz --markdown 20240402/e/es-client/8.8.2.post1-8.9.0/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [beatlesalbuns]: Downloading https://files.pythonhosted.org/packages/a6/a3/ef922abf7807f0336da3918ddba5fdb79a79c87ee167bec726065c5df23c/beatlesalbuns-0.0.5.tar.gz
+[2024-04-02 14:50:06] INFO root fetch - processPackages [beatlesalbuns]: executing diffoscope
+[2024-04-02 14:50:06] INFO root fetch - processPackages [beatlesalbuns]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beatlesalbuns-0.0.4.tar.gz tmp/beatlesalbuns-0.0.5.tar.gz --markdown 20240402/b/beatlesalbuns/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 14:50:06] INFO root fetch - processPackages [gptfast]: Remove: archive file [/home/abi/fetcher/tmp/gptfast-0.1.0.tar.gz]
+[2024-04-02 14:50:06] INFO root fetch - processPackages [gptfast]: Remove: archive file [/home/abi/fetcher/tmp/gptfast-0.2.0.tar.gz]
+[2024-04-02 14:50:06] INFO root fetch - main [MainThread]: End processing [gptfast]: success
+[2024-04-02 14:50:06] INFO root fetch - processPackages [qbee-gpio]: Remove: archive file [/home/abi/fetcher/tmp/qbee_gpio-2.0.1.tar.gz]
+[2024-04-02 14:50:06] INFO root fetch - processPackages [qbee-gpio]: Remove: archive file [/home/abi/fetcher/tmp/qbee_gpio-3.0.0.tar.gz]
+[2024-04-02 14:50:06] INFO root fetch - main [MainThread]: End processing [qbee-gpio]: success
+[2024-04-02 14:50:06] INFO root fetch - processPackages [quat3d]: Remove: archive file [/home/abi/fetcher/tmp/quat3d-0.3.2.tar.gz]
+[2024-04-02 14:50:06] INFO root fetch - processPackages [quat3d]: Remove: archive file [/home/abi/fetcher/tmp/quat3d-0.3.3.tar.gz]
+[2024-04-02 14:50:06] INFO root fetch - main [MainThread]: End processing [quat3d]: success
+[2024-04-02 14:50:07] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 14:50:07] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.8.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - main [MainThread]: End processing [quantplay]: success
+[2024-04-02 14:50:07] INFO root fetch - processPackages [es-client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.8.2.post1.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - processPackages [es-client]: Remove: archive file [/home/abi/fetcher/tmp/es_client-8.9.0.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - main [MainThread]: End processing [es-client]: success
+[2024-04-02 14:50:07] INFO root fetch - processPackages [beatlesalbuns]: Remove: archive file [/home/abi/fetcher/tmp/beatlesalbuns-0.0.4.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - processPackages [beatlesalbuns]: Remove: archive file [/home/abi/fetcher/tmp/beatlesalbuns-0.0.5.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - main [MainThread]: End processing [beatlesalbuns]: success
+[2024-04-02 14:50:07] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-02 14:50:07] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-02 14:50:07] INFO root fetch - main [MainThread]: Store serial: [22584992]
