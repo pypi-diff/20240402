@@ -18275,3 +18275,38 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:07:45] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
 [2024-04-02 13:07:45] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
 [2024-04-02 13:07:45] INFO root fetch - main [MainThread]: Store serial: [22583815]
+[2024-04-02 13:09:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583815]
+[2024-04-02 13:09:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccpn-project-checker
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-cpp
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bioimageio-chatbot
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: v2share
+[2024-04-02 13:09:54] INFO root fetch - processPackages [bigdl-core-cpp]: New version: [2.5.0b20240401] Old Version: [2.5.0b20240331]
+[2024-04-02 13:09:54] INFO root fetch - processPackages [bioimageio-chatbot]: New version: [0.1.9] Old Version: [0.1.86]
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 13:09:54] INFO root fetch - processPackages [v2share]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2024-04-02 13:09:54] INFO root fetch - processPackages [bioimageio-chatbot]: Downloading https://files.pythonhosted.org/packages/19/3d/6fdf681edbcef0b8089a155fb5ac4dd01c26d236cc9dc85ba0e75fef87b7/bioimageio-chatbot-0.1.86.tar.gz
+[2024-04-02 13:09:54] INFO root fetch - processPackages [bigdl-core-cpp]: Downloading https://files.pythonhosted.org/packages/cd/06/1846a7ab46e9381f6f4cb9f9d2028a08e3b4bd01de38953377f5d0dbed41/bigdl_core_cpp-2.5.0b20240331-py3-none-win_amd64.whl
+[2024-04-02 13:09:54] WARNING root fetch - processPackages [bigdl-core-cpp]: Skipping package: exceeds size limit 34831673>=10485760
+[2024-04-02 13:09:54] INFO root fetch - main [MainThread]: End processing [bigdl-core-cpp] error
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/4a/aa/e464f9a7d515579d56b8f5a3fea70035ba8a19d4cc24d4d4adc310ae5fd8/ccpn_project_checker-0.1.8.tar.gz
+[2024-04-02 13:09:54] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/45/87/c59d394dd7f4a043c1eb85adff0b97e9789aed326b48e19263274d052404/v2share-0.1.0a3.tar.gz
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/9a/e1/5f3e6c8b4bca4f289db6fe9a948ba868b3034c289278ebbf524793c13f7f/ccpn_project_checker-0.1.9.tar.gz
+[2024-04-02 13:09:54] INFO root fetch - processPackages [bioimageio-chatbot]: Downloading https://files.pythonhosted.org/packages/46/24/3d75cc49c62134f17ff70233ecff68a22210ad57197e61afdf38567d13c7/bioimageio-chatbot-0.1.9.tar.gz
+[2024-04-02 13:09:54] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/f2/aa/3975349f1570666a7d76eb4497fe1d5d827ee2b53707cb6942fdfaa70f9d/v2share-0.1.0a4.tar.gz
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 13:09:54] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.8.tar.gz tmp/ccpn_project_checker-0.1.9.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 13:09:55] INFO root fetch - processPackages [bioimageio-chatbot]: executing diffoscope
+[2024-04-02 13:09:55] INFO root fetch - processPackages [bioimageio-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio-chatbot-0.1.86.tar.gz tmp/bioimageio-chatbot-0.1.9.tar.gz --markdown 20240402/b/bioimageio-chatbot/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 13:09:55] INFO root fetch - processPackages [v2share]: executing diffoscope
+[2024-04-02 13:09:55] INFO root fetch - processPackages [v2share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2share-0.1.0a3.tar.gz tmp/v2share-0.1.0a4.tar.gz --markdown 20240402/v/v2share/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2024-04-02 13:09:55] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0a3.tar.gz]
+[2024-04-02 13:09:55] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0a4.tar.gz]
+[2024-04-02 13:09:55] INFO root fetch - main [MainThread]: End processing [v2share]: success
+[2024-04-02 13:09:55] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.86.tar.gz]
+[2024-04-02 13:09:55] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.9.tar.gz]
+[2024-04-02 13:09:55] INFO root fetch - main [MainThread]: End processing [bioimageio-chatbot]: success
+[2024-04-02 13:10:02] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.8.tar.gz]
+[2024-04-02 13:10:02] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
+[2024-04-02 13:10:02] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 13:10:02] INFO root fetch - main [MainThread]: Store serial: [22583826]
