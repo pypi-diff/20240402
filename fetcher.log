@@ -10938,3 +10938,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:16:05] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
 [2024-04-02 07:16:05] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
 [2024-04-02 07:16:05] INFO root fetch - main [MainThread]: Store serial: [22580858]
+[2024-04-02 07:18:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580858]
+[2024-04-02 07:18:14] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 07:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: outpostcli
+[2024-04-02 07:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyglet
+[2024-04-02 07:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sleipnirgroup-jormungandr
+[2024-04-02 07:18:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LdShell
+[2024-04-02 07:18:14] INFO root fetch - processPackages [LdShell]: New version: [2.0.0] Old Version: [1.6.8]
+[2024-04-02 07:18:14] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: New version: [0.0.1.dev99] Old Version: [0.0.1.dev98]
+[2024-04-02 07:18:14] INFO root fetch - processPackages [outpostcli]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 07:18:14] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/6d/7d/de652f192654933ea22191662367b1f43fcd666ef4f6593a6e16d65b4f02/LdShell-1.6.8.tar.gz
+[2024-04-02 07:18:14] INFO root fetch - processPackages [pyglet]: New version: [2.1.dev1] Old Version: [2.0b3]
+[2024-04-02 07:18:15] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/cc/12/913e734462cf5d457ad69ec174744b76c771c8b63ebfb55efeb3cf02373e/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz
+[2024-04-02 07:18:15] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/7e/e2/114a39eac567286d0418645c0ea24089c48fcbe4cccec6c79191a5cefccf/outpostcli-0.0.8.tar.gz
+[2024-04-02 07:18:15] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/e5/d7/8898edcdc4dc6df2512d51739c4e6c1e6261d8ebd7e27cb59923c7a2cbb5/pyglet-2.0b3.zip
+[2024-04-02 07:18:15] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/bd/ba/69dd8a1276aa2d560de36d2899a33a20df6a18303519327e8c409d942895/LdShell-2.0.0.tar.gz
+[2024-04-02 07:18:15] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Downloading https://files.pythonhosted.org/packages/c4/65/9e9a4eafe0a550c5be12a69cf1665a71a4b5c434089722b18386b65569f5/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz
+[2024-04-02 07:18:15] INFO root fetch - processPackages [LdShell]: executing diffoscope
+[2024-04-02 07:18:15] INFO root fetch - processPackages [LdShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LdShell-1.6.8.tar.gz tmp/LdShell-2.0.0.tar.gz --markdown 20240402/L/LdShell/1.6.8-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 07:18:15] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: executing diffoscope
+[2024-04-02 07:18:15] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz --markdown 20240402/s/sleipnirgroup-jormungandr/0.0.1.dev98-0.0.1.dev99/diff.md --exclude *.pyd
+[2024-04-02 07:18:15] INFO root fetch - processPackages [outpostcli]: Downloading https://files.pythonhosted.org/packages/df/ab/82b6853cec170d33c2aff19e3a298b0bf56f7ba1b885f6f7d42a10ae43dc/outpostcli-0.0.9.tar.gz
+[2024-04-02 07:18:15] INFO root fetch - processPackages [outpostcli]: executing diffoscope
+[2024-04-02 07:18:15] INFO root fetch - processPackages [outpostcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outpostcli-0.0.8.tar.gz tmp/outpostcli-0.0.9.tar.gz --markdown 20240402/o/outpostcli/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 07:18:15] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.8.tar.gz]
+[2024-04-02 07:18:15] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-2.0.0.tar.gz]
+[2024-04-02 07:18:15] INFO root fetch - main [MainThread]: End processing [LdShell]: success
+[2024-04-02 07:18:16] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.8.tar.gz]
+[2024-04-02 07:18:16] INFO root fetch - processPackages [outpostcli]: Remove: archive file [/home/abi/fetcher/tmp/outpostcli-0.0.9.tar.gz]
+[2024-04-02 07:18:16] INFO root fetch - main [MainThread]: End processing [outpostcli]: success
+[2024-04-02 07:18:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
+[2024-04-02 07:18:16] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev99.tar.gz]
+[2024-04-02 07:18:16] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
+[2024-04-02 07:18:16] INFO root fetch - processPackages [pyglet]: Downloading https://files.pythonhosted.org/packages/7e/21/a514b8358e5f3c49e54edd055637ecb8e6f52af2d9c25bd0d9435c9fa6e0/pyglet-2.1.dev1.tar.gz
+[2024-04-02 07:18:17] INFO root fetch - processPackages [pyglet]: executing diffoscope
+[2024-04-02 07:18:17] INFO root fetch - processPackages [pyglet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglet-2.0b3.zip tmp/pyglet-2.1.dev1.tar.gz --markdown 20240402/p/pyglet/2.0b3-2.1.dev1/diff.md --exclude *.pyd
+[2024-04-02 07:18:22] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.0b3.zip]
+[2024-04-02 07:18:22] INFO root fetch - processPackages [pyglet]: Remove: archive file [/home/abi/fetcher/tmp/pyglet-2.1.dev1.tar.gz]
+[2024-04-02 07:18:22] INFO root fetch - main [MainThread]: End processing [pyglet]: success
+[2024-04-02 07:18:22] INFO root fetch - main [MainThread]: Store serial: [22580881]
