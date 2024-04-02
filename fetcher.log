@@ -7843,3 +7843,57 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:32:33] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.11.tar.gz]
 [2024-04-02 03:32:33] INFO root fetch - main [MainThread]: End processing [test-tele]: success
 [2024-04-02 03:32:33] INFO root fetch - main [MainThread]: Store serial: [22579502]
+[2024-04-02 03:34:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579502]
+[2024-04-02 03:34:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: specklia
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-rocm-gtt
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shacl2code
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unifyai
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dhxpyt
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prodvana
+[2024-04-02 03:34:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyAgrum-nightly
+[2024-04-02 03:34:42] WARNING root fetch - processPackages [unifyai]: Skipping, unable to determine old version
+[2024-04-02 03:34:42] INFO root fetch - main [MainThread]: End processing [unifyai] error
+[2024-04-02 03:34:42] INFO root fetch - processPackages [pytorch-rocm-gtt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 03:34:42] WARNING root fetch - processPackages [dhxpyt]: Skipping, unable to determine old version
+[2024-04-02 03:34:42] INFO root fetch - main [MainThread]: End processing [dhxpyt] error
+[2024-04-02 03:34:42] INFO root fetch - processPackages [shacl2code]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 03:34:42] INFO root fetch - processPackages [pytorch-rocm-gtt]: Downloading https://files.pythonhosted.org/packages/84/6f/faa4d4d277e7b7ef815d2737b2fefefe7ae523e984fa1b1ba0b060f72044/pytorch_rocm_gtt-0.1.1.tar.gz
+[2024-04-02 03:34:42] INFO root fetch - processPackages [prodvana]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-02 03:34:42] INFO root fetch - processPackages [specklia]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-02 03:34:42] INFO root fetch - processPackages [pytorch-rocm-gtt]: Downloading https://files.pythonhosted.org/packages/28/be/df53af2c8cc45407443bae8cd9580498883a51a2493722242dda6ec8f42a/pytorch_rocm_gtt-0.1.2.tar.gz
+[2024-04-02 03:34:42] INFO root fetch - processPackages [shacl2code]: Downloading https://files.pythonhosted.org/packages/26/3b/b8ead5bdc1cca55c190f56f7ad6ac0d6941197abedc92ec3f98f3eb144cf/shacl2code-0.0.8.tar.gz
+[2024-04-02 03:34:42] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/05/29/b305e83e3145ff688dc20fcaf7e9acc6387d8bcb0be66a1bad5781bb7543/prodvana-0.3.8.tar.gz
+[2024-04-02 03:34:42] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/a7/9f/4720917cb05f5cbc2f231e1f8046c023fc1f91d4aaefdae32d0a739be648/specklia-1.8.8.tar.gz
+[2024-04-02 03:34:42] INFO root fetch - processPackages [pytorch-rocm-gtt]: executing diffoscope
+[2024-04-02 03:34:42] INFO root fetch - processPackages [pytorch-rocm-gtt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_rocm_gtt-0.1.1.tar.gz tmp/pytorch_rocm_gtt-0.1.2.tar.gz --markdown 20240402/p/pytorch-rocm-gtt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 03:34:43] INFO root fetch - processPackages [shacl2code]: Downloading https://files.pythonhosted.org/packages/34/95/ad87ccdeb91fbd65fa49818903f2bfd86c15910c15204e171961b8921ca7/shacl2code-0.0.9.tar.gz
+[2024-04-02 03:34:43] INFO root fetch - processPackages [specklia]: Downloading https://files.pythonhosted.org/packages/0d/ec/3815cb2a18ad5b8029e09da92f85c68b28ffd5dbcf20be7c41214190aeaf/specklia-1.8.9.tar.gz
+[2024-04-02 03:34:43] INFO root fetch - processPackages [shacl2code]: executing diffoscope
+[2024-04-02 03:34:43] INFO root fetch - processPackages [shacl2code]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shacl2code-0.0.8.tar.gz tmp/shacl2code-0.0.9.tar.gz --markdown 20240402/s/shacl2code/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 03:34:43] INFO root fetch - processPackages [specklia]: executing diffoscope
+[2024-04-02 03:34:43] INFO root fetch - processPackages [specklia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/specklia-1.8.8.tar.gz tmp/specklia-1.8.9.tar.gz --markdown 20240402/s/specklia/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2024-04-02 03:34:43] INFO root fetch - processPackages [pytorch-rocm-gtt]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_rocm_gtt-0.1.1.tar.gz]
+[2024-04-02 03:34:43] INFO root fetch - processPackages [pytorch-rocm-gtt]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_rocm_gtt-0.1.2.tar.gz]
+[2024-04-02 03:34:43] INFO root fetch - main [MainThread]: End processing [pytorch-rocm-gtt]: success
+[2024-04-02 03:34:43] INFO root fetch - processPackages [prodvana]: Downloading https://files.pythonhosted.org/packages/b2/62/1999f7e3eed16a266b39c7205e01fda3f018d873f514114d86cdf999983b/prodvana-0.3.9.tar.gz
+[2024-04-02 03:34:43] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.8.tar.gz]
+[2024-04-02 03:34:43] INFO root fetch - processPackages [specklia]: Remove: archive file [/home/abi/fetcher/tmp/specklia-1.8.9.tar.gz]
+[2024-04-02 03:34:43] INFO root fetch - main [MainThread]: End processing [specklia]: success
+[2024-04-02 03:34:43] INFO root fetch - processPackages [prodvana]: executing diffoscope
+[2024-04-02 03:34:43] INFO root fetch - processPackages [prodvana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prodvana-0.3.8.tar.gz tmp/prodvana-0.3.9.tar.gz --markdown 20240402/p/prodvana/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-02 03:34:44] INFO root fetch - processPackages [shacl2code]: Remove: archive file [/home/abi/fetcher/tmp/shacl2code-0.0.8.tar.gz]
+[2024-04-02 03:34:44] INFO root fetch - processPackages [shacl2code]: Remove: archive file [/home/abi/fetcher/tmp/shacl2code-0.0.9.tar.gz]
+[2024-04-02 03:34:44] INFO root fetch - main [MainThread]: End processing [shacl2code]: success
+[2024-04-02 03:34:44] INFO root fetch - processPackages [pyAgrum-nightly]: New version: [1.9.0.9.dev202310191697564854] Old Version: [1.9.0.9.dev202310181697564854]
+[2024-04-02 03:34:44] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/64/23/4308469c4be3abcfc53ec2ccbd7dcca1618077035522cae4b364a9c6cc56/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl
+[2024-04-02 03:34:44] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.8.tar.gz]
+[2024-04-02 03:34:44] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
+[2024-04-02 03:34:44] INFO root fetch - main [MainThread]: End processing [prodvana]: success
+[2024-04-02 03:34:46] INFO root fetch - processPackages [pyAgrum-nightly]: Downloading https://files.pythonhosted.org/packages/84/cc/6d2d3b13a2080cfbfa9792321774075d119b4fa37902c5a9d93d8eccf13d/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl
+[2024-04-02 03:34:47] INFO root fetch - processPackages [pyAgrum-nightly]: executing diffoscope
+[2024-04-02 03:34:47] INFO root fetch - processPackages [pyAgrum-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip --markdown 20240402/p/pyAgrum-nightly/1.9.0.9.dev202310181697564854-1.9.0.9.dev202310191697564854/diff.md --exclude *.pyd
+[2024-04-02 03:34:48] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310181697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 03:34:48] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 03:34:48] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
+[2024-04-02 03:34:48] INFO root fetch - main [MainThread]: Store serial: [22579592]
