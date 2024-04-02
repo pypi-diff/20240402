@@ -16381,3 +16381,70 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:49:07] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.6.tar.gz]
 [2024-04-02 11:49:07] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 11:49:07] INFO root fetch - main [MainThread]: Store serial: [22583039]
+[2024-04-02 11:51:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583039]
+[2024-04-02 11:51:15] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zenfinal
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyclipmgr
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nobuco
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RL-OM
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aiocomfoconnect
+[2024-04-02 11:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: windmill-api
+[2024-04-02 11:51:15] INFO root fetch - processPackages [pyclipmgr]: New version: [3.0.0] Old Version: [2.8]
+[2024-04-02 11:51:15] WARNING root fetch - processPackages [zenfinal]: Skipping, unable to determine old version
+[2024-04-02 11:51:15] INFO root fetch - main [MainThread]: End processing [zenfinal] error
+[2024-04-02 11:51:15] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402084942] Old Version: [3.3.1.dev20240402082556]
+[2024-04-02 11:51:16] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.80]
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402084942] Old Version: [3.3.1.dev20240402082556]
+[2024-04-02 11:51:16] INFO root fetch - processPackages [aiocomfoconnect]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 11:51:16] INFO root fetch - processPackages [nobuco]: New version: [0.9.2] Old Version: [0.9.1]
+[2024-04-02 11:51:16] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/ab/84/e321a7960f93c76de5b683b51b240a92cf2cc2378f3d951b010b52844ab7/pyclipmgr-2.8.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6c/fc/69bd273b7ded3f42c93700900c241d21d4dc30f876bbc83f08ce970d0465/localstack-core-3.3.1.dev20240402082556.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6c/fc/69bd273b7ded3f42c93700900c241d21d4dc30f876bbc83f08ce970d0465/localstack-core-3.3.1.dev20240402082556.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/bd/5a/3be2041aa0b189f303750d980e6df9fbda40c54541bbdce74155654b2bfa/RL_OM-0.7.80.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2024-04-02 11:51:16] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/68/84/794132dacc433e3e334bbd166200a6803b9ba4ee42d075e7a99aff115d7a/nobuco-0.9.1.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [aiocomfoconnect]: Downloading https://files.pythonhosted.org/packages/6a/18/4d6300778b3b7a9aef3619475b9527c0452a135e00a4c44a998bf73a2e2f/aiocomfoconnect-0.1.8.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0b/45/53971441e2e6c3fcfee57d7d054c21fc281a9ae25dbd3313927d36a86dfa/pyclipmgr-3.0.0.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 11:51:16] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-2.8.tar.gz tmp/pyclipmgr-3.0.0.tar.gz --markdown 20240402/p/pyclipmgr/2.8-3.0.0/diff.md --exclude *.pyd
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/59/7f/d8ab3fb2b7d1dc038703c8497de63e376f2b5246d1e38feb676070b674e6/localstack-core-3.3.1.dev20240402084942.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/59/7f/d8ab3fb2b7d1dc038703c8497de63e376f2b5246d1e38feb676070b674e6/localstack-core-3.3.1.dev20240402084942.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [nobuco]: Downloading https://files.pythonhosted.org/packages/82/54/7cd12a09de91e79fb5f11fb08e9049763568458773fc0c674164336780b2/nobuco-0.9.2.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-02 11:51:16] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.80.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240402/R/RL-OM/0.7.80-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 11:51:16] INFO root fetch - processPackages [aiocomfoconnect]: Downloading https://files.pythonhosted.org/packages/81/ba/3b4c44137af4120407580713112b2248ca84f505ae83ae5101ae37ebbb84/aiocomfoconnect-0.1.9.tar.gz
+[2024-04-02 11:51:16] INFO root fetch - processPackages [nobuco]: executing diffoscope
+[2024-04-02 11:51:16] INFO root fetch - processPackages [nobuco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nobuco-0.9.1.tar.gz tmp/nobuco-0.9.2.tar.gz --markdown 20240402/n/nobuco/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240402082556.tar.gz tmp/localstack-core-3.3.1.dev20240402084942.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240402082556-3.3.1.dev20240402084942/diff.md --exclude *.pyd
+[2024-04-02 11:51:16] INFO root fetch - processPackages [aiocomfoconnect]: executing diffoscope
+[2024-04-02 11:51:16] INFO root fetch - processPackages [aiocomfoconnect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiocomfoconnect-0.1.8.tar.gz tmp/aiocomfoconnect-0.1.9.tar.gz --markdown 20240402/a/aiocomfoconnect/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 11:51:16] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240402082556.tar.gz tmp/localstack-core-3.3.1.dev20240402084942.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240402082556-3.3.1.dev20240402084942/diff.md --exclude *.pyd
+[2024-04-02 11:51:17] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2024-04-02 11:51:17] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2024-04-02 11:51:17] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20240402/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2024-04-02 11:51:17] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.8.tar.gz]
+[2024-04-02 11:51:17] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-3.0.0.tar.gz]
+[2024-04-02 11:51:17] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 11:51:18] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.1.tar.gz]
+[2024-04-02 11:51:18] INFO root fetch - processPackages [nobuco]: Remove: archive file [/home/abi/fetcher/tmp/nobuco-0.9.2.tar.gz]
+[2024-04-02 11:51:18] INFO root fetch - main [MainThread]: End processing [nobuco]: success
+[2024-04-02 11:51:18] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.80.tar.gz]
+[2024-04-02 11:51:18] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-02 11:51:18] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-02 11:51:18] INFO root fetch - processPackages [aiocomfoconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiocomfoconnect-0.1.8.tar.gz]
+[2024-04-02 11:51:18] INFO root fetch - processPackages [aiocomfoconnect]: Remove: archive file [/home/abi/fetcher/tmp/aiocomfoconnect-0.1.9.tar.gz]
+[2024-04-02 11:51:18] INFO root fetch - main [MainThread]: End processing [aiocomfoconnect]: success
+[2024-04-02 11:51:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402082556.tar.gz]
+[2024-04-02 11:51:21] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402084942.tar.gz]
+[2024-04-02 11:51:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 11:51:21] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 11:51:22] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2024-04-02 11:51:22] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2024-04-02 11:51:22] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2024-04-02 11:51:22] INFO root fetch - main [MainThread]: Store serial: [22583062]
