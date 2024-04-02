@@ -3117,3 +3117,72 @@
 [2024-04-02 03:00:01] INFO root fetch - processPackages [cloudflare]: Remove: archive file [/home/abi/fetcher/tmp/cloudflare-3.0.0b7.tar.gz]
 [2024-04-02 03:00:01] INFO root fetch - main [MainThread]: End processing [cloudflare]: success
 [2024-04-02 03:00:01] INFO root fetch - main [MainThread]: Store serial: [22577947]
+[2024-04-02 03:02:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577947]
+[2024-04-02 03:02:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: usearch
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spaceone-api
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: test-tele
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testebiblioteca
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qless-with-throttles
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansar-connect
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: morphdb-utils
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valor-client
+[2024-04-02 03:02:10] WARNING root fetch - processPackages [testebiblioteca]: Skipping, unable to determine old version
+[2024-04-02 03:02:10] INFO root fetch - main [MainThread]: End processing [testebiblioteca] error
+[2024-04-02 03:02:10] INFO root fetch - processPackages [usearch]: New version: [2.9.2] Old Version: [2.9.1]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [test-tele]: New version: [0.0.4.9.8.10.1] Old Version: [0.0.4.9.8.10]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ansar-connect]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/8b/43/c2558bc9415bc56b51c565ab35e885b8daff8ba0b8e920a001aa71f9fa44/usearch-2.9.1-cp39-cp39-win_amd64.whl
+[2024-04-02 03:02:10] INFO root fetch - processPackages [valor-client]: New version: [0.20.0] Old Version: [0.19.0]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/3c/ea/113d72847046ca39a2e5866437ef74ddb9254fe18846fdef012f9530ff84/test_tele-0.0.4.9.8.10.tar.gz
+[2024-04-02 03:02:10] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/62/69/e0c8382177a6b58e5572bc6a81ad6abe299546d4cdeaa6b4ed8a1a58fec6/ansar-connect-0.1.98.tar.gz
+[2024-04-02 03:02:10] INFO root fetch - processPackages [qless-with-throttles]: New version: [0.12.0a9] Old Version: [0.12.0a8]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [morphdb-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 03:02:10] INFO root fetch - processPackages [valor-client]: Downloading https://files.pythonhosted.org/packages/6f/6a/571d6b50d74d2bcc0b6acc669da7520179b3beb2a0ffd5d865dbe43e9217/valor-client-0.19.0.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d6/35/835356907691f8adc22f60e729aeeaeaef9b81bf07a96079c9ed33a94b4b/usearch-2.9.2-cp39-cp39-win_amd64.whl
+[2024-04-02 03:02:11] INFO root fetch - processPackages [ansar-connect]: Downloading https://files.pythonhosted.org/packages/74/0b/c504b4248bc3ebe37c314702983a44dcf646e21a88df19adb226aee27b66/ansar-connect-0.1.99.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [test-tele]: Downloading https://files.pythonhosted.org/packages/bd/68/b6f0918da34dbcdf93b97131baa4c8da17dcf277907b6d01b265669d1272/test_tele-0.0.4.9.8.10.1.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [qless-with-throttles]: Downloading https://files.pythonhosted.org/packages/38/82/5755ba0114a466dd7c68fdb3060f7539d116eedc4f5d98d96272f2df54fd/qless-with-throttles-0.12.0a8.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/cd/4f/c6949258d5647c0aa4d14e61014c6e3a7c9f08086b8ff176bee34576864d/morphdb_utils-0.1.8.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [test-tele]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [test-tele]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_tele-0.0.4.9.8.10.tar.gz tmp/test_tele-0.0.4.9.8.10.1.tar.gz --markdown 20240402/t/test-tele/0.0.4.9.8.10-0.0.4.9.8.10.1/diff.md --exclude *.pyd
+[2024-04-02 03:02:11] INFO root fetch - processPackages [ansar-connect]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [ansar-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansar-connect-0.1.98.tar.gz tmp/ansar-connect-0.1.99.tar.gz --markdown 20240402/a/ansar-connect/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 03:02:11] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip --markdown 20240402/u/usearch/2.9.1-2.9.2/diff.md --exclude *.pyd
+[2024-04-02 03:02:11] INFO root fetch - processPackages [valor-client]: Downloading https://files.pythonhosted.org/packages/c5/d7/954514875e3d1e654207cdd96caedbc5bc99e659180ac624b86fbd1bc82c/valor-client-0.20.0.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [morphdb-utils]: Downloading https://files.pythonhosted.org/packages/f4/69/729494d22abe49b72c25e4b1efa215d54cab59388bae925f40777fce21f3/morphdb_utils-0.1.9.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [qless-with-throttles]: Downloading https://files.pythonhosted.org/packages/5a/d4/b8a4d3f5182f4fe2cba33b5e341890ec71807ba729a06275253839b97faf/qless-with-throttles-0.12.0a9.tar.gz
+[2024-04-02 03:02:11] INFO root fetch - processPackages [valor-client]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [valor-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valor-client-0.19.0.tar.gz tmp/valor-client-0.20.0.tar.gz --markdown 20240402/v/valor-client/0.19.0-0.20.0/diff.md --exclude *.pyd
+[2024-04-02 03:02:11] INFO root fetch - processPackages [morphdb-utils]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [morphdb-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/morphdb_utils-0.1.8.tar.gz tmp/morphdb_utils-0.1.9.tar.gz --markdown 20240402/m/morphdb-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 03:02:11] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240402/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-02 03:02:11] INFO root fetch - processPackages [qless-with-throttles]: executing diffoscope
+[2024-04-02 03:02:11] INFO root fetch - processPackages [qless-with-throttles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qless-with-throttles-0.12.0a8.tar.gz tmp/qless-with-throttles-0.12.0a9.tar.gz --markdown 20240402/q/qless-with-throttles/0.12.0a8-0.12.0a9/diff.md --exclude *.pyd
+[2024-04-02 03:02:12] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.98.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [ansar-connect]: Remove: archive file [/home/abi/fetcher/tmp/ansar-connect-0.1.99.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [ansar-connect]: success
+[2024-04-02 03:02:12] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-2.9.2-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2024-04-02 03:02:12] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.10.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [test-tele]: Remove: archive file [/home/abi/fetcher/tmp/test_tele-0.0.4.9.8.10.1.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [test-tele]: success
+[2024-04-02 03:02:12] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.8.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [morphdb-utils]: Remove: archive file [/home/abi/fetcher/tmp/morphdb_utils-0.1.9.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [morphdb-utils]: success
+[2024-04-02 03:02:12] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor-client-0.19.0.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [valor-client]: Remove: archive file [/home/abi/fetcher/tmp/valor-client-0.20.0.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [valor-client]: success
+[2024-04-02 03:02:12] INFO root fetch - processPackages [qless-with-throttles]: Remove: archive file [/home/abi/fetcher/tmp/qless-with-throttles-0.12.0a8.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [qless-with-throttles]: Remove: archive file [/home/abi/fetcher/tmp/qless-with-throttles-0.12.0a9.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [qless-with-throttles]: success
+[2024-04-02 03:02:12] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-02 03:02:12] INFO root fetch - main [MainThread]: Store serial: [22578038]
