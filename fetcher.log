@@ -2457,3 +2457,51 @@
 [2024-04-02 02:24:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.93.tar.gz]
 [2024-04-02 02:24:25] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
 [2024-04-02 02:24:25] INFO root fetch - main [MainThread]: Store serial: [22577552]
+[2024-04-02 02:26:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577552]
+[2024-04-02 02:26:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-serverless-clamscan
+[2024-04-02 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-ecs-service-extensions
+[2024-04-02 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-secret-manager-wrapper-layer
+[2024-04-02 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kss
+[2024-04-02 02:26:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nuldc
+[2024-04-02 02:26:33] INFO root fetch - processPackages [nuldc]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 02:26:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 02:26:33] INFO root fetch - processPackages [nuldc]: Downloading https://files.pythonhosted.org/packages/e2/6c/ec9d57b1c4927d1ef56647f6ef19eb396e9faf47eee07950ec72aabb965f/nuldc-0.9.0.tar.gz
+[2024-04-02 02:26:33] INFO root fetch - processPackages [kss]: New version: [5.2.0] Old Version: [5.1.0]
+[2024-04-02 02:26:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2024-04-02 02:26:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a99] Old Version: [2.0.1a98]
+[2024-04-02 02:26:33] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.6.99] Old Version: [2.6.98]
+[2024-04-02 02:26:33] INFO root fetch - processPackages [nuldc]: Downloading https://files.pythonhosted.org/packages/38/41/f0a35de8d827c5d40081a9157a7c924c80966f20f0e35e4342a72e37a83c/nuldc-0.9.1.tar.gz
+[2024-04-02 02:26:33] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2024-04-02 02:26:33] INFO root fetch - processPackages [kss]: Downloading https://files.pythonhosted.org/packages/c6/0e/582ab72f2fde97182c0a6ac8e549d6e7e9674aec51582c59e5373720d288/kss-5.1.0.tar.gz
+[2024-04-02 02:26:33] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/c9/ad/d7965da0f34d52de670def31464963b3971de03ac20cddf5eac577722b31/cdk-ecs-service-extensions-2.0.1a98.tar.gz
+[2024-04-02 02:26:34] INFO root fetch - processPackages [nuldc]: executing diffoscope
+[2024-04-02 02:26:34] INFO root fetch - processPackages [nuldc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nuldc-0.9.0.tar.gz tmp/nuldc-0.9.1.tar.gz --markdown 20240402/n/nuldc/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20240402/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/04/67/6fb0e00ee65986b766391e4327a7370cec35f8458c0c80507e3b56a79e57/cdk-serverless-clamscan-2.6.98.tar.gz
+[2024-04-02 02:26:34] INFO root fetch - processPackages [kss]: Downloading https://files.pythonhosted.org/packages/9d/25/779fbf04731e211208dd3a9f8aeb96e07fe459e02bfd09ffb77cb7576266/kss-5.2.0.tar.gz
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/9c/f7/1a593c4ae0d3c80332cec251caad8f13a27842299475718ad186eea220ba/cdk-ecs-service-extensions-2.0.1a99.tar.gz
+[2024-04-02 02:26:34] INFO root fetch - processPackages [kss]: executing diffoscope
+[2024-04-02 02:26:34] INFO root fetch - processPackages [kss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kss-5.1.0.tar.gz tmp/kss-5.2.0.tar.gz --markdown 20240402/k/kss/5.1.0-5.2.0/diff.md --exclude *.pyd
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz --markdown 20240402/c/cdk-ecs-service-extensions/2.0.1a98-2.0.1a99/diff.md --exclude *.pyd
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2024-04-02 02:26:34] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/53/8f/ea40546b0f696761a1aaeee533ca8a5f53147131c3aa1f0aa1316112f44f/cdk-serverless-clamscan-2.6.99.tar.gz
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2024-04-02 02:26:34] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.6.98.tar.gz tmp/cdk-serverless-clamscan-2.6.99.tar.gz --markdown 20240402/c/cdk-serverless-clamscan/2.6.98-2.6.99/diff.md --exclude *.pyd
+[2024-04-02 02:26:34] INFO root fetch - processPackages [nuldc]: Remove: archive file [/home/abi/fetcher/tmp/nuldc-0.9.0.tar.gz]
+[2024-04-02 02:26:34] INFO root fetch - processPackages [nuldc]: Remove: archive file [/home/abi/fetcher/tmp/nuldc-0.9.1.tar.gz]
+[2024-04-02 02:26:34] INFO root fetch - main [MainThread]: End processing [nuldc]: success
+[2024-04-02 02:26:35] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a98.tar.gz]
+[2024-04-02 02:26:35] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a99.tar.gz]
+[2024-04-02 02:26:35] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2024-04-02 02:26:35] INFO root fetch - processPackages [kss]: Remove: archive file [/home/abi/fetcher/tmp/kss-5.1.0.tar.gz]
+[2024-04-02 02:26:35] INFO root fetch - processPackages [kss]: Remove: archive file [/home/abi/fetcher/tmp/kss-5.2.0.tar.gz]
+[2024-04-02 02:26:35] INFO root fetch - main [MainThread]: End processing [kss]: success
+[2024-04-02 02:26:35] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.98.tar.gz]
+[2024-04-02 02:26:35] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.6.99.tar.gz]
+[2024-04-02 02:26:35] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2024-04-02 02:26:35] INFO root fetch - main [MainThread]: Store serial: [22577567]
