@@ -14469,3 +14469,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:33:04] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.2.tar.gz]
 [2024-04-02 10:33:04] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 10:33:04] INFO root fetch - main [MainThread]: Store serial: [22582220]
+[2024-04-02 10:35:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582220]
+[2024-04-02 10:35:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AcraNetwork
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zlcyun
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghga-datasteward-kit
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RTSAI
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccpn-project-checker
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 10:35:13] INFO root fetch - processPackages [RTSAI]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 10:35:13] INFO root fetch - processPackages [AcraNetwork]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/f1/93/72ac536a576231abc424b8a0e680a4dca21b994f08ed8c05749d832d06eb/ccpn_project_checker-0.1.2.tar.gz
+[2024-04-02 10:35:13] WARNING root fetch - processPackages [zlcyun]: Skipping, unable to determine old version
+[2024-04-02 10:35:13] INFO root fetch - main [MainThread]: End processing [zlcyun] error
+[2024-04-02 10:35:13] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/26/5f/38277ca3bf3e2353ea674f32c5d60ec538c45d879bd6801f8ace089ce426/RTSAI-0.1.0.tar.gz
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ghga-datasteward-kit]: New version: [2.0.0] Old Version: [1.2.1]
+[2024-04-02 10:35:13] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/36/22/643c455ac0c50d42916d52b9b476e86fe245f03e8d9e8b8ee8dc66fc7970/AcraNetwork-0.7.4.tar.gz
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ghga-datasteward-kit]: Downloading https://files.pythonhosted.org/packages/ed/4c/92275cc0e01289ff0c765daad4690a2e11605bf0ca84f86d65739845abe7/ghga_datasteward_kit-1.2.1.tar.gz
+[2024-04-02 10:35:13] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/09/a1/6518477628477f5d5da74f13ff3edc1dafcc9c3a1ce22ab007f657d79267/RTSAI-0.1.1.tar.gz
+[2024-04-02 10:35:13] INFO root fetch - processPackages [AcraNetwork]: Downloading https://files.pythonhosted.org/packages/e8/d6/0fa21a06a24cc9d9763db8970944b4e1b837b1d07fb53fdb074d68f7147f/AcraNetwork-0.7.5.zip
+[2024-04-02 10:35:13] INFO root fetch - processPackages [RTSAI]: executing diffoscope
+[2024-04-02 10:35:13] INFO root fetch - processPackages [RTSAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSAI-0.1.0.tar.gz tmp/RTSAI-0.1.1.tar.gz --markdown 20240402/R/RTSAI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 10:35:13] INFO root fetch - processPackages [AcraNetwork]: executing diffoscope
+[2024-04-02 10:35:13] INFO root fetch - processPackages [AcraNetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AcraNetwork-0.7.4.tar.gz tmp/AcraNetwork-0.7.5.zip --markdown 20240402/A/AcraNetwork/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/ce/b2/20ede93d59515116918374524c8eec21cfde6fc66e2191a0e004de312438/ccpn_project_checker-0.1.3.tar.gz
+[2024-04-02 10:35:13] INFO root fetch - processPackages [ghga-datasteward-kit]: Downloading https://files.pythonhosted.org/packages/25/b2/79edbc4d94391dbcfcfc5d7559124061d04a6c4a130538fef6f7394bdc41/ghga_datasteward_kit-2.0.0.tar.gz
+[2024-04-02 10:35:14] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 10:35:14] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.2.tar.gz tmp/ccpn_project_checker-0.1.3.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 10:35:14] INFO root fetch - processPackages [ghga-datasteward-kit]: executing diffoscope
+[2024-04-02 10:35:14] INFO root fetch - processPackages [ghga-datasteward-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghga_datasteward_kit-1.2.1.tar.gz tmp/ghga_datasteward_kit-2.0.0.tar.gz --markdown 20240402/g/ghga-datasteward-kit/1.2.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 10:35:14] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.4.tar.gz]
+[2024-04-02 10:35:14] INFO root fetch - processPackages [AcraNetwork]: Remove: archive file [/home/abi/fetcher/tmp/AcraNetwork-0.7.5.zip]
+[2024-04-02 10:35:14] INFO root fetch - main [MainThread]: End processing [AcraNetwork]: success
+[2024-04-02 10:35:14] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.0.tar.gz]
+[2024-04-02 10:35:14] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.1.tar.gz]
+[2024-04-02 10:35:14] INFO root fetch - main [MainThread]: End processing [RTSAI]: success
+[2024-04-02 10:35:14] INFO root fetch - processPackages [ghga-datasteward-kit]: Remove: archive file [/home/abi/fetcher/tmp/ghga_datasteward_kit-1.2.1.tar.gz]
+[2024-04-02 10:35:14] INFO root fetch - processPackages [ghga-datasteward-kit]: Remove: archive file [/home/abi/fetcher/tmp/ghga_datasteward_kit-2.0.0.tar.gz]
+[2024-04-02 10:35:14] INFO root fetch - main [MainThread]: End processing [ghga-datasteward-kit]: success
+[2024-04-02 10:35:20] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.2.tar.gz]
+[2024-04-02 10:35:20] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.3.tar.gz]
+[2024-04-02 10:35:20] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 10:35:20] INFO root fetch - main [MainThread]: Store serial: [22582234]
