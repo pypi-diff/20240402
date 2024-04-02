@@ -2703,3 +2703,102 @@
 [2024-04-02 02:37:21] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
 [2024-04-02 02:37:21] INFO root fetch - main [MainThread]: End processing [fireducks]: success
 [2024-04-02 02:37:21] INFO root fetch - main [MainThread]: Store serial: [22577672]
+[2024-04-02 02:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577672]
+[2024-04-02 02:39:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testeAlex
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airbyte
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-ghtiles
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ccss
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clickhouse-connect
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agentforge
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-ip-address
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bmtk
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: service-oriented
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calctree
+[2024-04-02 02:39:46] INFO root fetch - processPackages [service-oriented]: New version: [0.0.2a9] Old Version: [0.0.2a8]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [calctree]: New version: [0.2.1] Old Version: [0.1.1]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [neon-skill-ip-address]: New version: [1.1.1a4] Old Version: [1.1.1a3]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [airbyte]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-02 02:39:46] WARNING root fetch - processPackages [testeAlex]: Skipping, unable to determine old version
+[2024-04-02 02:39:46] INFO root fetch - processPackages [testeAlex]: Start processing: pymetasnap
+[2024-04-02 02:39:46] INFO root fetch - main [MainThread]: End processing [testeAlex] error
+[2024-04-02 02:39:46] INFO root fetch - processPackages [bmtk]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/cc/e0/a196a6cd6ec1d279dbc362dd8d9d940370eb873c7d3aa02032dc3dd534ba/service_oriented-0.0.2a8.tar.gz
+[2024-04-02 02:39:46] WARNING root fetch - processPackages [ccss]: Skipping, unable to determine old version
+[2024-04-02 02:39:46] INFO root fetch - processPackages [ccss]: Start processing: eznf
+[2024-04-02 02:39:46] INFO root fetch - main [MainThread]: End processing [ccss] error
+[2024-04-02 02:39:46] INFO root fetch - processPackages [agentforge]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [calctree]: Downloading https://files.pythonhosted.org/packages/6f/76/66adef31b40ff2e1b94f7529f3f47b3449a01187f9708d1b0cef0c551b4d/calctree-0.1.1.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [clickhouse-connect]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [neon-skill-ip-address]: Downloading https://files.pythonhosted.org/packages/74/34/7c7c4f169bea01326d11a32af655717d0f8f9d38c29f1cad20ab201ac16b/neon-skill-ip_address-1.1.1a3.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [pymetasnap]: New version: [0.30.0] Old Version: [0.3.0]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [eznf]: New version: [0.9.2] Old Version: [0.8.2]
+[2024-04-02 02:39:46] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/67/98/ef0b2615e151412423ac930bb221d7a2a754fe29be88c606243edfde275f/pymetasnap-0.3.0.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [eznf]: Downloading https://files.pythonhosted.org/packages/fb/1f/015a44833d26beef387b30463b57e926e132e3aab98a08a4ea23c702874b/eznf-0.8.2.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: Downloading https://files.pythonhosted.org/packages/30/fa/98620c89ea5dd45bfb5bdf5c89f7d721d85c3f284bb305d858842d8852d1/nonebot_plugin_ghtiles-0.1.0.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/33/54/fbfd45a4fb41d8b66f36352431290c2cba86473e4343407624c12bff9d4a/airbyte-0.8.2.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [agentforge]: Downloading https://files.pythonhosted.org/packages/ee/8e/66c93be2800c61a49a8e05255959440a964f61bc12fc350d687eef6e0468/agentforge-0.2.8.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [bmtk]: Downloading https://files.pythonhosted.org/packages/a4/db/fcf274f5e1d79f495b9f7ec8cb497a5600fd8f48ecc69fe7cdd6bfab3bb6/bmtk-1.0.8.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [service-oriented]: Downloading https://files.pythonhosted.org/packages/91/93/8808e2b0a7e857434b3c8a2d8ecd72eb853035e8af948edf46e51c3d1101/service_oriented-0.0.2a9.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/cf/fb/bfd2f356f04dece2f94a37b5a912136f9c64831b5d1089a0ca519976dbe4/clickhouse-connect-0.7.5.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [calctree]: Downloading https://files.pythonhosted.org/packages/5c/91/82e77dd4d32607af620de844ef5b8754bb493835c1e9f26cfe94a7b2e44d/calctree-0.2.1.tar.gz
+[2024-04-02 02:39:46] INFO root fetch - processPackages [neon-skill-ip-address]: Downloading https://files.pythonhosted.org/packages/3d/8e/66ca906927ce4c78adaf8c09650bd91e10f91e6afad0f9c70bca68cfe6d6/neon-skill-ip_address-1.1.1a4.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [service-oriented]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [service-oriented]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/service_oriented-0.0.2a8.tar.gz tmp/service_oriented-0.0.2a9.tar.gz --markdown 20240402/s/service-oriented/0.0.2a8-0.0.2a9/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [calctree]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [calctree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calctree-0.1.1.tar.gz tmp/calctree-0.2.1.tar.gz --markdown 20240402/c/calctree/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/0c/c1/e8b47a1085104d55b2c4b4047a58060ea71e854b638288ffec4bb7ee4293/pymetasnap-0.30.0.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [eznf]: Downloading https://files.pythonhosted.org/packages/04/8a/7288f78c98496c7caa6460badc2c37c87078362006917606f3cb8c05a0f0/eznf-0.9.2.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [neon-skill-ip-address]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [neon-skill-ip-address]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-ip_address-1.1.1a3.tar.gz tmp/neon-skill-ip_address-1.1.1a4.tar.gz --markdown 20240402/n/neon-skill-ip-address/1.1.1a3-1.1.1a4/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: Downloading https://files.pythonhosted.org/packages/31/78/b03d1dd558dde48dda0611cc4e0515437a0aac8557791c44c96f14c050a0/nonebot_plugin_ghtiles-0.1.1.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [pymetasnap]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [pymetasnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetasnap-0.3.0.tar.gz tmp/pymetasnap-0.30.0.tar.gz --markdown 20240402/p/pymetasnap/0.3.0-0.30.0/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [eznf]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [eznf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznf-0.8.2.tar.gz tmp/eznf-0.9.2.tar.gz --markdown 20240402/e/eznf/0.8.2-0.9.2/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/ed/18/f77709c6cebd4906bef97cccfc26cc73ddd54dddac01e89c017a1e956a9e/airbyte-0.8.3.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_ghtiles-0.1.0.tar.gz tmp/nonebot_plugin_ghtiles-0.1.1.tar.gz --markdown 20240402/n/nonebot-plugin-ghtiles/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [clickhouse-connect]: Downloading https://files.pythonhosted.org/packages/07/b2/b0592e22d69328e543de9e9de8560e38b67d5b67390576a1e5b449e52b86/clickhouse-connect-0.7.6.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [agentforge]: Downloading https://files.pythonhosted.org/packages/27/4d/3ba886c7d34c7b76efeb089e1e5644689d63133705549ac4d79f8c98afe0/agentforge-0.2.9.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [bmtk]: Downloading https://files.pythonhosted.org/packages/8b/eb/610c76be1417ee0f0e811b2e6ebd3d3a9711f33a422dcc71bc48109d825c/bmtk-1.1.0.tar.gz
+[2024-04-02 02:39:47] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-0.8.2.tar.gz tmp/airbyte-0.8.3.tar.gz --markdown 20240402/a/airbyte/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [agentforge]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [agentforge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentforge-0.2.8.tar.gz tmp/agentforge-0.2.9.tar.gz --markdown 20240402/a/agentforge/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [clickhouse-connect]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [clickhouse-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickhouse-connect-0.7.5.tar.gz tmp/clickhouse-connect-0.7.6.tar.gz --markdown 20240402/c/clickhouse-connect/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2024-04-02 02:39:47] INFO root fetch - processPackages [bmtk]: executing diffoscope
+[2024-04-02 02:39:47] INFO root fetch - processPackages [bmtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bmtk-1.0.8.tar.gz tmp/bmtk-1.1.0.tar.gz --markdown 20240402/b/bmtk/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 02:39:48] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a8.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [service-oriented]: Remove: archive file [/home/abi/fetcher/tmp/service_oriented-0.0.2a9.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [service-oriented]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [calctree]: Remove: archive file [/home/abi/fetcher/tmp/calctree-0.1.1.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [calctree]: Remove: archive file [/home/abi/fetcher/tmp/calctree-0.2.1.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [calctree]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.3.0.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.30.0.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [pymetasnap]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [neon-skill-ip-address]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-ip_address-1.1.1a3.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [neon-skill-ip-address]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-ip_address-1.1.1a4.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [neon-skill-ip-address]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [eznf]: Remove: archive file [/home/abi/fetcher/tmp/eznf-0.8.2.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [eznf]: Remove: archive file [/home/abi/fetcher/tmp/eznf-0.9.2.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [eznf]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ghtiles-0.1.0.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [nonebot-plugin-ghtiles]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_ghtiles-0.1.1.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-ghtiles]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.2.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.3.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [agentforge]: Remove: archive file [/home/abi/fetcher/tmp/agentforge-0.2.8.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [agentforge]: Remove: archive file [/home/abi/fetcher/tmp/agentforge-0.2.9.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [agentforge]: success
+[2024-04-02 02:39:48] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.7.5.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - processPackages [clickhouse-connect]: Remove: archive file [/home/abi/fetcher/tmp/clickhouse-connect-0.7.6.tar.gz]
+[2024-04-02 02:39:48] INFO root fetch - main [MainThread]: End processing [clickhouse-connect]: success
+[2024-04-02 02:39:49] INFO root fetch - processPackages [bmtk]: Remove: archive file [/home/abi/fetcher/tmp/bmtk-1.0.8.tar.gz]
+[2024-04-02 02:39:49] INFO root fetch - processPackages [bmtk]: Remove: archive file [/home/abi/fetcher/tmp/bmtk-1.1.0.tar.gz]
+[2024-04-02 02:39:49] INFO root fetch - main [MainThread]: End processing [bmtk]: success
+[2024-04-02 02:39:49] INFO root fetch - main [MainThread]: Store serial: [22577776]
