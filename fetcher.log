@@ -10005,3 +10005,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:55:24] INFO root fetch - processPackages [dailalib]: Remove: archive file [/home/abi/fetcher/tmp/dailalib-2.3.2.tar.gz]
 [2024-04-02 05:55:24] INFO root fetch - main [MainThread]: End processing [dailalib]: success
 [2024-04-02 05:55:24] INFO root fetch - main [MainThread]: Store serial: [22580460]
+[2024-04-02 05:57:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580460]
+[2024-04-02 05:57:34] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 05:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sinc
+[2024-04-02 05:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastbuilder
+[2024-04-02 05:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reccoon
+[2024-04-02 05:57:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vesselasid
+[2024-04-02 05:57:34] WARNING root fetch - processPackages [reccoon]: Skipping, unable to determine old version
+[2024-04-02 05:57:34] INFO root fetch - main [MainThread]: End processing [reccoon] error
+[2024-04-02 05:57:34] WARNING root fetch - processPackages [fastbuilder]: Skipping, unable to determine old version
+[2024-04-02 05:57:34] INFO root fetch - main [MainThread]: End processing [fastbuilder] error
+[2024-04-02 05:57:34] WARNING root fetch - processPackages [sinc]: Skipping, unable to determine old version
+[2024-04-02 05:57:34] INFO root fetch - main [MainThread]: End processing [sinc] error
+[2024-04-02 05:57:34] INFO root fetch - processPackages [vesselasid]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 05:57:34] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/a2/14/baf06cb7af9f5a80ebfeb8f960dbb13c70196f61bd5759c357fe5dacd0ea/vesselasid-1.0.8.tar.gz
+[2024-04-02 05:57:35] INFO root fetch - processPackages [vesselasid]: Downloading https://files.pythonhosted.org/packages/81/b5/ae62f72cdc101114a8434c7f5b8a6946677975c20649428b068f8f9f1afc/vesselasid-1.0.9.tar.gz
+[2024-04-02 05:57:35] INFO root fetch - processPackages [vesselasid]: executing diffoscope
+[2024-04-02 05:57:35] INFO root fetch - processPackages [vesselasid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vesselasid-1.0.8.tar.gz tmp/vesselasid-1.0.9.tar.gz --markdown 20240402/v/vesselasid/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 05:57:36] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.8.tar.gz]
+[2024-04-02 05:57:36] INFO root fetch - processPackages [vesselasid]: Remove: archive file [/home/abi/fetcher/tmp/vesselasid-1.0.9.tar.gz]
+[2024-04-02 05:57:36] INFO root fetch - main [MainThread]: End processing [vesselasid]: success
+[2024-04-02 05:57:36] INFO root fetch - main [MainThread]: Store serial: [22580477]
