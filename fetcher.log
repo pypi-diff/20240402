@@ -9156,3 +9156,18 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:51:21] INFO root fetch - processPackages [shipyard-postgresql]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_postgresql-0.2.0a4.tar.gz]
 [2024-04-02 04:51:21] INFO root fetch - main [MainThread]: End processing [shipyard-postgresql]: success
 [2024-04-02 04:51:21] INFO root fetch - main [MainThread]: Store serial: [22580137]
+[2024-04-02 04:53:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580137]
+[2024-04-02 04:53:30] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 04:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deadline
+[2024-04-02 04:53:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shipyard-sqlserver
+[2024-04-02 04:53:30] WARNING root fetch - processPackages [deadline]: Skipping, unable to determine old version
+[2024-04-02 04:53:30] INFO root fetch - main [MainThread]: End processing [deadline] error
+[2024-04-02 04:53:30] INFO root fetch - processPackages [shipyard-sqlserver]: New version: [0.2.0a6] Old Version: [0.2.0a5]
+[2024-04-02 04:53:30] INFO root fetch - processPackages [shipyard-sqlserver]: Downloading https://files.pythonhosted.org/packages/1e/60/0070aeed6195d1742ed0ebcd2d41f186fdd46a904dda680bd32e289ec419/shipyard_sqlserver-0.2.0a5.tar.gz
+[2024-04-02 04:53:31] INFO root fetch - processPackages [shipyard-sqlserver]: Downloading https://files.pythonhosted.org/packages/cb/f8/65358857ec4177610a22aeab3a05714698c5e6becd9f3c41ea29a5db8794/shipyard_sqlserver-0.2.0a6.tar.gz
+[2024-04-02 04:53:31] INFO root fetch - processPackages [shipyard-sqlserver]: executing diffoscope
+[2024-04-02 04:53:31] INFO root fetch - processPackages [shipyard-sqlserver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_sqlserver-0.2.0a5.tar.gz tmp/shipyard_sqlserver-0.2.0a6.tar.gz --markdown 20240402/s/shipyard-sqlserver/0.2.0a5-0.2.0a6/diff.md --exclude *.pyd
+[2024-04-02 04:53:31] INFO root fetch - processPackages [shipyard-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_sqlserver-0.2.0a5.tar.gz]
+[2024-04-02 04:53:31] INFO root fetch - processPackages [shipyard-sqlserver]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_sqlserver-0.2.0a6.tar.gz]
+[2024-04-02 04:53:31] INFO root fetch - main [MainThread]: End processing [shipyard-sqlserver]: success
+[2024-04-02 04:53:31] INFO root fetch - main [MainThread]: Store serial: [22580143]
