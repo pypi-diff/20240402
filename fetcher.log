@@ -16225,3 +16225,41 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:40:13] INFO root fetch - processPackages [laser-learning-environment]: Remove: archive file [/home/abi/fetcher/tmp/laser_learning_environment-0.2.2.tar.gz]
 [2024-04-02 11:40:13] INFO root fetch - main [MainThread]: End processing [laser-learning-environment]: success
 [2024-04-02 11:40:13] INFO root fetch - main [MainThread]: Store serial: [22582971]
+[2024-04-02 11:42:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582971]
+[2024-04-02 11:42:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 11:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-nightly-intel
+[2024-04-02 11:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2torch2
+[2024-04-02 11:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: opendrift
+[2024-04-02 11:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: field-compression-benchmark
+[2024-04-02 11:42:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: creyPY
+[2024-04-02 11:42:22] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.17.0.dev20240401] Old Version: [2.17.0.dev20240328]
+[2024-04-02 11:42:22] WARNING root fetch - processPackages [onnx2torch2]: Skipping, unable to determine old version
+[2024-04-02 11:42:22] INFO root fetch - processPackages [opendrift]: New version: [1.9.1rc2] Old Version: [1.9.1rc1]
+[2024-04-02 11:42:22] INFO root fetch - processPackages [field-compression-benchmark]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 11:42:22] INFO root fetch - main [MainThread]: End processing [onnx2torch2] error
+[2024-04-02 11:42:22] INFO root fetch - processPackages [creyPY]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-02 11:42:22] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/10/3b/0a2a44bf83262b70395a77a75dff839b1b1a57588a8c6f989104cd0e21ca/tf_nightly_intel-2.17.0.dev20240328-cp39-cp39-win_amd64.whl
+[2024-04-02 11:42:22] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 207450990>=10485760
+[2024-04-02 11:42:22] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2024-04-02 11:42:22] INFO root fetch - processPackages [field-compression-benchmark]: Downloading https://files.pythonhosted.org/packages/bb/e6/044fa382b5c6d9939b69f24a528782765a3ef62fe96ee7be08fa95f87538/field-compression-benchmark-0.0.1.tar.gz
+[2024-04-02 11:42:22] INFO root fetch - processPackages [opendrift]: Downloading https://files.pythonhosted.org/packages/27/5f/70c0fb18125d6efd480a45cd7ecd1f1c61ed0380204b3af9f6b45c1779c0/opendrift-1.9.1rc1.tar.gz
+[2024-04-02 11:42:22] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/24/38/2bdc4529ec8712f6adbcf3a33de01d2644613d39d0c23078c8222127aa06/creyPY-0.1.2.tar.gz
+[2024-04-02 11:42:22] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/b7/41/e66964f8343fb4a70120e630661d08062a089b11268ff92158604a76310f/creyPY-0.2.0.tar.gz
+[2024-04-02 11:42:22] INFO root fetch - processPackages [field-compression-benchmark]: Downloading https://files.pythonhosted.org/packages/fc/87/463c9e16be7bb601c22eb4a24b64f3ed206822ef227310aee8345b0f4dd8/field-compression-benchmark-0.0.2.tar.gz
+[2024-04-02 11:42:23] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-02 11:42:23] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.1.2.tar.gz tmp/creyPY-0.2.0.tar.gz --markdown 20240402/c/creyPY/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 11:42:23] INFO root fetch - processPackages [field-compression-benchmark]: executing diffoscope
+[2024-04-02 11:42:23] INFO root fetch - processPackages [field-compression-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/field-compression-benchmark-0.0.1.tar.gz tmp/field-compression-benchmark-0.0.2.tar.gz --markdown 20240402/f/field-compression-benchmark/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 11:42:23] INFO root fetch - processPackages [opendrift]: Downloading https://files.pythonhosted.org/packages/59/f6/fae412666c30b5a1a8a20bb8ae7fc09edbfc1d8eb48e342ebfc5579f81d7/opendrift-1.9.1rc2.tar.gz
+[2024-04-02 11:42:23] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.1.2.tar.gz]
+[2024-04-02 11:42:23] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.2.0.tar.gz]
+[2024-04-02 11:42:23] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-02 11:42:23] INFO root fetch - processPackages [opendrift]: executing diffoscope
+[2024-04-02 11:42:23] INFO root fetch - processPackages [opendrift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendrift-1.9.1rc1.tar.gz tmp/opendrift-1.9.1rc2.tar.gz --markdown 20240402/o/opendrift/1.9.1rc1-1.9.1rc2/diff.md --exclude *.pyd
+[2024-04-02 11:42:24] INFO root fetch - processPackages [opendrift]: Remove: archive file [/home/abi/fetcher/tmp/opendrift-1.9.1rc1.tar.gz]
+[2024-04-02 11:42:24] INFO root fetch - processPackages [opendrift]: Remove: archive file [/home/abi/fetcher/tmp/opendrift-1.9.1rc2.tar.gz]
+[2024-04-02 11:42:24] INFO root fetch - main [MainThread]: End processing [opendrift]: success
+[2024-04-02 11:42:25] INFO root fetch - processPackages [field-compression-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/field-compression-benchmark-0.0.1.tar.gz]
+[2024-04-02 11:42:25] INFO root fetch - processPackages [field-compression-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/field-compression-benchmark-0.0.2.tar.gz]
+[2024-04-02 11:42:25] INFO root fetch - main [MainThread]: End processing [field-compression-benchmark]: success
+[2024-04-02 11:42:25] INFO root fetch - main [MainThread]: Store serial: [22582987]
