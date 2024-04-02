@@ -11418,3 +11418,47 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:53:39] INFO root fetch - processPackages [tangermeme]: Remove: archive file [/home/abi/fetcher/tmp/tangermeme-0.1.0rc0.tar.gz]
 [2024-04-02 07:53:39] INFO root fetch - main [MainThread]: End processing [tangermeme]: success
 [2024-04-02 07:53:39] INFO root fetch - main [MainThread]: Store serial: [22581058]
+[2024-04-02 07:55:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581058]
+[2024-04-02 07:55:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 07:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-social
+[2024-04-02 07:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-mail-tracking
+[2024-04-02 07:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sf-hamilton
+[2024-04-02 07:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qiskit-aer-gpu-cu11
+[2024-04-02 07:55:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: unstract-sdk
+[2024-04-02 07:55:48] INFO root fetch - processPackages [odoo14-addons-oca-social]: New version: [14.0.20240401.0] Old Version: [14.0.20240222.0]
+[2024-04-02 07:55:48] INFO root fetch - processPackages [unstract-sdk]: New version: [0.9.0] Old Version: [0.18.0]
+[2024-04-02 07:55:48] INFO root fetch - processPackages [qiskit-aer-gpu-cu11]: New version: [0.14.0.1] Old Version: [0.14.0]
+[2024-04-02 07:55:48] INFO root fetch - processPackages [odoo-addon-mail-tracking]: New version: [16.0.1.0.4.8] Old Version: [16.0.1.0.4.30]
+[2024-04-02 07:55:48] INFO root fetch - processPackages [sf-hamilton]: New version: [1.9.0rc0] Old Version: [1.9.0]
+[2024-04-02 07:55:48] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/07/91/a0eaa7a317759e9d5e5df53430e7fc3c4021b9bfaabaf6ae44cf4475de12/unstract_sdk-0.18.0.tar.gz
+[2024-04-02 07:55:48] INFO root fetch - processPackages [odoo14-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/4b/f4/370780a7781f79f945ae5b2e80817d0e3957a23ff6a39f39f7213801d44e/odoo14_addons_oca_social-14.0.20240222.0-py3-none-any.whl
+[2024-04-02 07:55:48] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/b1/26/b09be6337a41590a4a089fe24970b9d152a9ccf3531bd5dbf9981e38243b/odoo_addon_mail_tracking-16.0.1.0.4.30-py3-none-any.whl
+[2024-04-02 07:55:48] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/d4/83/0202dcc740cf2448539aeb1ff959afb2dcb25e6b450e1ef9cca750253bda/sf-hamilton-1.9.0.tar.gz
+[2024-04-02 07:55:48] INFO root fetch - processPackages [qiskit-aer-gpu-cu11]: Downloading https://files.pythonhosted.org/packages/9c/18/9c4da98d8f2ea2a33157b522298c2f57dd2a636c62e7b592ed331c8c98a8/qiskit_aer_gpu_cu11-0.14.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-02 07:55:49] WARNING root fetch - processPackages [qiskit-aer-gpu-cu11]: Skipping package: exceeds size limit 17996684>=10485760
+[2024-04-02 07:55:49] INFO root fetch - main [MainThread]: End processing [qiskit-aer-gpu-cu11] error
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo14-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/f8/60/a9d0ac5a35c11dc17081534a2b4f4d63c1017d95dbb6d8e43ec389866bb2/odoo14_addons_oca_social-14.0.20240401.0-py3-none-any.whl
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Downloading https://files.pythonhosted.org/packages/a9/b5/fe980727422eb439e605ad729f40089261801552e5074675cce97c3dbd4f/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl
+[2024-04-02 07:55:49] INFO root fetch - processPackages [unstract-sdk]: Downloading https://files.pythonhosted.org/packages/22/1f/50c387a8927cd896566732d9181d7f9f7e3401ecd3b8958f546dd4dc605f/unstract_sdk-0.9.0.tar.gz
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo14-addons-oca-social]: executing diffoscope
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo14-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_social-14.0.20240222.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_social-14.0.20240401.0-py3-none-any.whl.zip --markdown 20240402/o/odoo14-addons-oca-social/14.0.20240222.0-14.0.20240401.0/diff.md --exclude *.pyd
+[2024-04-02 07:55:49] INFO root fetch - processPackages [sf-hamilton]: Downloading https://files.pythonhosted.org/packages/0e/64/cbed9bd614006aa69c7944b12cf92ee3daa8c7cf116669988c00b6e00ce7/sf-hamilton-1.9.0rc0.tar.gz
+[2024-04-02 07:55:49] INFO root fetch - processPackages [unstract-sdk]: executing diffoscope
+[2024-04-02 07:55:49] INFO root fetch - processPackages [unstract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unstract_sdk-0.18.0.tar.gz tmp/unstract_sdk-0.9.0.tar.gz --markdown 20240402/u/unstract-sdk/0.18.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo-addon-mail-tracking]: executing diffoscope
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo-addon-mail-tracking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mail_tracking-16.0.1.0.4.30-py3-none-any.whl.zip tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-mail-tracking/16.0.1.0.4.30-16.0.1.0.4.8/diff.md --exclude *.pyd
+[2024-04-02 07:55:49] INFO root fetch - processPackages [sf-hamilton]: executing diffoscope
+[2024-04-02 07:55:49] INFO root fetch - processPackages [sf-hamilton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf-hamilton-1.9.0.tar.gz tmp/sf-hamilton-1.9.0rc0.tar.gz --markdown 20240402/s/sf-hamilton/1.9.0-1.9.0rc0/diff.md --exclude *.pyd
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo14-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_social-14.0.20240222.0-py3-none-any.whl.zip]
+[2024-04-02 07:55:49] INFO root fetch - processPackages [odoo14-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_social-14.0.20240401.0-py3-none-any.whl.zip]
+[2024-04-02 07:55:49] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-social]: success
+[2024-04-02 07:55:50] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.18.0.tar.gz]
+[2024-04-02 07:55:50] INFO root fetch - processPackages [unstract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/unstract_sdk-0.9.0.tar.gz]
+[2024-04-02 07:55:50] INFO root fetch - main [MainThread]: End processing [unstract-sdk]: success
+[2024-04-02 07:55:50] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0.tar.gz]
+[2024-04-02 07:55:50] INFO root fetch - processPackages [sf-hamilton]: Remove: archive file [/home/abi/fetcher/tmp/sf-hamilton-1.9.0rc0.tar.gz]
+[2024-04-02 07:55:50] INFO root fetch - main [MainThread]: End processing [sf-hamilton]: success
+[2024-04-02 07:55:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.30-py3-none-any.whl.zip]
+[2024-04-02 07:55:51] INFO root fetch - processPackages [odoo-addon-mail-tracking]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mail_tracking-16.0.1.0.4.8-py3-none-any.whl.zip]
+[2024-04-02 07:55:51] INFO root fetch - main [MainThread]: End processing [odoo-addon-mail-tracking]: success
+[2024-04-02 07:55:51] INFO root fetch - main [MainThread]: Store serial: [22581074]
