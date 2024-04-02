@@ -14882,3 +14882,96 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:48:56] INFO root fetch - processPackages [AnalysisG]: Remove: archive file [/home/abi/fetcher/tmp/AnalysisG-4.5.2.tar.gz]
 [2024-04-02 10:48:56] INFO root fetch - main [MainThread]: End processing [AnalysisG]: success
 [2024-04-02 10:48:56] INFO root fetch - main [MainThread]: Store serial: [22582374]
+[2024-04-02 10:51:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582374]
+[2024-04-02 10:51:05] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: webcoreframe
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojadateconverter70
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyqqq
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: conlludiff
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: localstack-core
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tfp-nightly
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gg-release-notes
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rockai-cli-app
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: RTSAI
+[2024-04-02 10:51:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: stellate-strawberry
+[2024-04-02 10:51:05] INFO root fetch - processPackages [conlludiff]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 10:51:05] INFO root fetch - processPackages [pyqqq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-02 10:51:05] INFO root fetch - processPackages [gg-release-notes]: New version: [1.6.1] Old Version: [1.6.0]
+[2024-04-02 10:51:05] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 10:51:05] INFO root fetch - processPackages [RTSAI]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 10:51:06] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402082556] Old Version: [3.3.1.dev20240402061546]
+[2024-04-02 10:51:06] INFO root fetch - processPackages [stellate-strawberry]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-02 10:51:06] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/1a/fc/4f2e698dbb2b6bb0b4c3471ba8e98d833a3079aa675772fc69510169aa8d/rockai_cli_app-0.1.5.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [mojadateconverter70]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 10:51:06] INFO root fetch - processPackages [webcoreframe]: New version: [1.3.20240402141838] Old Version: [1.2.20240226090040]
+[2024-04-02 10:51:06] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/35/6c/9c4b4979a436e7a3f2998dc0fe245623661d1cd06465d69c9acb52a9bd1a/pyqqq-0.5.8.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [conlludiff]: Downloading https://files.pythonhosted.org/packages/6a/77/676d5fa5525641522fb7d93e52c4fac536a3ac8e5acae1a9ab143ce91e7b/conlludiff-0.0.3.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/40/61/7c361566deead8c030d52f8cf8ae6102adde53b8c047bf5703078b7fd1e9/gg-release-notes-1.6.0.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/94/14/c561e7926c86a46e8b1312c6114934348dadd5b33e598b85eabadc108a54/localstack-core-3.3.1.dev20240402061546.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/ca/06/f2eaad4566e1342a02e2a592b3e04fa4e8d654f42493c71d88336b16d203/RTSAI-0.1.2.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2024-04-02 10:51:06] INFO root fetch - processPackages [mojadateconverter70]: Downloading https://files.pythonhosted.org/packages/8c/29/1c6304129b98d72162fa415278d1292af5b76d47cf17029aa3a19294f8e0/mojadateconverter70-0.0.3.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [stellate-strawberry]: Downloading https://files.pythonhosted.org/packages/62/2c/5fece1378d1420b0229b9d33d82b7c468439012e713209590653b438192d/stellate_strawberry-1.0.0.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/d5/cc/9fc43ae7cc5f50a777c8a477fc9fef6b268c0f8e5262e29334c6f6467756/pyqqq-0.5.9.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [webcoreframe]: Downloading https://files.pythonhosted.org/packages/fd/94/04e6361b9be7b7685587dada50bc6ec6cfd3df450f886ecb8e1b33ce86bf/webcoreframe-1.2.20240226090040-py3-none-any.whl
+[2024-04-02 10:51:06] INFO root fetch - processPackages [conlludiff]: Downloading https://files.pythonhosted.org/packages/a9/b2/2a044b6172fb62a025b312be62a998695f5937f651291a4cf8ddae85427b/conlludiff-0.0.4.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/17/a0/97f99c3142bc5c1d2123ef83690e7b3c725de93d1e52e5772371e936a183/gg-release-notes-1.6.1.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/bd/a8/96cd4ff4ae7e93a97b0ab9c03cb68ae337922b003d4cf010db6c1aec7621/rockai_cli_app-0.1.6.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2024-04-02 10:51:06] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/e5/09/dee4229dca4964538b9b69d2f46f0407d63d44beb0d5ff36715beb6dc3ea/RTSAI-0.1.3.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [conlludiff]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [conlludiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conlludiff-0.0.3.tar.gz tmp/conlludiff-0.0.4.tar.gz --markdown 20240402/c/conlludiff/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 10:51:06] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.5.8.tar.gz tmp/pyqqq-0.5.9.tar.gz --markdown 20240402/p/pyqqq/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-02 10:51:06] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg-release-notes-1.6.0.tar.gz tmp/gg-release-notes-1.6.1.tar.gz --markdown 20240402/g/gg-release-notes/1.6.0-1.6.1/diff.md --exclude *.pyd
+[2024-04-02 10:51:06] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.1.5.tar.gz tmp/rockai_cli_app-0.1.6.tar.gz --markdown 20240402/r/rockai-cli-app/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 10:51:06] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6c/fc/69bd273b7ded3f42c93700900c241d21d4dc30f876bbc83f08ce970d0465/localstack-core-3.3.1.dev20240402082556.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [stellate-strawberry]: Downloading https://files.pythonhosted.org/packages/52/0e/96ff6789ce9a33f202877117a55d6e5f760c9643dbe8a5c8b47ac70ab668/stellate_strawberry-1.1.0.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [mojadateconverter70]: Downloading https://files.pythonhosted.org/packages/ed/fd/28851984d440354bfa57f2127076c52659c2e97efe8b271d315cee995c66/mojadateconverter70-0.0.4.tar.gz
+[2024-04-02 10:51:06] INFO root fetch - processPackages [RTSAI]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [RTSAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSAI-0.1.2.tar.gz tmp/RTSAI-0.1.3.tar.gz --markdown 20240402/R/RTSAI/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 10:51:06] INFO root fetch - processPackages [mojadateconverter70]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [mojadateconverter70]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojadateconverter70-0.0.3.tar.gz tmp/mojadateconverter70-0.0.4.tar.gz --markdown 20240402/m/mojadateconverter70/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 10:51:06] INFO root fetch - processPackages [stellate-strawberry]: executing diffoscope
+[2024-04-02 10:51:06] INFO root fetch - processPackages [stellate-strawberry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stellate_strawberry-1.0.0.tar.gz tmp/stellate_strawberry-1.1.0.tar.gz --markdown 20240402/s/stellate-strawberry/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 10:51:07] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 10:51:07] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240402061546.tar.gz tmp/localstack-core-3.3.1.dev20240402082556.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240402061546-3.3.1.dev20240402082556/diff.md --exclude *.pyd
+[2024-04-02 10:51:07] INFO root fetch - processPackages [webcoreframe]: Downloading https://files.pythonhosted.org/packages/2a/4e/de64646771aafe53a6bb9a12934ce2ff538d678d70cdaea6673be0ed413d/webcoreframe-1.3.20240402141838-py3-none-any.whl
+[2024-04-02 10:51:07] INFO root fetch - processPackages [conlludiff]: Remove: archive file [/home/abi/fetcher/tmp/conlludiff-0.0.3.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [conlludiff]: Remove: archive file [/home/abi/fetcher/tmp/conlludiff-0.0.4.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [conlludiff]: success
+[2024-04-02 10:51:07] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.0.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.1.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2024-04-02 10:51:07] INFO root fetch - processPackages [webcoreframe]: executing diffoscope
+[2024-04-02 10:51:07] INFO root fetch - processPackages [webcoreframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webcoreframe-1.2.20240226090040-py3-none-any.whl.zip tmp/webcoreframe-1.3.20240402141838-py3-none-any.whl.zip --markdown 20240402/w/webcoreframe/1.2.20240226090040-1.3.20240402141838/diff.md --exclude *.pyd
+[2024-04-02 10:51:07] INFO root fetch - processPackages [mojadateconverter70]: Remove: archive file [/home/abi/fetcher/tmp/mojadateconverter70-0.0.3.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [mojadateconverter70]: Remove: archive file [/home/abi/fetcher/tmp/mojadateconverter70-0.0.4.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [mojadateconverter70]: success
+[2024-04-02 10:51:07] INFO root fetch - processPackages [stellate-strawberry]: Remove: archive file [/home/abi/fetcher/tmp/stellate_strawberry-1.0.0.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [stellate-strawberry]: Remove: archive file [/home/abi/fetcher/tmp/stellate_strawberry-1.1.0.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [stellate-strawberry]: success
+[2024-04-02 10:51:07] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.5.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.6.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-04-02 10:51:07] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.5.8.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.5.9.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-02 10:51:07] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.2.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.3.tar.gz]
+[2024-04-02 10:51:07] INFO root fetch - main [MainThread]: End processing [RTSAI]: success
+[2024-04-02 10:51:08] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2024-04-02 10:51:09] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2024-04-02 10:51:09] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20240402/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2024-04-02 10:51:11] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402061546.tar.gz]
+[2024-04-02 10:51:11] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402082556.tar.gz]
+[2024-04-02 10:51:11] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 10:51:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2024-04-02 10:51:12] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2024-04-02 10:51:12] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2024-04-02 10:51:30] INFO root fetch - processPackages [webcoreframe]: Remove: archive file [/home/abi/fetcher/tmp/webcoreframe-1.2.20240226090040-py3-none-any.whl.zip]
+[2024-04-02 10:51:30] INFO root fetch - processPackages [webcoreframe]: Remove: archive file [/home/abi/fetcher/tmp/webcoreframe-1.3.20240402141838-py3-none-any.whl.zip]
+[2024-04-02 10:51:30] INFO root fetch - main [MainThread]: End processing [webcoreframe]: success
+[2024-04-02 10:51:30] INFO root fetch - main [MainThread]: Store serial: [22582402]
