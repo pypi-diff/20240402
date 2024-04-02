@@ -10638,3 +10638,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:53:17] WARNING root fetch - processPackages [sccastle]: Skipping, unable to determine old version
 [2024-04-02 06:53:17] INFO root fetch - main [MainThread]: End processing [sccastle] error
 [2024-04-02 06:53:17] INFO root fetch - main [MainThread]: Store serial: [22580715]
+[2024-04-02 06:55:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580715]
+[2024-04-02 06:55:26] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 06:55:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LdShell
+[2024-04-02 06:55:26] INFO root fetch - processPackages [LdShell]: New version: [1.6.7] Old Version: [1.6.6]
+[2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/89/1b/a4b3b320ce77fdaa348ef52b4a3ba1b0face40cb97677d51f643b8218a1a/LdShell-1.6.6.tar.gz
+[2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/d8/59/54babb042696f2ca7f408a6b18beed89a67c85284ebcb5b70a8d0daf654f/LdShell-1.6.7.tar.gz
+[2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: executing diffoscope
+[2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LdShell-1.6.6.tar.gz tmp/LdShell-1.6.7.tar.gz --markdown 20240402/L/LdShell/1.6.6-1.6.7/diff.md --exclude *.pyd
+[2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.6.tar.gz]
+[2024-04-02 06:55:27] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-1.6.7.tar.gz]
+[2024-04-02 06:55:27] INFO root fetch - main [MainThread]: End processing [LdShell]: success
+[2024-04-02 06:55:27] INFO root fetch - main [MainThread]: Store serial: [22580717]
