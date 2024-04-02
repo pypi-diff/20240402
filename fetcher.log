@@ -2556,3 +2556,54 @@
 [2024-04-02 02:28:47] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.4-py3-none-any.whl.zip]
 [2024-04-02 02:28:47] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-02 02:28:47] INFO root fetch - main [MainThread]: Store serial: [22577587]
+[2024-04-02 02:30:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577587]
+[2024-04-02 02:30:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 02:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: anydata
+[2024-04-02 02:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aeppl-nightly
+[2024-04-02 02:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: devopsdriver
+[2024-04-02 02:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kdp-api-python-client
+[2024-04-02 02:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pymetasnap
+[2024-04-02 02:30:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: finlab
+[2024-04-02 02:30:56] INFO root fetch - processPackages [kdp-api-python-client]: New version: [4.99.0] Old Version: [4.98.0]
+[2024-04-02 02:30:56] INFO root fetch - processPackages [devopsdriver]: New version: [0.1.34] Old Version: [0.1.32]
+[2024-04-02 02:30:56] WARNING root fetch - processPackages [anydata]: Skipping, unable to determine old version
+[2024-04-02 02:30:56] INFO root fetch - main [MainThread]: End processing [anydata] error
+[2024-04-02 02:30:56] INFO root fetch - processPackages [pymetasnap]: New version: [0.30.0] Old Version: [0.3.0]
+[2024-04-02 02:30:56] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/46/b2/68c43660af0fe2c7d53c93038db9ca31ddd128caca21bb57962a6fc78413/kdp-api-python-client-4.98.0.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [finlab]: New version: [1.1.0] Old Version: [1.0.9]
+[2024-04-02 02:30:56] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20240402] Old Version: [0.1.5.dev20240401]
+[2024-04-02 02:30:56] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/2d/0c/8fbb67f27ff66ffdcc0d69b2e8ad923e982e74bdbd04c4c7498512b2c816/devopsdriver-0.1.32.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/67/98/ef0b2615e151412423ac930bb221d7a2a754fe29be88c606243edfde275f/pymetasnap-0.3.0.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/37/03/c272a9c73d5aee6fcde8348a0c531aa31f43a4251e530289436a97195bce/aeppl-nightly-0.1.5.dev20240401.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [kdp-api-python-client]: Downloading https://files.pythonhosted.org/packages/10/df/e139683c19dbe53b0109746bec3dc990f3051099839fdf00cf46a309126f/kdp-api-python-client-4.99.0.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [finlab]: Downloading https://files.pythonhosted.org/packages/09/b0/8d9f06b932550d3771e19c839772d6b41a83bb5665a8f420f66483f4af56/finlab-1.0.9-cp39-cp39-win_amd64.whl
+[2024-04-02 02:30:56] INFO root fetch - processPackages [kdp-api-python-client]: executing diffoscope
+[2024-04-02 02:30:56] INFO root fetch - processPackages [kdp-api-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kdp-api-python-client-4.98.0.tar.gz tmp/kdp-api-python-client-4.99.0.tar.gz --markdown 20240402/k/kdp-api-python-client/4.98.0-4.99.0/diff.md --exclude *.pyd
+[2024-04-02 02:30:56] INFO root fetch - processPackages [devopsdriver]: Downloading https://files.pythonhosted.org/packages/4a/64/c3aa92934969bb96ab45f094d44a32c9d87182da49ea21834f6acfa965d4/devopsdriver-0.1.34.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [devopsdriver]: executing diffoscope
+[2024-04-02 02:30:56] INFO root fetch - processPackages [devopsdriver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopsdriver-0.1.32.tar.gz tmp/devopsdriver-0.1.34.tar.gz --markdown 20240402/d/devopsdriver/0.1.32-0.1.34/diff.md --exclude *.pyd
+[2024-04-02 02:30:56] INFO root fetch - processPackages [pymetasnap]: Downloading https://files.pythonhosted.org/packages/0c/c1/e8b47a1085104d55b2c4b4047a58060ea71e854b638288ffec4bb7ee4293/pymetasnap-0.30.0.tar.gz
+[2024-04-02 02:30:56] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/37/9e/d223bf9c7f415694e9aa418fc0611a8dea2c6900ce912341ca4b6bd32d3d/aeppl-nightly-0.1.5.dev20240402.tar.gz
+[2024-04-02 02:30:57] INFO root fetch - processPackages [pymetasnap]: executing diffoscope
+[2024-04-02 02:30:57] INFO root fetch - processPackages [pymetasnap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymetasnap-0.3.0.tar.gz tmp/pymetasnap-0.30.0.tar.gz --markdown 20240402/p/pymetasnap/0.3.0-0.30.0/diff.md --exclude *.pyd
+[2024-04-02 02:30:57] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2024-04-02 02:30:57] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20240401.tar.gz tmp/aeppl-nightly-0.1.5.dev20240402.tar.gz --markdown 20240402/a/aeppl-nightly/0.1.5.dev20240401-0.1.5.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 02:30:57] INFO root fetch - processPackages [finlab]: Downloading https://files.pythonhosted.org/packages/d0/42/0a317459af926d6ed4c9515ed0326478b0ca0a18f0d1137d4fe2f80e4c6c/finlab-1.1.0-cp310-cp310-macosx_10_9_universal2.whl
+[2024-04-02 02:30:57] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.32.tar.gz]
+[2024-04-02 02:30:57] INFO root fetch - processPackages [devopsdriver]: Remove: archive file [/home/abi/fetcher/tmp/devopsdriver-0.1.34.tar.gz]
+[2024-04-02 02:30:57] INFO root fetch - main [MainThread]: End processing [devopsdriver]: success
+[2024-04-02 02:30:57] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.3.0.tar.gz]
+[2024-04-02 02:30:57] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.30.0.tar.gz]
+[2024-04-02 02:30:57] INFO root fetch - main [MainThread]: End processing [pymetasnap]: success
+[2024-04-02 02:30:57] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240401.tar.gz]
+[2024-04-02 02:30:57] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20240402.tar.gz]
+[2024-04-02 02:30:57] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2024-04-02 02:30:58] INFO root fetch - processPackages [finlab]: executing diffoscope
+[2024-04-02 02:30:58] INFO root fetch - processPackages [finlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finlab-1.0.9-cp39-cp39-win_amd64.whl.zip tmp/finlab-1.1.0-cp310-cp310-macosx_10_9_universal2.whl.zip --markdown 20240402/f/finlab/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 02:31:00] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.98.0.tar.gz]
+[2024-04-02 02:31:00] INFO root fetch - processPackages [kdp-api-python-client]: Remove: archive file [/home/abi/fetcher/tmp/kdp-api-python-client-4.99.0.tar.gz]
+[2024-04-02 02:31:00] INFO root fetch - main [MainThread]: End processing [kdp-api-python-client]: success
+[2024-04-02 02:31:06] INFO root fetch - processPackages [finlab]: Remove: archive file [/home/abi/fetcher/tmp/finlab-1.0.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 02:31:06] INFO root fetch - processPackages [finlab]: Remove: archive file [/home/abi/fetcher/tmp/finlab-1.1.0-cp310-cp310-macosx_10_9_universal2.whl.zip]
+[2024-04-02 02:31:06] INFO root fetch - main [MainThread]: End processing [finlab]: success
+[2024-04-02 02:31:06] INFO root fetch - main [MainThread]: Store serial: [22577603]
