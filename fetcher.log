@@ -16123,3 +16123,54 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:35:45] INFO root fetch - processPackages [polars-distance]: Remove: archive file [/home/abi/fetcher/tmp/polars_distance-0.4.3.tar.gz]
 [2024-04-02 11:35:45] INFO root fetch - main [MainThread]: End processing [polars-distance]: success
 [2024-04-02 11:35:45] INFO root fetch - main [MainThread]: Store serial: [22582914]
+[2024-04-02 11:37:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582914]
+[2024-04-02 11:37:55] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: transformers
+[2024-04-02 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: csv2database
+[2024-04-02 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scipion-em-cryosparc2
+[2024-04-02 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: swh.objstorage.replayer
+[2024-04-02 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: minto
+[2024-04-02 11:37:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ffc-project
+[2024-04-02 11:37:55] INFO root fetch - processPackages [transformers]: New version: [4.9.2] Old Version: [4.9.1]
+[2024-04-02 11:37:55] INFO root fetch - processPackages [minto]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-02 11:37:55] INFO root fetch - processPackages [csv2database]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 11:37:55] INFO root fetch - processPackages [scipion-em-cryosparc2]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-02 11:37:55] INFO root fetch - processPackages [swh.objstorage.replayer]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-02 11:37:56] WARNING root fetch - processPackages [ffc-project]: Skipping, unable to determine old version
+[2024-04-02 11:37:56] INFO root fetch - main [MainThread]: End processing [ffc-project] error
+[2024-04-02 11:37:56] INFO root fetch - processPackages [transformers]: Downloading https://files.pythonhosted.org/packages/e8/e7/47aacd367c8469c8dfeafe1fdd70419b1794a6313ba22a790fd9b35cca82/transformers-4.9.1.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [scipion-em-cryosparc2]: Downloading https://files.pythonhosted.org/packages/71/dd/bd671fc318d4f368588f70fb2add948f34862f53edaa4d5d698b159e3637/scipion-em-cryosparc2-4.0.8.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [csv2database]: Downloading https://files.pythonhosted.org/packages/b6/ed/f93f81fd0c48389d337626f2228587b35acdd64f6006609be1c8cc0a89dc/csv2database-0.0.4.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [minto]: Downloading https://files.pythonhosted.org/packages/7d/36/dc6d4b93bdaf89d519ebed1473895c439d846b5cf08bfbcf1cfe2578174f/minto-0.8.3.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [swh.objstorage.replayer]: Downloading https://files.pythonhosted.org/packages/b2/64/485f445a4b34418525ee6ab4b34de93c40193d6c9693ef73ee59ed3bcf0a/swh.objstorage.replayer-2.0.0.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [csv2database]: Downloading https://files.pythonhosted.org/packages/0d/98/98077c6ffc8e9ecb218ce0780bf1aa7a78698fe875c41318e083457d1d29/csv2database-0.0.5.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [scipion-em-cryosparc2]: Downloading https://files.pythonhosted.org/packages/4b/e4/4ba1b902ecd6f3d6340e0ddf9ceb6b2f0240cf044a7ce82119d2ee02c321/scipion-em-cryosparc2-4.0.9.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [csv2database]: executing diffoscope
+[2024-04-02 11:37:56] INFO root fetch - processPackages [csv2database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/csv2database-0.0.4.tar.gz tmp/csv2database-0.0.5.tar.gz --markdown 20240402/c/csv2database/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 11:37:56] INFO root fetch - processPackages [swh.objstorage.replayer]: Downloading https://files.pythonhosted.org/packages/1c/d0/8c34129f72eb6b322b72984a6c024b039713d6c89dcd3c9f94cad9c33c39/swh.objstorage.replayer-2.1.0.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [scipion-em-cryosparc2]: executing diffoscope
+[2024-04-02 11:37:56] INFO root fetch - processPackages [scipion-em-cryosparc2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scipion-em-cryosparc2-4.0.8.tar.gz tmp/scipion-em-cryosparc2-4.0.9.tar.gz --markdown 20240402/s/scipion-em-cryosparc2/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:37:56] INFO root fetch - processPackages [minto]: Downloading https://files.pythonhosted.org/packages/25/50/123d865103040cd79a43a9fc37bbbf212bef111ebd0e6a95edbc484286d4/minto-0.8.4.tar.gz
+[2024-04-02 11:37:56] INFO root fetch - processPackages [swh.objstorage.replayer]: executing diffoscope
+[2024-04-02 11:37:56] INFO root fetch - processPackages [swh.objstorage.replayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.objstorage.replayer-2.0.0.tar.gz tmp/swh.objstorage.replayer-2.1.0.tar.gz --markdown 20240402/s/swh.objstorage.replayer/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 11:37:56] INFO root fetch - processPackages [minto]: executing diffoscope
+[2024-04-02 11:37:56] INFO root fetch - processPackages [minto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minto-0.8.3.tar.gz tmp/minto-0.8.4.tar.gz --markdown 20240402/m/minto/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2024-04-02 11:37:57] INFO root fetch - processPackages [csv2database]: Remove: archive file [/home/abi/fetcher/tmp/csv2database-0.0.4.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - processPackages [csv2database]: Remove: archive file [/home/abi/fetcher/tmp/csv2database-0.0.5.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - main [MainThread]: End processing [csv2database]: success
+[2024-04-02 11:37:57] INFO root fetch - processPackages [swh.objstorage.replayer]: Remove: archive file [/home/abi/fetcher/tmp/swh.objstorage.replayer-2.0.0.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - processPackages [swh.objstorage.replayer]: Remove: archive file [/home/abi/fetcher/tmp/swh.objstorage.replayer-2.1.0.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - main [MainThread]: End processing [swh.objstorage.replayer]: success
+[2024-04-02 11:37:57] INFO root fetch - processPackages [minto]: Remove: archive file [/home/abi/fetcher/tmp/minto-0.8.3.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - processPackages [minto]: Remove: archive file [/home/abi/fetcher/tmp/minto-0.8.4.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - main [MainThread]: End processing [minto]: success
+[2024-04-02 11:37:57] INFO root fetch - processPackages [transformers]: Downloading https://files.pythonhosted.org/packages/66/52/aabc6b9e0af2b2e29579f134750fc67d8701f914866cef48fe48ea2b04a4/transformers-4.9.2.tar.gz
+[2024-04-02 11:37:57] INFO root fetch - processPackages [scipion-em-cryosparc2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryosparc2-4.0.8.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - processPackages [scipion-em-cryosparc2]: Remove: archive file [/home/abi/fetcher/tmp/scipion-em-cryosparc2-4.0.9.tar.gz]
+[2024-04-02 11:37:57] INFO root fetch - main [MainThread]: End processing [scipion-em-cryosparc2]: success
+[2024-04-02 11:37:58] INFO root fetch - processPackages [transformers]: executing diffoscope
+[2024-04-02 11:37:58] INFO root fetch - processPackages [transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transformers-4.9.1.tar.gz tmp/transformers-4.9.2.tar.gz --markdown 20240402/t/transformers/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2024-04-02 11:38:01] INFO root fetch - processPackages [transformers]: Remove: archive file [/home/abi/fetcher/tmp/transformers-4.9.1.tar.gz]
+[2024-04-02 11:38:01] INFO root fetch - processPackages [transformers]: Remove: archive file [/home/abi/fetcher/tmp/transformers-4.9.2.tar.gz]
+[2024-04-02 11:38:01] INFO root fetch - main [MainThread]: End processing [transformers]: success
+[2024-04-02 11:38:01] INFO root fetch - main [MainThread]: Store serial: [22582931]
