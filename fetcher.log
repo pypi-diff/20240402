@@ -9414,3 +9414,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:13:35] INFO root fetch - processPackages [dcicsnovault]: Remove: archive file [/home/abi/fetcher/tmp/dcicsnovault-9.9.9.0b0.tar.gz]
 [2024-04-02 05:13:35] INFO root fetch - main [MainThread]: End processing [dcicsnovault]: success
 [2024-04-02 05:13:35] INFO root fetch - main [MainThread]: Store serial: [22580225]
+[2024-04-02 05:15:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580225]
+[2024-04-02 05:15:44] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rongdaVbaAddinsLight
+[2024-04-02 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbprint
+[2024-04-02 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tigeropen
+[2024-04-02 05:15:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abfy
+[2024-04-02 05:15:44] WARNING root fetch - processPackages [abfy]: Skipping, unable to determine old version
+[2024-04-02 05:15:44] INFO root fetch - main [MainThread]: End processing [abfy] error
+[2024-04-02 05:15:44] INFO root fetch - processPackages [nbprint]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 05:15:44] INFO root fetch - processPackages [tigeropen]: New version: [3.2.0] Old Version: [3.1.9]
+[2024-04-02 05:15:44] INFO root fetch - processPackages [rongdaVbaAddinsLight]: New version: [0.2.0.61] Old Version: [0.2.0.60]
+[2024-04-02 05:15:44] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/41/d8/d8a57ecf2fb216bd6b4b111681a927c065d46c6566c0ec434f36023279e4/tigeropen-3.1.9.tar.gz
+[2024-04-02 05:15:44] INFO root fetch - processPackages [nbprint]: Downloading https://files.pythonhosted.org/packages/2f/94/f0a11cd01199ad7084659fc69c82a4d91f7c6c9c1e323614a146a7bd5ff5/nbprint-0.1.4.tar.gz
+[2024-04-02 05:15:44] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Downloading https://files.pythonhosted.org/packages/e0/8c/9c38397b3817f2a8ef6725900002503eb81e25da8b1db7ebcd45c038864d/rongdaVbaAddinsLight-0.2.0.60.tar.gz
+[2024-04-02 05:15:45] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/13/98/65f0a6a3d17da01b46942483a5b3114ee768b71f26bc92a71970da0fc6e3/tigeropen-3.2.0.tar.gz
+[2024-04-02 05:15:45] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2024-04-02 05:15:45] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-3.1.9.tar.gz tmp/tigeropen-3.2.0.tar.gz --markdown 20240402/t/tigeropen/3.1.9-3.2.0/diff.md --exclude *.pyd
+[2024-04-02 05:15:45] INFO root fetch - processPackages [nbprint]: Downloading https://files.pythonhosted.org/packages/e3/4a/c61c059ce64eebda631e67914ae4758c3e623f36a2fbef7880c2c06ffa9c/nbprint-0.1.5.tar.gz
+[2024-04-02 05:15:45] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Downloading https://files.pythonhosted.org/packages/d1/19/c7bd979571ed8d0ff52e4bc3410fe62809bee51b8f5cf3dc880a8e411c86/rongdaVbaAddinsLight-0.2.0.61.tar.gz
+[2024-04-02 05:15:45] INFO root fetch - processPackages [nbprint]: executing diffoscope
+[2024-04-02 05:15:45] INFO root fetch - processPackages [nbprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbprint-0.1.4.tar.gz tmp/nbprint-0.1.5.tar.gz --markdown 20240402/n/nbprint/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 05:15:45] INFO root fetch - processPackages [rongdaVbaAddinsLight]: executing diffoscope
+[2024-04-02 05:15:45] INFO root fetch - processPackages [rongdaVbaAddinsLight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdaVbaAddinsLight-0.2.0.60.tar.gz tmp/rongdaVbaAddinsLight-0.2.0.61.tar.gz --markdown 20240402/r/rongdaVbaAddinsLight/0.2.0.60-0.2.0.61/diff.md --exclude *.pyd
+[2024-04-02 05:15:46] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.1.9.tar.gz]
+[2024-04-02 05:15:46] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.2.0.tar.gz]
+[2024-04-02 05:15:46] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2024-04-02 05:15:47] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Remove: archive file [/home/abi/fetcher/tmp/rongdaVbaAddinsLight-0.2.0.60.tar.gz]
+[2024-04-02 05:15:47] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Remove: archive file [/home/abi/fetcher/tmp/rongdaVbaAddinsLight-0.2.0.61.tar.gz]
+[2024-04-02 05:15:47] INFO root fetch - main [MainThread]: End processing [rongdaVbaAddinsLight]: success
+[2024-04-02 05:16:31] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.4.tar.gz]
+[2024-04-02 05:16:31] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.5.tar.gz]
+[2024-04-02 05:16:31] INFO root fetch - main [MainThread]: End processing [nbprint]: success
+[2024-04-02 05:16:31] INFO root fetch - main [MainThread]: Store serial: [22580237]
