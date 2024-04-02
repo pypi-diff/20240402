@@ -18442,3 +18442,81 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:14:32] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
 [2024-04-02 13:14:32] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 13:14:32] INFO root fetch - main [MainThread]: Store serial: [22583869]
+[2024-04-02 13:16:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583869]
+[2024-04-02 13:16:43] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sashimi-domains
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yanhekt
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CtqKit
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muti.numer
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-vault
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zephony
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gemsembler
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hearthstone
+[2024-04-02 13:16:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rpaframework-openai
+[2024-04-02 13:16:43] INFO root fetch - processPackages [muti.numer]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [CtqKit]: New version: [0.1.1b2] Old Version: [0.1.1b1]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/ad/2d/cac802bba90d18c7231284066d976f973e6ac013fc538198916f83b7bc73/muti.numer-0.0.8.tar.gz
+[2024-04-02 13:16:43] WARNING root fetch - processPackages [yanhekt]: Skipping, unable to determine old version
+[2024-04-02 13:16:43] INFO root fetch - main [MainThread]: End processing [yanhekt] error
+[2024-04-02 13:16:43] INFO root fetch - processPackages [rpaframework-openai]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [zephony]: New version: [1.4] Old Version: [1.3.1]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [sashimi-domains]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [gemsembler]: New version: [0.6.1] Old Version: [0.5.6]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: New version: [9.0.2] Old Version: [9.0.1]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/4d/42/d40e32a687f7847db88a6856cad69449adbe628fda6e198a7dac946c84d9/ctqkit-0.1.1b1.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [hearthstone]: New version: [8.0.0] Old Version: [7.9.0]
+[2024-04-02 13:16:43] INFO root fetch - processPackages [rpaframework-openai]: Downloading https://files.pythonhosted.org/packages/78/f1/e42464f15acb6975e04a022a4ce684324abafd734e24d3f04e2c064b7f8c/rpaframework_openai-1.3.1.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/a2/02/81939ad557c50fb4d406b1a538cc0e3cd33c8cb397ead7d0e069a10fbdaa/sashimi_domains-0.9.3.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/1c/6d/5d6fef8730d020bf6eaa61bf0ef67881e271a715e19deb63988f8228bdb4/zephony-1.3.1.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/97/c2/e40222c46eb57bec5ee9f69beef584d7c987d0c45126221780c12218d3cb/cdktf-cdktf-provider-vault-9.0.1.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [gemsembler]: Downloading https://files.pythonhosted.org/packages/38/3e/51bdb332c375de28c52b3dba6547d0f2e282904fd54fa4a9c28c77df0b5e/gemsembler-0.5.6.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/44/1b/e3195c476885e48edfd22e90d21002d343e033e7e80e0ba6844aa75ae5cf/hearthstone-7.9.0.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/78/b5/a7d4154c1b281f23a2f3b1d1c22b3849640cc74f92d9effadbeeefa18dba/muti.numer-0.0.9.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/d3/ca/fd7e0057f2d932f5c6df75d8776682daa1483d2fd527681e35457c1e78d5/ctqkit-0.1.1b2.tar.gz
+[2024-04-02 13:16:43] INFO root fetch - processPackages [muti.numer]: executing diffoscope
+[2024-04-02 13:16:43] INFO root fetch - processPackages [muti.numer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.numer-0.0.8.tar.gz tmp/muti.numer-0.0.9.tar.gz --markdown 20240402/m/muti.numer/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:16:43] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-04-02 13:16:43] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.1b1.tar.gz tmp/ctqkit-0.1.1b2.tar.gz --markdown 20240402/C/CtqKit/0.1.1b1-0.1.1b2/diff.md --exclude *.pyd
+[2024-04-02 13:16:43] INFO root fetch - processPackages [rpaframework-openai]: Downloading https://files.pythonhosted.org/packages/b2/a3/d1d59ca7436e737f8edc60c3fb48af5df3620337e503f1c9a4564569feca/rpaframework_openai-1.3.2.tar.gz
+[2024-04-02 13:16:44] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/86/88/9e6df6fa501d99b4f32f7e3cdb1feedef01412d2d79a58b3120aa8b7d284/zephony-1.4.tar.gz
+[2024-04-02 13:16:44] INFO root fetch - processPackages [sashimi-domains]: Downloading https://files.pythonhosted.org/packages/63/27/6f7169a85afd6f489fb134953433e687a8f6cf0981d26e6cd55e30b3f6a9/sashimi_domains-0.9.4.tar.gz
+[2024-04-02 13:16:44] INFO root fetch - processPackages [hearthstone]: Downloading https://files.pythonhosted.org/packages/70/b4/a5f4f7a25fbf87d7853a08dc4e9d9c5a6f9a3455e3a76a5f818822d7adb3/hearthstone-8.0.0.tar.gz
+[2024-04-02 13:16:44] INFO root fetch - processPackages [rpaframework-openai]: executing diffoscope
+[2024-04-02 13:16:44] INFO root fetch - processPackages [rpaframework-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_openai-1.3.1.tar.gz tmp/rpaframework_openai-1.3.2.tar.gz --markdown 20240402/r/rpaframework-openai/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-02 13:16:44] INFO root fetch - processPackages [sashimi-domains]: executing diffoscope
+[2024-04-02 13:16:44] INFO root fetch - processPackages [sashimi-domains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sashimi_domains-0.9.3.tar.gz tmp/sashimi_domains-0.9.4.tar.gz --markdown 20240402/s/sashimi-domains/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-02 13:16:44] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2024-04-02 13:16:44] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-1.3.1.tar.gz tmp/zephony-1.4.tar.gz --markdown 20240402/z/zephony/1.3.1-1.4/diff.md --exclude *.pyd
+[2024-04-02 13:16:44] INFO root fetch - processPackages [hearthstone]: executing diffoscope
+[2024-04-02 13:16:44] INFO root fetch - processPackages [hearthstone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hearthstone-7.9.0.tar.gz tmp/hearthstone-8.0.0.tar.gz --markdown 20240402/h/hearthstone/7.9.0-8.0.0/diff.md --exclude *.pyd
+[2024-04-02 13:16:44] INFO root fetch - processPackages [gemsembler]: Downloading https://files.pythonhosted.org/packages/24/6d/09620705f82009134c75841c00c2de8667795d9a7643d287063e26086a15/gemsembler-0.6.1.tar.gz
+[2024-04-02 13:16:44] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b1.tar.gz]
+[2024-04-02 13:16:44] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b2.tar.gz]
+[2024-04-02 13:16:44] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-04-02 13:16:44] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.8.tar.gz]
+[2024-04-02 13:16:44] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.9.tar.gz]
+[2024-04-02 13:16:44] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
+[2024-04-02 13:16:44] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Downloading https://files.pythonhosted.org/packages/29/1c/f81b951b650e4fbfc89a35613e698376b276f18499031d2eda206e1947c9/cdktf-cdktf-provider-vault-9.0.2.tar.gz
+[2024-04-02 13:16:45] INFO root fetch - processPackages [rpaframework-openai]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_openai-1.3.1.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - processPackages [rpaframework-openai]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_openai-1.3.2.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - main [MainThread]: End processing [rpaframework-openai]: success
+[2024-04-02 13:16:45] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-1.3.1.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-1.4.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2024-04-02 13:16:45] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-7.9.0.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - processPackages [hearthstone]: Remove: archive file [/home/abi/fetcher/tmp/hearthstone-8.0.0.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - main [MainThread]: End processing [hearthstone]: success
+[2024-04-02 13:16:45] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.3.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - processPackages [sashimi-domains]: Remove: archive file [/home/abi/fetcher/tmp/sashimi_domains-0.9.4.tar.gz]
+[2024-04-02 13:16:45] INFO root fetch - main [MainThread]: End processing [sashimi-domains]: success
+[2024-04-02 13:16:45] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: executing diffoscope
+[2024-04-02 13:16:45] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz tmp/cdktf-cdktf-provider-vault-9.0.2.tar.gz --markdown 20240402/c/cdktf-cdktf-provider-vault/9.0.1-9.0.2/diff.md --exclude *.pyd
+[2024-04-02 13:16:45] INFO root fetch - processPackages [gemsembler]: executing diffoscope
+[2024-04-02 13:16:45] INFO root fetch - processPackages [gemsembler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gemsembler-0.5.6.tar.gz tmp/gemsembler-0.6.1.tar.gz --markdown 20240402/g/gemsembler/0.5.6-0.6.1/diff.md --exclude *.pyd
+[2024-04-02 13:16:46] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.5.6.tar.gz]
+[2024-04-02 13:16:46] INFO root fetch - processPackages [gemsembler]: Remove: archive file [/home/abi/fetcher/tmp/gemsembler-0.6.1.tar.gz]
+[2024-04-02 13:16:46] INFO root fetch - main [MainThread]: End processing [gemsembler]: success
+[2024-04-02 13:16:49] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.1.tar.gz]
+[2024-04-02 13:16:49] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.2.tar.gz]
+[2024-04-02 13:16:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
+[2024-04-02 13:16:49] INFO root fetch - main [MainThread]: Store serial: [22583902]
