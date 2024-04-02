@@ -13793,3 +13793,71 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:05:49] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
 [2024-04-02 10:05:49] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
 [2024-04-02 10:05:49] INFO root fetch - main [MainThread]: Store serial: [22581918]
+[2024-04-02 10:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581918]
+[2024-04-02 10:07:58] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finance-mauritius
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: creme-crm
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SecuMas
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hellopd
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hellopd
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: deploymodel
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyglove
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: skyline-console
+[2024-04-02 10:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pipeless-agents-sdk
+[2024-04-02 10:07:58] INFO root fetch - processPackages [finance-mauritius]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 10:07:58] INFO root fetch - processPackages [deploymodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 10:07:58] INFO root fetch - processPackages [hellopd]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 10:07:58] INFO root fetch - processPackages [hellopd]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 10:07:58] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/b1/8e/2a2f4c098d565ef1a51c8a1ef885f8b0dfb8e084975494b6cb2a4058242d/deploymodel-0.1.8.tar.gz
+[2024-04-02 10:07:58] INFO root fetch - processPackages [creme-crm]: New version: [2.5.7] Old Version: [2.5.6]
+[2024-04-02 10:07:58] WARNING root fetch - processPackages [pipeless-agents-sdk]: Skipping, unable to determine old version
+[2024-04-02 10:07:58] INFO root fetch - processPackages [skyline-console]: New version: [4.0.0.0rc2] Old Version: [4.0.0.0rc1]
+[2024-04-02 10:07:58] INFO root fetch - main [MainThread]: End processing [pipeless-agents-sdk] error
+[2024-04-02 10:07:58] INFO root fetch - processPackages [pyglove]: New version: [0.4.5.dev20240402] Old Version: [0.4.5.dev20240401]
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: Downloading https://files.pythonhosted.org/packages/68/53/6195f657fe7159f53193e70a7044afd7b2cf225c7d1f75bfbabfc2b705f2/hellopd-0.0.1.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: Downloading https://files.pythonhosted.org/packages/68/53/6195f657fe7159f53193e70a7044afd7b2cf225c7d1f75bfbabfc2b705f2/hellopd-0.0.1.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [creme-crm]: Downloading https://files.pythonhosted.org/packages/08/1d/e685f48102e25b24c27a365e7324fb990b1809f8c4cfac835a02f8cd3580/creme-crm-2.5.6.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/8e/f4/c2263f09361c7e23469a1fdc4aa8ed7525bd9e48ff97edcfa3b723a2fa3e/deploymodel-0.1.9.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/9e/2f/7561c890524a36a345cf66d63e9323c0113cde4a09298a06f9c2fcec5f1b/pyglove-0.4.5.dev20240401.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [skyline-console]: Downloading https://files.pythonhosted.org/packages/f1/f1/ebaa3fa67c884da0583e9ee8d37d8ccdc556a820886dc04d29c566606f53/skyline-console-4.0.0.0rc1.tar.gz
+[2024-04-02 10:07:59] WARNING root fetch - processPackages [creme-crm]: Skipping package: exceeds size limit 24037831>=10485760
+[2024-04-02 10:07:59] INFO root fetch - main [MainThread]: End processing [creme-crm] error
+[2024-04-02 10:07:59] INFO root fetch - processPackages [deploymodel]: executing diffoscope
+[2024-04-02 10:07:59] INFO root fetch - processPackages [deploymodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymodel-0.1.8.tar.gz tmp/deploymodel-0.1.9.tar.gz --markdown 20240402/d/deploymodel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:07:59] WARNING root fetch - processPackages [skyline-console]: Skipping package: exceeds size limit 26027267>=10485760
+[2024-04-02 10:07:59] INFO root fetch - main [MainThread]: End processing [skyline-console] error
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: Downloading https://files.pythonhosted.org/packages/ea/ae/724137bb17712ae3401ea9422055dc377fca7122833d03bdadd09e781052/hellopd-0.0.2.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: Downloading https://files.pythonhosted.org/packages/ea/ae/724137bb17712ae3401ea9422055dc377fca7122833d03bdadd09e781052/hellopd-0.0.2.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/44/d9/4a4cca079290f41556e3ed3c0512c9bc42950f2c8a28014ad4d1a572dfe8/pyglove-0.4.5.dev20240402.tar.gz
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: executing diffoscope
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: executing diffoscope
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hellopd-0.0.1.tar.gz tmp/hellopd-0.0.2.tar.gz --markdown 20240402/h/hellopd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 10:07:59] INFO root fetch - processPackages [hellopd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hellopd-0.0.1.tar.gz tmp/hellopd-0.0.2.tar.gz --markdown 20240402/h/hellopd/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 10:07:59] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2024-04-02 10:07:59] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.4.5.dev20240401.tar.gz tmp/pyglove-0.4.5.dev20240402.tar.gz --markdown 20240402/p/pyglove/0.4.5.dev20240401-0.4.5.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 10:08:00] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.8.tar.gz]
+[2024-04-02 10:08:00] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.9.tar.gz]
+[2024-04-02 10:08:00] INFO root fetch - main [MainThread]: End processing [deploymodel]: success
+[2024-04-02 10:08:00] INFO root fetch - processPackages [hellopd]: Remove: archive file [/home/abi/fetcher/tmp/hellopd-0.0.1.tar.gz]
+[2024-04-02 10:08:00] INFO root fetch - processPackages [hellopd]: Remove: archive file [/home/abi/fetcher/tmp/hellopd-0.0.2.tar.gz]
+[2024-04-02 10:08:00] INFO root fetch - main [MainThread]: End processing [hellopd]: success
+[2024-04-02 10:08:00] INFO root fetch - main [MainThread]: End processing [hellopd]: success
+[2024-04-02 10:08:01] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240401.tar.gz]
+[2024-04-02 10:08:01] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.5.dev20240402.tar.gz]
+[2024-04-02 10:08:01] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2024-04-02 10:08:08] INFO root fetch - processPackages [SecuMas]: New version: [0.0.1.4] Old Version: [0.0.1.3]
+[2024-04-02 10:08:08] INFO root fetch - processPackages [finance-mauritius]: Downloading https://files.pythonhosted.org/packages/4b/3b/843a48a72b20e91d1adce11c94dc882d29e71f3022beafb346bc81301cce/finance_mauritius-0.1.0.tar.gz
+[2024-04-02 10:08:09] INFO root fetch - processPackages [finance-mauritius]: Downloading https://files.pythonhosted.org/packages/f2/6b/f056b427f8915c04e7f1ccfe0b398271891f3c32e6716e3bccde13da3c48/finance_mauritius-0.1.1.tar.gz
+[2024-04-02 10:08:09] INFO root fetch - processPackages [finance-mauritius]: executing diffoscope
+[2024-04-02 10:08:09] INFO root fetch - processPackages [finance-mauritius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finance_mauritius-0.1.0.tar.gz tmp/finance_mauritius-0.1.1.tar.gz --markdown 20240402/f/finance-mauritius/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 10:08:09] INFO root fetch - processPackages [finance-mauritius]: Remove: archive file [/home/abi/fetcher/tmp/finance_mauritius-0.1.0.tar.gz]
+[2024-04-02 10:08:09] INFO root fetch - processPackages [finance-mauritius]: Remove: archive file [/home/abi/fetcher/tmp/finance_mauritius-0.1.1.tar.gz]
+[2024-04-02 10:08:09] INFO root fetch - main [MainThread]: End processing [finance-mauritius]: success
+[2024-04-02 10:08:18] INFO root fetch - processPackages [SecuMas]: Downloading https://files.pythonhosted.org/packages/51/54/aa34ce3766b10fa063dea0bc2d3a5263b57916f843a432d51950ce37ffb3/SecuMas-0.0.1.3.tar.gz
+[2024-04-02 10:08:19] INFO root fetch - processPackages [SecuMas]: Downloading https://files.pythonhosted.org/packages/86/7d/30455cf3925dee9c4b2cbbba705e7e5c03e25c1bba75d17a4eaf1dec728b/SecuMas-0.0.1.4.tar.gz
+[2024-04-02 10:08:19] INFO root fetch - processPackages [SecuMas]: executing diffoscope
+[2024-04-02 10:08:19] INFO root fetch - processPackages [SecuMas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SecuMas-0.0.1.3.tar.gz tmp/SecuMas-0.0.1.4.tar.gz --markdown 20240402/S/SecuMas/0.0.1.3-0.0.1.4/diff.md --exclude *.pyd
+[2024-04-02 10:08:20] INFO root fetch - processPackages [SecuMas]: Remove: archive file [/home/abi/fetcher/tmp/SecuMas-0.0.1.3.tar.gz]
+[2024-04-02 10:08:20] INFO root fetch - processPackages [SecuMas]: Remove: archive file [/home/abi/fetcher/tmp/SecuMas-0.0.1.4.tar.gz]
+[2024-04-02 10:08:20] INFO root fetch - main [MainThread]: End processing [SecuMas]: success
+[2024-04-02 10:08:20] INFO root fetch - main [MainThread]: Store serial: [22581949]
