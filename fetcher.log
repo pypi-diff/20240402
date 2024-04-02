@@ -23117,3 +23117,114 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:53:00] INFO root fetch - processPackages [mapentity]: Remove: archive file [/home/abi/fetcher/tmp/mapentity-8.7.3.tar.gz]
 [2024-04-02 15:53:00] INFO root fetch - main [MainThread]: End processing [mapentity]: success
 [2024-04-02 15:53:00] INFO root fetch - main [MainThread]: Store serial: [22585815]
+[2024-04-02 15:55:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585815]
+[2024-04-02 15:55:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tensordict-nightly
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: projen
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyaffalddk
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gardener-cicd-base
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gardener-cicd-cli
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bpm-ai-core
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gardener-cicd-dso
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gardener-cicd-libs
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gardener-cicd-whd
+[2024-04-02 15:55:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gardener-oci
+[2024-04-02 15:55:09] INFO root fetch - processPackages [bpm-ai-core]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-02 15:55:09] INFO root fetch - processPackages [gardener-cicd-libs]: New version: [1.2373.0] Old Version: [1.2371.0]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [pyaffalddk]: New version: [2.0.20] Old Version: [2.0.19]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-base]: New version: [1.2373.0] Old Version: [1.2371.0]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-whd]: New version: [1.2373.0] Old Version: [1.2371.0]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-dso]: New version: [1.2373.0] Old Version: [1.2371.0]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [projen]: New version: [0.80.9] Old Version: [0.80.8]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-oci]: New version: [1.999.0] Old Version: [1.998.0]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-cli]: New version: [1.2373.0] Old Version: [1.2371.0]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [tensordict-nightly]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-02 15:55:10] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/fa/96/1b22d097db20d979ddc9cbb4b4e23ae31822bc4435719ca2f0c70244853e/pyaffalddk-2.0.19.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/8b/11/58d8296db564525acf6eba61f4845282f92020f0cec40f0d9917ee48ad37/bpm_ai_core-2.0.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/b3/af/860011727efbbb8f9e568c8334e70d8e9c3dd8954d9b8f8c651aa040ebf4/gardener-cicd-libs-1.2371.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/37/79/7de9d43f3ae28b66f011d5588b9df807dc0e4f73c5f2705fa9a99997fef7/gardener-cicd-base-1.2371.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/1e/d4/070b9068958387ca056e3cf6d4fc569dfeff25f52e56309a788765605f24/gardener-cicd-dso-1.2371.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/2f/40/e9ec7096fe1262a93a27aef851fa7057d9b05c402fdff90648d9a05b8118/gardener-cicd-whd-1.2371.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/65/8d/87469d533eb661d280b5bb3eb778421053cbe6438908abdc1d79b2921522/gardener-oci-1.998.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/62/ef/a3bc89d9d21a8d6a3c12e3c3280f4b6c18535eb9f4c22d4c10a49404b313/projen-0.80.8.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/79/b1/cdf321065658838f425989b31c5db497ba6d35eb7a6dd416e2ad83e49188/gardener-cicd-cli-1.2371.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/bf/7a/a9d9ea39eb865261ada6abe26eb0fa70ad30def5994aea498dbd580d93e3/tensordict_nightly-2024.4.1-cp39-cp39-win_amd64.whl
+[2024-04-02 15:55:10] INFO root fetch - processPackages [pyaffalddk]: Downloading https://files.pythonhosted.org/packages/ad/8b/ecb049d7d3644179c68f9c3397efa1c208af844ce2f89324639d5809868c/pyaffalddk-2.0.20.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [bpm-ai-core]: Downloading https://files.pythonhosted.org/packages/95/df/c99f2a031b44e20c228ffeaaeb5b145fc23f55c8a461bf373cd6a1b208e1/bpm_ai_core-2.1.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-libs]: Downloading https://files.pythonhosted.org/packages/c6/f2/6115c00632dba7419f588eea45dfda93962972a1913db7de3240dbd43017/gardener-cicd-libs-1.2373.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-base]: Downloading https://files.pythonhosted.org/packages/a0/7b/492f86e58bba8973fc47aefb37a0570a51a7ab265fdd0e2b17d715086eed/gardener-cicd-base-1.2373.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-whd]: Downloading https://files.pythonhosted.org/packages/be/d6/03ca53f5cf08d6f5c07325d576c8b3cc43b3ca9889ec8380f2662dbecfc0/gardener-cicd-whd-1.2373.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-dso]: Downloading https://files.pythonhosted.org/packages/88/08/819a62ab23ead3b0becae6813a1411f95369173097c495930eddde86d3e1/gardener-cicd-dso-1.2373.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [pyaffalddk]: executing diffoscope
+[2024-04-02 15:55:10] INFO root fetch - processPackages [pyaffalddk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaffalddk-2.0.19.tar.gz tmp/pyaffalddk-2.0.20.tar.gz --markdown 20240402/p/pyaffalddk/2.0.19-2.0.20/diff.md --exclude *.pyd
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-oci]: Downloading https://files.pythonhosted.org/packages/f8/de/c6930b025944729e4655e337193e76592dfc15653c0cde84790cb8650df4/gardener-oci-1.999.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [bpm-ai-core]: executing diffoscope
+[2024-04-02 15:55:10] INFO root fetch - processPackages [bpm-ai-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bpm_ai_core-2.0.0.tar.gz tmp/bpm_ai_core-2.1.0.tar.gz --markdown 20240402/b/bpm-ai-core/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-cli]: Downloading https://files.pythonhosted.org/packages/d2/df/8ad4636f7f9a82cb28642f90333d636fcb745437af3e6b891d54730bfae8/gardener-cicd-cli-1.2373.0.tar.gz
+[2024-04-02 15:55:10] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/e5/e4/62481e914326294108de54268a40df0e7a5dbc768ebfb6b15630eb99d9b3/tensordict_nightly-2024.4.2-cp39-cp39-manylinux1_x86_64.whl
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-libs]: executing diffoscope
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-libs-1.2371.0.tar.gz tmp/gardener-cicd-libs-1.2373.0.tar.gz --markdown 20240402/g/gardener-cicd-libs/1.2371.0-1.2373.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-oci]: executing diffoscope
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-oci-1.998.0.tar.gz tmp/gardener-oci-1.999.0.tar.gz --markdown 20240402/g/gardener-oci/1.998.0-1.999.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-cli]: executing diffoscope
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-cli-1.2371.0.tar.gz tmp/gardener-cicd-cli-1.2373.0.tar.gz --markdown 20240402/g/gardener-cicd-cli/1.2371.0-1.2373.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-base]: executing diffoscope
+[2024-04-02 15:55:10] INFO root fetch - processPackages [gardener-cicd-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-base-1.2371.0.tar.gz tmp/gardener-cicd-base-1.2373.0.tar.gz --markdown 20240402/g/gardener-cicd-base/1.2371.0-1.2373.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:11] INFO root fetch - processPackages [gardener-cicd-whd]: executing diffoscope
+[2024-04-02 15:55:11] INFO root fetch - processPackages [gardener-cicd-whd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-whd-1.2371.0.tar.gz tmp/gardener-cicd-whd-1.2373.0.tar.gz --markdown 20240402/g/gardener-cicd-whd/1.2371.0-1.2373.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:11] INFO root fetch - processPackages [gardener-cicd-dso]: executing diffoscope
+[2024-04-02 15:55:11] INFO root fetch - processPackages [gardener-cicd-dso]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gardener-cicd-dso-1.2371.0.tar.gz tmp/gardener-cicd-dso-1.2373.0.tar.gz --markdown 20240402/g/gardener-cicd-dso/1.2371.0-1.2373.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:11] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2024-04-02 15:55:11] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2024.4.1-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2024.4.2-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20240402/t/tensordict-nightly/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.998.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-oci]: Remove: archive file [/home/abi/fetcher/tmp/gardener-oci-1.999.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-oci]: Start processing: vite-to-flask
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [gardener-oci]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [vite-to-flask]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.0.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [bpm-ai-core]: Remove: archive file [/home/abi/fetcher/tmp/bpm_ai_core-2.1.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [bpm-ai-core]: Start processing: mozilla-taskgraph
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [bpm-ai-core]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [projen]: Downloading https://files.pythonhosted.org/packages/d4/01/e09ac65353ffe4dd3300e18fd6b5ea91e70688a73fff6f5be2b02f4a23c3/projen-0.80.9.tar.gz
+[2024-04-02 15:55:12] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.19.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [pyaffalddk]: Remove: archive file [/home/abi/fetcher/tmp/pyaffalddk-2.0.20.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [pyaffalddk]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2371.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-dso]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-dso-1.2373.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [gardener-cicd-dso]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2371.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-cli]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-cli-1.2373.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [gardener-cicd-cli]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2371.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-base]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-base-1.2373.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [gardener-cicd-base]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [mozilla-taskgraph]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [vite-to-flask]: Downloading https://files.pythonhosted.org/packages/c0/89/f714e47051bb7bdb6b0f477977d68d7d9ce87e358c009de2856d44ea0697/vite_to_flask-0.1.0.tar.gz
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2371.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-whd]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-whd-1.2373.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [gardener-cicd-whd]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [mozilla-taskgraph]: Downloading https://files.pythonhosted.org/packages/bd/1e/c277b6b4047cab3276925b7af7f4e68f9a298b431547cb47140eddcbb6f9/mozilla-taskgraph-1.3.1.tar.gz
+[2024-04-02 15:55:12] INFO root fetch - processPackages [vite-to-flask]: Downloading https://files.pythonhosted.org/packages/ed/7a/822918a44ff90327645d03596d5476c6c23b70835bb7ffbd5c0560cd67bb/vite_to_flask-0.2.0.tar.gz
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2371.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - processPackages [gardener-cicd-libs]: Remove: archive file [/home/abi/fetcher/tmp/gardener-cicd-libs-1.2373.0.tar.gz]
+[2024-04-02 15:55:12] INFO root fetch - main [MainThread]: End processing [gardener-cicd-libs]: success
+[2024-04-02 15:55:12] INFO root fetch - processPackages [vite-to-flask]: executing diffoscope
+[2024-04-02 15:55:12] INFO root fetch - processPackages [vite-to-flask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vite_to_flask-0.1.0.tar.gz tmp/vite_to_flask-0.2.0.tar.gz --markdown 20240402/v/vite-to-flask/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 15:55:12] INFO root fetch - processPackages [mozilla-taskgraph]: Downloading https://files.pythonhosted.org/packages/c2/f7/ae190798fc773ec5f89116cffb104790467cb5feec7bab6555924332cece/mozilla-taskgraph-1.3.2.tar.gz
+[2024-04-02 15:55:13] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 15:55:13] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2024.4.2-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2024-04-02 15:55:13] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2024-04-02 15:55:13] INFO root fetch - processPackages [mozilla-taskgraph]: executing diffoscope
+[2024-04-02 15:55:13] INFO root fetch - processPackages [mozilla-taskgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla-taskgraph-1.3.1.tar.gz tmp/mozilla-taskgraph-1.3.2.tar.gz --markdown 20240402/m/mozilla-taskgraph/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-02 15:55:13] INFO root fetch - processPackages [vite-to-flask]: Remove: archive file [/home/abi/fetcher/tmp/vite_to_flask-0.1.0.tar.gz]
+[2024-04-02 15:55:13] INFO root fetch - processPackages [vite-to-flask]: Remove: archive file [/home/abi/fetcher/tmp/vite_to_flask-0.2.0.tar.gz]
+[2024-04-02 15:55:13] INFO root fetch - main [MainThread]: End processing [vite-to-flask]: success
+[2024-04-02 15:55:14] INFO root fetch - processPackages [mozilla-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-taskgraph-1.3.1.tar.gz]
+[2024-04-02 15:55:14] INFO root fetch - processPackages [mozilla-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-taskgraph-1.3.2.tar.gz]
+[2024-04-02 15:55:14] INFO root fetch - main [MainThread]: End processing [mozilla-taskgraph]: success
+[2024-04-02 15:55:14] INFO root fetch - processPackages [projen]: executing diffoscope
+[2024-04-02 15:55:14] INFO root fetch - processPackages [projen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/projen-0.80.8.tar.gz tmp/projen-0.80.9.tar.gz --markdown 20240402/p/projen/0.80.8-0.80.9/diff.md --exclude *.pyd
+[2024-04-02 15:55:15] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.80.8.tar.gz]
+[2024-04-02 15:55:15] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.80.9.tar.gz]
+[2024-04-02 15:55:15] INFO root fetch - main [MainThread]: End processing [projen]: success
+[2024-04-02 15:55:15] INFO root fetch - main [MainThread]: Store serial: [22585855]
