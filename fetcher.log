@@ -17233,3 +17233,57 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:20:53] INFO root fetch - processPackages [pyqwe]: Remove: archive file [/home/abi/fetcher/tmp/pyqwe-1.1.3.tar.gz]
 [2024-04-02 12:20:53] INFO root fetch - main [MainThread]: End processing [pyqwe]: success
 [2024-04-02 12:20:53] INFO root fetch - main [MainThread]: Store serial: [22583428]
+[2024-04-02 12:23:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583428]
+[2024-04-02 12:23:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: creyPY
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-sale-timesheet-order-line-no-update
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpaframework-recognition
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muti.numer
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: basecampapi
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cvvideoplayer
+[2024-04-02 12:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: yabasi
+[2024-04-02 12:23:04] INFO root fetch - processPackages [creyPY]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-02 12:23:04] INFO root fetch - processPackages [muti.numer]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 12:23:04] INFO root fetch - processPackages [basecampapi]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-02 12:23:04] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/b7/41/e66964f8343fb4a70120e630661d08062a089b11268ff92158604a76310f/creyPY-0.2.0.tar.gz
+[2024-04-02 12:23:04] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/54/cd/ed00d083b185803a7fd445c63f2282c2232c5c6833dcbf0d4f238618c437/muti.numer-0.0.4.tar.gz
+[2024-04-02 12:23:04] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: New version: [14.0.1.1.4] Old Version: [14.0.1.1.3]
+[2024-04-02 12:23:04] WARNING root fetch - processPackages [cvvideoplayer]: Skipping, unable to determine old version
+[2024-04-02 12:23:04] WARNING root fetch - processPackages [yabasi]: Skipping, unable to determine old version
+[2024-04-02 12:23:04] INFO root fetch - main [MainThread]: End processing [cvvideoplayer] error
+[2024-04-02 12:23:04] INFO root fetch - main [MainThread]: End processing [yabasi] error
+[2024-04-02 12:23:04] INFO root fetch - processPackages [rpaframework-recognition]: New version: [5.2.4] Old Version: [5.2.3]
+[2024-04-02 12:23:05] INFO root fetch - processPackages [basecampapi]: Downloading https://files.pythonhosted.org/packages/bb/76/1608af3c35064e05ec4c16740a25aa2d1b90f0186a97e28eff355f4964d8/basecampapi-1.0.0.tar.gz
+[2024-04-02 12:23:05] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Downloading https://files.pythonhosted.org/packages/2d/17/2da79d656854d1662ee63be3fb3508d4466e484cd68f8b9cdff0ab90774f/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.1.3-py3-none-any.whl
+[2024-04-02 12:23:05] INFO root fetch - processPackages [rpaframework-recognition]: Downloading https://files.pythonhosted.org/packages/a8/d2/597a3a952f88d94dcebdee272f46a9cde8122652ccb4dc1e5fecf76f94bb/rpaframework_recognition-5.2.3.tar.gz
+[2024-04-02 12:23:05] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/a2/d1/bfe36899ab7b1f5fcc3bb7e52622137b6ae995ba29465683902efef0b646/creyPY-0.2.1.tar.gz
+[2024-04-02 12:23:05] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/01/35/06e68bce6c6551e2f1580b2fd9b0f99d6fd6e6f3f65130ce4bc60ef0bcdf/muti.numer-0.0.5.tar.gz
+[2024-04-02 12:23:05] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-02 12:23:05] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.2.0.tar.gz tmp/creyPY-0.2.1.tar.gz --markdown 20240402/c/creyPY/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 12:23:05] INFO root fetch - processPackages [muti.numer]: executing diffoscope
+[2024-04-02 12:23:05] INFO root fetch - processPackages [muti.numer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.numer-0.0.4.tar.gz tmp/muti.numer-0.0.5.tar.gz --markdown 20240402/m/muti.numer/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 12:23:05] INFO root fetch - processPackages [rpaframework-recognition]: Downloading https://files.pythonhosted.org/packages/22/3d/2f231fd92aeac9c25f1cf84d5cae14624847bfcfbdc466ac08b878b6fad2/rpaframework_recognition-5.2.4.tar.gz
+[2024-04-02 12:23:05] INFO root fetch - processPackages [basecampapi]: Downloading https://files.pythonhosted.org/packages/5c/63/0416f945c6444486838c5562b121ea202473057821fa90d4f23cda66aca5/basecampapi-1.1.0.tar.gz
+[2024-04-02 12:23:05] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Downloading https://files.pythonhosted.org/packages/b3/1a/7422727974d63f353b908371570229c77bd801ac8ab9f94c31f09c65aad3/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.1.4-py3-none-any.whl
+[2024-04-02 12:23:05] INFO root fetch - processPackages [rpaframework-recognition]: executing diffoscope
+[2024-04-02 12:23:05] INFO root fetch - processPackages [rpaframework-recognition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_recognition-5.2.3.tar.gz tmp/rpaframework_recognition-5.2.4.tar.gz --markdown 20240402/r/rpaframework-recognition/5.2.3-5.2.4/diff.md --exclude *.pyd
+[2024-04-02 12:23:05] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: executing diffoscope
+[2024-04-02 12:23:05] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.1.3-py3-none-any.whl.zip tmp/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.1.4-py3-none-any.whl.zip --markdown 20240402/o/odoo14-addon-sale-timesheet-order-line-no-update/14.0.1.1.3-14.0.1.1.4/diff.md --exclude *.pyd
+[2024-04-02 12:23:05] INFO root fetch - processPackages [basecampapi]: executing diffoscope
+[2024-04-02 12:23:05] INFO root fetch - processPackages [basecampapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/basecampapi-1.0.0.tar.gz tmp/basecampapi-1.1.0.tar.gz --markdown 20240402/b/basecampapi/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 12:23:06] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.2.0.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.2.1.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-02 12:23:06] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.4.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.5.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
+[2024-04-02 12:23:06] INFO root fetch - processPackages [rpaframework-recognition]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_recognition-5.2.3.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - processPackages [rpaframework-recognition]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_recognition-5.2.4.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - main [MainThread]: End processing [rpaframework-recognition]: success
+[2024-04-02 12:23:06] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.1.3-py3-none-any.whl.zip]
+[2024-04-02 12:23:06] INFO root fetch - processPackages [odoo14-addon-sale-timesheet-order-line-no-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sale_timesheet_order_line_no_update-14.0.1.1.4-py3-none-any.whl.zip]
+[2024-04-02 12:23:06] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sale-timesheet-order-line-no-update]: success
+[2024-04-02 12:23:06] INFO root fetch - processPackages [basecampapi]: Remove: archive file [/home/abi/fetcher/tmp/basecampapi-1.0.0.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - processPackages [basecampapi]: Remove: archive file [/home/abi/fetcher/tmp/basecampapi-1.1.0.tar.gz]
+[2024-04-02 12:23:06] INFO root fetch - main [MainThread]: End processing [basecampapi]: success
+[2024-04-02 12:23:06] INFO root fetch - main [MainThread]: Store serial: [22583452]
