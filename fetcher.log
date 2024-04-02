@@ -2637,3 +2637,69 @@
 [2024-04-02 02:33:25] INFO root fetch - processPackages [finlab]: Remove: archive file [/home/abi/fetcher/tmp/finlab-1.1.0-cp310-cp310-macosx_10_9_universal2.whl.zip]
 [2024-04-02 02:33:25] INFO root fetch - main [MainThread]: End processing [finlab]: success
 [2024-04-02 02:33:25] INFO root fetch - main [MainThread]: Store serial: [22577636]
+[2024-04-02 02:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577636]
+[2024-04-02 02:35:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dank-mids
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eznf
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiohltv
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bundlewrap
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: akasaka
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: deadline-cloud-for-rhino
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fireducks
+[2024-04-02 02:35:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: firefw
+[2024-04-02 02:35:34] WARNING root fetch - processPackages [akasaka]: Skipping, unable to determine old version
+[2024-04-02 02:35:34] INFO root fetch - main [MainThread]: End processing [akasaka] error
+[2024-04-02 02:35:34] INFO root fetch - processPackages [bundlewrap]: New version: [4.9.0] Old Version: [4.8.2]
+[2024-04-02 02:35:34] INFO root fetch - processPackages [dank-mids]: New version: [4.20.9] Old Version: [4.20.82]
+[2024-04-02 02:35:34] INFO root fetch - processPackages [eznf]: New version: [0.9.2] Old Version: [0.8.2]
+[2024-04-02 02:35:34] INFO root fetch - processPackages [firefw]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-02 02:35:34] ERROR root fetch - processPackages [deadline-cloud-for-rhino]: Unable to get metadata: No such project 'deadline-cloud-for-rhino'
+[2024-04-02 02:35:34] WARNING root fetch - processPackages [aiohltv]: Skipping, unable to determine old version
+[2024-04-02 02:35:34] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-rhino] error
+[2024-04-02 02:35:34] INFO root fetch - main [MainThread]: End processing [aiohltv] error
+[2024-04-02 02:35:34] INFO root fetch - processPackages [fireducks]: New version: [0.9.8] Old Version: [0.9.7]
+[2024-04-02 02:35:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/3f/66/76345a84f1478004849230a81f5bc270888612b9540990fcc04c53ab42d4/dank_mids-4.20.82.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 02:35:34] INFO root fetch - processPackages [bundlewrap]: Downloading https://files.pythonhosted.org/packages/5e/4f/f063bd350e78e89de6e45160a5aa4fc481a3f5c124129507ff34679670be/bundlewrap-4.8.2.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [eznf]: Downloading https://files.pythonhosted.org/packages/fb/1f/015a44833d26beef387b30463b57e926e132e3aab98a08a4ea23c702874b/eznf-0.8.2.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/78/0f/a290b2d62d096a4ab73149c01539d5df72bfbc19489f06fb7b655ca43850/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-02 02:35:34] INFO root fetch - processPackages [dank-mids]: Downloading https://files.pythonhosted.org/packages/e9/d0/a0c6c8d2d154a0250f47b30968e60098b0d44d3b35571e97a925b9b3984f/dank_mids-4.20.9.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/f9/48/d01a2249d8e2c6f24d4bfcc92d3d861c0612b9cd68284190260c62212aca/firefw-0.9.7-py3-none-any.whl
+[2024-04-02 02:35:34] INFO root fetch - processPackages [dank-mids]: executing diffoscope
+[2024-04-02 02:35:34] INFO root fetch - processPackages [dank-mids]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dank_mids-4.20.82.tar.gz tmp/dank_mids-4.20.9.tar.gz --markdown 20240402/d/dank-mids/4.20.82-4.20.9/diff.md --exclude *.pyd
+[2024-04-02 02:35:34] INFO root fetch - processPackages [eznf]: Downloading https://files.pythonhosted.org/packages/04/8a/7288f78c98496c7caa6460badc2c37c87078362006917606f3cb8c05a0f0/eznf-0.9.2.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [bundlewrap]: Downloading https://files.pythonhosted.org/packages/2f/98/60e4cb5e14b5c328225d7062ae2f60e7cbf4d045d4e389ea9a4d3662c33d/bundlewrap-4.9.0.tar.gz
+[2024-04-02 02:35:34] INFO root fetch - processPackages [firefw]: Downloading https://files.pythonhosted.org/packages/00/25/db8bd3c578ec6621a079f24b4b88efc3bc29f92bed8453db00cb5ea05799/firefw-0.9.8-py3-none-any.whl
+[2024-04-02 02:35:34] INFO root fetch - processPackages [eznf]: executing diffoscope
+[2024-04-02 02:35:34] INFO root fetch - processPackages [eznf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eznf-0.8.2.tar.gz tmp/eznf-0.9.2.tar.gz --markdown 20240402/e/eznf/0.8.2-0.9.2/diff.md --exclude *.pyd
+[2024-04-02 02:35:35] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2024-04-02 02:35:35] INFO root fetch - processPackages [firefw]: executing diffoscope
+[2024-04-02 02:35:35] INFO root fetch - processPackages [firefw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefw-0.9.7-py3-none-any.whl.zip tmp/firefw-0.9.8-py3-none-any.whl.zip --markdown 20240402/f/firefw/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-02 02:35:35] INFO root fetch - processPackages [bundlewrap]: executing diffoscope
+[2024-04-02 02:35:35] INFO root fetch - processPackages [bundlewrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bundlewrap-4.8.2.tar.gz tmp/bundlewrap-4.9.0.tar.gz --markdown 20240402/b/bundlewrap/4.8.2-4.9.0/diff.md --exclude *.pyd
+[2024-04-02 02:35:35] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.82.tar.gz]
+[2024-04-02 02:35:35] INFO root fetch - processPackages [dank-mids]: Remove: archive file [/home/abi/fetcher/tmp/dank_mids-4.20.9.tar.gz]
+[2024-04-02 02:35:35] INFO root fetch - main [MainThread]: End processing [dank-mids]: success
+[2024-04-02 02:35:35] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2024-04-02 02:35:35] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20240402/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 02:35:35] INFO root fetch - processPackages [eznf]: Remove: archive file [/home/abi/fetcher/tmp/eznf-0.8.2.tar.gz]
+[2024-04-02 02:35:35] INFO root fetch - processPackages [eznf]: Remove: archive file [/home/abi/fetcher/tmp/eznf-0.9.2.tar.gz]
+[2024-04-02 02:35:35] INFO root fetch - main [MainThread]: End processing [eznf]: success
+[2024-04-02 02:35:35] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.7-py3-none-any.whl.zip]
+[2024-04-02 02:35:35] INFO root fetch - processPackages [firefw]: Remove: archive file [/home/abi/fetcher/tmp/firefw-0.9.8-py3-none-any.whl.zip]
+[2024-04-02 02:35:35] INFO root fetch - main [MainThread]: End processing [firefw]: success
+[2024-04-02 02:35:35] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2024-04-02 02:35:35] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2024-04-02 02:35:35] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2024-04-02 02:35:36] INFO root fetch - processPackages [bundlewrap]: Remove: archive file [/home/abi/fetcher/tmp/bundlewrap-4.8.2.tar.gz]
+[2024-04-02 02:35:36] INFO root fetch - processPackages [bundlewrap]: Remove: archive file [/home/abi/fetcher/tmp/bundlewrap-4.9.0.tar.gz]
+[2024-04-02 02:35:36] INFO root fetch - main [MainThread]: End processing [bundlewrap]: success
+[2024-04-02 02:35:37] INFO root fetch - processPackages [fireducks]: Downloading https://files.pythonhosted.org/packages/4e/b6/63f73d339120931c81ab9c435df1d08feaef965848223c3d32c513accc54/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl
+[2024-04-02 02:35:39] INFO root fetch - processPackages [fireducks]: executing diffoscope
+[2024-04-02 02:35:39] INFO root fetch - processPackages [fireducks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20240402/f/fireducks/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2024-04-02 02:37:21] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-02 02:37:21] INFO root fetch - processPackages [fireducks]: Remove: archive file [/home/abi/fetcher/tmp/fireducks-0.9.8-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2024-04-02 02:37:21] INFO root fetch - main [MainThread]: End processing [fireducks]: success
+[2024-04-02 02:37:21] INFO root fetch - main [MainThread]: Store serial: [22577672]
