@@ -9233,3 +9233,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:00:05] INFO root fetch - processPackages [Fr1997v011]: Remove: archive file [/home/abi/fetcher/tmp/Fr1997v011-1.2.2.tar.gz]
 [2024-04-02 05:00:05] INFO root fetch - main [MainThread]: End processing [Fr1997v011]: success
 [2024-04-02 05:00:05] INFO root fetch - main [MainThread]: Store serial: [22580164]
+[2024-04-02 05:02:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580164]
+[2024-04-02 05:02:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 05:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plotly3d
+[2024-04-02 05:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wakautosolver
+[2024-04-02 05:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ANX
+[2024-04-02 05:02:16] INFO root fetch - processPackages [plotly3d]: New version: [0.2.0] Old Version: [0.1.4]
+[2024-04-02 05:02:16] INFO root fetch - processPackages [ANX]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-02 05:02:16] INFO root fetch - processPackages [wakautosolver]: New version: [2024.4.1] Old Version: [2024.3.3]
+[2024-04-02 05:02:16] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/ce/e4/1d9d4f52503633b576c7cd6e39627f22c7aafc37dd488dc44285c39eab64/plotly3d-0.1.4.tar.gz
+[2024-04-02 05:02:16] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/39/71/98ba29da77df52d0cced04993d2ae974d8b59a8feb436de91355275f8006/ANX-0.7.0.tar.gz
+[2024-04-02 05:02:16] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/48/7c/fdc14cb71b7abf268b56c20da13eeec80c8625fdf893c4145b792543bba3/wakautosolver-2024.3.3-py3-none-any.whl
+[2024-04-02 05:02:16] INFO root fetch - processPackages [ANX]: Downloading https://files.pythonhosted.org/packages/df/cd/a354bfd7ad11a07bd366d417d5f24434e3a2b6dd72e751374836fee38aa5/ANX-0.7.1.tar.gz
+[2024-04-02 05:02:16] INFO root fetch - processPackages [plotly3d]: Downloading https://files.pythonhosted.org/packages/7c/4c/7903c4ded4d482d17be03af5ef0cca51ed7afdf453869e8c00a29acbc4de/plotly3d-0.2.0.tar.gz
+[2024-04-02 05:02:16] INFO root fetch - processPackages [plotly3d]: executing diffoscope
+[2024-04-02 05:02:16] INFO root fetch - processPackages [plotly3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotly3d-0.1.4.tar.gz tmp/plotly3d-0.2.0.tar.gz --markdown 20240402/p/plotly3d/0.1.4-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 05:02:16] INFO root fetch - processPackages [ANX]: executing diffoscope
+[2024-04-02 05:02:16] INFO root fetch - processPackages [ANX]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANX-0.7.0.tar.gz tmp/ANX-0.7.1.tar.gz --markdown 20240402/A/ANX/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-02 05:02:16] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/01/17/a09fa7a774ce2bb49a6276e9d797b4f570f5271442430b996681a545c22d/wakautosolver-2024.4.1-py3-none-any.whl
+[2024-04-02 05:02:16] INFO root fetch - processPackages [wakautosolver]: executing diffoscope
+[2024-04-02 05:02:16] INFO root fetch - processPackages [wakautosolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakautosolver-2024.3.3-py3-none-any.whl.zip tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip --markdown 20240402/w/wakautosolver/2024.3.3-2024.4.1/diff.md --exclude *.pyd
+[2024-04-02 05:02:17] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.1.4.tar.gz]
+[2024-04-02 05:02:17] INFO root fetch - processPackages [plotly3d]: Remove: archive file [/home/abi/fetcher/tmp/plotly3d-0.2.0.tar.gz]
+[2024-04-02 05:02:17] INFO root fetch - main [MainThread]: End processing [plotly3d]: success
+[2024-04-02 05:02:17] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.0.tar.gz]
+[2024-04-02 05:02:17] INFO root fetch - processPackages [ANX]: Remove: archive file [/home/abi/fetcher/tmp/ANX-0.7.1.tar.gz]
+[2024-04-02 05:02:17] INFO root fetch - main [MainThread]: End processing [ANX]: success
+[2024-04-02 05:02:30] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.3.3-py3-none-any.whl.zip]
+[2024-04-02 05:02:30] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.1-py3-none-any.whl.zip]
+[2024-04-02 05:02:30] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
+[2024-04-02 05:02:30] INFO root fetch - main [MainThread]: Store serial: [22580172]
