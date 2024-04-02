@@ -8443,3 +8443,86 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:11:54] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.5.tar.gz]
 [2024-04-02 04:11:54] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
 [2024-04-02 04:11:54] INFO root fetch - main [MainThread]: Store serial: [22579872]
+[2024-04-02 04:13:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579872]
+[2024-04-02 04:14:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ip-check
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyclipmgr
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qick
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: darknetghost
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: luntaiDs
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: c2cciutils
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ytmusic-deleter
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zonevu
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: myprayer
+[2024-04-02 04:14:03] INFO root fetch - processPackages [pyclipmgr]: New version: [2.4] Old Version: [2.3]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [zonevu]: New version: [1.1.7] Old Version: [1.1.6]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.1.2a0] Old Version: [2.1.1a1]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [c2cciutils]: New version: [1.7.0.dev99] Old Version: [1.7.0.dev98]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ip-check]: New version: [1.5.1] Old Version: [1.5.0]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/32/e1/26a6934610abfd0e89bd3af27461968cd58b3c7329d8b0285e36c1b4cdec/pyclipmgr-2.3.tar.gz
+[2024-04-02 04:14:03] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/e7/0b/97eea6b02ecf6aeec8721cdbb0636c8bcc62c040c4c4780a729b58ea30a6/ytmusic_deleter-2.1.1a1.tar.gz
+[2024-04-02 04:14:03] INFO root fetch - processPackages [luntaiDs]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [swarms]: New version: [4.7.1] Old Version: [4.6.8]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [qick]: New version: [0.2.254] Old Version: [0.2.253]
+[2024-04-02 04:14:03] INFO root fetch - processPackages [myprayer]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-02 04:14:04] WARNING root fetch - processPackages [darknetghost]: Skipping, unable to determine old version
+[2024-04-02 04:14:04] INFO root fetch - main [MainThread]: End processing [darknetghost] error
+[2024-04-02 04:14:04] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/e9/38/615eb4e80c528096e81f9400f56b37074659f65824f2f8698aa6c8077e66/zonevu-1.1.6-py3-none-any.whl
+[2024-04-02 04:14:04] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/62/aa/080c37692bc6af730809e32f5cb82932c00c5513d164349ff96537069e82/c2cciutils-1.7.0.dev98.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [qick]: Downloading https://files.pythonhosted.org/packages/83/61/328e243a78597e46a1a766fda5c2969f31a297c7f3c745fb1bd91b032c3c/qick-0.2.253.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/27/3f/3c000abf073785e524393b1244b0e77e8d9614b87944122e69373d34c0d2/ip_check-1.5.0-py3-none-any.whl
+[2024-04-02 04:14:04] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/96/9c/8f474f0025793acec510f264abd6be36d97ae50f7578575de409206457b1/luntaiDs-1.0.8.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/e1/dc/70b1cc355ead248235c632bf353f2d2597557084392dc8b5ed212cf7f8e6/ytmusic_deleter-2.1.2a0.tar.gz
+[2024-04-02 04:14:04] WARNING root fetch - processPackages [qick]: Skipping package: exceeds size limit 16611497>=10485760
+[2024-04-02 04:14:04] INFO root fetch - main [MainThread]: End processing [qick] error
+[2024-04-02 04:14:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/96/f6/c46a53926d3f7ad36b03c52f7d132bb0b83b272b43d0560a4024d167287b/swarms-4.6.8.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [myprayer]: Downloading https://files.pythonhosted.org/packages/1c/68/419faa2638cc45a8b209faa33cdf26acce0b797f716b6e9cbf592c6d434a/myprayer-2.0.5.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/0b/33/b4f2b2d1c9a7ae924ddcc8b7cbf69f1ed37a1a5f0faa155ac94becd05a90/c2cciutils-1.7.0.dev99.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/16/d0/42bcf62ce374d0215730c064570c1967c6c79df2981b51b56def221a341f/pyclipmgr-2.4.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.1.1a1.tar.gz tmp/ytmusic_deleter-2.1.2a0.tar.gz --markdown 20240402/y/ytmusic-deleter/2.1.1a1-2.1.2a0/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.7.0.dev98.tar.gz tmp/c2cciutils-1.7.0.dev99.tar.gz --markdown 20240402/c/c2cciutils/1.7.0.dev98-1.7.0.dev99/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/5c/9c/905a677d8380b329ed9b3c9f03c9520ddc0e80b7040e5facb1d457fef265/zonevu-1.1.7-py3-none-any.whl
+[2024-04-02 04:14:04] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-2.3.tar.gz tmp/pyclipmgr-2.4.tar.gz --markdown 20240402/p/pyclipmgr/2.3-2.4/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ip-check]: Downloading https://files.pythonhosted.org/packages/2e/67/b2bd012e6eb6f27aab991bd2b8d638620d94a9e7022b90858e08bccda328/ip_check-1.5.1-py3-none-any.whl
+[2024-04-02 04:14:04] INFO root fetch - processPackages [luntaiDs]: Downloading https://files.pythonhosted.org/packages/91/ae/dabc2b9fa86d4f393b80d702e362106b4cd31b90fc9b9e288028c7a15020/luntaiDs-1.0.9.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [myprayer]: Downloading https://files.pythonhosted.org/packages/91/5a/5d37608e44ea69ff67feff9e5e76e2476cf68272baf99aefe49eb7d5b5fd/myprayer-2.0.6.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/07/69/f2b7d85be8808e458f37594f6f8b82d858558ff0c5507aa765cf0309a126/swarms-4.7.1.tar.gz
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ip-check]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [ip-check]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ip_check-1.5.0-py3-none-any.whl.zip tmp/ip_check-1.5.1-py3-none-any.whl.zip --markdown 20240402/i/ip-check/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.6-py3-none-any.whl.zip tmp/zonevu-1.1.7-py3-none-any.whl.zip --markdown 20240402/z/zonevu/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [luntaiDs]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [luntaiDs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luntaiDs-1.0.8.tar.gz tmp/luntaiDs-1.0.9.tar.gz --markdown 20240402/l/luntaiDs/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.6.8.tar.gz tmp/swarms-4.7.1.tar.gz --markdown 20240402/s/swarms/4.6.8-4.7.1/diff.md --exclude *.pyd
+[2024-04-02 04:14:04] INFO root fetch - processPackages [myprayer]: executing diffoscope
+[2024-04-02 04:14:04] INFO root fetch - processPackages [myprayer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myprayer-2.0.5.tar.gz tmp/myprayer-2.0.6.tar.gz --markdown 20240402/m/myprayer/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2024-04-02 04:14:05] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.1a1.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.2a0.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-04-02 04:14:05] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.3.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.4.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 04:14:05] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev98.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.7.0.dev99.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2024-04-02 04:14:05] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.0-py3-none-any.whl.zip]
+[2024-04-02 04:14:05] INFO root fetch - processPackages [ip-check]: Remove: archive file [/home/abi/fetcher/tmp/ip_check-1.5.1-py3-none-any.whl.zip]
+[2024-04-02 04:14:05] INFO root fetch - main [MainThread]: End processing [ip-check]: success
+[2024-04-02 04:14:05] INFO root fetch - processPackages [myprayer]: Remove: archive file [/home/abi/fetcher/tmp/myprayer-2.0.5.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - processPackages [myprayer]: Remove: archive file [/home/abi/fetcher/tmp/myprayer-2.0.6.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - main [MainThread]: End processing [myprayer]: success
+[2024-04-02 04:14:05] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.8.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - processPackages [luntaiDs]: Remove: archive file [/home/abi/fetcher/tmp/luntaiDs-1.0.9.tar.gz]
+[2024-04-02 04:14:05] INFO root fetch - main [MainThread]: End processing [luntaiDs]: success
+[2024-04-02 04:14:06] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.6.8.tar.gz]
+[2024-04-02 04:14:06] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.1.tar.gz]
+[2024-04-02 04:14:06] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-02 04:14:07] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.6-py3-none-any.whl.zip]
+[2024-04-02 04:14:07] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.7-py3-none-any.whl.zip]
+[2024-04-02 04:14:07] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-02 04:14:07] INFO root fetch - main [MainThread]: Store serial: [22579901]
