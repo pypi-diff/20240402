@@ -11329,3 +11329,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:46:59] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.6.tar.gz]
 [2024-04-02 07:46:59] INFO root fetch - main [MainThread]: End processing [spiceai]: success
 [2024-04-02 07:46:59] INFO root fetch - main [MainThread]: Store serial: [22581027]
+[2024-04-02 07:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581027]
+[2024-04-02 07:49:08] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 07:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablecache
+[2024-04-02 07:49:08] INFO root fetch - processPackages [tablecache]: New version: [4.0.0rc0] Old Version: [3.2.0]
+[2024-04-02 07:49:08] INFO root fetch - processPackages [tablecache]: Downloading https://files.pythonhosted.org/packages/71/38/86755ab02cce08b0f905f351987bb0f48b922a398c86f1fd1c3cb515d5d0/tablecache-3.2.0.tar.gz
+[2024-04-02 07:49:08] INFO root fetch - processPackages [tablecache]: Downloading https://files.pythonhosted.org/packages/99/59/84a011ae0651128ee19a70478b61626f82c861373711c54c7a77d1c8ebe2/tablecache-4.0.0rc0.tar.gz
+[2024-04-02 07:49:08] INFO root fetch - processPackages [tablecache]: executing diffoscope
+[2024-04-02 07:49:08] INFO root fetch - processPackages [tablecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablecache-3.2.0.tar.gz tmp/tablecache-4.0.0rc0.tar.gz --markdown 20240402/t/tablecache/3.2.0-4.0.0rc0/diff.md --exclude *.pyd
+[2024-04-02 07:49:09] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-3.2.0.tar.gz]
+[2024-04-02 07:49:09] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-4.0.0rc0.tar.gz]
+[2024-04-02 07:49:09] INFO root fetch - main [MainThread]: End processing [tablecache]: success
+[2024-04-02 07:49:09] INFO root fetch - main [MainThread]: Store serial: [22581030]
