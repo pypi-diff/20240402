@@ -9293,3 +9293,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:04:50] INFO root fetch - processPackages [py-aiger-bdd]: Remove: archive file [/home/abi/fetcher/tmp/py_aiger_bdd-3.1.3.tar.gz]
 [2024-04-02 05:04:50] INFO root fetch - main [MainThread]: End processing [py-aiger-bdd]: success
 [2024-04-02 05:04:50] INFO root fetch - main [MainThread]: Store serial: [22580182]
+[2024-04-02 05:06:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580182]
+[2024-04-02 05:06:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mahosPy
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-geojson
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rongdavbaaddins
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ytmusic-deleter
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botl
+[2024-04-02 05:06:59] WARNING root fetch - processPackages [mahosPy]: Skipping, unable to determine old version
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ytmusic-deleter]: New version: [2.1.2a2] Old Version: [2.1.0]
+[2024-04-02 05:06:59] INFO root fetch - main [MainThread]: End processing [mahosPy] error
+[2024-04-02 05:06:59] INFO root fetch - processPackages [botl]: New version: [105] Old Version: [104]
+[2024-04-02 05:06:59] INFO root fetch - processPackages [pandas-geojson]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-02 05:06:59] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.2.0.9] Old Version: [0.2.0.8]
+[2024-04-02 05:06:59] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/73/95/a4040219feeb26e8e396d07f90650ccd24515ad497e2db76efe911c40f0d/ytmusic_deleter-2.1.0.tar.gz
+[2024-04-02 05:06:59] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/2f/fd/b982960b6bf9a87e4dbaeb391e2ddb9aa0e14991ccd6fa46163d0eaea755/botl-104.tar.gz
+[2024-04-02 05:06:59] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a9/00/6325168d12253c8ae1693ce7b368604b9516e7b54c5a60b5935fb5367e93/rongdavbaaddins-0.2.0.8.tar.gz
+[2024-04-02 05:06:59] INFO root fetch - processPackages [pandas-geojson]: Downloading https://files.pythonhosted.org/packages/2b/80/4a2b1e02124ae947a37846a42227d0e47c9dbe49f67c2bff6d881a204f3e/pandas_geojson-2.0.0.tar.gz
+[2024-04-02 05:07:00] INFO root fetch - processPackages [ytmusic-deleter]: Downloading https://files.pythonhosted.org/packages/89/14/077cc58300b752b1bbe2f151504fb1dcf2aaf5d9f5f7784b648a507da005/ytmusic_deleter-2.1.2a2.tar.gz
+[2024-04-02 05:07:00] INFO root fetch - processPackages [pandas-geojson]: Downloading https://files.pythonhosted.org/packages/6c/c0/6aeacc957bfcd7a6b1f71f6d6690ee49b592e1c8440f8d6198675ad38eef/pandas_geojson-2.0.1.tar.gz
+[2024-04-02 05:07:00] INFO root fetch - processPackages [botl]: Downloading https://files.pythonhosted.org/packages/8c/46/13ad673e1ad65cbd420fac43aa3e7f94c94cfc9897d62b5d2f4f3f8a3fb4/botl-105.tar.gz
+[2024-04-02 05:07:00] INFO root fetch - processPackages [ytmusic-deleter]: executing diffoscope
+[2024-04-02 05:07:00] INFO root fetch - processPackages [ytmusic-deleter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ytmusic_deleter-2.1.0.tar.gz tmp/ytmusic_deleter-2.1.2a2.tar.gz --markdown 20240402/y/ytmusic-deleter/2.1.0-2.1.2a2/diff.md --exclude *.pyd
+[2024-04-02 05:07:00] INFO root fetch - processPackages [pandas-geojson]: executing diffoscope
+[2024-04-02 05:07:00] INFO root fetch - processPackages [pandas-geojson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas_geojson-2.0.0.tar.gz tmp/pandas_geojson-2.0.1.tar.gz --markdown 20240402/p/pandas-geojson/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-02 05:07:00] INFO root fetch - processPackages [botl]: executing diffoscope
+[2024-04-02 05:07:00] INFO root fetch - processPackages [botl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botl-104.tar.gz tmp/botl-105.tar.gz --markdown 20240402/b/botl/104-105/diff.md --exclude *.pyd
+[2024-04-02 05:07:00] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.0.tar.gz]
+[2024-04-02 05:07:00] INFO root fetch - processPackages [ytmusic-deleter]: Remove: archive file [/home/abi/fetcher/tmp/ytmusic_deleter-2.1.2a2.tar.gz]
+[2024-04-02 05:07:00] INFO root fetch - main [MainThread]: End processing [ytmusic-deleter]: success
+[2024-04-02 05:07:00] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-104.tar.gz]
+[2024-04-02 05:07:00] INFO root fetch - processPackages [botl]: Remove: archive file [/home/abi/fetcher/tmp/botl-105.tar.gz]
+[2024-04-02 05:07:00] INFO root fetch - main [MainThread]: End processing [botl]: success
+[2024-04-02 05:07:01] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.0.0.tar.gz]
+[2024-04-02 05:07:01] INFO root fetch - processPackages [pandas-geojson]: Remove: archive file [/home/abi/fetcher/tmp/pandas_geojson-2.0.1.tar.gz]
+[2024-04-02 05:07:01] INFO root fetch - main [MainThread]: End processing [pandas-geojson]: success
+[2024-04-02 05:07:01] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/35/e4/8c62d1c942f9968d59dbc6bb014aa222fabec63f42a8f320740030e188eb/rongdavbaaddins-0.2.0.9.tar.gz
+[2024-04-02 05:07:02] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2024-04-02 05:07:02] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.2.0.8.tar.gz tmp/rongdavbaaddins-0.2.0.9.tar.gz --markdown 20240402/r/rongdavbaaddins/0.2.0.8-0.2.0.9/diff.md --exclude *.pyd
+[2024-04-02 05:07:03] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.2.0.8.tar.gz]
+[2024-04-02 05:07:03] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.2.0.9.tar.gz]
+[2024-04-02 05:07:03] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2024-04-02 05:07:03] INFO root fetch - main [MainThread]: Store serial: [22580198]
