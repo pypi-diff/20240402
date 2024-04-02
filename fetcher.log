@@ -10851,3 +10851,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:10:44] INFO root fetch - processPackages [pysoltoken]: Remove: archive file [/home/abi/fetcher/tmp/pysoltoken-1.0.1.tar.gz]
 [2024-04-02 07:10:44] INFO root fetch - main [MainThread]: End processing [pysoltoken]: success
 [2024-04-02 07:10:44] INFO root fetch - main [MainThread]: Store serial: [22580831]
+[2024-04-02 07:12:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580831]
+[2024-04-02 07:12:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 07:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ottu-py
+[2024-04-02 07:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: callbook
+[2024-04-02 07:12:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-skill-management
+[2024-04-02 07:12:52] INFO root fetch - processPackages [ottu-py]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-02 07:12:52] INFO root fetch - processPackages [ottu-py]: Downloading https://files.pythonhosted.org/packages/31/4a/1da867f232b516d127e6cc2e65a593799da17e39a7edde680fb5569636a6/ottu-py-1.3.0.tar.gz
+[2024-04-02 07:12:52] INFO root fetch - processPackages [cdk-skill-management]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 07:12:52] INFO root fetch - processPackages [callbook]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 07:12:52] INFO root fetch - processPackages [ottu-py]: Downloading https://files.pythonhosted.org/packages/8b/51/8f19095a75736065f060e5a33b38582ab576e0c1c7b98ff186fae9596759/ottu-py-1.4.0.tar.gz
+[2024-04-02 07:12:53] INFO root fetch - processPackages [cdk-skill-management]: Downloading https://files.pythonhosted.org/packages/db/73/381b86b38cd3fb0c6d7f28642af8f8db767891fd8bd348e716dc35ed35bf/cdk-skill-management-1.0.8.tar.gz
+[2024-04-02 07:12:53] INFO root fetch - processPackages [callbook]: Downloading https://files.pythonhosted.org/packages/2e/4d/5f4aa8b3bf41112a765ac75443a9d5e1e372d15d95ecf239c57e84abda63/callbook-0.0.2-py2.py3-none-any.whl
+[2024-04-02 07:12:53] INFO root fetch - processPackages [ottu-py]: executing diffoscope
+[2024-04-02 07:12:53] INFO root fetch - processPackages [ottu-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ottu-py-1.3.0.tar.gz tmp/ottu-py-1.4.0.tar.gz --markdown 20240402/o/ottu-py/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-02 07:12:53] INFO root fetch - processPackages [callbook]: Downloading https://files.pythonhosted.org/packages/d4/bf/f2a22ea91a0196d7145b63ef0713efce94f268601edd66ee620f88119362/callbook-0.0.3.tar.gz
+[2024-04-02 07:12:53] INFO root fetch - processPackages [cdk-skill-management]: Downloading https://files.pythonhosted.org/packages/95/68/a8626d4483e92c8334a968da458d27c20dd276a025efb3244d58a507d59a/cdk-skill-management-1.0.9.tar.gz
+[2024-04-02 07:12:53] INFO root fetch - processPackages [cdk-skill-management]: executing diffoscope
+[2024-04-02 07:12:53] INFO root fetch - processPackages [cdk-skill-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skill-management-1.0.8.tar.gz tmp/cdk-skill-management-1.0.9.tar.gz --markdown 20240402/c/cdk-skill-management/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 07:12:53] INFO root fetch - processPackages [callbook]: executing diffoscope
+[2024-04-02 07:12:53] INFO root fetch - processPackages [callbook]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/callbook-0.0.2-py2.py3-none-any.whl.zip tmp/callbook-0.0.3.tar.gz --markdown 20240402/c/callbook/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 07:12:53] INFO root fetch - processPackages [ottu-py]: Remove: archive file [/home/abi/fetcher/tmp/ottu-py-1.3.0.tar.gz]
+[2024-04-02 07:12:53] INFO root fetch - processPackages [ottu-py]: Remove: archive file [/home/abi/fetcher/tmp/ottu-py-1.4.0.tar.gz]
+[2024-04-02 07:12:53] INFO root fetch - main [MainThread]: End processing [ottu-py]: success
+[2024-04-02 07:12:54] INFO root fetch - processPackages [callbook]: Remove: archive file [/home/abi/fetcher/tmp/callbook-0.0.2-py2.py3-none-any.whl.zip]
+[2024-04-02 07:12:54] INFO root fetch - processPackages [callbook]: Remove: archive file [/home/abi/fetcher/tmp/callbook-0.0.3.tar.gz]
+[2024-04-02 07:12:54] INFO root fetch - main [MainThread]: End processing [callbook]: success
+[2024-04-02 07:12:54] INFO root fetch - processPackages [cdk-skill-management]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skill-management-1.0.8.tar.gz]
+[2024-04-02 07:12:54] INFO root fetch - processPackages [cdk-skill-management]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skill-management-1.0.9.tar.gz]
+[2024-04-02 07:12:54] INFO root fetch - main [MainThread]: End processing [cdk-skill-management]: success
+[2024-04-02 07:12:54] INFO root fetch - main [MainThread]: Store serial: [22580841]
