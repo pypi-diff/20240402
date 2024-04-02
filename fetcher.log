@@ -17350,3 +17350,96 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:27:37] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
 [2024-04-02 12:27:37] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 12:27:37] INFO root fetch - main [MainThread]: Store serial: [22583473]
+[2024-04-02 12:29:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583473]
+[2024-04-02 12:29:47] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uprock-sdk
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: encord
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ft2bt
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RL-OM
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dsw-config
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsw-command-queue
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsw-database
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dsw-models
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dsw-storage
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dsw-tdk
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ft2bt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [uprock-sdk]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.81]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/9e/46/d8c381ffd06854fa307b5d8cd49195fff59fcda949549bdae70a904111e1/ft2bt-0.1.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-database]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [encord]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-models]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-storage]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-config]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-command-queue]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-tdk]: New version: [4.5.0] Old Version: [4.4.1]
+[2024-04-02 12:29:47] INFO root fetch - processPackages [uprock-sdk]: Downloading https://files.pythonhosted.org/packages/bc/41/4cb2011a05355c20972a8590edbc3961c3811beccfdd476d7d0cb82a7fd3/uprock_sdk-0.1.7.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/74/f3/0553a0eef31b6c890ae1625d3692d4b49701b836a30902267da02493aa8a/RL_OM-0.7.81.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/f0/34/d6ab4f7213dd4dd42f226ed7b328ac3ff55006a7b5ce96d4012adeedb08d/encord-0.1.98.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/95/ca/a653ce504218994567fc57cd34f206fbb7ec778eccfbe35bf2724d3bc285/dsw-database-4.4.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/11/9a/9a45a1fbe99347d4e2970f5305b0a61033a70009416b375494e413aaf800/dsw-models-4.4.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/02/0b/107fe1ed7c18c8f05250ba9816e51ad6d8062b1b877c42e0a00f1d3411ae/dsw-storage-4.4.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/3e/a6/cb5c2f0fe957d3bdd804342fe0a6f7f7af3110f7de5e0e8f21bd05c266b1/dsw-tdk-4.4.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/8f/bd/87d0f6887b120fe41bb4b801de4636a0427e5237af84cde8c69f118d8cce/dsw-config-4.4.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/00/95/b0e678ab351cf4bcb82e873d73bb13213c9c5d5474d4e976ae6d5a98ba84/dsw-command-queue-4.4.1.tar.gz
+[2024-04-02 12:29:47] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/e1/11/6afbffb5973f0eb8e94706fab80f50dcf9e9ed10303b09888e3fcb351e75/ft2bt-0.1.2.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [uprock-sdk]: Downloading https://files.pythonhosted.org/packages/26/22/126fb32f31645995a5011f583fcbff3a5bd9d706b40186f5a97d77b1809b/uprock_sdk-0.1.8.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-database]: Downloading https://files.pythonhosted.org/packages/ae/42/5556363a67d010edaad49a9f55c80dd6587e480c674ba4c3618f5739fcc4/dsw-database-4.5.0.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [ft2bt]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [ft2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft2bt-0.1.1.tar.gz tmp/ft2bt-0.1.2.tar.gz --markdown 20240402/f/ft2bt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [encord]: Downloading https://files.pythonhosted.org/packages/ec/62/9a0b4770d9ee7f4e82c28b9f55065be20b0b96007b04c6c9c226ceffa842/encord-0.1.99.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-models]: Downloading https://files.pythonhosted.org/packages/c5/2f/02c1c3319fc6a3934570f0a0fd05e0fbc19b9cbc102f134ebadeadc2fc1b/dsw-models-4.5.0.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [uprock-sdk]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [uprock-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uprock_sdk-0.1.7.tar.gz tmp/uprock_sdk-0.1.8.tar.gz --markdown 20240402/u/uprock-sdk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.81.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240402/R/RL-OM/0.7.81-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-command-queue]: Downloading https://files.pythonhosted.org/packages/23/1b/08117f965db8487830591765f461a45cdcfb19b55c01393ba31fc07d1b83/dsw-command-queue-4.5.0.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-config]: Downloading https://files.pythonhosted.org/packages/cb/74/fb9b6dc92b0c3b45736917163b07f323b6fc71c8ddbff5f6c0d32bfa8ef8/dsw-config-4.5.0.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-tdk]: Downloading https://files.pythonhosted.org/packages/b0/fa/2cf6cc723eb34783163d8479f05eef462bb62c46860472491299e41ffb51/dsw-tdk-4.5.0.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-storage]: Downloading https://files.pythonhosted.org/packages/47/b6/de0e35f89a32e160c1199cf5ec32e128e7d4a891ed4fe16440bff2c73d6d/dsw-storage-4.5.0.tar.gz
+[2024-04-02 12:29:48] INFO root fetch - processPackages [encord]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [encord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-0.1.98.tar.gz tmp/encord-0.1.99.tar.gz --markdown 20240402/e/encord/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-database]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-database]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-database-4.4.1.tar.gz tmp/dsw-database-4.5.0.tar.gz --markdown 20240402/d/dsw-database/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-models]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-models-4.4.1.tar.gz tmp/dsw-models-4.5.0.tar.gz --markdown 20240402/d/dsw-models/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-command-queue]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-command-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-command-queue-4.4.1.tar.gz tmp/dsw-command-queue-4.5.0.tar.gz --markdown 20240402/d/dsw-command-queue/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-config]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-config-4.4.1.tar.gz tmp/dsw-config-4.5.0.tar.gz --markdown 20240402/d/dsw-config/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-storage]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-storage-4.4.1.tar.gz tmp/dsw-storage-4.5.0.tar.gz --markdown 20240402/d/dsw-storage/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-tdk]: executing diffoscope
+[2024-04-02 12:29:48] INFO root fetch - processPackages [dsw-tdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dsw-tdk-4.4.1.tar.gz tmp/dsw-tdk-4.5.0.tar.gz --markdown 20240402/d/dsw-tdk/4.4.1-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:29:49] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.1.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.1.2.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [ft2bt]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [uprock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/uprock_sdk-0.1.7.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [uprock-sdk]: Remove: archive file [/home/abi/fetcher/tmp/uprock_sdk-0.1.8.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [uprock-sdk]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-database]: Remove: archive file [/home/abi/fetcher/tmp/dsw-database-4.4.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-database]: Remove: archive file [/home/abi/fetcher/tmp/dsw-database-4.5.0.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [dsw-database]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-models]: Remove: archive file [/home/abi/fetcher/tmp/dsw-models-4.4.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-models]: Remove: archive file [/home/abi/fetcher/tmp/dsw-models-4.5.0.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [dsw-models]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-command-queue]: Remove: archive file [/home/abi/fetcher/tmp/dsw-command-queue-4.4.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-command-queue]: Remove: archive file [/home/abi/fetcher/tmp/dsw-command-queue-4.5.0.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [dsw-command-queue]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-config]: Remove: archive file [/home/abi/fetcher/tmp/dsw-config-4.4.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-config]: Remove: archive file [/home/abi/fetcher/tmp/dsw-config-4.5.0.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [dsw-config]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-storage]: Remove: archive file [/home/abi/fetcher/tmp/dsw-storage-4.4.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-storage]: Remove: archive file [/home/abi/fetcher/tmp/dsw-storage-4.5.0.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [dsw-storage]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.81.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw-tdk-4.4.1.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [dsw-tdk]: Remove: archive file [/home/abi/fetcher/tmp/dsw-tdk-4.5.0.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [dsw-tdk]: success
+[2024-04-02 12:29:49] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.98.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - processPackages [encord]: Remove: archive file [/home/abi/fetcher/tmp/encord-0.1.99.tar.gz]
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: End processing [encord]: success
+[2024-04-02 12:29:49] INFO root fetch - main [MainThread]: Store serial: [22583511]
