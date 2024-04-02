@@ -15175,3 +15175,29 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:55:57] INFO root fetch - processPackages [napari-cellseg3d]: Remove: archive file [/home/abi/fetcher/tmp/napari_cellseg3d-0.1.2.tar.gz]
 [2024-04-02 10:55:57] INFO root fetch - main [MainThread]: End processing [napari-cellseg3d]: success
 [2024-04-02 10:55:57] INFO root fetch - main [MainThread]: Store serial: [22582477]
+[2024-04-02 10:58:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582477]
+[2024-04-02 10:58:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: finbourne-identity-sdk
+[2024-04-02 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synchronicity
+[2024-04-02 10:58:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sedcreator
+[2024-04-02 10:58:06] INFO root fetch - processPackages [finbourne-identity-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 10:58:06] INFO root fetch - processPackages [sedcreator]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-02 10:58:06] INFO root fetch - processPackages [synchronicity]: New version: [0.6.6] Old Version: [0.6.5]
+[2024-04-02 10:58:06] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/27/c9/bd44e4836c4ef123a3f756f03bea60da13a5809a07449fe970fa86e64ae7/finbourne_identity_sdk-2.0.8.tar.gz
+[2024-04-02 10:58:06] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/cd/6e/e70e6add78e438dd44234b5821d428784ca8ddbe2d5b72eb35112ab4284f/synchronicity-0.6.5-py3-none-any.whl
+[2024-04-02 10:58:06] INFO root fetch - processPackages [sedcreator]: Downloading https://files.pythonhosted.org/packages/99/4c/8a1e47e87b5c6b8f741d14030065543d99d6301ac64df11596974a35955c/sedcreator-0.9.2.tar.gz
+[2024-04-02 10:58:06] INFO root fetch - processPackages [finbourne-identity-sdk]: Downloading https://files.pythonhosted.org/packages/27/17/417bd9ca10ad8fe7063060f8a89a4403a2b90974a9552588e118721ef9bf/finbourne_identity_sdk-2.0.9.tar.gz
+[2024-04-02 10:58:06] INFO root fetch - processPackages [finbourne-identity-sdk]: executing diffoscope
+[2024-04-02 10:58:06] INFO root fetch - processPackages [finbourne-identity-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_identity_sdk-2.0.8.tar.gz tmp/finbourne_identity_sdk-2.0.9.tar.gz --markdown 20240402/f/finbourne-identity-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:58:06] WARNING root fetch - processPackages [sedcreator]: Skipping package: exceeds size limit 81599634>=10485760
+[2024-04-02 10:58:06] INFO root fetch - main [MainThread]: End processing [sedcreator] error
+[2024-04-02 10:58:06] INFO root fetch - processPackages [synchronicity]: Downloading https://files.pythonhosted.org/packages/b7/68/ec72b55c73b3c7a2edba4860714e3589ed51f3d9e096082981f9486a2c3c/synchronicity-0.6.6-py3-none-any.whl
+[2024-04-02 10:58:06] INFO root fetch - processPackages [synchronicity]: executing diffoscope
+[2024-04-02 10:58:06] INFO root fetch - processPackages [synchronicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synchronicity-0.6.5-py3-none-any.whl.zip tmp/synchronicity-0.6.6-py3-none-any.whl.zip --markdown 20240402/s/synchronicity/0.6.5-0.6.6/diff.md --exclude *.pyd
+[2024-04-02 10:58:07] INFO root fetch - processPackages [synchronicity]: Remove: archive file [/home/abi/fetcher/tmp/synchronicity-0.6.5-py3-none-any.whl.zip]
+[2024-04-02 10:58:07] INFO root fetch - processPackages [synchronicity]: Remove: archive file [/home/abi/fetcher/tmp/synchronicity-0.6.6-py3-none-any.whl.zip]
+[2024-04-02 10:58:07] INFO root fetch - main [MainThread]: End processing [synchronicity]: success
+[2024-04-02 10:58:07] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.0.8.tar.gz]
+[2024-04-02 10:58:07] INFO root fetch - processPackages [finbourne-identity-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_identity_sdk-2.0.9.tar.gz]
+[2024-04-02 10:58:07] INFO root fetch - main [MainThread]: End processing [finbourne-identity-sdk]: success
+[2024-04-02 10:58:07] INFO root fetch - main [MainThread]: Store serial: [22582486]
