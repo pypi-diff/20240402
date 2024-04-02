@@ -15910,3 +15910,81 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:26:50] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
 [2024-04-02 11:26:50] INFO root fetch - main [MainThread]: End processing [esentity]: success
 [2024-04-02 11:26:50] INFO root fetch - main [MainThread]: Store serial: [22582817]
+[2024-04-02 11:28:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582817]
+[2024-04-02 11:29:00] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sequentia
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: krabby
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccpn-project-checker
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ITR
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: excell-functions
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hellozen
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sarus-data-spec-public
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sanctify
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: data-horizon
+[2024-04-02 11:29:00] INFO root fetch - processPackages [sequentia]: New version: [2.0.0] Old Version: [1.1.1]
+[2024-04-02 11:29:00] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 11:29:00] WARNING root fetch - processPackages [hellozen]: Skipping, unable to determine old version
+[2024-04-02 11:29:00] INFO root fetch - main [MainThread]: End processing [hellozen] error
+[2024-04-02 11:29:00] INFO root fetch - processPackages [excell-functions]: New version: [0.5] Old Version: [0.4]
+[2024-04-02 11:29:00] INFO root fetch - processPackages [sanctify]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-02 11:29:01] INFO root fetch - processPackages [sequentia]: Downloading https://files.pythonhosted.org/packages/c6/30/bacc6bb33d35cb1a7c612eebff48b9405a043f0e94b819feaf8024316450/sequentia-1.1.1.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [krabby]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 11:29:01] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/de/21/36eab33db6e6ac2609da7da8edaea481f45065fd630b3708d64f197aac5c/ccpn_project_checker-0.1.4.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [ITR]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-02 11:29:01] INFO root fetch - processPackages [data-horizon]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 11:29:01] INFO root fetch - processPackages [excell-functions]: Downloading https://files.pythonhosted.org/packages/7e/8f/a1002ce021258db26122837f98f8e96efb13b40f705b5b33b08e9fa826ce/excell_functions-0.4.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [sarus-data-spec-public]: New version: [3.9.2.dev0] Old Version: [3.9.1.dev1]
+[2024-04-02 11:29:01] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/63/25/0b704ad319b1b5507a728c3f5f15b13c9040ca90bfdf6a6809eac5c3b1c3/sanctify-1.3.0.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/81/43/322c72eedc21fb3ea17c8e0132cc5362e3d6a6f1b2b94a4f12affb177990/krabby-0.1.8.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [ITR]: Downloading https://files.pythonhosted.org/packages/86/1f/6e04dfec0bf24d1cff189c657c23504a10bd21397aa97bb0b73ee7ac5494/itr-1.1.3.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [data-horizon]: Downloading https://files.pythonhosted.org/packages/73/77/9bac1e7c7e92fd34b5177e3c6aef12f3de8d3a8817cebe29c8b983972126/data_horizon-0.1.1.tar.gz
+[2024-04-02 11:29:01] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/5a/48/3aff6730d3ff2bdc16ff047e6dcaa9b8d9f07de9557a724e7659544180c5/sarus_data_spec_public-3.9.1.dev1.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [excell-functions]: Downloading https://files.pythonhosted.org/packages/7a/53/709622b234af6c3766588d0d7cc79550482cbfc78997aeab76857010c63d/excell_functions-0.5.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [krabby]: Downloading https://files.pythonhosted.org/packages/14/b2/dde75359c4b87fe1fe26ff24086bc515e612ff9253940b1e509844c4c7c2/krabby-0.1.9.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [excell-functions]: executing diffoscope
+[2024-04-02 11:29:02] INFO root fetch - processPackages [excell-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excell_functions-0.4.tar.gz tmp/excell_functions-0.5.tar.gz --markdown 20240402/e/excell-functions/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-02 11:29:02] INFO root fetch - processPackages [ITR]: Downloading https://files.pythonhosted.org/packages/b7/ca/a330fb979253c443a49d17e84a8bb5f4ac3501aa465ab74930f0edf4cb3e/itr-1.1.4.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [data-horizon]: Downloading https://files.pythonhosted.org/packages/73/d1/050e532ae8f68a7026def49f4937caf9ece707eafff8320d74e384610c93/data_horizon-0.1.2.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [sanctify]: Downloading https://files.pythonhosted.org/packages/ba/85/a5b3a5f471578864c612fa2983bd3e9d6e02e43991e579bda2c899d04254/sanctify-1.4.0.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [krabby]: executing diffoscope
+[2024-04-02 11:29:02] INFO root fetch - processPackages [krabby]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krabby-0.1.8.tar.gz tmp/krabby-0.1.9.tar.gz --markdown 20240402/k/krabby/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 11:29:02] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/d9/a4/20729f48adf4248b63e456ea4696e3ed69e0067efd8f11837fae027e0505/ccpn_project_checker-0.1.5.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [sequentia]: Downloading https://files.pythonhosted.org/packages/0f/5c/2d251dd04b44e3d8428ec133335826e9847ff0440c85122e0f2181c5c577/sequentia-2.0.0.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [sarus-data-spec-public]: Downloading https://files.pythonhosted.org/packages/09/66/b47ab90fb871ff7cf26b1a333e6d6017119f477ca0eb3d92c9c5722d4867/sarus_data_spec_public-3.9.2.dev0.tar.gz
+[2024-04-02 11:29:02] INFO root fetch - processPackages [ITR]: executing diffoscope
+[2024-04-02 11:29:02] INFO root fetch - processPackages [ITR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itr-1.1.3.tar.gz tmp/itr-1.1.4.tar.gz --markdown 20240402/I/ITR/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-02 11:29:02] INFO root fetch - processPackages [sanctify]: executing diffoscope
+[2024-04-02 11:29:02] INFO root fetch - processPackages [sanctify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sanctify-1.3.0.tar.gz tmp/sanctify-1.4.0.tar.gz --markdown 20240402/s/sanctify/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-02 11:29:03] INFO root fetch - processPackages [sarus-data-spec-public]: executing diffoscope
+[2024-04-02 11:29:03] INFO root fetch - processPackages [sarus-data-spec-public]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sarus_data_spec_public-3.9.1.dev1.tar.gz tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz --markdown 20240402/s/sarus-data-spec-public/3.9.1.dev1-3.9.2.dev0/diff.md --exclude *.pyd
+[2024-04-02 11:29:03] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 11:29:03] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.4.tar.gz tmp/ccpn_project_checker-0.1.5.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 11:29:03] INFO root fetch - processPackages [data-horizon]: executing diffoscope
+[2024-04-02 11:29:03] INFO root fetch - processPackages [data-horizon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_horizon-0.1.1.tar.gz tmp/data_horizon-0.1.2.tar.gz --markdown 20240402/d/data-horizon/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 11:29:03] INFO root fetch - processPackages [sequentia]: executing diffoscope
+[2024-04-02 11:29:03] INFO root fetch - processPackages [sequentia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequentia-1.1.1.tar.gz tmp/sequentia-2.0.0.tar.gz --markdown 20240402/s/sequentia/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 11:29:03] INFO root fetch - processPackages [excell-functions]: Remove: archive file [/home/abi/fetcher/tmp/excell_functions-0.4.tar.gz]
+[2024-04-02 11:29:03] INFO root fetch - processPackages [excell-functions]: Remove: archive file [/home/abi/fetcher/tmp/excell_functions-0.5.tar.gz]
+[2024-04-02 11:29:03] INFO root fetch - main [MainThread]: End processing [excell-functions]: success
+[2024-04-02 11:29:03] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.8.tar.gz]
+[2024-04-02 11:29:03] INFO root fetch - processPackages [krabby]: Remove: archive file [/home/abi/fetcher/tmp/krabby-0.1.9.tar.gz]
+[2024-04-02 11:29:03] INFO root fetch - main [MainThread]: End processing [krabby]: success
+[2024-04-02 11:29:04] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.3.0.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - processPackages [sanctify]: Remove: archive file [/home/abi/fetcher/tmp/sanctify-1.4.0.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - main [MainThread]: End processing [sanctify]: success
+[2024-04-02 11:29:04] INFO root fetch - processPackages [ITR]: Remove: archive file [/home/abi/fetcher/tmp/itr-1.1.3.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - processPackages [ITR]: Remove: archive file [/home/abi/fetcher/tmp/itr-1.1.4.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - main [MainThread]: End processing [ITR]: success
+[2024-04-02 11:29:04] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.1.1.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - processPackages [data-horizon]: Remove: archive file [/home/abi/fetcher/tmp/data_horizon-0.1.2.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - main [MainThread]: End processing [data-horizon]: success
+[2024-04-02 11:29:04] INFO root fetch - processPackages [sequentia]: Remove: archive file [/home/abi/fetcher/tmp/sequentia-1.1.1.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - processPackages [sequentia]: Remove: archive file [/home/abi/fetcher/tmp/sequentia-2.0.0.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - main [MainThread]: End processing [sequentia]: success
+[2024-04-02 11:29:04] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.1.dev1.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - processPackages [sarus-data-spec-public]: Remove: archive file [/home/abi/fetcher/tmp/sarus_data_spec_public-3.9.2.dev0.tar.gz]
+[2024-04-02 11:29:04] INFO root fetch - main [MainThread]: End processing [sarus-data-spec-public]: success
+[2024-04-02 11:29:11] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.4.tar.gz]
+[2024-04-02 11:29:11] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.5.tar.gz]
+[2024-04-02 11:29:11] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 11:29:11] INFO root fetch - main [MainThread]: Store serial: [22582842]
