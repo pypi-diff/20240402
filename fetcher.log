@@ -11873,3 +11873,30 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:24:32] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.4-py3-none-any.whl.zip]
 [2024-04-02 08:24:32] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
 [2024-04-02 08:24:32] INFO root fetch - main [MainThread]: Store serial: [22581210]
+[2024-04-02 08:26:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581210]
+[2024-04-02 08:26:40] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 08:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: airbyte
+[2024-04-02 08:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genice2-extra
+[2024-04-02 08:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muti.numer
+[2024-04-02 08:26:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: new-package11
+[2024-04-02 08:26:40] INFO root fetch - processPackages [airbyte]: New version: [0.8.4] Old Version: [0.8.3]
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: New version: [2.2] Old Version: [2.1]
+[2024-04-02 08:26:41] WARNING root fetch - processPackages [muti.numer]: Skipping, unable to determine old version
+[2024-04-02 08:26:41] INFO root fetch - main [MainThread]: End processing [muti.numer] error
+[2024-04-02 08:26:41] WARNING root fetch - processPackages [new-package11]: Skipping, unable to determine old version
+[2024-04-02 08:26:41] INFO root fetch - main [MainThread]: End processing [new-package11] error
+[2024-04-02 08:26:41] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/ed/18/f77709c6cebd4906bef97cccfc26cc73ddd54dddac01e89c017a1e956a9e/airbyte-0.8.3.tar.gz
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: Downloading https://files.pythonhosted.org/packages/75/29/386eafd682da29fad4e4839589310a8419cfaa0212c06cd81e18dbe9c4a8/genice2_extra-2.1.tar.gz
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: Downloading https://files.pythonhosted.org/packages/ed/ed/faec15118e08535d989f56b216ceef3ea0ae2294aa2b5f5b1239bfd3acd0/genice2_extra-2.2.tar.gz
+[2024-04-02 08:26:41] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/9c/15/0ed18f9974b025648515fd61318dbe0f600528ec50091886c43ef6af06b4/airbyte-0.8.4.tar.gz
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: executing diffoscope
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genice2_extra-2.1.tar.gz tmp/genice2_extra-2.2.tar.gz --markdown 20240402/g/genice2-extra/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-02 08:26:41] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2024-04-02 08:26:41] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-0.8.3.tar.gz tmp/airbyte-0.8.4.tar.gz --markdown 20240402/a/airbyte/0.8.3-0.8.4/diff.md --exclude *.pyd
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: Remove: archive file [/home/abi/fetcher/tmp/genice2_extra-2.1.tar.gz]
+[2024-04-02 08:26:41] INFO root fetch - processPackages [genice2-extra]: Remove: archive file [/home/abi/fetcher/tmp/genice2_extra-2.2.tar.gz]
+[2024-04-02 08:26:41] INFO root fetch - main [MainThread]: End processing [genice2-extra]: success
+[2024-04-02 08:26:42] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.3.tar.gz]
+[2024-04-02 08:26:42] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.4.tar.gz]
+[2024-04-02 08:26:42] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2024-04-02 08:26:42] INFO root fetch - main [MainThread]: Store serial: [22581228]
