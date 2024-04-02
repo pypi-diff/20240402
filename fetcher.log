@@ -7785,3 +7785,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:26:07] INFO root fetch - processPackages [fodantic]: Remove: archive file [/home/abi/fetcher/tmp/fodantic-0.0.4.tar.gz]
 [2024-04-02 03:26:07] INFO root fetch - main [MainThread]: End processing [fodantic]: success
 [2024-04-02 03:26:07] INFO root fetch - main [MainThread]: Store serial: [22579293]
+[2024-04-02 03:28:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579293]
+[2024-04-02 03:28:15] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 03:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chaturbate-poller
+[2024-04-02 03:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onediff
+[2024-04-02 03:28:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onediffx
+[2024-04-02 03:28:15] INFO root fetch - processPackages [chaturbate-poller]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 03:28:15] INFO root fetch - processPackages [onediffx]: New version: [0.13.0.dev202404020126] Old Version: [0.13.0.dev202404010128]
+[2024-04-02 03:28:15] INFO root fetch - processPackages [onediff]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 03:28:16] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/b1/f0/557bfb2884001fb0eefc5ab657f4168cf1d9855c775ac1176dee56d8d325/chaturbate_poller-0.1.2.tar.gz
+[2024-04-02 03:28:16] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/83/c9/58b1de539e4dcc20759a53b6b3584d506ebe4b135f47a22f71badc46a532/onediffx-0.13.0.dev202404010128.tar.gz
+[2024-04-02 03:28:16] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/b5/b9/374ebf1306993c83fd9b2b7bc584983456da7a4dda0cd79e923e85476450/onediff-0.8.0-py3-none-any.whl
+[2024-04-02 03:28:17] INFO root fetch - processPackages [chaturbate-poller]: Downloading https://files.pythonhosted.org/packages/bd/4f/63b6d13a10bb36b7e7459da4cda2a1cc272c45a5e20fb1515706a114b59d/chaturbate_poller-0.1.3.tar.gz
+[2024-04-02 03:28:17] INFO root fetch - processPackages [onediffx]: Downloading https://files.pythonhosted.org/packages/25/5c/89e3fbec23e7dca385f3758fd08ad2e04b0798d91e7981def4aae68a3d7c/onediffx-0.13.0.dev202404020126.tar.gz
+[2024-04-02 03:28:17] INFO root fetch - processPackages [onediff]: Downloading https://files.pythonhosted.org/packages/ef/35/e11ef77b4ecbfca20f6a6f4e859e3366285f109bbe200a8a82c62b8db14d/onediff-0.9.0-py3-none-any.whl
+[2024-04-02 03:28:17] INFO root fetch - processPackages [chaturbate-poller]: executing diffoscope
+[2024-04-02 03:28:17] INFO root fetch - processPackages [chaturbate-poller]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chaturbate_poller-0.1.2.tar.gz tmp/chaturbate_poller-0.1.3.tar.gz --markdown 20240402/c/chaturbate-poller/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 03:28:17] INFO root fetch - processPackages [onediffx]: executing diffoscope
+[2024-04-02 03:28:17] INFO root fetch - processPackages [onediffx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediffx-0.13.0.dev202404010128.tar.gz tmp/onediffx-0.13.0.dev202404020126.tar.gz --markdown 20240402/o/onediffx/0.13.0.dev202404010128-0.13.0.dev202404020126/diff.md --exclude *.pyd
+[2024-04-02 03:28:18] INFO root fetch - processPackages [onediff]: executing diffoscope
+[2024-04-02 03:28:18] INFO root fetch - processPackages [onediff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onediff-0.8.0-py3-none-any.whl.zip tmp/onediff-0.9.0-py3-none-any.whl.zip --markdown 20240402/o/onediff/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 03:28:18] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.1.2.tar.gz]
+[2024-04-02 03:28:18] INFO root fetch - processPackages [chaturbate-poller]: Remove: archive file [/home/abi/fetcher/tmp/chaturbate_poller-0.1.3.tar.gz]
+[2024-04-02 03:28:18] INFO root fetch - main [MainThread]: End processing [chaturbate-poller]: success
+[2024-04-02 03:28:18] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404010128.tar.gz]
+[2024-04-02 03:28:18] INFO root fetch - processPackages [onediffx]: Remove: archive file [/home/abi/fetcher/tmp/onediffx-0.13.0.dev202404020126.tar.gz]
+[2024-04-02 03:28:18] INFO root fetch - main [MainThread]: End processing [onediffx]: success
+[2024-04-02 03:28:18] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.8.0-py3-none-any.whl.zip]
+[2024-04-02 03:28:18] INFO root fetch - processPackages [onediff]: Remove: archive file [/home/abi/fetcher/tmp/onediff-0.9.0-py3-none-any.whl.zip]
+[2024-04-02 03:28:18] INFO root fetch - main [MainThread]: End processing [onediff]: success
+[2024-04-02 03:28:18] INFO root fetch - main [MainThread]: Store serial: [22579365]
