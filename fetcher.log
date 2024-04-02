@@ -15659,3 +15659,39 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2024-04-02 11:15:49] INFO root fetch - main [MainThread]: Store serial: [22582725]
+[2024-04-02 11:17:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582725]
+[2024-04-02 11:17:58] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 11:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: boomgate
+[2024-04-02 11:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zlczhao
+[2024-04-02 11:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tbp-nightly
+[2024-04-02 11:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zen-test
+[2024-04-02 11:17:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scmodels
+[2024-04-02 11:17:58] WARNING root fetch - processPackages [zen-test]: Skipping, unable to determine old version
+[2024-04-02 11:17:58] INFO root fetch - main [MainThread]: End processing [zen-test] error
+[2024-04-02 11:17:58] INFO root fetch - processPackages [boomgate]: New version: [0.0.2] Old Version: [0.0.1.dev2]
+[2024-04-02 11:17:58] INFO root fetch - processPackages [scmodels]: New version: [0.3.1] Old Version: [0.3]
+[2024-04-02 11:17:58] WARNING root fetch - processPackages [zlczhao]: Skipping, unable to determine old version
+[2024-04-02 11:17:58] INFO root fetch - main [MainThread]: End processing [zlczhao] error
+[2024-04-02 11:17:58] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/3f/ab/d2d30cfdf81153e7942ad6c43a61aa2c3eadf95ab449f612507d87a79279/boomgate-0.0.1.dev2.tar.gz
+[2024-04-02 11:17:58] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2024-04-02 11:17:58] INFO root fetch - processPackages [scmodels]: Downloading https://files.pythonhosted.org/packages/60/46/2c4c3e7a73ab2c997ace9d81324f8a242aea79f6dfcc3dbe4816fc439072/scmodels-0.3.tar.gz
+[2024-04-02 11:17:59] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2024-04-02 11:17:59] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/33/1f/00026142e86861719f439ec965cf35ebef9aaa0b051670464088da2136da/boomgate-0.0.2.tar.gz
+[2024-04-02 11:17:59] INFO root fetch - processPackages [scmodels]: Downloading https://files.pythonhosted.org/packages/9c/d8/a99aacc53a94db522052f3177613f424eeb651e4f0b82b139acf02e8552c/scmodels-0.3.1.tar.gz
+[2024-04-02 11:17:59] INFO root fetch - processPackages [boomgate]: executing diffoscope
+[2024-04-02 11:17:59] INFO root fetch - processPackages [boomgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boomgate-0.0.1.dev2.tar.gz tmp/boomgate-0.0.2.tar.gz --markdown 20240402/b/boomgate/0.0.1.dev2-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 11:17:59] INFO root fetch - processPackages [scmodels]: executing diffoscope
+[2024-04-02 11:17:59] INFO root fetch - processPackages [scmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmodels-0.3.tar.gz tmp/scmodels-0.3.1.tar.gz --markdown 20240402/s/scmodels/0.3-0.3.1/diff.md --exclude *.pyd
+[2024-04-02 11:17:59] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.1.dev2.tar.gz]
+[2024-04-02 11:17:59] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.2.tar.gz]
+[2024-04-02 11:17:59] INFO root fetch - main [MainThread]: End processing [boomgate]: success
+[2024-04-02 11:18:00] INFO root fetch - processPackages [scmodels]: Remove: archive file [/home/abi/fetcher/tmp/scmodels-0.3.tar.gz]
+[2024-04-02 11:18:00] INFO root fetch - processPackages [scmodels]: Remove: archive file [/home/abi/fetcher/tmp/scmodels-0.3.1.tar.gz]
+[2024-04-02 11:18:00] INFO root fetch - main [MainThread]: End processing [scmodels]: success
+[2024-04-02 11:18:01] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2024-04-02 11:18:03] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2024-04-02 11:18:03] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20240402/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2024-04-02 11:18:05] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2024-04-02 11:18:05] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2024-04-02 11:18:05] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2024-04-02 11:18:05] INFO root fetch - main [MainThread]: Store serial: [22582742]
