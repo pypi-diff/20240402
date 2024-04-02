@@ -23420,3 +23420,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 16:00:03] INFO root fetch - processPackages [rucio]: Remove: archive file [/home/abi/fetcher/tmp/rucio-34.1.0.tar.gz]
 [2024-04-02 16:00:03] INFO root fetch - main [MainThread]: End processing [rucio]: success
 [2024-04-02 16:00:03] INFO root fetch - main [MainThread]: Store serial: [22585933]
+[2024-04-02 16:02:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585933]
+[2024-04-02 16:02:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 16:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GeoHD
+[2024-04-02 16:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: miservice-fork
+[2024-04-02 16:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pysdl2-dll
+[2024-04-02 16:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easykube
+[2024-04-02 16:02:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-celery
+[2024-04-02 16:02:12] WARNING root fetch - processPackages [GeoHD]: Skipping, unable to determine old version
+[2024-04-02 16:02:12] INFO root fetch - main [MainThread]: End processing [GeoHD] error
+[2024-04-02 16:02:13] INFO root fetch - processPackages [easykube]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-02 16:02:13] INFO root fetch - processPackages [invenio-celery]: New version: [1.3.1] Old Version: [1.3.0]
+[2024-04-02 16:02:13] INFO root fetch - processPackages [miservice-fork]: New version: [2.4.1] Old Version: [2.4.0]
+[2024-04-02 16:02:13] INFO root fetch - processPackages [pysdl2-dll]: New version: [2.30.2] Old Version: [2.30.1]
+[2024-04-02 16:02:13] INFO root fetch - processPackages [invenio-celery]: Downloading https://files.pythonhosted.org/packages/b2/f9/e58132d195b2b2b61bbe70662a42e3e39f5e7bef80dcd34e89d83d07e6af/invenio-celery-1.3.0.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [pysdl2-dll]: Downloading https://files.pythonhosted.org/packages/73/ac/ecb7506faf926997ef22ec8258e9abbc32fb5359e93d3460bdb6a5cf6f36/pysdl2-dll-2.30.1.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/1b/1b/985b6686fa34b64f2c85975eb023f0062dc42ab839c6a29e5a1b7edcabf4/miservice_fork-2.4.0.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [easykube]: Downloading https://files.pythonhosted.org/packages/ba/52/03f5d9a5607a60bad6b7b41620ef2fcffba49255c93f867576c9ca7f81a7/easykube-0.2.0.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [pysdl2-dll]: Downloading https://files.pythonhosted.org/packages/70/52/984b7935e21623d7c7c80d239a80e1cb15e073e049fd7e891baeb9e57aff/pysdl2-dll-2.30.2.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [miservice-fork]: Downloading https://files.pythonhosted.org/packages/2a/70/63821f578d9d54f1c8189d839b071bb523c9316de404ecbd1fed9b664866/miservice_fork-2.4.1.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [easykube]: Downloading https://files.pythonhosted.org/packages/df/82/18369cc64947dc14446c7a42530c22321035785cfc513265643023a595d7/easykube-0.3.0.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [invenio-celery]: Downloading https://files.pythonhosted.org/packages/d9/da/7d43c274c5699b53e5e57c4732100fc855867b55e49c6b4423d9d4121abb/invenio-celery-1.3.1.tar.gz
+[2024-04-02 16:02:13] INFO root fetch - processPackages [miservice-fork]: executing diffoscope
+[2024-04-02 16:02:13] INFO root fetch - processPackages [miservice-fork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miservice_fork-2.4.0.tar.gz tmp/miservice_fork-2.4.1.tar.gz --markdown 20240402/m/miservice-fork/2.4.0-2.4.1/diff.md --exclude *.pyd
+[2024-04-02 16:02:13] INFO root fetch - processPackages [pysdl2-dll]: executing diffoscope
+[2024-04-02 16:02:13] INFO root fetch - processPackages [easykube]: executing diffoscope
+[2024-04-02 16:02:13] INFO root fetch - processPackages [easykube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easykube-0.2.0.tar.gz tmp/easykube-0.3.0.tar.gz --markdown 20240402/e/easykube/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 16:02:13] INFO root fetch - processPackages [pysdl2-dll]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysdl2-dll-2.30.1.tar.gz tmp/pysdl2-dll-2.30.2.tar.gz --markdown 20240402/p/pysdl2-dll/2.30.1-2.30.2/diff.md --exclude *.pyd
+[2024-04-02 16:02:14] INFO root fetch - processPackages [invenio-celery]: executing diffoscope
+[2024-04-02 16:02:14] INFO root fetch - processPackages [invenio-celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-celery-1.3.0.tar.gz tmp/invenio-celery-1.3.1.tar.gz --markdown 20240402/i/invenio-celery/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2024-04-02 16:02:14] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.4.0.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - processPackages [miservice-fork]: Remove: archive file [/home/abi/fetcher/tmp/miservice_fork-2.4.1.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - main [MainThread]: End processing [miservice-fork]: success
+[2024-04-02 16:02:14] INFO root fetch - processPackages [pysdl2-dll]: Remove: archive file [/home/abi/fetcher/tmp/pysdl2-dll-2.30.1.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - processPackages [pysdl2-dll]: Remove: archive file [/home/abi/fetcher/tmp/pysdl2-dll-2.30.2.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - main [MainThread]: End processing [pysdl2-dll]: success
+[2024-04-02 16:02:14] INFO root fetch - processPackages [easykube]: Remove: archive file [/home/abi/fetcher/tmp/easykube-0.2.0.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - processPackages [easykube]: Remove: archive file [/home/abi/fetcher/tmp/easykube-0.3.0.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - main [MainThread]: End processing [easykube]: success
+[2024-04-02 16:02:14] INFO root fetch - processPackages [invenio-celery]: Remove: archive file [/home/abi/fetcher/tmp/invenio-celery-1.3.0.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - processPackages [invenio-celery]: Remove: archive file [/home/abi/fetcher/tmp/invenio-celery-1.3.1.tar.gz]
+[2024-04-02 16:02:14] INFO root fetch - main [MainThread]: End processing [invenio-celery]: success
+[2024-04-02 16:02:14] INFO root fetch - main [MainThread]: Store serial: [22585951]
