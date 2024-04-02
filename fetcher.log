@@ -10830,3 +10830,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:08:33] INFO root fetch - processPackages [zerohertzLib]: Remove: archive file [/home/abi/fetcher/tmp/zerohertzLib-1.0.1.tar.gz]
 [2024-04-02 07:08:33] INFO root fetch - main [MainThread]: End processing [zerohertzLib]: success
 [2024-04-02 07:08:33] INFO root fetch - main [MainThread]: Store serial: [22580825]
+[2024-04-02 07:10:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580825]
+[2024-04-02 07:10:42] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian
+[2024-04-02 07:10:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pysoltoken
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-02 07:10:43] INFO root fetch - processPackages [pysoltoken]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/d0/45/4698e775f36b10bc0fd9dd8d413883fdcf9a119115bedb0c6cbc7885307f/haskellian-0.1.9-py3-none-any.whl
+[2024-04-02 07:10:43] INFO root fetch - processPackages [pysoltoken]: Downloading https://files.pythonhosted.org/packages/e3/ae/2a9f3a198e48ba8eddebbcbb263d1c2dfd5086c5bb7fc4b9cb3cda4abaff/pysoltoken-1.0.0.tar.gz
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/ff/2c/d93ba9f84396c0aeba7f9488a8478974b0dc70d78d1243744d3ca86665fc/haskellian-0.2.0.tar.gz
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.1.9-py3-none-any.whl.zip tmp/haskellian-0.2.0.tar.gz --markdown 20240402/h/haskellian/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 07:10:43] INFO root fetch - processPackages [pysoltoken]: Downloading https://files.pythonhosted.org/packages/dd/61/190bae84c84658e1e51ee3e29567045e02d97eac84d6520cce6c2669c6b2/pysoltoken-1.0.1.tar.gz
+[2024-04-02 07:10:43] INFO root fetch - processPackages [pysoltoken]: executing diffoscope
+[2024-04-02 07:10:43] INFO root fetch - processPackages [pysoltoken]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysoltoken-1.0.0.tar.gz tmp/pysoltoken-1.0.1.tar.gz --markdown 20240402/p/pysoltoken/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.1.9-py3-none-any.whl.zip]
+[2024-04-02 07:10:43] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.2.0.tar.gz]
+[2024-04-02 07:10:43] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-02 07:10:44] INFO root fetch - processPackages [pysoltoken]: Remove: archive file [/home/abi/fetcher/tmp/pysoltoken-1.0.0.tar.gz]
+[2024-04-02 07:10:44] INFO root fetch - processPackages [pysoltoken]: Remove: archive file [/home/abi/fetcher/tmp/pysoltoken-1.0.1.tar.gz]
+[2024-04-02 07:10:44] INFO root fetch - main [MainThread]: End processing [pysoltoken]: success
+[2024-04-02 07:10:44] INFO root fetch - main [MainThread]: Store serial: [22580831]
