@@ -10749,3 +10749,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:02:00] INFO root fetch - processPackages [xs3d]: Remove: archive file [/home/abi/fetcher/tmp/xs3d-1.7.0.tar.gz]
 [2024-04-02 07:02:00] INFO root fetch - main [MainThread]: End processing [xs3d]: success
 [2024-04-02 07:02:00] INFO root fetch - main [MainThread]: Store serial: [22580801]
+[2024-04-02 07:04:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580801]
+[2024-04-02 07:04:09] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 07:04:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nltko
+[2024-04-02 07:04:09] INFO root fetch - processPackages [nltko]: New version: [0.0.1] Old Version: [0.0.0]
+[2024-04-02 07:04:09] INFO root fetch - processPackages [nltko]: Downloading https://files.pythonhosted.org/packages/4e/13/f0f2a3c37e1ed6810a18223f14d37a5a827db685ca780bc9e3c6d414024c/nltko-0.0.0-py2.py3-none-any.whl
+[2024-04-02 07:04:10] INFO root fetch - processPackages [nltko]: Downloading https://files.pythonhosted.org/packages/84/63/ce14b8bd35e8bf32e6136bb0eab608c1123ad7f337675621886929bfebb6/nltko-0.0.1-py2.py3-none-any.whl
+[2024-04-02 07:04:10] INFO root fetch - processPackages [nltko]: executing diffoscope
+[2024-04-02 07:04:10] INFO root fetch - processPackages [nltko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nltko-0.0.0-py2.py3-none-any.whl.zip tmp/nltko-0.0.1-py2.py3-none-any.whl.zip --markdown 20240402/n/nltko/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2024-04-02 07:04:10] INFO root fetch - processPackages [nltko]: Remove: archive file [/home/abi/fetcher/tmp/nltko-0.0.0-py2.py3-none-any.whl.zip]
+[2024-04-02 07:04:10] INFO root fetch - processPackages [nltko]: Remove: archive file [/home/abi/fetcher/tmp/nltko-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-02 07:04:10] INFO root fetch - main [MainThread]: End processing [nltko]: success
+[2024-04-02 07:04:10] INFO root fetch - main [MainThread]: Store serial: [22580804]
