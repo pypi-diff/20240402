@@ -14511,3 +14511,87 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:35:20] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.3.tar.gz]
 [2024-04-02 10:35:20] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 10:35:20] INFO root fetch - main [MainThread]: Store serial: [22582234]
+[2024-04-02 10:37:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582234]
+[2024-04-02 10:37:29] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wechatpayv3
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pre5g
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ocpy-client
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqqq
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-document-page-access-group
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-ddmrp-adjustment
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testingcgsdk
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cyclonedx-editor-validator
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: psyplot
+[2024-04-02 10:37:29] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: New version: [16.0.1.0.0.1] Old Version: [15.0.1.0.0.2]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [pre5g]: New version: [0.92] Old Version: [0.91]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Downloading https://files.pythonhosted.org/packages/7e/6f/b93e187f21fc0b84ffcc91b92d78843bf22da513bdba8d221ca55ee3456a/odoo_addon_document_page_access_group-15.0.1.0.0.2-py3-none-any.whl
+[2024-04-02 10:37:29] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.3]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ocpy-client]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/52/4d/fa3d1b82318bcd5c7dff066c08a469eec74445a1e5c3748bd0b887c9d73b/pre5g-0.91.tar.gz
+[2024-04-02 10:37:29] INFO root fetch - processPackages [wechatpayv3]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 10:37:29] INFO root fetch - processPackages [pyqqq]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [psyplot]: New version: [1.5.0] Old Version: [1.4.3]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [cyclonedx-editor-validator]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-02 10:37:29] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/7e/36/15f14e60c00ca0aa2bb9dd6ab6fa59b985a73171071249ad85e36a9bf2b9/odoo_addon_ddmrp_adjustment-16.0.1.3.0.3-py3-none-any.whl
+[2024-04-02 10:37:29] INFO root fetch - processPackages [ocpy-client]: Downloading https://files.pythonhosted.org/packages/80/7a/4d879c690b7919d571ed42962c72a616237b63acf9a991f8c13352eef772/ocpy_client-1.3.8.tar.gz
+[2024-04-02 10:37:29] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/71/83/3a10f7692ca833df60c2c13fc32dd494a1cd913a359f0ce0dbdba33164ea/wechatpayv3-1.2.8.tar.gz
+[2024-04-02 10:37:29] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/35/6c/9c4b4979a436e7a3f2998dc0fe245623661d1cd06465d69c9acb52a9bd1a/pyqqq-0.5.8.tar.gz
+[2024-04-02 10:37:29] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Downloading https://files.pythonhosted.org/packages/bf/6a/0126354dab068300006b7b7f085c88999f86919cbfa370b1fc581ae9cbb6/odoo_addon_document_page_access_group-16.0.1.0.0.1-py3-none-any.whl
+[2024-04-02 10:37:29] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 10:37:29] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/67/7c/4938535f988f2063c7fa3fa677f0cc414cf52b3f02a6145747d61d7823f2/cyclonedx_editor_validator-0.9.3.tar.gz
+[2024-04-02 10:37:29] INFO root fetch - processPackages [psyplot]: Downloading https://files.pythonhosted.org/packages/cf/33/f69d9ae63ebe419a05fec16030078539f48f92c64e1405a658db8dd3321e/psyplot-1.4.3.tar.gz
+[2024-04-02 10:37:29] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/b7/3c/712fc2c9351aaa0e5686e6b09edd0bee5ca24a9d493438fa5b1fdcfc3dab/pre5g-0.92.tar.gz
+[2024-04-02 10:37:30] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_document_page_access_group-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_document_page_access_group-16.0.1.0.0.1-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-document-page-access-group/15.0.1.0.0.2-16.0.1.0.0.1/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.91.tar.gz tmp/pre5g-0.92.tar.gz --markdown 20240402/p/pre5g/0.91-0.92/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Downloading https://files.pythonhosted.org/packages/49/ec/3278c87fdbe34ed844901eb4bc1dec937c921004e71385801b686ca5cf5f/odoo_addon_ddmrp_adjustment-16.0.1.4.0-py3-none-any.whl
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pyqqq]: Downloading https://files.pythonhosted.org/packages/d5/cc/9fc43ae7cc5f50a777c8a477fc9fef6b268c0f8e5262e29334c6f6467756/pyqqq-0.5.9.tar.gz
+[2024-04-02 10:37:30] INFO root fetch - processPackages [ocpy-client]: Downloading https://files.pythonhosted.org/packages/f6/65/78116154ee7a9aa75f12f80ede4c59dd8a08052d5bb18a9f6dc72f3e2a8d/ocpy_client-1.3.9.tar.gz
+[2024-04-02 10:37:30] INFO root fetch - processPackages [psyplot]: Downloading https://files.pythonhosted.org/packages/08/d2/5d2e53f15ffc967af5713747550517e31a3d816ca83bd9300cb54204160e/psyplot-1.5.0.tar.gz
+[2024-04-02 10:37:30] INFO root fetch - processPackages [wechatpayv3]: Downloading https://files.pythonhosted.org/packages/da/ad/c24743b5be0d84cb9e06e1782533916efab40435177b65150d0773448361/wechatpayv3-1.2.9.tar.gz
+[2024-04-02 10:37:30] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_ddmrp_adjustment-16.0.1.3.0.3-py3-none-any.whl.zip tmp/odoo_addon_ddmrp_adjustment-16.0.1.4.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-ddmrp-adjustment/16.0.1.3.0.3-16.0.1.4.0/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [ocpy-client]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [ocpy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ocpy_client-1.3.8.tar.gz tmp/ocpy_client-1.3.9.tar.gz --markdown 20240402/o/ocpy-client/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [cyclonedx-editor-validator]: Downloading https://files.pythonhosted.org/packages/78/42/3f14c75bb3778fd7a0e383f90505f065e368e297727eaf7043b617e3c7c9/cyclonedx_editor_validator-0.9.4.tar.gz
+[2024-04-02 10:37:30] INFO root fetch - processPackages [wechatpayv3]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [wechatpayv3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechatpayv3-1.2.8.tar.gz tmp/wechatpayv3-1.2.9.tar.gz --markdown 20240402/w/wechatpayv3/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pyqqq]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pyqqq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqqq-0.5.8.tar.gz tmp/pyqqq-0.5.9.tar.gz --markdown 20240402/p/pyqqq/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [psyplot]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [psyplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psyplot-1.4.3.tar.gz tmp/psyplot-1.5.0.tar.gz --markdown 20240402/p/psyplot/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [cyclonedx-editor-validator]: executing diffoscope
+[2024-04-02 10:37:30] INFO root fetch - processPackages [cyclonedx-editor-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyclonedx_editor_validator-0.9.3.tar.gz tmp/cyclonedx_editor_validator-0.9.4.tar.gz --markdown 20240402/c/cyclonedx-editor-validator/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.91.tar.gz]
+[2024-04-02 10:37:30] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.92.tar.gz]
+[2024-04-02 10:37:30] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_access_group-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [odoo-addon-document-page-access-group]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_document_page_access_group-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-document-page-access-group]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_adjustment-16.0.1.3.0.3-py3-none-any.whl.zip]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [odoo-addon-ddmrp-adjustment]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_ddmrp_adjustment-16.0.1.4.0-py3-none-any.whl.zip]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [odoo-addon-ddmrp-adjustment]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.5.8.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [pyqqq]: Remove: archive file [/home/abi/fetcher/tmp/pyqqq-0.5.9.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [pyqqq]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [ocpy-client]: Remove: archive file [/home/abi/fetcher/tmp/ocpy_client-1.3.8.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [ocpy-client]: Remove: archive file [/home/abi/fetcher/tmp/ocpy_client-1.3.9.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [ocpy-client]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.8.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [wechatpayv3]: Remove: archive file [/home/abi/fetcher/tmp/wechatpayv3-1.2.9.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [wechatpayv3]: success
+[2024-04-02 10:37:31] INFO root fetch - processPackages [psyplot]: Remove: archive file [/home/abi/fetcher/tmp/psyplot-1.4.3.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - processPackages [psyplot]: Remove: archive file [/home/abi/fetcher/tmp/psyplot-1.5.0.tar.gz]
+[2024-04-02 10:37:31] INFO root fetch - main [MainThread]: End processing [psyplot]: success
+[2024-04-02 10:37:32] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.3.tar.gz]
+[2024-04-02 10:37:32] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.4.tar.gz]
+[2024-04-02 10:37:32] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
+[2024-04-02 10:37:32] INFO root fetch - main [MainThread]: Store serial: [22582258]
