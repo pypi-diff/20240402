@@ -15552,3 +15552,61 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:11:25] INFO root fetch - processPackages [numexpr]: Remove: archive file [/home/abi/fetcher/tmp/numexpr-2.9.0.tar.gz]
 [2024-04-02 11:11:25] INFO root fetch - main [MainThread]: End processing [numexpr]: success
 [2024-04-02 11:11:25] INFO root fetch - main [MainThread]: Store serial: [22582642]
+[2024-04-02 11:13:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582642]
+[2024-04-02 11:13:34] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: robotframework-reportmodifier
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robyn
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alohapy
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alohapy
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jacksung
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zen-test
+[2024-04-02 11:13:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dve-lumipy-preview
+[2024-04-02 11:13:35] INFO root fetch - processPackages [robotframework-reportmodifier]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-02 11:13:35] WARNING root fetch - processPackages [zen-test]: Skipping, unable to determine old version
+[2024-04-02 11:13:35] INFO root fetch - main [MainThread]: End processing [zen-test] error
+[2024-04-02 11:13:35] INFO root fetch - processPackages [robotframework-reportmodifier]: Downloading https://files.pythonhosted.org/packages/b4/aa/75a502db820869740c78891f096b5af843f12d13abcaff5e033dd82406cd/robotframework_reportmodifier-0.1.9.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: New version: [0.2.1] Old Version: [0.1]
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: New version: [0.2.1] Old Version: [0.1]
+[2024-04-02 11:13:35] INFO root fetch - processPackages [jacksung]: New version: [0.0.2.97] Old Version: [0.0.2.96]
+[2024-04-02 11:13:35] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.997] Old Version: [0.1.991]
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: Downloading https://files.pythonhosted.org/packages/b0/66/5e35b29823b6c21fd140036baf2042013a4e67dc57a92e8b9c3bfed21842/alohapy-0.1.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: Downloading https://files.pythonhosted.org/packages/b0/66/5e35b29823b6c21fd140036baf2042013a4e67dc57a92e8b9c3bfed21842/alohapy-0.1.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/68/73/e089bf527238403601acaf2d20b420cd943db8a210a7f4a463796e511fb1/jacksung-0.0.2.96.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [robotframework-reportmodifier]: Downloading https://files.pythonhosted.org/packages/d8/1f/2b8496cfbd9597d2ab056420d4efdbd788166a0b02c4787033abce1ac2f0/robotframework_reportmodifier-0.2.0.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/d8/f9/9bc5c5506192303d5e6d9c44bea6d148cfedd4d1d8eca48445106c6b7bf9/dve_lumipy_preview-0.1.991-py3-none-any.whl
+[2024-04-02 11:13:35] INFO root fetch - processPackages [robotframework-reportmodifier]: executing diffoscope
+[2024-04-02 11:13:35] INFO root fetch - processPackages [robotframework-reportmodifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_reportmodifier-0.1.9.tar.gz tmp/robotframework_reportmodifier-0.2.0.tar.gz --markdown 20240402/r/robotframework-reportmodifier/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: Downloading https://files.pythonhosted.org/packages/7e/eb/77f212f80bc26aebf65879d4f4ca8f41d4d5daf0b25386ac18cfe698e468/alohapy-0.2.1.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: Downloading https://files.pythonhosted.org/packages/7e/eb/77f212f80bc26aebf65879d4f4ca8f41d4d5daf0b25386ac18cfe698e468/alohapy-0.2.1.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [robyn]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 11:13:35] INFO root fetch - processPackages [jacksung]: Downloading https://files.pythonhosted.org/packages/7d/1d/1b40c74969efea2a5e91c4b5cdb32bd92b1a9b2e757689b3649c6884674a/jacksung-0.0.2.97.tar.gz
+[2024-04-02 11:13:35] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/aa/be/884289a91b3c7f9dfbec6b7a1e9deb2e4674fd72a739284284b48143ccf0/dve_lumipy_preview-0.1.997-py3-none-any.whl
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: executing diffoscope
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alohapy-0.1.tar.gz tmp/alohapy-0.2.1.tar.gz --markdown 20240402/a/alohapy/0.1-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: executing diffoscope
+[2024-04-02 11:13:35] INFO root fetch - processPackages [alohapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alohapy-0.1.tar.gz tmp/alohapy-0.2.1.tar.gz --markdown 20240402/a/alohapy/0.1-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 11:13:36] INFO root fetch - processPackages [jacksung]: executing diffoscope
+[2024-04-02 11:13:36] INFO root fetch - processPackages [jacksung]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jacksung-0.0.2.96.tar.gz tmp/jacksung-0.0.2.97.tar.gz --markdown 20240402/j/jacksung/0.0.2.96-0.0.2.97/diff.md --exclude *.pyd
+[2024-04-02 11:13:36] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/db/e8/d0c20074330916a3895c96c270b171a9247666e837b1deb1ff2efb953da5/robyn-0.8.1.tar.gz
+[2024-04-02 11:13:36] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2024-04-02 11:13:36] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.991-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip --markdown 20240402/d/dve-lumipy-preview/0.1.991-0.1.997/diff.md --exclude *.pyd
+[2024-04-02 11:13:36] INFO root fetch - processPackages [robotframework-reportmodifier]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_reportmodifier-0.1.9.tar.gz]
+[2024-04-02 11:13:36] INFO root fetch - processPackages [robotframework-reportmodifier]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_reportmodifier-0.2.0.tar.gz]
+[2024-04-02 11:13:36] INFO root fetch - main [MainThread]: End processing [robotframework-reportmodifier]: success
+[2024-04-02 11:13:36] INFO root fetch - processPackages [alohapy]: Remove: archive file [/home/abi/fetcher/tmp/alohapy-0.1.tar.gz]
+[2024-04-02 11:13:36] INFO root fetch - processPackages [alohapy]: Remove: archive file [/home/abi/fetcher/tmp/alohapy-0.2.1.tar.gz]
+[2024-04-02 11:13:36] INFO root fetch - main [MainThread]: End processing [alohapy]: success
+[2024-04-02 11:13:36] INFO root fetch - main [MainThread]: End processing [alohapy]: success
+[2024-04-02 11:13:36] INFO root fetch - processPackages [robyn]: Downloading https://files.pythonhosted.org/packages/9e/05/799d2992e229948de022111c077e3db76a1ebca39c6bf7f3ab9043b7a8e3/robyn-0.9.0.tar.gz
+[2024-04-02 11:13:36] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.96.tar.gz]
+[2024-04-02 11:13:36] INFO root fetch - processPackages [jacksung]: Remove: archive file [/home/abi/fetcher/tmp/jacksung-0.0.2.97.tar.gz]
+[2024-04-02 11:13:36] INFO root fetch - main [MainThread]: End processing [jacksung]: success
+[2024-04-02 11:13:37] INFO root fetch - processPackages [robyn]: executing diffoscope
+[2024-04-02 11:13:37] INFO root fetch - processPackages [robyn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robyn-0.8.1.tar.gz tmp/robyn-0.9.0.tar.gz --markdown 20240402/r/robyn/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 11:13:37] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.991-py3-none-any.whl.zip]
+[2024-04-02 11:13:37] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.997-py3-none-any.whl.zip]
+[2024-04-02 11:13:37] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2024-04-02 11:13:38] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.8.1.tar.gz]
+[2024-04-02 11:13:38] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
+[2024-04-02 11:13:38] INFO root fetch - main [MainThread]: End processing [robyn]: success
+[2024-04-02 11:13:38] INFO root fetch - main [MainThread]: Store serial: [22582702]
