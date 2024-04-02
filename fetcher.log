@@ -23712,3 +23712,70 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 16:12:26] INFO root fetch - processPackages [curia]: Remove: archive file [/home/abi/fetcher/tmp/curia-4.9.0b1.tar.gz]
 [2024-04-02 16:12:26] INFO root fetch - main [MainThread]: End processing [curia]: success
 [2024-04-02 16:12:26] INFO root fetch - main [MainThread]: Store serial: [22586044]
+[2024-04-02 16:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22586044]
+[2024-04-02 16:14:35] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poetree
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-horizon-sdk
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: orchestrator-core
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: skip-django-pyston
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: spanishconjugator
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: probatus
+[2024-04-02 16:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dhxpyt
+[2024-04-02 16:14:35] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 16:14:35] WARNING root fetch - processPackages [dhxpyt]: Skipping, unable to determine old version
+[2024-04-02 16:14:35] INFO root fetch - main [MainThread]: End processing [dhxpyt] error
+[2024-04-02 16:14:35] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/06/c9/47ee3aea0e17410b358d1981bc3457d72efa489b5bd7cdfd8e0dae8d1e99/finbourne_horizon_sdk-2.0.98.tar.gz
+[2024-04-02 16:14:35] INFO root fetch - processPackages [skip-django-pyston]: New version: [2.16.5.4] Old Version: [2.16.5.3]
+[2024-04-02 16:14:35] INFO root fetch - processPackages [poetree]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 16:14:35] INFO root fetch - processPackages [probatus]: New version: [3.0.1] Old Version: [3.0.0]
+[2024-04-02 16:14:35] INFO root fetch - processPackages [orchestrator-core]: New version: [2.1.2rc4] Old Version: [2.1.2rc3]
+[2024-04-02 16:14:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-02 16:14:35] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-02 16:14:36] INFO root fetch - processPackages [probatus]: Downloading https://files.pythonhosted.org/packages/96/5d/46b3edfe19a102ca4fe690583e1f8940efa565fc985435bfd005899a92cf/probatus-3.0.0.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/41/dd/15c5ab08fb38a4c4c970d4f9fcc13fcc473a6d1ee891448e32ca82d5e30e/orchestrator_core-2.1.2rc3.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [poetree]: Downloading https://files.pythonhosted.org/packages/22/54/839a814d431b695d30a79dcf987c3fc78040cdc3419af06ccde52c2e53e6/poetree-0.0.1.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [skip-django-pyston]: Downloading https://files.pythonhosted.org/packages/ac/55/fbee0a9eafc132aab43b238af67e35e6bee1adf45fca25579a4193716d97/skip-django-pyston-2.16.5.3.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/00/39/af6f8e607b0c244600f9bbe82842b5739b5f5bbd08171e54da6ba158fc09/finbourne_horizon_sdk-2.0.99.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.0.98.tar.gz tmp/finbourne_horizon_sdk-2.0.99.tar.gz --markdown 20240402/f/finbourne-horizon-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 16:14:36] INFO root fetch - processPackages [probatus]: Downloading https://files.pythonhosted.org/packages/dd/c9/586cc1c2ccf771cd9e4ea6a463088a5c5c9ef1aeb9e6e5603448b97ad9e2/probatus-3.0.1.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [poetree]: Downloading https://files.pythonhosted.org/packages/86/0d/ead18fc8cc5bbe3fca30b4666b4d5f0b83e1373c39272877b2dcb8a1733d/poetree-0.0.2.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [skip-django-pyston]: Downloading https://files.pythonhosted.org/packages/a9/c5/5aca7a658cd08adc705d0bb11d041ee7e00e60b374f6e85dbb061606a6c8/skip-django-pyston-2.16.5.4.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [poetree]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [poetree]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetree-0.0.1.tar.gz tmp/poetree-0.0.2.tar.gz --markdown 20240402/p/poetree/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 16:14:36] INFO root fetch - processPackages [orchestrator-core]: Downloading https://files.pythonhosted.org/packages/13/ce/d75570773e1804a5325ecb906174f5b8d00dd501f207f51be33d9b1f1386/orchestrator_core-2.1.2rc4.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [probatus]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-02 16:14:36] INFO root fetch - processPackages [probatus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/probatus-3.0.0.tar.gz tmp/probatus-3.0.1.tar.gz --markdown 20240402/p/probatus/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-02 16:14:36] INFO root fetch - processPackages [skip-django-pyston]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [skip-django-pyston]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skip-django-pyston-2.16.5.3.tar.gz tmp/skip-django-pyston-2.16.5.4.tar.gz --markdown 20240402/s/skip-django-pyston/2.16.5.3-2.16.5.4/diff.md --exclude *.pyd
+[2024-04-02 16:14:36] INFO root fetch - processPackages [orchestrator-core]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [orchestrator-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orchestrator_core-2.1.2rc3.tar.gz tmp/orchestrator_core-2.1.2rc4.tar.gz --markdown 20240402/o/orchestrator-core/2.1.2rc3-2.1.2rc4/diff.md --exclude *.pyd
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240402/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-02 16:14:36] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240402/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-02 16:14:37] INFO root fetch - processPackages [poetree]: Remove: archive file [/home/abi/fetcher/tmp/poetree-0.0.1.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - processPackages [poetree]: Remove: archive file [/home/abi/fetcher/tmp/poetree-0.0.2.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - main [MainThread]: End processing [poetree]: success
+[2024-04-02 16:14:37] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.98.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.99.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-02 16:14:37] INFO root fetch - processPackages [probatus]: Remove: archive file [/home/abi/fetcher/tmp/probatus-3.0.0.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - processPackages [probatus]: Remove: archive file [/home/abi/fetcher/tmp/probatus-3.0.1.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - main [MainThread]: End processing [probatus]: success
+[2024-04-02 16:14:37] INFO root fetch - processPackages [skip-django-pyston]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-pyston-2.16.5.3.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - processPackages [skip-django-pyston]: Remove: archive file [/home/abi/fetcher/tmp/skip-django-pyston-2.16.5.4.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - main [MainThread]: End processing [skip-django-pyston]: success
+[2024-04-02 16:14:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-02 16:14:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-02 16:14:37] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-02 16:14:39] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.1.2rc3.tar.gz]
+[2024-04-02 16:14:39] INFO root fetch - processPackages [orchestrator-core]: Remove: archive file [/home/abi/fetcher/tmp/orchestrator_core-2.1.2rc4.tar.gz]
+[2024-04-02 16:14:39] INFO root fetch - main [MainThread]: End processing [orchestrator-core]: success
+[2024-04-02 16:14:39] INFO root fetch - main [MainThread]: Store serial: [22586074]
