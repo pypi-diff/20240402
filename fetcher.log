@@ -21776,3 +21776,23 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:05:49] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
 [2024-04-02 15:05:49] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
 [2024-04-02 15:05:49] INFO root fetch - main [MainThread]: Store serial: [22585232]
+[2024-04-02 15:07:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585232]
+[2024-04-02 15:07:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: eeg_preprocessing_cst
+[2024-04-02 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bigdl-core-xe-esimd-21
+[2024-04-02 15:07:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tg-flask-sse-common
+[2024-04-02 15:07:58] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [1.9.8] Old Version: [1.9.7]
+[2024-04-02 15:07:58] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/42/b2/bbadb2b6d445b353fc22e20b80959d932643c364f373849729712a910995/tg_flask_sse_common-1.9.7.tar.gz
+[2024-04-02 15:07:58] WARNING root fetch - processPackages [eeg_preprocessing_cst]: Skipping, unable to determine old version
+[2024-04-02 15:07:58] INFO root fetch - main [MainThread]: End processing [eeg_preprocessing_cst] error
+[2024-04-02 15:07:58] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: New version: [2.5.0b20240402] Old Version: [2.5.0b20240401]
+[2024-04-02 15:07:58] INFO root fetch - processPackages [bigdl-core-xe-esimd-21]: Downloading https://files.pythonhosted.org/packages/35/a4/6aeb7e8df0a24acdd332ea8dda722a8aed1d4d92081b82d0f46883755fd9/bigdl_core_xe_esimd_21-2.5.0b20240401-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-02 15:07:58] WARNING root fetch - processPackages [bigdl-core-xe-esimd-21]: Skipping package: exceeds size limit 46708653>=10485760
+[2024-04-02 15:07:58] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd-21] error
+[2024-04-02 15:07:58] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/1d/58/7c29f69c4d0c0f020d834ac6391a93e26fba3f53013edb91a443453e6204/tg_flask_sse_common-1.9.8.tar.gz
+[2024-04-02 15:07:58] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-02 15:07:58] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-1.9.7.tar.gz tmp/tg_flask_sse_common-1.9.8.tar.gz --markdown 20240402/t/tg-flask-sse-common/1.9.7-1.9.8/diff.md --exclude *.pyd
+[2024-04-02 15:07:59] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.7.tar.gz]
+[2024-04-02 15:07:59] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.8.tar.gz]
+[2024-04-02 15:07:59] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-02 15:07:59] INFO root fetch - main [MainThread]: Store serial: [22585243]
