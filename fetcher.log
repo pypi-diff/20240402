@@ -22350,3 +22350,69 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:23:22] INFO root fetch - processPackages [apify]: Remove: archive file [/home/abi/fetcher/tmp/apify-1.7.1b2.tar.gz]
 [2024-04-02 15:23:22] INFO root fetch - main [MainThread]: End processing [apify]: success
 [2024-04-02 15:23:22] INFO root fetch - main [MainThread]: Store serial: [22585449]
+[2024-04-02 15:25:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585449]
+[2024-04-02 15:25:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libhreels
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: freegenius
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tinybird-cli
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PandaPosMetrik
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fuzz-utils
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bloock
+[2024-04-02 15:25:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: soarca-fin-library
+[2024-04-02 15:25:31] INFO root fetch - processPackages [fuzz-utils]: New version: [0.2.0] Old Version: [0.0.1]
+[2024-04-02 15:25:31] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 15:25:31] INFO root fetch - processPackages [PandaPosMetrik]: New version: [2.0.6] Old Version: [2.0.5]
+[2024-04-02 15:25:31] INFO root fetch - processPackages [soarca-fin-library]: New version: [0.0.1rc5] Old Version: [0.0.1]
+[2024-04-02 15:25:31] INFO root fetch - processPackages [libhreels]: New version: [2.2.0] Old Version: [2.1.1]
+[2024-04-02 15:25:31] INFO root fetch - processPackages [tinybird-cli]: New version: [3.6.1.dev9] Old Version: [3.6.1.dev8]
+[2024-04-02 15:25:31] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [fuzz-utils]: Downloading https://files.pythonhosted.org/packages/b9/ee/657b5f8f8969b52e4a5c6a3e3e72f87a6aad3a31a0cd26c4f52920af8204/fuzz-utils-0.0.1.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [libhreels]: Downloading https://files.pythonhosted.org/packages/1f/78/1e5244866b958a5716d40641ff058a15e6e4e1e5b7d343447909be32ba3d/libhreels-2.1.1.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [bloock]: New version: [2.8.6] Old Version: [2.8.4]
+[2024-04-02 15:25:32] INFO root fetch - processPackages [soarca-fin-library]: Downloading https://files.pythonhosted.org/packages/7f/c9/956ab756dbd64698dc8fd310f05d429e3e3c4c7669af5864ea25dbbbc4fb/soarca_fin_library-0.0.1.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [PandaPosMetrik]: Downloading https://files.pythonhosted.org/packages/c1/17/d6e5a7be81651642d34447ee84e23b82d9875d70b60a730029a63b426cbd/PandaPosMetrik-2.0.5.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/a9/7e/5063e8952ec7bc5b2ac946312024284de0ce892efce411553918f85e4d89/tinybird-cli-3.6.1.dev8.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [bloock]: Downloading https://files.pythonhosted.org/packages/ca/d7/211181d27c0a939b3f1a78a4ed478d0f60c36e0c4b339858afa5ccfe0e8a/bloock-2.8.4-pp39-pypy39_pp73-win_amd64.whl
+[2024-04-02 15:25:32] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [soarca-fin-library]: Downloading https://files.pythonhosted.org/packages/b0/ea/a95ac13cba7bd04eb0d813e32e4b2095fc811c0a17efecbf5fd28e4914ef/soarca_fin_library-0.0.1rc5.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [fuzz-utils]: Downloading https://files.pythonhosted.org/packages/3f/84/92bfaa28a3b4555e84e59378bb2b3098d41b2e6824cec3d4c439ca92655b/fuzz-utils-0.2.0.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [libhreels]: Downloading https://files.pythonhosted.org/packages/ba/18/2d3fb74432e8f30f11d5a0f25d9afe02e4590024eb8fcccd76aaf377fb78/libhreels-2.2.0.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [PandaPosMetrik]: Downloading https://files.pythonhosted.org/packages/f9/cb/cd14e533af6fa61a3171c98dbdfbc08735e46d32eb2ad36e2d5b767f6e80/PandaPosMetrik-2.0.6.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-02 15:25:32] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240402/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 15:25:32] INFO root fetch - processPackages [tinybird-cli]: Downloading https://files.pythonhosted.org/packages/a4/f8/30284c38a14f53b892c3c882f910d3061512f709b1970ea441a3a56010d3/tinybird-cli-3.6.1.dev9.tar.gz
+[2024-04-02 15:25:32] INFO root fetch - processPackages [fuzz-utils]: executing diffoscope
+[2024-04-02 15:25:32] INFO root fetch - processPackages [fuzz-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fuzz-utils-0.0.1.tar.gz tmp/fuzz-utils-0.2.0.tar.gz --markdown 20240402/f/fuzz-utils/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 15:25:32] INFO root fetch - processPackages [PandaPosMetrik]: executing diffoscope
+[2024-04-02 15:25:32] INFO root fetch - processPackages [PandaPosMetrik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandaPosMetrik-2.0.5.tar.gz tmp/PandaPosMetrik-2.0.6.tar.gz --markdown 20240402/P/PandaPosMetrik/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2024-04-02 15:25:32] INFO root fetch - processPackages [soarca-fin-library]: executing diffoscope
+[2024-04-02 15:25:32] INFO root fetch - processPackages [soarca-fin-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/soarca_fin_library-0.0.1.tar.gz tmp/soarca_fin_library-0.0.1rc5.tar.gz --markdown 20240402/s/soarca-fin-library/0.0.1-0.0.1rc5/diff.md --exclude *.pyd
+[2024-04-02 15:25:32] INFO root fetch - processPackages [libhreels]: executing diffoscope
+[2024-04-02 15:25:32] INFO root fetch - processPackages [libhreels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libhreels-2.1.1.tar.gz tmp/libhreels-2.2.0.tar.gz --markdown 20240402/l/libhreels/2.1.1-2.2.0/diff.md --exclude *.pyd
+[2024-04-02 15:25:32] INFO root fetch - processPackages [tinybird-cli]: executing diffoscope
+[2024-04-02 15:25:32] INFO root fetch - processPackages [tinybird-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tinybird-cli-3.6.1.dev8.tar.gz tmp/tinybird-cli-3.6.1.dev9.tar.gz --markdown 20240402/t/tinybird-cli/3.6.1.dev8-3.6.1.dev9/diff.md --exclude *.pyd
+[2024-04-02 15:25:33] INFO root fetch - processPackages [PandaPosMetrik]: Remove: archive file [/home/abi/fetcher/tmp/PandaPosMetrik-2.0.5.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - processPackages [PandaPosMetrik]: Remove: archive file [/home/abi/fetcher/tmp/PandaPosMetrik-2.0.6.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - main [MainThread]: End processing [PandaPosMetrik]: success
+[2024-04-02 15:25:33] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-02 15:25:33] INFO root fetch - processPackages [fuzz-utils]: Remove: archive file [/home/abi/fetcher/tmp/fuzz-utils-0.0.1.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - processPackages [fuzz-utils]: Remove: archive file [/home/abi/fetcher/tmp/fuzz-utils-0.2.0.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - main [MainThread]: End processing [fuzz-utils]: success
+[2024-04-02 15:25:33] INFO root fetch - processPackages [soarca-fin-library]: Remove: archive file [/home/abi/fetcher/tmp/soarca_fin_library-0.0.1.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - processPackages [soarca-fin-library]: Remove: archive file [/home/abi/fetcher/tmp/soarca_fin_library-0.0.1rc5.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - main [MainThread]: End processing [soarca-fin-library]: success
+[2024-04-02 15:25:33] INFO root fetch - processPackages [libhreels]: Remove: archive file [/home/abi/fetcher/tmp/libhreels-2.1.1.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - processPackages [libhreels]: Remove: archive file [/home/abi/fetcher/tmp/libhreels-2.2.0.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - main [MainThread]: End processing [libhreels]: success
+[2024-04-02 15:25:33] INFO root fetch - processPackages [bloock]: Downloading https://files.pythonhosted.org/packages/ad/74/d5c3e66b67d5acb1ac9fba4bb021c02a3cb45ba3eae5e4292ae192e2ae44/bloock-2.8.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-02 15:25:33] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.6.1.dev8.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - processPackages [tinybird-cli]: Remove: archive file [/home/abi/fetcher/tmp/tinybird-cli-3.6.1.dev9.tar.gz]
+[2024-04-02 15:25:33] INFO root fetch - main [MainThread]: End processing [tinybird-cli]: success
+[2024-04-02 15:25:37] INFO root fetch - processPackages [bloock]: executing diffoscope
+[2024-04-02 15:25:37] INFO root fetch - processPackages [bloock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bloock-2.8.4-pp39-pypy39_pp73-win_amd64.whl.zip tmp/bloock-2.8.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20240402/b/bloock/2.8.4-2.8.6/diff.md --exclude *.pyd
+[2024-04-02 15:25:39] INFO root fetch - processPackages [bloock]: Remove: archive file [/home/abi/fetcher/tmp/bloock-2.8.4-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2024-04-02 15:25:39] INFO root fetch - processPackages [bloock]: Remove: archive file [/home/abi/fetcher/tmp/bloock-2.8.6-cp37-cp37m-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-02 15:25:39] INFO root fetch - main [MainThread]: End processing [bloock]: success
+[2024-04-02 15:25:39] INFO root fetch - main [MainThread]: Store serial: [22585492]
