@@ -18819,3 +18819,81 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:26:06] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip]
 [2024-04-02 13:26:06] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
 [2024-04-02 13:26:06] INFO root fetch - main [MainThread]: Store serial: [22584042]
+[2024-04-02 13:28:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584042]
+[2024-04-02 13:28:19] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: v2share
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esa-2scm
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Agently
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyfrag-plotter
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: notdiamond
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: polyaxon-sdk
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: polyaxon
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: haupt
+[2024-04-02 13:28:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: naja-atra
+[2024-04-02 13:28:19] INFO root fetch - processPackages [Agently]: New version: [3.2.1.3] Old Version: [3.2.1.2]
+[2024-04-02 13:28:19] INFO root fetch - processPackages [pyfrag-plotter]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-02 13:28:19] INFO root fetch - processPackages [notdiamond]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-04-02 13:28:19] INFO root fetch - processPackages [esa-2scm]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 13:28:19] WARNING root fetch - processPackages [naja-atra]: Skipping, unable to determine old version
+[2024-04-02 13:28:19] INFO root fetch - main [MainThread]: End processing [naja-atra] error
+[2024-04-02 13:28:19] INFO root fetch - processPackages [v2share]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2024-04-02 13:28:19] INFO root fetch - processPackages [haupt]: New version: [2.1.5] Old Version: [2.1.4rc0]
+[2024-04-02 13:28:19] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/dd/c5/82fe5dfc475d90976213c9c9884c516ad3a43f099cf3140f92c5a5e78925/esa-2scm-0.2.1.tar.gz
+[2024-04-02 13:28:19] INFO root fetch - processPackages [pyfrag-plotter]: Downloading https://files.pythonhosted.org/packages/17/27/459ae09d2c010f636aa07a3af2b446ba651d5029c50bb6438bd389cff3a8/pyfrag_plotter-1.0.2.tar.gz
+[2024-04-02 13:28:19] INFO root fetch - processPackages [polyaxon-sdk]: New version: [2.1.5] Old Version: [2.1.4rc0]
+[2024-04-02 13:28:19] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/1f/4a/9d588d925081c00ede00331b456f7b85c565b06f85f73ae8bf64c68f4631/notdiamond-0.1.0a8.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [Agently]: Downloading https://files.pythonhosted.org/packages/0b/e9/35152eb3203e188a63b3e2d966818d04263b2c9cadd685925dfb7d4e9cce/Agently-3.2.1.2.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/f2/aa/3975349f1570666a7d76eb4497fe1d5d827ee2b53707cb6942fdfaa70f9d/v2share-0.1.0a4.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon]: New version: [2.1.5] Old Version: [2.1.4rc0]
+[2024-04-02 13:28:20] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/f1/fc/9339c232fc70e14dc463b6b82e4ae424c7332946a69c5af9347d5d4fec21/haupt-2.1.4rc0.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [pyfrag-plotter]: Downloading https://files.pythonhosted.org/packages/6e/12/13f52411d33f060aaa8d724efdf81e82d4f3cf72ad117ceb70d716056e5e/pyfrag_plotter-1.0.3.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/3f/9b/e637d3980b78964b9f735348187d6b7380ca52dd39ea146bfdce564cb35f/polyaxon-sdk-2.1.4rc0.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/ce/b3/335411a323cabe68b28c5a58a8664d078c42d271d0bca2f577253d7e1dd8/polyaxon-2.1.4rc0.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/2c/a2/2a500dcaabf282c4b5f54e799b725799cc3217fe3be20c6f2ec7c6a60dbb/notdiamond-0.1.0a9.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [pyfrag-plotter]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/68/58/2a7204ac7f33b754053598039a042987e39ae1dbfc5c4e1c37790edc7e27/esa-2scm-0.2.2.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [pyfrag-plotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfrag_plotter-1.0.2.tar.gz tmp/pyfrag_plotter-1.0.3.tar.gz --markdown 20240402/p/pyfrag-plotter/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-02 13:28:20] INFO root fetch - processPackages [Agently]: Downloading https://files.pythonhosted.org/packages/77/3d/876d1d4f91ac59e8443d383990f45254265bc1a35e10f45af1e9fe421b0f/Agently-3.2.1.3.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [v2share]: Downloading https://files.pythonhosted.org/packages/9e/55/092659bf1f611c2ab1d44991508182e456c8f2b04e1fde6032969d97b011/v2share-0.1.0a5.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [esa-2scm]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [esa-2scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esa-2scm-0.2.1.tar.gz tmp/esa-2scm-0.2.2.tar.gz --markdown 20240402/e/esa-2scm/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 13:28:20] INFO root fetch - processPackages [v2share]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [v2share]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/v2share-0.1.0a4.tar.gz tmp/v2share-0.1.0a5.tar.gz --markdown 20240402/v/v2share/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2024-04-02 13:28:20] INFO root fetch - processPackages [Agently]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [Agently]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Agently-3.2.1.2.tar.gz tmp/Agently-3.2.1.3.tar.gz --markdown 20240402/A/Agently/3.2.1.2-3.2.1.3/diff.md --exclude *.pyd
+[2024-04-02 13:28:20] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.0a8.tar.gz tmp/notdiamond-0.1.0a9.tar.gz --markdown 20240402/n/notdiamond/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon-sdk]: Downloading https://files.pythonhosted.org/packages/1d/36/3443bb6e261503babec992ea82a41c783a8c98894035c8b540bef3e7ca5e/polyaxon-sdk-2.1.5.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon]: Downloading https://files.pythonhosted.org/packages/b2/a3/73f237091078153ed4b2f36ddf8aabdcfbf99c955f3390838d0a94bcd9dd/polyaxon-2.1.5.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon-sdk]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-sdk-2.1.4rc0.tar.gz tmp/polyaxon-sdk-2.1.5.tar.gz --markdown 20240402/p/polyaxon-sdk/2.1.4rc0-2.1.5/diff.md --exclude *.pyd
+[2024-04-02 13:28:20] INFO root fetch - processPackages [haupt]: Downloading https://files.pythonhosted.org/packages/57/93/c4cad9edad28ec28b679920dbbe8df5f12adebef9a21966956ee144357ab/haupt-2.1.5.tar.gz
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon]: executing diffoscope
+[2024-04-02 13:28:20] INFO root fetch - processPackages [polyaxon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polyaxon-2.1.4rc0.tar.gz tmp/polyaxon-2.1.5.tar.gz --markdown 20240402/p/polyaxon/2.1.4rc0-2.1.5/diff.md --exclude *.pyd
+[2024-04-02 13:28:21] INFO root fetch - processPackages [haupt]: executing diffoscope
+[2024-04-02 13:28:21] INFO root fetch - processPackages [haupt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haupt-2.1.4rc0.tar.gz tmp/haupt-2.1.5.tar.gz --markdown 20240402/h/haupt/2.1.4rc0-2.1.5/diff.md --exclude *.pyd
+[2024-04-02 13:28:21] INFO root fetch - processPackages [pyfrag-plotter]: Remove: archive file [/home/abi/fetcher/tmp/pyfrag_plotter-1.0.2.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - processPackages [pyfrag-plotter]: Remove: archive file [/home/abi/fetcher/tmp/pyfrag_plotter-1.0.3.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - main [MainThread]: End processing [pyfrag-plotter]: success
+[2024-04-02 13:28:21] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0a4.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - processPackages [v2share]: Remove: archive file [/home/abi/fetcher/tmp/v2share-0.1.0a5.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - main [MainThread]: End processing [v2share]: success
+[2024-04-02 13:28:21] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.1.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.2.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - main [MainThread]: End processing [esa-2scm]: success
+[2024-04-02 13:28:21] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.2.1.2.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - processPackages [Agently]: Remove: archive file [/home/abi/fetcher/tmp/Agently-3.2.1.3.tar.gz]
+[2024-04-02 13:28:21] INFO root fetch - main [MainThread]: End processing [Agently]: success
+[2024-04-02 13:28:22] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.0a8.tar.gz]
+[2024-04-02 13:28:22] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.0a9.tar.gz]
+[2024-04-02 13:28:22] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-04-02 13:28:23] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.4rc0.tar.gz]
+[2024-04-02 13:28:23] INFO root fetch - processPackages [polyaxon]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-2.1.5.tar.gz]
+[2024-04-02 13:28:23] INFO root fetch - main [MainThread]: End processing [polyaxon]: success
+[2024-04-02 13:28:24] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.1.4rc0.tar.gz]
+[2024-04-02 13:28:24] INFO root fetch - processPackages [polyaxon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/polyaxon-sdk-2.1.5.tar.gz]
+[2024-04-02 13:28:24] INFO root fetch - main [MainThread]: End processing [polyaxon-sdk]: success
+[2024-04-02 13:28:39] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.1.4rc0.tar.gz]
+[2024-04-02 13:28:39] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.1.5.tar.gz]
+[2024-04-02 13:28:39] INFO root fetch - main [MainThread]: End processing [haupt]: success
+[2024-04-02 13:28:39] INFO root fetch - main [MainThread]: Store serial: [22584073]
