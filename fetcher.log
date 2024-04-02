@@ -12641,3 +12641,54 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:18:43] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
 [2024-04-02 09:18:43] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
 [2024-04-02 09:18:43] INFO root fetch - main [MainThread]: Store serial: [22581516]
+[2024-04-02 09:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581516]
+[2024-04-02 09:20:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixelbin
+[2024-04-02 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openicite
+[2024-04-02 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: muti.numer
+[2024-04-02 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rio-tiler
+[2024-04-02 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: deploymodel-worker
+[2024-04-02 09:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: radosdb
+[2024-04-02 09:20:51] INFO root fetch - processPackages [muti.numer]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 09:20:51] INFO root fetch - processPackages [radosdb]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 09:20:52] WARNING root fetch - processPackages [deploymodel-worker]: Skipping, unable to determine old version
+[2024-04-02 09:20:52] INFO root fetch - main [MainThread]: End processing [deploymodel-worker] error
+[2024-04-02 09:20:52] INFO root fetch - processPackages [openicite]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 09:20:52] INFO root fetch - processPackages [pixelbin]: New version: [4.0.0] Old Version: [3.2.0]
+[2024-04-02 09:20:52] INFO root fetch - processPackages [rio-tiler]: New version: [6.4.4] Old Version: [6.4.3]
+[2024-04-02 09:20:52] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/46/00/224d1ec4f0b77341e6428bdd00404c89ee2c45118762fff92d62fe66247c/muti.numer-0.0.2.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [radosdb]: Downloading https://files.pythonhosted.org/packages/d0/30/2a744d2c2fed5c46fdc32532b0bc130c140a8eb0f0790e1ef21ac05054f3/radosdb-0.1.2.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [openicite]: Downloading https://files.pythonhosted.org/packages/5a/eb/60855488ddda80ac6db2453e3c07682e86ab4d4b95af8aceac4c87af3f11/openicite-0.1.5.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [pixelbin]: Downloading https://files.pythonhosted.org/packages/6b/74/90fab6c87e9e6e3a65e171122e09be59edf20149c194b3f1e4dba7750b6d/pixelbin-3.2.0.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/52/a4/6784f3202cb74bfeeb486448bca46699f691ad5bde7087a5931c70664ee8/rio_tiler-6.4.3.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/91/60/4c2cfd775ee2a74ff4d00d3e2e330426a85a6d0345fff68fc1c2964e796c/muti.numer-0.0.3.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [radosdb]: Downloading https://files.pythonhosted.org/packages/bb/c7/56880682313a9aa32bb016bda6cc7f85da035eaef946d0481e7fe42d7fd5/radosdb-0.1.3.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [muti.numer]: executing diffoscope
+[2024-04-02 09:20:52] INFO root fetch - processPackages [muti.numer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.numer-0.0.2.tar.gz tmp/muti.numer-0.0.3.tar.gz --markdown 20240402/m/muti.numer/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 09:20:52] INFO root fetch - processPackages [pixelbin]: Downloading https://files.pythonhosted.org/packages/63/5a/0661867f11413995de9b779436a18a55ec2390e9c3ce829c663390fbb610/pixelbin-4.0.0.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [radosdb]: executing diffoscope
+[2024-04-02 09:20:52] INFO root fetch - processPackages [radosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radosdb-0.1.2.tar.gz tmp/radosdb-0.1.3.tar.gz --markdown 20240402/r/radosdb/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 09:20:52] INFO root fetch - processPackages [rio-tiler]: Downloading https://files.pythonhosted.org/packages/70/bf/0b6dd01a2c046e0ed5c40d48cbbfdc193efa8f25285ad87ed9f0aedf7912/rio_tiler-6.4.4.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [openicite]: Downloading https://files.pythonhosted.org/packages/f8/c6/6bad4c8a61c6598cfc09f93c429017fe2b9f6b87f0e534fa348b5ff0a5fe/openicite-0.1.6.tar.gz
+[2024-04-02 09:20:52] INFO root fetch - processPackages [pixelbin]: executing diffoscope
+[2024-04-02 09:20:52] INFO root fetch - processPackages [pixelbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixelbin-3.2.0.tar.gz tmp/pixelbin-4.0.0.tar.gz --markdown 20240402/p/pixelbin/3.2.0-4.0.0/diff.md --exclude *.pyd
+[2024-04-02 09:20:52] INFO root fetch - processPackages [openicite]: executing diffoscope
+[2024-04-02 09:20:52] INFO root fetch - processPackages [openicite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openicite-0.1.5.tar.gz tmp/openicite-0.1.6.tar.gz --markdown 20240402/o/openicite/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 09:20:52] INFO root fetch - processPackages [rio-tiler]: executing diffoscope
+[2024-04-02 09:20:52] INFO root fetch - processPackages [rio-tiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rio_tiler-6.4.3.tar.gz tmp/rio_tiler-6.4.4.tar.gz --markdown 20240402/r/rio-tiler/6.4.3-6.4.4/diff.md --exclude *.pyd
+[2024-04-02 09:20:53] INFO root fetch - processPackages [radosdb]: Remove: archive file [/home/abi/fetcher/tmp/radosdb-0.1.2.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - processPackages [radosdb]: Remove: archive file [/home/abi/fetcher/tmp/radosdb-0.1.3.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - main [MainThread]: End processing [radosdb]: success
+[2024-04-02 09:20:53] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.2.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.3.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
+[2024-04-02 09:20:53] INFO root fetch - processPackages [openicite]: Remove: archive file [/home/abi/fetcher/tmp/openicite-0.1.5.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - processPackages [openicite]: Remove: archive file [/home/abi/fetcher/tmp/openicite-0.1.6.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - main [MainThread]: End processing [openicite]: success
+[2024-04-02 09:20:53] INFO root fetch - processPackages [pixelbin]: Remove: archive file [/home/abi/fetcher/tmp/pixelbin-3.2.0.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - processPackages [pixelbin]: Remove: archive file [/home/abi/fetcher/tmp/pixelbin-4.0.0.tar.gz]
+[2024-04-02 09:20:53] INFO root fetch - main [MainThread]: End processing [pixelbin]: success
+[2024-04-02 09:20:54] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.3.tar.gz]
+[2024-04-02 09:20:54] INFO root fetch - processPackages [rio-tiler]: Remove: archive file [/home/abi/fetcher/tmp/rio_tiler-6.4.4.tar.gz]
+[2024-04-02 09:20:54] INFO root fetch - main [MainThread]: End processing [rio-tiler]: success
+[2024-04-02 09:20:54] INFO root fetch - main [MainThread]: Store serial: [22581535]
