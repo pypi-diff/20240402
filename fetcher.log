@@ -2397,3 +2397,51 @@
 [2024-04-02 02:19:53] INFO root fetch - processPackages [pi-base]: Remove: archive file [/home/abi/fetcher/tmp/pi_base-0.0.9.tar.gz]
 [2024-04-02 02:19:53] INFO root fetch - main [MainThread]: End processing [pi-base]: success
 [2024-04-02 02:19:53] INFO root fetch - main [MainThread]: Store serial: [22577532]
+[2024-04-02 02:21:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577532]
+[2024-04-02 02:22:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 02:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-ethereum-node
+[2024-04-02 02:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-aurora-globaldatabase
+[2024-04-02 02:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-tweet-queue
+[2024-04-02 02:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-date-time
+[2024-04-02 02:22:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: iricore
+[2024-04-02 02:22:02] INFO root fetch - processPackages [neon-skill-date-time]: New version: [1.0.1a8] Old Version: [1.0.1a7]
+[2024-04-02 02:22:02] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 02:22:02] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/00/03/1c039458c41cfef84a5d434f9211b54d6dd90c091ed8e7bb0bfe031332dc/neon-skill-date_time-1.0.1a7.tar.gz
+[2024-04-02 02:22:02] INFO root fetch - processPackages [iricore]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-02 02:22:02] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2024-04-02 02:22:02] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 02:22:02] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2024-04-02 02:22:02] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/46/85/461f277e33847139b1755f53967720c0f7e5aa9f19ec910bda9c3d861a2d/iricore-1.7.0.tar.gz
+[2024-04-02 02:22:02] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2024-04-02 02:22:02] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20240402/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 02:22:03] INFO root fetch - processPackages [neon-skill-date-time]: Downloading https://files.pythonhosted.org/packages/15/73/746d28efb0aec0e9549ecc4a93b17d5792aef2e3320bc68f2f07dd2d2562/neon-skill-date_time-1.0.1a8.tar.gz
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2024-04-02 02:22:03] INFO root fetch - processPackages [neon-skill-date-time]: executing diffoscope
+[2024-04-02 02:22:03] INFO root fetch - processPackages [neon-skill-date-time]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-date_time-1.0.1a7.tar.gz tmp/neon-skill-date_time-1.0.1a8.tar.gz --markdown 20240402/n/neon-skill-date-time/1.0.1a7-1.0.1a8/diff.md --exclude *.pyd
+[2024-04-02 02:22:03] INFO root fetch - processPackages [iricore]: Downloading https://files.pythonhosted.org/packages/a6/1c/6abb673aa17ba9e0aba716769edba38e6c39e0b44854c4d2d63e468db2e1/iricore-1.8.0.tar.gz
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20240402/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20240402/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2024-04-02 02:22:03] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2024-04-02 02:22:03] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2024-04-02 02:22:04] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2024-04-02 02:22:04] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2024-04-02 02:22:04] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2024-04-02 02:22:04] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2024-04-02 02:22:04] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2024-04-02 02:22:04] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2024-04-02 02:22:04] INFO root fetch - processPackages [iricore]: executing diffoscope
+[2024-04-02 02:22:04] INFO root fetch - processPackages [iricore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iricore-1.7.0.tar.gz tmp/iricore-1.8.0.tar.gz --markdown 20240402/i/iricore/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2024-04-02 02:22:04] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-date_time-1.0.1a7.tar.gz]
+[2024-04-02 02:22:04] INFO root fetch - processPackages [neon-skill-date-time]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-date_time-1.0.1a8.tar.gz]
+[2024-04-02 02:22:04] INFO root fetch - main [MainThread]: End processing [neon-skill-date-time]: success
+[2024-04-02 02:22:13] INFO root fetch - processPackages [iricore]: Remove: archive file [/home/abi/fetcher/tmp/iricore-1.7.0.tar.gz]
+[2024-04-02 02:22:13] INFO root fetch - processPackages [iricore]: Remove: archive file [/home/abi/fetcher/tmp/iricore-1.8.0.tar.gz]
+[2024-04-02 02:22:13] INFO root fetch - main [MainThread]: End processing [iricore]: success
+[2024-04-02 02:22:13] INFO root fetch - main [MainThread]: Store serial: [22577548]
