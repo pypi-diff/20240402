@@ -12073,3 +12073,9 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:40:11] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc1-py3-none-any.whl.zip]
 [2024-04-02 08:40:11] INFO root fetch - main [MainThread]: End processing [keelson]: success
 [2024-04-02 08:40:11] INFO root fetch - main [MainThread]: Store serial: [22581303]
+[2024-04-02 08:42:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581303]
+[2024-04-02 08:42:20] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 08:42:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: poll_schumann
+[2024-04-02 08:42:21] WARNING root fetch - processPackages [poll_schumann]: Skipping, unable to determine old version
+[2024-04-02 08:42:21] INFO root fetch - main [MainThread]: End processing [poll_schumann] error
+[2024-04-02 08:42:21] INFO root fetch - main [MainThread]: Store serial: [22581308]
