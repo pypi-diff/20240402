@@ -19860,3 +19860,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:04:44] INFO root fetch - processPackages [b2sdk]: Remove: archive file [/home/abi/fetcher/tmp/b2sdk-2.0.0.tar.gz]
 [2024-04-02 14:04:44] INFO root fetch - main [MainThread]: End processing [b2sdk]: success
 [2024-04-02 14:04:44] INFO root fetch - main [MainThread]: Store serial: [22584459]
+[2024-04-02 14:06:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584459]
+[2024-04-02 14:06:53] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jupyter-analysis-tools
+[2024-04-02 14:06:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: asktable
+[2024-04-02 14:06:53] INFO root fetch - processPackages [asktable]: New version: [0.13.3] Old Version: [0.13.2]
+[2024-04-02 14:06:53] INFO root fetch - processPackages [jupyter-analysis-tools]: New version: [0.1.7] Old Version: [0.1.6.dev5]
+[2024-04-02 14:06:53] INFO root fetch - processPackages [jupyter-analysis-tools]: Downloading https://files.pythonhosted.org/packages/6b/60/3f6027103e3a299775d4bea7262951ea3df823aae0a0433ed059c49dd715/jupyter-analysis-tools-0.1.6.dev5.tar.gz
+[2024-04-02 14:06:53] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/42/99/b4b86e6eecdabfddb1f65c7bb6618436978eecc5d935fc6565e83c34c0fd/asktable-0.13.2-py3-none-any.whl
+[2024-04-02 14:06:54] INFO root fetch - processPackages [asktable]: Downloading https://files.pythonhosted.org/packages/28/94/a72ef0e916ab4b6e6cf78f4d8609548b310bb6e63277081b952c470dc568/asktable-0.13.3-py3-none-any.whl
+[2024-04-02 14:06:54] INFO root fetch - processPackages [jupyter-analysis-tools]: Downloading https://files.pythonhosted.org/packages/d7/9f/8afad1bc46bcbd0e286c4b3b9361426434161b0f0ef6a3f7e29c570aa81c/jupyter-analysis-tools-0.1.7.tar.gz
+[2024-04-02 14:06:54] INFO root fetch - processPackages [asktable]: executing diffoscope
+[2024-04-02 14:06:54] INFO root fetch - processPackages [asktable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asktable-0.13.2-py3-none-any.whl.zip tmp/asktable-0.13.3-py3-none-any.whl.zip --markdown 20240402/a/asktable/0.13.2-0.13.3/diff.md --exclude *.pyd
+[2024-04-02 14:06:54] INFO root fetch - processPackages [jupyter-analysis-tools]: executing diffoscope
+[2024-04-02 14:06:54] INFO root fetch - processPackages [jupyter-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-analysis-tools-0.1.6.dev5.tar.gz tmp/jupyter-analysis-tools-0.1.7.tar.gz --markdown 20240402/j/jupyter-analysis-tools/0.1.6.dev5-0.1.7/diff.md --exclude *.pyd
+[2024-04-02 14:06:55] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.2-py3-none-any.whl.zip]
+[2024-04-02 14:06:55] INFO root fetch - processPackages [asktable]: Remove: archive file [/home/abi/fetcher/tmp/asktable-0.13.3-py3-none-any.whl.zip]
+[2024-04-02 14:06:55] INFO root fetch - main [MainThread]: End processing [asktable]: success
+[2024-04-02 14:06:55] INFO root fetch - processPackages [jupyter-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-analysis-tools-0.1.6.dev5.tar.gz]
+[2024-04-02 14:06:55] INFO root fetch - processPackages [jupyter-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-analysis-tools-0.1.7.tar.gz]
+[2024-04-02 14:06:55] INFO root fetch - main [MainThread]: End processing [jupyter-analysis-tools]: success
+[2024-04-02 14:06:55] INFO root fetch - main [MainThread]: Store serial: [22584472]
