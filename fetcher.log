@@ -13132,3 +13132,54 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:43:04] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.9.tar.gz]
 [2024-04-02 09:43:04] INFO root fetch - main [MainThread]: End processing [refnx]: success
 [2024-04-02 09:43:04] INFO root fetch - main [MainThread]: Store serial: [22581712]
+[2024-04-02 09:45:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581712]
+[2024-04-02 09:45:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 09:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: komoutils
+[2024-04-02 09:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dbdreader
+[2024-04-02 09:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: redturtle.prenotazioni
+[2024-04-02 09:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslo.log
+[2024-04-02 09:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: awesome-sitemap-parser
+[2024-04-02 09:45:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: selestium
+[2024-04-02 09:45:13] INFO root fetch - processPackages [komoutils]: New version: [0.0.222] Old Version: [0.0.221]
+[2024-04-02 09:45:13] INFO root fetch - processPackages [selestium]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 09:45:13] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/49/61/111dc993a7b4a7f7d6b670ad178bc3077e994cc414b265325aa5351aec87/komoutils-0.0.221.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [dbdreader]: New version: [0.5.7] Old Version: [0.5.6]
+[2024-04-02 09:45:13] WARNING root fetch - processPackages [awesome-sitemap-parser]: Skipping, unable to determine old version
+[2024-04-02 09:45:13] INFO root fetch - main [MainThread]: End processing [awesome-sitemap-parser] error
+[2024-04-02 09:45:13] INFO root fetch - processPackages [oslo.log]: New version: [5.5.0] Old Version: [5.4.0]
+[2024-04-02 09:45:13] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.6.0] Old Version: [2.5.3]
+[2024-04-02 09:45:13] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/43/c2/57e8bf85d118de8818761d2feb27e53da4f319e94f7c0fa308ea8cf9d37e/selestium-0.2.3.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [oslo.log]: Downloading https://files.pythonhosted.org/packages/2b/d5/b3b9a02d09eb0b7c9d05958908b881e23182dac95d448377eb564598e52f/oslo.log-5.4.0.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [dbdreader]: Downloading https://files.pythonhosted.org/packages/74/c1/9d79d80e46cc1c3a2b4d231ccd5dfa2d3206ca174587c7735998c0ac102f/dbdreader-0.5.6.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/df/a8/02f1afadb477efae922c6766b92df602344992ae2308a77e667ec080af0e/redturtle.prenotazioni-2.5.3.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/b3/8c/15dcb6db6cdfd55e6ce9a184dcdbc37afe50df9e42a77019d1031e31e138/komoutils-0.0.222.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-04-02 09:45:13] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.221.tar.gz tmp/komoutils-0.0.222.tar.gz --markdown 20240402/k/komoutils/0.0.221-0.0.222/diff.md --exclude *.pyd
+[2024-04-02 09:45:13] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/81/8e/eac2e9279026980a49080da19fc82b9c29a4d8bd6ce356856e0a8fbf0bc2/selestium-0.2.4.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [oslo.log]: Downloading https://files.pythonhosted.org/packages/b5/9b/21cb487426ec7e39807a1996ae16325e62230de49f514638bf376ac15a72/oslo.log-5.5.0.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/47/7f/37613280056a61721f99b0eee8c2ecfc8eab0e93d99074aed6ad4a5fbe3d/redturtle.prenotazioni-2.6.0.tar.gz
+[2024-04-02 09:45:13] INFO root fetch - processPackages [selestium]: executing diffoscope
+[2024-04-02 09:45:13] INFO root fetch - processPackages [selestium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selestium-0.2.3.tar.gz tmp/selestium-0.2.4.tar.gz --markdown 20240402/s/selestium/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 09:45:13] INFO root fetch - processPackages [oslo.log]: executing diffoscope
+[2024-04-02 09:45:13] INFO root fetch - processPackages [oslo.log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.log-5.4.0.tar.gz tmp/oslo.log-5.5.0.tar.gz --markdown 20240402/o/oslo.log/5.4.0-5.5.0/diff.md --exclude *.pyd
+[2024-04-02 09:45:14] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-04-02 09:45:14] INFO root fetch - processPackages [dbdreader]: Downloading https://files.pythonhosted.org/packages/70/85/dec82b963e9cb2ddcc18f8e3084d3ff85c40585c464d6967a679e4286b6d/dbdreader-0.5.7.tar.gz
+[2024-04-02 09:45:14] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.5.3.tar.gz tmp/redturtle.prenotazioni-2.6.0.tar.gz --markdown 20240402/r/redturtle.prenotazioni/2.5.3-2.6.0/diff.md --exclude *.pyd
+[2024-04-02 09:45:14] INFO root fetch - processPackages [dbdreader]: executing diffoscope
+[2024-04-02 09:45:14] INFO root fetch - processPackages [dbdreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbdreader-0.5.6.tar.gz tmp/dbdreader-0.5.7.tar.gz --markdown 20240402/d/dbdreader/0.5.6-0.5.7/diff.md --exclude *.pyd
+[2024-04-02 09:45:14] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.221.tar.gz]
+[2024-04-02 09:45:14] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.222.tar.gz]
+[2024-04-02 09:45:14] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-04-02 09:45:14] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.3.tar.gz]
+[2024-04-02 09:45:14] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.4.tar.gz]
+[2024-04-02 09:45:14] INFO root fetch - main [MainThread]: End processing [selestium]: success
+[2024-04-02 09:45:14] INFO root fetch - processPackages [oslo.log]: Remove: archive file [/home/abi/fetcher/tmp/oslo.log-5.4.0.tar.gz]
+[2024-04-02 09:45:14] INFO root fetch - processPackages [oslo.log]: Remove: archive file [/home/abi/fetcher/tmp/oslo.log-5.5.0.tar.gz]
+[2024-04-02 09:45:14] INFO root fetch - main [MainThread]: End processing [oslo.log]: success
+[2024-04-02 09:45:15] INFO root fetch - processPackages [dbdreader]: Remove: archive file [/home/abi/fetcher/tmp/dbdreader-0.5.6.tar.gz]
+[2024-04-02 09:45:15] INFO root fetch - processPackages [dbdreader]: Remove: archive file [/home/abi/fetcher/tmp/dbdreader-0.5.7.tar.gz]
+[2024-04-02 09:45:15] INFO root fetch - main [MainThread]: End processing [dbdreader]: success
+[2024-04-02 09:45:15] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.5.3.tar.gz]
+[2024-04-02 09:45:15] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.0.tar.gz]
+[2024-04-02 09:45:15] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-04-02 09:45:15] INFO root fetch - main [MainThread]: Store serial: [22581730]
