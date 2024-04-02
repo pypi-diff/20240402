@@ -12026,3 +12026,50 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:37:59] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.2.tar.gz]
 [2024-04-02 08:37:59] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
 [2024-04-02 08:37:59] INFO root fetch - main [MainThread]: Store serial: [22581276]
+[2024-04-02 08:40:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581276]
+[2024-04-02 08:40:09] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 08:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vxutils
+[2024-04-02 08:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: llsd
+[2024-04-02 08:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swit-core
+[2024-04-02 08:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keelson
+[2024-04-02 08:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mximport
+[2024-04-02 08:40:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: premier
+[2024-04-02 08:40:09] INFO root fetch - processPackages [vxutils]: New version: [20240401] Old Version: [20240331]
+[2024-04-02 08:40:09] INFO root fetch - processPackages [mximport]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-02 08:40:09] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/77/77/4bd5937bf382ab8f1d6bcbb122a90ff457333de413665bf7c55f087a7454/vxutils-20240331.tar.gz
+[2024-04-02 08:40:09] INFO root fetch - processPackages [mximport]: Downloading https://files.pythonhosted.org/packages/b3/00/c66378323c58bda986177bf03ec58f9e5a042e1ced9657ad07123de3a517/mximport-0.0.1.tar.gz
+[2024-04-02 08:40:09] WARNING root fetch - processPackages [premier]: Skipping, unable to determine old version
+[2024-04-02 08:40:09] INFO root fetch - main [MainThread]: End processing [premier] error
+[2024-04-02 08:40:09] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc1] Old Version: [0.2.0rc3]
+[2024-04-02 08:40:09] INFO root fetch - processPackages [llsd]: New version: [1.2.4] Old Version: [1.2.3]
+[2024-04-02 08:40:09] INFO root fetch - processPackages [swit-core]: New version: [4.0.0] Old Version: [3.0.9]
+[2024-04-02 08:40:09] INFO root fetch - processPackages [mximport]: Downloading https://files.pythonhosted.org/packages/76/37/5c9a04e8840c9d09d4cd38a5c21c21382193254899d3314a6e031af0b7d6/mximport-0.1.0.tar.gz
+[2024-04-02 08:40:09] INFO root fetch - processPackages [vxutils]: Downloading https://files.pythonhosted.org/packages/57/45/929f169d7a4c648c35a448c94643bebaf411ca7b0d1b225baed0b86ca880/vxutils-20240401.tar.gz
+[2024-04-02 08:40:09] INFO root fetch - processPackages [llsd]: Downloading https://files.pythonhosted.org/packages/70/4c/bbb4e2ee18411509a9e412441139b34d28d7ec7be1d6cb3add42ef7ea503/llsd-1.2.3.tar.gz
+[2024-04-02 08:40:09] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/05/b6/ff2496729818f235210dcb56d56b9a642f3cfe1b1dbdee8b3a144abac32e/swit_core-3.0.9.tar.gz
+[2024-04-02 08:40:09] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/7c/e1/29663bd505fa198de0efca843a15cfe49b3a1cc2b04ff14a8e1aae34bfa1/keelson-0.2.0rc3-py3-none-any.whl
+[2024-04-02 08:40:10] WARNING root fetch - processPackages [swit-core]: Skipping package: exceeds size limit 23674453>=10485760
+[2024-04-02 08:40:10] INFO root fetch - main [MainThread]: End processing [swit-core] error
+[2024-04-02 08:40:10] INFO root fetch - processPackages [mximport]: executing diffoscope
+[2024-04-02 08:40:10] INFO root fetch - processPackages [mximport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mximport-0.0.1.tar.gz tmp/mximport-0.1.0.tar.gz --markdown 20240402/m/mximport/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 08:40:10] INFO root fetch - processPackages [vxutils]: executing diffoscope
+[2024-04-02 08:40:10] INFO root fetch - processPackages [vxutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vxutils-20240331.tar.gz tmp/vxutils-20240401.tar.gz --markdown 20240402/v/vxutils/20240331-20240401/diff.md --exclude *.pyd
+[2024-04-02 08:40:10] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/ab/1c/132a73630943cc13c45586167c5dc0c04b08784d73c8eba1df2b0a4b549e/keelson-0.3.0rc1-py3-none-any.whl
+[2024-04-02 08:40:10] INFO root fetch - processPackages [llsd]: Downloading https://files.pythonhosted.org/packages/17/e6/0132c89a40bdd87d29bbf406a5a8c50efd63cbb698b5569dbebfddffb25d/llsd-1.2.4.tar.gz
+[2024-04-02 08:40:10] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-02 08:40:10] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.2.0rc3-py3-none-any.whl.zip tmp/keelson-0.3.0rc1-py3-none-any.whl.zip --markdown 20240402/k/keelson/0.2.0rc3-0.3.0rc1/diff.md --exclude *.pyd
+[2024-04-02 08:40:10] INFO root fetch - processPackages [llsd]: executing diffoscope
+[2024-04-02 08:40:10] INFO root fetch - processPackages [llsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llsd-1.2.3.tar.gz tmp/llsd-1.2.4.tar.gz --markdown 20240402/l/llsd/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2024-04-02 08:40:10] INFO root fetch - processPackages [mximport]: Remove: archive file [/home/abi/fetcher/tmp/mximport-0.0.1.tar.gz]
+[2024-04-02 08:40:10] INFO root fetch - processPackages [mximport]: Remove: archive file [/home/abi/fetcher/tmp/mximport-0.1.0.tar.gz]
+[2024-04-02 08:40:10] INFO root fetch - main [MainThread]: End processing [mximport]: success
+[2024-04-02 08:40:10] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240331.tar.gz]
+[2024-04-02 08:40:10] INFO root fetch - processPackages [vxutils]: Remove: archive file [/home/abi/fetcher/tmp/vxutils-20240401.tar.gz]
+[2024-04-02 08:40:10] INFO root fetch - main [MainThread]: End processing [vxutils]: success
+[2024-04-02 08:40:11] INFO root fetch - processPackages [llsd]: Remove: archive file [/home/abi/fetcher/tmp/llsd-1.2.3.tar.gz]
+[2024-04-02 08:40:11] INFO root fetch - processPackages [llsd]: Remove: archive file [/home/abi/fetcher/tmp/llsd-1.2.4.tar.gz]
+[2024-04-02 08:40:11] INFO root fetch - main [MainThread]: End processing [llsd]: success
+[2024-04-02 08:40:11] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.2.0rc3-py3-none-any.whl.zip]
+[2024-04-02 08:40:11] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc1-py3-none-any.whl.zip]
+[2024-04-02 08:40:11] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-02 08:40:11] INFO root fetch - main [MainThread]: Store serial: [22581303]
