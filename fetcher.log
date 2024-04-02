@@ -21722,3 +21722,57 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:03:34] INFO root fetch - processPackages [tdstone2]: Remove: archive file [/home/abi/fetcher/tmp/tdstone2-0.1.2.9-py3-none-any.whl.zip]
 [2024-04-02 15:03:34] INFO root fetch - main [MainThread]: End processing [tdstone2]: success
 [2024-04-02 15:03:34] INFO root fetch - main [MainThread]: Store serial: [22585200]
+[2024-04-02 15:05:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585200]
+[2024-04-02 15:05:43] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pathopatch
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: traceloop-sdk
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpaframework
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglass-api
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zhaolinchao
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vite-to-flask
+[2024-04-02 15:05:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: blissdata
+[2024-04-02 15:05:43] WARNING root fetch - processPackages [vite-to-flask]: Skipping, unable to determine old version
+[2024-04-02 15:05:43] INFO root fetch - main [MainThread]: End processing [vite-to-flask] error
+[2024-04-02 15:05:43] WARNING root fetch - processPackages [zhaolinchao]: Skipping, unable to determine old version
+[2024-04-02 15:05:43] INFO root fetch - main [MainThread]: End processing [zhaolinchao] error
+[2024-04-02 15:05:43] INFO root fetch - processPackages [blissdata]: New version: [1.0.3] Old Version: [1.0.2]
+[2024-04-02 15:05:43] INFO root fetch - processPackages [pathopatch]: New version: [1.0.1b0] Old Version: [1.0.0b0]
+[2024-04-02 15:05:43] INFO root fetch - processPackages [pyglass-api]: New version: [0.3.0] Old Version: [0.2.1]
+[2024-04-02 15:05:43] INFO root fetch - processPackages [rpaframework]: New version: [9.6.0] Old Version: [9.5.0]
+[2024-04-02 15:05:43] INFO root fetch - processPackages [traceloop-sdk]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pathopatch]: Downloading https://files.pythonhosted.org/packages/30/c3/ed66a3367076bf30aff0d95cd499f35a3f17798878638b8b0b712073126b/pathopatch-1.0.0b0.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [blissdata]: Downloading https://files.pythonhosted.org/packages/11/fb/f496f436a9cff5bdeea55887093bd5f55c870a64d6949dd4ae963339a0f7/blissdata-1.0.2.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pyglass-api]: Downloading https://files.pythonhosted.org/packages/49/6e/bcd297b79c2dbed123d0a360346929de7c85d26d9fdfdee1ac19101a3a14/pyglass_api-0.2.1.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/08/36/2753b6863128fce0fd17301c85f3767b92c880658c31f1a1f8773dd22d10/rpaframework-9.5.0.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/71/52/a865ce901951f5201da24334b1278104b1b370b18ce9595ea9035a6c3a0e/traceloop_sdk-0.9.3.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pathopatch]: Downloading https://files.pythonhosted.org/packages/e7/07/eb24fb680dfd4a72591d5c82fb0446ddd77c55d638b57f663db86104bf64/pathopatch-1.0.1b0.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [traceloop-sdk]: Downloading https://files.pythonhosted.org/packages/ae/ca/192dff20dadbfa74c05ff4b865462f41b6cb019752812778ed2fbe2b45db/traceloop_sdk-0.9.4.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [blissdata]: Downloading https://files.pythonhosted.org/packages/02/e7/a5027034087cc0324bc7e85ed1a6e205df6a72dc1db28563d05c47364d57/blissdata-1.0.3.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pyglass-api]: Downloading https://files.pythonhosted.org/packages/0b/d0/2621d7d29e0f97d3f9761efaaea68b9218835e929752229b6422807bb92c/pyglass_api-0.3.0.tar.gz
+[2024-04-02 15:05:44] INFO root fetch - processPackages [traceloop-sdk]: executing diffoscope
+[2024-04-02 15:05:44] INFO root fetch - processPackages [traceloop-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/traceloop_sdk-0.9.3.tar.gz tmp/traceloop_sdk-0.9.4.tar.gz --markdown 20240402/t/traceloop-sdk/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-02 15:05:44] INFO root fetch - processPackages [blissdata]: executing diffoscope
+[2024-04-02 15:05:44] INFO root fetch - processPackages [blissdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blissdata-1.0.2.tar.gz tmp/blissdata-1.0.3.tar.gz --markdown 20240402/b/blissdata/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pyglass-api]: executing diffoscope
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pyglass-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglass_api-0.2.1.tar.gz tmp/pyglass_api-0.3.0.tar.gz --markdown 20240402/p/pyglass-api/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pathopatch]: executing diffoscope
+[2024-04-02 15:05:44] INFO root fetch - processPackages [pathopatch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pathopatch-1.0.0b0.tar.gz tmp/pathopatch-1.0.1b0.tar.gz --markdown 20240402/p/pathopatch/1.0.0b0-1.0.1b0/diff.md --exclude *.pyd
+[2024-04-02 15:05:45] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.3.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - processPackages [traceloop-sdk]: Remove: archive file [/home/abi/fetcher/tmp/traceloop_sdk-0.9.4.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - main [MainThread]: End processing [traceloop-sdk]: success
+[2024-04-02 15:05:45] INFO root fetch - processPackages [pyglass-api]: Remove: archive file [/home/abi/fetcher/tmp/pyglass_api-0.2.1.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - processPackages [pyglass-api]: Remove: archive file [/home/abi/fetcher/tmp/pyglass_api-0.3.0.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - main [MainThread]: End processing [pyglass-api]: success
+[2024-04-02 15:05:45] INFO root fetch - processPackages [blissdata]: Remove: archive file [/home/abi/fetcher/tmp/blissdata-1.0.2.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - processPackages [blissdata]: Remove: archive file [/home/abi/fetcher/tmp/blissdata-1.0.3.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - main [MainThread]: End processing [blissdata]: success
+[2024-04-02 15:05:45] INFO root fetch - processPackages [rpaframework]: Downloading https://files.pythonhosted.org/packages/ec/52/e237349f170c7f11301bcd83a500356a47b1480cdeee67c6971b224571b0/rpaframework-9.6.0.tar.gz
+[2024-04-02 15:05:45] INFO root fetch - processPackages [pathopatch]: Remove: archive file [/home/abi/fetcher/tmp/pathopatch-1.0.0b0.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - processPackages [pathopatch]: Remove: archive file [/home/abi/fetcher/tmp/pathopatch-1.0.1b0.tar.gz]
+[2024-04-02 15:05:45] INFO root fetch - main [MainThread]: End processing [pathopatch]: success
+[2024-04-02 15:05:47] INFO root fetch - processPackages [rpaframework]: executing diffoscope
+[2024-04-02 15:05:47] INFO root fetch - processPackages [rpaframework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework-9.5.0.tar.gz tmp/rpaframework-9.6.0.tar.gz --markdown 20240402/r/rpaframework/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2024-04-02 15:05:49] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.5.0.tar.gz]
+[2024-04-02 15:05:49] INFO root fetch - processPackages [rpaframework]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework-9.6.0.tar.gz]
+[2024-04-02 15:05:49] INFO root fetch - main [MainThread]: End processing [rpaframework]: success
+[2024-04-02 15:05:49] INFO root fetch - main [MainThread]: Store serial: [22585232]
