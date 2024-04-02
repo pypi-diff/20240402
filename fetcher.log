@@ -13921,3 +13921,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:10:32] INFO root fetch - processPackages [beartype]: Remove: archive file [/home/abi/fetcher/tmp/beartype-0.9.1.tar.gz]
 [2024-04-02 10:10:32] INFO root fetch - main [MainThread]: End processing [beartype]: success
 [2024-04-02 10:10:32] INFO root fetch - main [MainThread]: Store serial: [22581969]
+[2024-04-02 10:12:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581969]
+[2024-04-02 10:12:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 10:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yc-lockbox
+[2024-04-02 10:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notdiamond-openai
+[2024-04-02 10:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: docugami-langchain
+[2024-04-02 10:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: QT-PyQt-PySide-Custom-Widgets
+[2024-04-02 10:12:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dyapi
+[2024-04-02 10:12:41] INFO root fetch - processPackages [dyapi]: New version: [0.8.0] Old Version: [0.7.0]
+[2024-04-02 10:12:41] INFO root fetch - processPackages [notdiamond-openai]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 10:12:41] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: New version: [0.9.3] Old Version: [0.9.2]
+[2024-04-02 10:12:41] INFO root fetch - processPackages [yc-lockbox]: New version: [0.2.0] Old Version: [0.1.3]
+[2024-04-02 10:12:41] INFO root fetch - processPackages [dyapi]: Downloading https://files.pythonhosted.org/packages/b2/30/fcddd0f6c170c392ffc7fefdfa323d0688447199e5bda8b23c0feaceefa4/dyapi-0.7.0.tar.gz
+[2024-04-02 10:12:41] INFO root fetch - processPackages [docugami-langchain]: New version: [0.0.7rc9] Old Version: [0.0.7rc8]
+[2024-04-02 10:12:41] INFO root fetch - processPackages [notdiamond-openai]: Downloading https://files.pythonhosted.org/packages/0a/11/ccde40fdd4d14feb9cf412ad1e97cf9f3a3d882b151bc9d6a538db3c97fc/notdiamond_openai-0.1.2.tar.gz
+[2024-04-02 10:12:41] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/0b/29/a5730e4cfdf0e34aa6a9e187011822232842017e194195f82c8ac0332145/QT-PyQt-PySide-Custom-Widgets-0.9.2.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [yc-lockbox]: Downloading https://files.pythonhosted.org/packages/cc/ef/8c19423d9f3db82bfab518b93a0dc048392d5700cf06dbe599ad70bf1cd1/yc-lockbox-0.1.3.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/61/fb/e065e9733519fa7f9c379746d05be5069415a0888c754b8d12a4b7595069/docugami_langchain-0.0.7rc8.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [notdiamond-openai]: Downloading https://files.pythonhosted.org/packages/47/15/2b085ed30c86c738b86b4be9c7329d7d91b86b9ec976ebeb9e8dd7283606/notdiamond_openai-0.1.3.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [dyapi]: Downloading https://files.pythonhosted.org/packages/7b/67/3ae567bc99f2865bc6cde059d4efc04619e0edcd122fa8d1b1622933ed9a/dyapi-0.8.0.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Downloading https://files.pythonhosted.org/packages/ea/94/e3bbe8170d9a7bb9a8823fde31afef548bdbf5941b33fc8dfaba1e660fb0/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [notdiamond-openai]: executing diffoscope
+[2024-04-02 10:12:42] INFO root fetch - processPackages [notdiamond-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond_openai-0.1.2.tar.gz tmp/notdiamond_openai-0.1.3.tar.gz --markdown 20240402/n/notdiamond-openai/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 10:12:42] INFO root fetch - processPackages [dyapi]: executing diffoscope
+[2024-04-02 10:12:42] INFO root fetch - processPackages [dyapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dyapi-0.7.0.tar.gz tmp/dyapi-0.8.0.tar.gz --markdown 20240402/d/dyapi/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2024-04-02 10:12:42] INFO root fetch - processPackages [yc-lockbox]: Downloading https://files.pythonhosted.org/packages/bd/89/86c99496c7359560effe0c9eaaf01410897728027b13e75cb220f3c37dad/yc-lockbox-0.2.0.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [yc-lockbox]: executing diffoscope
+[2024-04-02 10:12:42] INFO root fetch - processPackages [yc-lockbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yc-lockbox-0.1.3.tar.gz tmp/yc-lockbox-0.2.0.tar.gz --markdown 20240402/y/yc-lockbox/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 10:12:42] INFO root fetch - processPackages [docugami-langchain]: Downloading https://files.pythonhosted.org/packages/d3/dc/ebfc94d3428173a7827916947f5e84317c665bab439e99dd9fd634dcc60f/docugami_langchain-0.0.7rc9.tar.gz
+[2024-04-02 10:12:42] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: executing diffoscope
+[2024-04-02 10:12:42] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/QT-PyQt-PySide-Custom-Widgets-0.9.2.tar.gz tmp/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz --markdown 20240402/Q/QT-PyQt-PySide-Custom-Widgets/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2024-04-02 10:12:42] INFO root fetch - processPackages [docugami-langchain]: executing diffoscope
+[2024-04-02 10:12:42] INFO root fetch - processPackages [docugami-langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docugami_langchain-0.0.7rc8.tar.gz tmp/docugami_langchain-0.0.7rc9.tar.gz --markdown 20240402/d/docugami-langchain/0.0.7rc8-0.0.7rc9/diff.md --exclude *.pyd
+[2024-04-02 10:12:43] INFO root fetch - processPackages [dyapi]: Remove: archive file [/home/abi/fetcher/tmp/dyapi-0.7.0.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - processPackages [dyapi]: Remove: archive file [/home/abi/fetcher/tmp/dyapi-0.8.0.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - main [MainThread]: End processing [dyapi]: success
+[2024-04-02 10:12:43] INFO root fetch - processPackages [yc-lockbox]: Remove: archive file [/home/abi/fetcher/tmp/yc-lockbox-0.1.3.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - processPackages [yc-lockbox]: Remove: archive file [/home/abi/fetcher/tmp/yc-lockbox-0.2.0.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - main [MainThread]: End processing [yc-lockbox]: success
+[2024-04-02 10:12:43] INFO root fetch - processPackages [notdiamond-openai]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond_openai-0.1.2.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - processPackages [notdiamond-openai]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond_openai-0.1.3.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - main [MainThread]: End processing [notdiamond-openai]: success
+[2024-04-02 10:12:43] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc8.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - processPackages [docugami-langchain]: Remove: archive file [/home/abi/fetcher/tmp/docugami_langchain-0.0.7rc9.tar.gz]
+[2024-04-02 10:12:43] INFO root fetch - main [MainThread]: End processing [docugami-langchain]: success
+[2024-04-02 10:13:02] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.2.tar.gz]
+[2024-04-02 10:13:02] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz]
+[2024-04-02 10:13:02] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
+[2024-04-02 10:13:02] INFO root fetch - main [MainThread]: Store serial: [22581984]
