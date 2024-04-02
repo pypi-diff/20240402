@@ -8413,3 +8413,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:09:44] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.6-py3-none-any.whl.zip]
 [2024-04-02 04:09:44] INFO root fetch - main [MainThread]: End processing [zonevu]: success
 [2024-04-02 04:09:44] INFO root fetch - main [MainThread]: Store serial: [22579864]
+[2024-04-02 04:11:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579864]
+[2024-04-02 04:11:53] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyclipmgr
+[2024-04-02 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdarpack
+[2024-04-02 04:11:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jy_lib
+[2024-04-02 04:11:53] INFO root fetch - processPackages [pyclipmgr]: New version: [2.3] Old Version: [2.2]
+[2024-04-02 04:11:53] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0c/ff/070a12dd6a2fa09947ef4dfdb1c9112d5f60dc2e90eb0c3770432450758a/pyclipmgr-2.2.tar.gz
+[2024-04-02 04:11:53] INFO root fetch - processPackages [bdarpack]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 04:11:53] INFO root fetch - processPackages [jy_lib]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-02 04:11:53] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/dc/0a/557ed4192cd9bad7f12febf1f4c73bd29c4d0b56e9b4508924e60b2fc435/jy_lib-0.5.4.tar.gz
+[2024-04-02 04:11:53] INFO root fetch - processPackages [bdarpack]: Downloading https://files.pythonhosted.org/packages/d3/6e/33b3a3cc1a9843d3002075d80e24c4a9b06355cffcd7543a100b6457b34c/bdarpack-0.1.4.tar.gz
+[2024-04-02 04:11:53] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/32/e1/26a6934610abfd0e89bd3af27461968cd58b3c7329d8b0285e36c1b4cdec/pyclipmgr-2.3.tar.gz
+[2024-04-02 04:11:53] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 04:11:53] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-2.2.tar.gz tmp/pyclipmgr-2.3.tar.gz --markdown 20240402/p/pyclipmgr/2.2-2.3/diff.md --exclude *.pyd
+[2024-04-02 04:11:54] INFO root fetch - processPackages [bdarpack]: Downloading https://files.pythonhosted.org/packages/54/88/78ab39466ead5992601f297b0ef5e32bada5295925ad62d0f842ade03624/bdarpack-0.1.5.tar.gz
+[2024-04-02 04:11:54] INFO root fetch - processPackages [jy_lib]: Downloading https://files.pythonhosted.org/packages/be/70/4cc0bb8bfa19f66813c6fb145ebdbd405963f035970d6b3c040c611f2758/jy_lib-0.5.5.tar.gz
+[2024-04-02 04:11:54] INFO root fetch - processPackages [bdarpack]: executing diffoscope
+[2024-04-02 04:11:54] INFO root fetch - processPackages [bdarpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdarpack-0.1.4.tar.gz tmp/bdarpack-0.1.5.tar.gz --markdown 20240402/b/bdarpack/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 04:11:54] INFO root fetch - processPackages [jy_lib]: executing diffoscope
+[2024-04-02 04:11:54] INFO root fetch - processPackages [jy_lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jy_lib-0.5.4.tar.gz tmp/jy_lib-0.5.5.tar.gz --markdown 20240402/j/jy_lib/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-02 04:11:54] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.2.tar.gz]
+[2024-04-02 04:11:54] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.3.tar.gz]
+[2024-04-02 04:11:54] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 04:11:54] INFO root fetch - processPackages [bdarpack]: Remove: archive file [/home/abi/fetcher/tmp/bdarpack-0.1.4.tar.gz]
+[2024-04-02 04:11:54] INFO root fetch - processPackages [bdarpack]: Remove: archive file [/home/abi/fetcher/tmp/bdarpack-0.1.5.tar.gz]
+[2024-04-02 04:11:54] INFO root fetch - main [MainThread]: End processing [bdarpack]: success
+[2024-04-02 04:11:54] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.4.tar.gz]
+[2024-04-02 04:11:54] INFO root fetch - processPackages [jy_lib]: Remove: archive file [/home/abi/fetcher/tmp/jy_lib-0.5.5.tar.gz]
+[2024-04-02 04:11:54] INFO root fetch - main [MainThread]: End processing [jy_lib]: success
+[2024-04-02 04:11:54] INFO root fetch - main [MainThread]: Store serial: [22579872]
