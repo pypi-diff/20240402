@@ -11257,3 +11257,63 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:42:35] INFO root fetch - processPackages [authx]: Remove: archive file [/home/abi/fetcher/tmp/authx-1.0.1b1.tar.gz]
 [2024-04-02 07:42:35] INFO root fetch - main [MainThread]: End processing [authx]: success
 [2024-04-02 07:42:35] INFO root fetch - main [MainThread]: Store serial: [22580982]
+[2024-04-02 07:44:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580982]
+[2024-04-02 07:44:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: authx
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiceai
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ih-common
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: json-repair
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pysoltransfer
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grss
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickstart-vdk
+[2024-04-02 07:44:44] INFO root fetch - processPackages [spiceai]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 07:44:44] INFO root fetch - processPackages [authx]: New version: [1.0.1b1] Old Version: [1.0.1b0]
+[2024-04-02 07:44:44] INFO root fetch - processPackages [json-repair]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 07:44:44] WARNING root fetch - processPackages [pysoltransfer]: Skipping, unable to determine old version
+[2024-04-02 07:44:44] INFO root fetch - main [MainThread]: End processing [pysoltransfer] error
+[2024-04-02 07:44:44] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.999091100.dev13356] Old Version: [0.2.998635022.dev13355]
+[2024-04-02 07:44:44] INFO root fetch - processPackages [authx]: Downloading https://files.pythonhosted.org/packages/06/15/84ff33d196e20952f2752dafa9e1434a7abb35fdea913ed1800fda220bad/authx-1.0.1b0.tar.gz
+[2024-04-02 07:44:44] INFO root fetch - processPackages [ih-common]: New version: [2.8.0] Old Version: [2.7.1]
+[2024-04-02 07:44:44] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/30/98/8e5e70109f1541aeeeccf67fa2876d53b95f4dbf67deb476eaa6931ff9b5/json_repair-0.8.1.tar.gz
+[2024-04-02 07:44:44] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/e3/a6/b7424a3be777980068df32f41ef9085422b79289fef725cba5cabf2b502e/quickstart-vdk-0.2.998635022.dev13355.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/08/04/4682190373f235f75ef02e46593f5123d3d88dd85d78632c0c6ce61d2b93/spiceai-0.1.4.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [grss]: New version: [3.8.7] Old Version: [3.8.3]
+[2024-04-02 07:44:45] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/4d/0c/cf8504e53ab0ecc31714dd7033f42cbb6b0de8dfd679755465688b66f914/ih_common-2.7.1.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [json-repair]: Downloading https://files.pythonhosted.org/packages/a3/6d/f3cff9a4b72bae984511e3b5e198dc886ea044b979e7d59ebd53d0583a10/json_repair-0.9.0.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [authx]: Downloading https://files.pythonhosted.org/packages/6c/03/0cfae05de616d1ffdad8b3c2c8d260a8e1ea09474e1671e22ddea46003de/authx-1.0.1b1.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/fa/72/2a48eb94b876fa0c01eda0450a3e80c80101dd5fdfe10124d5474b64f5fd/quickstart-vdk-0.2.999091100.dev13356.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/57/6f/f46084fd7cb3b9d51611aab22da6f355243aa36727dcf863313bc446356a/spiceai-0.1.5.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [json-repair]: executing diffoscope
+[2024-04-02 07:44:45] INFO root fetch - processPackages [json-repair]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_repair-0.8.1.tar.gz tmp/json_repair-0.9.0.tar.gz --markdown 20240402/j/json-repair/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 07:44:45] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/63/bb/eb619f30d11f13f66174b8b724922dce613f48d8befcb08c870ef2bca196/grss-3.8.3.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2024-04-02 07:44:45] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz --markdown 20240402/q/quickstart-vdk/0.2.998635022.dev13355-0.2.999091100.dev13356/diff.md --exclude *.pyd
+[2024-04-02 07:44:45] INFO root fetch - processPackages [authx]: executing diffoscope
+[2024-04-02 07:44:45] INFO root fetch - processPackages [authx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authx-1.0.1b0.tar.gz tmp/authx-1.0.1b1.tar.gz --markdown 20240402/a/authx/1.0.1b0-1.0.1b1/diff.md --exclude *.pyd
+[2024-04-02 07:44:45] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 07:44:45] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.4.tar.gz tmp/spiceai-0.1.5.tar.gz --markdown 20240402/s/spiceai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 07:44:45] INFO root fetch - processPackages [ih-common]: Downloading https://files.pythonhosted.org/packages/37/56/56af585e51da9a974b871731c3a293e02d9df6211d0f51f48aef65de6085/ih_common-2.8.0.tar.gz
+[2024-04-02 07:44:45] INFO root fetch - processPackages [ih-common]: executing diffoscope
+[2024-04-02 07:44:45] INFO root fetch - processPackages [ih-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ih_common-2.7.1.tar.gz tmp/ih_common-2.8.0.tar.gz --markdown 20240402/i/ih-common/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2024-04-02 07:44:45] INFO root fetch - processPackages [grss]: Downloading https://files.pythonhosted.org/packages/05/ed/37edbd5731046ed7de879dc98938d4aac435965080227686cf22048f6255/grss-3.8.7-cp312-cp312-musllinux_1_1_x86_64.whl
+[2024-04-02 07:44:45] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.998635022.dev13355.tar.gz]
+[2024-04-02 07:44:45] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.999091100.dev13356.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2024-04-02 07:44:46] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.8.1.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - processPackages [json-repair]: Remove: archive file [/home/abi/fetcher/tmp/json_repair-0.9.0.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - main [MainThread]: End processing [json-repair]: success
+[2024-04-02 07:44:46] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.4.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.5.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 07:44:46] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.7.1.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - processPackages [ih-common]: Remove: archive file [/home/abi/fetcher/tmp/ih_common-2.8.0.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - main [MainThread]: End processing [ih-common]: success
+[2024-04-02 07:44:46] INFO root fetch - processPackages [authx]: Remove: archive file [/home/abi/fetcher/tmp/authx-1.0.1b0.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - processPackages [authx]: Remove: archive file [/home/abi/fetcher/tmp/authx-1.0.1b1.tar.gz]
+[2024-04-02 07:44:46] INFO root fetch - main [MainThread]: End processing [authx]: success
+[2024-04-02 07:44:47] INFO root fetch - processPackages [grss]: executing diffoscope
+[2024-04-02 07:44:47] INFO root fetch - processPackages [grss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grss-3.8.3.tar.gz tmp/grss-3.8.7-cp312-cp312-musllinux_1_1_x86_64.whl.zip --markdown 20240402/g/grss/3.8.3-3.8.7/diff.md --exclude *.pyd
+[2024-04-02 07:44:48] INFO root fetch - processPackages [grss]: Remove: archive file [/home/abi/fetcher/tmp/grss-3.8.3.tar.gz]
+[2024-04-02 07:44:48] INFO root fetch - processPackages [grss]: Remove: archive file [/home/abi/fetcher/tmp/grss-3.8.7-cp312-cp312-musllinux_1_1_x86_64.whl.zip]
+[2024-04-02 07:44:48] INFO root fetch - main [MainThread]: End processing [grss]: success
+[2024-04-02 07:44:48] INFO root fetch - main [MainThread]: Store serial: [22581010]
