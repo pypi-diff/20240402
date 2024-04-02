@@ -2955,3 +2955,36 @@
 [2024-04-02 02:51:06] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2024-04-02 02:51:06] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2024-04-02 02:51:06] INFO root fetch - main [MainThread]: Store serial: [22577849]
+[2024-04-02 02:53:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577849]
+[2024-04-02 02:53:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 02:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Mensajes-sebasmi19
+[2024-04-02 02:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smadi
+[2024-04-02 02:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mediqbox-jobctxmgr
+[2024-04-02 02:53:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rpg-xml
+[2024-04-02 02:53:15] WARNING root fetch - processPackages [Mensajes-sebasmi19]: Skipping, unable to determine old version
+[2024-04-02 02:53:15] INFO root fetch - main [MainThread]: End processing [Mensajes-sebasmi19] error
+[2024-04-02 02:53:15] INFO root fetch - processPackages [mediqbox-jobctxmgr]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 02:53:15] INFO root fetch - processPackages [smadi]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 02:53:15] INFO root fetch - processPackages [rpg-xml]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 02:53:15] INFO root fetch - processPackages [mediqbox-jobctxmgr]: Downloading https://files.pythonhosted.org/packages/6a/e7/5512ff629b622f756b5ff8f1579fc4272fcde2ce01248779ba63ae93d4da/mediqbox-jobctxmgr-0.0.1.tar.gz
+[2024-04-02 02:53:15] INFO root fetch - processPackages [rpg-xml]: Downloading https://files.pythonhosted.org/packages/fd/a2/82421078ae4a81249cc2d4920bb4d4bd56805ff96d5b0282c7168a2fa4ed/rpg_xml-0.1.0-py3-none-any.whl
+[2024-04-02 02:53:15] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/7c/a8/da16a14e0f09fceb42bb2928fd661edda20979c22454f1cbb9d6ab6cc2e0/smadi-0.2.4.tar.gz
+[2024-04-02 02:53:15] INFO root fetch - processPackages [mediqbox-jobctxmgr]: Downloading https://files.pythonhosted.org/packages/97/83/ce194a832083b5032871f0a34dfa322d43947b89c8e4bf4a0b30eda6fa27/mediqbox-jobctxmgr-0.0.2.tar.gz
+[2024-04-02 02:53:15] INFO root fetch - processPackages [rpg-xml]: Downloading https://files.pythonhosted.org/packages/e4/63/4ed3d951b82663ec9d8e106bafb7fe3af017ad8c7292c3fb4d04a4281c1b/rpg_xml-0.1.1-py3-none-any.whl
+[2024-04-02 02:53:15] INFO root fetch - processPackages [smadi]: Downloading https://files.pythonhosted.org/packages/a1/b2/2ced333edcc112f156241553390f7038852db792f7c271f6ec47d7b7faa3/smadi-0.2.5.tar.gz
+[2024-04-02 02:53:16] INFO root fetch - processPackages [mediqbox-jobctxmgr]: executing diffoscope
+[2024-04-02 02:53:16] INFO root fetch - processPackages [mediqbox-jobctxmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediqbox-jobctxmgr-0.0.1.tar.gz tmp/mediqbox-jobctxmgr-0.0.2.tar.gz --markdown 20240402/m/mediqbox-jobctxmgr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 02:53:16] INFO root fetch - processPackages [smadi]: executing diffoscope
+[2024-04-02 02:53:16] INFO root fetch - processPackages [smadi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smadi-0.2.4.tar.gz tmp/smadi-0.2.5.tar.gz --markdown 20240402/s/smadi/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 02:53:16] INFO root fetch - processPackages [rpg-xml]: executing diffoscope
+[2024-04-02 02:53:16] INFO root fetch - processPackages [rpg-xml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpg_xml-0.1.0-py3-none-any.whl.zip tmp/rpg_xml-0.1.1-py3-none-any.whl.zip --markdown 20240402/r/rpg-xml/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 02:53:16] INFO root fetch - processPackages [mediqbox-jobctxmgr]: Remove: archive file [/home/abi/fetcher/tmp/mediqbox-jobctxmgr-0.0.1.tar.gz]
+[2024-04-02 02:53:16] INFO root fetch - processPackages [mediqbox-jobctxmgr]: Remove: archive file [/home/abi/fetcher/tmp/mediqbox-jobctxmgr-0.0.2.tar.gz]
+[2024-04-02 02:53:16] INFO root fetch - main [MainThread]: End processing [mediqbox-jobctxmgr]: success
+[2024-04-02 02:53:16] INFO root fetch - processPackages [rpg-xml]: Remove: archive file [/home/abi/fetcher/tmp/rpg_xml-0.1.0-py3-none-any.whl.zip]
+[2024-04-02 02:53:16] INFO root fetch - processPackages [rpg-xml]: Remove: archive file [/home/abi/fetcher/tmp/rpg_xml-0.1.1-py3-none-any.whl.zip]
+[2024-04-02 02:53:16] INFO root fetch - main [MainThread]: End processing [rpg-xml]: success
+[2024-04-02 02:53:16] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.4.tar.gz]
+[2024-04-02 02:53:16] INFO root fetch - processPackages [smadi]: Remove: archive file [/home/abi/fetcher/tmp/smadi-0.2.5.tar.gz]
+[2024-04-02 02:53:16] INFO root fetch - main [MainThread]: End processing [smadi]: success
+[2024-04-02 02:53:16] INFO root fetch - main [MainThread]: Store serial: [22577864]
