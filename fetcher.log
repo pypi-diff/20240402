@@ -16824,3 +16824,170 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:05:16] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
 [2024-04-02 12:05:16] INFO root fetch - main [MainThread]: End processing [moto-ext] error
 [2024-04-02 12:05:16] INFO root fetch - main [MainThread]: Store serial: [22583254]
+[2024-04-02 12:07:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583254]
+[2024-04-02 12:07:27] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Java2Jar
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: databind
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: databind.core
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: databind.json
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scaleway-async
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scaleway
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dated-money
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: napari-toothfairy-annotator
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: klowd
+[2024-04-02 12:07:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: boomgate
+[2024-04-02 12:07:27] INFO root fetch - processPackages [boomgate]: New version: [0.0.5] Old Version: [0.0.2]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [databind.json]: New version: [4.5.0] Old Version: [4.4.2]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [napari-toothfairy-annotator]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 12:07:27] WARNING root fetch - processPackages [Java2Jar]: Skipping, unable to determine old version
+[2024-04-02 12:07:27] INFO root fetch - processPackages [Java2Jar]: Start processing: moto
+[2024-04-02 12:07:27] INFO root fetch - main [MainThread]: End processing [Java2Jar] error
+[2024-04-02 12:07:27] INFO root fetch - processPackages [scaleway]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [scaleway-async]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/33/1f/00026142e86861719f439ec965cf35ebef9aaa0b051670464088da2136da/boomgate-0.0.2.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [klowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [dated-money]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [databind]: New version: [4.5.1] Old Version: [4.5.0]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [databind.core]: New version: [4.5.1] Old Version: [4.5.0]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-02 12:07:27] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/47/26/eb7c58a76ec036cbccd2f98055a12d20cf63d6332f0f970915e97edf02da/napari-toothfairy-annotator-0.0.2.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [databind.json]: Downloading https://files.pythonhosted.org/packages/d5/ce/1e82e8ba89a7c13d4c61ac88342c2619ef0b70de0b1cc4e91c43c7540e6a/databind.json-4.4.2.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/69/76/d42a1638ca3351e05f48de75575b7c874a615f400c78e9638026dc357e0d/scaleway-2.0.0.dev5.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/e3/ea/b0a58efdd8b005062d671895f3df02747e515dc4290686e9cbe5cbb25244/scaleway_async-2.0.0.dev5.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [klowd]: Downloading https://files.pythonhosted.org/packages/07/05/0605130285a72563c3cd310180df0a6bce1af055fae18c4cc565be4e4ee8/klowd-0.0.8-py3-none-any.whl
+[2024-04-02 12:07:27] INFO root fetch - processPackages [dated-money]: Downloading https://files.pythonhosted.org/packages/29/4b/89201107edd60b7d8b93294b6106951dc6b18ab4e07390b406a5769c1141/dated_money-1.0.1.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [databind]: Downloading https://files.pythonhosted.org/packages/8e/96/56874267390cc90bc5bba49af251ec7ba6b1f5673ea27010c251e79cbaf3/databind-4.5.0.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [databind.core]: Downloading https://files.pythonhosted.org/packages/49/75/9158b900af58ea24951e0e1dd72513e3dacf06eef405d030d33d9b3c2265/databind_core-4.5.0.tar.gz
+[2024-04-02 12:07:27] INFO root fetch - processPackages [napari-toothfairy-annotator]: Downloading https://files.pythonhosted.org/packages/ee/12/f16984001cd9a7860c594049bb7b90b77607d33e913c72f384ee88a7cd3b/napari-toothfairy-annotator-0.0.3.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/62/86/aa06f11f7172a7553cff99b45c1aad9904c4ba2cb88eae9f1e6ecd38f8f6/boomgate-0.0.5.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [napari-toothfairy-annotator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-toothfairy-annotator-0.0.2.tar.gz tmp/napari-toothfairy-annotator-0.0.3.tar.gz --markdown 20240402/n/napari-toothfairy-annotator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind.json]: Downloading https://files.pythonhosted.org/packages/78/15/50a9a47b9b9fc4bafcc590635962771a91f9abb0d1bd18cb3206e4bed9ff/databind_json-4.5.0.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [boomgate]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [boomgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boomgate-0.0.2.tar.gz tmp/boomgate-0.0.5.tar.gz --markdown 20240402/b/boomgate/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [klowd]: Downloading https://files.pythonhosted.org/packages/53/35/d08c7e85379d83f5d7c35c4f243be19050b21bce41801c604739b4c118ad/klowd-0.0.9-py3-none-any.whl
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind.core]: Downloading https://files.pythonhosted.org/packages/80/b9/4b368af8d58fb13d50215b1c3dc8e8429ba37b16eca3915d2206f76756c7/databind.core-4.5.1.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [scaleway]: Downloading https://files.pythonhosted.org/packages/ad/8b/e6acbd10d53967573da4c995ac1d88ded0ca1d8ab92c2c735ef00c00f1e1/scaleway-2.0.0.dev6.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [dated-money]: Downloading https://files.pythonhosted.org/packages/9e/78/8d3970bfccbdd1b7e720ed2a383f081915e1f577cfb219cf4fbbda47efc4/dated_money-1.0.2.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [scaleway-async]: Downloading https://files.pythonhosted.org/packages/b0/f1/d9437b4a41bab6b0390240b9606f2006f1e8bcfb4511019c58405db6dce3/scaleway_async-2.0.0.dev6.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind.json]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind.json]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databind.json-4.4.2.tar.gz tmp/databind_json-4.5.0.tar.gz --markdown 20240402/d/databind.json/4.4.2-4.5.0/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [klowd]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind.core]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databind_core-4.5.0.tar.gz tmp/databind.core-4.5.1.tar.gz --markdown 20240402/d/databind.core/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [klowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klowd-0.0.8-py3-none-any.whl.zip tmp/klowd-0.0.9-py3-none-any.whl.zip --markdown 20240402/k/klowd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind]: Downloading https://files.pythonhosted.org/packages/4a/46/fa271c59e9125416bedfb16f92f00a891cfbba47d3d6f08c9990e092313a/databind-4.5.1.tar.gz
+[2024-04-02 12:07:28] INFO root fetch - processPackages [dated-money]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [dated-money]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dated_money-1.0.1.tar.gz tmp/dated_money-1.0.2.tar.gz --markdown 20240402/d/dated-money/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [scaleway-async]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [scaleway-async]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_async-2.0.0.dev5.tar.gz tmp/scaleway_async-2.0.0.dev6.tar.gz --markdown 20240402/s/scaleway-async/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [databind]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databind-4.5.0.tar.gz tmp/databind-4.5.1.tar.gz --markdown 20240402/d/databind/4.5.0-4.5.1/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240402/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-02 12:07:28] INFO root fetch - processPackages [scaleway]: executing diffoscope
+[2024-04-02 12:07:28] INFO root fetch - processPackages [scaleway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway-2.0.0.dev5.tar.gz tmp/scaleway-2.0.0.dev6.tar.gz --markdown 20240402/s/scaleway/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2024-04-02 12:07:29] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.2.tar.gz]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [napari-toothfairy-annotator]: Remove: archive file [/home/abi/fetcher/tmp/napari-toothfairy-annotator-0.0.3.tar.gz]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.2.tar.gz]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.5.tar.gz]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [napari-toothfairy-annotator]: Start processing: klowd
+[2024-04-02 12:07:29] INFO root fetch - main [MainThread]: End processing [napari-toothfairy-annotator]: success
+[2024-04-02 12:07:29] INFO root fetch - processPackages [boomgate]: Start processing: home-assistant-frontend
+[2024-04-02 12:07:29] INFO root fetch - main [MainThread]: End processing [boomgate]: success
+[2024-04-02 12:07:29] INFO root fetch - processPackages [klowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [home-assistant-frontend]: New version: [20240329.1] Old Version: [20240329.0]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [databind.core]: Remove: archive file [/home/abi/fetcher/tmp/databind_core-4.5.0.tar.gz]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [databind.core]: Remove: archive file [/home/abi/fetcher/tmp/databind.core-4.5.1.tar.gz]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [databind.core]: Start processing: NeSST
+[2024-04-02 12:07:29] INFO root fetch - main [MainThread]: End processing [databind.core]: success
+[2024-04-02 12:07:29] INFO root fetch - processPackages [klowd]: Remove: archive file [/home/abi/fetcher/tmp/klowd-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [klowd]: Remove: archive file [/home/abi/fetcher/tmp/klowd-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 12:07:29] INFO root fetch - processPackages [klowd]: Start processing: leadguru-jobs
+[2024-04-02 12:07:29] INFO root fetch - main [MainThread]: End processing [klowd]: success
+[2024-04-02 12:07:29] INFO root fetch - processPackages [klowd]: Downloading https://files.pythonhosted.org/packages/53/35/d08c7e85379d83f5d7c35c4f243be19050b21bce41801c604739b4c118ad/klowd-0.0.9-py3-none-any.whl
+[2024-04-02 12:07:30] INFO root fetch - processPackages [NeSST]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [home-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/66/7f/1b096f50a049363aa2afe4c4df798bc6e37bf03698952b5a6e016a2fbd97/home_assistant_frontend-20240329.0-py3-none-any.whl
+[2024-04-02 12:07:30] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [dated-money]: Remove: archive file [/home/abi/fetcher/tmp/dated_money-1.0.1.tar.gz]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [dated-money]: Remove: archive file [/home/abi/fetcher/tmp/dated_money-1.0.2.tar.gz]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [dated-money]: Start processing: rippling-flux-sdk
+[2024-04-02 12:07:30] INFO root fetch - main [MainThread]: End processing [dated-money]: success
+[2024-04-02 12:07:30] INFO root fetch - processPackages [databind.json]: Remove: archive file [/home/abi/fetcher/tmp/databind.json-4.4.2.tar.gz]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [databind.json]: Remove: archive file [/home/abi/fetcher/tmp/databind_json-4.5.0.tar.gz]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [databind.json]: Start processing: spln-sentiment-analysis
+[2024-04-02 12:07:30] INFO root fetch - main [MainThread]: End processing [databind.json]: success
+[2024-04-02 12:07:30] INFO root fetch - processPackages [klowd]: executing diffoscope
+[2024-04-02 12:07:30] INFO root fetch - processPackages [klowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klowd-0.0.8-py3-none-any.whl.zip tmp/klowd-0.0.9-py3-none-any.whl.zip --markdown 20240402/k/klowd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:07:30] WARNING root fetch - processPackages [home-assistant-frontend]: Skipping package: exceeds size limit 55220129>=10485760
+[2024-04-02 12:07:30] INFO root fetch - processPackages [databind]: Remove: archive file [/home/abi/fetcher/tmp/databind-4.5.0.tar.gz]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [home-assistant-frontend]: Start processing: payze-pkg
+[2024-04-02 12:07:30] INFO root fetch - main [MainThread]: End processing [home-assistant-frontend] error
+[2024-04-02 12:07:30] INFO root fetch - processPackages [databind]: Remove: archive file [/home/abi/fetcher/tmp/databind-4.5.1.tar.gz]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [databind]: Start processing: speedtest-ssh
+[2024-04-02 12:07:30] INFO root fetch - main [MainThread]: End processing [databind]: success
+[2024-04-02 12:07:30] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [payze-pkg]: New version: [2.3] Old Version: [2.2.3]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [rippling-flux-sdk]: New version: [0.9.27] Old Version: [0.9.26]
+[2024-04-02 12:07:30] WARNING root fetch - processPackages [spln-sentiment-analysis]: Skipping, unable to determine old version
+[2024-04-02 12:07:30] INFO root fetch - processPackages [spln-sentiment-analysis]: Start processing: temod
+[2024-04-02 12:07:30] INFO root fetch - main [MainThread]: End processing [spln-sentiment-analysis] error
+[2024-04-02 12:07:30] INFO root fetch - processPackages [NeSST]: Downloading https://files.pythonhosted.org/packages/5e/78/dcf75f130ee36a6c85790b0e39e4bdc46f7aeeea6250ad8f63b862fc95a3/NeSST-0.0.3.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [speedtest-ssh]: New version: [2.8.1] Old Version: [2.8.0]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [temod]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 12:07:30] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/5c/4d/96ae9015bd71f0ce6312425eedffd5ff64c1459d5caa924fc6272ab18515/payze-pkg-2.2.3.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/0f/9d/f4cd2d2adeaab6fdd684b7eaf8d691c14ca1bef27a4a2790c5e7e06cfff6/rippling_flux_sdk-0.9.26.tar.gz
+[2024-04-02 12:07:30] ERROR root fetch - processPackages [klowd]: Diffoscope failed: time="2024-04-02T12:07:30+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+/srv/diffoscope/bin/diffoscope: tmp/klowd-0.0.8-py3-none-any.whl.zip: No such file or directory
+
+[2024-04-02 12:07:30] INFO root fetch - main [MainThread]: End processing [klowd] error
+[2024-04-02 12:07:30] INFO root fetch - processPackages [speedtest-ssh]: Downloading https://files.pythonhosted.org/packages/f8/36/e1973d215433db5bd3d2e61e9bc3626c2d5b5d95f7fcc126eabd90a1a59a/speedtest_ssh-2.8.0.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 12:07:30] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 12:07:30] INFO root fetch - processPackages [temod]: Downloading https://files.pythonhosted.org/packages/a4/95/c2ec9f53a0ce72ae73893695d1f36e8ded371faee602ae722b5217e21663/temod-2.0.8.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/34/99/75c910992d92011290dc2528973bc3ecc8306c0fe34c2e16e2226e00ff52/payze-pkg-2.3.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [NeSST]: Downloading https://files.pythonhosted.org/packages/63/7c/f7e43a0520401934c2d6dc5974f4a478b147a84598914760a089e94e93a6/NeSST-1.0.0.tar.gz
+[2024-04-02 12:07:30] INFO root fetch - processPackages [payze-pkg]: executing diffoscope
+[2024-04-02 12:07:30] INFO root fetch - processPackages [payze-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payze-pkg-2.2.3.tar.gz tmp/payze-pkg-2.3.tar.gz --markdown 20240402/p/payze-pkg/2.2.3-2.3/diff.md --exclude *.pyd
+[2024-04-02 12:07:31] INFO root fetch - processPackages [speedtest-ssh]: Downloading https://files.pythonhosted.org/packages/28/a9/1fba0b3621d021427b045c95bf07d4a2a692bc5658bbea073802dc818b33/speedtest_ssh-2.8.1.tar.gz
+[2024-04-02 12:07:31] INFO root fetch - processPackages [NeSST]: executing diffoscope
+[2024-04-02 12:07:31] INFO root fetch - processPackages [NeSST]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeSST-0.0.3.tar.gz tmp/NeSST-1.0.0.tar.gz --markdown 20240402/N/NeSST/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:07:31] INFO root fetch - processPackages [temod]: Downloading https://files.pythonhosted.org/packages/71/0a/daf04fa420f0217ffa3e63bdf9911aad8ba6c129c1c1681a6e2d69c4de96/temod-2.0.9.tar.gz
+[2024-04-02 12:07:31] INFO root fetch - processPackages [speedtest-ssh]: executing diffoscope
+[2024-04-02 12:07:31] INFO root fetch - processPackages [speedtest-ssh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtest_ssh-2.8.0.tar.gz tmp/speedtest_ssh-2.8.1.tar.gz --markdown 20240402/s/speedtest-ssh/2.8.0-2.8.1/diff.md --exclude *.pyd
+[2024-04-02 12:07:31] INFO root fetch - processPackages [temod]: executing diffoscope
+[2024-04-02 12:07:31] INFO root fetch - processPackages [temod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temod-2.0.8.tar.gz tmp/temod-2.0.9.tar.gz --markdown 20240402/t/temod/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:07:31] INFO root fetch - processPackages [rippling-flux-sdk]: Downloading https://files.pythonhosted.org/packages/94/03/093a310cfb4ff2c4b673f26d4895395ebf647cc4efa7d58bf63c31013fed/rippling_flux_sdk-0.9.27.tar.gz
+[2024-04-02 12:07:31] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 12:07:31] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 12:07:31] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 12:07:31] INFO root fetch - processPackages [rippling-flux-sdk]: executing diffoscope
+[2024-04-02 12:07:31] INFO root fetch - processPackages [rippling-flux-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rippling_flux_sdk-0.9.26.tar.gz tmp/rippling_flux_sdk-0.9.27.tar.gz --markdown 20240402/r/rippling-flux-sdk/0.9.26-0.9.27/diff.md --exclude *.pyd
+[2024-04-02 12:07:31] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-2.0.0.dev5.tar.gz]
+[2024-04-02 12:07:31] INFO root fetch - processPackages [scaleway-async]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_async-2.0.0.dev6.tar.gz]
+[2024-04-02 12:07:31] INFO root fetch - main [MainThread]: End processing [scaleway-async]: success
+[2024-04-02 12:07:32] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.2.3.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.3.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - main [MainThread]: End processing [payze-pkg]: success
+[2024-04-02 12:07:32] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-2.0.0.dev5.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - processPackages [scaleway]: Remove: archive file [/home/abi/fetcher/tmp/scaleway-2.0.0.dev6.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - main [MainThread]: End processing [scaleway]: success
+[2024-04-02 12:07:32] INFO root fetch - processPackages [temod]: Remove: archive file [/home/abi/fetcher/tmp/temod-2.0.8.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - processPackages [temod]: Remove: archive file [/home/abi/fetcher/tmp/temod-2.0.9.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - main [MainThread]: End processing [temod]: success
+[2024-04-02 12:07:32] INFO root fetch - processPackages [speedtest-ssh]: Remove: archive file [/home/abi/fetcher/tmp/speedtest_ssh-2.8.0.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - processPackages [speedtest-ssh]: Remove: archive file [/home/abi/fetcher/tmp/speedtest_ssh-2.8.1.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - main [MainThread]: End processing [speedtest-ssh]: success
+[2024-04-02 12:07:32] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.26.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - processPackages [rippling-flux-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rippling_flux_sdk-0.9.27.tar.gz]
+[2024-04-02 12:07:32] INFO root fetch - main [MainThread]: End processing [rippling-flux-sdk]: success
+[2024-04-02 12:07:33] INFO root fetch - processPackages [NeSST]: Remove: archive file [/home/abi/fetcher/tmp/NeSST-0.0.3.tar.gz]
+[2024-04-02 12:07:33] INFO root fetch - processPackages [NeSST]: Remove: archive file [/home/abi/fetcher/tmp/NeSST-1.0.0.tar.gz]
+[2024-04-02 12:07:33] INFO root fetch - main [MainThread]: End processing [NeSST]: success
+[2024-04-02 12:07:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-02 12:07:42] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
+[2024-04-02 12:07:42] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-02 12:07:42] INFO root fetch - main [MainThread]: Store serial: [22583320]
