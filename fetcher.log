@@ -9585,3 +9585,56 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:20:55] INFO root fetch - processPackages [keras-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nightly-3.2.0.dev2024040103.tar.gz]
 [2024-04-02 05:20:55] INFO root fetch - main [MainThread]: End processing [keras-nightly]: success
 [2024-04-02 05:20:55] INFO root fetch - main [MainThread]: Store serial: [22580289]
+[2024-04-02 05:22:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580289]
+[2024-04-02 05:23:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 05:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sf-heu
+[2024-04-02 05:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spu
+[2024-04-02 05:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastapi
+[2024-04-02 05:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rongdavbaaddins
+[2024-04-02 05:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nurmonic
+[2024-04-02 05:23:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-delivery-carrier
+[2024-04-02 05:23:04] INFO root fetch - processPackages [rongdavbaaddins]: New version: [0.2.0.9] Old Version: [0.2.0.8]
+[2024-04-02 05:23:04] INFO root fetch - processPackages [sf-heu]: New version: [0.6.0.dev0] Old Version: [0.5.0b0]
+[2024-04-02 05:23:04] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/a9/00/6325168d12253c8ae1693ce7b368604b9516e7b54c5a60b5935fb5367e93/rongdavbaaddins-0.2.0.8.tar.gz
+[2024-04-02 05:23:04] INFO root fetch - processPackages [nurmonic]: New version: [0.3.0] Old Version: [0.2.0]
+[2024-04-02 05:23:04] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: New version: [16.0.20240401.0] Old Version: [16.0.20240215.0]
+[2024-04-02 05:23:04] INFO root fetch - processPackages [fastapi]: New version: [0.99.1] Old Version: [0.99.0]
+[2024-04-02 05:23:04] INFO root fetch - processPackages [spu]: New version: [0.9.0.dev20240402] Old Version: [0.9.0.dev20240329]
+[2024-04-02 05:23:04] INFO root fetch - processPackages [sf-heu]: Downloading https://files.pythonhosted.org/packages/28/4f/36ebf63f67ebccd00cc8d1ee4c2f73a21526bc06ec567794a5cc6ff6fa18/sf_heu-0.5.0b0-cp39-cp39-manylinux_2_28_aarch64.whl
+[2024-04-02 05:23:04] INFO root fetch - processPackages [nurmonic]: Downloading https://files.pythonhosted.org/packages/53/f2/23ca921b88ab567c4d1e41893df956aa5639b0a81871ad72941889c40001/nurmonic-0.2.0.tar.gz
+[2024-04-02 05:23:04] INFO root fetch - processPackages [spu]: Downloading https://files.pythonhosted.org/packages/22/7e/66bfa4e0983a798750c989609478f904f46c215848f1eb9ef998c067d39a/spu-0.9.0.dev20240329-cp310-cp310-manylinux_2_28_aarch64.whl
+[2024-04-02 05:23:04] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/b9/ed/3f155c5f0f3a2d1bac596800be1cdd2bda38cee84b7cee7c35eecd0ddd09/fastapi-0.99.0.tar.gz
+[2024-04-02 05:23:04] WARNING root fetch - processPackages [spu]: Skipping package: exceeds size limit 36284471>=10485760
+[2024-04-02 05:23:04] INFO root fetch - main [MainThread]: End processing [spu] error
+[2024-04-02 05:23:04] INFO root fetch - processPackages [rongdavbaaddins]: Downloading https://files.pythonhosted.org/packages/35/e4/8c62d1c942f9968d59dbc6bb014aa222fabec63f42a8f320740030e188eb/rongdavbaaddins-0.2.0.9.tar.gz
+[2024-04-02 05:23:04] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/dd/8c/70f3bed81c46a0a54675a270ef808daa96a47cba6d0284f9f30aeeaee5ac/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl
+[2024-04-02 05:23:05] INFO root fetch - processPackages [nurmonic]: Downloading https://files.pythonhosted.org/packages/28/53/17c37fe8f987cae1a6fb6dff0a44d3dd681512eadaeec01c14ab4fadd4f0/nurmonic-0.3.0.tar.gz
+[2024-04-02 05:23:05] INFO root fetch - processPackages [rongdavbaaddins]: executing diffoscope
+[2024-04-02 05:23:05] INFO root fetch - processPackages [rongdavbaaddins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rongdavbaaddins-0.2.0.8.tar.gz tmp/rongdavbaaddins-0.2.0.9.tar.gz --markdown 20240402/r/rongdavbaaddins/0.2.0.8-0.2.0.9/diff.md --exclude *.pyd
+[2024-04-02 05:23:05] INFO root fetch - processPackages [nurmonic]: executing diffoscope
+[2024-04-02 05:23:05] INFO root fetch - processPackages [nurmonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nurmonic-0.2.0.tar.gz tmp/nurmonic-0.3.0.tar.gz --markdown 20240402/n/nurmonic/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 05:23:05] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Downloading https://files.pythonhosted.org/packages/37/bd/2441910e253bf344b324c06a71ad99c3716b96867573e30d888deb4914bd/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl
+[2024-04-02 05:23:05] INFO root fetch - processPackages [fastapi]: Downloading https://files.pythonhosted.org/packages/22/93/42b9998a6e28eaee90724db439e27a66b7dc6a5b9e85499add1e042141e2/fastapi-0.99.1.tar.gz
+[2024-04-02 05:23:05] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: executing diffoscope
+[2024-04-02 05:23:05] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl.zip tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addons-oca-delivery-carrier/16.0.20240215.0-16.0.20240401.0/diff.md --exclude *.pyd
+[2024-04-02 05:23:05] INFO root fetch - processPackages [sf-heu]: Downloading https://files.pythonhosted.org/packages/2d/6f/317527f1b36d39255ee1a053e01c75e35893d3edb7731ef8efb27f3b1ec4/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl
+[2024-04-02 05:23:05] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.2.0.8.tar.gz]
+[2024-04-02 05:23:05] INFO root fetch - processPackages [rongdavbaaddins]: Remove: archive file [/home/abi/fetcher/tmp/rongdavbaaddins-0.2.0.9.tar.gz]
+[2024-04-02 05:23:05] INFO root fetch - main [MainThread]: End processing [rongdavbaaddins]: success
+[2024-04-02 05:23:05] INFO root fetch - processPackages [nurmonic]: Remove: archive file [/home/abi/fetcher/tmp/nurmonic-0.2.0.tar.gz]
+[2024-04-02 05:23:05] INFO root fetch - processPackages [nurmonic]: Remove: archive file [/home/abi/fetcher/tmp/nurmonic-0.3.0.tar.gz]
+[2024-04-02 05:23:05] INFO root fetch - main [MainThread]: End processing [nurmonic]: success
+[2024-04-02 05:23:05] INFO root fetch - processPackages [fastapi]: executing diffoscope
+[2024-04-02 05:23:05] INFO root fetch - processPackages [fastapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi-0.99.0.tar.gz tmp/fastapi-0.99.1.tar.gz --markdown 20240402/f/fastapi/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2024-04-02 05:23:05] INFO root fetch - processPackages [sf-heu]: executing diffoscope
+[2024-04-02 05:23:05] INFO root fetch - processPackages [sf-heu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sf_heu-0.5.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip tmp/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl.zip --markdown 20240402/s/sf-heu/0.5.0b0-0.6.0.dev0/diff.md --exclude *.pyd
+[2024-04-02 05:23:06] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240215.0-py3-none-any.whl.zip]
+[2024-04-02 05:23:06] INFO root fetch - processPackages [odoo-addons-oca-delivery-carrier]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_delivery_carrier-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-04-02 05:23:06] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-delivery-carrier]: success
+[2024-04-02 05:23:12] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.0.tar.gz]
+[2024-04-02 05:23:12] INFO root fetch - processPackages [fastapi]: Remove: archive file [/home/abi/fetcher/tmp/fastapi-0.99.1.tar.gz]
+[2024-04-02 05:23:12] INFO root fetch - main [MainThread]: End processing [fastapi]: success
+[2024-04-02 05:24:38] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.5.0b0-cp39-cp39-manylinux_2_28_aarch64.whl.zip]
+[2024-04-02 05:24:38] INFO root fetch - processPackages [sf-heu]: Remove: archive file [/home/abi/fetcher/tmp/sf_heu-0.6.0.dev0-cp310-cp310-manylinux_2_28_aarch64.whl.zip]
+[2024-04-02 05:24:38] INFO root fetch - main [MainThread]: End processing [sf-heu]: success
+[2024-04-02 05:24:38] INFO root fetch - main [MainThread]: Store serial: [22580304]
