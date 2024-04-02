@@ -7897,3 +7897,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:34:48] INFO root fetch - processPackages [pyAgrum-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyAgrum_nightly-1.9.0.9.dev202310191697564854-cp39-cp39-win_amd64.whl.zip]
 [2024-04-02 03:34:48] INFO root fetch - main [MainThread]: End processing [pyAgrum-nightly]: success
 [2024-04-02 03:34:48] INFO root fetch - main [MainThread]: Store serial: [22579592]
+[2024-04-02 03:36:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579592]
+[2024-04-02 03:36:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 03:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: not1mm
+[2024-04-02 03:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi-aws
+[2024-04-02 03:36:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spchat
+[2024-04-02 03:36:58] INFO root fetch - processPackages [not1mm]: New version: [24.4.1.1] Old Version: [24.4.1]
+[2024-04-02 03:36:58] INFO root fetch - processPackages [pulumi-aws]: New version: [6.9.0a1700084435] Old Version: [6.9.0a1699991594]
+[2024-04-02 03:36:58] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/63/c9/b24ce2123da72d937c6f6a7238af6cc0423632f3d8ba70c15915a50ca6e1/not1mm-24.4.1.tar.gz
+[2024-04-02 03:36:58] INFO root fetch - processPackages [spchat]: New version: [0.2.0] Old Version: [0.1.2]
+[2024-04-02 03:36:58] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/e1/df/14b748e40340692e18bd19ad3631916881c3bfc6ab8cc9db1f79ca1fb86a/pulumi_aws-6.9.0a1699991594.tar.gz
+[2024-04-02 03:36:58] INFO root fetch - processPackages [spchat]: Downloading https://files.pythonhosted.org/packages/62/0e/29dc9e98da1760b5596ee708af49e929d19be6645987fb6273713bb36bc9/spchat-0.1.2.tar.gz
+[2024-04-02 03:36:58] INFO root fetch - processPackages [spchat]: Downloading https://files.pythonhosted.org/packages/9e/b5/916e85115c215d0bd6a1418c25c7ba4e8db7725709b3976a6bc5f2e8ffb8/spchat-0.2.0.tar.gz
+[2024-04-02 03:36:58] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/f3/70/32e3669ea3bb0042d4f4aac12c2584c3217ddc25b9e1646f05b9a9e1a24f/pulumi_aws-6.9.0a1700084435.tar.gz
+[2024-04-02 03:36:58] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/34/1b/1f1c954944e39e10061dca7dca2474eaea971f6a98d194adebe031a2ca9c/not1mm-24.4.1.1.tar.gz
+[2024-04-02 03:36:58] INFO root fetch - processPackages [spchat]: executing diffoscope
+[2024-04-02 03:36:58] INFO root fetch - processPackages [spchat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spchat-0.1.2.tar.gz tmp/spchat-0.2.0.tar.gz --markdown 20240402/s/spchat/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 03:36:59] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-02 03:36:59] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.4.1.tar.gz tmp/not1mm-24.4.1.1.tar.gz --markdown 20240402/n/not1mm/24.4.1-24.4.1.1/diff.md --exclude *.pyd
+[2024-04-02 03:36:59] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2024-04-02 03:36:59] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.9.0a1699991594.tar.gz tmp/pulumi_aws-6.9.0a1700084435.tar.gz --markdown 20240402/p/pulumi-aws/6.9.0a1699991594-6.9.0a1700084435/diff.md --exclude *.pyd
+[2024-04-02 03:36:59] INFO root fetch - processPackages [spchat]: Remove: archive file [/home/abi/fetcher/tmp/spchat-0.1.2.tar.gz]
+[2024-04-02 03:36:59] INFO root fetch - processPackages [spchat]: Remove: archive file [/home/abi/fetcher/tmp/spchat-0.2.0.tar.gz]
+[2024-04-02 03:36:59] INFO root fetch - main [MainThread]: End processing [spchat]: success
+[2024-04-02 03:37:01] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.1.tar.gz]
+[2024-04-02 03:37:01] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.1.1.tar.gz]
+[2024-04-02 03:37:01] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-02 03:37:15] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1699991594.tar.gz]
+[2024-04-02 03:37:15] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.9.0a1700084435.tar.gz]
+[2024-04-02 03:37:15] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2024-04-02 03:37:15] INFO root fetch - main [MainThread]: Store serial: [22579635]
