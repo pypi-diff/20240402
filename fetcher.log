@@ -8041,3 +8041,30 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:43:56] INFO root fetch - processPackages [wbia-utool]: Remove: archive file [/home/abi/fetcher/tmp/wbia-utool-4.0.5.tar.gz]
 [2024-04-02 03:43:56] INFO root fetch - main [MainThread]: End processing [wbia-utool]: success
 [2024-04-02 03:43:56] INFO root fetch - main [MainThread]: Store serial: [22579683]
+[2024-04-02 03:46:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579683]
+[2024-04-02 03:46:05] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 03:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lambkid
+[2024-04-02 03:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepl-translator
+[2024-04-02 03:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bamboo_stash
+[2024-04-02 03:46:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sapphyre-tools
+[2024-04-02 03:46:05] WARNING root fetch - processPackages [bamboo_stash]: Skipping, unable to determine old version
+[2024-04-02 03:46:05] INFO root fetch - main [MainThread]: End processing [bamboo_stash] error
+[2024-04-02 03:46:05] WARNING root fetch - processPackages [deepl-translator]: Skipping, unable to determine old version
+[2024-04-02 03:46:05] INFO root fetch - main [MainThread]: End processing [deepl-translator] error
+[2024-04-02 03:46:05] INFO root fetch - processPackages [lambkid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 03:46:05] INFO root fetch - processPackages [sapphyre-tools]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-02 03:46:05] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/a4/1d/a402c5f85ef6696c76f47780a2a9b4a6d1e22f67e018fac29ed5ab142ba1/lambkid-0.0.8.tar.gz
+[2024-04-02 03:46:05] INFO root fetch - processPackages [sapphyre-tools]: Downloading https://files.pythonhosted.org/packages/37/69/3ad0a36d93079009a23e72e427df59b68898960a78d851683cc21e21b847/sapphyre_tools-0.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-02 03:46:05] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/4f/e8/fe3ffb0ac4fb24b3455167d57cb2cd8ab326fbb2f862aab16c13d38fde49/lambkid-0.0.9.tar.gz
+[2024-04-02 03:46:05] INFO root fetch - processPackages [sapphyre-tools]: Downloading https://files.pythonhosted.org/packages/67/4c/fce1fef75e19826d7d87f5c4c26b44f161427be1e891842949b0cba81716/sapphyre_tools-0.8.3-cp312-cp312-manylinux_2_28_x86_64.whl
+[2024-04-02 03:46:06] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-02 03:46:06] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.0.8.tar.gz tmp/lambkid-0.0.9.tar.gz --markdown 20240402/l/lambkid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 03:46:06] INFO root fetch - processPackages [sapphyre-tools]: executing diffoscope
+[2024-04-02 03:46:06] INFO root fetch - processPackages [sapphyre-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sapphyre_tools-0.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/sapphyre_tools-0.8.3-cp312-cp312-manylinux_2_28_x86_64.whl.zip --markdown 20240402/s/sapphyre-tools/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-02 03:46:06] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.8.tar.gz]
+[2024-04-02 03:46:06] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.9.tar.gz]
+[2024-04-02 03:46:06] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-02 03:46:11] INFO root fetch - processPackages [sapphyre-tools]: Remove: archive file [/home/abi/fetcher/tmp/sapphyre_tools-0.8.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2024-04-02 03:46:11] INFO root fetch - processPackages [sapphyre-tools]: Remove: archive file [/home/abi/fetcher/tmp/sapphyre_tools-0.8.3-cp312-cp312-manylinux_2_28_x86_64.whl.zip]
+[2024-04-02 03:46:11] INFO root fetch - main [MainThread]: End processing [sapphyre-tools]: success
+[2024-04-02 03:46:11] INFO root fetch - main [MainThread]: Store serial: [22579697]
