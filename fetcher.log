@@ -17111,3 +17111,54 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:14:20] INFO root fetch - processPackages [cdktf]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-0.9.4.tar.gz]
 [2024-04-02 12:14:20] INFO root fetch - main [MainThread]: End processing [cdktf]: success
 [2024-04-02 12:14:20] INFO root fetch - main [MainThread]: Store serial: [22583368]
+[2024-04-02 12:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583368]
+[2024-04-02 12:16:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-grid-model
+[2024-04-02 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-scheduler-sdk
+[2024-04-02 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnsstoolbox
+[2024-04-02 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distribute-logging
+[2024-04-02 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selestium
+[2024-04-02 12:16:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: typer-cli-forked
+[2024-04-02 12:16:30] INFO root fetch - processPackages [selestium]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-02 12:16:30] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/64/4a/f36578f1ec3d9ece48cce9bc072c68092a8fa897a5bf7d0b7a73f288de28/selestium-0.2.5.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [gnsstoolbox]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-02 12:16:30] WARNING root fetch - processPackages [distribute-logging]: Skipping, unable to determine old version
+[2024-04-02 12:16:30] INFO root fetch - main [MainThread]: End processing [distribute-logging] error
+[2024-04-02 12:16:30] INFO root fetch - processPackages [lusid-scheduler-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 12:16:30] INFO root fetch - processPackages [typer-cli-forked]: New version: [0.0.15] Old Version: [0.0.14]
+[2024-04-02 12:16:30] INFO root fetch - processPackages [power-grid-model]: New version: [1.7.9] Old Version: [1.7.8a1374103622511]
+[2024-04-02 12:16:30] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/47/b4/6791998110cbc4045a134281c6af6aa4445230770c8cb21465cba1631805/gnsstoolbox-1.2.8.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/8c/8b/6b228fc21b1d563e5932ab4c9367f6c46a1c9db7dbaa2390aca8cbbf771f/lusid_scheduler_sdk-2.0.8.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/f2/89/c6c2797d33b80597aba4cfaa3eb46b859cefaabca623a75550c89a3289f7/power-grid-model-1.7.8a1374103622511.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [typer-cli-forked]: Downloading https://files.pythonhosted.org/packages/7e/99/29621483fd01cd3219df79cc9b8f9b1b92aa73ba5726ad7a1e1a7617794d/typer_cli_forked-0.0.14.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/7b/d8/e15ef7ccaf5d806a2caf8137ab2ac2e942dc6a10c3e43a85a57fb072ca0b/selestium-0.2.6.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [selestium]: executing diffoscope
+[2024-04-02 12:16:30] INFO root fetch - processPackages [selestium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selestium-0.2.5.tar.gz tmp/selestium-0.2.6.tar.gz --markdown 20240402/s/selestium/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-02 12:16:30] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/37/dc/054c5e6a99536f8f6cec037839526e12921cfad7fb3a0f6ba106512e4a08/gnsstoolbox-1.2.9.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [lusid-scheduler-sdk]: Downloading https://files.pythonhosted.org/packages/61/62/b2d102364a99692c2b330edc98b8215430a51370b9e7d1b13ef5ee74b69b/lusid_scheduler_sdk-2.0.9.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/56/2b/86814a7f75dec690d4b62403c87b2b3b5aa0b3c73f37f4294b843a74b0d9/power-grid-model-1.7.9.tar.gz
+[2024-04-02 12:16:30] INFO root fetch - processPackages [gnsstoolbox]: executing diffoscope
+[2024-04-02 12:16:30] INFO root fetch - processPackages [gnsstoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnsstoolbox-1.2.8.tar.gz tmp/gnsstoolbox-1.2.9.tar.gz --markdown 20240402/g/gnsstoolbox/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-02 12:16:30] INFO root fetch - processPackages [lusid-scheduler-sdk]: executing diffoscope
+[2024-04-02 12:16:30] INFO root fetch - processPackages [lusid-scheduler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_scheduler_sdk-2.0.8.tar.gz tmp/lusid_scheduler_sdk-2.0.9.tar.gz --markdown 20240402/l/lusid-scheduler-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:16:30] INFO root fetch - processPackages [typer-cli-forked]: Downloading https://files.pythonhosted.org/packages/4f/c6/31ff0752e6e5569a229496f43a5397eeb8da204aa0cb7efc4b1ffcf50812/typer_cli_forked-0.0.15.tar.gz
+[2024-04-02 12:16:31] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2024-04-02 12:16:31] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.7.8a1374103622511.tar.gz tmp/power-grid-model-1.7.9.tar.gz --markdown 20240402/p/power-grid-model/1.7.8a1374103622511-1.7.9/diff.md --exclude *.pyd
+[2024-04-02 12:16:31] INFO root fetch - processPackages [typer-cli-forked]: executing diffoscope
+[2024-04-02 12:16:31] INFO root fetch - processPackages [typer-cli-forked]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typer_cli_forked-0.0.14.tar.gz tmp/typer_cli_forked-0.0.15.tar.gz --markdown 20240402/t/typer-cli-forked/0.0.14-0.0.15/diff.md --exclude *.pyd
+[2024-04-02 12:16:31] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.5.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.6.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - main [MainThread]: End processing [selestium]: success
+[2024-04-02 12:16:31] INFO root fetch - processPackages [gnsstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/gnsstoolbox-1.2.8.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - processPackages [gnsstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/gnsstoolbox-1.2.9.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - main [MainThread]: End processing [gnsstoolbox]: success
+[2024-04-02 12:16:31] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.0.8.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - processPackages [lusid-scheduler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_scheduler_sdk-2.0.9.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - main [MainThread]: End processing [lusid-scheduler-sdk]: success
+[2024-04-02 12:16:31] INFO root fetch - processPackages [typer-cli-forked]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli_forked-0.0.14.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - processPackages [typer-cli-forked]: Remove: archive file [/home/abi/fetcher/tmp/typer_cli_forked-0.0.15.tar.gz]
+[2024-04-02 12:16:31] INFO root fetch - main [MainThread]: End processing [typer-cli-forked]: success
+[2024-04-02 12:16:33] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.8a1374103622511.tar.gz]
+[2024-04-02 12:16:33] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.7.9.tar.gz]
+[2024-04-02 12:16:33] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2024-04-02 12:16:33] INFO root fetch - main [MainThread]: Store serial: [22583398]
