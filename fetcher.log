@@ -20262,3 +20262,47 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:20:08] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
 [2024-04-02 14:20:08] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
 [2024-04-02 14:20:08] INFO root fetch - main [MainThread]: Store serial: [22584640]
+[2024-04-02 14:22:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584640]
+[2024-04-02 14:22:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: invenio-formatter
+[2024-04-02 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpaframework-aws
+[2024-04-02 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySide6-Essentials
+[2024-04-02 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ewoksweb
+[2024-04-02 14:22:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-socio-grpc
+[2024-04-02 14:22:17] INFO root fetch - processPackages [django-socio-grpc]: New version: [0.9.0] Old Version: [0.8.9]
+[2024-04-02 14:22:17] INFO root fetch - processPackages [rpaframework-aws]: New version: [5.3.3] Old Version: [5.3.2]
+[2024-04-02 14:22:17] INFO root fetch - processPackages [ewoksweb]: New version: [1.1.0rc0] Old Version: [1.0.0rc1]
+[2024-04-02 14:22:17] INFO root fetch - processPackages [PySide6-Essentials]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-02 14:22:17] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7e/d6/0213129823e862591828fc556e6b339d32cd58621898f0696900155db751/django-socio-grpc-0.8.9.tar.gz
+[2024-04-02 14:22:17] INFO root fetch - processPackages [invenio-formatter]: New version: [2.0.3] Old Version: [2.0.2]
+[2024-04-02 14:22:18] INFO root fetch - processPackages [rpaframework-aws]: Downloading https://files.pythonhosted.org/packages/52/19/f6cd4e013fe08c0cb7141307c7653d4a89ccd16e1cf66ed860d4d72570b6/rpaframework_aws-5.3.2.tar.gz
+[2024-04-02 14:22:18] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/81/f9/b183bcb5cdbb03c0d23714020008a2e921427ec9b66017c4d9385fe0dd74/ewoksweb-1.0.0rc1.tar.gz
+[2024-04-02 14:22:18] INFO root fetch - processPackages [invenio-formatter]: Downloading https://files.pythonhosted.org/packages/31/00/700146d236be1b6c929129970c607adf13d64e1930e8f9de8a2dcafe8ae1/invenio-formatter-2.0.2.tar.gz
+[2024-04-02 14:22:18] INFO root fetch - processPackages [PySide6-Essentials]: Downloading https://files.pythonhosted.org/packages/72/5e/84f70f643a9d4de4e302dad3906181ca6c186fed2cf432b22f04869bf290/PySide6_Essentials-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-02 14:22:18] INFO root fetch - processPackages [django-socio-grpc]: Downloading https://files.pythonhosted.org/packages/7a/b0/8b962693ba3765edd0e0291489b777069cfb9989fddf435614a684afb60d/django-socio-grpc-0.9.0.tar.gz
+[2024-04-02 14:22:18] WARNING root fetch - processPackages [PySide6-Essentials]: Skipping package: exceeds size limit 75031889>=10485760
+[2024-04-02 14:22:18] INFO root fetch - main [MainThread]: End processing [PySide6-Essentials] error
+[2024-04-02 14:22:18] INFO root fetch - processPackages [django-socio-grpc]: executing diffoscope
+[2024-04-02 14:22:18] INFO root fetch - processPackages [django-socio-grpc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-socio-grpc-0.8.9.tar.gz tmp/django-socio-grpc-0.9.0.tar.gz --markdown 20240402/d/django-socio-grpc/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 14:22:18] INFO root fetch - processPackages [rpaframework-aws]: Downloading https://files.pythonhosted.org/packages/ab/c4/b679430288cdda67ae43f7f5c073cdebd65020d71a692ec5f3a14382ec6c/rpaframework_aws-5.3.3.tar.gz
+[2024-04-02 14:22:18] INFO root fetch - processPackages [invenio-formatter]: Downloading https://files.pythonhosted.org/packages/78/97/2c8d36d759e9a37145ffe34dbd576bf2c8438b197a65f840837bc567d781/invenio-formatter-2.0.3.tar.gz
+[2024-04-02 14:22:18] INFO root fetch - processPackages [ewoksweb]: Downloading https://files.pythonhosted.org/packages/e9/71/698f0c77a203f0f7975b8fabd0c74f78bb530e0d439dcfa7ef70443d4afc/ewoksweb-1.1.0rc0.tar.gz
+[2024-04-02 14:22:18] INFO root fetch - processPackages [rpaframework-aws]: executing diffoscope
+[2024-04-02 14:22:18] INFO root fetch - processPackages [rpaframework-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_aws-5.3.2.tar.gz tmp/rpaframework_aws-5.3.3.tar.gz --markdown 20240402/r/rpaframework-aws/5.3.2-5.3.3/diff.md --exclude *.pyd
+[2024-04-02 14:22:18] INFO root fetch - processPackages [invenio-formatter]: executing diffoscope
+[2024-04-02 14:22:18] INFO root fetch - processPackages [invenio-formatter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-formatter-2.0.2.tar.gz tmp/invenio-formatter-2.0.3.tar.gz --markdown 20240402/i/invenio-formatter/2.0.2-2.0.3/diff.md --exclude *.pyd
+[2024-04-02 14:22:18] INFO root fetch - processPackages [ewoksweb]: executing diffoscope
+[2024-04-02 14:22:18] INFO root fetch - processPackages [ewoksweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ewoksweb-1.0.0rc1.tar.gz tmp/ewoksweb-1.1.0rc0.tar.gz --markdown 20240402/e/ewoksweb/1.0.0rc1-1.1.0rc0/diff.md --exclude *.pyd
+[2024-04-02 14:22:19] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.8.9.tar.gz]
+[2024-04-02 14:22:19] INFO root fetch - processPackages [django-socio-grpc]: Remove: archive file [/home/abi/fetcher/tmp/django-socio-grpc-0.9.0.tar.gz]
+[2024-04-02 14:22:19] INFO root fetch - main [MainThread]: End processing [django-socio-grpc]: success
+[2024-04-02 14:22:19] INFO root fetch - processPackages [rpaframework-aws]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_aws-5.3.2.tar.gz]
+[2024-04-02 14:22:19] INFO root fetch - processPackages [rpaframework-aws]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_aws-5.3.3.tar.gz]
+[2024-04-02 14:22:19] INFO root fetch - main [MainThread]: End processing [rpaframework-aws]: success
+[2024-04-02 14:22:19] INFO root fetch - processPackages [invenio-formatter]: Remove: archive file [/home/abi/fetcher/tmp/invenio-formatter-2.0.2.tar.gz]
+[2024-04-02 14:22:19] INFO root fetch - processPackages [invenio-formatter]: Remove: archive file [/home/abi/fetcher/tmp/invenio-formatter-2.0.3.tar.gz]
+[2024-04-02 14:22:19] INFO root fetch - main [MainThread]: End processing [invenio-formatter]: success
+[2024-04-02 14:22:45] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-1.0.0rc1.tar.gz]
+[2024-04-02 14:22:45] INFO root fetch - processPackages [ewoksweb]: Remove: archive file [/home/abi/fetcher/tmp/ewoksweb-1.1.0rc0.tar.gz]
+[2024-04-02 14:22:45] INFO root fetch - main [MainThread]: End processing [ewoksweb]: success
+[2024-04-02 14:22:45] INFO root fetch - main [MainThread]: Store serial: [22584654]
