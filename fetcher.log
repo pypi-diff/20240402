@@ -10302,3 +10302,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:22:24] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.72.0.tar.gz]
 [2024-04-02 06:22:24] INFO root fetch - main [MainThread]: End processing [dvcx]: success
 [2024-04-02 06:22:24] INFO root fetch - main [MainThread]: Store serial: [22580578]
+[2024-04-02 06:24:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580578]
+[2024-04-02 06:24:33] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 06:24:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: schwab-py
+[2024-04-02 06:24:33] INFO root fetch - processPackages [schwab-py]: New version: [0.0.0a2] Old Version: [0.0.0a1]
+[2024-04-02 06:24:34] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/d7/9c/2a11fd18a4a747da7deb45d94045caf66ad6388c098cbe7a9d6f1ee59734/schwab-py-0.0.0a1.tar.gz
+[2024-04-02 06:24:34] INFO root fetch - processPackages [schwab-py]: Downloading https://files.pythonhosted.org/packages/be/e4/8049fb8094e2fa54685ac1d221c9b31a58cd56193c041bf4e67934be87aa/schwab-py-0.0.0a2.tar.gz
+[2024-04-02 06:24:34] INFO root fetch - processPackages [schwab-py]: executing diffoscope
+[2024-04-02 06:24:34] INFO root fetch - processPackages [schwab-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/schwab-py-0.0.0a1.tar.gz tmp/schwab-py-0.0.0a2.tar.gz --markdown 20240402/s/schwab-py/0.0.0a1-0.0.0a2/diff.md --exclude *.pyd
+[2024-04-02 06:24:35] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a1.tar.gz]
+[2024-04-02 06:24:35] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a2.tar.gz]
+[2024-04-02 06:24:35] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
+[2024-04-02 06:24:35] INFO root fetch - main [MainThread]: Store serial: [22580581]
