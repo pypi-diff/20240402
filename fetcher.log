@@ -22062,3 +22062,39 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:12:26] INFO root fetch - processPackages [vegspec]: Remove: archive file [/home/abi/fetcher/tmp/vegspec-1.0.2.tar.gz]
 [2024-04-02 15:12:26] INFO root fetch - main [MainThread]: End processing [vegspec]: success
 [2024-04-02 15:12:26] INFO root fetch - main [MainThread]: Store serial: [22585329]
+[2024-04-02 15:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585329]
+[2024-04-02 15:14:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 15:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arion-library
+[2024-04-02 15:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cat-win
+[2024-04-02 15:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: AI-Coach-RLL
+[2024-04-02 15:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sirji-messages
+[2024-04-02 15:14:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thors-project-123
+[2024-04-02 15:14:35] WARNING root fetch - processPackages [thors-project-123]: Skipping, unable to determine old version
+[2024-04-02 15:14:35] INFO root fetch - processPackages [arion-library]: New version: [2.1.0] Old Version: [1.1rc1.dev26]
+[2024-04-02 15:14:35] INFO root fetch - main [MainThread]: End processing [thors-project-123] error
+[2024-04-02 15:14:35] INFO root fetch - processPackages [sirji-messages]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 15:14:35] WARNING root fetch - processPackages [AI-Coach-RLL]: Skipping, unable to determine old version
+[2024-04-02 15:14:35] INFO root fetch - main [MainThread]: End processing [AI-Coach-RLL] error
+[2024-04-02 15:14:35] INFO root fetch - processPackages [cat-win]: New version: [1.7.4] Old Version: [1.7.3]
+[2024-04-02 15:14:35] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/f3/0d/d61061e800410ab991fc7451dbdadb92e8a4d7ae54d058f96f9f6d44a744/arion_library-1.1rc1.dev26.tar.gz
+[2024-04-02 15:14:35] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/a1/5f/bb9515cd5924ec4d8f0f39b5be437e86edd749c316035b50869456a144df/sirji-messages-0.0.1.tar.gz
+[2024-04-02 15:14:35] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/5a/ea/92ec8abfce7a4973a710017ca5d64af61be834d3fdc06ec0239dd9aac09c/cat_win-1.7.3-py3-none-any.whl
+[2024-04-02 15:14:35] INFO root fetch - processPackages [arion-library]: Downloading https://files.pythonhosted.org/packages/70/2c/87adc33285dcbf332ed15bf5ed557c3d1e77602946b1028ac5c309599552/arion_library-2.1.0.tar.gz
+[2024-04-02 15:14:36] INFO root fetch - processPackages [arion-library]: executing diffoscope
+[2024-04-02 15:14:36] INFO root fetch - processPackages [arion-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arion_library-1.1rc1.dev26.tar.gz tmp/arion_library-2.1.0.tar.gz --markdown 20240402/a/arion-library/1.1rc1.dev26-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:14:36] INFO root fetch - processPackages [sirji-messages]: Downloading https://files.pythonhosted.org/packages/24/2d/9b4626ecf4ef42966d5588a1b09c99e832c5ef64b799fee2ba362583b441/sirji-messages-0.0.2.tar.gz
+[2024-04-02 15:14:36] INFO root fetch - processPackages [cat-win]: Downloading https://files.pythonhosted.org/packages/fb/4c/e54edb85b3c766e599140f75fbf08dffc79d9c862c0359fe71b4bc1f0013/cat_win-1.7.4-py3-none-any.whl
+[2024-04-02 15:14:36] INFO root fetch - processPackages [cat-win]: executing diffoscope
+[2024-04-02 15:14:36] INFO root fetch - processPackages [cat-win]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cat_win-1.7.3-py3-none-any.whl.zip tmp/cat_win-1.7.4-py3-none-any.whl.zip --markdown 20240402/c/cat-win/1.7.3-1.7.4/diff.md --exclude *.pyd
+[2024-04-02 15:14:36] INFO root fetch - processPackages [sirji-messages]: executing diffoscope
+[2024-04-02 15:14:36] INFO root fetch - processPackages [sirji-messages]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sirji-messages-0.0.1.tar.gz tmp/sirji-messages-0.0.2.tar.gz --markdown 20240402/s/sirji-messages/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 15:14:36] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-1.1rc1.dev26.tar.gz]
+[2024-04-02 15:14:36] INFO root fetch - processPackages [arion-library]: Remove: archive file [/home/abi/fetcher/tmp/arion_library-2.1.0.tar.gz]
+[2024-04-02 15:14:36] INFO root fetch - main [MainThread]: End processing [arion-library]: success
+[2024-04-02 15:14:37] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.1.tar.gz]
+[2024-04-02 15:14:37] INFO root fetch - processPackages [sirji-messages]: Remove: archive file [/home/abi/fetcher/tmp/sirji-messages-0.0.2.tar.gz]
+[2024-04-02 15:14:37] INFO root fetch - main [MainThread]: End processing [sirji-messages]: success
+[2024-04-02 15:14:37] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.3-py3-none-any.whl.zip]
+[2024-04-02 15:14:37] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.4-py3-none-any.whl.zip]
+[2024-04-02 15:14:37] INFO root fetch - main [MainThread]: End processing [cat-win]: success
+[2024-04-02 15:14:37] INFO root fetch - main [MainThread]: Store serial: [22585347]
