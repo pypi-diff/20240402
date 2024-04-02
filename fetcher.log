@@ -2445,3 +2445,15 @@
 [2024-04-02 02:22:13] INFO root fetch - processPackages [iricore]: Remove: archive file [/home/abi/fetcher/tmp/iricore-1.8.0.tar.gz]
 [2024-04-02 02:22:13] INFO root fetch - main [MainThread]: End processing [iricore]: success
 [2024-04-02 02:22:13] INFO root fetch - main [MainThread]: Store serial: [22577548]
+[2024-04-02 02:24:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577548]
+[2024-04-02 02:24:23] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 02:24:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-certbot-dns-route53
+[2024-04-02 02:24:23] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.4.93] Old Version: [2.4.92]
+[2024-04-02 02:24:23] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/1d/86/2d6b2bfe7d4d0f431da9509bfb8c2c8c822d696571c05510abd74f4fb5fa/cdk-certbot-dns-route53-2.4.92.tar.gz
+[2024-04-02 02:24:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/09/78/957c603aed1e7e753a50c30ab688a14302a97c40c4380b8bec9b67f3e5e2/cdk-certbot-dns-route53-2.4.93.tar.gz
+[2024-04-02 02:24:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2024-04-02 02:24:24] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.4.92.tar.gz tmp/cdk-certbot-dns-route53-2.4.93.tar.gz --markdown 20240402/c/cdk-certbot-dns-route53/2.4.92-2.4.93/diff.md --exclude *.pyd
+[2024-04-02 02:24:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.92.tar.gz]
+[2024-04-02 02:24:25] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.4.93.tar.gz]
+[2024-04-02 02:24:25] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2024-04-02 02:24:25] INFO root fetch - main [MainThread]: Store serial: [22577552]
