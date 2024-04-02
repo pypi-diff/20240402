@@ -9808,3 +9808,37 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:37:53] INFO root fetch - processPackages [prodvana]: Remove: archive file [/home/abi/fetcher/tmp/prodvana-0.3.9.tar.gz]
 [2024-04-02 05:37:53] INFO root fetch - main [MainThread]: End processing [prodvana]: success
 [2024-04-02 05:37:53] INFO root fetch - main [MainThread]: Store serial: [22580376]
+[2024-04-02 05:39:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580376]
+[2024-04-02 05:40:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 05:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: manteia-qa-pylinac
+[2024-04-02 05:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: binsync
+[2024-04-02 05:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: swarms
+[2024-04-02 05:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdktf-cdktf-provider-google
+[2024-04-02 05:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdktf-cdktf-provider-google-beta
+[2024-04-02 05:40:02] INFO root fetch - processPackages [swarms]: New version: [4.7.3] Old Version: [4.7.1]
+[2024-04-02 05:40:02] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-02 05:40:02] INFO root fetch - processPackages [binsync]: New version: [4.1.0] Old Version: [4.0.5]
+[2024-04-02 05:40:02] WARNING root fetch - processPackages [manteia-qa-pylinac]: Skipping, unable to determine old version
+[2024-04-02 05:40:02] INFO root fetch - main [MainThread]: End processing [manteia-qa-pylinac] error
+[2024-04-02 05:40:02] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/07/69/f2b7d85be8808e458f37594f6f8b82d858558ff0c5507aa765cf0309a126/swarms-4.7.1.tar.gz
+[2024-04-02 05:40:02] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-02 05:40:02] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/41/68/91b08ffedf101464fc86f93c5dc0eea26722ead69cb08886a22d40195cba/binsync-4.0.5.tar.gz
+[2024-04-02 05:40:02] INFO root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Downloading https://files.pythonhosted.org/packages/6b/1d/26b78c5622a7e070e696eccc3cd63d7699fcc33f5ed33fa07891147b770b/cdktf-cdktf-provider-google_beta-9.0.4.tar.gz
+[2024-04-02 05:40:02] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/38/8e/fcb0358ec1a555837d4cad74bbe97207bd6fe247dc32a5f79b90aaaac8b8/cdktf-cdktf-provider-google-9.0.4.tar.gz
+[2024-04-02 05:40:02] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/7c/48/d63509b3c39e844ca3a75765bdef8e2e1a2bdb66f5512e0f0ad54b66eb71/swarms-4.7.3.tar.gz
+[2024-04-02 05:40:02] INFO root fetch - processPackages [binsync]: Downloading https://files.pythonhosted.org/packages/fd/01/ea047a326a513abd4f7c79e4ac6f487ffff1e2314378e0091b54fd11c34f/binsync-4.1.0.tar.gz
+[2024-04-02 05:40:02] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-02 05:40:02] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.7.1.tar.gz tmp/swarms-4.7.3.tar.gz --markdown 20240402/s/swarms/4.7.1-4.7.3/diff.md --exclude *.pyd
+[2024-04-02 05:40:02] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 22123916>=10485760
+[2024-04-02 05:40:02] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2024-04-02 05:40:02] WARNING root fetch - processPackages [cdktf-cdktf-provider-google-beta]: Skipping package: exceeds size limit 24918885>=10485760
+[2024-04-02 05:40:02] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google-beta] error
+[2024-04-02 05:40:02] INFO root fetch - processPackages [binsync]: executing diffoscope
+[2024-04-02 05:40:02] INFO root fetch - processPackages [binsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binsync-4.0.5.tar.gz tmp/binsync-4.1.0.tar.gz --markdown 20240402/b/binsync/4.0.5-4.1.0/diff.md --exclude *.pyd
+[2024-04-02 05:40:03] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.0.5.tar.gz]
+[2024-04-02 05:40:03] INFO root fetch - processPackages [binsync]: Remove: archive file [/home/abi/fetcher/tmp/binsync-4.1.0.tar.gz]
+[2024-04-02 05:40:03] INFO root fetch - main [MainThread]: End processing [binsync]: success
+[2024-04-02 05:40:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.1.tar.gz]
+[2024-04-02 05:40:03] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.3.tar.gz]
+[2024-04-02 05:40:03] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-02 05:40:03] INFO root fetch - main [MainThread]: Store serial: [22580393]
