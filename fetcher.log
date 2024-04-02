@@ -10038,3 +10038,59 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:59:45] INFO root fetch - processPackages [spellbot]: Remove: archive file [/home/abi/fetcher/tmp/spellbot-9.7.0.tar.gz]
 [2024-04-02 05:59:45] INFO root fetch - main [MainThread]: End processing [spellbot]: success
 [2024-04-02 05:59:45] INFO root fetch - main [MainThread]: Store serial: [22580479]
+[2024-04-02 06:01:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580479]
+[2024-04-02 06:01:54] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-02 06:03:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580480]
+[2024-04-02 06:03:59] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 06:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libonvif
+[2024-04-02 06:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: avio
+[2024-04-02 06:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flashcam
+[2024-04-02 06:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onvif-gui
+[2024-04-02 06:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: friendli-client
+[2024-04-02 06:03:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dbt-odps-winwin
+[2024-04-02 06:04:00] INFO root fetch - processPackages [libonvif]: New version: [3.1.1] Old Version: [3.1.0]
+[2024-04-02 06:04:00] INFO root fetch - processPackages [avio]: New version: [3.1.2] Old Version: [3.1.0]
+[2024-04-02 06:04:00] INFO root fetch - processPackages [onvif-gui]: New version: [2.0.9] Old Version: [2.0.1]
+[2024-04-02 06:04:00] INFO root fetch - processPackages [friendli-client]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-02 06:04:00] INFO root fetch - processPackages [dbt-odps-winwin]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 06:04:00] INFO root fetch - processPackages [flashcam]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-04-02 06:04:00] INFO root fetch - processPackages [libonvif]: Downloading https://files.pythonhosted.org/packages/bb/22/a132c8a77538772d21063b6371fa96b0d6b1342c4d500dae1eb68e668e48/libonvif-3.1.0.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/d5/2a/b05b2f4b94ab9400832985cdc86a75fb5d2788d034be8fa9e3850e578ad5/onvif-gui-2.0.1.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [friendli-client]: Downloading https://files.pythonhosted.org/packages/97/fa/cec545a958efadd1e463da5b238470f62f4462af548ee39e2a31cf01c8d9/friendli_client-1.3.3.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [dbt-odps-winwin]: Downloading https://files.pythonhosted.org/packages/06/c4/c0b90b0ded7b34b7f06d8c4d442cf502b403a55806473ae1c8be86cfb28a/dbt-odps-winwin-1.0.8.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [avio]: Downloading https://files.pythonhosted.org/packages/ad/2a/ac21f96508ad00e6294cf1541dd4c24ddbe5c7bb43a94178ec0d1d8001b4/avio-3.1.0.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/c3/d0/0b68eff7beeb7a2fa8885287be488b3d9a89890a9d8ba1b879c6cbeaf4a0/flashcam-1.8.4.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [friendli-client]: Downloading https://files.pythonhosted.org/packages/9d/23/d7a9c3e595054e11b4ad8791e600f558fe6abd08d3f6ae139f72186dbfe6/friendli_client-1.3.4.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [onvif-gui]: Downloading https://files.pythonhosted.org/packages/a3/4a/688e0a014a7ab3a313c8fe88bb5152ff7e1971cc4380cf357ec4cfc12a52/onvif-gui-2.0.9.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [dbt-odps-winwin]: Downloading https://files.pythonhosted.org/packages/18/1c/07d043f40396cf8c07e6c226665ed55178f5592aaf6c77f682fd134b642b/dbt-odps-winwin-1.0.9.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/84/ee/bc11a95b4888f2c3d1e71576a3275c98cfe9c1eaa23beccd7391688eeaff/flashcam-1.8.5.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [libonvif]: Downloading https://files.pythonhosted.org/packages/28/86/22ef4d49b4aac4ece3977d0c3f6c737060e19ff17addc4f7a1687394ecdf/libonvif-3.1.1.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [avio]: Downloading https://files.pythonhosted.org/packages/00/48/653fe2c23077accbc5b9cc547e1bd93eda5505bd2e0676bc89c8643922b8/avio-3.1.2.tar.gz
+[2024-04-02 06:04:00] INFO root fetch - processPackages [friendli-client]: executing diffoscope
+[2024-04-02 06:04:00] INFO root fetch - processPackages [friendli-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/friendli_client-1.3.3.tar.gz tmp/friendli_client-1.3.4.tar.gz --markdown 20240402/f/friendli-client/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-02 06:04:01] WARNING root fetch - processPackages [avio]: Skipping package: exceeds size limit 22355996>=10485760
+[2024-04-02 06:04:01] INFO root fetch - main [MainThread]: End processing [avio] error
+[2024-04-02 06:04:01] INFO root fetch - processPackages [onvif-gui]: executing diffoscope
+[2024-04-02 06:04:01] INFO root fetch - processPackages [onvif-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onvif-gui-2.0.1.tar.gz tmp/onvif-gui-2.0.9.tar.gz --markdown 20240402/o/onvif-gui/2.0.1-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 06:04:01] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-04-02 06:04:01] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.8.4.tar.gz tmp/flashcam-1.8.5.tar.gz --markdown 20240402/f/flashcam/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2024-04-02 06:04:01] INFO root fetch - processPackages [libonvif]: executing diffoscope
+[2024-04-02 06:04:01] INFO root fetch - processPackages [libonvif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libonvif-3.1.0.tar.gz tmp/libonvif-3.1.1.tar.gz --markdown 20240402/l/libonvif/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2024-04-02 06:04:01] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.4.tar.gz]
+[2024-04-02 06:04:01] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.5.tar.gz]
+[2024-04-02 06:04:01] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-04-02 06:04:01] INFO root fetch - processPackages [dbt-odps-winwin]: executing diffoscope
+[2024-04-02 06:04:01] INFO root fetch - processPackages [dbt-odps-winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-odps-winwin-1.0.8.tar.gz tmp/dbt-odps-winwin-1.0.9.tar.gz --markdown 20240402/d/dbt-odps-winwin/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 06:04:01] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-2.0.1.tar.gz]
+[2024-04-02 06:04:01] INFO root fetch - processPackages [onvif-gui]: Remove: archive file [/home/abi/fetcher/tmp/onvif-gui-2.0.9.tar.gz]
+[2024-04-02 06:04:01] INFO root fetch - main [MainThread]: End processing [onvif-gui]: success
+[2024-04-02 06:04:02] INFO root fetch - processPackages [friendli-client]: Remove: archive file [/home/abi/fetcher/tmp/friendli_client-1.3.3.tar.gz]
+[2024-04-02 06:04:02] INFO root fetch - processPackages [friendli-client]: Remove: archive file [/home/abi/fetcher/tmp/friendli_client-1.3.4.tar.gz]
+[2024-04-02 06:04:02] INFO root fetch - main [MainThread]: End processing [friendli-client]: success
+[2024-04-02 06:04:02] INFO root fetch - processPackages [dbt-odps-winwin]: Remove: archive file [/home/abi/fetcher/tmp/dbt-odps-winwin-1.0.8.tar.gz]
+[2024-04-02 06:04:02] INFO root fetch - processPackages [dbt-odps-winwin]: Remove: archive file [/home/abi/fetcher/tmp/dbt-odps-winwin-1.0.9.tar.gz]
+[2024-04-02 06:04:02] INFO root fetch - main [MainThread]: End processing [dbt-odps-winwin]: success
+[2024-04-02 06:04:04] INFO root fetch - processPackages [libonvif]: Remove: archive file [/home/abi/fetcher/tmp/libonvif-3.1.0.tar.gz]
+[2024-04-02 06:04:04] INFO root fetch - processPackages [libonvif]: Remove: archive file [/home/abi/fetcher/tmp/libonvif-3.1.1.tar.gz]
+[2024-04-02 06:04:04] INFO root fetch - main [MainThread]: End processing [libonvif]: success
+[2024-04-02 06:04:04] INFO root fetch - main [MainThread]: Store serial: [22580504]
