@@ -9985,3 +9985,23 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:51:05] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-4.0.0.tar.gz]
 [2024-04-02 05:51:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
 [2024-04-02 05:51:05] INFO root fetch - main [MainThread]: Store serial: [22580447]
+[2024-04-02 05:53:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580447]
+[2024-04-02 05:53:17] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-02 05:55:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580447]
+[2024-04-02 05:55:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 05:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysigner
+[2024-04-02 05:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: SpeckCollect
+[2024-04-02 05:55:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dailalib
+[2024-04-02 05:55:23] WARNING root fetch - processPackages [pysigner]: Skipping, unable to determine old version
+[2024-04-02 05:55:23] INFO root fetch - main [MainThread]: End processing [pysigner] error
+[2024-04-02 05:55:23] INFO root fetch - processPackages [dailalib]: New version: [2.3.2] Old Version: [2.3.1]
+[2024-04-02 05:55:23] WARNING root fetch - processPackages [SpeckCollect]: Skipping, unable to determine old version
+[2024-04-02 05:55:23] INFO root fetch - main [MainThread]: End processing [SpeckCollect] error
+[2024-04-02 05:55:23] INFO root fetch - processPackages [dailalib]: Downloading https://files.pythonhosted.org/packages/dc/8d/f3e7680b0a1974a11e3953e132d31ae7b44301007fee53ad081707787b3b/dailalib-2.3.1.tar.gz
+[2024-04-02 05:55:23] INFO root fetch - processPackages [dailalib]: Downloading https://files.pythonhosted.org/packages/9b/20/5ddd08d574885d0e87080a90402ef3373883d16d1c94aa14104852b2ae93/dailalib-2.3.2.tar.gz
+[2024-04-02 05:55:23] INFO root fetch - processPackages [dailalib]: executing diffoscope
+[2024-04-02 05:55:23] INFO root fetch - processPackages [dailalib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dailalib-2.3.1.tar.gz tmp/dailalib-2.3.2.tar.gz --markdown 20240402/d/dailalib/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2024-04-02 05:55:24] INFO root fetch - processPackages [dailalib]: Remove: archive file [/home/abi/fetcher/tmp/dailalib-2.3.1.tar.gz]
+[2024-04-02 05:55:24] INFO root fetch - processPackages [dailalib]: Remove: archive file [/home/abi/fetcher/tmp/dailalib-2.3.2.tar.gz]
+[2024-04-02 05:55:24] INFO root fetch - main [MainThread]: End processing [dailalib]: success
+[2024-04-02 05:55:24] INFO root fetch - main [MainThread]: Store serial: [22580460]
