@@ -22098,3 +22098,63 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:14:37] INFO root fetch - processPackages [cat-win]: Remove: archive file [/home/abi/fetcher/tmp/cat_win-1.7.4-py3-none-any.whl.zip]
 [2024-04-02 15:14:37] INFO root fetch - main [MainThread]: End processing [cat-win]: success
 [2024-04-02 15:14:37] INFO root fetch - main [MainThread]: Store serial: [22585347]
+[2024-04-02 15:16:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585347]
+[2024-04-02 15:16:47] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testcontainers
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: d-fake-seeder
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetry-templating
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sirji-tools
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: trainml
+[2024-04-02 15:16:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: temod
+[2024-04-02 15:16:47] INFO root fetch - processPackages [temod]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 15:16:47] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc6] Old Version: [0.3.0rc5]
+[2024-04-02 15:16:47] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 15:16:47] INFO root fetch - processPackages [temod]: Downloading https://files.pythonhosted.org/packages/a4/95/c2ec9f53a0ce72ae73893695d1f36e8ded371faee602ae722b5217e21663/temod-2.0.8.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [poetry-templating]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-02 15:16:47] WARNING root fetch - processPackages [sirji-tools]: Skipping, unable to determine old version
+[2024-04-02 15:16:47] INFO root fetch - main [MainThread]: End processing [sirji-tools] error
+[2024-04-02 15:16:47] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/69/82/f5b4050ea19225eabcb0c32022550b4cb9e0dc1c49122d732405e1d7fa0f/keelson-0.3.0rc5-py3-none-any.whl
+[2024-04-02 15:16:47] INFO root fetch - processPackages [testcontainers]: New version: [4.3.1rc1] Old Version: [4.3.0]
+[2024-04-02 15:16:47] INFO root fetch - processPackages [trainml]: New version: [0.5.5] Old Version: [0.5.4]
+[2024-04-02 15:16:47] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/cc/dc/e5e9738563e837899850035a8a177f9763116b17500d129ff2038f6f028a/testcontainers-4.3.0.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [poetry-templating]: Downloading https://files.pythonhosted.org/packages/dc/07/eadf7011fb340633ce8e6814c513e16a7db58c21948e14b7435a4ca50640/poetry_templating-1.1.1.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [temod]: Downloading https://files.pythonhosted.org/packages/71/0a/daf04fa420f0217ffa3e63bdf9911aad8ba6c129c1c1681a6e2d69c4de96/temod-2.0.9.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/ff/a0/b98d6537b6ad3d7906a2c8c6ea6007eb2991e70eaf1bdf74b46be4d57693/trainml-0.5.4.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [temod]: executing diffoscope
+[2024-04-02 15:16:47] INFO root fetch - processPackages [temod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temod-2.0.8.tar.gz tmp/temod-2.0.9.tar.gz --markdown 20240402/t/temod/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 15:16:47] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/b4/e7/daa79bbe533449661ee7c850f48690b965f4a541d569efa9e62e5a6edf3f/keelson-0.3.0rc6-py3-none-any.whl
+[2024-04-02 15:16:47] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 15:16:47] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 15:16:47] INFO root fetch - processPackages [testcontainers]: Downloading https://files.pythonhosted.org/packages/df/93/981fbad00dfec753bb934ac2ca8e903fca9a91ecbf88ce716698b2d88d9f/testcontainers-4.3.1rc1.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [poetry-templating]: Downloading https://files.pythonhosted.org/packages/3c/0c/fb0abf684a27c8ed5fbd267fba24d3640cac2a1f1957ce86e83f56614301/poetry_templating-1.1.2.tar.gz
+[2024-04-02 15:16:47] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-02 15:16:47] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc5-py3-none-any.whl.zip tmp/keelson-0.3.0rc6-py3-none-any.whl.zip --markdown 20240402/k/keelson/0.3.0rc5-0.3.0rc6/diff.md --exclude *.pyd
+[2024-04-02 15:16:48] INFO root fetch - processPackages [testcontainers]: executing diffoscope
+[2024-04-02 15:16:48] INFO root fetch - processPackages [testcontainers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testcontainers-4.3.0.tar.gz tmp/testcontainers-4.3.1rc1.tar.gz --markdown 20240402/t/testcontainers/4.3.0-4.3.1rc1/diff.md --exclude *.pyd
+[2024-04-02 15:16:48] INFO root fetch - processPackages [trainml]: Downloading https://files.pythonhosted.org/packages/b2/a5/d5ce99465300c7b5bfdd21bfcdf0532bde53785361af9215143e420b4446/trainml-0.5.5.tar.gz
+[2024-04-02 15:16:48] INFO root fetch - processPackages [poetry-templating]: executing diffoscope
+[2024-04-02 15:16:48] INFO root fetch - processPackages [poetry-templating]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_templating-1.1.1.tar.gz tmp/poetry_templating-1.1.2.tar.gz --markdown 20240402/p/poetry-templating/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-02 15:16:48] INFO root fetch - processPackages [trainml]: executing diffoscope
+[2024-04-02 15:16:48] INFO root fetch - processPackages [trainml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trainml-0.5.4.tar.gz tmp/trainml-0.5.5.tar.gz --markdown 20240402/t/trainml/0.5.4-0.5.5/diff.md --exclude *.pyd
+[2024-04-02 15:16:48] INFO root fetch - processPackages [temod]: Remove: archive file [/home/abi/fetcher/tmp/temod-2.0.8.tar.gz]
+[2024-04-02 15:16:48] INFO root fetch - processPackages [temod]: Remove: archive file [/home/abi/fetcher/tmp/temod-2.0.9.tar.gz]
+[2024-04-02 15:16:48] INFO root fetch - main [MainThread]: End processing [temod]: success
+[2024-04-02 15:16:49] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 15:16:49] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc5-py3-none-any.whl.zip]
+[2024-04-02 15:16:49] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc6-py3-none-any.whl.zip]
+[2024-04-02 15:16:49] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-02 15:16:49] INFO root fetch - processPackages [poetry-templating]: Remove: archive file [/home/abi/fetcher/tmp/poetry_templating-1.1.1.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - processPackages [poetry-templating]: Remove: archive file [/home/abi/fetcher/tmp/poetry_templating-1.1.2.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - main [MainThread]: End processing [poetry-templating]: success
+[2024-04-02 15:16:49] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.3.0.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - processPackages [testcontainers]: Remove: archive file [/home/abi/fetcher/tmp/testcontainers-4.3.1rc1.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - main [MainThread]: End processing [testcontainers]: success
+[2024-04-02 15:16:49] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.4.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - processPackages [trainml]: Remove: archive file [/home/abi/fetcher/tmp/trainml-0.5.5.tar.gz]
+[2024-04-02 15:16:49] INFO root fetch - main [MainThread]: End processing [trainml]: success
+[2024-04-02 15:16:49] INFO root fetch - main [MainThread]: Store serial: [22585372]
