@@ -15988,3 +15988,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:29:11] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.5.tar.gz]
 [2024-04-02 11:29:11] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 11:29:11] INFO root fetch - main [MainThread]: Store serial: [22582842]
+[2024-04-02 11:31:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582842]
+[2024-04-02 11:31:20] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 11:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidydata
+[2024-04-02 11:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyhelper-utils
+[2024-04-02 11:31:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freegenius
+[2024-04-02 11:31:20] INFO root fetch - processPackages [tidydata]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 11:31:20] ERROR root fetch - processPackages [pyhelper-utils]: Unable to get metadata: No such project 'pyhelper-utils'
+[2024-04-02 11:31:20] INFO root fetch - main [MainThread]: End processing [pyhelper-utils] error
+[2024-04-02 11:31:20] INFO root fetch - processPackages [freegenius]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 11:31:20] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/6f/a0/f28ee0e233993d710b958fb4eca9f4892fdc879db0894cb221c3c672db85/freegenius-0.0.8.tar.gz
+[2024-04-02 11:31:20] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/d9/eb/7be9aa80b84038608523b916335ce29a3ba3ef108de76fe790307d1605f0/tidydata-0.1.8.tar.gz
+[2024-04-02 11:31:21] INFO root fetch - processPackages [freegenius]: Downloading https://files.pythonhosted.org/packages/64/a9/f3ae6b148a4bd786790a124582c069ff16ee88fb307a8ebff8181577bb4d/freegenius-0.0.9.tar.gz
+[2024-04-02 11:31:21] INFO root fetch - processPackages [tidydata]: Downloading https://files.pythonhosted.org/packages/57/9a/5133e0eba8a534e721eacc28f37e80fb570af2997ee6d7ad219fc3d98da7/tidydata-0.1.9.tar.gz
+[2024-04-02 11:31:21] INFO root fetch - processPackages [freegenius]: executing diffoscope
+[2024-04-02 11:31:21] INFO root fetch - processPackages [freegenius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freegenius-0.0.8.tar.gz tmp/freegenius-0.0.9.tar.gz --markdown 20240402/f/freegenius/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:31:21] INFO root fetch - processPackages [tidydata]: executing diffoscope
+[2024-04-02 11:31:21] INFO root fetch - processPackages [tidydata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tidydata-0.1.8.tar.gz tmp/tidydata-0.1.9.tar.gz --markdown 20240402/t/tidydata/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 11:31:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.8.tar.gz]
+[2024-04-02 11:31:21] INFO root fetch - processPackages [freegenius]: Remove: archive file [/home/abi/fetcher/tmp/freegenius-0.0.9.tar.gz]
+[2024-04-02 11:31:21] INFO root fetch - main [MainThread]: End processing [freegenius]: success
+[2024-04-02 11:31:22] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.8.tar.gz]
+[2024-04-02 11:31:22] INFO root fetch - processPackages [tidydata]: Remove: archive file [/home/abi/fetcher/tmp/tidydata-0.1.9.tar.gz]
+[2024-04-02 11:31:22] INFO root fetch - main [MainThread]: End processing [tidydata]: success
+[2024-04-02 11:31:22] INFO root fetch - main [MainThread]: Store serial: [22582851]
