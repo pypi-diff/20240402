@@ -11708,3 +11708,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:13:32] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240402.tar.gz]
 [2024-04-02 08:13:32] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
 [2024-04-02 08:13:32] INFO root fetch - main [MainThread]: Store serial: [22581161]
+[2024-04-02 08:15:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581161]
+[2024-04-02 08:15:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 08:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pretext
+[2024-04-02 08:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fake-bpy-module-latest
+[2024-04-02 08:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fake-bpy-module
+[2024-04-02 08:15:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaea-tracker
+[2024-04-02 08:15:41] INFO root fetch - processPackages [gaea-tracker]: New version: [1.2.0.1] Old Version: [1.1.1.2]
+[2024-04-02 08:15:41] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20240401] Old Version: [20240331]
+[2024-04-02 08:15:41] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/4d/b2/2812aaf15d9af9bcc1f40ffefd75c152208a1957f1c73b25c66432863334/gaea_tracker-1.1.1.2-py3-none-any.whl
+[2024-04-02 08:15:41] INFO root fetch - processPackages [pretext]: New version: [2.3.9.dev20240302] Old Version: [2.3.9.dev20240229]
+[2024-04-02 08:15:41] INFO root fetch - processPackages [fake-bpy-module]: New version: [20240402] Old Version: [20240401]
+[2024-04-02 08:15:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/5b/58/15ec98d45e81514f317e12ee185ddc09e2fb644f4dcc62c21e551e1524c5/fake-bpy-module-latest-20240331.tar.gz
+[2024-04-02 08:15:41] INFO root fetch - processPackages [gaea-tracker]: Downloading https://files.pythonhosted.org/packages/a8/c3/5a7432e586c7f1349dd58c1bf997323fefea7f5a1cdadcb994c6d2eb5d70/gaea_tracker-1.2.0.1-py3-none-any.whl
+[2024-04-02 08:15:41] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/ce/64/85bc57578fbf3322df1cb4958d7c6cf0dda4d8184eb5611f8245cb5d98eb/pretext-2.3.9.dev20240229.tar.gz
+[2024-04-02 08:15:41] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/b1/4b/68fff2c3daa0fb3e41b4fbcc289ed1832ab8b68250a3b72b69dc6d33de71/fake-bpy-module-20240401.tar.gz
+[2024-04-02 08:15:41] INFO root fetch - processPackages [gaea-tracker]: executing diffoscope
+[2024-04-02 08:15:41] INFO root fetch - processPackages [gaea-tracker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaea_tracker-1.1.1.2-py3-none-any.whl.zip tmp/gaea_tracker-1.2.0.1-py3-none-any.whl.zip --markdown 20240402/g/gaea-tracker/1.1.1.2-1.2.0.1/diff.md --exclude *.pyd
+[2024-04-02 08:15:42] INFO root fetch - processPackages [fake-bpy-module]: Downloading https://files.pythonhosted.org/packages/1f/30/751db0129bd7610bf81ed12ba68cb2dd0385067071562f5f40e2fb68d747/fake-bpy-module-20240402.tar.gz
+[2024-04-02 08:15:42] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/25/62/5ab6ed7232532a42bfc9a41a460b7120757e4b609e3a8270d3b82564a15b/fake-bpy-module-latest-20240401.tar.gz
+[2024-04-02 08:15:42] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/3f/2d/22e687f1fb945aeb16176a4f9c25da1aab63664c88cd2966d7ad79f1b144/pretext-2.3.9.dev20240302.tar.gz
+[2024-04-02 08:15:42] INFO root fetch - processPackages [fake-bpy-module]: executing diffoscope
+[2024-04-02 08:15:42] INFO root fetch - processPackages [fake-bpy-module]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-20240401.tar.gz tmp/fake-bpy-module-20240402.tar.gz --markdown 20240402/f/fake-bpy-module/20240401-20240402/diff.md --exclude *.pyd
+[2024-04-02 08:15:42] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.1.1.2-py3-none-any.whl.zip]
+[2024-04-02 08:15:42] INFO root fetch - processPackages [gaea-tracker]: Remove: archive file [/home/abi/fetcher/tmp/gaea_tracker-1.2.0.1-py3-none-any.whl.zip]
+[2024-04-02 08:15:42] INFO root fetch - main [MainThread]: End processing [gaea-tracker]: success
+[2024-04-02 08:15:42] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2024-04-02 08:15:42] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20240331.tar.gz tmp/fake-bpy-module-latest-20240401.tar.gz --markdown 20240402/f/fake-bpy-module-latest/20240331-20240401/diff.md --exclude *.pyd
+[2024-04-02 08:15:42] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2024-04-02 08:15:42] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-2.3.9.dev20240229.tar.gz tmp/pretext-2.3.9.dev20240302.tar.gz --markdown 20240402/p/pretext/2.3.9.dev20240229-2.3.9.dev20240302/diff.md --exclude *.pyd
+[2024-04-02 08:15:46] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240229.tar.gz]
+[2024-04-02 08:15:46] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-2.3.9.dev20240302.tar.gz]
+[2024-04-02 08:15:46] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2024-04-02 08:15:46] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240331.tar.gz]
+[2024-04-02 08:15:46] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20240401.tar.gz]
+[2024-04-02 08:15:46] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2024-04-02 08:15:46] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240401.tar.gz]
+[2024-04-02 08:15:46] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240402.tar.gz]
+[2024-04-02 08:15:46] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
+[2024-04-02 08:15:46] INFO root fetch - main [MainThread]: Store serial: [22581174]
