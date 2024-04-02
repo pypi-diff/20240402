@@ -10287,3 +10287,18 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:20:13] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl.zip]
 [2024-04-02 06:20:13] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-reimbursement]: success
 [2024-04-02 06:20:13] INFO root fetch - main [MainThread]: Store serial: [22580571]
+[2024-04-02 06:22:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580571]
+[2024-04-02 06:22:22] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dvcx
+[2024-04-02 06:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solana-token
+[2024-04-02 06:22:22] WARNING root fetch - processPackages [solana-token]: Skipping, unable to determine old version
+[2024-04-02 06:22:22] INFO root fetch - main [MainThread]: End processing [solana-token] error
+[2024-04-02 06:22:22] INFO root fetch - processPackages [dvcx]: New version: [0.72.0] Old Version: [0.71.0]
+[2024-04-02 06:22:22] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/a4/6f/9ec8322a98c05cec884540cebfe2464f28a29b8992b13ecd97e5ed240915/dvcx-0.71.0.tar.gz
+[2024-04-02 06:22:23] INFO root fetch - processPackages [dvcx]: Downloading https://files.pythonhosted.org/packages/ec/da/24c270fe0e279c205ab7b07a388e1e21a8419a04532e4a49eba544f5f7da/dvcx-0.72.0.tar.gz
+[2024-04-02 06:22:23] INFO root fetch - processPackages [dvcx]: executing diffoscope
+[2024-04-02 06:22:23] INFO root fetch - processPackages [dvcx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dvcx-0.71.0.tar.gz tmp/dvcx-0.72.0.tar.gz --markdown 20240402/d/dvcx/0.71.0-0.72.0/diff.md --exclude *.pyd
+[2024-04-02 06:22:24] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.71.0.tar.gz]
+[2024-04-02 06:22:24] INFO root fetch - processPackages [dvcx]: Remove: archive file [/home/abi/fetcher/tmp/dvcx-0.72.0.tar.gz]
+[2024-04-02 06:22:24] INFO root fetch - main [MainThread]: End processing [dvcx]: success
+[2024-04-02 06:22:24] INFO root fetch - main [MainThread]: Store serial: [22580578]
