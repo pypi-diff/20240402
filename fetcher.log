@@ -9447,3 +9447,66 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:16:31] INFO root fetch - processPackages [nbprint]: Remove: archive file [/home/abi/fetcher/tmp/nbprint-0.1.5.tar.gz]
 [2024-04-02 05:16:31] INFO root fetch - main [MainThread]: End processing [nbprint]: success
 [2024-04-02 05:16:31] INFO root fetch - main [MainThread]: Store serial: [22580237]
+[2024-04-02 05:18:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580237]
+[2024-04-02 05:18:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p-cmd-runr
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: naja-atra-jinja
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flask-variable-manager
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: EasyOutput
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: feilian
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ticketsdk
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ebtorch
+[2024-04-02 05:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: shipyard-slack
+[2024-04-02 05:18:42] INFO root fetch - processPackages [shipyard-slack]: New version: [0.1.4a0] Old Version: [0.1.3a0]
+[2024-04-02 05:18:42] INFO root fetch - processPackages [EasyOutput]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 05:18:42] INFO root fetch - processPackages [feilian]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-02 05:18:42] INFO root fetch - processPackages [shipyard-slack]: Downloading https://files.pythonhosted.org/packages/a5/dc/989472dc5db8bc4293c44a7986579280dbacd0d2e75e941e949cf17e8632/shipyard_slack-0.1.3a0.tar.gz
+[2024-04-02 05:18:42] WARNING root fetch - processPackages [flask-variable-manager]: Skipping, unable to determine old version
+[2024-04-02 05:18:42] INFO root fetch - main [MainThread]: End processing [flask-variable-manager] error
+[2024-04-02 05:18:42] INFO root fetch - processPackages [p-cmd-runr]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 05:18:42] INFO root fetch - processPackages [ticketsdk]: New version: [2.2.2] Old Version: [2.2.1]
+[2024-04-02 05:18:42] INFO root fetch - processPackages [EasyOutput]: Downloading https://files.pythonhosted.org/packages/83/0d/83c6ecc3e6f923ceb87c8b8280dc054b4b42ae45a08ae481d962f5f7e9d9/EasyOutput-0.0.4.tar.gz
+[2024-04-02 05:18:42] ERROR root fetch - processPackages [naja-atra-jinja]: Unable to get metadata: No such project 'naja-atra-jinja'
+[2024-04-02 05:18:42] INFO root fetch - main [MainThread]: End processing [naja-atra-jinja] error
+[2024-04-02 05:18:42] INFO root fetch - processPackages [ebtorch]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 05:18:42] INFO root fetch - processPackages [feilian]: Downloading https://files.pythonhosted.org/packages/b5/8d/d2e594e5ed9e0337c056716f76bb2c94b8a2b91dad59e5aed32f4de89fd8/feilian-1.1.8.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [shipyard-slack]: Downloading https://files.pythonhosted.org/packages/f8/ff/e01342c243dd4edd9f397656afb40fede151e33be30f429b7901c3a5cf87/shipyard_slack-0.1.4a0.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [EasyOutput]: Downloading https://files.pythonhosted.org/packages/e0/56/7020b4f623064c3c43a26a3c19d664629f6127194418fd510c01a27f86f5/EasyOutput-0.0.5.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/5f/fd/d96a101870b0c9684da742998ae369771f43cb8705d08a7abdf64d698e81/ticketsdk-2.2.1.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [p-cmd-runr]: Downloading https://files.pythonhosted.org/packages/c7/5f/f7066fbd13afc1240b083999ba79ddcf9be8e925dc81404298b4b2105d8f/p_cmd_runr-0.1.4.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/f6/0b/a141fd3156848e8d2e2fc182cbf6bf93f48c8fe81f58d13605672b1a15c6/ebtorch-0.9.8.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [shipyard-slack]: executing diffoscope
+[2024-04-02 05:18:42] INFO root fetch - processPackages [shipyard-slack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shipyard_slack-0.1.3a0.tar.gz tmp/shipyard_slack-0.1.4a0.tar.gz --markdown 20240402/s/shipyard-slack/0.1.3a0-0.1.4a0/diff.md --exclude *.pyd
+[2024-04-02 05:18:42] INFO root fetch - processPackages [EasyOutput]: executing diffoscope
+[2024-04-02 05:18:42] INFO root fetch - processPackages [EasyOutput]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EasyOutput-0.0.4.tar.gz tmp/EasyOutput-0.0.5.tar.gz --markdown 20240402/E/EasyOutput/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 05:18:42] INFO root fetch - processPackages [feilian]: Downloading https://files.pythonhosted.org/packages/48/6b/c6712755c023c130fb4a75df5dc89be7a95cd19678cee6c7b61146f1cd36/feilian-1.1.9.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [p-cmd-runr]: Downloading https://files.pythonhosted.org/packages/41/ca/5245973ea99b213462e1ae12871f11b01f86fd3f011a22987c7ce866b84e/p_cmd_runr-0.1.5.tar.gz
+[2024-04-02 05:18:42] INFO root fetch - processPackages [ticketsdk]: Downloading https://files.pythonhosted.org/packages/79/20/f73bdf9f924dd2c8193ee218a5ec8d8247ac7a83bfaa1ca6b1f2ad348011/ticketsdk-2.2.2.tar.gz
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ebtorch]: Downloading https://files.pythonhosted.org/packages/de/e0/a625d79a43753923a509b28ef3011cc592fc185573d78146dda1a45d149a/ebtorch-0.9.9.tar.gz
+[2024-04-02 05:18:43] INFO root fetch - processPackages [feilian]: executing diffoscope
+[2024-04-02 05:18:43] INFO root fetch - processPackages [feilian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feilian-1.1.8.tar.gz tmp/feilian-1.1.9.tar.gz --markdown 20240402/f/feilian/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ticketsdk]: executing diffoscope
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ticketsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ticketsdk-2.2.1.tar.gz tmp/ticketsdk-2.2.2.tar.gz --markdown 20240402/t/ticketsdk/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2024-04-02 05:18:43] INFO root fetch - processPackages [p-cmd-runr]: executing diffoscope
+[2024-04-02 05:18:43] INFO root fetch - processPackages [p-cmd-runr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p_cmd_runr-0.1.4.tar.gz tmp/p_cmd_runr-0.1.5.tar.gz --markdown 20240402/p/p-cmd-runr/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ebtorch]: executing diffoscope
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ebtorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebtorch-0.9.8.tar.gz tmp/ebtorch-0.9.9.tar.gz --markdown 20240402/e/ebtorch/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 05:18:43] INFO root fetch - processPackages [shipyard-slack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_slack-0.1.3a0.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - processPackages [shipyard-slack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_slack-0.1.4a0.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [shipyard-slack]: success
+[2024-04-02 05:18:43] INFO root fetch - processPackages [EasyOutput]: Remove: archive file [/home/abi/fetcher/tmp/EasyOutput-0.0.4.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - processPackages [EasyOutput]: Remove: archive file [/home/abi/fetcher/tmp/EasyOutput-0.0.5.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [EasyOutput]: success
+[2024-04-02 05:18:43] INFO root fetch - processPackages [feilian]: Remove: archive file [/home/abi/fetcher/tmp/feilian-1.1.8.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - processPackages [feilian]: Remove: archive file [/home/abi/fetcher/tmp/feilian-1.1.9.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [feilian]: success
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.1.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ticketsdk]: Remove: archive file [/home/abi/fetcher/tmp/ticketsdk-2.2.2.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [ticketsdk]: success
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.8.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - processPackages [ebtorch]: Remove: archive file [/home/abi/fetcher/tmp/ebtorch-0.9.9.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [ebtorch]: success
+[2024-04-02 05:18:43] INFO root fetch - processPackages [p-cmd-runr]: Remove: archive file [/home/abi/fetcher/tmp/p_cmd_runr-0.1.4.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - processPackages [p-cmd-runr]: Remove: archive file [/home/abi/fetcher/tmp/p_cmd_runr-0.1.5.tar.gz]
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: End processing [p-cmd-runr]: success
+[2024-04-02 05:18:43] INFO root fetch - main [MainThread]: Store serial: [22580266]
