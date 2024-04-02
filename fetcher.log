@@ -21651,3 +21651,74 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:01:19] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
 [2024-04-02 15:01:19] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
 [2024-04-02 15:01:19] INFO root fetch - main [MainThread]: Store serial: [22585164]
+[2024-04-02 15:03:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585164]
+[2024-04-02 15:03:28] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reapit-cdk.userpool-domain
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pandas-plots
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: reapit-cdk.reapit-product
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pinecone_haystack
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thors-project-123
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jina
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: toolsos
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: moia-dev.bastion-host-forward
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl-core-xe-esimd
+[2024-04-02 15:03:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tdstone2
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pandas-plots]: New version: [0.9.7] Old Version: [0.9.6]
+[2024-04-02 15:03:29] WARNING root fetch - processPackages [thors-project-123]: Skipping, unable to determine old version
+[2024-04-02 15:03:29] INFO root fetch - main [MainThread]: End processing [thors-project-123] error
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pandas-plots]: Downloading https://files.pythonhosted.org/packages/3b/65/d9430856919d7244c7f896a3001b34d464c9fc499b7363b89a4e881ac8ab/pandas-plots-0.9.6.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: New version: [2.1.1] Old Version: [2.1.0]
+[2024-04-02 15:03:29] INFO root fetch - processPackages [toolsos]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pinecone_haystack]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-02 15:03:29] WARNING root fetch - processPackages [reapit-cdk.reapit-product]: Skipping, unable to determine old version
+[2024-04-02 15:03:29] INFO root fetch - main [MainThread]: End processing [reapit-cdk.reapit-product] error
+[2024-04-02 15:03:29] INFO root fetch - processPackages [tdstone2]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2024-04-02 15:03:29] WARNING root fetch - processPackages [reapit-cdk.userpool-domain]: Skipping, unable to determine old version
+[2024-04-02 15:03:29] INFO root fetch - main [MainThread]: End processing [reapit-cdk.userpool-domain] error
+[2024-04-02 15:03:29] INFO root fetch - processPackages [bigdl-core-xe-esimd]: New version: [2.5.0b20240402] Old Version: [2.5.0b20240401]
+[2024-04-02 15:03:29] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: Downloading https://files.pythonhosted.org/packages/2a/9c/e7106a1cd63ba203c3e694de71d93d59c9845bff489f2f05ea2d8e2a209d/moia-dev.bastion-host-forward-2.1.0.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pinecone_haystack]: Downloading https://files.pythonhosted.org/packages/6e/f3/16e81412ab2915e8d5b5078af352aeda1f6b924abfa4471c2a7b2dfd351f/pinecone_haystack-0.4.0.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pandas-plots]: Downloading https://files.pythonhosted.org/packages/ce/3d/26bf736d797fb2169fe6393aafd5fd24eb19c45677bcaa1f1abf1793d2c8/pandas-plots-0.9.7.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [tdstone2]: Downloading https://files.pythonhosted.org/packages/c3/24/549e96cf0e2031dfdc24def35a2c93de62851b474a8dd5eb208aeeed5c7e/tdstone2-0.1.2.8-py3-none-any.whl
+[2024-04-02 15:03:29] INFO root fetch - processPackages [toolsos]: Downloading https://files.pythonhosted.org/packages/28/83/fecbca4fb205220aca48ade2ff52aea18b506a91de4bbf2dd36919c33289/toolsos-0.2.2.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [bigdl-core-xe-esimd]: Downloading https://files.pythonhosted.org/packages/f4/67/be1422bbc3db4dd9f7661feb212357bbc96f3baf91e28f95afc77707a646/bigdl_core_xe_esimd-2.5.0b20240401-cp39-cp39-manylinux2010_x86_64.whl
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pandas-plots]: executing diffoscope
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pandas-plots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandas-plots-0.9.6.tar.gz tmp/pandas-plots-0.9.7.tar.gz --markdown 20240402/p/pandas-plots/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2024-04-02 15:03:29] WARNING root fetch - processPackages [bigdl-core-xe-esimd]: Skipping package: exceeds size limit 61865777>=10485760
+[2024-04-02 15:03:29] INFO root fetch - main [MainThread]: End processing [bigdl-core-xe-esimd] error
+[2024-04-02 15:03:29] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: Downloading https://files.pythonhosted.org/packages/a2/bb/ab4aab56be0899c70ff409d42d69c7c9f79b70fa777bfac1f59da0d673cf/moia-dev.bastion-host-forward-2.1.1.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pinecone_haystack]: Downloading https://files.pythonhosted.org/packages/5c/70/b119b5e7516f7956d3152d1332f4bbcd398e7714f7635efbbb5741302aca/pinecone_haystack-0.4.1.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [toolsos]: Downloading https://files.pythonhosted.org/packages/00/29/e319117484a640bcfdef9d27dada90921e8576e0f5d83e3e5d42e1e593ca/toolsos-0.2.3.tar.gz
+[2024-04-02 15:03:29] INFO root fetch - processPackages [jina]: New version: [3.9.3.dev9] Old Version: [3.9.3.dev8]
+[2024-04-02 15:03:29] INFO root fetch - processPackages [tdstone2]: Downloading https://files.pythonhosted.org/packages/e0/05/60584fa58304ff5bc2944828ec5ec415339acea0541f6189b602171a209c/tdstone2-0.1.2.9-py3-none-any.whl
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pinecone_haystack]: executing diffoscope
+[2024-04-02 15:03:29] INFO root fetch - processPackages [pinecone_haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone_haystack-0.4.0.tar.gz tmp/pinecone_haystack-0.4.1.tar.gz --markdown 20240402/p/pinecone_haystack/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-02 15:03:29] INFO root fetch - processPackages [toolsos]: executing diffoscope
+[2024-04-02 15:03:29] INFO root fetch - processPackages [toolsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolsos-0.2.2.tar.gz tmp/toolsos-0.2.3.tar.gz --markdown 20240402/t/toolsos/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-02 15:03:30] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: executing diffoscope
+[2024-04-02 15:03:30] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moia-dev.bastion-host-forward-2.1.0.tar.gz tmp/moia-dev.bastion-host-forward-2.1.1.tar.gz --markdown 20240402/m/moia-dev.bastion-host-forward/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2024-04-02 15:03:30] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/f0/3b/7e6b8b6de74c936b09ce9a4d7440511734efe64633b3418e61b667257994/jina-3.9.3.dev8.tar.gz
+[2024-04-02 15:03:30] INFO root fetch - processPackages [pandas-plots]: Remove: archive file [/home/abi/fetcher/tmp/pandas-plots-0.9.6.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - processPackages [pandas-plots]: Remove: archive file [/home/abi/fetcher/tmp/pandas-plots-0.9.7.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - main [MainThread]: End processing [pandas-plots]: success
+[2024-04-02 15:03:30] INFO root fetch - processPackages [jina]: Downloading https://files.pythonhosted.org/packages/89/60/0658aa50da9055ade2f42bd6cecdfa0abdf69ce7f7bd063c628105106538/jina-3.9.3.dev9.tar.gz
+[2024-04-02 15:03:30] INFO root fetch - processPackages [pinecone_haystack]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_haystack-0.4.0.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - processPackages [pinecone_haystack]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_haystack-0.4.1.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - main [MainThread]: End processing [pinecone_haystack]: success
+[2024-04-02 15:03:30] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: Remove: archive file [/home/abi/fetcher/tmp/moia-dev.bastion-host-forward-2.1.0.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - processPackages [moia-dev.bastion-host-forward]: Remove: archive file [/home/abi/fetcher/tmp/moia-dev.bastion-host-forward-2.1.1.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - main [MainThread]: End processing [moia-dev.bastion-host-forward]: success
+[2024-04-02 15:03:30] INFO root fetch - processPackages [toolsos]: Remove: archive file [/home/abi/fetcher/tmp/toolsos-0.2.2.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - processPackages [toolsos]: Remove: archive file [/home/abi/fetcher/tmp/toolsos-0.2.3.tar.gz]
+[2024-04-02 15:03:30] INFO root fetch - main [MainThread]: End processing [toolsos]: success
+[2024-04-02 15:03:30] INFO root fetch - processPackages [jina]: executing diffoscope
+[2024-04-02 15:03:30] INFO root fetch - processPackages [jina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jina-3.9.3.dev8.tar.gz tmp/jina-3.9.3.dev9.tar.gz --markdown 20240402/j/jina/3.9.3.dev8-3.9.3.dev9/diff.md --exclude *.pyd
+[2024-04-02 15:03:31] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev8.tar.gz]
+[2024-04-02 15:03:31] INFO root fetch - processPackages [jina]: Remove: archive file [/home/abi/fetcher/tmp/jina-3.9.3.dev9.tar.gz]
+[2024-04-02 15:03:31] INFO root fetch - main [MainThread]: End processing [jina]: success
+[2024-04-02 15:03:34] INFO root fetch - processPackages [tdstone2]: executing diffoscope
+[2024-04-02 15:03:34] INFO root fetch - processPackages [tdstone2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdstone2-0.1.2.8-py3-none-any.whl.zip tmp/tdstone2-0.1.2.9-py3-none-any.whl.zip --markdown 20240402/t/tdstone2/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2024-04-02 15:03:34] INFO root fetch - processPackages [tdstone2]: Remove: archive file [/home/abi/fetcher/tmp/tdstone2-0.1.2.8-py3-none-any.whl.zip]
+[2024-04-02 15:03:34] INFO root fetch - processPackages [tdstone2]: Remove: archive file [/home/abi/fetcher/tmp/tdstone2-0.1.2.9-py3-none-any.whl.zip]
+[2024-04-02 15:03:34] INFO root fetch - main [MainThread]: End processing [tdstone2]: success
+[2024-04-02 15:03:34] INFO root fetch - main [MainThread]: Store serial: [22585200]
