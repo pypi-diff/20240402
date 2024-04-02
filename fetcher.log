@@ -11043,3 +11043,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:25:08] INFO root fetch - processPackages [sccastle]: Remove: archive file [/home/abi/fetcher/tmp/sccastle-1.0.2.tar.gz]
 [2024-04-02 07:25:08] INFO root fetch - main [MainThread]: End processing [sccastle]: success
 [2024-04-02 07:25:08] INFO root fetch - main [MainThread]: Store serial: [22580902]
+[2024-04-02 07:27:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580902]
+[2024-04-02 07:27:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian-iterables
+[2024-04-02 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fleece-network
+[2024-04-02 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: automl-tools
+[2024-04-02 07:27:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dektools
+[2024-04-02 07:27:17] INFO root fetch - processPackages [automl-tools]: New version: [0.2.0] Old Version: [0.1.6]
+[2024-04-02 07:27:17] INFO root fetch - processPackages [fleece-network]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-02 07:27:17] WARNING root fetch - processPackages [haskellian-iterables]: Skipping, unable to determine old version
+[2024-04-02 07:27:17] INFO root fetch - main [MainThread]: End processing [haskellian-iterables] error
+[2024-04-02 07:27:17] INFO root fetch - processPackages [dektools]: New version: [0.1.9] Old Version: [0.1.68]
+[2024-04-02 07:27:17] INFO root fetch - processPackages [automl-tools]: Downloading https://files.pythonhosted.org/packages/d0/29/014605ccc96c3c177663f3624cb1d047d5186c2d0871c3d6f6246fb2962b/automl_tools-0.1.6.tar.gz
+[2024-04-02 07:27:17] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/56/75/f53c01f8d3de1f595a0c2534e515bb69f7ae2ccb6523f8813be37715d91b/dektools-0.1.68.tar.gz
+[2024-04-02 07:27:17] INFO root fetch - processPackages [fleece-network]: Downloading https://files.pythonhosted.org/packages/77/4f/8eea0440a44537f091077db74210529944a43b6086a1604e4fcc62f1ef3c/fleece_network-0.0.1-py3-none-any.whl
+[2024-04-02 07:27:17] INFO root fetch - processPackages [automl-tools]: Downloading https://files.pythonhosted.org/packages/1c/60/688c7bc182a9e9fb326f7940942405760c1dc0ea34b229f382ca9cc1ae89/automl_tools-0.2.0.tar.gz
+[2024-04-02 07:27:17] INFO root fetch - processPackages [fleece-network]: Downloading https://files.pythonhosted.org/packages/3f/91/ea77178d74d837b6838ab7ce2e7ebc64f350ff503338dc8792bd5b938ff8/fleece_network-0.1.0.tar.gz
+[2024-04-02 07:27:17] INFO root fetch - processPackages [dektools]: Downloading https://files.pythonhosted.org/packages/68/56/90836602efe1f93ffb0ab3da68807fa41e85e124836bcc0c3cc2d1b2c539/dektools-0.1.9-py3-none-any.whl
+[2024-04-02 07:27:17] INFO root fetch - processPackages [automl-tools]: executing diffoscope
+[2024-04-02 07:27:17] INFO root fetch - processPackages [automl-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/automl_tools-0.1.6.tar.gz tmp/automl_tools-0.2.0.tar.gz --markdown 20240402/a/automl-tools/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 07:27:17] INFO root fetch - processPackages [fleece-network]: executing diffoscope
+[2024-04-02 07:27:17] INFO root fetch - processPackages [fleece-network]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fleece_network-0.0.1-py3-none-any.whl.zip tmp/fleece_network-0.1.0.tar.gz --markdown 20240402/f/fleece-network/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 07:27:17] INFO root fetch - processPackages [dektools]: executing diffoscope
+[2024-04-02 07:27:17] INFO root fetch - processPackages [dektools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dektools-0.1.68.tar.gz tmp/dektools-0.1.9-py3-none-any.whl.zip --markdown 20240402/d/dektools/0.1.68-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 07:27:18] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.68.tar.gz]
+[2024-04-02 07:27:18] INFO root fetch - processPackages [dektools]: Remove: archive file [/home/abi/fetcher/tmp/dektools-0.1.9-py3-none-any.whl.zip]
+[2024-04-02 07:27:18] INFO root fetch - main [MainThread]: End processing [dektools]: success
+[2024-04-02 07:27:18] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.1.6.tar.gz]
+[2024-04-02 07:27:18] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.2.0.tar.gz]
+[2024-04-02 07:27:18] INFO root fetch - main [MainThread]: End processing [automl-tools]: success
+[2024-04-02 07:27:18] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.0.1-py3-none-any.whl.zip]
+[2024-04-02 07:27:18] INFO root fetch - processPackages [fleece-network]: Remove: archive file [/home/abi/fetcher/tmp/fleece_network-0.1.0.tar.gz]
+[2024-04-02 07:27:18] INFO root fetch - main [MainThread]: End processing [fleece-network]: success
+[2024-04-02 07:27:18] INFO root fetch - main [MainThread]: Store serial: [22580917]
