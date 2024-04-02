@@ -20381,3 +20381,87 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:25:05] INFO root fetch - processPackages [shiboken6]: Remove: archive file [/home/abi/fetcher/tmp/shiboken6-6.6.3.1-cp38-abi3-win_amd64.whl.zip]
 [2024-04-02 14:25:05] INFO root fetch - main [MainThread]: End processing [shiboken6]: success
 [2024-04-02 14:25:05] INFO root fetch - main [MainThread]: Store serial: [22584678]
+[2024-04-02 14:27:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584678]
+[2024-04-02 14:27:15] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GeodeApp-Viewer
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySide6-Examples
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rportion
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: modal
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: modal-client
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nucliadb-admin-assets
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdo-sdk-python
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: python-linkplay
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: shiboken6-generator
+[2024-04-02 14:27:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: numerous
+[2024-04-02 14:27:16] INFO root fetch - processPackages [nucliadb-admin-assets]: New version: [1.0.0.post1451] Old Version: [1.0.0.post1450]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal-client]: New version: [0.62.9] Old Version: [0.62.8]
+[2024-04-02 14:27:16] WARNING root fetch - processPackages [GeodeApp-Viewer]: Skipping, unable to determine old version
+[2024-04-02 14:27:16] INFO root fetch - processPackages [GeodeApp-Viewer]: Start processing: apscale
+[2024-04-02 14:27:16] INFO root fetch - main [MainThread]: End processing [GeodeApp-Viewer] error
+[2024-04-02 14:27:16] INFO root fetch - processPackages [PySide6-Examples]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [python-linkplay]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [rportion]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [shiboken6-generator]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [numerous]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [cdo-sdk-python]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [apscale]: New version: [1.7.0] Old Version: [1.6.3]
+[2024-04-02 14:27:16] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/3d/7b/1202daf2cf02a497405e835788d0bbb86bbac0254cf6ca5128c8e353d942/nucliadb_admin_assets-1.0.0.post1450-py3-none-any.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/8a/dd/32da92c8c574400929f770cfc5c78136ebc7b566de71c8e84a423d0ee9cc/modal-0.62.8-py3-none-any.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/d0/c2/c05a679647fc54f88ed4f2453aec5ec1ea866c5ddaf1d85b52981f84c662/modal_client-0.62.8-py3-none-any.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [apscale]: Downloading https://files.pythonhosted.org/packages/fa/fc/7a7fcf93ef8c6f3505d76d4b7c33cd4a08907495e82a0d8ff8079f6cc775/apscale-1.6.3.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [PySide6-Examples]: Downloading https://files.pythonhosted.org/packages/c6/21/1fccc99eb1a48d15ee762dea9872623bc066f6a1b2910786970afc757439/PySide6_Examples-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [rportion]: Downloading https://files.pythonhosted.org/packages/55/89/9d93b166d5c9a9857e5919a74982b6f3d7aff30f4f577f8996b156e5e344/rportion-0.1.0.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [python-linkplay]: Downloading https://files.pythonhosted.org/packages/68/f3/c23c682328b09d5fd0b2094952083b2737b3608a1f9f7e2cec2b4a02e124/python_linkplay-0.0.4.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [numerous]: Downloading https://files.pythonhosted.org/packages/77/6b/96d48ee9e315541e9d856fc6a93ffd7c7a217dc9f817f2da1ff2f37c5d0f/numerous-0.0.8.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [shiboken6-generator]: Downloading https://files.pythonhosted.org/packages/c6/ba/a7da16a2c13b2dd301df144f370c52b3ac1cd9dc3e528b24c78861a7cf14/shiboken6_generator-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/e8/fb/ff7631f328a89b3d0561d9360ac0e2361c6776d84038fff314aa71686ab4/cdo-sdk-python-1.0.8.tar.gz
+[2024-04-02 14:27:16] WARNING root fetch - processPackages [PySide6-Examples]: Skipping package: exceeds size limit 11571227>=10485760
+[2024-04-02 14:27:16] INFO root fetch - main [MainThread]: End processing [PySide6-Examples] error
+[2024-04-02 14:27:16] WARNING root fetch - processPackages [shiboken6-generator]: Skipping package: exceeds size limit 22763503>=10485760
+[2024-04-02 14:27:16] INFO root fetch - main [MainThread]: End processing [shiboken6-generator] error
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal-client]: Downloading https://files.pythonhosted.org/packages/08/2d/ba9d3e39c32f579d689b9f619a197109b7086b3f8e0764e5eed9501a303e/modal_client-0.62.9-py3-none-any.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [nucliadb-admin-assets]: Downloading https://files.pythonhosted.org/packages/78/30/c8aa55f3740a10194cea54a7943732f1ba72b33f8746d97a07270902dae1/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal]: Downloading https://files.pythonhosted.org/packages/c0/f7/8dd227328bcea0baf27836ce9f00c26e7e27195101883dc782c55387e12f/modal-0.62.9-py3-none-any.whl
+[2024-04-02 14:27:16] INFO root fetch - processPackages [apscale]: Downloading https://files.pythonhosted.org/packages/99/d1/23861004f41f1688e05a77c8cb703888c0d036dfd5cef32d5b4b5a0ac803/apscale-1.7.0.tar.gz
+[2024-04-02 14:27:16] WARNING root fetch - processPackages [numerous]: Skipping package: exceeds size limit 34528401>=10485760
+[2024-04-02 14:27:16] INFO root fetch - main [MainThread]: End processing [numerous] error
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal-client]: executing diffoscope
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal_client-0.62.8-py3-none-any.whl.zip tmp/modal_client-0.62.9-py3-none-any.whl.zip --markdown 20240402/m/modal-client/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-02 14:27:16] INFO root fetch - processPackages [apscale]: executing diffoscope
+[2024-04-02 14:27:16] INFO root fetch - processPackages [apscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apscale-1.6.3.tar.gz tmp/apscale-1.7.0.tar.gz --markdown 20240402/a/apscale/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal]: executing diffoscope
+[2024-04-02 14:27:16] INFO root fetch - processPackages [modal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modal-0.62.8-py3-none-any.whl.zip tmp/modal-0.62.9-py3-none-any.whl.zip --markdown 20240402/m/modal/0.62.8-0.62.9/diff.md --exclude *.pyd
+[2024-04-02 14:27:16] INFO root fetch - processPackages [rportion]: Downloading https://files.pythonhosted.org/packages/81/3c/ab8c1ad3c2f4615800a4afe27715350c912da36c92d69dddabbee916cd06/rportion-0.2.0.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [python-linkplay]: Downloading https://files.pythonhosted.org/packages/83/e7/ae5901047f2a84e056291d5340b7b14272b867fe3e5f89b7e86407fac893/python_linkplay-0.0.5.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [nucliadb-admin-assets]: executing diffoscope
+[2024-04-02 14:27:16] INFO root fetch - processPackages [nucliadb-admin-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_admin_assets-1.0.0.post1450-py3-none-any.whl.zip tmp/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl.zip --markdown 20240402/n/nucliadb-admin-assets/1.0.0.post1450-1.0.0.post1451/diff.md --exclude *.pyd
+[2024-04-02 14:27:16] INFO root fetch - processPackages [cdo-sdk-python]: Downloading https://files.pythonhosted.org/packages/d1/4b/41dfe0ac58b980065766117bd4e1f6e5ff276f5ca45cfbcdaba7cc25a375/cdo-sdk-python-1.0.9.tar.gz
+[2024-04-02 14:27:16] INFO root fetch - processPackages [python-linkplay]: executing diffoscope
+[2024-04-02 14:27:16] INFO root fetch - processPackages [python-linkplay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_linkplay-0.0.4.tar.gz tmp/python_linkplay-0.0.5.tar.gz --markdown 20240402/p/python-linkplay/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 14:27:16] INFO root fetch - processPackages [rportion]: executing diffoscope
+[2024-04-02 14:27:16] INFO root fetch - processPackages [rportion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rportion-0.1.0.tar.gz tmp/rportion-0.2.0.tar.gz --markdown 20240402/r/rportion/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 14:27:17] INFO root fetch - processPackages [cdo-sdk-python]: executing diffoscope
+[2024-04-02 14:27:17] INFO root fetch - processPackages [cdo-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdo-sdk-python-1.0.8.tar.gz tmp/cdo-sdk-python-1.0.9.tar.gz --markdown 20240402/c/cdo-sdk-python/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:27:17] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.8-py3-none-any.whl.zip]
+[2024-04-02 14:27:17] INFO root fetch - processPackages [modal-client]: Remove: archive file [/home/abi/fetcher/tmp/modal_client-0.62.9-py3-none-any.whl.zip]
+[2024-04-02 14:27:17] INFO root fetch - main [MainThread]: End processing [modal-client]: success
+[2024-04-02 14:27:17] INFO root fetch - processPackages [apscale]: Remove: archive file [/home/abi/fetcher/tmp/apscale-1.6.3.tar.gz]
+[2024-04-02 14:27:17] INFO root fetch - processPackages [apscale]: Remove: archive file [/home/abi/fetcher/tmp/apscale-1.7.0.tar.gz]
+[2024-04-02 14:27:17] INFO root fetch - main [MainThread]: End processing [apscale]: success
+[2024-04-02 14:27:17] INFO root fetch - processPackages [python-linkplay]: Remove: archive file [/home/abi/fetcher/tmp/python_linkplay-0.0.4.tar.gz]
+[2024-04-02 14:27:17] INFO root fetch - processPackages [python-linkplay]: Remove: archive file [/home/abi/fetcher/tmp/python_linkplay-0.0.5.tar.gz]
+[2024-04-02 14:27:17] INFO root fetch - main [MainThread]: End processing [python-linkplay]: success
+[2024-04-02 14:27:17] INFO root fetch - processPackages [rportion]: Remove: archive file [/home/abi/fetcher/tmp/rportion-0.1.0.tar.gz]
+[2024-04-02 14:27:17] INFO root fetch - processPackages [rportion]: Remove: archive file [/home/abi/fetcher/tmp/rportion-0.2.0.tar.gz]
+[2024-04-02 14:27:17] INFO root fetch - main [MainThread]: End processing [rportion]: success
+[2024-04-02 14:27:18] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.8-py3-none-any.whl.zip]
+[2024-04-02 14:27:18] INFO root fetch - processPackages [modal]: Remove: archive file [/home/abi/fetcher/tmp/modal-0.62.9-py3-none-any.whl.zip]
+[2024-04-02 14:27:18] INFO root fetch - main [MainThread]: End processing [modal]: success
+[2024-04-02 14:27:18] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.8.tar.gz]
+[2024-04-02 14:27:18] INFO root fetch - processPackages [cdo-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/cdo-sdk-python-1.0.9.tar.gz]
+[2024-04-02 14:27:18] INFO root fetch - main [MainThread]: End processing [cdo-sdk-python]: success
+[2024-04-02 14:27:31] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1450-py3-none-any.whl.zip]
+[2024-04-02 14:27:31] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl.zip]
+[2024-04-02 14:27:31] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
+[2024-04-02 14:27:31] INFO root fetch - main [MainThread]: Store serial: [22584716]
