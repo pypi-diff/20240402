@@ -2101,3 +2101,33 @@
 [2024-04-02 02:06:38] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240402.tar.gz]
 [2024-04-02 02:06:38] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
 [2024-04-02 02:06:38] INFO root fetch - main [MainThread]: Store serial: [22577427]
+[2024-04-02 02:08:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577427]
+[2024-04-02 02:08:46] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: onnxscript
+[2024-04-02 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaxutils-nightly
+[2024-04-02 02:08:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bride-of-frankensystem
+[2024-04-02 02:08:46] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240402] Old Version: [0.1.0.dev20240401]
+[2024-04-02 02:08:46] INFO root fetch - processPackages [bride-of-frankensystem]: New version: [1.9.3.1] Old Version: [1.9.3.0]
+[2024-04-02 02:08:46] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b9/af/711940d308381f1f23b10c5f19289a7046f267474875b36c350ba475c2f2/onnxscript-0.1.0.dev20240401.tar.gz
+[2024-04-02 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20240402] Old Version: [0.0.8.dev20240401]
+[2024-04-02 02:08:46] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/bf/13/69600f39344b2188cabb9c3ef6384f361df68bb1fd649bc3cdba1088d43e/bride-of-frankensystem-1.9.3.0.tar.gz
+[2024-04-02 02:08:46] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/21/c3/48195bb102c828148aef4ed4926f8508f2c6543a5eede2c721f7efaa520c/jaxutils-nightly-0.0.8.dev20240401.tar.gz
+[2024-04-02 02:08:46] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/ce/35/03a54df46f10543ebf9c0d559f2f019ca96a90311f2bafefb7fd7af54f85/onnxscript-0.1.0.dev20240402.tar.gz
+[2024-04-02 02:08:47] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-02 02:08:47] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240401.tar.gz tmp/onnxscript-0.1.0.dev20240402.tar.gz --markdown 20240402/o/onnxscript/0.1.0.dev20240401-0.1.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/93/4a/0b7ff8564f605f7dd532ddc7c47baef59c97069cd6edb75502e7533cd4de/jaxutils-nightly-0.0.8.dev20240402.tar.gz
+[2024-04-02 02:08:47] INFO root fetch - processPackages [bride-of-frankensystem]: Downloading https://files.pythonhosted.org/packages/8a/a2/b333184a6e8f719936c4f86ae5cb8e582c0cc9f3bf4e721751aef76ce796/bride-of-frankensystem-1.9.3.1.tar.gz
+[2024-04-02 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2024-04-02 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20240401.tar.gz tmp/jaxutils-nightly-0.0.8.dev20240402.tar.gz --markdown 20240402/j/jaxutils-nightly/0.0.8.dev20240401-0.0.8.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 02:08:47] INFO root fetch - processPackages [bride-of-frankensystem]: executing diffoscope
+[2024-04-02 02:08:47] INFO root fetch - processPackages [bride-of-frankensystem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bride-of-frankensystem-1.9.3.0.tar.gz tmp/bride-of-frankensystem-1.9.3.1.tar.gz --markdown 20240402/b/bride-of-frankensystem/1.9.3.0-1.9.3.1/diff.md --exclude *.pyd
+[2024-04-02 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240401.tar.gz]
+[2024-04-02 02:08:47] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20240402.tar.gz]
+[2024-04-02 02:08:47] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2024-04-02 02:08:48] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240401.tar.gz]
+[2024-04-02 02:08:48] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240402.tar.gz]
+[2024-04-02 02:08:48] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-02 02:08:50] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.0.tar.gz]
+[2024-04-02 02:08:50] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.1.tar.gz]
+[2024-04-02 02:08:50] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
+[2024-04-02 02:08:50] INFO root fetch - main [MainThread]: Store serial: [22577436]
