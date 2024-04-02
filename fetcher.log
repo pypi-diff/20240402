@@ -18726,3 +18726,96 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:23:30] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
 [2024-04-02 13:23:30] INFO root fetch - main [MainThread]: End processing [irispie]: success
 [2024-04-02 13:23:30] INFO root fetch - main [MainThread]: Store serial: [22584011]
+[2024-04-02 13:25:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584011]
+[2024-04-02 13:25:39] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pwpush
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: notdiamond
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: primestg
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pytorch-sidu
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchrl-nightly
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: loggerjava
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: holboxai
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: valmi-connector-lib
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: amaranth-yosys
+[2024-04-02 13:25:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytoolbox
+[2024-04-02 13:25:39] INFO root fetch - processPackages [pytorch-sidu]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.99] Old Version: [0.1.98]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [notdiamond]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [amaranth-yosys]: New version: [0.9.post3746.dev41] Old Version: [0.39.0.149.post89]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [holboxai]: New version: [0.4] Old Version: [0.3]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [primestg]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [pwpush]: New version: [0.9.3] Old Version: [0.9.1]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [loggerjava]: New version: [0.0.7.4] Old Version: [0.0.7.1]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [pytoolbox]: New version: [14.8.1] Old Version: [14.8.0]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [torchrl-nightly]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-02 13:25:39] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/28/56/fcacd6f457d566da2370f76c2aeaaf235eb17f82b8fd853c878bc7a53f10/pytorch-sidu-1.0.7.tar.gz
+[2024-04-02 13:25:39] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/68/54/062a20f75076aa53427ddf933f64d2177adabaa9c1f4507ee0d9d30b8b03/valmi_connector_lib-0.1.98.tar.gz
+[2024-04-02 13:25:39] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/1f/4a/9d588d925081c00ede00331b456f7b85c565b06f85f73ae8bf64c68f4631/notdiamond-0.1.0a8.tar.gz
+[2024-04-02 13:25:39] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/14/f8/273a2fa104de98a89593f82b30e96bccab5309d97c877fac9cf1da21a4c5/amaranth_yosys-0.39.0.149.post89-py3-none-any.whl
+[2024-04-02 13:25:40] INFO root fetch - processPackages [holboxai]: Downloading https://files.pythonhosted.org/packages/b4/9b/9e7e6a9b521e43209fab1f6585d0d765608279cd9c83c59f7c025a1fa518/holboxai-0.3.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [loggerjava]: Downloading https://files.pythonhosted.org/packages/b2/02/a37b81e7fb88b43571597cdebd7efe62a18284ae71036b874f1e5df0a858/loggerjava-0.0.7.1.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pwpush]: Downloading https://files.pythonhosted.org/packages/85/fd/0d3582bcdec9917c95112501f5db2c029fbae70334784dcc87ce656a86c2/pwpush-0.9.1.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytoolbox]: Downloading https://files.pythonhosted.org/packages/26/1e/01068a782752175b678af44c1f129eee15191fc2abc5995b9ec49e33e75d/pytoolbox-14.8.0.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/41/3a/0e76598abfd629bbcb975e08bc19d1934dc67b4d6a09bd3663358084e8d8/torchrl_nightly-2024.4.1-cp39-cp39-win_amd64.whl
+[2024-04-02 13:25:40] INFO root fetch - processPackages [primestg]: Downloading https://files.pythonhosted.org/packages/f5/06/6b4f53d32ba3629a273be0af7836c915bdb0912d3c097dc7cd3a20cdc3dd/primestg-1.8.0.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/2f/47/8fb8bac8016bd8f46ec3d29fa7fc0e2cdc40845d8dce82ba52e668672ab8/valmi_connector_lib-0.1.99.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytorch-sidu]: Downloading https://files.pythonhosted.org/packages/31/16/e960ae1155e6e7ad719fd258e5beac6d7125352c0bfd2d8e37248f5ed9d8/pytorch-sidu-1.0.8.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [notdiamond]: Downloading https://files.pythonhosted.org/packages/2c/a2/2a500dcaabf282c4b5f54e799b725799cc3217fe3be20c6f2ec7c6a60dbb/notdiamond-0.1.0a9.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.98.tar.gz tmp/valmi_connector_lib-0.1.99.tar.gz --markdown 20240402/v/valmi-connector-lib/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytorch-sidu]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytorch-sidu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch-sidu-1.0.7.tar.gz tmp/pytorch-sidu-1.0.8.tar.gz --markdown 20240402/p/pytorch-sidu/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [holboxai]: Downloading https://files.pythonhosted.org/packages/6e/86/a04485f57afe93e66cef78d3309ef3132305f740aa853817863b4d5e5177/holboxai-0.4.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pwpush]: Downloading https://files.pythonhosted.org/packages/60/66/343b492303ea47446869b6d00ea2d42468ef96c93ab4abcbdb13bd336e92/pwpush-0.9.3.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [loggerjava]: Downloading https://files.pythonhosted.org/packages/16/14/c3bdad2c7ad4edc793e1f9d702338e36480e450795ba72da7b38bda46f0b/loggerjava-0.0.7.4.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytoolbox]: Downloading https://files.pythonhosted.org/packages/a1/ca/8dbf4d0b26a61578056adc722172706ade7bf8c930ebc1953481b376e192/pytoolbox-14.8.1.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/9f/06/9f5b31bffa43920f36e343664d5472c45f2921778d1214bdb048aa8e7244/torchrl_nightly-2024.4.2-cp39-cp39-macosx_11_0_x86_64.whl
+[2024-04-02 13:25:40] INFO root fetch - processPackages [holboxai]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [holboxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holboxai-0.3.tar.gz tmp/holboxai-0.4.tar.gz --markdown 20240402/h/holboxai/0.3-0.4/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [primestg]: Downloading https://files.pythonhosted.org/packages/e1/c1/3ac2fc975d5839b72d7ba440abaee9c5d478970eecdfdc342dde30086daa/primestg-1.9.0.tar.gz
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pwpush]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pwpush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwpush-0.9.1.tar.gz tmp/pwpush-0.9.3.tar.gz --markdown 20240402/p/pwpush/0.9.1-0.9.3/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [loggerjava]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [loggerjava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loggerjava-0.0.7.1.tar.gz tmp/loggerjava-0.0.7.4.tar.gz --markdown 20240402/l/loggerjava/0.0.7.1-0.0.7.4/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [notdiamond]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [notdiamond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notdiamond-0.1.0a8.tar.gz tmp/notdiamond-0.1.0a9.tar.gz --markdown 20240402/n/notdiamond/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [primestg]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [primestg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/primestg-1.8.0.tar.gz tmp/primestg-1.9.0.tar.gz --markdown 20240402/p/primestg/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytoolbox]: executing diffoscope
+[2024-04-02 13:25:40] INFO root fetch - processPackages [pytoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoolbox-14.8.0.tar.gz tmp/pytoolbox-14.8.1.tar.gz --markdown 20240402/p/pytoolbox/14.8.0-14.8.1/diff.md --exclude *.pyd
+[2024-04-02 13:25:40] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2024-04-02 13:25:41] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2024.4.1-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2024.4.2-cp39-cp39-macosx_11_0_x86_64.whl.zip --markdown 20240402/t/torchrl-nightly/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-02 13:25:41] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.98.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.99.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2024-04-02 13:25:41] INFO root fetch - processPackages [holboxai]: Remove: archive file [/home/abi/fetcher/tmp/holboxai-0.3.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - processPackages [holboxai]: Remove: archive file [/home/abi/fetcher/tmp/holboxai-0.4.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - main [MainThread]: End processing [holboxai]: success
+[2024-04-02 13:25:41] INFO root fetch - processPackages [pwpush]: Remove: archive file [/home/abi/fetcher/tmp/pwpush-0.9.1.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - processPackages [pwpush]: Remove: archive file [/home/abi/fetcher/tmp/pwpush-0.9.3.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - main [MainThread]: End processing [pwpush]: success
+[2024-04-02 13:25:41] INFO root fetch - processPackages [amaranth-yosys]: Downloading https://files.pythonhosted.org/packages/86/9d/ea3cebfd7dfbf3473ee9845b9254e30f5c19a043da87ae83262e20207b1c/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl
+[2024-04-02 13:25:41] INFO root fetch - processPackages [loggerjava]: Remove: archive file [/home/abi/fetcher/tmp/loggerjava-0.0.7.1.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - processPackages [loggerjava]: Remove: archive file [/home/abi/fetcher/tmp/loggerjava-0.0.7.4.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - main [MainThread]: End processing [loggerjava]: success
+[2024-04-02 13:25:41] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.7.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - processPackages [pytorch-sidu]: Remove: archive file [/home/abi/fetcher/tmp/pytorch-sidu-1.0.8.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - main [MainThread]: End processing [pytorch-sidu]: success
+[2024-04-02 13:25:41] INFO root fetch - processPackages [primestg]: Remove: archive file [/home/abi/fetcher/tmp/primestg-1.8.0.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - processPackages [primestg]: Remove: archive file [/home/abi/fetcher/tmp/primestg-1.9.0.tar.gz]
+[2024-04-02 13:25:41] INFO root fetch - main [MainThread]: End processing [primestg]: success
+[2024-04-02 13:25:41] INFO root fetch - processPackages [amaranth-yosys]: executing diffoscope
+[2024-04-02 13:25:41] INFO root fetch - processPackages [amaranth-yosys]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amaranth_yosys-0.39.0.149.post89-py3-none-any.whl.zip tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip --markdown 20240402/a/amaranth-yosys/0.39.0.149.post89-0.9.post3746.dev41/diff.md --exclude *.pyd
+[2024-04-02 13:25:42] INFO root fetch - processPackages [pytoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pytoolbox-14.8.0.tar.gz]
+[2024-04-02 13:25:42] INFO root fetch - processPackages [pytoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pytoolbox-14.8.1.tar.gz]
+[2024-04-02 13:25:42] INFO root fetch - main [MainThread]: End processing [pytoolbox]: success
+[2024-04-02 13:25:42] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.0a8.tar.gz]
+[2024-04-02 13:25:42] INFO root fetch - processPackages [notdiamond]: Remove: archive file [/home/abi/fetcher/tmp/notdiamond-0.1.0a9.tar.gz]
+[2024-04-02 13:25:42] INFO root fetch - main [MainThread]: End processing [notdiamond]: success
+[2024-04-02 13:25:44] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 13:25:44] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2024.4.2-cp39-cp39-macosx_11_0_x86_64.whl.zip]
+[2024-04-02 13:25:44] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2024-04-02 13:26:06] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.39.0.149.post89-py3-none-any.whl.zip]
+[2024-04-02 13:26:06] INFO root fetch - processPackages [amaranth-yosys]: Remove: archive file [/home/abi/fetcher/tmp/amaranth_yosys-0.9.post3746.dev41-py3-none-any.whl.zip]
+[2024-04-02 13:26:06] INFO root fetch - main [MainThread]: End processing [amaranth-yosys]: success
+[2024-04-02 13:26:06] INFO root fetch - main [MainThread]: Store serial: [22584042]
