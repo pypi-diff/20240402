@@ -9209,3 +9209,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:55:44] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 68491059>=10485760
 [2024-04-02 04:55:44] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
 [2024-04-02 04:55:44] INFO root fetch - main [MainThread]: Store serial: [22580155]
+[2024-04-02 04:57:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580155]
+[2024-04-02 04:57:53] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 04:57:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: elasticsearch-ir-evaluator
+[2024-04-02 04:57:53] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-02 04:57:53] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Downloading https://files.pythonhosted.org/packages/1b/93/a2032f55b6e5e2e0c99d96a941d9ab4157bdcd7c20d657135833771f2635/elasticsearch_ir_evaluator-0.4.1.tar.gz
+[2024-04-02 04:57:54] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Downloading https://files.pythonhosted.org/packages/bb/67/d2b4b76489f1370320ba9b9a126b95887f6f8c33fa3d9630381b726dc7cf/elasticsearch_ir_evaluator-0.4.2.tar.gz
+[2024-04-02 04:57:54] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: executing diffoscope
+[2024-04-02 04:57:54] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elasticsearch_ir_evaluator-0.4.1.tar.gz tmp/elasticsearch_ir_evaluator-0.4.2.tar.gz --markdown 20240402/e/elasticsearch-ir-evaluator/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-02 04:57:54] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_ir_evaluator-0.4.1.tar.gz]
+[2024-04-02 04:57:54] INFO root fetch - processPackages [elasticsearch-ir-evaluator]: Remove: archive file [/home/abi/fetcher/tmp/elasticsearch_ir_evaluator-0.4.2.tar.gz]
+[2024-04-02 04:57:54] INFO root fetch - main [MainThread]: End processing [elasticsearch-ir-evaluator]: success
+[2024-04-02 04:57:54] INFO root fetch - main [MainThread]: Store serial: [22580162]
