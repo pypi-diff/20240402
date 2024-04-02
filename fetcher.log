@@ -8266,3 +8266,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:00:59] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.5-py3-none-any.whl.zip]
 [2024-04-02 04:00:59] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
 [2024-04-02 04:00:59] INFO root fetch - main [MainThread]: Store serial: [22579814]
+[2024-04-02 04:03:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579814]
+[2024-04-02 04:03:09] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 04:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepl-translator
+[2024-04-02 04:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: amino.fix.fix
+[2024-04-02 04:03:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mystring
+[2024-04-02 04:03:09] WARNING root fetch - processPackages [deepl-translator]: Skipping, unable to determine old version
+[2024-04-02 04:03:09] INFO root fetch - main [MainThread]: End processing [deepl-translator] error
+[2024-04-02 04:03:09] INFO root fetch - processPackages [mystring]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-02 04:03:09] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/88/05/d0d140db04c0b270b7380359ce66dc3b26477e6b13a36cd8ced2e0442041/mystring-0.2.98-py3-none-any.whl
+[2024-04-02 04:03:09] INFO root fetch - processPackages [amino.fix.fix]: New version: [1.0.6b2] Old Version: [1.0.6b1]
+[2024-04-02 04:03:09] INFO root fetch - processPackages [mystring]: Downloading https://files.pythonhosted.org/packages/fa/f7/968c4dde1769f6b1b7f54bedafe67abf4ae2c5ff261eaed5f05032e85e87/mystring-0.2.99-py3-none-any.whl
+[2024-04-02 04:03:09] INFO root fetch - processPackages [mystring]: executing diffoscope
+[2024-04-02 04:03:09] INFO root fetch - processPackages [mystring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mystring-0.2.98-py3-none-any.whl.zip tmp/mystring-0.2.99-py3-none-any.whl.zip --markdown 20240402/m/mystring/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-02 04:03:10] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/58/cd/ad42fbccc7b5d2d56f33929d58462574f3e81e5ba4f776e67f1b4f55dbb3/amino.fix.fix-1.0.6b1.tar.gz
+[2024-04-02 04:03:10] INFO root fetch - processPackages [amino.fix.fix]: Downloading https://files.pythonhosted.org/packages/f5/88/a9320e4b515b0de47994fc0baab768a72af021ec7204bfc8ceb4da68e619/amino.fix.fix-1.0.6b2.tar.gz
+[2024-04-02 04:03:10] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.98-py3-none-any.whl.zip]
+[2024-04-02 04:03:10] INFO root fetch - processPackages [mystring]: Remove: archive file [/home/abi/fetcher/tmp/mystring-0.2.99-py3-none-any.whl.zip]
+[2024-04-02 04:03:10] INFO root fetch - main [MainThread]: End processing [mystring]: success
+[2024-04-02 04:03:10] INFO root fetch - processPackages [amino.fix.fix]: executing diffoscope
+[2024-04-02 04:03:10] INFO root fetch - processPackages [amino.fix.fix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amino.fix.fix-1.0.6b1.tar.gz tmp/amino.fix.fix-1.0.6b2.tar.gz --markdown 20240402/a/amino.fix.fix/1.0.6b1-1.0.6b2/diff.md --exclude *.pyd
+[2024-04-02 04:03:11] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.6b1.tar.gz]
+[2024-04-02 04:03:11] INFO root fetch - processPackages [amino.fix.fix]: Remove: archive file [/home/abi/fetcher/tmp/amino.fix.fix-1.0.6b2.tar.gz]
+[2024-04-02 04:03:11] INFO root fetch - main [MainThread]: End processing [amino.fix.fix]: success
+[2024-04-02 04:03:11] INFO root fetch - main [MainThread]: Store serial: [22579822]
