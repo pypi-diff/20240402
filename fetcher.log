@@ -14099,3 +14099,77 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:17:26] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.2.tar.gz]
 [2024-04-02 10:17:26] INFO root fetch - main [MainThread]: End processing [politely]: success
 [2024-04-02 10:17:26] INFO root fetch - main [MainThread]: Store serial: [22582061]
+[2024-04-02 10:19:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582061]
+[2024-04-02 10:19:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: seven-cloudapp-frame
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oarepo-dashboard
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eric-ide
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: atomicshop
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: redpic
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: redturtle.prenotazioni
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: minimal-activitypub
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiospb
+[2024-04-02 10:19:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydantic-gbnf-gammar-generator
+[2024-04-02 10:19:35] INFO root fetch - processPackages [eric-ide]: New version: [24.3] Old Version: [24.2.1]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [redturtle.prenotazioni]: New version: [2.6.0] Old Version: [2.5.3]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [minimal-activitypub]: New version: [1.2.0] Old Version: [1.1.0a3]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [aiospb]: New version: [3.0.3] Old Version: [3.0.2]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [redpic]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-04-02 10:19:35] WARNING root fetch - processPackages [pydantic-gbnf-gammar-generator]: Skipping, unable to determine old version
+[2024-04-02 10:19:35] INFO root fetch - main [MainThread]: End processing [pydantic-gbnf-gammar-generator] error
+[2024-04-02 10:19:35] INFO root fetch - processPackages [oarepo-dashboard]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 10:19:35] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/df/a8/02f1afadb477efae922c6766b92df602344992ae2308a77e667ec080af0e/redturtle.prenotazioni-2.5.3.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [aiospb]: Downloading https://files.pythonhosted.org/packages/b0/80/b80c45c657db0ae2afd1dcb605a2f3f078b12b5a40b5e7a76577de570d1a/aiospb-3.0.2.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/0f/82/cb7522937cdd7fe09287fa41270efc524051da3700cfe01ce050f90a476f/redpic-1.0.0.1.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [minimal-activitypub]: Downloading https://files.pythonhosted.org/packages/77/e7/0b4f1a9cd9aa5e8fa04852286c29290681e5264861dba67dd081497d4ffe/minimal_activitypub-1.1.0a3.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [eric-ide]: Downloading https://files.pythonhosted.org/packages/dd/f8/6df3997d69871467a137055c630a460295cbd6c2680fb579991fd27a7968/eric-ide-24.2.1.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/b9/ca/39a9edf0448dce1557b063b8e2277fb9cfb7583e390be7c95ab7d0ea0641/seven_cloudapp_frame-1.1.8.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [oarepo-dashboard]: Downloading https://files.pythonhosted.org/packages/b9/4d/ba820a369bae83aa0455be2afc77781db4008545a33270edf0ac54afcc44/oarepo-dashboard-1.0.1.tar.gz
+[2024-04-02 10:19:36] WARNING root fetch - processPackages [eric-ide]: Skipping package: exceeds size limit 20313559>=10485760
+[2024-04-02 10:19:36] INFO root fetch - main [MainThread]: End processing [eric-ide] error
+[2024-04-02 10:19:36] INFO root fetch - processPackages [aiospb]: Downloading https://files.pythonhosted.org/packages/97/9b/3c1f92ca7f5e9d790038971715796c748d6d1419516d3651ff86063999c5/aiospb-3.0.3.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/c7/66/10575ff380bee010a101dbfa4f9b43c18fb5b8ff3ae4401b50a6d1c42087/redpic-1.0.0.2.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redturtle.prenotazioni]: Downloading https://files.pythonhosted.org/packages/47/7f/37613280056a61721f99b0eee8c2ecfc8eab0e93d99074aed6ad4a5fbe3d/redturtle.prenotazioni-2.6.0.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/3c/36/0c224bc89289ec1de22a5c6a2070b6fe931fc13c906476b1e568044096fc/seven_cloudapp_frame-1.1.9.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [minimal-activitypub]: Downloading https://files.pythonhosted.org/packages/61/e6/7857808e17a8f0f30f6a3a49f9dd0f6526eff118107a7caa14d23421eddf/minimal_activitypub-1.2.0.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [aiospb]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [aiospb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiospb-3.0.2.tar.gz tmp/aiospb-3.0.3.tar.gz --markdown 20240402/a/aiospb/3.0.2-3.0.3/diff.md --exclude *.pyd
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redpic]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redpic-1.0.0.1.tar.gz tmp/redpic-1.0.0.2.tar.gz --markdown 20240402/r/redpic/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2024-04-02 10:19:36] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240402/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-02 10:19:36] INFO root fetch - processPackages [oarepo-dashboard]: Downloading https://files.pythonhosted.org/packages/55/2b/524e3e76824f030d050e549d41b4b37b843b321410ce6affee0615f0182f/oarepo-dashboard-1.0.2.tar.gz
+[2024-04-02 10:19:36] INFO root fetch - processPackages [minimal-activitypub]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [minimal-activitypub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/minimal_activitypub-1.1.0a3.tar.gz tmp/minimal_activitypub-1.2.0.tar.gz --markdown 20240402/m/minimal-activitypub/1.1.0a3-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 10:19:36] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.1.8.tar.gz tmp/seven_cloudapp_frame-1.1.9.tar.gz --markdown 20240402/s/seven-cloudapp-frame/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:19:36] INFO root fetch - processPackages [oarepo-dashboard]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [oarepo-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-dashboard-1.0.1.tar.gz tmp/oarepo-dashboard-1.0.2.tar.gz --markdown 20240402/o/oarepo-dashboard/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redturtle.prenotazioni]: executing diffoscope
+[2024-04-02 10:19:36] INFO root fetch - processPackages [redturtle.prenotazioni]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redturtle.prenotazioni-2.5.3.tar.gz tmp/redturtle.prenotazioni-2.6.0.tar.gz --markdown 20240402/r/redturtle.prenotazioni/2.5.3-2.6.0/diff.md --exclude *.pyd
+[2024-04-02 10:19:37] INFO root fetch - processPackages [aiospb]: Remove: archive file [/home/abi/fetcher/tmp/aiospb-3.0.2.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - processPackages [aiospb]: Remove: archive file [/home/abi/fetcher/tmp/aiospb-3.0.3.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - main [MainThread]: End processing [aiospb]: success
+[2024-04-02 10:19:37] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.1.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.2.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - main [MainThread]: End processing [redpic]: success
+[2024-04-02 10:19:37] INFO root fetch - processPackages [minimal-activitypub]: Remove: archive file [/home/abi/fetcher/tmp/minimal_activitypub-1.1.0a3.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - processPackages [minimal-activitypub]: Remove: archive file [/home/abi/fetcher/tmp/minimal_activitypub-1.2.0.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - main [MainThread]: End processing [minimal-activitypub]: success
+[2024-04-02 10:19:37] INFO root fetch - processPackages [oarepo-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-dashboard-1.0.1.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - processPackages [oarepo-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-dashboard-1.0.2.tar.gz]
+[2024-04-02 10:19:37] INFO root fetch - main [MainThread]: End processing [oarepo-dashboard]: success
+[2024-04-02 10:19:38] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-02 10:19:38] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-02 10:19:38] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-02 10:19:38] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.8.tar.gz]
+[2024-04-02 10:19:38] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.1.9.tar.gz]
+[2024-04-02 10:19:38] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2024-04-02 10:19:38] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.5.3.tar.gz]
+[2024-04-02 10:19:38] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.0.tar.gz]
+[2024-04-02 10:19:38] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
+[2024-04-02 10:19:38] INFO root fetch - main [MainThread]: Store serial: [22582086]
