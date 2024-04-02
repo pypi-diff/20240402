@@ -9087,3 +9087,18 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:44:51] INFO root fetch - processPackages [predicthq]: Remove: archive file [/home/abi/fetcher/tmp/predicthq-3.3.0.tar.gz]
 [2024-04-02 04:44:51] INFO root fetch - main [MainThread]: End processing [predicthq]: success
 [2024-04-02 04:44:51] INFO root fetch - main [MainThread]: Store serial: [22580110]
+[2024-04-02 04:46:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580110]
+[2024-04-02 04:47:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 04:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ahmed
+[2024-04-02 04:47:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: expedantic
+[2024-04-02 04:47:00] INFO root fetch - processPackages [expedantic]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 04:47:00] WARNING root fetch - processPackages [ahmed]: Skipping, unable to determine old version
+[2024-04-02 04:47:00] INFO root fetch - main [MainThread]: End processing [ahmed] error
+[2024-04-02 04:47:01] INFO root fetch - processPackages [expedantic]: Downloading https://files.pythonhosted.org/packages/90/98/35a8c000e3bbd22c95b39e5c4d8c275c9afe1b3a39919cb5727012b175f8/expedantic-0.1.5.tar.gz
+[2024-04-02 04:47:01] INFO root fetch - processPackages [expedantic]: Downloading https://files.pythonhosted.org/packages/d3/5f/b8fbac88855b9caabf88e3b7d969291b94c3605a48c86d389616c1034624/expedantic-0.1.6.tar.gz
+[2024-04-02 04:47:01] INFO root fetch - processPackages [expedantic]: executing diffoscope
+[2024-04-02 04:47:01] INFO root fetch - processPackages [expedantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expedantic-0.1.5.tar.gz tmp/expedantic-0.1.6.tar.gz --markdown 20240402/e/expedantic/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 04:47:02] INFO root fetch - processPackages [expedantic]: Remove: archive file [/home/abi/fetcher/tmp/expedantic-0.1.5.tar.gz]
+[2024-04-02 04:47:02] INFO root fetch - processPackages [expedantic]: Remove: archive file [/home/abi/fetcher/tmp/expedantic-0.1.6.tar.gz]
+[2024-04-02 04:47:02] INFO root fetch - main [MainThread]: End processing [expedantic]: success
+[2024-04-02 04:47:02] INFO root fetch - main [MainThread]: Store serial: [22580118]
