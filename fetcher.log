@@ -23228,3 +23228,84 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:55:15] INFO root fetch - processPackages [projen]: Remove: archive file [/home/abi/fetcher/tmp/projen-0.80.9.tar.gz]
 [2024-04-02 15:55:15] INFO root fetch - main [MainThread]: End processing [projen]: success
 [2024-04-02 15:55:15] INFO root fetch - main [MainThread]: Store serial: [22585855]
+[2024-04-02 15:57:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585855]
+[2024-04-02 15:57:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mozilla-taskgraph
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MotorDeCalidad
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rioxarray
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rab_the_bit
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: GeoHD
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lonboard
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: politely
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: original-sdk
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: lumigo-opentelemetry
+[2024-04-02 15:57:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: CalculyFy
+[2024-04-02 15:57:25] INFO root fetch - processPackages [mozilla-taskgraph]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [politely]: New version: [3.3.3] Old Version: [3.3.2]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [lumigo-opentelemetry]: New version: [1.0.99] Old Version: [1.0.98]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [mozilla-taskgraph]: Downloading https://files.pythonhosted.org/packages/bd/1e/c277b6b4047cab3276925b7af7f4e68f9a298b431547cb47140eddcbb6f9/mozilla-taskgraph-1.3.1.tar.gz
+[2024-04-02 15:57:25] WARNING root fetch - processPackages [GeoHD]: Skipping, unable to determine old version
+[2024-04-02 15:57:25] INFO root fetch - main [MainThread]: End processing [GeoHD] error
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rab_the_bit]: New version: [0.0.93] Old Version: [0.0.92]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [MotorDeCalidad]: New version: [2.2.8] Old Version: [2.2.7]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [lonboard]: New version: [0.8.0b1] Old Version: [0.7.1]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [original-sdk]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rioxarray]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 15:57:25] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/cd/d1/0ce3898ddf7d97036cbd99127e19a98f2bf621e75b8a261e6e0a04bf14f3/politely-3.3.2.tar.gz
+[2024-04-02 15:57:25] WARNING root fetch - processPackages [CalculyFy]: Skipping, unable to determine old version
+[2024-04-02 15:57:25] INFO root fetch - main [MainThread]: End processing [CalculyFy] error
+[2024-04-02 15:57:25] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/d6/f7/4d404aba2c81f5f17ef164935134d0a320abb3883cb0988b13817b6f5ef8/lumigo_opentelemetry-1.0.98-py3-none-any.whl
+[2024-04-02 15:57:25] INFO root fetch - processPackages [mozilla-taskgraph]: Downloading https://files.pythonhosted.org/packages/c2/f7/ae190798fc773ec5f89116cffb104790467cb5feec7bab6555924332cece/mozilla-taskgraph-1.3.2.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rab_the_bit]: Downloading https://files.pythonhosted.org/packages/7c/32/c83a7f0fb063144b0daf1cd5c669537424f1e0c701f0ce100815c411ac6b/rab_the_bit-0.0.92.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/88/b1/5ebd50c1ebd8c0651ebb3bb92d94eaf06071203a662cd0a7323b95aac0dd/MotorDeCalidad-2.2.7.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [lonboard]: Downloading https://files.pythonhosted.org/packages/33/63/954d950f5a328613d06d34de1446539987d2deb563f59907c4b0cb50e5c1/lonboard-0.7.1.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rioxarray]: Downloading https://files.pythonhosted.org/packages/b4/1e/d3fb70d5c66de14ea0b1687f25cf0d7d484ff051a4490973f24fa8a14c27/rioxarray-0.9.0.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [original-sdk]: Downloading https://files.pythonhosted.org/packages/ee/23/11be5c2813b157ed408a322f0bc75780fcf1411db9b04744bbfd92ad5cad/original_sdk-1.2.3.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [mozilla-taskgraph]: executing diffoscope
+[2024-04-02 15:57:25] INFO root fetch - processPackages [mozilla-taskgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mozilla-taskgraph-1.3.1.tar.gz tmp/mozilla-taskgraph-1.3.2.tar.gz --markdown 20240402/m/mozilla-taskgraph/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-02 15:57:25] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/23/e1/7c4f578b7cc7a090d6760233dc48c74fd7ba53926926af95c72bf15f2b2e/politely-3.3.3.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-02 15:57:25] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-3.3.2.tar.gz tmp/politely-3.3.3.tar.gz --markdown 20240402/p/politely/3.3.2-3.3.3/diff.md --exclude *.pyd
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rab_the_bit]: Downloading https://files.pythonhosted.org/packages/a4/96/591d53c1f450994ef7d32c3ff06e5278b4306084b0155016e1f624a91e59/rab_the_bit-0.0.93.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [lumigo-opentelemetry]: Downloading https://files.pythonhosted.org/packages/62/a4/cac64bbe0c42b5677faf416663c0a260ea318fb22187375b03e022dd1879/lumigo_opentelemetry-1.0.99-py3-none-any.whl
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rioxarray]: Downloading https://files.pythonhosted.org/packages/e0/e1/c3c95e9f39485539a9dbcc2272ca98d7558a976b3476699aa6a614c50503/rioxarray-0.9.1.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [MotorDeCalidad]: Downloading https://files.pythonhosted.org/packages/7a/95/ce1d9a25a6cb15a16c7d38cbbc32d8c1d6c7a39945a197cd2dcca5cf4154/MotorDeCalidad-2.2.8.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [lonboard]: Downloading https://files.pythonhosted.org/packages/97/a7/6ed4dfbdc25ac63d99fbd077c5e8c5997ab9d43058a1115ff5525a36ed0d/lonboard-0.8.0b1.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [original-sdk]: Downloading https://files.pythonhosted.org/packages/ca/94/cf6bb8122dbd05d108033d9194d2ca65954d0d8113c049f6642b4235a0f3/original_sdk-1.3.0.tar.gz
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rab_the_bit]: executing diffoscope
+[2024-04-02 15:57:25] INFO root fetch - processPackages [rab_the_bit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rab_the_bit-0.0.92.tar.gz tmp/rab_the_bit-0.0.93.tar.gz --markdown 20240402/r/rab_the_bit/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2024-04-02 15:57:26] INFO root fetch - processPackages [lumigo-opentelemetry]: executing diffoscope
+[2024-04-02 15:57:26] INFO root fetch - processPackages [lumigo-opentelemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumigo_opentelemetry-1.0.98-py3-none-any.whl.zip tmp/lumigo_opentelemetry-1.0.99-py3-none-any.whl.zip --markdown 20240402/l/lumigo-opentelemetry/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2024-04-02 15:57:26] INFO root fetch - processPackages [MotorDeCalidad]: executing diffoscope
+[2024-04-02 15:57:26] INFO root fetch - processPackages [MotorDeCalidad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MotorDeCalidad-2.2.7.tar.gz tmp/MotorDeCalidad-2.2.8.tar.gz --markdown 20240402/M/MotorDeCalidad/2.2.7-2.2.8/diff.md --exclude *.pyd
+[2024-04-02 15:57:26] INFO root fetch - processPackages [rioxarray]: executing diffoscope
+[2024-04-02 15:57:26] INFO root fetch - processPackages [rioxarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rioxarray-0.9.0.tar.gz tmp/rioxarray-0.9.1.tar.gz --markdown 20240402/r/rioxarray/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 15:57:26] INFO root fetch - processPackages [original-sdk]: executing diffoscope
+[2024-04-02 15:57:26] INFO root fetch - processPackages [original-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/original_sdk-1.2.3.tar.gz tmp/original_sdk-1.3.0.tar.gz --markdown 20240402/o/original-sdk/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2024-04-02 15:57:26] INFO root fetch - processPackages [lonboard]: executing diffoscope
+[2024-04-02 15:57:26] INFO root fetch - processPackages [lonboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lonboard-0.7.1.tar.gz tmp/lonboard-0.8.0b1.tar.gz --markdown 20240402/l/lonboard/0.7.1-0.8.0b1/diff.md --exclude *.pyd
+[2024-04-02 15:57:26] INFO root fetch - processPackages [mozilla-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-taskgraph-1.3.1.tar.gz]
+[2024-04-02 15:57:26] INFO root fetch - processPackages [mozilla-taskgraph]: Remove: archive file [/home/abi/fetcher/tmp/mozilla-taskgraph-1.3.2.tar.gz]
+[2024-04-02 15:57:26] INFO root fetch - main [MainThread]: End processing [mozilla-taskgraph]: success
+[2024-04-02 15:57:26] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.2.tar.gz]
+[2024-04-02 15:57:26] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.3.tar.gz]
+[2024-04-02 15:57:26] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-02 15:57:26] INFO root fetch - processPackages [rab_the_bit]: Remove: archive file [/home/abi/fetcher/tmp/rab_the_bit-0.0.92.tar.gz]
+[2024-04-02 15:57:26] INFO root fetch - processPackages [rab_the_bit]: Remove: archive file [/home/abi/fetcher/tmp/rab_the_bit-0.0.93.tar.gz]
+[2024-04-02 15:57:26] INFO root fetch - main [MainThread]: End processing [rab_the_bit]: success
+[2024-04-02 15:57:27] INFO root fetch - processPackages [MotorDeCalidad]: Remove: archive file [/home/abi/fetcher/tmp/MotorDeCalidad-2.2.7.tar.gz]
+[2024-04-02 15:57:27] INFO root fetch - processPackages [MotorDeCalidad]: Remove: archive file [/home/abi/fetcher/tmp/MotorDeCalidad-2.2.8.tar.gz]
+[2024-04-02 15:57:27] INFO root fetch - main [MainThread]: End processing [MotorDeCalidad]: success
+[2024-04-02 15:57:27] INFO root fetch - processPackages [rioxarray]: Remove: archive file [/home/abi/fetcher/tmp/rioxarray-0.9.0.tar.gz]
+[2024-04-02 15:57:27] INFO root fetch - processPackages [rioxarray]: Remove: archive file [/home/abi/fetcher/tmp/rioxarray-0.9.1.tar.gz]
+[2024-04-02 15:57:27] INFO root fetch - main [MainThread]: End processing [rioxarray]: success
+[2024-04-02 15:57:27] INFO root fetch - processPackages [original-sdk]: Remove: archive file [/home/abi/fetcher/tmp/original_sdk-1.2.3.tar.gz]
+[2024-04-02 15:57:27] INFO root fetch - processPackages [original-sdk]: Remove: archive file [/home/abi/fetcher/tmp/original_sdk-1.3.0.tar.gz]
+[2024-04-02 15:57:27] INFO root fetch - main [MainThread]: End processing [original-sdk]: success
+[2024-04-02 15:57:27] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.98-py3-none-any.whl.zip]
+[2024-04-02 15:57:27] INFO root fetch - processPackages [lumigo-opentelemetry]: Remove: archive file [/home/abi/fetcher/tmp/lumigo_opentelemetry-1.0.99-py3-none-any.whl.zip]
+[2024-04-02 15:57:27] INFO root fetch - main [MainThread]: End processing [lumigo-opentelemetry]: success
+[2024-04-02 15:57:44] INFO root fetch - processPackages [lonboard]: Remove: archive file [/home/abi/fetcher/tmp/lonboard-0.7.1.tar.gz]
+[2024-04-02 15:57:44] INFO root fetch - processPackages [lonboard]: Remove: archive file [/home/abi/fetcher/tmp/lonboard-0.8.0b1.tar.gz]
+[2024-04-02 15:57:44] INFO root fetch - main [MainThread]: End processing [lonboard]: success
+[2024-04-02 15:57:44] INFO root fetch - main [MainThread]: Store serial: [22585888]
