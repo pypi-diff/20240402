@@ -13969,3 +13969,95 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:13:02] INFO root fetch - processPackages [QT-PyQt-PySide-Custom-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/QT-PyQt-PySide-Custom-Widgets-0.9.3.tar.gz]
 [2024-04-02 10:13:02] INFO root fetch - main [MainThread]: End processing [QT-PyQt-PySide-Custom-Widgets]: success
 [2024-04-02 10:13:02] INFO root fetch - main [MainThread]: Store serial: [22581984]
+[2024-04-02 10:15:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581984]
+[2024-04-02 10:15:12] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rockai-cli-app
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deploymodel
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: leadguru-jobs
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: speedtab
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testingcgsdk
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cleanvoice
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: conlludiff
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: anycluster
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: LedFx
+[2024-04-02 10:15:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: drfexts
+[2024-04-02 10:15:12] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.1.5] Old Version: [0.1.4]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [deploymodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/5b/32/b8a01b170a84c20763044eb66af9d5ca3b6855775c2232d06debd18e8f25/rockai_cli_app-0.1.4.tar.gz
+[2024-04-02 10:15:12] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/b1/8e/2a2f4c098d565ef1a51c8a1ef885f8b0dfb8e084975494b6cb2a4058242d/deploymodel-0.1.8.tar.gz
+[2024-04-02 10:15:12] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/e2/a1/f7ee580671c86ca5707cfc07d228917ba019fc6e571eec339a6ad5f74f87/testingcgsdk-0.0.7-py3-none-any.whl
+[2024-04-02 10:15:12] INFO root fetch - processPackages [anycluster]: New version: [2.4.8] Old Version: [2.4.7]
+[2024-04-02 10:15:12] WARNING root fetch - processPackages [cleanvoice]: Skipping, unable to determine old version
+[2024-04-02 10:15:12] INFO root fetch - processPackages [cleanvoice]: Start processing: django-dbbackup-admin
+[2024-04-02 10:15:12] INFO root fetch - main [MainThread]: End processing [cleanvoice] error
+[2024-04-02 10:15:12] INFO root fetch - processPackages [LedFx]: New version: [2.0.96] Old Version: [2.0.95]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [speedtab]: New version: [0.2.1.3] Old Version: [0.2.1.2]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [conlludiff]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 10:15:12] INFO root fetch - processPackages [django-dbbackup-admin]: New version: [1.4.0] Old Version: [1.3.0]
+[2024-04-02 10:15:13] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [drfexts]: New version: [3.7.2] Old Version: [3.7.1]
+[2024-04-02 10:15:13] INFO root fetch - processPackages [LedFx]: Downloading https://files.pythonhosted.org/packages/df/4c/6c5ed338c4a52d64eec3031c98589155a65aefe7ea29c0a2a02e1ef3151d/ledfx-2.0.95.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/5f/c8/a23197bed0d4e71be62346b2516bd5fdab5362e8e9186df6becfe8a44c51/speedtab-0.2.1.2.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/fa/e7/13c7dcb5263ac66d391c3017618d306c1a9b2c746c333c7e79034f734ed2/anycluster-2.4.7.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [django-dbbackup-admin]: Downloading https://files.pythonhosted.org/packages/95/48/97187848c2a493be8a4c7e574a9b1cb8fdaa9f9f97b634808f290407ec6c/django-dbbackup-admin-1.3.0.tar.gz
+[2024-04-02 10:15:13] WARNING root fetch - processPackages [LedFx]: Skipping package: exceeds size limit 28040669>=10485760
+[2024-04-02 10:15:13] INFO root fetch - main [MainThread]: End processing [LedFx] error
+[2024-04-02 10:15:13] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/8e/f4/c2263f09361c7e23469a1fdc4aa8ed7525bd9e48ff97edcfa3b723a2fa3e/deploymodel-0.1.9.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [conlludiff]: Downloading https://files.pythonhosted.org/packages/6a/77/676d5fa5525641522fb7d93e52c4fac536a3ac8e5acae1a9ab143ce91e7b/conlludiff-0.0.3.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/1a/fc/4f2e698dbb2b6bb0b4c3471ba8e98d833a3079aa675772fc69510169aa8d/rockai_cli_app-0.1.5.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/65/b1/893a229f053af5cbb6aab02906c091a55145f9e66e3f17e9fdc0400ba55f/drfexts-3.7.1.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [deploymodel]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [deploymodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymodel-0.1.8.tar.gz tmp/deploymodel-0.1.9.tar.gz --markdown 20240402/d/deploymodel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 10:15:13] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.1.4.tar.gz tmp/rockai_cli_app-0.1.5.tar.gz --markdown 20240402/r/rockai-cli-app/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [speedtab]: Downloading https://files.pythonhosted.org/packages/5f/fe/e82d484b3795538236c2b139b649c877e275ff4484d84c2e85036d977973/speedtab-0.2.1.3.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.7-py3-none-any.whl.zip tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [django-dbbackup-admin]: Downloading https://files.pythonhosted.org/packages/9c/18/b81af831c569bed602a3d4398d3ce8a750e2b4a1e0abe8f6de02eaa717e9/django-dbbackup-admin-1.4.0.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [conlludiff]: Downloading https://files.pythonhosted.org/packages/a9/b2/2a044b6172fb62a025b312be62a998695f5937f651291a4cf8ddae85427b/conlludiff-0.0.4.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [anycluster]: Downloading https://files.pythonhosted.org/packages/b1/b7/49a6419a1160932e872e1435ebcef52f4cd3e4aba29cc50cac8261bc954d/anycluster-2.4.8.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [speedtab]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [speedtab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speedtab-0.2.1.2.tar.gz tmp/speedtab-0.2.1.3.tar.gz --markdown 20240402/s/speedtab/0.2.1.2-0.2.1.3/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [django-dbbackup-admin]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [django-dbbackup-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dbbackup-admin-1.3.0.tar.gz tmp/django-dbbackup-admin-1.4.0.tar.gz --markdown 20240402/d/django-dbbackup-admin/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [drfexts]: Downloading https://files.pythonhosted.org/packages/b8/f7/5e1277a4d528b05ce80ffde7a2cb2aae1f141fce254f690a374bbbd90289/drfexts-3.7.2.tar.gz
+[2024-04-02 10:15:13] INFO root fetch - processPackages [conlludiff]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [conlludiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conlludiff-0.0.3.tar.gz tmp/conlludiff-0.0.4.tar.gz --markdown 20240402/c/conlludiff/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 10:15:13] INFO root fetch - processPackages [anycluster]: executing diffoscope
+[2024-04-02 10:15:13] INFO root fetch - processPackages [anycluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anycluster-2.4.7.tar.gz tmp/anycluster-2.4.8.tar.gz --markdown 20240402/a/anycluster/2.4.7-2.4.8/diff.md --exclude *.pyd
+[2024-04-02 10:15:14] INFO root fetch - processPackages [drfexts]: executing diffoscope
+[2024-04-02 10:15:14] INFO root fetch - processPackages [drfexts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drfexts-3.7.1.tar.gz tmp/drfexts-3.7.2.tar.gz --markdown 20240402/d/drfexts/3.7.1-3.7.2/diff.md --exclude *.pyd
+[2024-04-02 10:15:14] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.8.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.9.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - main [MainThread]: End processing [deploymodel]: success
+[2024-04-02 10:15:14] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.4.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.5.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-04-02 10:15:14] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.7-py3-none-any.whl.zip]
+[2024-04-02 10:15:14] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 10:15:14] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 10:15:14] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.2.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - processPackages [speedtab]: Remove: archive file [/home/abi/fetcher/tmp/speedtab-0.2.1.3.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - main [MainThread]: End processing [speedtab]: success
+[2024-04-02 10:15:14] INFO root fetch - processPackages [django-dbbackup-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-dbbackup-admin-1.3.0.tar.gz]
+[2024-04-02 10:15:14] INFO root fetch - processPackages [django-dbbackup-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-dbbackup-admin-1.4.0.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - main [MainThread]: End processing [django-dbbackup-admin]: success
+[2024-04-02 10:15:15] INFO root fetch - processPackages [conlludiff]: Remove: archive file [/home/abi/fetcher/tmp/conlludiff-0.0.3.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - processPackages [conlludiff]: Remove: archive file [/home/abi/fetcher/tmp/conlludiff-0.0.4.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - main [MainThread]: End processing [conlludiff]: success
+[2024-04-02 10:15:15] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 10:15:15] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.4.7.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - processPackages [anycluster]: Remove: archive file [/home/abi/fetcher/tmp/anycluster-2.4.8.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - main [MainThread]: End processing [anycluster]: success
+[2024-04-02 10:15:15] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.7.1.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.7.2.tar.gz]
+[2024-04-02 10:15:15] INFO root fetch - main [MainThread]: End processing [drfexts]: success
+[2024-04-02 10:15:15] INFO root fetch - main [MainThread]: Store serial: [22582026]
