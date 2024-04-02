@@ -8857,3 +8857,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:27:26] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.6.tar.gz]
 [2024-04-02 04:27:26] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
 [2024-04-02 04:27:26] INFO root fetch - main [MainThread]: Store serial: [22580021]
+[2024-04-02 04:29:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580021]
+[2024-04-02 04:29:34] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 04:29:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: swarms
+[2024-04-02 04:29:34] INFO root fetch - processPackages [swarms]: New version: [4.7.1] Old Version: [4.6.8]
+[2024-04-02 04:29:35] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/96/f6/c46a53926d3f7ad36b03c52f7d132bb0b83b272b43d0560a4024d167287b/swarms-4.6.8.tar.gz
+[2024-04-02 04:29:35] INFO root fetch - processPackages [swarms]: Downloading https://files.pythonhosted.org/packages/07/69/f2b7d85be8808e458f37594f6f8b82d858558ff0c5507aa765cf0309a126/swarms-4.7.1.tar.gz
+[2024-04-02 04:29:35] INFO root fetch - processPackages [swarms]: executing diffoscope
+[2024-04-02 04:29:35] INFO root fetch - processPackages [swarms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swarms-4.6.8.tar.gz tmp/swarms-4.7.1.tar.gz --markdown 20240402/s/swarms/4.6.8-4.7.1/diff.md --exclude *.pyd
+[2024-04-02 04:29:36] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.6.8.tar.gz]
+[2024-04-02 04:29:36] INFO root fetch - processPackages [swarms]: Remove: archive file [/home/abi/fetcher/tmp/swarms-4.7.1.tar.gz]
+[2024-04-02 04:29:36] INFO root fetch - main [MainThread]: End processing [swarms]: success
+[2024-04-02 04:29:36] INFO root fetch - main [MainThread]: Store serial: [22580026]
