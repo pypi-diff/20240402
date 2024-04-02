@@ -13596,3 +13596,87 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:58:40] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.1.tar.gz]
 [2024-04-02 09:58:40] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment]: success
 [2024-04-02 09:58:40] INFO root fetch - main [MainThread]: Store serial: [22581851]
+[2024-04-02 10:00:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581851]
+[2024-04-02 10:00:48] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-configuration-sdk-preview
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: resolwe-bio
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lusid-drive-sdk-preview
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-drive-sdk
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dock-cli
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tf-nightly
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: testingcgsdk
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vitrage
+[2024-04-02 10:00:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: alita-sdk
+[2024-04-02 10:00:48] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 10:00:48] INFO root fetch - processPackages [alita-sdk]: New version: [0.0.9] Old Version: [0.0.6]
+[2024-04-02 10:00:48] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.517] Old Version: [0.1.516]
+[2024-04-02 10:00:48] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/06/e8/e6e6fb2c8def4ea5a927816dd6d5a41c3ff2a0b9432d2f458ed7f660f11b/testingcgsdk-0.0.5-py3-none-any.whl
+[2024-04-02 10:00:48] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/d2/ee/68e47d6d2e03c92579dba27f9c042eb96b3c75776fe27f1b3f23f42e3dde/alita_sdk-0.0.6.tar.gz
+[2024-04-02 10:00:48] INFO root fetch - processPackages [dock-cli]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-02 10:00:48] INFO root fetch - processPackages [lusid-drive-sdk]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 10:00:48] INFO root fetch - processPackages [vitrage]: New version: [9.0.0] Old Version: [8.0.1]
+[2024-04-02 10:00:49] INFO root fetch - processPackages [tf-nightly]: New version: [2.17.0.dev20240402] Old Version: [2.17.0.dev20240401]
+[2024-04-02 10:00:49] INFO root fetch - processPackages [resolwe-bio]: New version: [9.0.0a4] Old Version: [9.0.0a3]
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-drive-sdk-preview]: New version: [0.1.96] Old Version: [0.1.95]
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/fb/d8/71685a32eda12a0c8efebbd5b4cb7593aa0a63719f0f5ad646ca53b198f7/lusid-configuration-sdk-preview-0.1.516.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/bb/93/be1c36352fe3733772df1e576f5cabe25767b9e959b60c65f8dce3bf947a/dock-cli-0.3.0.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/f4/a1/95ed20171b4553290b9cc6ac102b80e8dcbb6bbc79624e6c14d4e1b07f0a/lusid_drive_sdk-2.0.8.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [vitrage]: Downloading https://files.pythonhosted.org/packages/1e/27/a13f57e976fa7189c19007763fa4b4719ac5a8bdf209663e74284ea512d7/vitrage-8.0.1.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [alita-sdk]: Downloading https://files.pythonhosted.org/packages/3c/eb/f179bef73b5e231fcd4612214199cf62b22205ce941a25676660b44bd5af/alita_sdk-0.0.9.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/88/b8/e39da0ff7876cc23a947a4b720c2a95f18c106c2c54ea04a94260e809686/tf_nightly-2.17.0.dev20240401-cp39-cp39-win_amd64.whl
+[2024-04-02 10:00:49] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c2/bc/f6993bc75941b8f8244e41353c3ec4b4e616477c70876197f0e454cf674e/resolwe-bio-9.0.0a3.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/3c/36/7ba764c059e4db444f6cf2e73cd8a04b8f90fa2ed8bc8e663f775912d783/lusid-drive-sdk-preview-0.1.95.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/35/cd/df04763089717cfa953c16b4e2edf9428af3bc32e900f0ba5e2997139929/lusid-configuration-sdk-preview-0.1.517.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/a6/29/ded1204cf298a5497d284f58ba0502e9598419b155672f81009d1b19fbef/testingcgsdk-0.0.6-py3-none-any.whl
+[2024-04-02 10:00:49] INFO root fetch - processPackages [alita-sdk]: executing diffoscope
+[2024-04-02 10:00:49] INFO root fetch - processPackages [alita-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alita_sdk-0.0.6.tar.gz tmp/alita_sdk-0.0.9.tar.gz --markdown 20240402/a/alita-sdk/0.0.6-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.516.tar.gz tmp/lusid-configuration-sdk-preview-0.1.517.tar.gz --markdown 20240402/l/lusid-configuration-sdk-preview/0.1.516-0.1.517/diff.md --exclude *.pyd
+[2024-04-02 10:00:49] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 10:00:49] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.5-py3-none-any.whl.zip tmp/testingcgsdk-0.0.6-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 10:00:49] INFO root fetch - processPackages [dock-cli]: Downloading https://files.pythonhosted.org/packages/f1/b4/caf70f0bf2126f338c51d124c0d221798abd84a2539a7f81e9e59c34fd7f/dock-cli-0.3.1.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/fd/8e/6c615bfd747e444b333823dd9e5bb7cf66dfaef7553f8df95dc17532adbc/tf_nightly-2.17.0.dev20240402-cp39-cp39-win_amd64.whl
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-drive-sdk]: Downloading https://files.pythonhosted.org/packages/7d/67/970d29fd9f0d3a1595e563d2cbb924002e97a117252a8523efd70efd0380/lusid_drive_sdk-2.0.9.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Downloading https://files.pythonhosted.org/packages/61/f8/d24acce70923cfb6b98f767d1ae2f0c298d30f53032363ce65751be8b091/lusid-drive-sdk-preview-0.1.96.tar.gz
+[2024-04-02 10:00:49] INFO root fetch - processPackages [dock-cli]: executing diffoscope
+[2024-04-02 10:00:49] INFO root fetch - processPackages [dock-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dock-cli-0.3.0.tar.gz tmp/dock-cli-0.3.1.tar.gz --markdown 20240402/d/dock-cli/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-02 10:00:50] INFO root fetch - processPackages [tf-nightly]: executing diffoscope
+[2024-04-02 10:00:50] INFO root fetch - processPackages [tf-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_nightly-2.17.0.dev20240401-cp39-cp39-win_amd64.whl.zip tmp/tf_nightly-2.17.0.dev20240402-cp39-cp39-win_amd64.whl.zip --markdown 20240402/t/tf-nightly/2.17.0.dev20240401-2.17.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 10:00:50] INFO root fetch - processPackages [lusid-drive-sdk]: executing diffoscope
+[2024-04-02 10:00:50] INFO root fetch - processPackages [lusid-drive-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid_drive_sdk-2.0.8.tar.gz tmp/lusid_drive_sdk-2.0.9.tar.gz --markdown 20240402/l/lusid-drive-sdk/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:00:50] INFO root fetch - processPackages [lusid-drive-sdk-preview]: executing diffoscope
+[2024-04-02 10:00:50] INFO root fetch - processPackages [lusid-drive-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-drive-sdk-preview-0.1.95.tar.gz tmp/lusid-drive-sdk-preview-0.1.96.tar.gz --markdown 20240402/l/lusid-drive-sdk-preview/0.1.95-0.1.96/diff.md --exclude *.pyd
+[2024-04-02 10:00:50] INFO root fetch - processPackages [vitrage]: Downloading https://files.pythonhosted.org/packages/81/88/4b4b9d4e151392ec86d3bbe3a5e03e2464584af997f82efd02b1caa18e7b/vitrage-9.0.0.tar.gz
+[2024-04-02 10:00:50] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.0.6.tar.gz]
+[2024-04-02 10:00:50] INFO root fetch - processPackages [alita-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alita_sdk-0.0.9.tar.gz]
+[2024-04-02 10:00:50] INFO root fetch - main [MainThread]: End processing [alita-sdk]: success
+[2024-04-02 10:00:50] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.5-py3-none-any.whl.zip]
+[2024-04-02 10:00:50] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.6-py3-none-any.whl.zip]
+[2024-04-02 10:00:50] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 10:00:50] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock-cli-0.3.0.tar.gz]
+[2024-04-02 10:00:50] INFO root fetch - processPackages [dock-cli]: Remove: archive file [/home/abi/fetcher/tmp/dock-cli-0.3.1.tar.gz]
+[2024-04-02 10:00:50] INFO root fetch - main [MainThread]: End processing [dock-cli]: success
+[2024-04-02 10:00:50] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240401-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 10:00:50] INFO root fetch - processPackages [tf-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_nightly-2.17.0.dev20240402-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 10:00:50] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.516.tar.gz]
+[2024-04-02 10:00:50] INFO root fetch - main [MainThread]: End processing [tf-nightly]: success
+[2024-04-02 10:00:50] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.517.tar.gz]
+[2024-04-02 10:00:50] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2024-04-02 10:00:50] INFO root fetch - processPackages [vitrage]: executing diffoscope
+[2024-04-02 10:00:50] INFO root fetch - processPackages [vitrage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vitrage-8.0.1.tar.gz tmp/vitrage-9.0.0.tar.gz --markdown 20240402/v/vitrage/8.0.1-9.0.0/diff.md --exclude *.pyd
+[2024-04-02 10:00:51] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.0.8.tar.gz]
+[2024-04-02 10:00:51] INFO root fetch - processPackages [lusid-drive-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid_drive_sdk-2.0.9.tar.gz]
+[2024-04-02 10:00:51] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk]: success
+[2024-04-02 10:00:51] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.95.tar.gz]
+[2024-04-02 10:00:51] INFO root fetch - processPackages [lusid-drive-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-drive-sdk-preview-0.1.96.tar.gz]
+[2024-04-02 10:00:51] INFO root fetch - main [MainThread]: End processing [lusid-drive-sdk-preview]: success
+[2024-04-02 10:00:52] INFO root fetch - processPackages [resolwe-bio]: Downloading https://files.pythonhosted.org/packages/c9/30/533d131f30f01305f0d25555f7e3eaa209d8400cd99b38de17dfec330f11/resolwe-bio-9.0.0a4.tar.gz
+[2024-04-02 10:00:54] INFO root fetch - processPackages [vitrage]: Remove: archive file [/home/abi/fetcher/tmp/vitrage-8.0.1.tar.gz]
+[2024-04-02 10:00:54] INFO root fetch - processPackages [vitrage]: Remove: archive file [/home/abi/fetcher/tmp/vitrage-9.0.0.tar.gz]
+[2024-04-02 10:00:54] INFO root fetch - main [MainThread]: End processing [vitrage]: success
+[2024-04-02 10:00:55] INFO root fetch - processPackages [resolwe-bio]: executing diffoscope
+[2024-04-02 10:00:55] INFO root fetch - processPackages [resolwe-bio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/resolwe-bio-9.0.0a3.tar.gz tmp/resolwe-bio-9.0.0a4.tar.gz --markdown 20240402/r/resolwe-bio/9.0.0a3-9.0.0a4/diff.md --exclude *.pyd
+[2024-04-02 10:00:58] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a3.tar.gz]
+[2024-04-02 10:00:58] INFO root fetch - processPackages [resolwe-bio]: Remove: archive file [/home/abi/fetcher/tmp/resolwe-bio-9.0.0a4.tar.gz]
+[2024-04-02 10:00:58] INFO root fetch - main [MainThread]: End processing [resolwe-bio]: success
+[2024-04-02 10:00:58] INFO root fetch - main [MainThread]: Store serial: [22581879]
