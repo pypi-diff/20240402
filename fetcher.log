@@ -19607,3 +19607,72 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:53:38] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_ws_libp2p_proxy-0.1.2b1.tar.gz]
 [2024-04-02 13:53:38] INFO root fetch - main [MainThread]: End processing [py-ws-libp2p-proxy]: success
 [2024-04-02 13:53:38] INFO root fetch - main [MainThread]: Store serial: [22584348]
+[2024-04-02 13:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584348]
+[2024-04-02 13:55:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgori
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finbourne-horizon-sdk
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellmap-schemas
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqldbclient
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: assonant
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feasytools
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shdo
+[2024-04-02 13:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: imagekitio
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imgori]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-02 13:55:47] INFO root fetch - processPackages [feasytools]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 13:55:47] INFO root fetch - processPackages [finbourne-horizon-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 13:55:47] INFO root fetch - processPackages [sqldbclient]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 13:55:47] INFO root fetch - processPackages [cellmap-schemas]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-02 13:55:47] WARNING root fetch - processPackages [shdo]: Skipping, unable to determine old version
+[2024-04-02 13:55:47] INFO root fetch - main [MainThread]: End processing [shdo] error
+[2024-04-02 13:55:47] INFO root fetch - processPackages [assonant]: New version: [1.2.0] Old Version: [1.1.0]
+[2024-04-02 13:55:47] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/43/59/9d6063ccd1a1985722990b67fcb1c537199d4c3b1153596b0b58a35c55cb/feasytools-0.0.3.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/fb/18/5a6bfdc15d43f2a8a0d0d724388875ef1555ff33b7d0b24d5afa21dfaddc/imgori-0.2.6-py3-none-any.whl
+[2024-04-02 13:55:47] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/06/c9/47ee3aea0e17410b358d1981bc3457d72efa489b5bd7cdfd8e0dae8d1e99/finbourne_horizon_sdk-2.0.98.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imagekitio]: New version: [4.0.1] Old Version: [4.0.0]
+[2024-04-02 13:55:47] INFO root fetch - processPackages [sqldbclient]: Downloading https://files.pythonhosted.org/packages/25/3d/559c67e950d084396e0575e5e0dd47bbf4442e047f4935cc0b56a11b1068/sqldbclient-0.1.0.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [cellmap-schemas]: Downloading https://files.pythonhosted.org/packages/02/cd/927c4de2ed971994faa9958076e9f4037625263aefac7e0ccb56b097591d/cellmap_schemas-0.4.0.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [assonant]: Downloading https://files.pythonhosted.org/packages/04/06/096f7347651ac75d943e2b28fdce77a03c7bf1b8076d56f4799d7cc12b4a/assonant-1.1.0.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/06/9b/28284d6c44b75ed453ef6bdd03be31a342c3d15f4e58bfafe52919f9538f/imgori-0.2.7-py3-none-any.whl
+[2024-04-02 13:55:47] INFO root fetch - processPackages [finbourne-horizon-sdk]: Downloading https://files.pythonhosted.org/packages/00/39/af6f8e607b0c244600f9bbe82842b5739b5f5bbd08171e54da6ba158fc09/finbourne_horizon_sdk-2.0.99.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imagekitio]: Downloading https://files.pythonhosted.org/packages/25/f3/fe3394109bc150e13ccb26259f0c3e1a7d2253fef2992880f7db6636c67f/imagekitio-4.0.0.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [feasytools]: Downloading https://files.pythonhosted.org/packages/f1/8b/48af05f22073e174c8d110f9f3fe1920d1e6eed01b987eb605aba5945c4c/feasytools-0.0.4.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imgori]: executing diffoscope
+[2024-04-02 13:55:47] INFO root fetch - processPackages [imgori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgori-0.2.6-py3-none-any.whl.zip tmp/imgori-0.2.7-py3-none-any.whl.zip --markdown 20240402/i/imgori/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-02 13:55:47] INFO root fetch - processPackages [finbourne-horizon-sdk]: executing diffoscope
+[2024-04-02 13:55:47] INFO root fetch - processPackages [finbourne-horizon-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_horizon_sdk-2.0.98.tar.gz tmp/finbourne_horizon_sdk-2.0.99.tar.gz --markdown 20240402/f/finbourne-horizon-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 13:55:47] INFO root fetch - processPackages [feasytools]: executing diffoscope
+[2024-04-02 13:55:47] INFO root fetch - processPackages [feasytools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feasytools-0.0.3.tar.gz tmp/feasytools-0.0.4.tar.gz --markdown 20240402/f/feasytools/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 13:55:47] INFO root fetch - processPackages [assonant]: Downloading https://files.pythonhosted.org/packages/a3/a2/97b9d70631acaa276db53a8ffefb83d358dd99953922ebafb201ae927402/assonant-1.2.0.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [cellmap-schemas]: Downloading https://files.pythonhosted.org/packages/aa/79/82c9e2adeea4c8d77ff0c796804db327a701390ee23cefa619183ac0284f/cellmap_schemas-0.5.0.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [sqldbclient]: Downloading https://files.pythonhosted.org/packages/9a/1c/19f45bad92c07f8cda912606314bd541c9d465230fa9f6d4f75a6d579d89/sqldbclient-0.1.1.tar.gz
+[2024-04-02 13:55:47] INFO root fetch - processPackages [assonant]: executing diffoscope
+[2024-04-02 13:55:47] INFO root fetch - processPackages [assonant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assonant-1.1.0.tar.gz tmp/assonant-1.2.0.tar.gz --markdown 20240402/a/assonant/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 13:55:48] INFO root fetch - processPackages [imagekitio]: Downloading https://files.pythonhosted.org/packages/70/84/28509d190263d849226c1827b3d0fc50d90b3e0aab8f161ccfbe63f1254a/imagekitio-4.0.1.tar.gz
+[2024-04-02 13:55:48] INFO root fetch - processPackages [sqldbclient]: executing diffoscope
+[2024-04-02 13:55:48] INFO root fetch - processPackages [sqldbclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqldbclient-0.1.0.tar.gz tmp/sqldbclient-0.1.1.tar.gz --markdown 20240402/s/sqldbclient/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 13:55:48] INFO root fetch - processPackages [cellmap-schemas]: executing diffoscope
+[2024-04-02 13:55:48] INFO root fetch - processPackages [cellmap-schemas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmap_schemas-0.4.0.tar.gz tmp/cellmap_schemas-0.5.0.tar.gz --markdown 20240402/c/cellmap-schemas/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-02 13:55:48] INFO root fetch - processPackages [imagekitio]: executing diffoscope
+[2024-04-02 13:55:48] INFO root fetch - processPackages [imagekitio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imagekitio-4.0.0.tar.gz tmp/imagekitio-4.0.1.tar.gz --markdown 20240402/i/imagekitio/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2024-04-02 13:55:48] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.3.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - processPackages [feasytools]: Remove: archive file [/home/abi/fetcher/tmp/feasytools-0.0.4.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - main [MainThread]: End processing [feasytools]: success
+[2024-04-02 13:55:48] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.6-py3-none-any.whl.zip]
+[2024-04-02 13:55:48] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.7-py3-none-any.whl.zip]
+[2024-04-02 13:55:48] INFO root fetch - main [MainThread]: End processing [imgori]: success
+[2024-04-02 13:55:48] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.98.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - processPackages [finbourne-horizon-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_horizon_sdk-2.0.99.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - main [MainThread]: End processing [finbourne-horizon-sdk]: success
+[2024-04-02 13:55:48] INFO root fetch - processPackages [assonant]: Remove: archive file [/home/abi/fetcher/tmp/assonant-1.1.0.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - processPackages [assonant]: Remove: archive file [/home/abi/fetcher/tmp/assonant-1.2.0.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - main [MainThread]: End processing [assonant]: success
+[2024-04-02 13:55:48] INFO root fetch - processPackages [cellmap-schemas]: Remove: archive file [/home/abi/fetcher/tmp/cellmap_schemas-0.4.0.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - processPackages [cellmap-schemas]: Remove: archive file [/home/abi/fetcher/tmp/cellmap_schemas-0.5.0.tar.gz]
+[2024-04-02 13:55:48] INFO root fetch - main [MainThread]: End processing [cellmap-schemas]: success
+[2024-04-02 13:55:49] INFO root fetch - processPackages [sqldbclient]: Remove: archive file [/home/abi/fetcher/tmp/sqldbclient-0.1.0.tar.gz]
+[2024-04-02 13:55:49] INFO root fetch - processPackages [sqldbclient]: Remove: archive file [/home/abi/fetcher/tmp/sqldbclient-0.1.1.tar.gz]
+[2024-04-02 13:55:49] INFO root fetch - main [MainThread]: End processing [sqldbclient]: success
+[2024-04-02 13:55:49] INFO root fetch - processPackages [imagekitio]: Remove: archive file [/home/abi/fetcher/tmp/imagekitio-4.0.0.tar.gz]
+[2024-04-02 13:55:49] INFO root fetch - processPackages [imagekitio]: Remove: archive file [/home/abi/fetcher/tmp/imagekitio-4.0.1.tar.gz]
+[2024-04-02 13:55:49] INFO root fetch - main [MainThread]: End processing [imagekitio]: success
+[2024-04-02 13:55:49] INFO root fetch - main [MainThread]: Store serial: [22584375]
