@@ -23953,3 +23953,54 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 16:20:22] INFO root fetch - processPackages [imio.smartweb.core]: Remove: archive file [/home/abi/fetcher/tmp/imio.smartweb.core-1.2.9.tar.gz]
 [2024-04-02 16:20:22] INFO root fetch - main [MainThread]: End processing [imio.smartweb.core]: success
 [2024-04-02 16:20:22] INFO root fetch - main [MainThread]: Store serial: [22586215]
+[2024-04-02 16:22:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22586215]
+[2024-04-02 16:22:31] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acb
+[2024-04-02 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: direnumerate
+[2024-04-02 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aigarmic
+[2024-04-02 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feezfuzz
+[2024-04-02 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: retrack
+[2024-04-02 16:22:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gigachat
+[2024-04-02 16:22:31] INFO root fetch - processPackages [direnumerate]: New version: [3.0rc8] Old Version: [3.0rc7]
+[2024-04-02 16:22:31] INFO root fetch - processPackages [retrack]: New version: [2.4.0] Old Version: [2.3.2]
+[2024-04-02 16:22:31] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/39/eb/5244753e2fd3d27dfaa214bc7d66efc4d3e73f9017405b0834422114fc8c/direnumerate-3.0rc7.tar.gz
+[2024-04-02 16:22:31] INFO root fetch - processPackages [gigachat]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 16:22:31] INFO root fetch - processPackages [acb]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-02 16:22:31] INFO root fetch - processPackages [feezfuzz]: New version: [0.1.4.3] Old Version: [0.1.4.2]
+[2024-04-02 16:22:31] WARNING root fetch - processPackages [aigarmic]: Skipping, unable to determine old version
+[2024-04-02 16:22:31] INFO root fetch - main [MainThread]: End processing [aigarmic] error
+[2024-04-02 16:22:31] INFO root fetch - processPackages [retrack]: Downloading https://files.pythonhosted.org/packages/1b/c6/849ca1efd8e70478fe83c8ee5c9943ca9ef71c0484b6582d4f244ac2bcc3/retrack-2.3.2.tar.gz
+[2024-04-02 16:22:31] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/80/d5/4ecbfa2d8ee11286912872c85e41a0fde450de103f538e155a883656ef15/acb-0.5.8.tar.gz
+[2024-04-02 16:22:31] INFO root fetch - processPackages [feezfuzz]: Downloading https://files.pythonhosted.org/packages/e1/37/fafeee03ef5dbc2777cbe3407ed81a0065baeca3965a5fb228157495ed6a/feezfuzz-0.1.4.2.tar.gz
+[2024-04-02 16:22:31] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/17/43/72686c3ff7a5a9dff3e8225d3d2adabd18547a099a44f444fdae75eab89e/gigachat-0.1.8.tar.gz
+[2024-04-02 16:22:31] INFO root fetch - processPackages [retrack]: Downloading https://files.pythonhosted.org/packages/5b/ef/dd484d1b328aa09a5d4686dc782df829137e93ee5d5af4c6a91769a9e089/retrack-2.4.0.tar.gz
+[2024-04-02 16:22:32] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/3f/76/5a04f8511339bcf5d8cf66d81b8a0b39748f3693267a042097cca9bff8fd/direnumerate-3.0rc8.tar.gz
+[2024-04-02 16:22:32] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/b5/f5/39ede17ab765abc34045bfa50de2b3f0e5623063ab516cc694299140ef50/acb-0.5.9.tar.gz
+[2024-04-02 16:22:32] INFO root fetch - processPackages [retrack]: executing diffoscope
+[2024-04-02 16:22:32] INFO root fetch - processPackages [retrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retrack-2.3.2.tar.gz tmp/retrack-2.4.0.tar.gz --markdown 20240402/r/retrack/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2024-04-02 16:22:32] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-04-02 16:22:32] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.0rc7.tar.gz tmp/direnumerate-3.0rc8.tar.gz --markdown 20240402/d/direnumerate/3.0rc7-3.0rc8/diff.md --exclude *.pyd
+[2024-04-02 16:22:32] INFO root fetch - processPackages [acb]: executing diffoscope
+[2024-04-02 16:22:32] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.5.8.tar.gz tmp/acb-0.5.9.tar.gz --markdown 20240402/a/acb/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-02 16:22:32] INFO root fetch - processPackages [feezfuzz]: Downloading https://files.pythonhosted.org/packages/2e/77/75f66726e49b4b303b830ca5496e300569ff2136f679b2c63d7d8f18840c/feezfuzz-0.1.4.3.tar.gz
+[2024-04-02 16:22:32] INFO root fetch - processPackages [gigachat]: Downloading https://files.pythonhosted.org/packages/66/bf/64825e2a8664391ac440af566d7e0bc086113eb9e01cc3023c46c7652c0c/gigachat-0.1.9.tar.gz
+[2024-04-02 16:22:32] INFO root fetch - processPackages [feezfuzz]: executing diffoscope
+[2024-04-02 16:22:32] INFO root fetch - processPackages [feezfuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feezfuzz-0.1.4.2.tar.gz tmp/feezfuzz-0.1.4.3.tar.gz --markdown 20240402/f/feezfuzz/0.1.4.2-0.1.4.3/diff.md --exclude *.pyd
+[2024-04-02 16:22:32] INFO root fetch - processPackages [gigachat]: executing diffoscope
+[2024-04-02 16:22:32] INFO root fetch - processPackages [gigachat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gigachat-0.1.8.tar.gz tmp/gigachat-0.1.9.tar.gz --markdown 20240402/g/gigachat/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 16:22:32] INFO root fetch - processPackages [retrack]: Remove: archive file [/home/abi/fetcher/tmp/retrack-2.3.2.tar.gz]
+[2024-04-02 16:22:32] INFO root fetch - processPackages [retrack]: Remove: archive file [/home/abi/fetcher/tmp/retrack-2.4.0.tar.gz]
+[2024-04-02 16:22:32] INFO root fetch - main [MainThread]: End processing [retrack]: success
+[2024-04-02 16:22:33] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.5.8.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.5.9.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2024-04-02 16:22:33] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc7.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc8.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-04-02 16:22:33] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.8.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - processPackages [gigachat]: Remove: archive file [/home/abi/fetcher/tmp/gigachat-0.1.9.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - main [MainThread]: End processing [gigachat]: success
+[2024-04-02 16:22:33] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.2.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.3.tar.gz]
+[2024-04-02 16:22:33] INFO root fetch - main [MainThread]: End processing [feezfuzz]: success
+[2024-04-02 16:22:33] INFO root fetch - main [MainThread]: Store serial: [22586248]
