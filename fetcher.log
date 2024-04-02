@@ -18520,3 +18520,39 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:16:49] INFO root fetch - processPackages [cdktf-cdktf-provider-vault]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-vault-9.0.2.tar.gz]
 [2024-04-02 13:16:49] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-vault]: success
 [2024-04-02 13:16:49] INFO root fetch - main [MainThread]: Store serial: [22583902]
+[2024-04-02 13:18:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583902]
+[2024-04-02 13:18:59] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 13:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-cdktf-provider-mongodbatlas
+[2024-04-02 13:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2kerastl
+[2024-04-02 13:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-text-translator
+[2024-04-02 13:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyxu-finufft
+[2024-04-02 13:18:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ccpcli
+[2024-04-02 13:18:59] INFO root fetch - processPackages [django-text-translator]: New version: [2024.4.2] Old Version: [2024.3.5]
+[2024-04-02 13:18:59] WARNING root fetch - processPackages [ccpcli]: Skipping, unable to determine old version
+[2024-04-02 13:18:59] INFO root fetch - main [MainThread]: End processing [ccpcli] error
+[2024-04-02 13:18:59] WARNING root fetch - processPackages [pyxu-finufft]: Skipping, unable to determine old version
+[2024-04-02 13:18:59] INFO root fetch - main [MainThread]: End processing [pyxu-finufft] error
+[2024-04-02 13:18:59] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/73/46/50533a1cc595093d31f07abbae34516007d4b6498fa3d5ae530639bf2198/django-text-translator-2024.3.5.tar.gz
+[2024-04-02 13:18:59] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: New version: [7.1.3] Old Version: [7.1.2]
+[2024-04-02 13:18:59] INFO root fetch - processPackages [onnx2kerastl]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 13:18:59] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/c1/02/e52c64b87d70c539a8f82dec12f9353ce61caab145d1f3625be8d8bdb2c7/cdktf-cdktf-provider-mongodbatlas-7.1.2.tar.gz
+[2024-04-02 13:18:59] INFO root fetch - processPackages [django-text-translator]: Downloading https://files.pythonhosted.org/packages/c9/bc/1ffaeb370d904b52db65276a5fc5f45d92f0e55e25c2ea24cea69abed029/django_text_translator-2024.4.2.tar.gz
+[2024-04-02 13:18:59] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/56/30/4fe6a62a391b7a1f4849721540cb3c2ac08682ab3718cd0bf95ad8649005/onnx2kerastl-0.0.98.tar.gz
+[2024-04-02 13:18:59] INFO root fetch - processPackages [django-text-translator]: executing diffoscope
+[2024-04-02 13:18:59] INFO root fetch - processPackages [django-text-translator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-text-translator-2024.3.5.tar.gz tmp/django_text_translator-2024.4.2.tar.gz --markdown 20240402/d/django-text-translator/2024.3.5-2024.4.2/diff.md --exclude *.pyd
+[2024-04-02 13:18:59] INFO root fetch - processPackages [onnx2kerastl]: Downloading https://files.pythonhosted.org/packages/42/31/7e8fff9b0c93088de0c4c5543ffd14e079e872d9a350b1b6f99febee59e8/onnx2kerastl-0.0.99.tar.gz
+[2024-04-02 13:19:00] INFO root fetch - processPackages [onnx2kerastl]: executing diffoscope
+[2024-04-02 13:19:00] INFO root fetch - processPackages [onnx2kerastl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2kerastl-0.0.98.tar.gz tmp/onnx2kerastl-0.0.99.tar.gz --markdown 20240402/o/onnx2kerastl/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 13:19:00] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Downloading https://files.pythonhosted.org/packages/20/6a/50a81533439ddae485e16c822b7aa3c13be6a5730206731b541b52e694d4/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz
+[2024-04-02 13:19:00] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django-text-translator-2024.3.5.tar.gz]
+[2024-04-02 13:19:00] INFO root fetch - processPackages [django-text-translator]: Remove: archive file [/home/abi/fetcher/tmp/django_text_translator-2024.4.2.tar.gz]
+[2024-04-02 13:19:00] INFO root fetch - main [MainThread]: End processing [django-text-translator]: success
+[2024-04-02 13:19:00] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: executing diffoscope
+[2024-04-02 13:19:00] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-cdktf-provider-mongodbatlas-7.1.2.tar.gz tmp/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz --markdown 20240402/c/cdktf-cdktf-provider-mongodbatlas/7.1.2-7.1.3/diff.md --exclude *.pyd
+[2024-04-02 13:19:00] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.98.tar.gz]
+[2024-04-02 13:19:00] INFO root fetch - processPackages [onnx2kerastl]: Remove: archive file [/home/abi/fetcher/tmp/onnx2kerastl-0.0.99.tar.gz]
+[2024-04-02 13:19:00] INFO root fetch - main [MainThread]: End processing [onnx2kerastl]: success
+[2024-04-02 13:19:04] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.1.2.tar.gz]
+[2024-04-02 13:19:04] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz]
+[2024-04-02 13:19:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
+[2024-04-02 13:19:04] INFO root fetch - main [MainThread]: Store serial: [22583925]
