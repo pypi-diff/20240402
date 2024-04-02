@@ -15274,3 +15274,105 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:02:31] INFO root fetch - processPackages [invenio-users-resources]: Remove: archive file [/home/abi/fetcher/tmp/invenio-users-resources-5.1.1.tar.gz]
 [2024-04-02 11:02:31] INFO root fetch - main [MainThread]: End processing [invenio-users-resources]: success
 [2024-04-02 11:02:31] INFO root fetch - main [MainThread]: Store serial: [22582519]
+[2024-04-02 11:04:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582519]
+[2024-04-02 11:04:41] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BrickBundles
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cj-package
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: BrickAgx
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: impsparc
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: selestium
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datallm
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autogluon.common
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: e6data-python-connector
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autogluon.core
+[2024-04-02 11:04:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: m3-objectpack
+[2024-04-02 11:04:41] INFO root fetch - processPackages [cj-package]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [selestium]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [m3-objectpack]: New version: [3.0.1.4] Old Version: [3.0.1.3]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [BrickAgx]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [impsparc]: New version: [3.1.0] Old Version: [3.0.9]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [BrickBundles]: New version: [0.4.4] Old Version: [0.4.3]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [datallm]: New version: [0.2.3] Old Version: [0.2.2]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-04-02 11:04:41] INFO root fetch - processPackages [autogluon.common]: New version: [1.0.1b20240402] Old Version: [1.0.1b20240401]
+[2024-04-02 11:04:41] INFO root fetch - processPackages [m3-objectpack]: Downloading https://files.pythonhosted.org/packages/f0/cb/48af56aabc0d693c721e65ffab7f8f5e1cc481681185704607ee09973ab3/m3-objectpack-3.0.1.3.tar.gz
+[2024-04-02 11:04:41] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/81/8e/eac2e9279026980a49080da19fc82b9c29a4d8bd6ce356856e0a8fbf0bc2/selestium-0.2.4.tar.gz
+[2024-04-02 11:04:41] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/da/f1/7251475617f700917e1ca74400daece46b8dd816a4f7297c30873eac2493/cj_package-1.0.8.tar.gz
+[2024-04-02 11:04:41] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/27/d4/649e67798125922eabd8d852546f9e7494bb81d4188f4b3bac3fb8e2b669/brickagx-0.4.3-cp39-cp39-win_amd64.whl
+[2024-04-02 11:04:42] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/c3/a1/a7575ad32e3d514ad308f6a69a028b53adfde037ae655f6aa5b46e3932e5/impsparc-3.0.9.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/71/4a/086e9deeb011dea0430e36c2309e1a6c61511f20758d126ee3d609e51f58/brickbundles-0.4.3-py3-none-any.whl
+[2024-04-02 11:04:42] INFO root fetch - processPackages [datallm]: Downloading https://files.pythonhosted.org/packages/2c/3f/39f0ecac76b63d2d090399e8f4c3dba509273f938c12c0b45142690b8e9f/datallm-0.2.2.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/0e/54/93ba495690e16bd1e6f52446af687c318082b8f07b55d2330b3696a2b9c5/autogluon.common-1.0.1b20240401.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [m3-objectpack]: Downloading https://files.pythonhosted.org/packages/45/93/9c3931c9c5ab33017b0d6d2056f9563aaaa91d1e0d9042b8f1c8b4a609aa/m3-objectpack-3.0.1.4.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [cj-package]: Downloading https://files.pythonhosted.org/packages/e2/64/13a4025b10bed4260a45454f62f555ec27bce0fdb58bf2382ee53a7bd528/cj_package-1.0.9.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/64/4a/f36578f1ec3d9ece48cce9bc072c68092a8fa897a5bf7d0b7a73f288de28/selestium-0.2.5.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.core]: New version: [1.0.1b20240402] Old Version: [1.0.1b20240401]
+[2024-04-02 11:04:42] INFO root fetch - processPackages [cj-package]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [cj-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cj_package-1.0.8.tar.gz tmp/cj_package-1.0.9.tar.gz --markdown 20240402/c/cj-package/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [m3-objectpack]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [m3-objectpack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3-objectpack-3.0.1.3.tar.gz tmp/m3-objectpack-3.0.1.4.tar.gz --markdown 20240402/m/m3-objectpack/3.0.1.3-3.0.1.4/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240402/e/e6data-python-connector/2.1.9-2.1.9.dev0/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [selestium]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [selestium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selestium-0.2.4.tar.gz tmp/selestium-0.2.5.tar.gz --markdown 20240402/s/selestium/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [BrickBundles]: Downloading https://files.pythonhosted.org/packages/f6/a5/89f7647db2f0d70a0b338f4999d377330c611dc26a5fac9d8b57d256e908/brickbundles-0.4.4-py3-none-any.whl
+[2024-04-02 11:04:42] INFO root fetch - processPackages [datallm]: Downloading https://files.pythonhosted.org/packages/c3/06/f096c5430de77e7895ae633803df1f4c194f5c179389d6860f19b2158446/datallm-0.2.3.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/e4/68/a9529509e954a05a161cab25efcd8397bff2e971c8107578180992abd0b3/autogluon.common-1.0.1b20240402.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [impsparc]: Downloading https://files.pythonhosted.org/packages/07/ef/e6fe9e5ff43829fcbe2f52449ff51a6e659eca2d4befd868d87e2e1944e6/impsparc-3.1.0.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/bd/f0/0d685c12b466cea3bb03abdb269614a0e1663e433cec0273f89d56b2502e/autogluon.core-1.0.1b20240401.tar.gz
+[2024-04-02 11:04:42] INFO root fetch - processPackages [BrickBundles]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [BrickBundles]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickbundles-0.4.3-py3-none-any.whl.zip tmp/brickbundles-0.4.4-py3-none-any.whl.zip --markdown 20240402/B/BrickBundles/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [datallm]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [datallm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datallm-0.2.2.tar.gz tmp/datallm-0.2.3.tar.gz --markdown 20240402/d/datallm/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-1.0.1b20240401.tar.gz tmp/autogluon.common-1.0.1b20240402.tar.gz --markdown 20240402/a/autogluon.common/1.0.1b20240401-1.0.1b20240402/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [BrickAgx]: Downloading https://files.pythonhosted.org/packages/eb/3e/2776da9c18f4dd04b06aa9d9b4384fa214b87e0b206349fbe1a5b5dc4146/brickagx-0.4.4-cp39-cp39-win_amd64.whl
+[2024-04-02 11:04:42] INFO root fetch - processPackages [impsparc]: executing diffoscope
+[2024-04-02 11:04:42] INFO root fetch - processPackages [impsparc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/impsparc-3.0.9.tar.gz tmp/impsparc-3.1.0.tar.gz --markdown 20240402/i/impsparc/3.0.9-3.1.0/diff.md --exclude *.pyd
+[2024-04-02 11:04:42] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/31/aa/9cb5091251445a7545731d795ec48aa747f5adafd0c2183e43b44da385f4/autogluon.core-1.0.1b20240402.tar.gz
+[2024-04-02 11:04:43] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2024-04-02 11:04:43] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-1.0.1b20240401.tar.gz tmp/autogluon.core-1.0.1b20240402.tar.gz --markdown 20240402/a/autogluon.core/1.0.1b20240401-1.0.1b20240402/diff.md --exclude *.pyd
+[2024-04-02 11:04:43] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.8.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [cj-package]: Remove: archive file [/home/abi/fetcher/tmp/cj_package-1.0.9.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [cj-package]: Start processing: autogluon.features
+[2024-04-02 11:04:43] INFO root fetch - main [MainThread]: End processing [cj-package]: success
+[2024-04-02 11:04:43] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.4.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.5.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - main [MainThread]: End processing [selestium]: success
+[2024-04-02 11:04:43] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.3.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [m3-objectpack]: Remove: archive file [/home/abi/fetcher/tmp/m3-objectpack-3.0.1.4.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - main [MainThread]: End processing [m3-objectpack]: success
+[2024-04-02 11:04:43] INFO root fetch - processPackages [datallm]: Remove: archive file [/home/abi/fetcher/tmp/datallm-0.2.2.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [datallm]: Remove: archive file [/home/abi/fetcher/tmp/datallm-0.2.3.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - main [MainThread]: End processing [datallm]: success
+[2024-04-02 11:04:43] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-04-02 11:04:43] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240401.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-1.0.1b20240402.tar.gz]
+[2024-04-02 11:04:43] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2024-04-02 11:04:43] INFO root fetch - processPackages [autogluon.features]: New version: [1.0.1b20240402] Old Version: [1.0.1b20240401]
+[2024-04-02 11:04:43] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/67/ec/bfad29ca233e37f99fb16e2b521917db31dedf06440a3e8f81ff365e428d/autogluon.features-1.0.1b20240401.tar.gz
+[2024-04-02 11:04:44] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.0.9.tar.gz]
+[2024-04-02 11:04:44] INFO root fetch - processPackages [impsparc]: Remove: archive file [/home/abi/fetcher/tmp/impsparc-3.1.0.tar.gz]
+[2024-04-02 11:04:44] INFO root fetch - main [MainThread]: End processing [impsparc]: success
+[2024-04-02 11:04:44] INFO root fetch - processPackages [BrickAgx]: executing diffoscope
+[2024-04-02 11:04:44] INFO root fetch - processPackages [BrickAgx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/brickagx-0.4.3-cp39-cp39-win_amd64.whl.zip tmp/brickagx-0.4.4-cp39-cp39-win_amd64.whl.zip --markdown 20240402/B/BrickAgx/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2024-04-02 11:04:44] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.4.3-py3-none-any.whl.zip]
+[2024-04-02 11:04:44] INFO root fetch - processPackages [BrickBundles]: Remove: archive file [/home/abi/fetcher/tmp/brickbundles-0.4.4-py3-none-any.whl.zip]
+[2024-04-02 11:04:44] INFO root fetch - main [MainThread]: End processing [BrickBundles]: success
+[2024-04-02 11:04:44] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240401.tar.gz]
+[2024-04-02 11:04:44] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-1.0.1b20240402.tar.gz]
+[2024-04-02 11:04:44] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2024-04-02 11:04:44] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/81/ea/5844db869619a59ce3ed7331d6513ee12f73cbfa734509ea2bb0d828cff8/autogluon.features-1.0.1b20240402.tar.gz
+[2024-04-02 11:04:45] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.4.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 11:04:45] INFO root fetch - processPackages [BrickAgx]: Remove: archive file [/home/abi/fetcher/tmp/brickagx-0.4.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 11:04:45] INFO root fetch - main [MainThread]: End processing [BrickAgx]: success
+[2024-04-02 11:04:47] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2024-04-02 11:04:47] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-1.0.1b20240401.tar.gz tmp/autogluon.features-1.0.1b20240402.tar.gz --markdown 20240402/a/autogluon.features/1.0.1b20240401-1.0.1b20240402/diff.md --exclude *.pyd
+[2024-04-02 11:04:47] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240401.tar.gz]
+[2024-04-02 11:04:47] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240402.tar.gz]
+[2024-04-02 11:04:47] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2024-04-02 11:04:47] INFO root fetch - main [MainThread]: Store serial: [22582554]
