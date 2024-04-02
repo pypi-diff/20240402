@@ -21333,3 +21333,57 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:54:34] INFO root fetch - processPackages [pandapower]: Remove: archive file [/home/abi/fetcher/tmp/pandapower-2.9.0.zip]
 [2024-04-02 14:54:34] INFO root fetch - main [MainThread]: End processing [pandapower]: success
 [2024-04-02 14:54:34] INFO root fetch - main [MainThread]: Store serial: [22585048]
+[2024-04-02 14:56:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585048]
+[2024-04-02 14:56:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: leadguru-jobs
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: boomgate
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tui-dsmt
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sideko-py
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biomero
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anomeda
+[2024-04-02 14:56:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: GeodeApp-Viewer
+[2024-04-02 14:56:44] WARNING root fetch - processPackages [GeodeApp-Viewer]: Skipping, unable to determine old version
+[2024-04-02 14:56:44] INFO root fetch - main [MainThread]: End processing [GeodeApp-Viewer] error
+[2024-04-02 14:56:44] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 14:56:44] INFO root fetch - processPackages [biomero]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-02 14:56:44] INFO root fetch - processPackages [sideko-py]: New version: [0.4.0] Old Version: [0.3.0]
+[2024-04-02 14:56:44] INFO root fetch - processPackages [tui-dsmt]: New version: [202404021248] Old Version: [202403281316]
+[2024-04-02 14:56:44] WARNING root fetch - processPackages [boomgate]: Skipping, unable to determine old version
+[2024-04-02 14:56:44] INFO root fetch - main [MainThread]: End processing [boomgate] error
+[2024-04-02 14:56:44] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 14:56:44] INFO root fetch - processPackages [anomeda]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 14:56:44] INFO root fetch - processPackages [biomero]: Downloading https://files.pythonhosted.org/packages/7c/dc/65d7e481ab81cb06ce680bbe77a95f336261381813135dbc6aa0f0cdb1e3/biomero-1.6.0.tar.gz
+[2024-04-02 14:56:44] INFO root fetch - processPackages [sideko-py]: Downloading https://files.pythonhosted.org/packages/96/73/e9e8ac3a83cdb6fb10cda65cea4407bb627648134403be8ad018077e04c7/sideko_py-0.3.0.tar.gz
+[2024-04-02 14:56:44] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/46/7e/90266d0eb719a327849489a9b4fc058be23dcc9c461cb111de67f7112003/tui_dsmt-202403281316.tar.gz
+[2024-04-02 14:56:44] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 14:56:44] INFO root fetch - processPackages [anomeda]: Downloading https://files.pythonhosted.org/packages/3c/bf/1c75b4fe5444912604fbe8c6f6728429af07265f4f0c6437873ac858ba57/anomeda-0.1.1.tar.gz
+[2024-04-02 14:56:44] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 14:56:44] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 14:56:45] INFO root fetch - processPackages [tui-dsmt]: Downloading https://files.pythonhosted.org/packages/f9/15/f2245a1cca14607c444fb19c849de63e32be35b8091cede0f551dc83d8ab/tui_dsmt-202404021248.tar.gz
+[2024-04-02 14:56:45] INFO root fetch - processPackages [biomero]: Downloading https://files.pythonhosted.org/packages/e1/9e/104955b6bb3f34d32fde7b9d1f4be5d5f46a45b25afbee449ac44c905a72/biomero-1.7.0.tar.gz
+[2024-04-02 14:56:45] INFO root fetch - processPackages [sideko-py]: Downloading https://files.pythonhosted.org/packages/75/51/d0a5030621fe571f3f362bc140b74c96a6fc70e1587ac0f797fc1603ce1a/sideko_py-0.4.0.tar.gz
+[2024-04-02 14:56:45] INFO root fetch - processPackages [anomeda]: Downloading https://files.pythonhosted.org/packages/11/79/924267a332d5633151f06b8c9a0916007b9e15c5290c64b8df29baff744a/anomeda-0.1.2.tar.gz
+[2024-04-02 14:56:45] INFO root fetch - processPackages [sideko-py]: executing diffoscope
+[2024-04-02 14:56:45] INFO root fetch - processPackages [sideko-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sideko_py-0.3.0.tar.gz tmp/sideko_py-0.4.0.tar.gz --markdown 20240402/s/sideko-py/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2024-04-02 14:56:45] INFO root fetch - processPackages [tui-dsmt]: executing diffoscope
+[2024-04-02 14:56:45] INFO root fetch - processPackages [tui-dsmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tui_dsmt-202403281316.tar.gz tmp/tui_dsmt-202404021248.tar.gz --markdown 20240402/t/tui-dsmt/202403281316-202404021248/diff.md --exclude *.pyd
+[2024-04-02 14:56:45] INFO root fetch - processPackages [anomeda]: executing diffoscope
+[2024-04-02 14:56:45] INFO root fetch - processPackages [anomeda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anomeda-0.1.1.tar.gz tmp/anomeda-0.1.2.tar.gz --markdown 20240402/a/anomeda/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 14:56:45] INFO root fetch - processPackages [biomero]: executing diffoscope
+[2024-04-02 14:56:45] INFO root fetch - processPackages [biomero]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biomero-1.6.0.tar.gz tmp/biomero-1.7.0.tar.gz --markdown 20240402/b/biomero/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-02 14:56:45] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 14:56:45] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 14:56:45] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 14:56:46] INFO root fetch - processPackages [sideko-py]: Remove: archive file [/home/abi/fetcher/tmp/sideko_py-0.3.0.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - processPackages [sideko-py]: Remove: archive file [/home/abi/fetcher/tmp/sideko_py-0.4.0.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - main [MainThread]: End processing [sideko-py]: success
+[2024-04-02 14:56:46] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202403281316.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - processPackages [tui-dsmt]: Remove: archive file [/home/abi/fetcher/tmp/tui_dsmt-202404021248.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - main [MainThread]: End processing [tui-dsmt]: success
+[2024-04-02 14:56:46] INFO root fetch - processPackages [anomeda]: Remove: archive file [/home/abi/fetcher/tmp/anomeda-0.1.1.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - processPackages [anomeda]: Remove: archive file [/home/abi/fetcher/tmp/anomeda-0.1.2.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - main [MainThread]: End processing [anomeda]: success
+[2024-04-02 14:56:46] INFO root fetch - processPackages [biomero]: Remove: archive file [/home/abi/fetcher/tmp/biomero-1.6.0.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - processPackages [biomero]: Remove: archive file [/home/abi/fetcher/tmp/biomero-1.7.0.tar.gz]
+[2024-04-02 14:56:46] INFO root fetch - main [MainThread]: End processing [biomero]: success
+[2024-04-02 14:56:46] INFO root fetch - main [MainThread]: Store serial: [22585074]
