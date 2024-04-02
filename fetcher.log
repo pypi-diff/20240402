@@ -12351,3 +12351,74 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:04:09] INFO root fetch - processPackages [tf-models-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_models_nightly-2.9.0.dev20220920-py2.py3-none-any.whl.zip]
 [2024-04-02 09:04:09] INFO root fetch - main [MainThread]: End processing [tf-models-nightly]: success
 [2024-04-02 09:04:09] INFO root fetch - main [MainThread]: Store serial: [22581394]
+[2024-04-02 09:06:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581394]
+[2024-04-02 09:06:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: databricks-sdk
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: swit-core
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ngdb
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Crackerjack
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rocat
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: azure-cli
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ai-butler-sdk
+[2024-04-02 09:06:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: azure-cli-core
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ai-butler-sdk]: New version: [0.4.6] Old Version: [0.4.5]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [rocat]: New version: [0.1.12] Old Version: [0.1.11]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [swit-core]: New version: [4.0.0] Old Version: [3.0.9]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/26/c0/c72d5abc133f9c4b4bc74aeb0408f8195871d6823dadce79528a83fff5da/ai_butler_sdk-0.4.5.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/b0/92/ad4eccef2e8afc8b5df35302d059ab6ed72ecb0c5b141940eca2ae32ebcf/rocat-0.1.11.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ngdb]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [Crackerjack]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [swit-core]: Downloading https://files.pythonhosted.org/packages/05/b6/ff2496729818f235210dcb56d56b9a642f3cfe1b1dbdee8b3a144abac32e/swit_core-3.0.9.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [databricks-sdk]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [azure-cli]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-02 09:06:18] INFO root fetch - processPackages [azure-cli-core]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-02 09:06:18] WARNING root fetch - processPackages [swit-core]: Skipping package: exceeds size limit 23674453>=10485760
+[2024-04-02 09:06:18] INFO root fetch - main [MainThread]: End processing [swit-core] error
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ngdb]: Downloading https://files.pythonhosted.org/packages/13/a1/5c516788ce1aa3d68e2bd4fc98b2e9a4489dc7c1bc343f18b82992667020/ngdb-0.6.0.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/3c/7b/df7c97747246261c5e18eeeccd3fccd465ae8b159a2a5c45cecc6dc36bce/databricks-sdk-0.8.0.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ai-butler-sdk]: Downloading https://files.pythonhosted.org/packages/83/d6/246bead58b5a4a1dd8642c3b27bc6347aa4c0e11d2eec246250e7930667b/ai_butler_sdk-0.4.6.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/a7/40/682dbf1a6b1f3d3ad06a2cdda255b0e2c3c5397a8830e62ede4c0dd7a9ae/crackerjack-0.7.8.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [azure-cli-core]: Downloading https://files.pythonhosted.org/packages/d3/4f/50b22f75e8502d976f4233c52a019a25c05adbf5298cdc1f9e9a8ee1b920/azure-cli-core-2.9.0.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [azure-cli]: Downloading https://files.pythonhosted.org/packages/55/e3/2b888e02a618686d65008d3acf0e761142ca9017714a8ed2014ac40dc846/azure-cli-2.9.0.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [rocat]: Downloading https://files.pythonhosted.org/packages/6c/24/0a4a75e577dded803c59fe0f82af3e7471e919b90420fbad036f4326e637/rocat-0.1.12.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ai-butler-sdk]: executing diffoscope
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ai-butler-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_butler_sdk-0.4.5.tar.gz tmp/ai_butler_sdk-0.4.6.tar.gz --markdown 20240402/a/ai-butler-sdk/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2024-04-02 09:06:18] INFO root fetch - processPackages [rocat]: executing diffoscope
+[2024-04-02 09:06:18] INFO root fetch - processPackages [rocat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rocat-0.1.11.tar.gz tmp/rocat-0.1.12.tar.gz --markdown 20240402/r/rocat/0.1.11-0.1.12/diff.md --exclude *.pyd
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ngdb]: Downloading https://files.pythonhosted.org/packages/e3/30/bc8a8562298481c62bcdc372230c4fbbe41e1e98a4297714ce0399432037/ngdb-0.6.1.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [databricks-sdk]: Downloading https://files.pythonhosted.org/packages/5d/c3/807c4d744e129b1d1fa80a6966260ad471dcabc9a0bfcd53641ed512836a/databricks-sdk-0.9.0.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ngdb]: executing diffoscope
+[2024-04-02 09:06:18] INFO root fetch - processPackages [ngdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngdb-0.6.0.tar.gz tmp/ngdb-0.6.1.tar.gz --markdown 20240402/n/ngdb/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-02 09:06:18] INFO root fetch - processPackages [Crackerjack]: Downloading https://files.pythonhosted.org/packages/c5/75/3568b19058277b8cd82499102cf3be7570336f14e93bacedeb931e7e18cd/crackerjack-0.7.9.tar.gz
+[2024-04-02 09:06:18] INFO root fetch - processPackages [databricks-sdk]: executing diffoscope
+[2024-04-02 09:06:18] INFO root fetch - processPackages [databricks-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/databricks-sdk-0.8.0.tar.gz tmp/databricks-sdk-0.9.0.tar.gz --markdown 20240402/d/databricks-sdk/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 09:06:18] INFO root fetch - processPackages [azure-cli-core]: Downloading https://files.pythonhosted.org/packages/81/23/e7591ae53424c96e9e3757c473ce8d8b6443e11340cc3193e62eb2962363/azure-cli-core-2.9.1.tar.gz
+[2024-04-02 09:06:19] INFO root fetch - processPackages [azure-cli-core]: executing diffoscope
+[2024-04-02 09:06:19] INFO root fetch - processPackages [azure-cli-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-core-2.9.0.tar.gz tmp/azure-cli-core-2.9.1.tar.gz --markdown 20240402/a/azure-cli-core/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-02 09:06:19] INFO root fetch - processPackages [Crackerjack]: executing diffoscope
+[2024-04-02 09:06:19] INFO root fetch - processPackages [Crackerjack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crackerjack-0.7.8.tar.gz tmp/crackerjack-0.7.9.tar.gz --markdown 20240402/C/Crackerjack/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 09:06:19] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.5.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - processPackages [ai-butler-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ai_butler_sdk-0.4.6.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - main [MainThread]: End processing [ai-butler-sdk]: success
+[2024-04-02 09:06:19] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.11.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - processPackages [rocat]: Remove: archive file [/home/abi/fetcher/tmp/rocat-0.1.12.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - main [MainThread]: End processing [rocat]: success
+[2024-04-02 09:06:19] INFO root fetch - processPackages [ngdb]: Remove: archive file [/home/abi/fetcher/tmp/ngdb-0.6.0.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - processPackages [ngdb]: Remove: archive file [/home/abi/fetcher/tmp/ngdb-0.6.1.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - main [MainThread]: End processing [ngdb]: success
+[2024-04-02 09:06:19] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.7.8.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - processPackages [Crackerjack]: Remove: archive file [/home/abi/fetcher/tmp/crackerjack-0.7.9.tar.gz]
+[2024-04-02 09:06:19] INFO root fetch - main [MainThread]: End processing [Crackerjack]: success
+[2024-04-02 09:06:19] INFO root fetch - processPackages [azure-cli]: Downloading https://files.pythonhosted.org/packages/e1/e8/8861f8a8e8829dfedc68de6fe55c42eaa43b6cb37c63ee49fc818f6cab98/azure-cli-2.9.1.tar.gz
+[2024-04-02 09:06:20] INFO root fetch - processPackages [azure-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-core-2.9.0.tar.gz]
+[2024-04-02 09:06:20] INFO root fetch - processPackages [azure-cli-core]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-core-2.9.1.tar.gz]
+[2024-04-02 09:06:20] INFO root fetch - main [MainThread]: End processing [azure-cli-core]: success
+[2024-04-02 09:06:20] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.8.0.tar.gz]
+[2024-04-02 09:06:20] INFO root fetch - processPackages [databricks-sdk]: Remove: archive file [/home/abi/fetcher/tmp/databricks-sdk-0.9.0.tar.gz]
+[2024-04-02 09:06:20] INFO root fetch - main [MainThread]: End processing [databricks-sdk]: success
+[2024-04-02 09:06:21] INFO root fetch - processPackages [azure-cli]: executing diffoscope
+[2024-04-02 09:06:21] INFO root fetch - processPackages [azure-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-cli-2.9.0.tar.gz tmp/azure-cli-2.9.1.tar.gz --markdown 20240402/a/azure-cli/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-02 09:06:24] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.0.tar.gz]
+[2024-04-02 09:06:24] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.1.tar.gz]
+[2024-04-02 09:06:24] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
+[2024-04-02 09:06:24] INFO root fetch - main [MainThread]: Store serial: [22581419]
