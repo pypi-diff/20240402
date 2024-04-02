@@ -19696,3 +19696,21 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:57:59] INFO root fetch - processPackages [epochalyst]: Remove: archive file [/home/abi/fetcher/tmp/epochalyst-0.2.tar.gz]
 [2024-04-02 13:57:59] INFO root fetch - main [MainThread]: End processing [epochalyst]: success
 [2024-04-02 13:57:59] INFO root fetch - main [MainThread]: Store serial: [22584388]
+[2024-04-02 14:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584388]
+[2024-04-02 14:00:08] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 14:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vasprocar
+[2024-04-02 14:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shdo
+[2024-04-02 14:00:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hahomematic
+[2024-04-02 14:00:08] WARNING root fetch - processPackages [vasprocar]: Skipping, unable to determine old version
+[2024-04-02 14:00:08] INFO root fetch - main [MainThread]: End processing [vasprocar] error
+[2024-04-02 14:00:08] WARNING root fetch - processPackages [shdo]: Skipping, unable to determine old version
+[2024-04-02 14:00:08] INFO root fetch - main [MainThread]: End processing [shdo] error
+[2024-04-02 14:00:08] INFO root fetch - processPackages [hahomematic]: New version: [2024.4.0] Old Version: [2024.3.1]
+[2024-04-02 14:00:09] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/03/62/2b2b5d16c9f9050d131e52f1735a6125f3a78988773e2133c12dc678b4e3/hahomematic-2024.3.1.tar.gz
+[2024-04-02 14:00:09] INFO root fetch - processPackages [hahomematic]: Downloading https://files.pythonhosted.org/packages/a0/42/ba0844d5875db2df23ee74dd7b6aaba0c5150fe4fc049fee89422508c013/hahomematic-2024.4.0-py3-none-any.whl
+[2024-04-02 14:00:09] INFO root fetch - processPackages [hahomematic]: executing diffoscope
+[2024-04-02 14:00:09] INFO root fetch - processPackages [hahomematic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hahomematic-2024.3.1.tar.gz tmp/hahomematic-2024.4.0-py3-none-any.whl.zip --markdown 20240402/h/hahomematic/2024.3.1-2024.4.0/diff.md --exclude *.pyd
+[2024-04-02 14:00:10] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.3.1.tar.gz]
+[2024-04-02 14:00:10] INFO root fetch - processPackages [hahomematic]: Remove: archive file [/home/abi/fetcher/tmp/hahomematic-2024.4.0-py3-none-any.whl.zip]
+[2024-04-02 14:00:10] INFO root fetch - main [MainThread]: End processing [hahomematic]: success
+[2024-04-02 14:00:10] INFO root fetch - main [MainThread]: Store serial: [22584394]
