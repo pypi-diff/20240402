@@ -18897,3 +18897,77 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:28:39] INFO root fetch - processPackages [haupt]: Remove: archive file [/home/abi/fetcher/tmp/haupt-2.1.5.tar.gz]
 [2024-04-02 13:28:39] INFO root fetch - main [MainThread]: End processing [haupt]: success
 [2024-04-02 13:28:39] INFO root fetch - main [MainThread]: Store serial: [22584073]
+[2024-04-02 13:30:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584073]
+[2024-04-02 13:30:50] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfminer.aemc
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rpaframework-google
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pdfplumber-aemc
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: irispie
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pre5g
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eyeGestures
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qwak-core
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: py-nillion-client
+[2024-04-02 13:30:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: waxNFTdispatcher
+[2024-04-02 13:30:50] INFO root fetch - processPackages [pdfminer.aemc]: New version: [20221117] Old Version: [20221116]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [irispie]: New version: [0.9.0] Old Version: [0.8.1]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [pdfplumber-aemc]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [pre5g]: New version: [0.93] Old Version: [0.92]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [qwak-core]: New version: [0.3.99] Old Version: [0.3.98]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [rpaframework-google]: New version: [9.0.1] Old Version: [9.0.0]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [waxNFTdispatcher]: New version: [0.3.6] Old Version: [0.3.5]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/58/88/bc73e23686cc7f91b0555212f246dd2a44d45f8b8a03bebbfee6aa98d039/irispie-0.8.1.tar.gz
+[2024-04-02 13:30:50] INFO root fetch - processPackages [py-nillion-client]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-02 13:30:50] INFO root fetch - processPackages [pdfminer.aemc]: Downloading https://files.pythonhosted.org/packages/88/1f/d99ab211af2109aa65a367b1982b8a3a422f55b7b0b22e9fd2c022588bfa/pdfminer.aemc-20221116.tar.gz
+[2024-04-02 13:30:50] WARNING root fetch - processPackages [eyeGestures]: Skipping, unable to determine old version
+[2024-04-02 13:30:50] INFO root fetch - main [MainThread]: End processing [eyeGestures] error
+[2024-04-02 13:30:50] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/11/45/1db032d152258bc4c1d0b2176b7ad414892fa46620682b2074f65556277a/pdfplumber-aemc-0.7.6.tar.gz
+[2024-04-02 13:30:50] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/b7/3c/712fc2c9351aaa0e5686e6b09edd0bee5ca24a9d493438fa5b1fdcfc3dab/pre5g-0.92.tar.gz
+[2024-04-02 13:30:50] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/59/3f/bd28e625e13a379a9463795eed9d170cceaf191d98c6ea302e910c4788e1/qwak_core-0.3.98.tar.gz
+[2024-04-02 13:30:50] INFO root fetch - processPackages [rpaframework-google]: Downloading https://files.pythonhosted.org/packages/2d/70/30de8d2855f86d3f013120eb9da7093e37405ad6a6ed043cae00596004b6/rpaframework_google-9.0.0.tar.gz
+[2024-04-02 13:30:50] INFO root fetch - processPackages [waxNFTdispatcher]: Downloading https://files.pythonhosted.org/packages/c7/07/bf1df1c3d7b8ef77bcecb579890f782ee2124633c3ed8cdb3dc4ae232b21/waxnftdispatcher-0.3.5.tar.gz
+[2024-04-02 13:30:50] INFO root fetch - processPackages [py-nillion-client]: Downloading https://files.pythonhosted.org/packages/f9/23/bf0c9218e77a15dcd3f7ddd44a564ff4c810e7eb60180b27d2069c33be59/py_nillion_client-0.0.9-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/ba/14/2964c33d2c7dab9419585ac28f625e1068a1a5d8c9b30e359a9ddd8868a0/pdfplumber-aemc-0.7.7.tar.gz
+[2024-04-02 13:30:51] WARNING root fetch - processPackages [py-nillion-client]: Skipping package: exceeds size limit 17156711>=10485760
+[2024-04-02 13:30:51] INFO root fetch - main [MainThread]: End processing [py-nillion-client] error
+[2024-04-02 13:30:51] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/71/0e/e7c880c764df31bf9e71679c2a411ac1a48667bfd4caee997236b1cc61fb/qwak_core-0.3.99.tar.gz
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/1b/a4/98218cb817aa14d95c08794c6527365281c669c979b6ebeff798361db45b/pre5g-0.93.tar.gz
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pdfplumber-aemc]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pdfplumber-aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-aemc-0.7.6.tar.gz tmp/pdfplumber-aemc-0.7.7.tar.gz --markdown 20240402/p/pdfplumber-aemc/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.92.tar.gz tmp/pre5g-0.93.tar.gz --markdown 20240402/p/pre5g/0.92-0.93/diff.md --exclude *.pyd
+[2024-04-02 13:30:51] INFO root fetch - processPackages [irispie]: Downloading https://files.pythonhosted.org/packages/87/3e/0f8d1e52d2673f800f57b12d6bde36e8e5141eb6d9b62ba0c8e4e98ac751/irispie-0.9.0.tar.gz
+[2024-04-02 13:30:51] INFO root fetch - processPackages [rpaframework-google]: Downloading https://files.pythonhosted.org/packages/e7/09/1e2f7d4a2af9d520f48b2886ea8f311fd2c197a13e0d3a77c47a528ffd10/rpaframework_google-9.0.1.tar.gz
+[2024-04-02 13:30:51] INFO root fetch - processPackages [waxNFTdispatcher]: Downloading https://files.pythonhosted.org/packages/e3/cd/d2020034820b5ca0e465762d7b84fa8233670b2145233add4844e1c1e663/waxnftdispatcher-0.3.6.tar.gz
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pdfminer.aemc]: Downloading https://files.pythonhosted.org/packages/74/00/6399e4b928ef2877d5b5ea094322ae382516823ad10d6f14a3df2279d597/pdfminer.aemc-20221117.tar.gz
+[2024-04-02 13:30:51] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.3.98.tar.gz tmp/qwak_core-0.3.99.tar.gz --markdown 20240402/q/qwak-core/0.3.98-0.3.99/diff.md --exclude *.pyd
+[2024-04-02 13:30:51] INFO root fetch - processPackages [rpaframework-google]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [rpaframework-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_google-9.0.0.tar.gz tmp/rpaframework_google-9.0.1.tar.gz --markdown 20240402/r/rpaframework-google/9.0.0-9.0.1/diff.md --exclude *.pyd
+[2024-04-02 13:30:51] INFO root fetch - processPackages [waxNFTdispatcher]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [waxNFTdispatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waxnftdispatcher-0.3.5.tar.gz tmp/waxnftdispatcher-0.3.6.tar.gz --markdown 20240402/w/waxNFTdispatcher/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2024-04-02 13:30:51] INFO root fetch - processPackages [irispie]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [irispie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irispie-0.8.1.tar.gz tmp/irispie-0.9.0.tar.gz --markdown 20240402/i/irispie/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pdfminer.aemc]: executing diffoscope
+[2024-04-02 13:30:51] INFO root fetch - processPackages [pdfminer.aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer.aemc-20221116.tar.gz tmp/pdfminer.aemc-20221117.tar.gz --markdown 20240402/p/pdfminer.aemc/20221116-20221117/diff.md --exclude *.pyd
+[2024-04-02 13:30:52] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.92.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.93.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-02 13:30:52] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.6.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.7.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - main [MainThread]: End processing [pdfplumber-aemc]: success
+[2024-04-02 13:30:52] INFO root fetch - processPackages [waxNFTdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/waxnftdispatcher-0.3.5.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - processPackages [waxNFTdispatcher]: Remove: archive file [/home/abi/fetcher/tmp/waxnftdispatcher-0.3.6.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - main [MainThread]: End processing [waxNFTdispatcher]: success
+[2024-04-02 13:30:52] INFO root fetch - processPackages [rpaframework-google]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_google-9.0.0.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - processPackages [rpaframework-google]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_google-9.0.1.tar.gz]
+[2024-04-02 13:30:52] INFO root fetch - main [MainThread]: End processing [rpaframework-google]: success
+[2024-04-02 13:30:54] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.8.1.tar.gz]
+[2024-04-02 13:30:54] INFO root fetch - processPackages [irispie]: Remove: archive file [/home/abi/fetcher/tmp/irispie-0.9.0.tar.gz]
+[2024-04-02 13:30:54] INFO root fetch - main [MainThread]: End processing [irispie]: success
+[2024-04-02 13:30:54] INFO root fetch - processPackages [pdfminer.aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer.aemc-20221116.tar.gz]
+[2024-04-02 13:30:54] INFO root fetch - processPackages [pdfminer.aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer.aemc-20221117.tar.gz]
+[2024-04-02 13:30:54] INFO root fetch - main [MainThread]: End processing [pdfminer.aemc]: success
+[2024-04-02 13:30:55] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.98.tar.gz]
+[2024-04-02 13:30:55] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
+[2024-04-02 13:30:55] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2024-04-02 13:30:55] INFO root fetch - main [MainThread]: Store serial: [22584108]
