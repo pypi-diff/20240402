@@ -9054,3 +9054,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:42:41] INFO root fetch - processPackages [shipyard-slack]: Remove: archive file [/home/abi/fetcher/tmp/shipyard_slack-0.1.4a0.tar.gz]
 [2024-04-02 04:42:41] INFO root fetch - main [MainThread]: End processing [shipyard-slack]: success
 [2024-04-02 04:42:41] INFO root fetch - main [MainThread]: Store serial: [22580097]
+[2024-04-02 04:44:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580097]
+[2024-04-02 04:44:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 04:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FSRS-Optimizer
+[2024-04-02 04:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manteia-pylinac
+[2024-04-02 04:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: astromcad
+[2024-04-02 04:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: predicthq
+[2024-04-02 04:44:50] WARNING root fetch - processPackages [manteia-pylinac]: Skipping, unable to determine old version
+[2024-04-02 04:44:50] INFO root fetch - main [MainThread]: End processing [manteia-pylinac] error
+[2024-04-02 04:44:50] INFO root fetch - processPackages [FSRS-Optimizer]: New version: [4.9.1] Old Version: [4.9.0]
+[2024-04-02 04:44:50] INFO root fetch - processPackages [astromcad]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 04:44:50] INFO root fetch - processPackages [predicthq]: New version: [3.3.0] Old Version: [3.2.0]
+[2024-04-02 04:44:50] INFO root fetch - processPackages [astromcad]: Downloading https://files.pythonhosted.org/packages/45/c1/cd9e92bbc689afadb40e8e48dbf9284cfb090cc7abf410c7dbeb30e3bccf/astromcad-0.0.8.tar.gz
+[2024-04-02 04:44:50] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/3b/99/ed9611766c54d3246138921362bf9c9277a2294c7e349cc2c73adad35fcf/FSRS-Optimizer-4.9.0.tar.gz
+[2024-04-02 04:44:50] INFO root fetch - processPackages [predicthq]: Downloading https://files.pythonhosted.org/packages/cb/e7/4dab937907b00ba54ad95ff6c8a27fe0b76ffff01a1fa021ab528ed63342/predicthq-3.2.0.tar.gz
+[2024-04-02 04:44:51] INFO root fetch - processPackages [astromcad]: Downloading https://files.pythonhosted.org/packages/d3/74/c39b12c027b4d38eefdd4fc6da05eb77c094938402f48e86fdbe2c47cbce/astromcad-0.0.9.tar.gz
+[2024-04-02 04:44:51] INFO root fetch - processPackages [FSRS-Optimizer]: Downloading https://files.pythonhosted.org/packages/27/db/53f188d4c7d7816753b79f8815d890ddec6e330cf3864087d6e403ae05ed/FSRS-Optimizer-4.9.1.tar.gz
+[2024-04-02 04:44:51] INFO root fetch - processPackages [predicthq]: Downloading https://files.pythonhosted.org/packages/c3/e5/b6138e69e395c56a307f6ba1ffadd71ca865d0853e352b244247b8d264a6/predicthq-3.3.0.tar.gz
+[2024-04-02 04:44:51] INFO root fetch - processPackages [astromcad]: executing diffoscope
+[2024-04-02 04:44:51] INFO root fetch - processPackages [astromcad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromcad-0.0.8.tar.gz tmp/astromcad-0.0.9.tar.gz --markdown 20240402/a/astromcad/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 04:44:51] INFO root fetch - processPackages [FSRS-Optimizer]: executing diffoscope
+[2024-04-02 04:44:51] INFO root fetch - processPackages [FSRS-Optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FSRS-Optimizer-4.9.0.tar.gz tmp/FSRS-Optimizer-4.9.1.tar.gz --markdown 20240402/F/FSRS-Optimizer/4.9.0-4.9.1/diff.md --exclude *.pyd
+[2024-04-02 04:44:51] INFO root fetch - processPackages [predicthq]: executing diffoscope
+[2024-04-02 04:44:51] INFO root fetch - processPackages [predicthq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/predicthq-3.2.0.tar.gz tmp/predicthq-3.3.0.tar.gz --markdown 20240402/p/predicthq/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2024-04-02 04:44:51] INFO root fetch - processPackages [astromcad]: Remove: archive file [/home/abi/fetcher/tmp/astromcad-0.0.8.tar.gz]
+[2024-04-02 04:44:51] INFO root fetch - processPackages [astromcad]: Remove: archive file [/home/abi/fetcher/tmp/astromcad-0.0.9.tar.gz]
+[2024-04-02 04:44:51] INFO root fetch - main [MainThread]: End processing [astromcad]: success
+[2024-04-02 04:44:51] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.9.0.tar.gz]
+[2024-04-02 04:44:51] INFO root fetch - processPackages [FSRS-Optimizer]: Remove: archive file [/home/abi/fetcher/tmp/FSRS-Optimizer-4.9.1.tar.gz]
+[2024-04-02 04:44:51] INFO root fetch - main [MainThread]: End processing [FSRS-Optimizer]: success
+[2024-04-02 04:44:51] INFO root fetch - processPackages [predicthq]: Remove: archive file [/home/abi/fetcher/tmp/predicthq-3.2.0.tar.gz]
+[2024-04-02 04:44:51] INFO root fetch - processPackages [predicthq]: Remove: archive file [/home/abi/fetcher/tmp/predicthq-3.3.0.tar.gz]
+[2024-04-02 04:44:51] INFO root fetch - main [MainThread]: End processing [predicthq]: success
+[2024-04-02 04:44:51] INFO root fetch - main [MainThread]: Store serial: [22580110]
