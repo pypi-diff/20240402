@@ -23028,3 +23028,92 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:50:43] INFO root fetch - processPackages [struphy]: Remove: archive file [/home/abi/fetcher/tmp/struphy-2.3.0.tar.gz]
 [2024-04-02 15:50:43] INFO root fetch - main [MainThread]: End processing [struphy]: success
 [2024-04-02 15:50:43] INFO root fetch - main [MainThread]: Store serial: [22585772]
+[2024-04-02 15:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585772]
+[2024-04-02 15:52:52] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mapentity
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thirdai
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: error-parity
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pulumi-azure-native
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genericsuite
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matatika
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scCellFie
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pluthon
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: malet
+[2024-04-02 15:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: napari-segment-everything
+[2024-04-02 15:52:52] INFO root fetch - processPackages [pluthon]: New version: [0.5.2] Old Version: [0.5.1]
+[2024-04-02 15:52:52] INFO root fetch - processPackages [mapentity]: New version: [8.7.3] Old Version: [8.7.2]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [scCellFie]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/65/25/6fad636b019d4eef10b3577e42aea2e1a56deb24c6cf6e5debc26b2a1448/pluthon-0.5.1.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [error-parity]: New version: [0.3.9] Old Version: [0.3.8]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [genericsuite]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [matatika]: New version: [1.9.1] Old Version: [1.9.0]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [malet]: New version: [0.1.8] Old Version: [0.1.7]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [pulumi-azure-native]: New version: [2.9.1a1696416212] Old Version: [2.9.1a1696411987]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [napari-segment-everything]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [thirdai]: New version: [0.7.9] Old Version: [0.7.8]
+[2024-04-02 15:52:53] INFO root fetch - processPackages [mapentity]: Downloading https://files.pythonhosted.org/packages/52/fb/ff8fa48d0a164643c2cb7470f45c3f03005c8a5b9466a83d178b7e845110/mapentity-8.7.2.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/f7/0e/13dfdde8b072bac33f1921c97acc223532e9c6e0b32720cf291fc47243d6/scCellFie-0.1.5.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/67/62/8b508b5b9d1da87add6f6c0c0efaeccac73ee7a459ecd518a0ef2c299254/error-parity-0.3.8.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [pluthon]: Downloading https://files.pythonhosted.org/packages/4f/a9/19a8555127955990ee422a233d6b05333bc0a6be12c6ec7bde48881a324d/pluthon-0.5.2.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [pulumi-azure-native]: Downloading https://files.pythonhosted.org/packages/7c/39/23e88d5a9a544cb9a75a9c0b077f73c9c90cb756d8e32766dfffb90f8833/pulumi_azure_native-2.9.1a1696411987.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [matatika]: Downloading https://files.pythonhosted.org/packages/34/d8/7719a0dd53b093b6922d8a2446671b0e39a7f0b5c7b4402060a8332e6c56/matatika-1.9.0-py3-none-any.whl
+[2024-04-02 15:52:53] INFO root fetch - processPackages [napari-segment-everything]: Downloading https://files.pythonhosted.org/packages/c4/be/a9bd48378f485b5ea5e41be27aa32b14f1129bbb2d525cbd67869c2279fd/napari-segment-everything-0.1.0.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [malet]: Downloading https://files.pythonhosted.org/packages/90/c6/1d690a1524355955cf0af313899ccde923faf67c84724bbd43e5adb03d65/malet-0.1.7.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/b1/12/b896a0b4f98dbe96f4ba4bdb06dc51f9422b0d113ed60f040dabf1d8fa3a/thirdai-0.7.8-cp39-cp39-win_amd64.whl
+[2024-04-02 15:52:53] INFO root fetch - processPackages [genericsuite]: Downloading https://files.pythonhosted.org/packages/a7/6b/900e3fa3e456b016308103e40ba8aea3daba69818077060c8393ac429603/genericsuite-0.1.1.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [pluthon]: executing diffoscope
+[2024-04-02 15:52:53] INFO root fetch - processPackages [pluthon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluthon-0.5.1.tar.gz tmp/pluthon-0.5.2.tar.gz --markdown 20240402/p/pluthon/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2024-04-02 15:52:53] INFO root fetch - processPackages [scCellFie]: Downloading https://files.pythonhosted.org/packages/27/71/1c960153f9b6f080d6dfba766022049bdf186cb10e128ef6f4521ff94f1d/scCellFie-0.1.6.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [mapentity]: Downloading https://files.pythonhosted.org/packages/67/3e/6d0618689df95e02207063b06f4849fb3f8a5df39f836b5af3eb0afe446e/mapentity-8.7.3.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [napari-segment-everything]: Downloading https://files.pythonhosted.org/packages/2c/0f/13cb76e579bc1f872d7b891fd894c03c589c6e9385e17ad0b196880339ff/napari-segment-everything-0.1.1.tar.gz
+[2024-04-02 15:52:53] WARNING root fetch - processPackages [pulumi-azure-native]: Skipping package: exceeds size limit 27430128>=10485760
+[2024-04-02 15:52:53] INFO root fetch - main [MainThread]: End processing [pulumi-azure-native] error
+[2024-04-02 15:52:53] INFO root fetch - processPackages [malet]: Downloading https://files.pythonhosted.org/packages/37/d3/a5d7477a20c6fd6f8f1c1417ef57e3ab5c60831aac980952a01cb2329cd5/malet-0.1.8.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/32/d6/ebb5b99a62633441b0b4548ff1f91167a76a04565aaf7ba8a0fe3fce4d45/error-parity-0.3.9.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [matatika]: Downloading https://files.pythonhosted.org/packages/cb/76/08e07a7e2374f6e6e9ea7ab95729df5c9321feb06b2a7c33d727345bff6d/matatika-1.9.1-py3-none-any.whl
+[2024-04-02 15:52:53] INFO root fetch - processPackages [genericsuite]: Downloading https://files.pythonhosted.org/packages/d1/e6/691e0a3c58381612c48fa79d87e0ce0737d48609ddef23fdbef220c49493/genericsuite-0.1.2.tar.gz
+[2024-04-02 15:52:53] INFO root fetch - processPackages [scCellFie]: executing diffoscope
+[2024-04-02 15:52:53] INFO root fetch - processPackages [scCellFie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scCellFie-0.1.5.tar.gz tmp/scCellFie-0.1.6.tar.gz --markdown 20240402/s/scCellFie/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [error-parity]: executing diffoscope
+[2024-04-02 15:52:54] INFO root fetch - processPackages [genericsuite]: executing diffoscope
+[2024-04-02 15:52:54] INFO root fetch - processPackages [genericsuite]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genericsuite-0.1.1.tar.gz tmp/genericsuite-0.1.2.tar.gz --markdown 20240402/g/genericsuite/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [error-parity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-parity-0.3.8.tar.gz tmp/error-parity-0.3.9.tar.gz --markdown 20240402/e/error-parity/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [matatika]: executing diffoscope
+[2024-04-02 15:52:54] INFO root fetch - processPackages [matatika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matatika-1.9.0-py3-none-any.whl.zip tmp/matatika-1.9.1-py3-none-any.whl.zip --markdown 20240402/m/matatika/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [napari-segment-everything]: executing diffoscope
+[2024-04-02 15:52:54] INFO root fetch - processPackages [napari-segment-everything]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-segment-everything-0.1.0.tar.gz tmp/napari-segment-everything-0.1.1.tar.gz --markdown 20240402/n/napari-segment-everything/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [malet]: executing diffoscope
+[2024-04-02 15:52:54] INFO root fetch - processPackages [malet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/malet-0.1.7.tar.gz tmp/malet-0.1.8.tar.gz --markdown 20240402/m/malet/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [pluthon]: Remove: archive file [/home/abi/fetcher/tmp/pluthon-0.5.1.tar.gz]
+[2024-04-02 15:52:54] INFO root fetch - processPackages [pluthon]: Remove: archive file [/home/abi/fetcher/tmp/pluthon-0.5.2.tar.gz]
+[2024-04-02 15:52:54] INFO root fetch - main [MainThread]: End processing [pluthon]: success
+[2024-04-02 15:52:54] INFO root fetch - processPackages [mapentity]: executing diffoscope
+[2024-04-02 15:52:54] INFO root fetch - processPackages [mapentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapentity-8.7.2.tar.gz tmp/mapentity-8.7.3.tar.gz --markdown 20240402/m/mapentity/8.7.2-8.7.3/diff.md --exclude *.pyd
+[2024-04-02 15:52:54] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.5.tar.gz]
+[2024-04-02 15:52:54] INFO root fetch - processPackages [scCellFie]: Remove: archive file [/home/abi/fetcher/tmp/scCellFie-0.1.6.tar.gz]
+[2024-04-02 15:52:54] INFO root fetch - main [MainThread]: End processing [scCellFie]: success
+[2024-04-02 15:52:54] INFO root fetch - processPackages [napari-segment-everything]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-everything-0.1.0.tar.gz]
+[2024-04-02 15:52:54] INFO root fetch - processPackages [napari-segment-everything]: Remove: archive file [/home/abi/fetcher/tmp/napari-segment-everything-0.1.1.tar.gz]
+[2024-04-02 15:52:54] INFO root fetch - main [MainThread]: End processing [napari-segment-everything]: success
+[2024-04-02 15:52:55] INFO root fetch - processPackages [malet]: Remove: archive file [/home/abi/fetcher/tmp/malet-0.1.7.tar.gz]
+[2024-04-02 15:52:55] INFO root fetch - processPackages [malet]: Remove: archive file [/home/abi/fetcher/tmp/malet-0.1.8.tar.gz]
+[2024-04-02 15:52:55] INFO root fetch - main [MainThread]: End processing [malet]: success
+[2024-04-02 15:52:55] INFO root fetch - processPackages [matatika]: Remove: archive file [/home/abi/fetcher/tmp/matatika-1.9.0-py3-none-any.whl.zip]
+[2024-04-02 15:52:55] INFO root fetch - processPackages [matatika]: Remove: archive file [/home/abi/fetcher/tmp/matatika-1.9.1-py3-none-any.whl.zip]
+[2024-04-02 15:52:55] INFO root fetch - main [MainThread]: End processing [matatika]: success
+[2024-04-02 15:52:55] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.3.8.tar.gz]
+[2024-04-02 15:52:55] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.3.9.tar.gz]
+[2024-04-02 15:52:55] INFO root fetch - main [MainThread]: End processing [error-parity]: success
+[2024-04-02 15:52:55] INFO root fetch - processPackages [genericsuite]: Remove: archive file [/home/abi/fetcher/tmp/genericsuite-0.1.1.tar.gz]
+[2024-04-02 15:52:55] INFO root fetch - processPackages [genericsuite]: Remove: archive file [/home/abi/fetcher/tmp/genericsuite-0.1.2.tar.gz]
+[2024-04-02 15:52:55] INFO root fetch - main [MainThread]: End processing [genericsuite]: success
+[2024-04-02 15:52:55] INFO root fetch - processPackages [thirdai]: Downloading https://files.pythonhosted.org/packages/8b/6d/f4bf727538b7c529fb99b293a68c5d32b9abf781998bb6f3c117f307ab47/thirdai-0.7.9-cp39-cp39-win_amd64.whl
+[2024-04-02 15:52:56] INFO root fetch - processPackages [thirdai]: executing diffoscope
+[2024-04-02 15:52:56] INFO root fetch - processPackages [thirdai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip --markdown 20240402/t/thirdai/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 15:52:57] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.8-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 15:52:57] INFO root fetch - processPackages [thirdai]: Remove: archive file [/home/abi/fetcher/tmp/thirdai-0.7.9-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 15:52:57] INFO root fetch - main [MainThread]: End processing [thirdai]: success
+[2024-04-02 15:53:00] INFO root fetch - processPackages [mapentity]: Remove: archive file [/home/abi/fetcher/tmp/mapentity-8.7.2.tar.gz]
+[2024-04-02 15:53:00] INFO root fetch - processPackages [mapentity]: Remove: archive file [/home/abi/fetcher/tmp/mapentity-8.7.3.tar.gz]
+[2024-04-02 15:53:00] INFO root fetch - main [MainThread]: End processing [mapentity]: success
+[2024-04-02 15:53:00] INFO root fetch - main [MainThread]: Store serial: [22585815]
