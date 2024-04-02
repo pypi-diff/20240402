@@ -24004,3 +24004,78 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 16:22:33] INFO root fetch - processPackages [feezfuzz]: Remove: archive file [/home/abi/fetcher/tmp/feezfuzz-0.1.4.3.tar.gz]
 [2024-04-02 16:22:33] INFO root fetch - main [MainThread]: End processing [feezfuzz]: success
 [2024-04-02 16:22:33] INFO root fetch - main [MainThread]: Store serial: [22586248]
+[2024-04-02 16:24:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22586248]
+[2024-04-02 16:24:41] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybrid-api-organization-python
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: speakeasy-client-sdk-python
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oarepo-requests
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cybrid-api-id-python
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slepc
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PandaPosMetrik
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: slepc4py
+[2024-04-02 16:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dhxpyt
+[2024-04-02 16:24:41] INFO root fetch - processPackages [PandaPosMetrik]: New version: [2.0.7] Old Version: [2.0.6]
+[2024-04-02 16:24:41] INFO root fetch - processPackages [dhxpyt]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-02 16:24:41] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.5.1] Old Version: [5.5.0]
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-id-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-organization-python]: New version: [0.99.0] Old Version: [0.98.2]
+[2024-04-02 16:24:42] INFO root fetch - processPackages [oarepo-requests]: New version: [1.1.9] Old Version: [1.1.8]
+[2024-04-02 16:24:42] INFO root fetch - processPackages [slepc]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-02 16:24:42] INFO root fetch - processPackages [slepc4py]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/2d/66/0d5dc17801b737dd53e021a1548eb784ef8520799bdffbae60e088bf723c/cybrid-api-id-python-0.98.2.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [PandaPosMetrik]: Downloading https://files.pythonhosted.org/packages/f9/cb/cd14e533af6fa61a3171c98dbdfbc08735e46d32eb2ad36e2d5b767f6e80/PandaPosMetrik-2.0.6.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/82/74/72eb5e07d7fc93f4c76a433fa1a18d2c7aacc94f3311c6bca4a5736689fa/speakeasy-client-sdk-python-5.5.0.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [dhxpyt]: Downloading https://files.pythonhosted.org/packages/d1/7a/d3d0885c6226592c762be617a17752419e04e85d34cd66e84220fc550775/dhxpyt-0.4.2.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/75/d9/17a583a2d5fccaef7210a11d9f7dc963aab51cd4a5ae5f7983c03291f4bc/cybrid-api-organization-python-0.98.2.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [oarepo-requests]: Downloading https://files.pythonhosted.org/packages/33/6f/8d1f25079758c1ec0d1492f7b49706fa7f23d85526accdc87b8105d94ab6/oarepo-requests-1.1.8.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [slepc]: Downloading https://files.pythonhosted.org/packages/08/05/388c9d4605cdfd73831e6c8eedb61b5e30d7ca3790bf8bc78d1e8ebef0f5/slepc-3.8.0.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [slepc4py]: Downloading https://files.pythonhosted.org/packages/9c/59/4c2d2626af94489c92efcc5404c2a902f817c7ef0ec5bd5f6cd5c24d91dd/slepc4py-3.8.0.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/a0/7c/2d471495dca77c10f318c4351de999c02353a50bd7836c2f2f5bb9011e41/speakeasy-client-sdk-python-5.5.1.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-organization-python]: Downloading https://files.pythonhosted.org/packages/93/ab/a857018ac26aeaa884608066dbe6bd482e17a4edf88533d3335a3ed2a25c/cybrid-api-organization-python-0.99.0.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [PandaPosMetrik]: Downloading https://files.pythonhosted.org/packages/2b/7c/949565b71d8c334a6116f358753829cbeb63c2c42c9f7d06b728476acedd/PandaPosMetrik-2.0.7.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-id-python]: Downloading https://files.pythonhosted.org/packages/de/07/de389a95ca98f482f653401dbe8342cf8d4930d1efee86d1f28f3c1afcd1/cybrid-api-id-python-0.99.0.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [dhxpyt]: Downloading https://files.pythonhosted.org/packages/ab/96/cd47c4afdf35a1bd1da7923f936b24ce38dd451609bb4282488ff3d49785/dhxpyt-0.4.3.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-04-02 16:24:42] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.5.0.tar.gz tmp/speakeasy-client-sdk-python-5.5.1.tar.gz --markdown 20240402/s/speakeasy-client-sdk-python/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-organization-python]: executing diffoscope
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-organization-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-organization-python-0.98.2.tar.gz tmp/cybrid-api-organization-python-0.99.0.tar.gz --markdown 20240402/c/cybrid-api-organization-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 16:24:42] INFO root fetch - processPackages [oarepo-requests]: Downloading https://files.pythonhosted.org/packages/e4/74/a60552d8b5230aa1baff2a77618cb19cf9ce59be5895d7d27207106260f2/oarepo-requests-1.1.9.tar.gz
+[2024-04-02 16:24:42] INFO root fetch - processPackages [PandaPosMetrik]: executing diffoscope
+[2024-04-02 16:24:42] INFO root fetch - processPackages [PandaPosMetrik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PandaPosMetrik-2.0.6.tar.gz tmp/PandaPosMetrik-2.0.7.tar.gz --markdown 20240402/P/PandaPosMetrik/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2024-04-02 16:24:42] INFO root fetch - processPackages [dhxpyt]: executing diffoscope
+[2024-04-02 16:24:42] INFO root fetch - processPackages [dhxpyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dhxpyt-0.4.2.tar.gz tmp/dhxpyt-0.4.3.tar.gz --markdown 20240402/d/dhxpyt/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-id-python]: executing diffoscope
+[2024-04-02 16:24:42] INFO root fetch - processPackages [cybrid-api-id-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybrid-api-id-python-0.98.2.tar.gz tmp/cybrid-api-id-python-0.99.0.tar.gz --markdown 20240402/c/cybrid-api-id-python/0.98.2-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 16:24:42] INFO root fetch - processPackages [oarepo-requests]: executing diffoscope
+[2024-04-02 16:24:42] INFO root fetch - processPackages [oarepo-requests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oarepo-requests-1.1.8.tar.gz tmp/oarepo-requests-1.1.9.tar.gz --markdown 20240402/o/oarepo-requests/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2024-04-02 16:24:42] INFO root fetch - processPackages [slepc4py]: Downloading https://files.pythonhosted.org/packages/36/d1/579e50427fa96480d92458c7df5e46fc79f35c5fe158f36fe7a1688073c0/slepc4py-3.9.0.tar.gz
+[2024-04-02 16:24:43] INFO root fetch - processPackages [slepc4py]: executing diffoscope
+[2024-04-02 16:24:43] INFO root fetch - processPackages [slepc4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slepc4py-3.8.0.tar.gz tmp/slepc4py-3.9.0.tar.gz --markdown 20240402/s/slepc4py/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-02 16:24:43] INFO root fetch - processPackages [dhxpyt]: Remove: archive file [/home/abi/fetcher/tmp/dhxpyt-0.4.2.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - processPackages [dhxpyt]: Remove: archive file [/home/abi/fetcher/tmp/dhxpyt-0.4.3.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - main [MainThread]: End processing [dhxpyt]: success
+[2024-04-02 16:24:43] INFO root fetch - processPackages [PandaPosMetrik]: Remove: archive file [/home/abi/fetcher/tmp/PandaPosMetrik-2.0.6.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - processPackages [PandaPosMetrik]: Remove: archive file [/home/abi/fetcher/tmp/PandaPosMetrik-2.0.7.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - main [MainThread]: End processing [PandaPosMetrik]: success
+[2024-04-02 16:24:43] INFO root fetch - processPackages [oarepo-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-requests-1.1.8.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - processPackages [oarepo-requests]: Remove: archive file [/home/abi/fetcher/tmp/oarepo-requests-1.1.9.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - main [MainThread]: End processing [oarepo-requests]: success
+[2024-04-02 16:24:43] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.98.2.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - processPackages [cybrid-api-organization-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-organization-python-0.99.0.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - main [MainThread]: End processing [cybrid-api-organization-python]: success
+[2024-04-02 16:24:43] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.5.0.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.5.1.tar.gz]
+[2024-04-02 16:24:43] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-04-02 16:24:44] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.98.2.tar.gz]
+[2024-04-02 16:24:44] INFO root fetch - processPackages [cybrid-api-id-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-id-python-0.99.0.tar.gz]
+[2024-04-02 16:24:44] INFO root fetch - main [MainThread]: End processing [cybrid-api-id-python]: success
+[2024-04-02 16:24:44] INFO root fetch - processPackages [slepc]: Downloading https://files.pythonhosted.org/packages/25/ee/eca61b9a377111ffb10195d47bb6b8e8cb76b06b3e411065b7c99b4b084f/slepc-3.9.0.tar.gz
+[2024-04-02 16:24:46] INFO root fetch - processPackages [slepc]: executing diffoscope
+[2024-04-02 16:24:46] INFO root fetch - processPackages [slepc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slepc-3.8.0.tar.gz tmp/slepc-3.9.0.tar.gz --markdown 20240402/s/slepc/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-02 16:24:48] INFO root fetch - processPackages [slepc4py]: Remove: archive file [/home/abi/fetcher/tmp/slepc4py-3.8.0.tar.gz]
+[2024-04-02 16:24:48] INFO root fetch - processPackages [slepc4py]: Remove: archive file [/home/abi/fetcher/tmp/slepc4py-3.9.0.tar.gz]
+[2024-04-02 16:24:48] INFO root fetch - main [MainThread]: End processing [slepc4py]: success
+[2024-04-02 16:25:24] INFO root fetch - processPackages [slepc]: Remove: archive file [/home/abi/fetcher/tmp/slepc-3.8.0.tar.gz]
+[2024-04-02 16:25:24] INFO root fetch - processPackages [slepc]: Remove: archive file [/home/abi/fetcher/tmp/slepc-3.9.0.tar.gz]
+[2024-04-02 16:25:24] INFO root fetch - main [MainThread]: End processing [slepc]: success
+[2024-04-02 16:25:24] INFO root fetch - main [MainThread]: Store serial: [22586270]
