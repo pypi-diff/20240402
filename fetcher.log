@@ -17695,3 +17695,91 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:38:47] INFO root fetch - processPackages [schemaorg-lite]: Remove: archive file [/home/abi/fetcher/tmp/schemaorg_lite-0.1.8.tar.gz]
 [2024-04-02 12:38:47] INFO root fetch - main [MainThread]: End processing [schemaorg-lite]: success
 [2024-04-02 12:38:47] INFO root fetch - main [MainThread]: Store serial: [22583612]
+[2024-04-02 12:40:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583612]
+[2024-04-02 12:40:56] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: money-to-prisoners-common
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CtqKit
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SQLAlchemyExample
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pymemgpt-nightly
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: distributed-logging
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: misleep
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cv-pom
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: CtqKit
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: skypilot-nightly
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ragcar
+[2024-04-02 12:40:56] INFO root fetch - processPackages [pymemgpt-nightly]: New version: [0.3.7.dev20240401103911] Old Version: [0.3.7.dev20240331103908]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [skypilot-nightly]: New version: [1.0.0.dev20240401] Old Version: [1.0.0.dev20240331]
+[2024-04-02 12:40:56] WARNING root fetch - processPackages [distributed-logging]: Skipping, unable to determine old version
+[2024-04-02 12:40:56] INFO root fetch - processPackages [distributed-logging]: Start processing: d-fake-seeder
+[2024-04-02 12:40:56] INFO root fetch - main [MainThread]: End processing [distributed-logging] error
+[2024-04-02 12:40:56] INFO root fetch - processPackages [CtqKit]: New version: [0.1.1b1] Old Version: [0.1.0b1]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [CtqKit]: New version: [0.1.1b1] Old Version: [0.1.0b1]
+[2024-04-02 12:40:56] WARNING root fetch - processPackages [cv-pom]: Skipping, unable to determine old version
+[2024-04-02 12:40:56] INFO root fetch - main [MainThread]: End processing [cv-pom] error
+[2024-04-02 12:40:56] INFO root fetch - processPackages [ragcar]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [misleep]: New version: [0.1.0b0] Old Version: [0.0.1]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [SQLAlchemyExample]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [money-to-prisoners-common]: New version: [9.9.0] Old Version: [9.8.1]
+[2024-04-02 12:40:56] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/7c/96/ddf2259e2bda166ce7710bf9d183dc8c2cade3f3f90c91f37e35bd0a7dec/pymemgpt_nightly-0.3.7.dev20240331103908.tar.gz
+[2024-04-02 12:40:56] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/b5/e7/f0a9f0d9594e3f358e2d119c4a2c82411a521c9be3337eb24d36f1b9f86d/ctqkit-0.1.0b1.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/b5/e7/f0a9f0d9594e3f358e2d119c4a2c82411a521c9be3337eb24d36f1b9f86d/ctqkit-0.1.0b1.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/55/90/959c6696c1bd54325124c8ad66368a8ec75dc623cd59ccd7b87152420fdd/SQLAlchemyExample-0.1.8.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/e1/92/386499f6834be47cb6b70edefdde506b903fb557ff8010e167b98390760a/skypilot-nightly-1.0.0.dev20240331.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [ragcar]: Downloading https://files.pythonhosted.org/packages/6c/c4/e81e48ee0f0947f34166953cead8f56dfc0b2f05aaa4a27d6cbede66e7f7/ragcar-0.1.2.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/11/b6/178db1597183fd316e29d36cc9c5a2749297e97c88356a24913932872774/misleep-0.0.1-py2.py3-none-any.whl
+[2024-04-02 12:40:57] INFO root fetch - processPackages [money-to-prisoners-common]: Downloading https://files.pythonhosted.org/packages/5d/cb/95bfd4475c748becd98f582fde7f77917f81d82dc5fe5adff0015bd4b6ba/money-to-prisoners-common-9.8.1.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [pymemgpt-nightly]: Downloading https://files.pythonhosted.org/packages/0e/a1/10fb2d17460c5061b1e043cb60e53253ae1fbef3f6e41b9c7c22799405ab/pymemgpt_nightly-0.3.7.dev20240401103911.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/4d/42/d40e32a687f7847db88a6856cad69449adbe628fda6e198a7dac946c84d9/ctqkit-0.1.1b1.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/4d/42/d40e32a687f7847db88a6856cad69449adbe628fda6e198a7dac946c84d9/ctqkit-0.1.1b1.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [ragcar]: Downloading https://files.pythonhosted.org/packages/b5/82/f17120a1aa3b5982969e3bf47f590e9c32cdb22950fce02decc0b7b8128d/ragcar-0.1.3.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [SQLAlchemyExample]: Downloading https://files.pythonhosted.org/packages/99/86/69c08e1e10888eef50706dff5bb2ab77784d49f027fe33ee1245041e8e3f/SQLAlchemyExample-0.1.9.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [misleep]: Downloading https://files.pythonhosted.org/packages/ac/11/5864ab2864715be5479cd277c4cd340a117dd8ec175382f8c4c25a4113af/misleep-0.1.0b0.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.0b1.tar.gz tmp/ctqkit-0.1.1b1.tar.gz --markdown 20240402/C/CtqKit/0.1.0b1-0.1.1b1/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [skypilot-nightly]: Downloading https://files.pythonhosted.org/packages/b6/45/c5d4be0551ce95c34ab5973e7f95846dfd87455569dbf8ea4a95e55ba752/skypilot-nightly-1.0.0.dev20240401.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.0b1.tar.gz tmp/ctqkit-0.1.1b1.tar.gz --markdown 20240402/C/CtqKit/0.1.0b1-0.1.1b1/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [pymemgpt-nightly]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [pymemgpt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemgpt_nightly-0.3.7.dev20240331103908.tar.gz tmp/pymemgpt_nightly-0.3.7.dev20240401103911.tar.gz --markdown 20240402/p/pymemgpt-nightly/0.3.7.dev20240331103908-0.3.7.dev20240401103911/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [SQLAlchemyExample]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [SQLAlchemyExample]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SQLAlchemyExample-0.1.8.tar.gz tmp/SQLAlchemyExample-0.1.9.tar.gz --markdown 20240402/S/SQLAlchemyExample/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [money-to-prisoners-common]: Downloading https://files.pythonhosted.org/packages/9f/de/a4ca88665fa8d15ad865b1d50ac7c401a42a4cafb79ae3bd4f77999d3708/money-to-prisoners-common-9.9.0.tar.gz
+[2024-04-02 12:40:57] INFO root fetch - processPackages [ragcar]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [ragcar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragcar-0.1.2.tar.gz tmp/ragcar-0.1.3.tar.gz --markdown 20240402/r/ragcar/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [misleep]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [misleep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/misleep-0.0.1-py2.py3-none-any.whl.zip tmp/misleep-0.1.0b0.tar.gz --markdown 20240402/m/misleep/0.0.1-0.1.0b0/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [skypilot-nightly]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [skypilot-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/skypilot-nightly-1.0.0.dev20240331.tar.gz tmp/skypilot-nightly-1.0.0.dev20240401.tar.gz --markdown 20240402/s/skypilot-nightly/1.0.0.dev20240331-1.0.0.dev20240401/diff.md --exclude *.pyd
+[2024-04-02 12:40:57] INFO root fetch - processPackages [money-to-prisoners-common]: executing diffoscope
+[2024-04-02 12:40:57] INFO root fetch - processPackages [money-to-prisoners-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/money-to-prisoners-common-9.8.1.tar.gz tmp/money-to-prisoners-common-9.9.0.tar.gz --markdown 20240402/m/money-to-prisoners-common/9.8.1-9.9.0/diff.md --exclude *.pyd
+[2024-04-02 12:40:58] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 12:40:58] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.0b1.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b1.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-04-02 12:40:58] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.0.1-py2.py3-none-any.whl.zip]
+[2024-04-02 12:40:58] INFO root fetch - processPackages [misleep]: Remove: archive file [/home/abi/fetcher/tmp/misleep-0.1.0b0.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [misleep]: success
+[2024-04-02 12:40:58] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.8.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - processPackages [SQLAlchemyExample]: Remove: archive file [/home/abi/fetcher/tmp/SQLAlchemyExample-0.1.9.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [SQLAlchemyExample]: success
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-04-02 12:40:58] INFO root fetch - processPackages [ragcar]: Remove: archive file [/home/abi/fetcher/tmp/ragcar-0.1.2.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - processPackages [ragcar]: Remove: archive file [/home/abi/fetcher/tmp/ragcar-0.1.3.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [ragcar]: success
+[2024-04-02 12:40:58] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.7.dev20240331103908.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - processPackages [pymemgpt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pymemgpt_nightly-0.3.7.dev20240401103911.tar.gz]
+[2024-04-02 12:40:58] INFO root fetch - main [MainThread]: End processing [pymemgpt-nightly]: success
+[2024-04-02 12:40:59] INFO root fetch - processPackages [money-to-prisoners-common]: Remove: archive file [/home/abi/fetcher/tmp/money-to-prisoners-common-9.8.1.tar.gz]
+[2024-04-02 12:40:59] INFO root fetch - processPackages [money-to-prisoners-common]: Remove: archive file [/home/abi/fetcher/tmp/money-to-prisoners-common-9.9.0.tar.gz]
+[2024-04-02 12:40:59] INFO root fetch - main [MainThread]: End processing [money-to-prisoners-common]: success
+[2024-04-02 12:40:59] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240331.tar.gz]
+[2024-04-02 12:40:59] INFO root fetch - processPackages [skypilot-nightly]: Remove: archive file [/home/abi/fetcher/tmp/skypilot-nightly-1.0.0.dev20240401.tar.gz]
+[2024-04-02 12:40:59] INFO root fetch - main [MainThread]: End processing [skypilot-nightly]: success
+[2024-04-02 12:40:59] INFO root fetch - main [MainThread]: Store serial: [22583648]
