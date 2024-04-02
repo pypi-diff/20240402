@@ -7605,3 +7605,171 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:21:43] INFO root fetch - processPackages [botocore-a-la-carte-ec2]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ec2-1.34.9.tar.gz]
 [2024-04-02 03:21:43] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ec2]: success
 [2024-04-02 03:21:43] INFO root fetch - main [MainThread]: Store serial: [22579125]
+[2024-04-02 03:23:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579125]
+[2024-04-02 03:23:53] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botocore-a-la-carte-config
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: synnax-freighter
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: botocore-a-la-carte-discovery
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: botocore-a-la-carte-athena
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: botocore-a-la-carte-personalize
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: botocore-a-la-carte-chime-sdk-media-pipelines
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gstop
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: botocore-a-la-carte-ds
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: botocore-a-la-carte-dms
+[2024-04-02 03:23:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: radifox
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-config]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [synnax-freighter]: New version: [0.5.6] Old Version: [0.5.5]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [gstop]: New version: [0.2.3] Old Version: [0.2.1]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [radifox]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-config]: Downloading https://files.pythonhosted.org/packages/c8/4e/8e268ccceb31b86fde86b12a886a4c9ea249b81fd43e8f8aedd9c8ef4283/botocore-a-la-carte-config-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/d3/5b/466b5ce921d5457ec12a151579308bea049a8739e6e508c9b2fbbcc23618/synnax_freighter-0.5.5.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-dms]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-ds]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [gstop]: Downloading https://files.pythonhosted.org/packages/5a/bf/1bc75623f8393f00b743bbd175e1fdd62efdb43ee8552f62ab0f50f0fc9c/gstop-0.2.1.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: Downloading https://files.pythonhosted.org/packages/26/42/e174896db0e64e7f1a2206f1e4eeac3769f5d85115b1f687a4d2b0147c0b/botocore-a-la-carte-chime-sdk-media-pipelines-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-dms]: Downloading https://files.pythonhosted.org/packages/64/84/0569df5e056054f00ff08528fe4155bb911af0071d0e67f35989f2000ef2/botocore-a-la-carte-dms-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/0d/bb/06a64034168731ca5fb2464bae608d9ec5939f7a68c671ada83c8d4ecbdb/radifox-1.0.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-athena]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Downloading https://files.pythonhosted.org/packages/06/d9/00499d0e8c948d4c5c8813e9ce8f0c708aad107775271b0bc8deb318eada/botocore-a-la-carte-ds-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: Downloading https://files.pythonhosted.org/packages/93/c5/ef7f91b5310495901d81e3e0b7e7905482d6ee0b5a7171e6a854c0d4db97/botocore-a-la-carte-discovery-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Downloading https://files.pythonhosted.org/packages/b5/12/bf3488dafec21fbe304500635f462eb1f1273559de46f23308331f1e3b4c/botocore-a-la-carte-personalize-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Downloading https://files.pythonhosted.org/packages/d1/ec/04f51bee36175f31e67cab37b2a5a605704ecc2a8fd47465be8f75d8f139/botocore-a-la-carte-athena-1.34.8.tar.gz
+[2024-04-02 03:23:53] INFO root fetch - processPackages [synnax-freighter]: Downloading https://files.pythonhosted.org/packages/3a/fa/9f045c1e09eca63c7d6c3e508f7c0a59dff69962cf840acbe4c7868974c9/synnax_freighter-0.5.6.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-config]: Downloading https://files.pythonhosted.org/packages/09/6f/8b8aac76488609fef66461d750298636db086d1f79a3da0d9527e233f061/botocore-a-la-carte-config-1.34.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [gstop]: Downloading https://files.pythonhosted.org/packages/1c/b4/3c1b9e51f5b921534f6dfb092e5666d426f74c4f31cb84ece2494eca562f/gstop-0.2.3.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [synnax-freighter]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [synnax-freighter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax_freighter-0.5.5.tar.gz tmp/synnax_freighter-0.5.6.tar.gz --markdown 20240402/s/synnax-freighter/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [radifox]: Downloading https://files.pythonhosted.org/packages/6c/10/74303cbea0253d3374e31fc8e08b5980048884f778a72215873a830e0354/radifox-1.0.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Downloading https://files.pythonhosted.org/packages/06/0b/7622a62090f6c6d9fb2496190ca985e78573f5840dbecbd7aab8114c1b4e/botocore-a-la-carte-ds-1.34.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Downloading https://files.pythonhosted.org/packages/5d/aa/62f837f767ed265587f3a84d4ed430836d3dbcb6c4754aa2959dd69d5b23/botocore-a-la-carte-personalize-1.34.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-config]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-config-1.34.8.tar.gz tmp/botocore-a-la-carte-config-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-config/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [gstop]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [gstop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gstop-0.2.1.tar.gz tmp/gstop-0.2.3.tar.gz --markdown 20240402/g/gstop/0.2.1-0.2.3/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-dms]: Downloading https://files.pythonhosted.org/packages/42/44/4cea5e9c6e3fb79a13503c487d031b61b9fb18ce5b649155a9fdd1f309dd/botocore-a-la-carte-dms-1.34.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: Downloading https://files.pythonhosted.org/packages/70/f5/079d20f7629980e4afadb6dc20083eb215c3bc2c8fbcc016e61572ef4c42/botocore-a-la-carte-discovery-1.34.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-ds]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-ds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-ds-1.34.8.tar.gz tmp/botocore-a-la-carte-ds-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-ds/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [radifox]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [radifox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radifox-1.0.8.tar.gz tmp/radifox-1.0.9.tar.gz --markdown 20240402/r/radifox/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: Downloading https://files.pythonhosted.org/packages/24/43/d5a73690c29e89981fba2ddf94cb5889be6f545240a732476954f363096b/botocore-a-la-carte-chime-sdk-media-pipelines-1.34.9.tar.gz
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-discovery-1.34.8.tar.gz tmp/botocore-a-la-carte-discovery-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-discovery/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-personalize-1.34.8.tar.gz tmp/botocore-a-la-carte-personalize-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-personalize/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-dms]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-dms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-dms-1.34.8.tar.gz tmp/botocore-a-la-carte-dms-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-dms/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: executing diffoscope
+[2024-04-02 03:23:54] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-chime-sdk-media-pipelines-1.34.8.tar.gz tmp/botocore-a-la-carte-chime-sdk-media-pipelines-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-chime-sdk-media-pipelines/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:55] INFO root fetch - processPackages [gstop]: Remove: archive file [/home/abi/fetcher/tmp/gstop-0.2.1.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [gstop]: Remove: archive file [/home/abi/fetcher/tmp/gstop-0.2.3.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [gstop]: Start processing: botocore-a-la-carte-license-manager-linux-subscriptions
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [gstop]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Downloading https://files.pythonhosted.org/packages/0d/f7/384344d50470e1d44c4493e769972d26c2edd07e8c5e1884acc240e80e1e/botocore-a-la-carte-athena-1.34.9.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-config]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-config-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-config]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-config-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-config]: Start processing: botocore-a-la-carte-codecommit
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-config]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.5.5.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [synnax-freighter]: Remove: archive file [/home/abi/fetcher/tmp/synnax_freighter-0.5.6.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [synnax-freighter]: Start processing: botocore-a-la-carte-comprehend
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [synnax-freighter]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-athena]: executing diffoscope
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-athena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-athena-1.34.8.tar.gz tmp/botocore-a-la-carte-athena-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-athena/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-personalize-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-personalize]: Start processing: botocore-a-la-carte-alexaforbusiness
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-personalize]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ds-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-ds-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-ds]: Start processing: botocore-a-la-carte-nimble
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-ds]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-dms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-dms-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-dms]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-dms-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-dms]: Start processing: botocore-a-la-carte-qbusiness
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-dms]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-discovery-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-discovery-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-discovery]: Start processing: botocore-a-la-carte-cloudhsm
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-discovery]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.0.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [radifox]: Remove: archive file [/home/abi/fetcher/tmp/radifox-1.0.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [radifox]: Start processing: synnax
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [radifox]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Downloading https://files.pythonhosted.org/packages/40/4c/8f55e99c90e7a22066b1528c417487f00ab0bee32e2ec0c59e63b99b361d/botocore-a-la-carte-license-manager-linux-subscriptions-1.34.8.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-media-pipelines-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-chime-sdk-media-pipelines-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-chime-sdk-media-pipelines]: Start processing: pyclipmgr
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-chime-sdk-media-pipelines]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Downloading https://files.pythonhosted.org/packages/16/af/3fdb867d624ba9e199efa61c4c185c3ba5d558e72ec7a60d7dce32b56ad2/botocore-a-la-carte-comprehend-1.34.8.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [synnax]: New version: [0.9.0] Old Version: [0.8.0]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: New version: [1.34.9] Old Version: [1.34.8]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Downloading https://files.pythonhosted.org/packages/a7/1d/95ed959f976e6f9e4d6204752f3e330dfe43ea1f6b8c6fc02a74526c80f5/botocore-a-la-carte-codecommit-1.34.8.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Downloading https://files.pythonhosted.org/packages/63/65/6ada528898fa11da25d5e6ef2153ff74d496e00dad6bea22dcedaff62a15/botocore-a-la-carte-alexaforbusiness-1.34.8.tar.gz
+[2024-04-02 03:23:55] WARNING root fetch - processPackages [pyclipmgr]: Skipping, unable to determine old version
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [pyclipmgr] error
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: Downloading https://files.pythonhosted.org/packages/4e/c5/fad354ba9ae5122ac190e601223fa709f19614646c19d45c01213dda8c1c/botocore-a-la-carte-qbusiness-1.34.8.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/89/a1/f0d76d0706e47ba3dcdbf0fe8c7b2e90c98bd073d40a3c4c7c1c1025aab8/synnax-0.8.0.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Downloading https://files.pythonhosted.org/packages/c9/ef/783f5a6f2a028fe02fda5bedd76263fc0c680569b1d7aab4ee5bd99f27b2/botocore-a-la-carte-cloudhsm-1.34.8.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: Downloading https://files.pythonhosted.org/packages/5e/a7/a1a782b0137e414dc9c9e1ccf7a1eb1df1cfcfd1e72e37380cc07e425aae/botocore-a-la-carte-nimble-1.34.8.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-athena-1.34.8.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-athena]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-athena-1.34.9.tar.gz]
+[2024-04-02 03:23:55] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-athena]: success
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Downloading https://files.pythonhosted.org/packages/8b/3c/2020455d64000e0d83b338328baa7f9740c02d97108f4af5aeaad46ea3c6/botocore-a-la-carte-license-manager-linux-subscriptions-1.34.9.tar.gz
+[2024-04-02 03:23:55] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Downloading https://files.pythonhosted.org/packages/10/8f/c0fd700d7fc8b72b4aa86ff0b4588d50110c4d13efc2304e2af2f524b893/botocore-a-la-carte-comprehend-1.34.9.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.34.8.tar.gz tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-license-manager-linux-subscriptions/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Downloading https://files.pythonhosted.org/packages/00/1b/45599aa80c5618deb2c83092ddecc48795102e5ab4c3930ef9ef1ac10b76/botocore-a-la-carte-codecommit-1.34.9.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Downloading https://files.pythonhosted.org/packages/d9/3c/8c2002b5be29c637e9f2bb9adfc0a8db1d86e344d5d918fb043a1d6fe29b/botocore-a-la-carte-alexaforbusiness-1.34.9.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-comprehend-1.34.8.tar.gz tmp/botocore-a-la-carte-comprehend-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-comprehend/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-alexaforbusiness-1.34.8.tar.gz tmp/botocore-a-la-carte-alexaforbusiness-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-alexaforbusiness/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-codecommit-1.34.8.tar.gz tmp/botocore-a-la-carte-codecommit-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-codecommit/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: Downloading https://files.pythonhosted.org/packages/47/b6/073d625021f7e714dbf2489e452d19ec3ddaf6ed5c24700ed6d3f0c22e1e/botocore-a-la-carte-qbusiness-1.34.9.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Downloading https://files.pythonhosted.org/packages/d2/07/51e79ee50a40f156166256ab88f697c2cd80467f09656b5a1db3bcd64990/botocore-a-la-carte-cloudhsm-1.34.9.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: Downloading https://files.pythonhosted.org/packages/79/11/0cdaf2138f297b8d8613d496c0d8f4f5b9060d45b9dffd25bae4ce74d3f2/botocore-a-la-carte-nimble-1.34.9.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [synnax]: Downloading https://files.pythonhosted.org/packages/b3/bc/76e9b03b96c7ab72f4b39e5e03c396b86efd6fb650bedcff8a7118679e9b/synnax-0.9.0.tar.gz
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-qbusiness-1.34.8.tar.gz tmp/botocore-a-la-carte-qbusiness-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-qbusiness/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-cloudhsm-1.34.8.tar.gz tmp/botocore-a-la-carte-cloudhsm-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-cloudhsm/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botocore-a-la-carte-nimble-1.34.8.tar.gz tmp/botocore-a-la-carte-nimble-1.34.9.tar.gz --markdown 20240402/b/botocore-a-la-carte-nimble/1.34.8-1.34.9/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [synnax]: executing diffoscope
+[2024-04-02 03:23:56] INFO root fetch - processPackages [synnax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/synnax-0.8.0.tar.gz tmp/synnax-0.9.0.tar.gz --markdown 20240402/s/synnax/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.34.8.tar.gz]
+[2024-04-02 03:23:56] INFO root fetch - processPackages [botocore-a-la-carte-license-manager-linux-subscriptions]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-license-manager-linux-subscriptions-1.34.9.tar.gz]
+[2024-04-02 03:23:56] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-license-manager-linux-subscriptions]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-comprehend-1.34.8.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-comprehend]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-comprehend-1.34.9.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-comprehend]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-alexaforbusiness-1.34.8.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-alexaforbusiness]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-alexaforbusiness-1.34.9.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-alexaforbusiness]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codecommit-1.34.8.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-codecommit-1.34.9.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-codecommit]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-nimble-1.34.8.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-nimble]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-nimble-1.34.9.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-nimble]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-qbusiness-1.34.8.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-qbusiness]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-qbusiness-1.34.9.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-qbusiness]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudhsm-1.34.8.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [botocore-a-la-carte-cloudhsm]: Remove: archive file [/home/abi/fetcher/tmp/botocore-a-la-carte-cloudhsm-1.34.9.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [botocore-a-la-carte-cloudhsm]: success
+[2024-04-02 03:23:57] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.8.0.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - processPackages [synnax]: Remove: archive file [/home/abi/fetcher/tmp/synnax-0.9.0.tar.gz]
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: End processing [synnax]: success
+[2024-04-02 03:23:57] INFO root fetch - main [MainThread]: Store serial: [22579226]
