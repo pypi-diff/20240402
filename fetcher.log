@@ -8739,3 +8739,67 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 04:20:51] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
 [2024-04-02 04:20:51] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2024-04-02 04:20:51] INFO root fetch - main [MainThread]: Store serial: [22579975]
+[2024-04-02 04:22:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579975]
+[2024-04-02 04:23:00] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aegis-tools
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: meds-etl
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: deepchem
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deepchem
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: AppWrapper
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ccxtools
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: stelladb
+[2024-04-02 04:23:00] INFO root fetch - processPackages [meds-etl]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [stelladb]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [aegis-tools]: New version: [2.5.5] Old Version: [2.5.4]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [meds-etl]: Downloading https://files.pythonhosted.org/packages/67/33/203f5f3c0cb4a44ac4dbf9ee181aa9e1536f8a9d293e80cfccb1ff617561/meds_etl-0.1.0.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/08/67/b58978ce9375110f198b7a1a1fada487d7ef005653c0248c62b92e840909/stelladb-0.2.4.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/55/f8/8cf229578be5c8f0dbe65ad9e48f19aec84ad31a5bcfc725e0a27c420881/aegis-tools-2.5.4.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [deepchem]: New version: [2.8.0.dev20240402022039] Old Version: [2.8.0]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [deepchem]: New version: [2.8.0.dev20240402022039] Old Version: [2.8.0]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ccxtools]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 04:23:00] INFO root fetch - processPackages [stelladb]: Downloading https://files.pythonhosted.org/packages/5d/39/27804242de6d08df94879dc10b39c0a09c068de70dd482238f76076276d1/stelladb-0.2.5.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/54/54/f5f1047507d7f6cfe23f020c17acfa39739f5d1523461298986df02800a8/AppWrapper-0.2.3.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/98/1d/568b352513dfa4405da4acbce233c555bc4af29dd63e904537a8014cd585/deepchem-2.8.0.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/98/1d/568b352513dfa4405da4acbce233c555bc4af29dd63e904537a8014cd585/deepchem-2.8.0.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/59/3c/1162be6b438b235c439a74f7069cfff4988ff31c482ed50b62af6d8daf80/ccxtools-0.0.98.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [meds-etl]: Downloading https://files.pythonhosted.org/packages/0d/2a/5a0e829d1bf7fb5677767f92b685a7782f876370583391bfa8ebba9ce4e3/meds_etl-0.1.1.tar.gz
+[2024-04-02 04:23:00] INFO root fetch - processPackages [aegis-tools]: Downloading https://files.pythonhosted.org/packages/85/38/cc4e72d04a064d600508765a20f4c4a6936e7403599c6009a2355affe10f/aegis-tools-2.5.5.tar.gz
+[2024-04-02 04:23:01] INFO root fetch - processPackages [stelladb]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [stelladb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stelladb-0.2.4.tar.gz tmp/stelladb-0.2.5.tar.gz --markdown 20240402/s/stelladb/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [meds-etl]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [meds-etl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meds_etl-0.1.0.tar.gz tmp/meds_etl-0.1.1.tar.gz --markdown 20240402/m/meds-etl/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [aegis-tools]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [aegis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aegis-tools-2.5.4.tar.gz tmp/aegis-tools-2.5.5.tar.gz --markdown 20240402/a/aegis-tools/2.5.4-2.5.5/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/f6/29/4705ae80d70e80952abd2364e13ab6b11fb86de117c4a75df960c3889a79/AppWrapper-0.2.4.tar.gz
+[2024-04-02 04:23:01] INFO root fetch - processPackages [ccxtools]: Downloading https://files.pythonhosted.org/packages/46/d1/2ef543357126920a506e1b437ff5abb42383e6623a1ef811fdff7ea3994a/ccxtools-0.0.99.tar.gz
+[2024-04-02 04:23:01] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/73/68/0b0800aa2578bdca3147844292a965e9125e306a2d68c3727323313a4796/deepchem-2.8.0.dev20240402022039.tar.gz
+[2024-04-02 04:23:01] INFO root fetch - processPackages [deepchem]: Downloading https://files.pythonhosted.org/packages/73/68/0b0800aa2578bdca3147844292a965e9125e306a2d68c3727323313a4796/deepchem-2.8.0.dev20240402022039.tar.gz
+[2024-04-02 04:23:01] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.3.tar.gz tmp/AppWrapper-0.2.4.tar.gz --markdown 20240402/A/AppWrapper/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [ccxtools]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [ccxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxtools-0.0.98.tar.gz tmp/ccxtools-0.0.99.tar.gz --markdown 20240402/c/ccxtools/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.8.0.tar.gz tmp/deepchem-2.8.0.dev20240402022039.tar.gz --markdown 20240402/d/deepchem/2.8.0-2.8.0.dev20240402022039/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [deepchem]: executing diffoscope
+[2024-04-02 04:23:01] INFO root fetch - processPackages [deepchem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepchem-2.8.0.tar.gz tmp/deepchem-2.8.0.dev20240402022039.tar.gz --markdown 20240402/d/deepchem/2.8.0-2.8.0.dev20240402022039/diff.md --exclude *.pyd
+[2024-04-02 04:23:01] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.4.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - processPackages [stelladb]: Remove: archive file [/home/abi/fetcher/tmp/stelladb-0.2.5.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - main [MainThread]: End processing [stelladb]: success
+[2024-04-02 04:23:01] INFO root fetch - processPackages [meds-etl]: Remove: archive file [/home/abi/fetcher/tmp/meds_etl-0.1.0.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - processPackages [meds-etl]: Remove: archive file [/home/abi/fetcher/tmp/meds_etl-0.1.1.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - main [MainThread]: End processing [meds-etl]: success
+[2024-04-02 04:23:01] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.4.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - processPackages [aegis-tools]: Remove: archive file [/home/abi/fetcher/tmp/aegis-tools-2.5.5.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - main [MainThread]: End processing [aegis-tools]: success
+[2024-04-02 04:23:01] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.3.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.4.tar.gz]
+[2024-04-02 04:23:01] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-02 04:23:02] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.98.tar.gz]
+[2024-04-02 04:23:02] INFO root fetch - processPackages [ccxtools]: Remove: archive file [/home/abi/fetcher/tmp/ccxtools-0.0.99.tar.gz]
+[2024-04-02 04:23:02] INFO root fetch - main [MainThread]: End processing [ccxtools]: success
+[2024-04-02 04:23:03] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.8.0.tar.gz]
+[2024-04-02 04:23:03] INFO root fetch - processPackages [deepchem]: Remove: archive file [/home/abi/fetcher/tmp/deepchem-2.8.0.dev20240402022039.tar.gz]
+[2024-04-02 04:23:03] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2024-04-02 04:23:03] INFO root fetch - main [MainThread]: End processing [deepchem]: success
+[2024-04-02 04:23:03] INFO root fetch - main [MainThread]: Store serial: [22580001]
