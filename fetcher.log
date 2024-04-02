@@ -20798,3 +20798,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:36:31] INFO root fetch - processPackages [macapype]: Remove: archive file [/home/abi/fetcher/tmp/macapype-0.3.dev3.tar.gz]
 [2024-04-02 14:36:31] INFO root fetch - main [MainThread]: End processing [macapype]: success
 [2024-04-02 14:36:31] INFO root fetch - main [MainThread]: Store serial: [22584836]
+[2024-04-02 14:38:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584836]
+[2024-04-02 14:38:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysma-plus
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: oebuild
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kpc-nifi-utils
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Java2Jar
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Eratosthenes
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ITR-examples
+[2024-04-02 14:38:40] INFO root fetch - processPackages [pysma-plus]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Java2Jar]: New version: [1.4] Old Version: [1.3]
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Eratosthenes]: New version: [3.0.9] Old Version: [3.0.8]
+[2024-04-02 14:38:40] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Eratosthenes]: Downloading https://files.pythonhosted.org/packages/f3/64/213583d578189f01f7f7199f8a0de9cef742c8ae8e3cebefd1f5e0bec10c/Eratosthenes-3.0.8.tar.gz
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ITR-examples]: New version: [1.1.4] Old Version: [1.1.1]
+[2024-04-02 14:38:40] INFO root fetch - processPackages [kpc-nifi-utils]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-02 14:38:40] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/43/1a/6423fc7737e9546a551c7a2eab2fad0b09cb38de64e39d0f8ef02a956e97/pysma-plus-0.1.0.tar.gz
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Java2Jar]: Downloading https://files.pythonhosted.org/packages/99/8f/95c476179fca58cc4da8d403f93bac5542d3e1982d60e5821cad7be1f211/Java2Jar-1.3-py3-none-any.whl
+[2024-04-02 14:38:40] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-04-02 14:38:40] INFO root fetch - processPackages [ITR-examples]: Downloading https://files.pythonhosted.org/packages/03/d4/f1699d64b95fab3d4cb3705c4939c819c6c32a3df6491a36bd5b050e60f7/itr_examples-1.1.1.tar.gz
+[2024-04-02 14:38:40] INFO root fetch - processPackages [pysma-plus]: Downloading https://files.pythonhosted.org/packages/b9/95/35e50c9d152534419e9be4ba430babc54bf32a7552f1b16dc247d059bea2/pysma-plus-0.1.1.tar.gz
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Java2Jar]: Downloading https://files.pythonhosted.org/packages/c5/c3/a16be55f89cada33f9c49d36a12f13e728a585dfa55984870a04fa4db156/Java2Jar-1.4-py3-none-any.whl
+[2024-04-02 14:38:40] INFO root fetch - processPackages [kpc-nifi-utils]: Downloading https://files.pythonhosted.org/packages/f7/a9/969654518a1d865cfa8d0b266e2938d1d8f3740bd9242b51b83dc0604850/kpc_nifi_utils-0.2.9.tar.gz
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Eratosthenes]: Downloading https://files.pythonhosted.org/packages/f0/8e/2efdd45906919c2b369f671bc11dec82d4456a81f8aeb0cfab3d1d115241/Eratosthenes-3.0.9.tar.gz
+[2024-04-02 14:38:40] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Java2Jar]: executing diffoscope
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Java2Jar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Java2Jar-1.3-py3-none-any.whl.zip tmp/Java2Jar-1.4-py3-none-any.whl.zip --markdown 20240402/J/Java2Jar/1.3-1.4/diff.md --exclude *.pyd
+[2024-04-02 14:38:40] INFO root fetch - processPackages [pysma-plus]: executing diffoscope
+[2024-04-02 14:38:40] INFO root fetch - processPackages [pysma-plus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysma-plus-0.1.0.tar.gz tmp/pysma-plus-0.1.1.tar.gz --markdown 20240402/p/pysma-plus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 14:38:40] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-04-02 14:38:40] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240402/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Eratosthenes]: executing diffoscope
+[2024-04-02 14:38:40] INFO root fetch - processPackages [Eratosthenes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eratosthenes-3.0.8.tar.gz tmp/Eratosthenes-3.0.9.tar.gz --markdown 20240402/E/Eratosthenes/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2024-04-02 14:38:41] INFO root fetch - processPackages [kpc-nifi-utils]: Downloading https://files.pythonhosted.org/packages/2c/64/d4d49d2d4a8a49f223ccb111cfe332ccd1b1f6310364b47c8511ed3407d9/kpc_nifi_utils-0.3.0-py3-none-any.whl
+[2024-04-02 14:38:41] INFO root fetch - processPackages [kpc-nifi-utils]: executing diffoscope
+[2024-04-02 14:38:41] INFO root fetch - processPackages [kpc-nifi-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpc_nifi_utils-0.2.9.tar.gz tmp/kpc_nifi_utils-0.3.0-py3-none-any.whl.zip --markdown 20240402/k/kpc-nifi-utils/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 14:38:41] INFO root fetch - processPackages [ITR-examples]: Downloading https://files.pythonhosted.org/packages/93/7e/d6fda501441e26becd71c8548937fabf5b15c063a2d91cd3498782a7f253/itr_examples-1.1.4.tar.gz
+[2024-04-02 14:38:41] INFO root fetch - processPackages [ITR-examples]: executing diffoscope
+[2024-04-02 14:38:41] INFO root fetch - processPackages [ITR-examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itr_examples-1.1.1.tar.gz tmp/itr_examples-1.1.4.tar.gz --markdown 20240402/I/ITR-examples/1.1.1-1.1.4/diff.md --exclude *.pyd
+[2024-04-02 14:38:41] INFO root fetch - processPackages [Java2Jar]: Remove: archive file [/home/abi/fetcher/tmp/Java2Jar-1.3-py3-none-any.whl.zip]
+[2024-04-02 14:38:41] INFO root fetch - processPackages [Java2Jar]: Remove: archive file [/home/abi/fetcher/tmp/Java2Jar-1.4-py3-none-any.whl.zip]
+[2024-04-02 14:38:41] INFO root fetch - main [MainThread]: End processing [Java2Jar]: success
+[2024-04-02 14:38:41] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma-plus-0.1.0.tar.gz]
+[2024-04-02 14:38:41] INFO root fetch - processPackages [pysma-plus]: Remove: archive file [/home/abi/fetcher/tmp/pysma-plus-0.1.1.tar.gz]
+[2024-04-02 14:38:42] INFO root fetch - main [MainThread]: End processing [pysma-plus]: success
+[2024-04-02 14:38:42] INFO root fetch - processPackages [Eratosthenes]: Remove: archive file [/home/abi/fetcher/tmp/Eratosthenes-3.0.8.tar.gz]
+[2024-04-02 14:38:42] INFO root fetch - processPackages [Eratosthenes]: Remove: archive file [/home/abi/fetcher/tmp/Eratosthenes-3.0.9.tar.gz]
+[2024-04-02 14:38:42] INFO root fetch - main [MainThread]: End processing [Eratosthenes]: success
+[2024-04-02 14:38:42] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 14:38:42] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 14:38:42] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-04-02 14:38:42] INFO root fetch - processPackages [kpc-nifi-utils]: Remove: archive file [/home/abi/fetcher/tmp/kpc_nifi_utils-0.2.9.tar.gz]
+[2024-04-02 14:38:42] INFO root fetch - processPackages [kpc-nifi-utils]: Remove: archive file [/home/abi/fetcher/tmp/kpc_nifi_utils-0.3.0-py3-none-any.whl.zip]
+[2024-04-02 14:38:42] INFO root fetch - main [MainThread]: End processing [kpc-nifi-utils]: success
+[2024-04-02 14:38:42] INFO root fetch - processPackages [ITR-examples]: Remove: archive file [/home/abi/fetcher/tmp/itr_examples-1.1.1.tar.gz]
+[2024-04-02 14:38:42] INFO root fetch - processPackages [ITR-examples]: Remove: archive file [/home/abi/fetcher/tmp/itr_examples-1.1.4.tar.gz]
+[2024-04-02 14:38:42] INFO root fetch - main [MainThread]: End processing [ITR-examples]: success
+[2024-04-02 14:38:42] INFO root fetch - main [MainThread]: Store serial: [22584851]
