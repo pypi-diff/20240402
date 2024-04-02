@@ -15610,3 +15610,52 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:13:38] INFO root fetch - processPackages [robyn]: Remove: archive file [/home/abi/fetcher/tmp/robyn-0.9.0.tar.gz]
 [2024-04-02 11:13:38] INFO root fetch - main [MainThread]: End processing [robyn]: success
 [2024-04-02 11:13:38] INFO root fetch - main [MainThread]: Store serial: [22582702]
+[2024-04-02 11:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582702]
+[2024-04-02 11:15:47] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 11:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spanishconjugator
+[2024-04-02 11:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casioplot
+[2024-04-02 11:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2024-04-02 11:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyspaceprofiler
+[2024-04-02 11:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quat3d
+[2024-04-02 11:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: excell-functions
+[2024-04-02 11:15:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-02 11:15:47] WARNING root fetch - processPackages [quat3d]: Skipping, unable to determine old version
+[2024-04-02 11:15:47] INFO root fetch - main [MainThread]: End processing [quat3d] error
+[2024-04-02 11:15:47] INFO root fetch - processPackages [excell-functions]: New version: [0.5] Old Version: [0.4]
+[2024-04-02 11:15:47] INFO root fetch - processPackages [casioplot]: New version: [3.0.0] Old Version: [2.2.1]
+[2024-04-02 11:15:47] INFO root fetch - processPackages [pyspaceprofiler]: New version: [0.0.4] Old Version: [0.0.3]
+[2024-04-02 11:15:47] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2024-04-02 11:15:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/13/1b/b151b04258f302934444b5d05060ced7b76010de71412d623ecbdc89b93e/casioplot-2.2.1.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [excell-functions]: Downloading https://files.pythonhosted.org/packages/7e/8f/a1002ce021258db26122837f98f8e96efb13b40f705b5b33b08e9fa826ce/excell_functions-0.4.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [pyspaceprofiler]: Downloading https://files.pythonhosted.org/packages/77/f9/800d6fdd74375be419044e3255b616a54528a2741f0f365db0172b7ca47b/pyspaceprofiler-0.0.3.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [casioplot]: Downloading https://files.pythonhosted.org/packages/1e/ba/28e91e7527d243599585c31a83d93cc1f32295c868e26f13423bacfc3c75/casioplot-3.0.0.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [pyspaceprofiler]: Downloading https://files.pythonhosted.org/packages/d9/4c/74716ecef47b0d01a52cd45a4b4930421440b34a8b30f1557bcc3e48e3b4/pyspaceprofiler-0.0.4.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [casioplot]: executing diffoscope
+[2024-04-02 11:15:48] INFO root fetch - processPackages [casioplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casioplot-2.2.1.tar.gz tmp/casioplot-3.0.0.tar.gz --markdown 20240402/c/casioplot/2.2.1-3.0.0/diff.md --exclude *.pyd
+[2024-04-02 11:15:48] INFO root fetch - processPackages [pyspaceprofiler]: executing diffoscope
+[2024-04-02 11:15:48] INFO root fetch - processPackages [pyspaceprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspaceprofiler-0.0.3.tar.gz tmp/pyspaceprofiler-0.0.4.tar.gz --markdown 20240402/p/pyspaceprofiler/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2024-04-02 11:15:48] INFO root fetch - processPackages [excell-functions]: Downloading https://files.pythonhosted.org/packages/7a/53/709622b234af6c3766588d0d7cc79550482cbfc78997aeab76857010c63d/excell_functions-0.5.tar.gz
+[2024-04-02 11:15:48] INFO root fetch - processPackages [excell-functions]: executing diffoscope
+[2024-04-02 11:15:48] INFO root fetch - processPackages [excell-functions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/excell_functions-0.4.tar.gz tmp/excell_functions-0.5.tar.gz --markdown 20240402/e/excell-functions/0.4-0.5/diff.md --exclude *.pyd
+[2024-04-02 11:15:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-02 11:15:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240402/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-02 11:15:49] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2024-04-02 11:15:49] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20240402/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2024-04-02 11:15:49] INFO root fetch - processPackages [pyspaceprofiler]: Remove: archive file [/home/abi/fetcher/tmp/pyspaceprofiler-0.0.3.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - processPackages [pyspaceprofiler]: Remove: archive file [/home/abi/fetcher/tmp/pyspaceprofiler-0.0.4.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [pyspaceprofiler]: success
+[2024-04-02 11:15:49] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-2.2.1.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - processPackages [casioplot]: Remove: archive file [/home/abi/fetcher/tmp/casioplot-3.0.0.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [casioplot]: success
+[2024-04-02 11:15:49] INFO root fetch - processPackages [excell-functions]: Remove: archive file [/home/abi/fetcher/tmp/excell_functions-0.4.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - processPackages [excell-functions]: Remove: archive file [/home/abi/fetcher/tmp/excell_functions-0.5.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [excell-functions]: success
+[2024-04-02 11:15:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-02 11:15:49] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2024-04-02 11:15:49] INFO root fetch - main [MainThread]: Store serial: [22582725]
