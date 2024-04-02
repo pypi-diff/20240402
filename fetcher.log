@@ -17870,3 +17870,18 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:45:25] INFO root fetch - processPackages [MRCpy]: Remove: archive file [/home/abi/fetcher/tmp/MRCpy-2.1.8.tar.gz]
 [2024-04-02 12:45:25] INFO root fetch - main [MainThread]: End processing [MRCpy]: success
 [2024-04-02 12:45:25] INFO root fetch - main [MainThread]: Store serial: [22583676]
+[2024-04-02 12:47:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583676]
+[2024-04-02 12:47:36] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 12:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PYield
+[2024-04-02 12:47:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zhaolinchao
+[2024-04-02 12:47:36] WARNING root fetch - processPackages [zhaolinchao]: Skipping, unable to determine old version
+[2024-04-02 12:47:36] INFO root fetch - main [MainThread]: End processing [zhaolinchao] error
+[2024-04-02 12:47:36] INFO root fetch - processPackages [PYield]: New version: [0.3.7] Old Version: [0.3.6]
+[2024-04-02 12:47:36] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/30/43/3df78e340b1c14aa6e4e6dad426588414ef672abc0a1d995f994bea632c7/pyield-0.3.6.tar.gz
+[2024-04-02 12:47:36] INFO root fetch - processPackages [PYield]: Downloading https://files.pythonhosted.org/packages/6b/50/eee7bbb0ebe13f83502ec61f021385f01529bac62570f3114ddbd6510e51/pyield-0.3.7.tar.gz
+[2024-04-02 12:47:37] INFO root fetch - processPackages [PYield]: executing diffoscope
+[2024-04-02 12:47:37] INFO root fetch - processPackages [PYield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyield-0.3.6.tar.gz tmp/pyield-0.3.7.tar.gz --markdown 20240402/P/PYield/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2024-04-02 12:47:37] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.3.6.tar.gz]
+[2024-04-02 12:47:37] INFO root fetch - processPackages [PYield]: Remove: archive file [/home/abi/fetcher/tmp/pyield-0.3.7.tar.gz]
+[2024-04-02 12:47:37] INFO root fetch - main [MainThread]: End processing [PYield]: success
+[2024-04-02 12:47:37] INFO root fetch - main [MainThread]: Store serial: [22583683]
