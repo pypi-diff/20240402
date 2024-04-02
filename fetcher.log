@@ -8134,3 +8134,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:50:37] INFO root fetch - processPackages [marioutils]: Remove: archive file [/home/abi/fetcher/tmp/marioutils-1.0.1.tar.gz]
 [2024-04-02 03:50:37] INFO root fetch - main [MainThread]: End processing [marioutils]: success
 [2024-04-02 03:50:37] INFO root fetch - main [MainThread]: Store serial: [22579731]
+[2024-04-02 03:52:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579731]
+[2024-04-02 03:52:45] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 03:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hydra-zen
+[2024-04-02 03:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deadline-cloud-worker-agent
+[2024-04-02 03:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lunary
+[2024-04-02 03:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muti.basic
+[2024-04-02 03:52:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyclipmgr
+[2024-04-02 03:52:45] INFO root fetch - processPackages [pyclipmgr]: New version: [2.0] Old Version: [1.2]
+[2024-04-02 03:52:45] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/b3/7a/0e8b415041daee809b1ffdfaafc43aba74fd8e252518e3ac7731bea915ba/pyclipmgr-1.2.tar.gz
+[2024-04-02 03:52:45] INFO root fetch - processPackages [muti.basic]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 03:52:45] INFO root fetch - processPackages [lunary]: New version: [1.0.1] Old Version: [0.3.0]
+[2024-04-02 03:52:45] WARNING root fetch - processPackages [deadline-cloud-worker-agent]: Skipping, unable to determine old version
+[2024-04-02 03:52:45] INFO root fetch - main [MainThread]: End processing [deadline-cloud-worker-agent] error
+[2024-04-02 03:52:45] INFO root fetch - processPackages [hydra-zen]: New version: [0.9.1] Old Version: [0.9.0rc5]
+[2024-04-02 03:52:45] INFO root fetch - processPackages [muti.basic]: Downloading https://files.pythonhosted.org/packages/f2/cc/3b3ee3666df6c8619eca4ce95843a8997d6d41e5196e7d15ad35d1c0690d/muti.basic-0.0.4.tar.gz
+[2024-04-02 03:52:45] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0a/36/e7fb9ae694eae366905a42a162d2d2b7e9a5d676f47c0f9b958baeaf48b9/pyclipmgr-2.0.tar.gz
+[2024-04-02 03:52:45] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/2f/48/cb390c5f6ebd699cb40f3e8080438a37b7228debae4deed6b480e48a966d/lunary-0.3.0.tar.gz
+[2024-04-02 03:52:45] INFO root fetch - processPackages [hydra-zen]: Downloading https://files.pythonhosted.org/packages/21/7e/604d7ba9ff16a283e2f50a1de89b0bf58cf1bd84b2dcbb6f6f9658b232f6/hydra_zen-0.9.0rc5.tar.gz
+[2024-04-02 03:52:46] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 03:52:46] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-1.2.tar.gz tmp/pyclipmgr-2.0.tar.gz --markdown 20240402/p/pyclipmgr/1.2-2.0/diff.md --exclude *.pyd
+[2024-04-02 03:52:46] INFO root fetch - processPackages [muti.basic]: Downloading https://files.pythonhosted.org/packages/8f/40/6b722d4bbceec72c3efc2c681b093991f863ccbd8602460c3416a9a987d4/muti.basic-0.0.5.tar.gz
+[2024-04-02 03:52:46] INFO root fetch - processPackages [lunary]: Downloading https://files.pythonhosted.org/packages/ab/d9/3df893a63a6fb7544f6b9b36785d9152fda51aa6d8a3870efe173b807c0b/lunary-1.0.1.tar.gz
+[2024-04-02 03:52:46] INFO root fetch - processPackages [lunary]: executing diffoscope
+[2024-04-02 03:52:46] INFO root fetch - processPackages [lunary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lunary-0.3.0.tar.gz tmp/lunary-1.0.1.tar.gz --markdown 20240402/l/lunary/0.3.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 03:52:46] INFO root fetch - processPackages [muti.basic]: executing diffoscope
+[2024-04-02 03:52:46] INFO root fetch - processPackages [muti.basic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.basic-0.0.4.tar.gz tmp/muti.basic-0.0.5.tar.gz --markdown 20240402/m/muti.basic/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 03:52:46] INFO root fetch - processPackages [hydra-zen]: Downloading https://files.pythonhosted.org/packages/86/3d/de492179605f70616f99c02b2d98c9d2e3234d211c4a3c11237fafe66db0/hydra_zen-0.9.1.tar.gz
+[2024-04-02 03:52:46] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-1.2.tar.gz]
+[2024-04-02 03:52:46] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.0.tar.gz]
+[2024-04-02 03:52:46] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 03:52:46] INFO root fetch - processPackages [hydra-zen]: executing diffoscope
+[2024-04-02 03:52:46] INFO root fetch - processPackages [hydra-zen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hydra_zen-0.9.0rc5.tar.gz tmp/hydra_zen-0.9.1.tar.gz --markdown 20240402/h/hydra-zen/0.9.0rc5-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 03:52:46] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-0.3.0.tar.gz]
+[2024-04-02 03:52:46] INFO root fetch - processPackages [lunary]: Remove: archive file [/home/abi/fetcher/tmp/lunary-1.0.1.tar.gz]
+[2024-04-02 03:52:46] INFO root fetch - main [MainThread]: End processing [lunary]: success
+[2024-04-02 03:52:46] INFO root fetch - processPackages [muti.basic]: Remove: archive file [/home/abi/fetcher/tmp/muti.basic-0.0.4.tar.gz]
+[2024-04-02 03:52:46] INFO root fetch - processPackages [muti.basic]: Remove: archive file [/home/abi/fetcher/tmp/muti.basic-0.0.5.tar.gz]
+[2024-04-02 03:52:46] INFO root fetch - main [MainThread]: End processing [muti.basic]: success
+[2024-04-02 03:52:47] INFO root fetch - processPackages [hydra-zen]: Remove: archive file [/home/abi/fetcher/tmp/hydra_zen-0.9.0rc5.tar.gz]
+[2024-04-02 03:52:47] INFO root fetch - processPackages [hydra-zen]: Remove: archive file [/home/abi/fetcher/tmp/hydra_zen-0.9.1.tar.gz]
+[2024-04-02 03:52:47] INFO root fetch - main [MainThread]: End processing [hydra-zen]: success
+[2024-04-02 03:52:47] INFO root fetch - main [MainThread]: Store serial: [22579756]
