@@ -11341,3 +11341,47 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:49:09] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-4.0.0rc0.tar.gz]
 [2024-04-02 07:49:09] INFO root fetch - main [MainThread]: End processing [tablecache]: success
 [2024-04-02 07:49:09] INFO root fetch - main [MainThread]: Store serial: [22581030]
+[2024-04-02 07:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581030]
+[2024-04-02 07:51:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fast-html
+[2024-04-02 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qa-metrics
+[2024-04-02 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qiskit-aer-gpu
+[2024-04-02 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wakautosolver
+[2024-04-02 07:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: langchain-core
+[2024-04-02 07:51:18] INFO root fetch - processPackages [wakautosolver]: New version: [2024.4.3] Old Version: [2024.4.2]
+[2024-04-02 07:51:18] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/0a/14/83ad246e0313977cca6ddf2ebaa28e06aa3b84163fe5366898de330dd216/wakautosolver-2024.4.2-py3-none-any.whl
+[2024-04-02 07:51:18] INFO root fetch - processPackages [fast-html]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 07:51:18] INFO root fetch - processPackages [qiskit-aer-gpu]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 07:51:18] INFO root fetch - processPackages [qa-metrics]: New version: [0.2.6] Old Version: [0.2.5]
+[2024-04-02 07:51:18] INFO root fetch - processPackages [langchain-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 07:51:18] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/40/e2/90cd9d97f3705e60aa5d427f7a3b9c4199cafca69c523fcafd0cb80dec3e/fast_html-1.0.8.tar.gz
+[2024-04-02 07:51:18] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/15/38/4a98c039dfbf83722f3ea45caec08edb132247952fe8aa4e06772ed236b4/qa_metrics-0.2.5.tar.gz
+[2024-04-02 07:51:18] INFO root fetch - processPackages [qiskit-aer-gpu]: Downloading https://files.pythonhosted.org/packages/86/19/c14dc01f108f3e98f0e8c4a21860c710f21fbee640037018501628dd19bb/qiskit_aer_gpu-0.9.0-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2024-04-02 07:51:18] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/cc/69/b95eb186fa3ff696ee719ed57a5e1f839c0cb3c40c82b1160696062f8b66/langchain_core-0.1.8.tar.gz
+[2024-04-02 07:51:18] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/e1/11/2e72a5cd35711ec79c524c674ed81e720a0da119a8b0f30fc5761c6d4483/wakautosolver-2024.4.3-py3-none-any.whl
+[2024-04-02 07:51:19] INFO root fetch - processPackages [fast-html]: Downloading https://files.pythonhosted.org/packages/92/69/445335af37fd99077956a5658dd9c1fac587169a1c6ec102d26e5ec52b79/fast_html-1.0.9.tar.gz
+[2024-04-02 07:51:19] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/5e/9a/6a0341f8d8cc9cca630334922f5ee34bdfcd941b9a7354804c1493e96612/qa_metrics-0.2.6.tar.gz
+[2024-04-02 07:51:19] INFO root fetch - processPackages [fast-html]: executing diffoscope
+[2024-04-02 07:51:19] INFO root fetch - processPackages [fast-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_html-1.0.8.tar.gz tmp/fast_html-1.0.9.tar.gz --markdown 20240402/f/fast-html/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 07:51:19] INFO root fetch - processPackages [langchain-core]: Downloading https://files.pythonhosted.org/packages/1b/97/8c742f024d6a7e8793382452545b4432130e5ac741883e6ebcd92f46fc53/langchain_core-0.1.9.tar.gz
+[2024-04-02 07:51:19] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-04-02 07:51:19] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.2.5.tar.gz tmp/qa_metrics-0.2.6.tar.gz --markdown 20240402/q/qa-metrics/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2024-04-02 07:51:19] INFO root fetch - processPackages [wakautosolver]: executing diffoscope
+[2024-04-02 07:51:19] INFO root fetch - processPackages [wakautosolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakautosolver-2024.4.2-py3-none-any.whl.zip tmp/wakautosolver-2024.4.3-py3-none-any.whl.zip --markdown 20240402/w/wakautosolver/2024.4.2-2024.4.3/diff.md --exclude *.pyd
+[2024-04-02 07:51:19] INFO root fetch - processPackages [langchain-core]: executing diffoscope
+[2024-04-02 07:51:19] INFO root fetch - processPackages [langchain-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain_core-0.1.8.tar.gz tmp/langchain_core-0.1.9.tar.gz --markdown 20240402/l/langchain-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 07:51:19] WARNING root fetch - processPackages [qiskit-aer-gpu]: Skipping package: exceeds size limit 26714235>=10485760
+[2024-04-02 07:51:19] INFO root fetch - main [MainThread]: End processing [qiskit-aer-gpu] error
+[2024-04-02 07:51:19] INFO root fetch - processPackages [fast-html]: Remove: archive file [/home/abi/fetcher/tmp/fast_html-1.0.8.tar.gz]
+[2024-04-02 07:51:19] INFO root fetch - processPackages [fast-html]: Remove: archive file [/home/abi/fetcher/tmp/fast_html-1.0.9.tar.gz]
+[2024-04-02 07:51:19] INFO root fetch - main [MainThread]: End processing [fast-html]: success
+[2024-04-02 07:51:19] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.2-py3-none-any.whl.zip]
+[2024-04-02 07:51:19] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.3-py3-none-any.whl.zip]
+[2024-04-02 07:51:19] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
+[2024-04-02 07:51:20] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.5.tar.gz]
+[2024-04-02 07:51:20] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.6.tar.gz]
+[2024-04-02 07:51:20] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-04-02 07:51:20] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.8.tar.gz]
+[2024-04-02 07:51:20] INFO root fetch - processPackages [langchain-core]: Remove: archive file [/home/abi/fetcher/tmp/langchain_core-0.1.9.tar.gz]
+[2024-04-02 07:51:20] INFO root fetch - main [MainThread]: End processing [langchain-core]: success
+[2024-04-02 07:51:20] INFO root fetch - main [MainThread]: Store serial: [22581044]
