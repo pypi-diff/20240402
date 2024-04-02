@@ -20048,3 +20048,91 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:13:29] INFO root fetch - processPackages [tno.euphorie]: Remove: archive file [/home/abi/fetcher/tmp/tno.euphorie-9.0.5.tar.gz]
 [2024-04-02 14:13:29] INFO root fetch - main [MainThread]: End processing [tno.euphorie]: success
 [2024-04-02 14:13:29] INFO root fetch - main [MainThread]: Store serial: [22584542]
+[2024-04-02 14:15:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584542]
+[2024-04-02 14:15:38] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esbmc-ai
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pdfplumber-aemc
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: armour
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yanhekt
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: invenio-app-rdm
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prusek-spheroid
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: etsy-python
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pdfplumber-aemc
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flashcam
+[2024-04-02 14:15:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: niragcalculator
+[2024-04-02 14:15:38] INFO root fetch - processPackages [pdfplumber-aemc]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-02 14:15:38] WARNING root fetch - processPackages [yanhekt]: Skipping, unable to determine old version
+[2024-04-02 14:15:38] INFO root fetch - processPackages [yanhekt]: Start processing: pytoniq-core
+[2024-04-02 14:15:38] INFO root fetch - main [MainThread]: End processing [yanhekt] error
+[2024-04-02 14:15:38] INFO root fetch - processPackages [pdfplumber-aemc]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-02 14:15:38] INFO root fetch - processPackages [flashcam]: New version: [1.8.7] Old Version: [1.8.6]
+[2024-04-02 14:15:38] INFO root fetch - processPackages [prusek-spheroid]: New version: [3.2] Old Version: [3.1]
+[2024-04-02 14:15:38] INFO root fetch - processPackages [invenio-app-rdm]: New version: [9.1.6] Old Version: [9.1.5]
+[2024-04-02 14:15:38] INFO root fetch - processPackages [armour]: New version: [1.3.4] Old Version: [1.3.3]
+[2024-04-02 14:15:38] INFO root fetch - processPackages [esbmc-ai]: New version: [0.4.0.post0] Old Version: [0.4.0.dev6]
+[2024-04-02 14:15:38] INFO root fetch - processPackages [etsy-python]: New version: [1.0.8] Old Version: [1.0.7]
+[2024-04-02 14:15:39] WARNING root fetch - processPackages [niragcalculator]: Skipping, unable to determine old version
+[2024-04-02 14:15:39] INFO root fetch - main [MainThread]: End processing [niragcalculator] error
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/11/45/1db032d152258bc4c1d0b2176b7ad414892fa46620682b2074f65556277a/pdfplumber-aemc-0.7.6.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/f3/9e/25421edf13f601ce0da7ed16f946943f4687ee09daf917e7263a4a0176f8/prusek_spheroid-3.1.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pytoniq-core]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 14:15:39] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/c5/8ed1fc0a39c45ee5064efe19cda2ad941d693f614d4adfcfd13005cb029d/flashcam-1.8.6.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/11/45/1db032d152258bc4c1d0b2176b7ad414892fa46620682b2074f65556277a/pdfplumber-aemc-0.7.6.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/35/44/4cbbc79ecfcfeba25eaa588259dd78889d45f7ce5da9df51d90a886d7283/invenio-app-rdm-9.1.5.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [armour]: Downloading https://files.pythonhosted.org/packages/0a/44/c5301efdee3be3ee23418738a3366f8cc9144900738f8c496023bd20e602/armour-1.3.3-py2.py3-none-any.whl
+[2024-04-02 14:15:39] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/4b/ce/788582ac7b99b8f144247fbc3e05bcc9d53e0eaf66286f9e3da0b30bbe0f/esbmc_ai-0.4.0.dev6.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [etsy-python]: Downloading https://files.pythonhosted.org/packages/93/31/c47cdaf1b29c669d2d24cbc67cb0159abfe40017a115983ba61d745a2539/etsy-python-1.0.7.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/80/fd/17719a7a0ccfcc5482b7463af901ba6d3e4f1874aae61f884fe75c3bbdb6/pytoniq-core-0.1.8.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [prusek-spheroid]: Downloading https://files.pythonhosted.org/packages/1c/f9/3f8e6a9ce3b8e426007813a0bb57a632e8ce75490a28bdcb0fed52765f81/prusek_spheroid-3.2.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/ba/14/2964c33d2c7dab9419585ac28f625e1068a1a5d8c9b30e359a9ddd8868a0/pdfplumber-aemc-0.7.7.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/ba/14/2964c33d2c7dab9419585ac28f625e1068a1a5d8c9b30e359a9ddd8868a0/pdfplumber-aemc-0.7.7.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [prusek-spheroid]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [prusek-spheroid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prusek_spheroid-3.1.tar.gz tmp/prusek_spheroid-3.2.tar.gz --markdown 20240402/p/prusek-spheroid/3.1-3.2/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-aemc-0.7.6.tar.gz tmp/pdfplumber-aemc-0.7.7.tar.gz --markdown 20240402/p/pdfplumber-aemc/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pdfplumber-aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-aemc-0.7.6.tar.gz tmp/pdfplumber-aemc-0.7.7.tar.gz --markdown 20240402/p/pdfplumber-aemc/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/f3/c1/53486cadda0d23b5e9bc9e0486d76333618b3b59499c45fc1a8224dd40ed/flashcam-1.8.7.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [invenio-app-rdm]: Downloading https://files.pythonhosted.org/packages/6d/08/541356da553e52c32dfd88d87a98202db68711a201c4136b0acdd982572f/invenio-app-rdm-9.1.6.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [armour]: Downloading https://files.pythonhosted.org/packages/5f/dc/205dedbfdccb6f2acfdeabb66feeb0b5c9487ab4047727dbcb000e90bff3/armour-1.3.4-py2.py3-none-any.whl
+[2024-04-02 14:15:39] INFO root fetch - processPackages [esbmc-ai]: Downloading https://files.pythonhosted.org/packages/12/21/0148215f4788627f0406dc7583f4f7be5076c13a4d2d86cd660df75f30d1/esbmc_ai-0.4.0.post0.tar.gz
+[2024-04-02 14:15:39] INFO root fetch - processPackages [invenio-app-rdm]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [invenio-app-rdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-app-rdm-9.1.5.tar.gz tmp/invenio-app-rdm-9.1.6.tar.gz --markdown 20240402/i/invenio-app-rdm/9.1.5-9.1.6/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.8.6.tar.gz tmp/flashcam-1.8.7.tar.gz --markdown 20240402/f/flashcam/1.8.6-1.8.7/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [armour]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [armour]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armour-1.3.3-py2.py3-none-any.whl.zip tmp/armour-1.3.4-py2.py3-none-any.whl.zip --markdown 20240402/a/armour/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [esbmc-ai]: executing diffoscope
+[2024-04-02 14:15:39] INFO root fetch - processPackages [esbmc-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esbmc_ai-0.4.0.dev6.tar.gz tmp/esbmc_ai-0.4.0.post0.tar.gz --markdown 20240402/e/esbmc-ai/0.4.0.dev6-0.4.0.post0/diff.md --exclude *.pyd
+[2024-04-02 14:15:39] INFO root fetch - processPackages [pytoniq-core]: Downloading https://files.pythonhosted.org/packages/1d/c6/2c8daf13fd29ba3b0b2065bf051f422b9e3733d408a6c5931f651d3aa033/pytoniq-core-0.1.9.tar.gz
+[2024-04-02 14:15:40] INFO root fetch - processPackages [pytoniq-core]: executing diffoscope
+[2024-04-02 14:15:40] INFO root fetch - processPackages [pytoniq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytoniq-core-0.1.8.tar.gz tmp/pytoniq-core-0.1.9.tar.gz --markdown 20240402/p/pytoniq-core/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 14:15:40] INFO root fetch - processPackages [etsy-python]: Downloading https://files.pythonhosted.org/packages/84/23/a44b7786022b7a090252583f3fb31f3284d0da20af34472862e466eb5558/etsy-python-1.0.8.tar.gz
+[2024-04-02 14:15:40] INFO root fetch - processPackages [etsy-python]: executing diffoscope
+[2024-04-02 14:15:40] INFO root fetch - processPackages [etsy-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etsy-python-1.0.7.tar.gz tmp/etsy-python-1.0.8.tar.gz --markdown 20240402/e/etsy-python/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2024-04-02 14:15:40] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.6.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.7.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - main [MainThread]: End processing [pdfplumber-aemc]: success
+[2024-04-02 14:15:40] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-3.1.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - processPackages [prusek-spheroid]: Remove: archive file [/home/abi/fetcher/tmp/prusek_spheroid-3.2.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - main [MainThread]: End processing [prusek-spheroid]: success
+[2024-04-02 14:15:40] INFO root fetch - processPackages [armour]: Remove: archive file [/home/abi/fetcher/tmp/armour-1.3.3-py2.py3-none-any.whl.zip]
+[2024-04-02 14:15:40] INFO root fetch - processPackages [armour]: Remove: archive file [/home/abi/fetcher/tmp/armour-1.3.4-py2.py3-none-any.whl.zip]
+[2024-04-02 14:15:40] INFO root fetch - main [MainThread]: End processing [armour]: success
+[2024-04-02 14:15:40] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.4.0.dev6.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - processPackages [esbmc-ai]: Remove: archive file [/home/abi/fetcher/tmp/esbmc_ai-0.4.0.post0.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - main [MainThread]: End processing [esbmc-ai]: success
+[2024-04-02 14:15:40] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.6.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.7.tar.gz]
+[2024-04-02 14:15:40] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-04-02 14:15:40] INFO root fetch - main [MainThread]: End processing [pdfplumber-aemc]: success
+[2024-04-02 14:15:41] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.8.tar.gz]
+[2024-04-02 14:15:41] INFO root fetch - processPackages [pytoniq-core]: Remove: archive file [/home/abi/fetcher/tmp/pytoniq-core-0.1.9.tar.gz]
+[2024-04-02 14:15:41] INFO root fetch - main [MainThread]: End processing [pytoniq-core]: success
+[2024-04-02 14:15:41] INFO root fetch - processPackages [etsy-python]: Remove: archive file [/home/abi/fetcher/tmp/etsy-python-1.0.7.tar.gz]
+[2024-04-02 14:15:41] INFO root fetch - processPackages [etsy-python]: Remove: archive file [/home/abi/fetcher/tmp/etsy-python-1.0.8.tar.gz]
+[2024-04-02 14:15:41] INFO root fetch - main [MainThread]: End processing [etsy-python]: success
+[2024-04-02 14:15:41] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.5.tar.gz]
+[2024-04-02 14:15:41] INFO root fetch - processPackages [invenio-app-rdm]: Remove: archive file [/home/abi/fetcher/tmp/invenio-app-rdm-9.1.6.tar.gz]
+[2024-04-02 14:15:41] INFO root fetch - main [MainThread]: End processing [invenio-app-rdm]: success
+[2024-04-02 14:15:41] INFO root fetch - main [MainThread]: Store serial: [22584575]
