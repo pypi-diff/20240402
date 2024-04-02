@@ -15766,3 +15766,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:20:16] INFO root fetch - processPackages [shapeout2]: Remove: archive file [/home/abi/fetcher/tmp/shapeout2-2.9.6.tar.gz]
 [2024-04-02 11:20:16] INFO root fetch - main [MainThread]: End processing [shapeout2]: success
 [2024-04-02 11:20:16] INFO root fetch - main [MainThread]: Store serial: [22582765]
+[2024-04-02 11:22:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582765]
+[2024-04-02 11:22:25] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 11:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vampytest
+[2024-04-02 11:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluequbit
+[2024-04-02 11:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-collector
+[2024-04-02 11:22:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vnpy-icetcore
+[2024-04-02 11:22:25] INFO root fetch - processPackages [telegram-collector]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 11:22:25] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/cf/6b/d795f55bc58ce47ec63c00f84b3db722350ac9aa54724d9ddb10b0e74f1d/telegram_collector-0.0.8.tar.gz
+[2024-04-02 11:22:25] INFO root fetch - processPackages [vnpy-icetcore]: New version: [1.0.7] Old Version: [1.0.6]
+[2024-04-02 11:22:25] INFO root fetch - processPackages [vampytest]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 11:22:25] INFO root fetch - processPackages [bluequbit]: New version: [0.7.0b1] Old Version: [0.6.0b1]
+[2024-04-02 11:22:25] INFO root fetch - processPackages [vnpy-icetcore]: Downloading https://files.pythonhosted.org/packages/5f/d9/45e01dfc8d8abf1faee0b8e9cb93ca78feb892b40b2e61ef30220813d018/vnpy_icetcore-1.0.6-py3-none-any.whl
+[2024-04-02 11:22:25] INFO root fetch - processPackages [vampytest]: Downloading https://files.pythonhosted.org/packages/13/e3/f88d49bfa5c65431741b23712ff3b55285ab79d60a7c8e28cd6886a4b8db/vampytest-0.0.8.tar.gz
+[2024-04-02 11:22:25] INFO root fetch - processPackages [bluequbit]: Downloading https://files.pythonhosted.org/packages/7a/77/d5653954b490903bc8ddfcdda9662e6871f666d81388f096f4a4a246d505/bluequbit-0.6.0b1.tar.gz
+[2024-04-02 11:22:25] INFO root fetch - processPackages [telegram-collector]: Downloading https://files.pythonhosted.org/packages/58/1a/ee9068adc0920b790ade2df5ec45821f0a6508fa20db8761e1cce449c456/telegram_collector-0.0.9.tar.gz
+[2024-04-02 11:22:25] INFO root fetch - processPackages [telegram-collector]: executing diffoscope
+[2024-04-02 11:22:25] INFO root fetch - processPackages [telegram-collector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_collector-0.0.8.tar.gz tmp/telegram_collector-0.0.9.tar.gz --markdown 20240402/t/telegram-collector/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:22:26] INFO root fetch - processPackages [vnpy-icetcore]: Downloading https://files.pythonhosted.org/packages/10/2d/ff44d85efdaff08123e5048a322f66231e985f22e2667bc1ed859342c7bf/vnpy_icetcore-1.0.7-py3-none-any.whl
+[2024-04-02 11:22:26] INFO root fetch - processPackages [bluequbit]: Downloading https://files.pythonhosted.org/packages/e3/73/ea592db722100d43f562a6fe11e223e923979cbc2516878ed4df9d931651/bluequbit-0.7.0b1.tar.gz
+[2024-04-02 11:22:26] INFO root fetch - processPackages [vnpy-icetcore]: executing diffoscope
+[2024-04-02 11:22:26] INFO root fetch - processPackages [vnpy-icetcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_icetcore-1.0.6-py3-none-any.whl.zip tmp/vnpy_icetcore-1.0.7-py3-none-any.whl.zip --markdown 20240402/v/vnpy-icetcore/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2024-04-02 11:22:26] INFO root fetch - processPackages [vampytest]: Downloading https://files.pythonhosted.org/packages/28/55/00df8cf55a7eb45c0defed2de89a54b2400f1a230c7132e362c00c567325/vampytest-0.0.9.tar.gz
+[2024-04-02 11:22:26] INFO root fetch - processPackages [bluequbit]: executing diffoscope
+[2024-04-02 11:22:26] INFO root fetch - processPackages [bluequbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluequbit-0.6.0b1.tar.gz tmp/bluequbit-0.7.0b1.tar.gz --markdown 20240402/b/bluequbit/0.6.0b1-0.7.0b1/diff.md --exclude *.pyd
+[2024-04-02 11:22:26] INFO root fetch - processPackages [vampytest]: executing diffoscope
+[2024-04-02 11:22:26] INFO root fetch - processPackages [vampytest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vampytest-0.0.8.tar.gz tmp/vampytest-0.0.9.tar.gz --markdown 20240402/v/vampytest/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:22:26] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.8.tar.gz]
+[2024-04-02 11:22:26] INFO root fetch - processPackages [telegram-collector]: Remove: archive file [/home/abi/fetcher/tmp/telegram_collector-0.0.9.tar.gz]
+[2024-04-02 11:22:26] INFO root fetch - main [MainThread]: End processing [telegram-collector]: success
+[2024-04-02 11:22:27] INFO root fetch - processPackages [vnpy-icetcore]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_icetcore-1.0.6-py3-none-any.whl.zip]
+[2024-04-02 11:22:27] INFO root fetch - processPackages [vnpy-icetcore]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_icetcore-1.0.7-py3-none-any.whl.zip]
+[2024-04-02 11:22:27] INFO root fetch - main [MainThread]: End processing [vnpy-icetcore]: success
+[2024-04-02 11:22:27] INFO root fetch - processPackages [bluequbit]: Remove: archive file [/home/abi/fetcher/tmp/bluequbit-0.6.0b1.tar.gz]
+[2024-04-02 11:22:27] INFO root fetch - processPackages [bluequbit]: Remove: archive file [/home/abi/fetcher/tmp/bluequbit-0.7.0b1.tar.gz]
+[2024-04-02 11:22:27] INFO root fetch - main [MainThread]: End processing [bluequbit]: success
+[2024-04-02 11:22:27] INFO root fetch - processPackages [vampytest]: Remove: archive file [/home/abi/fetcher/tmp/vampytest-0.0.8.tar.gz]
+[2024-04-02 11:22:27] INFO root fetch - processPackages [vampytest]: Remove: archive file [/home/abi/fetcher/tmp/vampytest-0.0.9.tar.gz]
+[2024-04-02 11:22:27] INFO root fetch - main [MainThread]: End processing [vampytest]: success
+[2024-04-02 11:22:27] INFO root fetch - main [MainThread]: Store serial: [22582775]
