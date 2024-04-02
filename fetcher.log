@@ -20006,3 +20006,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:11:18] INFO root fetch - processPackages [KaruhaBot]: Remove: archive file [/home/abi/fetcher/tmp/KaruhaBot-0.2.0b3.tar.gz]
 [2024-04-02 14:11:18] INFO root fetch - main [MainThread]: End processing [KaruhaBot]: success
 [2024-04-02 14:11:18] INFO root fetch - main [MainThread]: Store serial: [22584521]
+[2024-04-02 14:13:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584521]
+[2024-04-02 14:13:27] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 14:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flashcam
+[2024-04-02 14:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpuhunt
+[2024-04-02 14:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: shdo
+[2024-04-02 14:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tno.euphorie
+[2024-04-02 14:13:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autora-experimentalist-divergence
+[2024-04-02 14:13:27] INFO root fetch - processPackages [shdo]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 14:13:27] INFO root fetch - processPackages [flashcam]: New version: [1.8.6] Old Version: [1.8.5]
+[2024-04-02 14:13:27] INFO root fetch - processPackages [tno.euphorie]: New version: [9.0.5] Old Version: [9.0.4]
+[2024-04-02 14:13:27] WARNING root fetch - processPackages [autora-experimentalist-divergence]: Skipping, unable to determine old version
+[2024-04-02 14:13:27] INFO root fetch - main [MainThread]: End processing [autora-experimentalist-divergence] error
+[2024-04-02 14:13:27] INFO root fetch - processPackages [gpuhunt]: New version: [0.0.9rc1] Old Version: [0.0.8]
+[2024-04-02 14:13:27] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/84/ee/bc11a95b4888f2c3d1e71576a3275c98cfe9c1eaa23beccd7391688eeaff/flashcam-1.8.5.tar.gz
+[2024-04-02 14:13:27] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/c3/c4/ca808b6952ed669644f97b4af68d7d9392de7684db621618b983d309a277/shdo-0.0.1.tar.gz
+[2024-04-02 14:13:27] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/a2/b0/d6079f3014a754dc6abd09067de42a7f3405e9908b8ddd602c14160dc1c4/gpuhunt-0.0.8.tar.gz
+[2024-04-02 14:13:27] INFO root fetch - processPackages [tno.euphorie]: Downloading https://files.pythonhosted.org/packages/10/b6/6d474dabee95efa0573f1f3c20a3ee291489683b2c0f15cf0927abe06215/tno.euphorie-9.0.4.tar.gz
+[2024-04-02 14:13:28] INFO root fetch - processPackages [shdo]: Downloading https://files.pythonhosted.org/packages/5f/29/07664d9cf70d03f5684e351bd9aac6bc01b80a9f1153555cf1a995de5400/shdo-0.0.2.tar.gz
+[2024-04-02 14:13:28] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/71/c5/8ed1fc0a39c45ee5064efe19cda2ad941d693f614d4adfcfd13005cb029d/flashcam-1.8.6.tar.gz
+[2024-04-02 14:13:28] INFO root fetch - processPackages [gpuhunt]: Downloading https://files.pythonhosted.org/packages/f8/3e/d9c60150f9dce6dbc30f10220530c18fbfc3164d1e812438feba25e8814d/gpuhunt-0.0.9rc1.tar.gz
+[2024-04-02 14:13:28] INFO root fetch - processPackages [shdo]: executing diffoscope
+[2024-04-02 14:13:28] INFO root fetch - processPackages [shdo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shdo-0.0.1.tar.gz tmp/shdo-0.0.2.tar.gz --markdown 20240402/s/shdo/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 14:13:28] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-04-02 14:13:28] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.8.5.tar.gz tmp/flashcam-1.8.6.tar.gz --markdown 20240402/f/flashcam/1.8.5-1.8.6/diff.md --exclude *.pyd
+[2024-04-02 14:13:28] INFO root fetch - processPackages [gpuhunt]: executing diffoscope
+[2024-04-02 14:13:28] INFO root fetch - processPackages [gpuhunt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpuhunt-0.0.8.tar.gz tmp/gpuhunt-0.0.9rc1.tar.gz --markdown 20240402/g/gpuhunt/0.0.8-0.0.9rc1/diff.md --exclude *.pyd
+[2024-04-02 14:13:28] INFO root fetch - processPackages [tno.euphorie]: Downloading https://files.pythonhosted.org/packages/ec/47/233d0d46d2813197f4aa543c77f805707bc9f2b602273b9e37dd1fa7ec68/tno.euphorie-9.0.5.tar.gz
+[2024-04-02 14:13:28] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.1.tar.gz]
+[2024-04-02 14:13:28] INFO root fetch - processPackages [shdo]: Remove: archive file [/home/abi/fetcher/tmp/shdo-0.0.2.tar.gz]
+[2024-04-02 14:13:28] INFO root fetch - main [MainThread]: End processing [shdo]: success
+[2024-04-02 14:13:28] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.8.tar.gz]
+[2024-04-02 14:13:28] INFO root fetch - processPackages [gpuhunt]: Remove: archive file [/home/abi/fetcher/tmp/gpuhunt-0.0.9rc1.tar.gz]
+[2024-04-02 14:13:28] INFO root fetch - main [MainThread]: End processing [gpuhunt]: success
+[2024-04-02 14:13:29] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.5.tar.gz]
+[2024-04-02 14:13:29] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.6.tar.gz]
+[2024-04-02 14:13:29] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-04-02 14:13:29] INFO root fetch - processPackages [tno.euphorie]: executing diffoscope
+[2024-04-02 14:13:29] INFO root fetch - processPackages [tno.euphorie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tno.euphorie-9.0.4.tar.gz tmp/tno.euphorie-9.0.5.tar.gz --markdown 20240402/t/tno.euphorie/9.0.4-9.0.5/diff.md --exclude *.pyd
+[2024-04-02 14:13:29] INFO root fetch - processPackages [tno.euphorie]: Remove: archive file [/home/abi/fetcher/tmp/tno.euphorie-9.0.4.tar.gz]
+[2024-04-02 14:13:29] INFO root fetch - processPackages [tno.euphorie]: Remove: archive file [/home/abi/fetcher/tmp/tno.euphorie-9.0.5.tar.gz]
+[2024-04-02 14:13:29] INFO root fetch - main [MainThread]: End processing [tno.euphorie]: success
+[2024-04-02 14:13:29] INFO root fetch - main [MainThread]: Store serial: [22584542]
