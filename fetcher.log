@@ -10314,3 +10314,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:24:35] INFO root fetch - processPackages [schwab-py]: Remove: archive file [/home/abi/fetcher/tmp/schwab-py-0.0.0a2.tar.gz]
 [2024-04-02 06:24:35] INFO root fetch - main [MainThread]: End processing [schwab-py]: success
 [2024-04-02 06:24:35] INFO root fetch - main [MainThread]: Store serial: [22580581]
+[2024-04-02 06:26:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580581]
+[2024-04-02 06:26:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 06:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-ballisticcalc
+[2024-04-02 06:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py-ballisticcalc.exts
+[2024-04-02 06:26:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qa-metrics
+[2024-04-02 06:26:44] INFO root fetch - processPackages [qa-metrics]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 06:26:44] INFO root fetch - processPackages [py-ballisticcalc]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2024-04-02 06:26:44] INFO root fetch - processPackages [py-ballisticcalc.exts]: New version: [2.0.0b2] Old Version: [2.0.0b1]
+[2024-04-02 06:26:45] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/0c/24/a393bca1755f50578a8b24a8aa8d80d3aecee02f8de89c1b8f272e6932fd/qa_metrics-0.2.3.tar.gz
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc]: Downloading https://files.pythonhosted.org/packages/ec/6c/05cdcffa1405c70aaf2c8bac9c36433ea42926bf2075990d64ff650bd490/py_ballisticcalc-2.0.0b1.tar.gz
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc.exts]: Downloading https://files.pythonhosted.org/packages/f4/bd/420d0379a1e7d10f22d89bb7cebb240944231f62b6c2ebc1700e757e7872/py_ballisticcalc.exts-2.0.0b1.tar.gz
+[2024-04-02 06:26:45] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/52/b0/1baec8fc623f460686b3f41d586388444a080e727a42ce413b8663653fd2/qa_metrics-0.2.4.tar.gz
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc]: Downloading https://files.pythonhosted.org/packages/12/07/160ebed28d3cb41cff5ae5e9879d2bc50492525afac2ed58306a53a6aab9/py_ballisticcalc-2.0.0b2.tar.gz
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc.exts]: Downloading https://files.pythonhosted.org/packages/e1/7e/6d93a2ce5deaf875d2d97bd81017b7d9c33921361d00cd2101106604a8a4/py_ballisticcalc.exts-2.0.0b2.tar.gz
+[2024-04-02 06:26:45] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-04-02 06:26:45] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.2.3.tar.gz tmp/qa_metrics-0.2.4.tar.gz --markdown 20240402/q/qa-metrics/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc]: executing diffoscope
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ballisticcalc-2.0.0b1.tar.gz tmp/py_ballisticcalc-2.0.0b2.tar.gz --markdown 20240402/p/py-ballisticcalc/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc.exts]: executing diffoscope
+[2024-04-02 06:26:45] INFO root fetch - processPackages [py-ballisticcalc.exts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ballisticcalc.exts-2.0.0b1.tar.gz tmp/py_ballisticcalc.exts-2.0.0b2.tar.gz --markdown 20240402/p/py-ballisticcalc.exts/2.0.0b1-2.0.0b2/diff.md --exclude *.pyd
+[2024-04-02 06:26:46] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.3.tar.gz]
+[2024-04-02 06:26:46] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.4.tar.gz]
+[2024-04-02 06:26:46] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-04-02 06:26:46] INFO root fetch - processPackages [py-ballisticcalc]: Remove: archive file [/home/abi/fetcher/tmp/py_ballisticcalc-2.0.0b1.tar.gz]
+[2024-04-02 06:26:46] INFO root fetch - processPackages [py-ballisticcalc]: Remove: archive file [/home/abi/fetcher/tmp/py_ballisticcalc-2.0.0b2.tar.gz]
+[2024-04-02 06:26:46] INFO root fetch - main [MainThread]: End processing [py-ballisticcalc]: success
+[2024-04-02 06:26:46] INFO root fetch - processPackages [py-ballisticcalc.exts]: Remove: archive file [/home/abi/fetcher/tmp/py_ballisticcalc.exts-2.0.0b1.tar.gz]
+[2024-04-02 06:26:46] INFO root fetch - processPackages [py-ballisticcalc.exts]: Remove: archive file [/home/abi/fetcher/tmp/py_ballisticcalc.exts-2.0.0b2.tar.gz]
+[2024-04-02 06:26:46] INFO root fetch - main [MainThread]: End processing [py-ballisticcalc.exts]: success
+[2024-04-02 06:26:46] INFO root fetch - main [MainThread]: Store serial: [22580594]
