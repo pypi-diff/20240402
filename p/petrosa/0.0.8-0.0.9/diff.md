@@ -1,59 +1,46 @@
-# Comparing `tmp/petrosa-0.0.8-py3-none-any.whl.zip` & `tmp/petrosa-0.0.9-py3-none-any.whl.zip`
+# Comparing `tmp/petrosa-0.0.8.tar.gz` & `tmp/petrosa-0.0.9.tar.gz`
 
-## zipinfo {}
+## Comparing `petrosa-0.0.8.tar` & `petrosa-0.0.9.tar`
 
-```diff
-@@ -1,11 +1,11 @@
- Zip file size: 5398 bytes, number of entries: 9
- -rw-r--r--  2.0 unx        0 b- defN 20-Feb-02 00:00 petrosa/converters/__init__.py
---rw-r--r--  2.0 unx     2322 b- defN 20-Feb-02 00:00 petrosa/converters/backtests.py
-+-rw-r--r--  2.0 unx     2325 b- defN 20-Feb-02 00:00 petrosa/converters/backtests.py
- -rw-r--r--  2.0 unx        0 b- defN 20-Feb-02 00:00 petrosa/ta/__init__.py
- -rw-r--r--  2.0 unx    22023 b- defN 20-Feb-02 00:00 petrosa/ta/strategies.py
- -rw-r--r--  2.0 unx      822 b- defN 20-Feb-02 00:00 petrosa/ta/utils.py
--?rw-r--r--  2.0 unx      716 b- defN 20-Feb-02 00:00 petrosa-0.0.8.dist-info/METADATA
--?rw-r--r--  2.0 unx       87 b- defN 20-Feb-02 00:00 petrosa-0.0.8.dist-info/WHEEL
--?rw-r--r--  2.0 unx     1063 b- defN 20-Feb-02 00:00 petrosa-0.0.8.dist-info/licenses/LICENSE
--?rw-r--r--  2.0 unx      707 b- defN 20-Feb-02 00:00 petrosa-0.0.8.dist-info/RECORD
--9 files, 27740 bytes uncompressed, 4178 bytes compressed:  84.9%
-+?rw-r--r--  2.0 unx      716 b- defN 20-Feb-02 00:00 petrosa-0.0.9.dist-info/METADATA
-+?rw-r--r--  2.0 unx       87 b- defN 20-Feb-02 00:00 petrosa-0.0.9.dist-info/WHEEL
-+?rw-r--r--  2.0 unx     1063 b- defN 20-Feb-02 00:00 petrosa-0.0.9.dist-info/licenses/LICENSE
-+?rw-r--r--  2.0 unx      707 b- defN 20-Feb-02 00:00 petrosa-0.0.9.dist-info/RECORD
-+9 files, 27743 bytes uncompressed, 4178 bytes compressed:  84.9%
-```
-
-## zipnote {}
+### file list
 
 ```diff
-@@ -9,20 +9,20 @@
- 
- Filename: petrosa/ta/strategies.py
- Comment: 
- 
- Filename: petrosa/ta/utils.py
- Comment: 
- 
--Filename: petrosa-0.0.8.dist-info/METADATA
-+Filename: petrosa-0.0.9.dist-info/METADATA
- Comment: 
- 
--Filename: petrosa-0.0.8.dist-info/WHEEL
-+Filename: petrosa-0.0.9.dist-info/WHEEL
- Comment: 
- 
--Filename: petrosa-0.0.8.dist-info/licenses/LICENSE
-+Filename: petrosa-0.0.9.dist-info/licenses/LICENSE
- Comment: 
- 
--Filename: petrosa-0.0.8.dist-info/RECORD
-+Filename: petrosa-0.0.9.dist-info/RECORD
- Comment: 
- 
- Zip file comment:
+@@ -1,15 +1,15 @@
+--rw-r--r--   0        0        0        9 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/.gitignore
+--rw-r--r--   0        0        0        0 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/__init__.py
+--rw-r--r--   0        0        0     2322 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/backtests.py
+--rw-r--r--   0        0        0     1502 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/data.pickle
+--rw-r--r--   0        0        0      173 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/myparams.pickle
+--rw-r--r--   0        0        0        5 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/params.pickle
+--rw-r--r--   0        0        0 12175544 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/converters/stats.pickle
+--rw-r--r--   0        0        0        0 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/ta/__init__.py
+--rw-r--r--   0        0        0    22023 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/ta/strategies.py
+--rw-r--r--   0        0        0      822 2020-02-02 00:00:00.000000 petrosa-0.0.8/petrosa/ta/utils.py
+--rw-r--r--   0        0        0       16 2020-02-02 00:00:00.000000 petrosa-0.0.8/.gitignore
+--rw-r--r--   0        0        0     1063 2020-02-02 00:00:00.000000 petrosa-0.0.8/LICENSE
+--rw-r--r--   0        0        0      170 2020-02-02 00:00:00.000000 petrosa-0.0.8/README.md
+--rw-r--r--   0        0        0      616 2020-02-02 00:00:00.000000 petrosa-0.0.8/pyproject.toml
+--rw-r--r--   0        0        0      716 2020-02-02 00:00:00.000000 petrosa-0.0.8/PKG-INFO
++-rw-r--r--   0        0        0        9 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/.gitignore
++-rw-r--r--   0        0        0        0 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/__init__.py
++-rw-r--r--   0        0        0     2325 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/backtests.py
++-rw-r--r--   0        0        0     1502 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/data.pickle
++-rw-r--r--   0        0        0      173 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/myparams.pickle
++-rw-r--r--   0        0        0        5 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/params.pickle
++-rw-r--r--   0        0        0 12175544 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/converters/stats.pickle
++-rw-r--r--   0        0        0        0 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/ta/__init__.py
++-rw-r--r--   0        0        0    22023 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/ta/strategies.py
++-rw-r--r--   0        0        0      822 2020-02-02 00:00:00.000000 petrosa-0.0.9/petrosa/ta/utils.py
++-rw-r--r--   0        0        0       16 2020-02-02 00:00:00.000000 petrosa-0.0.9/.gitignore
++-rw-r--r--   0        0        0     1063 2020-02-02 00:00:00.000000 petrosa-0.0.9/LICENSE
++-rw-r--r--   0        0        0      170 2020-02-02 00:00:00.000000 petrosa-0.0.9/README.md
++-rw-r--r--   0        0        0      616 2020-02-02 00:00:00.000000 petrosa-0.0.9/pyproject.toml
++-rw-r--r--   0        0        0      716 2020-02-02 00:00:00.000000 petrosa-0.0.9/PKG-INFO
 ```
 
-## petrosa/converters/backtests.py
+### Comparing `petrosa-0.0.8/petrosa/converters/backtests.py` & `petrosa-0.0.9/petrosa/converters/backtests.py`
+
+ * *Files 1% similar despite different names*
 
 ```diff
 @@ -36,15 +36,15 @@
@@ -74,7 +61,50 @@
          del(bt_stats['_equity_curve'])
 ```
 
-## Comparing `petrosa-0.0.8.dist-info/METADATA` & `petrosa-0.0.9.dist-info/METADATA`
+### Comparing `petrosa-0.0.8/petrosa/converters/data.pickle` & `petrosa-0.0.9/petrosa/converters/data.pickle`
+
+ * *Files identical despite different names*
+
+### Comparing `petrosa-0.0.8/petrosa/converters/stats.pickle` & `petrosa-0.0.9/petrosa/converters/stats.pickle`
+
+ * *Files identical despite different names*
+
+### Comparing `petrosa-0.0.8/petrosa/ta/strategies.py` & `petrosa-0.0.9/petrosa/ta/strategies.py`
+
+ * *Files identical despite different names*
+
+### Comparing `petrosa-0.0.8/petrosa/ta/utils.py` & `petrosa-0.0.9/petrosa/ta/utils.py`
+
+ * *Files identical despite different names*
+
+### Comparing `petrosa-0.0.8/LICENSE` & `petrosa-0.0.9/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `petrosa-0.0.8/pyproject.toml` & `petrosa-0.0.9/pyproject.toml`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -1,14 +1,14 @@
+ [build-system]
+ requires = ["hatchling"]
+ build-backend = "hatchling.build"
+ 
+ [project]
+ name = "petrosa"
+-version = "0.0.8"
++version = "0.0.9"
+ authors = [
+   { name="@yurisa2", email="yuri@sa2.com.br" },
+ ]
+ description = "utilities for PETROSA"
+ readme = "README.md"
+ requires-python = ">=3.7"
+ dependencies = ["pandas==2.0.0",
+```
+
+### Comparing `petrosa-0.0.8/PKG-INFO` & `petrosa-0.0.9/PKG-INFO`
 
  * *Files 1% similar despite different names*
 
@@ -92,8 +122,4 @@
  Classifier: License :: OSI Approved :: MIT License
  Classifier: Operating System :: OS Independent
 ```
-
-## Comparing `petrosa-0.0.8.dist-info/licenses/LICENSE` & `petrosa-0.0.9.dist-info/licenses/LICENSE`
-
- * *Files identical despite different names*
 
