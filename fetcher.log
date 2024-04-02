@@ -12100,3 +12100,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:44:31] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.4.0.tar.gz]
 [2024-04-02 08:44:31] INFO root fetch - main [MainThread]: End processing [ya360]: success
 [2024-04-02 08:44:31] INFO root fetch - main [MainThread]: Store serial: [22581314]
+[2024-04-02 08:46:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581314]
+[2024-04-02 08:46:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 08:46:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keelson
+[2024-04-02 08:46:39] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc1] Old Version: [0.2.0rc3]
+[2024-04-02 08:46:39] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/7c/e1/29663bd505fa198de0efca843a15cfe49b3a1cc2b04ff14a8e1aae34bfa1/keelson-0.2.0rc3-py3-none-any.whl
+[2024-04-02 08:46:40] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/ab/1c/132a73630943cc13c45586167c5dc0c04b08784d73c8eba1df2b0a4b549e/keelson-0.3.0rc1-py3-none-any.whl
+[2024-04-02 08:46:40] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-02 08:46:40] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.2.0rc3-py3-none-any.whl.zip tmp/keelson-0.3.0rc1-py3-none-any.whl.zip --markdown 20240402/k/keelson/0.2.0rc3-0.3.0rc1/diff.md --exclude *.pyd
+[2024-04-02 08:46:40] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.2.0rc3-py3-none-any.whl.zip]
+[2024-04-02 08:46:40] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc1-py3-none-any.whl.zip]
+[2024-04-02 08:46:40] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-02 08:46:40] INFO root fetch - main [MainThread]: Store serial: [22581316]
