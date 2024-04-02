@@ -14595,3 +14595,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:37:32] INFO root fetch - processPackages [cyclonedx-editor-validator]: Remove: archive file [/home/abi/fetcher/tmp/cyclonedx_editor_validator-0.9.4.tar.gz]
 [2024-04-02 10:37:32] INFO root fetch - main [MainThread]: End processing [cyclonedx-editor-validator]: success
 [2024-04-02 10:37:32] INFO root fetch - main [MainThread]: Store serial: [22582258]
+[2024-04-02 10:39:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582258]
+[2024-04-02 10:39:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gg-release-notes
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polarismesh-specification
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccpn-project-checker
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: payze-pkg
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/ce/b2/20ede93d59515116918374524c8eec21cfde6fc66e2191a0e004de312438/ccpn_project_checker-0.1.3.tar.gz
+[2024-04-02 10:39:41] INFO root fetch - processPackages [gg-release-notes]: New version: [1.6.0] Old Version: [1.4.0]
+[2024-04-02 10:39:41] INFO root fetch - processPackages [payze-pkg]: New version: [2.3] Old Version: [2.2.2]
+[2024-04-02 10:39:41] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.5.0] Old Version: [1.4.2a9]
+[2024-04-02 10:39:41] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/18/ae/90a187ac8b0f20c64a11fdc7e2fcd877b23a21e267a55868ff76c0d9712e/gg-release-notes-1.4.0.tar.gz
+[2024-04-02 10:39:41] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/e5/a1/d120da9f41b6bdf2fea685a79a291bf98fc2a4ecf4b7e4d052c489fdc91c/payze-pkg-2.2.2.tar.gz
+[2024-04-02 10:39:41] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/2c/ba/a46c36fa8b72dd05fd762a5fdfaaeeec538287c00e67fa421ecdc21e1a79/polarismesh_specification-1.4.2a9.tar.gz
+[2024-04-02 10:39:41] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/de/21/36eab33db6e6ac2609da7da8edaea481f45065fd630b3708d64f197aac5c/ccpn_project_checker-0.1.4.tar.gz
+[2024-04-02 10:39:41] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/40/61/7c361566deead8c030d52f8cf8ae6102adde53b8c047bf5703078b7fd1e9/gg-release-notes-1.6.0.tar.gz
+[2024-04-02 10:39:42] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/34/99/75c910992d92011290dc2528973bc3ecc8306c0fe34c2e16e2226e00ff52/payze-pkg-2.3.tar.gz
+[2024-04-02 10:39:42] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2024-04-02 10:39:42] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg-release-notes-1.4.0.tar.gz tmp/gg-release-notes-1.6.0.tar.gz --markdown 20240402/g/gg-release-notes/1.4.0-1.6.0/diff.md --exclude *.pyd
+[2024-04-02 10:39:42] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/de/37/4355798856690c08df72b99e50210ce0af79ec3137043237c9d11a0ab1a9/polarismesh_specification-1.5.0.tar.gz
+[2024-04-02 10:39:42] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 10:39:42] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.3.tar.gz tmp/ccpn_project_checker-0.1.4.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-02 10:39:42] INFO root fetch - processPackages [payze-pkg]: executing diffoscope
+[2024-04-02 10:39:42] INFO root fetch - processPackages [payze-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payze-pkg-2.2.2.tar.gz tmp/payze-pkg-2.3.tar.gz --markdown 20240402/p/payze-pkg/2.2.2-2.3/diff.md --exclude *.pyd
+[2024-04-02 10:39:42] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2024-04-02 10:39:42] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.4.2a9.tar.gz tmp/polarismesh_specification-1.5.0.tar.gz --markdown 20240402/p/polarismesh-specification/1.4.2a9-1.5.0/diff.md --exclude *.pyd
+[2024-04-02 10:39:42] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.2.2.tar.gz]
+[2024-04-02 10:39:42] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.3.tar.gz]
+[2024-04-02 10:39:42] INFO root fetch - main [MainThread]: End processing [payze-pkg]: success
+[2024-04-02 10:39:42] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.4.0.tar.gz]
+[2024-04-02 10:39:42] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.0.tar.gz]
+[2024-04-02 10:39:42] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2024-04-02 10:39:42] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.2a9.tar.gz]
+[2024-04-02 10:39:42] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.5.0.tar.gz]
+[2024-04-02 10:39:42] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2024-04-02 10:39:49] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.3.tar.gz]
+[2024-04-02 10:39:49] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.4.tar.gz]
+[2024-04-02 10:39:49] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 10:39:49] INFO root fetch - main [MainThread]: Store serial: [22582270]
