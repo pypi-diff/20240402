@@ -12512,3 +12512,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:12:01] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.99.3.tar.gz]
 [2024-04-02 09:12:01] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
 [2024-04-02 09:12:01] INFO root fetch - main [MainThread]: Store serial: [22581456]
+[2024-04-02 09:14:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581456]
+[2024-04-02 09:14:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 09:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redpic
+[2024-04-02 09:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyPartMC
+[2024-04-02 09:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-green20170823-py2
+[2024-04-02 09:14:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-dbbackup-admin
+[2024-04-02 09:14:11] WARNING root fetch - processPackages [alibabacloud-green20170823-py2]: Skipping, unable to determine old version
+[2024-04-02 09:14:11] INFO root fetch - processPackages [django-dbbackup-admin]: New version: [1.3.0] Old Version: [1.2.0]
+[2024-04-02 09:14:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-green20170823-py2] error
+[2024-04-02 09:14:11] INFO root fetch - processPackages [redpic]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-04-02 09:14:11] INFO root fetch - processPackages [PyPartMC]: New version: [1.1.4] Old Version: [1.1.3]
+[2024-04-02 09:14:11] INFO root fetch - processPackages [django-dbbackup-admin]: Downloading https://files.pythonhosted.org/packages/14/6b/77c6b6996589ebcc2f17efd09197c5428ff988362aa31a2c5c7c5d2da385/django-dbbackup-admin-1.2.0.tar.gz
+[2024-04-02 09:14:11] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/0f/82/cb7522937cdd7fe09287fa41270efc524051da3700cfe01ce050f90a476f/redpic-1.0.0.1.tar.gz
+[2024-04-02 09:14:11] INFO root fetch - processPackages [PyPartMC]: Downloading https://files.pythonhosted.org/packages/c3/a2/9b602729243e39e99b0e698f36ff5581e24189ec8057d0dae98cfe5fe11a/PyPartMC-1.1.3.tar.gz
+[2024-04-02 09:14:11] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/c7/66/10575ff380bee010a101dbfa4f9b43c18fb5b8ff3ae4401b50a6d1c42087/redpic-1.0.0.2.tar.gz
+[2024-04-02 09:14:11] INFO root fetch - processPackages [django-dbbackup-admin]: Downloading https://files.pythonhosted.org/packages/95/48/97187848c2a493be8a4c7e574a9b1cb8fdaa9f9f97b634808f290407ec6c/django-dbbackup-admin-1.3.0.tar.gz
+[2024-04-02 09:14:11] INFO root fetch - processPackages [redpic]: executing diffoscope
+[2024-04-02 09:14:11] INFO root fetch - processPackages [redpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redpic-1.0.0.1.tar.gz tmp/redpic-1.0.0.2.tar.gz --markdown 20240402/r/redpic/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:14:12] INFO root fetch - processPackages [django-dbbackup-admin]: executing diffoscope
+[2024-04-02 09:14:12] INFO root fetch - processPackages [django-dbbackup-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-dbbackup-admin-1.2.0.tar.gz tmp/django-dbbackup-admin-1.3.0.tar.gz --markdown 20240402/d/django-dbbackup-admin/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2024-04-02 09:14:12] INFO root fetch - processPackages [PyPartMC]: Downloading https://files.pythonhosted.org/packages/14/4b/c9dc7a788694631afdd164340dfe30481fe40efe0299c2c517494f372ddd/PyPartMC-1.1.4.tar.gz
+[2024-04-02 09:14:12] INFO root fetch - processPackages [django-dbbackup-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-dbbackup-admin-1.2.0.tar.gz]
+[2024-04-02 09:14:12] INFO root fetch - processPackages [django-dbbackup-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-dbbackup-admin-1.3.0.tar.gz]
+[2024-04-02 09:14:12] INFO root fetch - main [MainThread]: End processing [django-dbbackup-admin]: success
+[2024-04-02 09:14:12] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.1.tar.gz]
+[2024-04-02 09:14:12] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.2.tar.gz]
+[2024-04-02 09:14:12] INFO root fetch - main [MainThread]: End processing [redpic]: success
+[2024-04-02 09:14:16] INFO root fetch - processPackages [PyPartMC]: executing diffoscope
+[2024-04-02 09:14:16] INFO root fetch - processPackages [PyPartMC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyPartMC-1.1.3.tar.gz tmp/PyPartMC-1.1.4.tar.gz --markdown 20240402/P/PyPartMC/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2024-04-02 09:14:20] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-1.1.3.tar.gz]
+[2024-04-02 09:14:20] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-1.1.4.tar.gz]
+[2024-04-02 09:14:20] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
+[2024-04-02 09:14:20] INFO root fetch - main [MainThread]: Store serial: [22581489]
