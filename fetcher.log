@@ -12252,3 +12252,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:57:33] INFO root fetch - processPackages [catnekaise.cdk-iam-utilities]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.cdk-iam-utilities-0.0.20.tar.gz]
 [2024-04-02 08:57:33] INFO root fetch - main [MainThread]: End processing [catnekaise.cdk-iam-utilities]: success
 [2024-04-02 08:57:33] INFO root fetch - main [MainThread]: Store serial: [22581365]
+[2024-04-02 08:59:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581365]
+[2024-04-02 08:59:41] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-purchase-default-terms-conditions
+[2024-04-02 08:59:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: catnekaise.actions-constructs
+[2024-04-02 08:59:42] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.7]
+[2024-04-02 08:59:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: New version: [0.2.20] Old Version: [0.2.19]
+[2024-04-02 08:59:42] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Downloading https://files.pythonhosted.org/packages/33/19/0782e952fb3800834c0e4a14a73049cfdf1af3aaf49790e0de0e15129472/odoo_addon_purchase_default_terms_conditions-16.0.1.0.2.7-py3-none-any.whl
+[2024-04-02 08:59:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: Downloading https://files.pythonhosted.org/packages/71/0a/5425c02c9054d66f06b0cf18472be0aa477a95c6cbfba5eacb8a6d913855/catnekaise.actions-constructs-0.2.19.tar.gz
+[2024-04-02 08:59:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: Downloading https://files.pythonhosted.org/packages/88/76/e39c7a86ae2589c535405cf9abe2005629a3e09767ae186d52643ec24487/catnekaise.actions-constructs-0.2.20.tar.gz
+[2024-04-02 08:59:42] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Downloading https://files.pythonhosted.org/packages/4b/9d/8f6117a0794b686854865f8c619e2eef9dc4b460aeed9e5c426cd2de9123/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3-py3-none-any.whl
+[2024-04-02 08:59:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: executing diffoscope
+[2024-04-02 08:59:42] INFO root fetch - processPackages [catnekaise.actions-constructs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.actions-constructs-0.2.19.tar.gz tmp/catnekaise.actions-constructs-0.2.20.tar.gz --markdown 20240402/c/catnekaise.actions-constructs/0.2.19-0.2.20/diff.md --exclude *.pyd
+[2024-04-02 08:59:42] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: executing diffoscope
+[2024-04-02 08:59:42] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-purchase-default-terms-conditions/16.0.1.0.2.7-16.0.1.0.3/diff.md --exclude *.pyd
+[2024-04-02 08:59:43] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.19.tar.gz]
+[2024-04-02 08:59:43] INFO root fetch - processPackages [catnekaise.actions-constructs]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.actions-constructs-0.2.20.tar.gz]
+[2024-04-02 08:59:43] INFO root fetch - main [MainThread]: End processing [catnekaise.actions-constructs]: success
+[2024-04-02 08:59:43] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2024-04-02 08:59:43] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3-py3-none-any.whl.zip]
+[2024-04-02 08:59:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-default-terms-conditions]: success
+[2024-04-02 08:59:43] INFO root fetch - main [MainThread]: Store serial: [22581370]
