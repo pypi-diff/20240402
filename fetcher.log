@@ -11592,3 +11592,47 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:04:39] INFO root fetch - processPackages [FreeTVG-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/FreeTVG-karjakak-3.5.9.tar.gz]
 [2024-04-02 08:04:39] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
 [2024-04-02 08:04:39] INFO root fetch - main [MainThread]: Store serial: [22581125]
+[2024-04-02 08:06:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581125]
+[2024-04-02 08:06:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: petsc
+[2024-04-02 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: petsc4py
+[2024-04-02 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: komoutils
+[2024-04-02 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: virga-exo
+[2024-04-02 08:06:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gammarer.aws-secure-bucket
+[2024-04-02 08:06:48] INFO root fetch - processPackages [komoutils]: New version: [0.0.220] Old Version: [0.0.219]
+[2024-04-02 08:06:48] INFO root fetch - processPackages [petsc]: New version: [3.9.2] Old Version: [3.9.1]
+[2024-04-02 08:06:48] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/c6/98/d1c45b1b3a1d8b395087d9b6be823ee6853bd8461cee47d73bc9b46528b2/komoutils-0.0.219.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [petsc]: Downloading https://files.pythonhosted.org/packages/e6/6c/555ad15fd1f9f2d8a044577c2df9fe855a7cd0f47d2716ebf478a2ca0a37/petsc-3.9.1.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: New version: [1.2.0] Old Version: [1.1.9]
+[2024-04-02 08:06:48] INFO root fetch - processPackages [virga-exo]: New version: [0.4] Old Version: [0.3.4]
+[2024-04-02 08:06:48] INFO root fetch - processPackages [petsc4py]: New version: [3.9.1] Old Version: [3.9.0]
+[2024-04-02 08:06:48] WARNING root fetch - processPackages [petsc]: Skipping package: exceeds size limit 11609124>=10485760
+[2024-04-02 08:06:48] INFO root fetch - main [MainThread]: End processing [petsc] error
+[2024-04-02 08:06:48] INFO root fetch - processPackages [virga-exo]: Downloading https://files.pythonhosted.org/packages/ee/d2/1edde75ec73d514a67345462d6591a95ea05d7939503035dd12ad7a6b4fa/virga-exo-0.3.4.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/ab/7e/4a73e2c00a9853d12d5092329c2c66be43cb73595303447841abf9fba2b0/petsc4py-3.9.0.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/a9/8c/58254a4a01cf55d3c9d8550771aa3e95a9510876af4e1249ef9d3984ce3e/gammarer.aws-secure-bucket-1.1.9.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/ef/c9/9d725de81643ff65255360f9d5701d3662ee3d5b929b2e1f023325a96a78/komoutils-0.0.220.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-04-02 08:06:48] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.219.tar.gz tmp/komoutils-0.0.220.tar.gz --markdown 20240402/k/komoutils/0.0.219-0.0.220/diff.md --exclude *.pyd
+[2024-04-02 08:06:48] INFO root fetch - processPackages [virga-exo]: Downloading https://files.pythonhosted.org/packages/7e/04/0b28acf446c803f867022e15bb9cea380fb9383b40e89ee101b7006c9772/virga-exo-0.4.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Downloading https://files.pythonhosted.org/packages/f4/fd/bf4393a9503d9abb11d85514ac0677e81821c9afde3bbe87b99d51106868/gammarer.aws-secure-bucket-1.2.0.tar.gz
+[2024-04-02 08:06:48] INFO root fetch - processPackages [virga-exo]: executing diffoscope
+[2024-04-02 08:06:48] INFO root fetch - processPackages [virga-exo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virga-exo-0.3.4.tar.gz tmp/virga-exo-0.4.tar.gz --markdown 20240402/v/virga-exo/0.3.4-0.4/diff.md --exclude *.pyd
+[2024-04-02 08:06:49] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: executing diffoscope
+[2024-04-02 08:06:49] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-bucket-1.1.9.tar.gz tmp/gammarer.aws-secure-bucket-1.2.0.tar.gz --markdown 20240402/g/gammarer.aws-secure-bucket/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 08:06:49] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.219.tar.gz]
+[2024-04-02 08:06:49] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.220.tar.gz]
+[2024-04-02 08:06:49] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-04-02 08:06:49] INFO root fetch - processPackages [petsc4py]: Downloading https://files.pythonhosted.org/packages/91/8c/2c5d593b5dc7aff46bd56b7c71fc5550bd342c8295440eb8c9cb255f2e71/petsc4py-3.9.1.tar.gz
+[2024-04-02 08:06:49] INFO root fetch - processPackages [virga-exo]: Remove: archive file [/home/abi/fetcher/tmp/virga-exo-0.3.4.tar.gz]
+[2024-04-02 08:06:49] INFO root fetch - processPackages [virga-exo]: Remove: archive file [/home/abi/fetcher/tmp/virga-exo-0.4.tar.gz]
+[2024-04-02 08:06:49] INFO root fetch - main [MainThread]: End processing [virga-exo]: success
+[2024-04-02 08:06:49] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-1.1.9.tar.gz]
+[2024-04-02 08:06:49] INFO root fetch - processPackages [gammarer.aws-secure-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-bucket-1.2.0.tar.gz]
+[2024-04-02 08:06:49] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-bucket]: success
+[2024-04-02 08:06:50] INFO root fetch - processPackages [petsc4py]: executing diffoscope
+[2024-04-02 08:06:50] INFO root fetch - processPackages [petsc4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petsc4py-3.9.0.tar.gz tmp/petsc4py-3.9.1.tar.gz --markdown 20240402/p/petsc4py/3.9.0-3.9.1/diff.md --exclude *.pyd
+[2024-04-02 08:06:57] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.0.tar.gz]
+[2024-04-02 08:06:57] INFO root fetch - processPackages [petsc4py]: Remove: archive file [/home/abi/fetcher/tmp/petsc4py-3.9.1.tar.gz]
+[2024-04-02 08:06:57] INFO root fetch - main [MainThread]: End processing [petsc4py]: success
+[2024-04-02 08:06:57] INFO root fetch - main [MainThread]: Store serial: [22581139]
