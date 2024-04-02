@@ -15457,3 +15457,56 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:07:02] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-9.3.0.tar.gz]
 [2024-04-02 11:07:02] INFO root fetch - main [MainThread]: End processing [inmanta-core]: success
 [2024-04-02 11:07:02] INFO root fetch - main [MainThread]: Store serial: [22582582]
+[2024-04-02 11:09:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582582]
+[2024-04-02 11:09:13] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 11:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aws-pdk
+[2024-04-02 11:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-inmanta-extensions
+[2024-04-02 11:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mwxlib
+[2024-04-02 11:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dataskillhub
+[2024-04-02 11:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fse.torii
+[2024-04-02 11:09:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: decent-dp
+[2024-04-02 11:09:13] INFO root fetch - processPackages [aws-pdk]: New version: [0.23.9] Old Version: [0.23.8]
+[2024-04-02 11:09:13] INFO root fetch - processPackages [mwxlib]: New version: [0.93.8] Old Version: [0.93.5]
+[2024-04-02 11:09:13] INFO root fetch - processPackages [dataskillhub]: New version: [1.4.2] Old Version: [1.4.1]
+[2024-04-02 11:09:13] INFO root fetch - processPackages [aws-pdk]: Downloading https://files.pythonhosted.org/packages/5d/b0/7ec23c8fbfb3411ad6ea5d191c68ce62b3e49ac7172e49cc9cc2ab9489f2/aws_pdk-0.23.8.tar.gz
+[2024-04-02 11:09:13] INFO root fetch - processPackages [fse.torii]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 11:09:13] INFO root fetch - processPackages [pytest-inmanta-extensions]: New version: [9.3.0] Old Version: [8.7.4]
+[2024-04-02 11:09:13] INFO root fetch - processPackages [decent-dp]: New version: [0.5.1] Old Version: [0.5.0]
+[2024-04-02 11:09:13] WARNING root fetch - processPackages [aws-pdk]: Skipping package: exceeds size limit 23534896>=10485760
+[2024-04-02 11:09:13] INFO root fetch - main [MainThread]: End processing [aws-pdk] error
+[2024-04-02 11:09:13] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/22/c7/4be1c628bbd463c0bf5e8a372b4ccecc8599e497d4402b6fc74fb6bfda5b/mwxlib-0.93.5-py3-none-any.whl
+[2024-04-02 11:09:13] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/86/be/ea7e17e268a89c5b8f7f45e4756f2969efab0b4e8bc89d4187f8ed943424/fse.torii-1.0.8-py3-none-any.whl
+[2024-04-02 11:09:13] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/1d/93/4358c45abcfb71677fda00a1c894e7670f21a65eb9ba300ba33b976527de/dataskillhub-1.4.1-py3-none-any.whl
+[2024-04-02 11:09:13] INFO root fetch - processPackages [pytest-inmanta-extensions]: Downloading https://files.pythonhosted.org/packages/b6/47/614316d5a472c4eead5c3c13906a11063612e991c4a8db3a5f1290a5ac11/pytest-inmanta-extensions-8.7.4.tar.gz
+[2024-04-02 11:09:13] INFO root fetch - processPackages [decent-dp]: Downloading https://files.pythonhosted.org/packages/3b/65/943d40d75b1c2edffccac01a3d99c312616706382210e8d861204c711bcb/decent-dp-0.5.0.tar.gz
+[2024-04-02 11:09:14] INFO root fetch - processPackages [mwxlib]: Downloading https://files.pythonhosted.org/packages/37/3a/c867260b7e0bec8434bc7b6474d56239b955f2fb0e23bc399a38957ac592/mwxlib-0.93.8-py3-none-any.whl
+[2024-04-02 11:09:14] INFO root fetch - processPackages [fse.torii]: Downloading https://files.pythonhosted.org/packages/57/6c/1f7fb91feff671d0676889a3b774e33793c1670bb6f43f8b7164378491cb/fse.torii-1.0.9-py3-none-any.whl
+[2024-04-02 11:09:14] INFO root fetch - processPackages [pytest-inmanta-extensions]: Downloading https://files.pythonhosted.org/packages/56/40/a3ee22329e9b3a80882de2bb80dc956fd54e096619e80b69f04108077997/pytest-inmanta-extensions-9.3.0.tar.gz
+[2024-04-02 11:09:14] INFO root fetch - processPackages [decent-dp]: Downloading https://files.pythonhosted.org/packages/06/9c/c73cc79f97ba8d60274a2d90461eb7af5ffcccde9496b3e92fd9451127af/decent_dp-0.5.1-py3-none-any.whl
+[2024-04-02 11:09:14] INFO root fetch - processPackages [dataskillhub]: Downloading https://files.pythonhosted.org/packages/dc/ea/3669ae21330504134236c7f5485d69446b3c6c554b2e737f85a9a2531430/dataskillhub-1.4.2-py3-none-any.whl
+[2024-04-02 11:09:14] INFO root fetch - processPackages [fse.torii]: executing diffoscope
+[2024-04-02 11:09:14] INFO root fetch - processPackages [fse.torii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fse.torii-1.0.8-py3-none-any.whl.zip tmp/fse.torii-1.0.9-py3-none-any.whl.zip --markdown 20240402/f/fse.torii/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:09:14] INFO root fetch - processPackages [pytest-inmanta-extensions]: executing diffoscope
+[2024-04-02 11:09:14] INFO root fetch - processPackages [pytest-inmanta-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-inmanta-extensions-8.7.4.tar.gz tmp/pytest-inmanta-extensions-9.3.0.tar.gz --markdown 20240402/p/pytest-inmanta-extensions/8.7.4-9.3.0/diff.md --exclude *.pyd
+[2024-04-02 11:09:14] INFO root fetch - processPackages [mwxlib]: executing diffoscope
+[2024-04-02 11:09:14] INFO root fetch - processPackages [mwxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mwxlib-0.93.5-py3-none-any.whl.zip tmp/mwxlib-0.93.8-py3-none-any.whl.zip --markdown 20240402/m/mwxlib/0.93.5-0.93.8/diff.md --exclude *.pyd
+[2024-04-02 11:09:14] INFO root fetch - processPackages [dataskillhub]: executing diffoscope
+[2024-04-02 11:09:14] INFO root fetch - processPackages [dataskillhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataskillhub-1.4.1-py3-none-any.whl.zip tmp/dataskillhub-1.4.2-py3-none-any.whl.zip --markdown 20240402/d/dataskillhub/1.4.1-1.4.2/diff.md --exclude *.pyd
+[2024-04-02 11:09:14] INFO root fetch - processPackages [decent-dp]: executing diffoscope
+[2024-04-02 11:09:14] INFO root fetch - processPackages [decent-dp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decent-dp-0.5.0.tar.gz tmp/decent_dp-0.5.1-py3-none-any.whl.zip --markdown 20240402/d/decent-dp/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2024-04-02 11:09:15] INFO root fetch - processPackages [decent-dp]: Remove: archive file [/home/abi/fetcher/tmp/decent-dp-0.5.0.tar.gz]
+[2024-04-02 11:09:15] INFO root fetch - processPackages [decent-dp]: Remove: archive file [/home/abi/fetcher/tmp/decent_dp-0.5.1-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - main [MainThread]: End processing [decent-dp]: success
+[2024-04-02 11:09:15] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.8-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - processPackages [fse.torii]: Remove: archive file [/home/abi/fetcher/tmp/fse.torii-1.0.9-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - main [MainThread]: End processing [fse.torii]: success
+[2024-04-02 11:09:15] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.4.1-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - processPackages [dataskillhub]: Remove: archive file [/home/abi/fetcher/tmp/dataskillhub-1.4.2-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - main [MainThread]: End processing [dataskillhub]: success
+[2024-04-02 11:09:15] INFO root fetch - processPackages [pytest-inmanta-extensions]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-extensions-8.7.4.tar.gz]
+[2024-04-02 11:09:15] INFO root fetch - processPackages [pytest-inmanta-extensions]: Remove: archive file [/home/abi/fetcher/tmp/pytest-inmanta-extensions-9.3.0.tar.gz]
+[2024-04-02 11:09:15] INFO root fetch - main [MainThread]: End processing [pytest-inmanta-extensions]: success
+[2024-04-02 11:09:15] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.93.5-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.93.8-py3-none-any.whl.zip]
+[2024-04-02 11:09:15] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
+[2024-04-02 11:09:15] INFO root fetch - main [MainThread]: Store serial: [22582601]
