@@ -11317,3 +11317,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:44:48] INFO root fetch - processPackages [grss]: Remove: archive file [/home/abi/fetcher/tmp/grss-3.8.7-cp312-cp312-musllinux_1_1_x86_64.whl.zip]
 [2024-04-02 07:44:48] INFO root fetch - main [MainThread]: End processing [grss]: success
 [2024-04-02 07:44:48] INFO root fetch - main [MainThread]: Store serial: [22581010]
+[2024-04-02 07:46:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581010]
+[2024-04-02 07:46:57] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 07:46:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spiceai
+[2024-04-02 07:46:58] INFO root fetch - processPackages [spiceai]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 07:46:58] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/57/6f/f46084fd7cb3b9d51611aab22da6f355243aa36727dcf863313bc446356a/spiceai-0.1.5.tar.gz
+[2024-04-02 07:46:58] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/0f/ba/84fe8dcba19f0045055dcd7fa38757be9f37a01ce13b45b093b0bec39af9/spiceai-0.1.6.tar.gz
+[2024-04-02 07:46:58] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 07:46:58] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.1.5.tar.gz tmp/spiceai-0.1.6.tar.gz --markdown 20240402/s/spiceai/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 07:46:59] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.5.tar.gz]
+[2024-04-02 07:46:59] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.6.tar.gz]
+[2024-04-02 07:46:59] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 07:46:59] INFO root fetch - main [MainThread]: Store serial: [22581027]
