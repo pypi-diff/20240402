@@ -11115,3 +11115,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:29:31] INFO root fetch - processPackages [bride-of-frankensystem]: Remove: archive file [/home/abi/fetcher/tmp/bride-of-frankensystem-1.9.3.1.tar.gz]
 [2024-04-02 07:29:31] INFO root fetch - main [MainThread]: End processing [bride-of-frankensystem]: success
 [2024-04-02 07:29:31] INFO root fetch - main [MainThread]: Store serial: [22580927]
+[2024-04-02 07:31:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580927]
+[2024-04-02 07:31:39] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 07:31:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data4co
+[2024-04-02 07:31:39] INFO root fetch - processPackages [data4co]: New version: [0.0.1a9] Old Version: [0.0.1a8]
+[2024-04-02 07:31:40] INFO root fetch - processPackages [data4co]: Downloading https://files.pythonhosted.org/packages/66/cc/8220d70ddf40c27c1a3b5604ad65c9e87135b0035bba1ab1679cdf93b7ca/data4co-0.0.1a8.tar.gz
+[2024-04-02 07:31:40] INFO root fetch - processPackages [data4co]: Downloading https://files.pythonhosted.org/packages/6a/df/e47b8b919a14d04b4da842713fa730d5ce683b77428f52429e4bf79112f2/data4co-0.0.1a9.tar.gz
+[2024-04-02 07:31:41] INFO root fetch - processPackages [data4co]: executing diffoscope
+[2024-04-02 07:31:41] INFO root fetch - processPackages [data4co]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data4co-0.0.1a8.tar.gz tmp/data4co-0.0.1a9.tar.gz --markdown 20240402/d/data4co/0.0.1a8-0.0.1a9/diff.md --exclude *.pyd
+[2024-04-02 07:31:44] INFO root fetch - processPackages [data4co]: Remove: archive file [/home/abi/fetcher/tmp/data4co-0.0.1a8.tar.gz]
+[2024-04-02 07:31:44] INFO root fetch - processPackages [data4co]: Remove: archive file [/home/abi/fetcher/tmp/data4co-0.0.1a9.tar.gz]
+[2024-04-02 07:31:44] INFO root fetch - main [MainThread]: End processing [data4co]: success
+[2024-04-02 07:31:44] INFO root fetch - main [MainThread]: Store serial: [22580929]
