@@ -17933,3 +17933,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:49:50] INFO root fetch - processPackages [plasmidCC]: Remove: archive file [/home/abi/fetcher/tmp/plasmidCC-1.0.1.tar.gz]
 [2024-04-02 12:49:50] INFO root fetch - main [MainThread]: End processing [plasmidCC]: success
 [2024-04-02 12:49:50] INFO root fetch - main [MainThread]: Store serial: [22583695]
+[2024-04-02 12:51:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583695]
+[2024-04-02 12:51:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 12:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plasmidCC
+[2024-04-02 12:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pureauth-pysdk
+[2024-04-02 12:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aepp
+[2024-04-02 12:51:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: onnx2torch
+[2024-04-02 12:51:59] INFO root fetch - processPackages [plasmidCC]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 12:51:59] INFO root fetch - processPackages [plasmidCC]: Downloading https://files.pythonhosted.org/packages/13/a7/3b4340c14e30d95ed4aa98e63c5fc0c111d217f44376ed9f32cfe0a59733/plasmidCC-1.0.0.tar.gz
+[2024-04-02 12:51:59] WARNING root fetch - processPackages [pureauth-pysdk]: Skipping, unable to determine old version
+[2024-04-02 12:51:59] INFO root fetch - main [MainThread]: End processing [pureauth-pysdk] error
+[2024-04-02 12:51:59] INFO root fetch - processPackages [onnx2torch]: New version: [1.5.9] Old Version: [1.5.8]
+[2024-04-02 12:51:59] INFO root fetch - processPackages [aepp]: New version: [0.3.4.post1] Old Version: [0.3.4]
+[2024-04-02 12:51:59] INFO root fetch - processPackages [onnx2torch]: Downloading https://files.pythonhosted.org/packages/86/1c/b8a635cce048476ea91757c54f7ec257d1d42af493ec7986edafdb5b262b/onnx2torch-1.5.8.tar.gz
+[2024-04-02 12:51:59] INFO root fetch - processPackages [aepp]: Downloading https://files.pythonhosted.org/packages/c4/b0/fc1e576f32981f1ec7f02468b9c530c01d76356374d975d41cb7c1cff848/aepp-0.3.4.tar.gz
+[2024-04-02 12:51:59] INFO root fetch - processPackages [plasmidCC]: Downloading https://files.pythonhosted.org/packages/0f/09/0f6e634c4df5dfc7074a33d088f96c42c8448079b2c99632f79ea150a9b3/plasmidCC-1.0.1.tar.gz
+[2024-04-02 12:52:00] INFO root fetch - processPackages [plasmidCC]: executing diffoscope
+[2024-04-02 12:52:00] INFO root fetch - processPackages [plasmidCC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plasmidCC-1.0.0.tar.gz tmp/plasmidCC-1.0.1.tar.gz --markdown 20240402/p/plasmidCC/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 12:52:00] INFO root fetch - processPackages [aepp]: Downloading https://files.pythonhosted.org/packages/b7/c5/7bad691d2bd8341ecdd99a1ffe9a688b6122b71d94c4765a3df2d3df84aa/aepp-0.3.4.post1.tar.gz
+[2024-04-02 12:52:00] INFO root fetch - processPackages [onnx2torch]: Downloading https://files.pythonhosted.org/packages/f2/bb/3ea0517a2f25d3ac8c4874f365f3981880a5aaad9f7807fb90c3c4e1bfed/onnx2torch-1.5.9.tar.gz
+[2024-04-02 12:52:00] INFO root fetch - processPackages [aepp]: executing diffoscope
+[2024-04-02 12:52:00] INFO root fetch - processPackages [aepp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aepp-0.3.4.tar.gz tmp/aepp-0.3.4.post1.tar.gz --markdown 20240402/a/aepp/0.3.4-0.3.4.post1/diff.md --exclude *.pyd
+[2024-04-02 12:52:00] INFO root fetch - processPackages [onnx2torch]: executing diffoscope
+[2024-04-02 12:52:00] INFO root fetch - processPackages [onnx2torch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2torch-1.5.8.tar.gz tmp/onnx2torch-1.5.9.tar.gz --markdown 20240402/o/onnx2torch/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2024-04-02 12:52:00] INFO root fetch - processPackages [plasmidCC]: Remove: archive file [/home/abi/fetcher/tmp/plasmidCC-1.0.0.tar.gz]
+[2024-04-02 12:52:00] INFO root fetch - processPackages [plasmidCC]: Remove: archive file [/home/abi/fetcher/tmp/plasmidCC-1.0.1.tar.gz]
+[2024-04-02 12:52:00] INFO root fetch - main [MainThread]: End processing [plasmidCC]: success
+[2024-04-02 12:52:01] INFO root fetch - processPackages [aepp]: Remove: archive file [/home/abi/fetcher/tmp/aepp-0.3.4.tar.gz]
+[2024-04-02 12:52:01] INFO root fetch - processPackages [aepp]: Remove: archive file [/home/abi/fetcher/tmp/aepp-0.3.4.post1.tar.gz]
+[2024-04-02 12:52:01] INFO root fetch - main [MainThread]: End processing [aepp]: success
+[2024-04-02 12:52:01] INFO root fetch - processPackages [onnx2torch]: Remove: archive file [/home/abi/fetcher/tmp/onnx2torch-1.5.8.tar.gz]
+[2024-04-02 12:52:01] INFO root fetch - processPackages [onnx2torch]: Remove: archive file [/home/abi/fetcher/tmp/onnx2torch-1.5.9.tar.gz]
+[2024-04-02 12:52:01] INFO root fetch - main [MainThread]: End processing [onnx2torch]: success
+[2024-04-02 12:52:01] INFO root fetch - main [MainThread]: Store serial: [22583707]
