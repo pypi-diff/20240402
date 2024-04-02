@@ -12273,3 +12273,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:59:43] INFO root fetch - processPackages [odoo-addon-purchase-default-terms-conditions]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_default_terms_conditions-16.0.1.0.3-py3-none-any.whl.zip]
 [2024-04-02 08:59:43] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-default-terms-conditions]: success
 [2024-04-02 08:59:43] INFO root fetch - main [MainThread]: Store serial: [22581370]
+[2024-04-02 09:01:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581370]
+[2024-04-02 09:01:52] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 09:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autobuild
+[2024-04-02 09:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-04-02 09:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ft2bt
+[2024-04-02 09:01:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rank-torrent-name
+[2024-04-02 09:01:52] INFO root fetch - processPackages [ft2bt]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 09:01:52] INFO root fetch - processPackages [lambkid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 09:01:52] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/a4/1d/a402c5f85ef6696c76f47780a2a9b4a6d1e22f67e018fac29ed5ab142ba1/lambkid-0.0.8.tar.gz
+[2024-04-02 09:01:52] INFO root fetch - processPackages [rank-torrent-name]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 09:01:52] INFO root fetch - processPackages [autobuild]: New version: [3.9.4] Old Version: [3.9.3]
+[2024-04-02 09:01:52] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/91/b0/3f1de28c566e42c4a4045311c0aaedda95e6e71e3cfb9bd2c604241ce27d/ft2bt-0.1.0.tar.gz
+[2024-04-02 09:01:52] INFO root fetch - processPackages [autobuild]: Downloading https://files.pythonhosted.org/packages/65/e9/40224af3342c37b80bf6024de866c3231bb40d058e043dd821c07d6bd686/autobuild-3.9.3.tar.gz
+[2024-04-02 09:01:52] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/55/6a/185494bfe23e8a2c4c83c4cf90c8435e7a3836c0c6ded4db899834e269a9/rank_torrent_name-0.2.8.tar.gz
+[2024-04-02 09:01:54] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/4f/e8/fe3ffb0ac4fb24b3455167d57cb2cd8ab326fbb2f862aab16c13d38fde49/lambkid-0.0.9.tar.gz
+[2024-04-02 09:01:54] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-02 09:01:54] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.0.8.tar.gz tmp/lambkid-0.0.9.tar.gz --markdown 20240402/l/lambkid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:01:54] INFO root fetch - processPackages [autobuild]: Downloading https://files.pythonhosted.org/packages/22/53/ff97eebd7a0b469c5e14a96ecf3f72801e9bf2423d361dafd887620cf64d/autobuild-3.9.4.tar.gz
+[2024-04-02 09:01:54] INFO root fetch - processPackages [ft2bt]: Downloading https://files.pythonhosted.org/packages/9e/46/d8c381ffd06854fa307b5d8cd49195fff59fcda949549bdae70a904111e1/ft2bt-0.1.1.tar.gz
+[2024-04-02 09:01:54] INFO root fetch - processPackages [rank-torrent-name]: Downloading https://files.pythonhosted.org/packages/58/da/9bd788cb38b6ae67089397a2537549bc66b4fe0b60be0af6bea97b30ab99/rank_torrent_name-0.2.9.tar.gz
+[2024-04-02 09:01:54] INFO root fetch - processPackages [autobuild]: executing diffoscope
+[2024-04-02 09:01:54] INFO root fetch - processPackages [autobuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autobuild-3.9.3.tar.gz tmp/autobuild-3.9.4.tar.gz --markdown 20240402/a/autobuild/3.9.3-3.9.4/diff.md --exclude *.pyd
+[2024-04-02 09:01:54] INFO root fetch - processPackages [ft2bt]: executing diffoscope
+[2024-04-02 09:01:54] INFO root fetch - processPackages [ft2bt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ft2bt-0.1.0.tar.gz tmp/ft2bt-0.1.1.tar.gz --markdown 20240402/f/ft2bt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 09:01:54] INFO root fetch - processPackages [rank-torrent-name]: executing diffoscope
+[2024-04-02 09:01:54] INFO root fetch - processPackages [rank-torrent-name]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rank_torrent_name-0.2.8.tar.gz tmp/rank_torrent_name-0.2.9.tar.gz --markdown 20240402/r/rank-torrent-name/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 09:01:54] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.8.tar.gz]
+[2024-04-02 09:01:54] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.9.tar.gz]
+[2024-04-02 09:01:54] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-02 09:01:55] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.1.0.tar.gz]
+[2024-04-02 09:01:55] INFO root fetch - processPackages [ft2bt]: Remove: archive file [/home/abi/fetcher/tmp/ft2bt-0.1.1.tar.gz]
+[2024-04-02 09:01:55] INFO root fetch - main [MainThread]: End processing [ft2bt]: success
+[2024-04-02 09:01:55] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.8.tar.gz]
+[2024-04-02 09:01:55] INFO root fetch - processPackages [rank-torrent-name]: Remove: archive file [/home/abi/fetcher/tmp/rank_torrent_name-0.2.9.tar.gz]
+[2024-04-02 09:01:55] INFO root fetch - main [MainThread]: End processing [rank-torrent-name]: success
+[2024-04-02 09:01:55] INFO root fetch - processPackages [autobuild]: Remove: archive file [/home/abi/fetcher/tmp/autobuild-3.9.3.tar.gz]
+[2024-04-02 09:01:55] INFO root fetch - processPackages [autobuild]: Remove: archive file [/home/abi/fetcher/tmp/autobuild-3.9.4.tar.gz]
+[2024-04-02 09:01:55] INFO root fetch - main [MainThread]: End processing [autobuild]: success
+[2024-04-02 09:01:55] INFO root fetch - main [MainThread]: Store serial: [22581382]
