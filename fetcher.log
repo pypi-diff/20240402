@@ -17966,3 +17966,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:52:01] INFO root fetch - processPackages [onnx2torch]: Remove: archive file [/home/abi/fetcher/tmp/onnx2torch-1.5.9.tar.gz]
 [2024-04-02 12:52:01] INFO root fetch - main [MainThread]: End processing [onnx2torch]: success
 [2024-04-02 12:52:01] INFO root fetch - main [MainThread]: Store serial: [22583707]
+[2024-04-02 12:54:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583707]
+[2024-04-02 12:54:11] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: khoj-assistant
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-barcodes-picking-batch-revision
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ccpn-project-checker
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 12:54:11] INFO root fetch - processPackages [khoj-assistant]: New version: [1.8.1.dev11] Old Version: [1.8.0]
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/4a/aa/e464f9a7d515579d56b8f5a3fea70035ba8a19d4cc24d4d4adc310ae5fd8/ccpn_project_checker-0.1.8.tar.gz
+[2024-04-02 12:54:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: New version: [15.0.1.0.1] Old Version: [15.0.1.0.0.1]
+[2024-04-02 12:54:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/f6/70/af3d362810c47595bde9491476c026d0918ab222bfc1d35d3f1b43cad868/khoj_assistant-1.8.0.tar.gz
+[2024-04-02 12:54:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: Downloading https://files.pythonhosted.org/packages/10/f7/36fcbd35458c5118f7adc3b85559c45db64c39d888d87b88bb622a50fec3/odoo_addon_stock_barcodes_picking_batch_revision-15.0.1.0.0.1-py3-none-any.whl
+[2024-04-02 12:54:11] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/66/ad/77c0624acacedf1e00778c8f5301175dc6197f35903d59145b0c739d4139/khoj_assistant-1.8.1.dev11.tar.gz
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/9a/e1/5f3e6c8b4bca4f289db6fe9a948ba868b3034c289278ebbf524793c13f7f/ccpn_project_checker-0.1.9.tar.gz
+[2024-04-02 12:54:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: Downloading https://files.pythonhosted.org/packages/64/a2/2a7e2f36de4ae340865aea2164512c808245d869ade95cebedba3d6a8f9b/odoo_addon_stock_barcodes_picking_batch_revision-15.0.1.0.1-py3-none-any.whl
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 12:54:11] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.8.tar.gz tmp/ccpn_project_checker-0.1.9.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 12:54:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: executing diffoscope
+[2024-04-02 12:54:11] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_barcodes_picking_batch_revision-15.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_stock_barcodes_picking_batch_revision-15.0.1.0.1-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-stock-barcodes-picking-batch-revision/15.0.1.0.0.1-15.0.1.0.1/diff.md --exclude *.pyd
+[2024-04-02 12:54:11] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-02 12:54:11] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.8.0.tar.gz tmp/khoj_assistant-1.8.1.dev11.tar.gz --markdown 20240402/k/khoj-assistant/1.8.0-1.8.1.dev11/diff.md --exclude *.pyd
+[2024-04-02 12:54:12] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes_picking_batch_revision-15.0.1.0.0.1-py3-none-any.whl.zip]
+[2024-04-02 12:54:12] INFO root fetch - processPackages [odoo-addon-stock-barcodes-picking-batch-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_barcodes_picking_batch_revision-15.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-02 12:54:12] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-barcodes-picking-batch-revision]: success
+[2024-04-02 12:54:13] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.0.tar.gz]
+[2024-04-02 12:54:13] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev11.tar.gz]
+[2024-04-02 12:54:13] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-02 12:54:18] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.8.tar.gz]
+[2024-04-02 12:54:18] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
+[2024-04-02 12:54:18] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 12:54:18] INFO root fetch - main [MainThread]: Store serial: [22583716]
