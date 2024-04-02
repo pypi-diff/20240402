@@ -16682,3 +16682,145 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:59:59] INFO root fetch - processPackages [chainlit]: Remove: archive file [/home/abi/fetcher/tmp/chainlit-1.0.500.tar.gz]
 [2024-04-02 11:59:59] INFO root fetch - main [MainThread]: End processing [chainlit]: success
 [2024-04-02 11:59:59] INFO root fetch - main [MainThread]: Store serial: [22583150]
+[2024-04-02 12:02:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583150]
+[2024-04-02 12:02:15] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentimentAnalizis
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kuzu
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jinns
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto-ext
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torch-mist
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: scaleway-core
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edu-rdm-integration
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vos-data-utils
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: distribute-logging
+[2024-04-02 12:02:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: quickfin
+[2024-04-02 12:02:15] INFO root fetch - processPackages [sentimentAnalizis]: New version: [1.0.0] Old Version: [0.0.3]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [quickfin]: New version: [1.8.0] Old Version: [1.7.0]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [torch-mist]: New version: [0.2.8] Old Version: [0.2.7]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [jinns]: New version: [0.8.1] Old Version: [0.8.0]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/0e/04/fd8db34cde49ec338807c7e05e8d8669121cc66cc150d36907e9f418f3f8/quickfin-1.7.0.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [sentimentAnalizis]: Downloading https://files.pythonhosted.org/packages/63/c7/63e4260d416358be3f45a2d1537f0075c5289808f95fcf789f5dfac3febb/sentimentanalizis-0.0.3.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [scaleway-core]: New version: [2.0.0.dev6] Old Version: [2.0.0.dev5]
+[2024-04-02 12:02:15] WARNING root fetch - processPackages [distribute-logging]: Skipping, unable to determine old version
+[2024-04-02 12:02:15] INFO root fetch - processPackages [distribute-logging]: Start processing: lightning-whisper-mlx
+[2024-04-02 12:02:15] INFO root fetch - main [MainThread]: End processing [distribute-logging] error
+[2024-04-02 12:02:15] INFO root fetch - processPackages [kuzu]: New version: [0.3.3.dev9] Old Version: [0.3.3.dev8]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [moto-ext]: New version: [5.0.4.post1] Old Version: [5.0.3.post1]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [edu-rdm-integration]: New version: [3.0.0] Old Version: [2.2.1]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [vos-data-utils]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [lightning-whisper-mlx]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:02:15] INFO root fetch - processPackages [jinns]: Downloading https://files.pythonhosted.org/packages/b9/e6/57a035147490ef5ac21d8b52764af2a6c2f0c6b4e39f7bc81e70910c914c/jinns-0.8.0.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [torch-mist]: Downloading https://files.pythonhosted.org/packages/02/fd/56d022159d07cabd1fcc3519909870dad8f3f393f43ddda125a0eebb0a11/torch_mist-0.2.7.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/ed/55/5b0acfa646d7290f6ee4bef07c5d709881ce3560ff8eef2fb5e036d884ca/lightning-whisper-mlx-0.0.8.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/3e/0f/f96792823f9d49c23f8109812a5d54a0e37a31c6a645c5e83be67ca5ea4c/scaleway_core-2.0.0.dev5.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/fa/ff/4af98fccfdf1938d3969ca49d52576d2858e4425725e85e84a82dc858cb1/kuzu-0.3.3.dev8.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/29/71/53c4390f926e1e925e16ca12f8298c2606b7f505baba85633847160af007/edu-rdm-integration-2.2.1.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/60/da/727892a6e7355877f35d1975559b0750c4185c387e6fc1ad3728196e3b22/moto-ext-5.0.3.post1.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [vos-data-utils]: Downloading https://files.pythonhosted.org/packages/4a/92/91a086b36ad9e790fe3158421a4e03c66a3c7e10cb15695acc71b06d317f/vos-data-utils-1.0.1.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [quickfin]: Downloading https://files.pythonhosted.org/packages/58/18/9ec071d9e79468ec8cba17cae9e96600c2e70e6f0749c7829a9a1eaf5f65/quickfin-1.8.0.tar.gz
+[2024-04-02 12:02:15] INFO root fetch - processPackages [sentimentAnalizis]: Downloading https://files.pythonhosted.org/packages/f7/70/863e1c2f7e6ea60f5b7366f65d3a81a7e0ae7f1ff9119864768a24088603/sentimentanalizis-1.0.0.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [quickfin]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [quickfin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickfin-1.7.0.tar.gz tmp/quickfin-1.8.0.tar.gz --markdown 20240402/q/quickfin/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/97/fd/6eb8b22ebe861d33db34db7783f1eadfc2a80e706dbb92e74c23ff9e7f4f/lightning-whisper-mlx-0.0.9.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [torch-mist]: Downloading https://files.pythonhosted.org/packages/dd/c5/ef1a9ca990b11d32faadecfb18685adbbe93953a735a50f91fc885dd81ee/torch_mist-0.2.8.tar.gz
+[2024-04-02 12:02:16] WARNING root fetch - processPackages [jinns]: Skipping package: exceeds size limit 17925784>=10485760
+[2024-04-02 12:02:16] INFO root fetch - processPackages [jinns]: Start processing: lljz-tools
+[2024-04-02 12:02:16] INFO root fetch - main [MainThread]: End processing [jinns] error
+[2024-04-02 12:02:16] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/fb/24/837fe5ddf8d78839078bb996b989be93159aaf9409855b62e196e51d6279/edu-rdm-integration-3.0.0.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [scaleway-core]: Downloading https://files.pythonhosted.org/packages/6c/26/7cdc61d45a29796d8e7d7baf323109157302195dab97ab41690a61653d28/scaleway_core-2.0.0.dev6.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [sentimentAnalizis]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [lightning-whisper-mlx]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [sentimentAnalizis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentimentanalizis-0.0.3.tar.gz tmp/sentimentanalizis-1.0.0.tar.gz --markdown 20240402/s/sentimentAnalizis/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [lightning-whisper-mlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-whisper-mlx-0.0.8.tar.gz tmp/lightning-whisper-mlx-0.0.9.tar.gz --markdown 20240402/l/lightning-whisper-mlx/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [torch-mist]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [torch-mist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_mist-0.2.7.tar.gz tmp/torch_mist-0.2.8.tar.gz --markdown 20240402/t/torch-mist/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [lljz-tools]: New version: [0.2.5] Old Version: [0.2.4]
+[2024-04-02 12:02:16] INFO root fetch - processPackages [scaleway-core]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [scaleway-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scaleway_core-2.0.0.dev5.tar.gz tmp/scaleway_core-2.0.0.dev6.tar.gz --markdown 20240402/s/scaleway-core/2.0.0.dev5-2.0.0.dev6/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-2.2.1.tar.gz tmp/edu-rdm-integration-3.0.0.tar.gz --markdown 20240402/e/edu-rdm-integration/2.2.1-3.0.0/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [kuzu]: Downloading https://files.pythonhosted.org/packages/a2/67/22a60ceaa7cc3d03784a4c12db350f0f9d0b05181256e6007a55f7308e73/kuzu-0.3.3.dev9.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [moto-ext]: Downloading https://files.pythonhosted.org/packages/47/ea/760bceb72169ada7e9084ceecef9f544918c7596d36927f460df0a99e2ee/moto-ext-5.0.4.post1.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/74/31/3c8c911d85b389874c147f0e23e1e38d94a1e81167d30503e5ae1fbd835c/lljz_tools-0.2.4.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [moto-ext]: executing diffoscope
+[2024-04-02 12:02:16] INFO root fetch - processPackages [moto-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-ext-5.0.3.post1.tar.gz tmp/moto-ext-5.0.4.post1.tar.gz --markdown 20240402/m/moto-ext/5.0.3.post1-5.0.4.post1/diff.md --exclude *.pyd
+[2024-04-02 12:02:16] INFO root fetch - processPackages [lljz-tools]: Downloading https://files.pythonhosted.org/packages/15/03/370c03bd6b84cb9d0f1a4382cc350bb878b88bde2af933d660cd95d45499/lljz_tools-0.2.5.tar.gz
+[2024-04-02 12:02:16] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.7.0.tar.gz]
+[2024-04-02 12:02:16] INFO root fetch - processPackages [quickfin]: Remove: archive file [/home/abi/fetcher/tmp/quickfin-1.8.0.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [quickfin]: Start processing: ruleopt
+[2024-04-02 12:02:17] INFO root fetch - main [MainThread]: End processing [quickfin]: success
+[2024-04-02 12:02:17] INFO root fetch - processPackages [kuzu]: executing diffoscope
+[2024-04-02 12:02:17] INFO root fetch - processPackages [kuzu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kuzu-0.3.3.dev8.tar.gz tmp/kuzu-0.3.3.dev9.tar.gz --markdown 20240402/k/kuzu/0.3.3.dev8-0.3.3.dev9/diff.md --exclude *.pyd
+[2024-04-02 12:02:17] INFO root fetch - processPackages [ruleopt]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [lljz-tools]: executing diffoscope
+[2024-04-02 12:02:17] INFO root fetch - processPackages [lljz-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lljz_tools-0.2.4.tar.gz tmp/lljz_tools-0.2.5.tar.gz --markdown 20240402/l/lljz-tools/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 12:02:17] INFO root fetch - processPackages [vos-data-utils]: Downloading https://files.pythonhosted.org/packages/57/78/714d024954914044872b25495d6506ceedd99e1d16d3c6d95e7e9849ff47/vos-data-utils-1.0.2.tar.gz
+[2024-04-02 12:02:17] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.8.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.9.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [lightning-whisper-mlx]: Start processing: Java2Jar
+[2024-04-02 12:02:17] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
+[2024-04-02 12:02:17] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-2.0.0.dev5.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [scaleway-core]: Remove: archive file [/home/abi/fetcher/tmp/scaleway_core-2.0.0.dev6.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [scaleway-core]: Start processing: optscale-arcee
+[2024-04-02 12:02:17] INFO root fetch - main [MainThread]: End processing [scaleway-core]: success
+[2024-04-02 12:02:17] INFO root fetch - processPackages [ruleopt]: Downloading https://files.pythonhosted.org/packages/a5/be/e234520a099cd824ad9d23b66422c070548acb30afa28a7db5e6ead472e0/ruleopt-0.1.1-cp39-cp39-win_amd64.whl
+[2024-04-02 12:02:17] WARNING root fetch - processPackages [Java2Jar]: Skipping, unable to determine old version
+[2024-04-02 12:02:17] INFO root fetch - processPackages [Java2Jar]: Start processing: ResSimpy
+[2024-04-02 12:02:17] INFO root fetch - main [MainThread]: End processing [Java2Jar] error
+[2024-04-02 12:02:17] INFO root fetch - processPackages [ResSimpy]: New version: [2.0.9] Old Version: [2.0.8]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [vos-data-utils]: executing diffoscope
+[2024-04-02 12:02:17] INFO root fetch - processPackages [vos-data-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vos-data-utils-1.0.1.tar.gz tmp/vos-data-utils-1.0.2.tar.gz --markdown 20240402/v/vos-data-utils/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 12:02:17] INFO root fetch - processPackages [torch-mist]: Remove: archive file [/home/abi/fetcher/tmp/torch_mist-0.2.7.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [torch-mist]: Remove: archive file [/home/abi/fetcher/tmp/torch_mist-0.2.8.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [torch-mist]: Start processing: localstack-core
+[2024-04-02 12:02:17] INFO root fetch - main [MainThread]: End processing [torch-mist]: success
+[2024-04-02 12:02:17] INFO root fetch - processPackages [optscale-arcee]: New version: [0.1.38] Old Version: [0.1.37]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402095004] Old Version: [3.3.1.dev20240402094954]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [ruleopt]: Downloading https://files.pythonhosted.org/packages/34/44/480420f7b09cb677d66ae9f583ed29e291d13cde9cedf88a5a538e9044c2/ruleopt-0.1.2-cp39-cp39-macosx_11_0_arm64.whl
+[2024-04-02 12:02:17] INFO root fetch - processPackages [ResSimpy]: Downloading https://files.pythonhosted.org/packages/d4/0b/a194b510a33584f898ee77dcd77402200f6f05b225130a680eaf46791915/ressimpy-2.0.8.tar.gz
+[2024-04-02 12:02:17] INFO root fetch - processPackages [optscale-arcee]: Downloading https://files.pythonhosted.org/packages/7b/e5/7810fbab09c5e8070d72723530c8fec0263bd6956eaa7bf58455f3053b6c/optscale_arcee-0.1.37.tar.gz
+[2024-04-02 12:02:17] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-2.2.1.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-3.0.0.tar.gz]
+[2024-04-02 12:02:17] INFO root fetch - processPackages [edu-rdm-integration]: Start processing: pyqt-advanced-slider
+[2024-04-02 12:02:17] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2024-04-02 12:02:18] INFO root fetch - processPackages [sentimentAnalizis]: Remove: archive file [/home/abi/fetcher/tmp/sentimentanalizis-0.0.3.tar.gz]
+[2024-04-02 12:02:18] INFO root fetch - processPackages [sentimentAnalizis]: Remove: archive file [/home/abi/fetcher/tmp/sentimentanalizis-1.0.0.tar.gz]
+[2024-04-02 12:02:18] INFO root fetch - main [MainThread]: End processing [sentimentAnalizis]: success
+[2024-04-02 12:02:18] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/2b/c6/f029fd7c60bd417822bd925736e0ea8b52d64d07b1eeb066b7e1e68bce5d/localstack-core-3.3.1.dev20240402094954.tar.gz
+[2024-04-02 12:02:18] WARNING root fetch - processPackages [pyqt-advanced-slider]: Skipping, unable to determine old version
+[2024-04-02 12:02:18] INFO root fetch - main [MainThread]: End processing [pyqt-advanced-slider] error
+[2024-04-02 12:02:18] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.4.tar.gz]
+[2024-04-02 12:02:18] INFO root fetch - processPackages [lljz-tools]: Remove: archive file [/home/abi/fetcher/tmp/lljz_tools-0.2.5.tar.gz]
+[2024-04-02 12:02:18] INFO root fetch - main [MainThread]: End processing [lljz-tools]: success
+[2024-04-02 12:02:18] INFO root fetch - processPackages [ResSimpy]: Downloading https://files.pythonhosted.org/packages/f7/a4/e71b55d939c384c56751a956cfe2eed902070f3b2597c9e5c386545618cc/ressimpy-2.0.9.tar.gz
+[2024-04-02 12:02:18] INFO root fetch - processPackages [optscale-arcee]: Downloading https://files.pythonhosted.org/packages/ae/1d/d33c6c6426f403029530b2ec38a8e489eede92a2ae587c54a1e57e2ace64/optscale_arcee-0.1.38.tar.gz
+[2024-04-02 12:02:18] INFO root fetch - processPackages [ruleopt]: executing diffoscope
+[2024-04-02 12:02:18] INFO root fetch - processPackages [ruleopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ruleopt-0.1.1-cp39-cp39-win_amd64.whl.zip tmp/ruleopt-0.1.2-cp39-cp39-macosx_11_0_arm64.whl.zip --markdown 20240402/r/ruleopt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 12:02:18] INFO root fetch - processPackages [ResSimpy]: executing diffoscope
+[2024-04-02 12:02:18] INFO root fetch - processPackages [ResSimpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ressimpy-2.0.8.tar.gz tmp/ressimpy-2.0.9.tar.gz --markdown 20240402/R/ResSimpy/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:02:18] INFO root fetch - processPackages [optscale-arcee]: executing diffoscope
+[2024-04-02 12:02:18] INFO root fetch - processPackages [optscale-arcee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optscale_arcee-0.1.37.tar.gz tmp/optscale_arcee-0.1.38.tar.gz --markdown 20240402/o/optscale-arcee/0.1.37-0.1.38/diff.md --exclude *.pyd
+[2024-04-02 12:02:19] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a4/91/33fc5680170af444b14b71d83d16e1e6cdef1465328b0618877fc451f4e6/localstack-core-3.3.1.dev20240402095004.tar.gz
+[2024-04-02 12:02:19] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 12:02:19] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240402094954.tar.gz tmp/localstack-core-3.3.1.dev20240402095004.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240402094954-3.3.1.dev20240402095004/diff.md --exclude *.pyd
+[2024-04-02 12:02:19] INFO root fetch - processPackages [optscale-arcee]: Remove: archive file [/home/abi/fetcher/tmp/optscale_arcee-0.1.37.tar.gz]
+[2024-04-02 12:02:19] INFO root fetch - processPackages [optscale-arcee]: Remove: archive file [/home/abi/fetcher/tmp/optscale_arcee-0.1.38.tar.gz]
+[2024-04-02 12:02:19] INFO root fetch - main [MainThread]: End processing [optscale-arcee]: success
+[2024-04-02 12:02:19] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.0.8.tar.gz]
+[2024-04-02 12:02:19] INFO root fetch - processPackages [ResSimpy]: Remove: archive file [/home/abi/fetcher/tmp/ressimpy-2.0.9.tar.gz]
+[2024-04-02 12:02:19] INFO root fetch - main [MainThread]: End processing [ResSimpy]: success
+[2024-04-02 12:02:19] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1.1-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 12:02:19] INFO root fetch - processPackages [ruleopt]: Remove: archive file [/home/abi/fetcher/tmp/ruleopt-0.1.2-cp39-cp39-macosx_11_0_arm64.whl.zip]
+[2024-04-02 12:02:19] INFO root fetch - main [MainThread]: End processing [ruleopt]: success
+[2024-04-02 12:02:20] INFO root fetch - processPackages [vos-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vos-data-utils-1.0.1.tar.gz]
+[2024-04-02 12:02:20] INFO root fetch - processPackages [vos-data-utils]: Remove: archive file [/home/abi/fetcher/tmp/vos-data-utils-1.0.2.tar.gz]
+[2024-04-02 12:02:20] INFO root fetch - main [MainThread]: End processing [vos-data-utils]: success
+[2024-04-02 12:02:23] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402094954.tar.gz]
+[2024-04-02 12:02:23] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402095004.tar.gz]
+[2024-04-02 12:02:23] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 12:02:23] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev8.tar.gz]
+[2024-04-02 12:02:23] INFO root fetch - processPackages [kuzu]: Remove: archive file [/home/abi/fetcher/tmp/kuzu-0.3.3.dev9.tar.gz]
+[2024-04-02 12:02:23] INFO root fetch - main [MainThread]: End processing [kuzu]: success
+[2024-04-02 12:05:16] ERROR root fetch - processPackages [moto-ext]: Timeout during execution of pkgdiff
+[2024-04-02 12:05:16] INFO root fetch - main [MainThread]: End processing [moto-ext] error
+[2024-04-02 12:05:16] INFO root fetch - main [MainThread]: Store serial: [22583254]
