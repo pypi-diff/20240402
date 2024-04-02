@@ -10094,3 +10094,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:04:04] INFO root fetch - processPackages [libonvif]: Remove: archive file [/home/abi/fetcher/tmp/libonvif-3.1.1.tar.gz]
 [2024-04-02 06:04:04] INFO root fetch - main [MainThread]: End processing [libonvif]: success
 [2024-04-02 06:04:04] INFO root fetch - main [MainThread]: Store serial: [22580504]
+[2024-04-02 06:06:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580504]
+[2024-04-02 06:06:13] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 06:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chromedriver-binary
+[2024-04-02 06:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keble-db
+[2024-04-02 06:06:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feliz-db
+[2024-04-02 06:06:13] INFO root fetch - processPackages [keble-db]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 06:06:13] INFO root fetch - processPackages [feliz-db]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 06:06:13] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2024-04-02 06:06:14] INFO root fetch - processPackages [feliz-db]: Downloading https://files.pythonhosted.org/packages/7c/c6/1a17d445d3f7427a15c758e9c301aaa680113d44175ea96824a996921094/feliz_db-0.0.4.tar.gz
+[2024-04-02 06:06:14] INFO root fetch - processPackages [keble-db]: Downloading https://files.pythonhosted.org/packages/80/49/9ca1d9f3c1059977331f8dcf9443159176fd0177ea59276f5e0a63b7ab5e/keble_db-0.0.8.tar.gz
+[2024-04-02 06:06:14] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2024-04-02 06:06:14] INFO root fetch - processPackages [feliz-db]: Downloading https://files.pythonhosted.org/packages/2d/e4/650afdcb8d75d3456b9a3a2b9e59c5420cb639c6e71143ac214b2991929c/feliz_db-0.0.5.tar.gz
+[2024-04-02 06:06:14] INFO root fetch - processPackages [keble-db]: Downloading https://files.pythonhosted.org/packages/5a/18/7b1356a4b51d29a4ee543bdb7400c5d01880424bf69621271ddbcbaaec68/keble_db-0.0.9.tar.gz
+[2024-04-02 06:06:14] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2024-04-02 06:06:14] INFO root fetch - processPackages [keble-db]: executing diffoscope
+[2024-04-02 06:06:14] INFO root fetch - processPackages [keble-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_db-0.0.8.tar.gz tmp/keble_db-0.0.9.tar.gz --markdown 20240402/k/keble-db/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 06:06:14] INFO root fetch - processPackages [feliz-db]: executing diffoscope
+[2024-04-02 06:06:14] INFO root fetch - processPackages [feliz-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feliz_db-0.0.4.tar.gz tmp/feliz_db-0.0.5.tar.gz --markdown 20240402/f/feliz-db/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 06:06:14] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2024-04-02 06:06:14] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20240402/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2024-04-02 06:06:15] INFO root fetch - processPackages [keble-db]: Remove: archive file [/home/abi/fetcher/tmp/keble_db-0.0.8.tar.gz]
+[2024-04-02 06:06:15] INFO root fetch - processPackages [keble-db]: Remove: archive file [/home/abi/fetcher/tmp/keble_db-0.0.9.tar.gz]
+[2024-04-02 06:06:15] INFO root fetch - main [MainThread]: End processing [keble-db]: success
+[2024-04-02 06:06:15] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2024-04-02 06:06:15] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2024-04-02 06:06:15] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2024-04-02 06:06:15] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.4.tar.gz]
+[2024-04-02 06:06:15] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.5.tar.gz]
+[2024-04-02 06:06:15] INFO root fetch - main [MainThread]: End processing [feliz-db]: success
+[2024-04-02 06:06:15] INFO root fetch - main [MainThread]: Store serial: [22580512]
