@@ -14173,3 +14173,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:19:38] INFO root fetch - processPackages [redturtle.prenotazioni]: Remove: archive file [/home/abi/fetcher/tmp/redturtle.prenotazioni-2.6.0.tar.gz]
 [2024-04-02 10:19:38] INFO root fetch - main [MainThread]: End processing [redturtle.prenotazioni]: success
 [2024-04-02 10:19:38] INFO root fetch - main [MainThread]: Store serial: [22582086]
+[2024-04-02 10:21:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582086]
+[2024-04-02 10:21:47] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-base-view-inheritance-extension
+[2024-04-02 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deploymodel
+[2024-04-02 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lexikos
+[2024-04-02 10:21:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: msscrawler
+[2024-04-02 10:21:47] INFO root fetch - processPackages [deploymodel]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 10:21:47] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/b1/8e/2a2f4c098d565ef1a51c8a1ef885f8b0dfb8e084975494b6cb2a4058242d/deploymodel-0.1.8.tar.gz
+[2024-04-02 10:21:47] INFO root fetch - processPackages [lexikos]: New version: [0.0.1rc7] Old Version: [0.0.1rc6]
+[2024-04-02 10:21:47] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: New version: [17.0.1.0.0.3] Old Version: [17.0.1.0.0.2]
+[2024-04-02 10:21:47] INFO root fetch - processPackages [msscrawler]: New version: [1.3.2] Old Version: [1.3.1]
+[2024-04-02 10:21:47] INFO root fetch - processPackages [deploymodel]: Downloading https://files.pythonhosted.org/packages/8e/f4/c2263f09361c7e23469a1fdc4aa8ed7525bd9e48ff97edcfa3b723a2fa3e/deploymodel-0.1.9.tar.gz
+[2024-04-02 10:21:47] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/7e/2f/fade44f57ad96bcd32d472157f6b2e8cd1072023f9b8be2fe6b0792b7599/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-02 10:21:47] INFO root fetch - processPackages [msscrawler]: Downloading https://files.pythonhosted.org/packages/27/e8/9b5a0922ff86e9d9026f97c65d1f7aa3895f5092dd837edf84f6dc25111c/msscrawler-1.3.1.tar.gz
+[2024-04-02 10:21:47] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/f3/29/8c04fc35d09155d7d69f0ca0bbf34b79bc2e775637419d524674f1e06f81/lexikos-0.0.1rc6.tar.gz
+[2024-04-02 10:21:47] INFO root fetch - processPackages [deploymodel]: executing diffoscope
+[2024-04-02 10:21:47] INFO root fetch - processPackages [deploymodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deploymodel-0.1.8.tar.gz tmp/deploymodel-0.1.9.tar.gz --markdown 20240402/d/deploymodel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 10:21:48] INFO root fetch - processPackages [msscrawler]: Downloading https://files.pythonhosted.org/packages/48/7e/491dadd989b2f59962622ffaf7c90e75c364027a6b53a0d9554d27ab8424/msscrawler-1.3.2.tar.gz
+[2024-04-02 10:21:48] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Downloading https://files.pythonhosted.org/packages/cf/2b/6a8f4cb5945d7c47f709c1a9c9ea772811c5765a7608dfd2ee236ae7dbe4/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl
+[2024-04-02 10:21:48] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: executing diffoscope
+[2024-04-02 10:21:48] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-base-view-inheritance-extension/17.0.1.0.0.2-17.0.1.0.0.3/diff.md --exclude *.pyd
+[2024-04-02 10:21:48] INFO root fetch - processPackages [msscrawler]: executing diffoscope
+[2024-04-02 10:21:48] INFO root fetch - processPackages [msscrawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msscrawler-1.3.1.tar.gz tmp/msscrawler-1.3.2.tar.gz --markdown 20240402/m/msscrawler/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2024-04-02 10:21:48] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.8.tar.gz]
+[2024-04-02 10:21:48] INFO root fetch - processPackages [deploymodel]: Remove: archive file [/home/abi/fetcher/tmp/deploymodel-0.1.9.tar.gz]
+[2024-04-02 10:21:48] INFO root fetch - main [MainThread]: End processing [deploymodel]: success
+[2024-04-02 10:21:48] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-02 10:21:48] INFO root fetch - processPackages [odoo-addon-base-view-inheritance-extension]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_view_inheritance_extension-17.0.1.0.0.3-py3-none-any.whl.zip]
+[2024-04-02 10:21:48] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-view-inheritance-extension]: success
+[2024-04-02 10:21:49] INFO root fetch - processPackages [msscrawler]: Remove: archive file [/home/abi/fetcher/tmp/msscrawler-1.3.1.tar.gz]
+[2024-04-02 10:21:49] INFO root fetch - processPackages [msscrawler]: Remove: archive file [/home/abi/fetcher/tmp/msscrawler-1.3.2.tar.gz]
+[2024-04-02 10:21:49] INFO root fetch - main [MainThread]: End processing [msscrawler]: success
+[2024-04-02 10:21:49] INFO root fetch - processPackages [lexikos]: Downloading https://files.pythonhosted.org/packages/59/39/a98b2ec76d74b24877d4daf6fb0c55f8fe1e611581e221cfeeff0bbd2896/lexikos-0.0.1rc7-py3-none-any.whl
+[2024-04-02 10:21:50] INFO root fetch - processPackages [lexikos]: executing diffoscope
+[2024-04-02 10:21:50] INFO root fetch - processPackages [lexikos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lexikos-0.0.1rc6.tar.gz tmp/lexikos-0.0.1rc7-py3-none-any.whl.zip --markdown 20240402/l/lexikos/0.0.1rc6-0.0.1rc7/diff.md --exclude *.pyd
+[2024-04-02 10:21:51] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc6.tar.gz]
+[2024-04-02 10:21:51] INFO root fetch - processPackages [lexikos]: Remove: archive file [/home/abi/fetcher/tmp/lexikos-0.0.1rc7-py3-none-any.whl.zip]
+[2024-04-02 10:21:51] INFO root fetch - main [MainThread]: End processing [lexikos]: success
+[2024-04-02 10:21:51] INFO root fetch - main [MainThread]: Store serial: [22582096]
