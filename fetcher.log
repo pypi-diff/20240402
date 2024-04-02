@@ -2817,3 +2817,48 @@
 [2024-04-02 02:41:59] INFO root fetch - processPackages [pymetasnap]: Remove: archive file [/home/abi/fetcher/tmp/pymetasnap-0.30.1.tar.gz]
 [2024-04-02 02:41:59] INFO root fetch - main [MainThread]: End processing [pymetasnap]: success
 [2024-04-02 02:41:59] INFO root fetch - main [MainThread]: Store serial: [22577786]
+[2024-04-02 02:44:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577786]
+[2024-04-02 02:44:08] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 02:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: TesteBiblioteca
+[2024-04-02 02:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lastmile-eval
+[2024-04-02 02:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-web-tools
+[2024-04-02 02:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: enhanced-cnab
+[2024-04-02 02:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: glapi
+[2024-04-02 02:44:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chiasmodon
+[2024-04-02 02:44:08] WARNING root fetch - processPackages [steam-web-tools]: Skipping, unable to determine old version
+[2024-04-02 02:44:08] INFO root fetch - main [MainThread]: End processing [steam-web-tools] error
+[2024-04-02 02:44:08] INFO root fetch - processPackages [glapi]: New version: [0.7.6] Old Version: [0.7.5]
+[2024-04-02 02:44:08] WARNING root fetch - processPackages [TesteBiblioteca]: Skipping, unable to determine old version
+[2024-04-02 02:44:08] INFO root fetch - main [MainThread]: End processing [TesteBiblioteca] error
+[2024-04-02 02:44:08] INFO root fetch - processPackages [enhanced-cnab]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 02:44:08] INFO root fetch - processPackages [lastmile-eval]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 02:44:08] INFO root fetch - processPackages [chiasmodon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 02:44:08] INFO root fetch - processPackages [glapi]: Downloading https://files.pythonhosted.org/packages/1f/01/82c67184acdc7bc5fbbcb2b48e4813c2920ef9d488629d9a4baf224403ac/glapi-0.7.5.tar.gz
+[2024-04-02 02:44:08] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/46/b2/0e10b6c16c064035f04f508e0014441a37f32040de81b4eb60cc3230916c/lastmile-eval-0.0.5.tar.gz
+[2024-04-02 02:44:08] INFO root fetch - processPackages [enhanced-cnab]: Downloading https://files.pythonhosted.org/packages/f6/f1/18c427b10a6cb3fc2d99a3b283d34bb35eb17451f38664281235b81776d4/enhanced-cnab-0.0.8.tar.gz
+[2024-04-02 02:44:08] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/e0/56/6de17a813232fc63b6232ec2d9a47efe6691cfed7100c28c80fc35b1d3fc/chiasmodon-0.2.8.tar.gz
+[2024-04-02 02:44:08] INFO root fetch - processPackages [glapi]: Downloading https://files.pythonhosted.org/packages/fb/af/aae0bee0e9f8356f77538e5be4312e38c09d7dba44a4990a9f37076ed9e3/glapi-0.7.6.tar.gz
+[2024-04-02 02:44:08] INFO root fetch - processPackages [lastmile-eval]: Downloading https://files.pythonhosted.org/packages/1c/f1/4a35cc169eedd2f3c79eb442512141146b4ef805b266a93c53ec9be8d0c0/lastmile-eval-0.0.6.tar.gz
+[2024-04-02 02:44:09] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/39/ca/9636306ddc925f952b12f92d304c1925cf1d547e4f6db9438dbeef079b20/chiasmodon-0.2.9.tar.gz
+[2024-04-02 02:44:09] INFO root fetch - processPackages [glapi]: executing diffoscope
+[2024-04-02 02:44:09] INFO root fetch - processPackages [glapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glapi-0.7.5.tar.gz tmp/glapi-0.7.6.tar.gz --markdown 20240402/g/glapi/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2024-04-02 02:44:09] INFO root fetch - processPackages [lastmile-eval]: executing diffoscope
+[2024-04-02 02:44:09] INFO root fetch - processPackages [lastmile-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lastmile-eval-0.0.5.tar.gz tmp/lastmile-eval-0.0.6.tar.gz --markdown 20240402/l/lastmile-eval/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 02:44:09] INFO root fetch - processPackages [enhanced-cnab]: Downloading https://files.pythonhosted.org/packages/7a/45/12d7585160ae85573e32a3b4d0dd8c18be6f5ff0cdde700c85c99e3143fb/enhanced-cnab-0.0.9.tar.gz
+[2024-04-02 02:44:09] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-04-02 02:44:09] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-0.2.8.tar.gz tmp/chiasmodon-0.2.9.tar.gz --markdown 20240402/c/chiasmodon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 02:44:09] INFO root fetch - processPackages [enhanced-cnab]: executing diffoscope
+[2024-04-02 02:44:09] INFO root fetch - processPackages [enhanced-cnab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enhanced-cnab-0.0.8.tar.gz tmp/enhanced-cnab-0.0.9.tar.gz --markdown 20240402/e/enhanced-cnab/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 02:44:09] INFO root fetch - processPackages [glapi]: Remove: archive file [/home/abi/fetcher/tmp/glapi-0.7.5.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - processPackages [glapi]: Remove: archive file [/home/abi/fetcher/tmp/glapi-0.7.6.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - main [MainThread]: End processing [glapi]: success
+[2024-04-02 02:44:09] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-0.2.8.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-0.2.9.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-04-02 02:44:09] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile-eval-0.0.5.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - processPackages [lastmile-eval]: Remove: archive file [/home/abi/fetcher/tmp/lastmile-eval-0.0.6.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - main [MainThread]: End processing [lastmile-eval]: success
+[2024-04-02 02:44:09] INFO root fetch - processPackages [enhanced-cnab]: Remove: archive file [/home/abi/fetcher/tmp/enhanced-cnab-0.0.8.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - processPackages [enhanced-cnab]: Remove: archive file [/home/abi/fetcher/tmp/enhanced-cnab-0.0.9.tar.gz]
+[2024-04-02 02:44:09] INFO root fetch - main [MainThread]: End processing [enhanced-cnab]: success
+[2024-04-02 02:44:09] INFO root fetch - main [MainThread]: Store serial: [22577809]
