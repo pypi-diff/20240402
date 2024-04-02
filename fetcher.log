@@ -17204,3 +17204,32 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:18:43] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.9.tar.gz]
 [2024-04-02 12:18:43] INFO root fetch - main [MainThread]: End processing [keble-documents-loader]: success
 [2024-04-02 12:18:43] INFO root fetch - main [MainThread]: Store serial: [22583412]
+[2024-04-02 12:20:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583412]
+[2024-04-02 12:20:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: DownloadBar
+[2024-04-02 12:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: klowd
+[2024-04-02 12:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: box-packager
+[2024-04-02 12:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyqwe
+[2024-04-02 12:20:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Java2Jar
+[2024-04-02 12:20:52] WARNING root fetch - processPackages [box-packager]: Skipping, unable to determine old version
+[2024-04-02 12:20:52] INFO root fetch - main [MainThread]: End processing [box-packager] error
+[2024-04-02 12:20:52] INFO root fetch - processPackages [klowd]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:20:52] WARNING root fetch - processPackages [Java2Jar]: Skipping, unable to determine old version
+[2024-04-02 12:20:52] INFO root fetch - main [MainThread]: End processing [Java2Jar] error
+[2024-04-02 12:20:52] INFO root fetch - processPackages [klowd]: Downloading https://files.pythonhosted.org/packages/07/05/0605130285a72563c3cd310180df0a6bce1af055fae18c4cc565be4e4ee8/klowd-0.0.8-py3-none-any.whl
+[2024-04-02 12:20:52] WARNING root fetch - processPackages [DownloadBar]: Skipping, unable to determine old version
+[2024-04-02 12:20:52] INFO root fetch - main [MainThread]: End processing [DownloadBar] error
+[2024-04-02 12:20:52] INFO root fetch - processPackages [pyqwe]: New version: [1.1.3] Old Version: [1.0.3]
+[2024-04-02 12:20:52] INFO root fetch - processPackages [pyqwe]: Downloading https://files.pythonhosted.org/packages/50/d8/73a6a9aea7e468040166008e0ccb4fe1f897c1e211d9c97f6a223dd0ba84/pyqwe-1.0.3.tar.gz
+[2024-04-02 12:20:52] INFO root fetch - processPackages [klowd]: executing diffoscope
+[2024-04-02 12:20:52] INFO root fetch - processPackages [klowd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klowd-0.0.8-py3-none-any.whl.zip tmp/klowd-0.0.9-py3-none-any.whl.zip --markdown 20240402/k/klowd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:20:52] INFO root fetch - processPackages [pyqwe]: Downloading https://files.pythonhosted.org/packages/f0/d5/d9dc8e99fe1f8ba4e5ff72a3148b8c43d6aeae3da4faed9d45c2246fd3a9/pyqwe-1.1.3.tar.gz
+[2024-04-02 12:20:52] INFO root fetch - processPackages [pyqwe]: executing diffoscope
+[2024-04-02 12:20:52] INFO root fetch - processPackages [pyqwe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqwe-1.0.3.tar.gz tmp/pyqwe-1.1.3.tar.gz --markdown 20240402/p/pyqwe/1.0.3-1.1.3/diff.md --exclude *.pyd
+[2024-04-02 12:20:53] INFO root fetch - processPackages [klowd]: Remove: archive file [/home/abi/fetcher/tmp/klowd-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 12:20:53] INFO root fetch - processPackages [klowd]: Remove: archive file [/home/abi/fetcher/tmp/klowd-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 12:20:53] INFO root fetch - main [MainThread]: End processing [klowd]: success
+[2024-04-02 12:20:53] INFO root fetch - processPackages [pyqwe]: Remove: archive file [/home/abi/fetcher/tmp/pyqwe-1.0.3.tar.gz]
+[2024-04-02 12:20:53] INFO root fetch - processPackages [pyqwe]: Remove: archive file [/home/abi/fetcher/tmp/pyqwe-1.1.3.tar.gz]
+[2024-04-02 12:20:53] INFO root fetch - main [MainThread]: End processing [pyqwe]: success
+[2024-04-02 12:20:53] INFO root fetch - main [MainThread]: Store serial: [22583428]
