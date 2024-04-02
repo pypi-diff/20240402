@@ -19004,3 +19004,107 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:33:05] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.0.9.tar.gz]
 [2024-04-02 13:33:05] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
 [2024-04-02 13:33:05] INFO root fetch - main [MainThread]: Store serial: [22584123]
+[2024-04-02 13:35:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584123]
+[2024-04-02 13:35:15] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-es-ticketbai
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-l10n-es-ticketbai-batuz
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: forfloatrange
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autocontext
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchserve-nightly
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torch-model-archiver-nightly
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mcrit
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpttsrt
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2024-04-02 13:35:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: craft-application
+[2024-04-02 13:35:16] WARNING root fetch - processPackages [autocontext]: Skipping, unable to determine old version
+[2024-04-02 13:35:16] INFO root fetch - processPackages [autocontext]: Start processing: python-115
+[2024-04-02 13:35:16] INFO root fetch - main [MainThread]: End processing [autocontext] error
+[2024-04-02 13:35:16] WARNING root fetch - processPackages [gpttsrt]: Skipping, unable to determine old version
+[2024-04-02 13:35:16] INFO root fetch - processPackages [gpttsrt]: Start processing: khoj-assistant
+[2024-04-02 13:35:16] INFO root fetch - main [MainThread]: End processing [gpttsrt] error
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torchserve-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [python-115]: New version: [0.0.5] Old Version: [0.0.4.9]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [khoj-assistant]: New version: [1.8.1.dev14] Old Version: [1.8.1.dev11]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [craft-application]: New version: [2.3.0] Old Version: [2.2.0]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: New version: [16.0.1.0.8] Old Version: [16.0.1.0.7.2]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [forfloatrange]: New version: [1.2.1] Old Version: [1.2.0]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.4]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [mcrit]: New version: [1.3.9] Old Version: [1.3.8]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/ab/cc/8e5ca4cf3635218b0da03231410fa3bf3accb2151186e1dda82862f9f8cb/torchserve_nightly-2024.3.9-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2024.4.2] Old Version: [2024.4.1]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/a1/91/59b322e74e8cec948dd4bfc8e186c2f0d26eda358d7b3db480cadbece55d/torch_model_archiver_nightly-2024.3.9-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/66/ad/77c0624acacedf1e00778c8f5301175dc6197f35903d59145b0c739d4139/khoj_assistant-1.8.1.dev11.tar.gz
+[2024-04-02 13:35:16] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 24331996>=10485760
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torchserve-nightly]: Start processing: boomgate
+[2024-04-02 13:35:16] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2024-04-02 13:35:16] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/80/f5/2f59e5d5bea3e4c5c0e74be20891f4aece90621b369f3ae9836b0f0abb9c/python_115-0.0.4.9.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/b8/2d/8555d3e1d8a93d4c371553ab51fdcbc46e0af3dee3690190b65694227c99/odoo_addon_l10n_es_ticketbai-16.0.1.0.7.2-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/54/83/6329dea276ace83e487f46acec47b4fd46afb01f6da98d76294d84973efb/torch_workflow_archiver_nightly-2024.4.1-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [boomgate]: New version: [0.0.6a1] Old Version: [0.0.5]
+[2024-04-02 13:35:16] INFO root fetch - processPackages [forfloatrange]: Downloading https://files.pythonhosted.org/packages/2d/63/1234c892bd090232063fce008019271d0a4c1c806383715829bb74e8aecc/forfloatrange-1.2.0.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Downloading https://files.pythonhosted.org/packages/a0/30/c1109e3f10eaf72efccdd0e6617e0a521fd5d547682f3a6f269b3da831e8/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.4-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [craft-application]: Downloading https://files.pythonhosted.org/packages/64/04/0dea0add5b2098c2aa7ef09a68e8390bb8cd792250dd3718654f954d22b6/craft-application-2.2.0.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/5e/6e/aed070f7bae9871a7d5ab8d4c0bd361cf816c0745b515c8352ca058a1123/mcrit-1.3.8.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5d/3f/7a316e6f20f2c5d3360ee47d4a71af05f921fb8d8c921212dbdd951648d0/torch_model_archiver_nightly-2024.4.1-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/62/86/aa06f11f7172a7553cff99b45c1aad9904c4ba2cb88eae9f1e6ecd38f8f6/boomgate-0.0.5.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/42/77/94765787e509a51b62c542eb33eecb23fb944f1d8c92947a988c5c6c0575/python_115-0.0.5.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2024.3.9-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2024.4.1-py3-none-any.whl.zip --markdown 20240402/t/torch-model-archiver-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-02 13:35:16] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/ba/bb/7de483fcf6e301b42eb1540ed5f52073f75c4de379e67021054466a74213/torch_workflow_archiver_nightly-2024.4.2-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/51/95/0f8e318792c13e86713d6887c3b675c89ce562463b4daa1d71ece23b9b37/odoo_addon_l10n_es_ticketbai-16.0.1.0.8-py3-none-any.whl
+[2024-04-02 13:35:16] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-02 13:35:16] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.4.9.tar.gz tmp/python_115-0.0.5.tar.gz --markdown 20240402/p/python-115/0.0.4.9-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 13:35:16] INFO root fetch - processPackages [craft-application]: Downloading https://files.pythonhosted.org/packages/5b/70/d83dfdc9fed60fc3b5388073eb131358f1a79095415af1a2e11f78e76576/craft-application-2.3.0.tar.gz
+[2024-04-02 13:35:16] INFO root fetch - processPackages [forfloatrange]: Downloading https://files.pythonhosted.org/packages/7c/5c/032a9bf1c6a58b10d067f4c6b411fd7ca50a82c6ed20009a1e35f2f22ac6/forfloatrange-1.2.1.tar.gz
+[2024-04-02 13:35:17] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Downloading https://files.pythonhosted.org/packages/f6/dc/44a47cebebbc96edca7e30e8994c34023e7b9cccb478e8ce66e0dcf4ccae/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.5-py3-none-any.whl
+[2024-04-02 13:35:17] INFO root fetch - processPackages [mcrit]: Downloading https://files.pythonhosted.org/packages/02/03/20b47104a9e0a23e5d4351194bca51dd9cf8fcd050253c4a5860cd615db7/mcrit-1.3.9.tar.gz
+[2024-04-02 13:35:17] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/70/b9/6799656403c057343440c3a20c1928faf59f567e70f64d6add8554bf5deb/khoj_assistant-1.8.1.dev14.tar.gz
+[2024-04-02 13:35:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2024.4.1-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2024.4.2-py3-none-any.whl.zip --markdown 20240402/t/torch-workflow-archiver-nightly/2024.4.1-2024.4.2/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [forfloatrange]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [forfloatrange]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/forfloatrange-1.2.0.tar.gz tmp/forfloatrange-1.2.1.tar.gz --markdown 20240402/f/forfloatrange/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [boomgate]: Downloading https://files.pythonhosted.org/packages/d2/2d/63bcea026a6cfb209113302285c6e7d20b4d9599aa93c69da8459cb22067/boomgate-0.0.6a1.tar.gz
+[2024-04-02 13:35:17] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.7.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.8-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-l10n-es-ticketbai/16.0.1.0.7.2-16.0.1.0.8/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [craft-application]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [craft-application]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/craft-application-2.2.0.tar.gz tmp/craft-application-2.3.0.tar.gz --markdown 20240402/c/craft-application/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [mcrit]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [mcrit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcrit-1.3.8.tar.gz tmp/mcrit-1.3.9.tar.gz --markdown 20240402/m/mcrit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-l10n-es-ticketbai-batuz/16.0.1.0.0.4-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-1.8.1.dev11.tar.gz tmp/khoj_assistant-1.8.1.dev14.tar.gz --markdown 20240402/k/khoj-assistant/1.8.1.dev11-1.8.1.dev14/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [boomgate]: executing diffoscope
+[2024-04-02 13:35:17] INFO root fetch - processPackages [boomgate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boomgate-0.0.5.tar.gz tmp/boomgate-0.0.6a1.tar.gz --markdown 20240402/b/boomgate/0.0.5-0.0.6a1/diff.md --exclude *.pyd
+[2024-04-02 13:35:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.3.9-py3-none-any.whl.zip]
+[2024-04-02 13:35:17] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2024.4.1-py3-none-any.whl.zip]
+[2024-04-02 13:35:17] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [forfloatrange]: Remove: archive file [/home/abi/fetcher/tmp/forfloatrange-1.2.0.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [forfloatrange]: Remove: archive file [/home/abi/fetcher/tmp/forfloatrange-1.2.1.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [forfloatrange]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.4.9.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.1-py3-none-any.whl.zip]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2024.4.2-py3-none-any.whl.zip]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.5.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [boomgate]: Remove: archive file [/home/abi/fetcher/tmp/boomgate-0.0.6a1.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [boomgate]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai-batuz]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai_batuz-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai-batuz]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.7.2-py3-none-any.whl.zip]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [odoo-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_ticketbai-16.0.1.0.8-py3-none-any.whl.zip]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-ticketbai]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.3.8.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [mcrit]: Remove: archive file [/home/abi/fetcher/tmp/mcrit-1.3.9.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [mcrit]: success
+[2024-04-02 13:35:18] INFO root fetch - processPackages [craft-application]: Remove: archive file [/home/abi/fetcher/tmp/craft-application-2.2.0.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - processPackages [craft-application]: Remove: archive file [/home/abi/fetcher/tmp/craft-application-2.3.0.tar.gz]
+[2024-04-02 13:35:18] INFO root fetch - main [MainThread]: End processing [craft-application]: success
+[2024-04-02 13:35:19] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev11.tar.gz]
+[2024-04-02 13:35:19] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-1.8.1.dev14.tar.gz]
+[2024-04-02 13:35:19] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2024-04-02 13:35:19] INFO root fetch - main [MainThread]: Store serial: [22584156]
