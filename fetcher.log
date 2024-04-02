@@ -21387,3 +21387,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:56:46] INFO root fetch - processPackages [biomero]: Remove: archive file [/home/abi/fetcher/tmp/biomero-1.7.0.tar.gz]
 [2024-04-02 14:56:46] INFO root fetch - main [MainThread]: End processing [biomero]: success
 [2024-04-02 14:56:46] INFO root fetch - main [MainThread]: Store serial: [22585074]
+[2024-04-02 14:58:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585074]
+[2024-04-02 14:58:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 14:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reapit-cdk.replicated-secret
+[2024-04-02 14:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tg-flask-sse-common
+[2024-04-02 14:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edumfa
+[2024-04-02 14:58:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lusid-workflow-sdk-preview
+[2024-04-02 14:58:56] INFO root fetch - processPackages [tg-flask-sse-common]: New version: [1.9.7] Old Version: [1.9.6]
+[2024-04-02 14:58:56] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/29/40/94dce215ea9a7909d9023b85eb9212ad61ebc0f9fbec7589152109a32110/tg_flask_sse_common-1.9.6.tar.gz
+[2024-04-02 14:58:56] WARNING root fetch - processPackages [reapit-cdk.replicated-secret]: Skipping, unable to determine old version
+[2024-04-02 14:58:56] INFO root fetch - main [MainThread]: End processing [reapit-cdk.replicated-secret] error
+[2024-04-02 14:58:56] INFO root fetch - processPackages [edumfa]: New version: [1.5.0] Old Version: [1.4.0]
+[2024-04-02 14:58:56] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: New version: [0.1.843] Old Version: [0.1.842]
+[2024-04-02 14:58:56] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/cf/ef/c3521fe59455ff8d8a840c95f081ad901258a7d209732b32e46baf168121/lusid-workflow-sdk-preview-0.1.842.tar.gz
+[2024-04-02 14:58:56] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/8b/c8/a4f7084e71470be654fd23e698e28e8556260ae3c18c8ede0975d722b5e5/edumfa-1.4.0.tar.gz
+[2024-04-02 14:58:56] INFO root fetch - processPackages [tg-flask-sse-common]: Downloading https://files.pythonhosted.org/packages/42/b2/bbadb2b6d445b353fc22e20b80959d932643c364f373849729712a910995/tg_flask_sse_common-1.9.7.tar.gz
+[2024-04-02 14:58:57] INFO root fetch - processPackages [tg-flask-sse-common]: executing diffoscope
+[2024-04-02 14:58:57] INFO root fetch - processPackages [tg-flask-sse-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_flask_sse_common-1.9.6.tar.gz tmp/tg_flask_sse_common-1.9.7.tar.gz --markdown 20240402/t/tg-flask-sse-common/1.9.6-1.9.7/diff.md --exclude *.pyd
+[2024-04-02 14:58:57] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Downloading https://files.pythonhosted.org/packages/15/57/dae3baba13e153db7661d4487532c33d4523a0c4ae7b5d1ba4db33a173aa/lusid-workflow-sdk-preview-0.1.843.tar.gz
+[2024-04-02 14:58:57] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: executing diffoscope
+[2024-04-02 14:58:57] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-workflow-sdk-preview-0.1.842.tar.gz tmp/lusid-workflow-sdk-preview-0.1.843.tar.gz --markdown 20240402/l/lusid-workflow-sdk-preview/0.1.842-0.1.843/diff.md --exclude *.pyd
+[2024-04-02 14:58:57] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.6.tar.gz]
+[2024-04-02 14:58:57] INFO root fetch - processPackages [tg-flask-sse-common]: Remove: archive file [/home/abi/fetcher/tmp/tg_flask_sse_common-1.9.7.tar.gz]
+[2024-04-02 14:58:57] INFO root fetch - main [MainThread]: End processing [tg-flask-sse-common]: success
+[2024-04-02 14:58:57] INFO root fetch - processPackages [edumfa]: Downloading https://files.pythonhosted.org/packages/59/88/13b82685ac75062912e1a1ecfbf68abccc31693050ceaacc32b3db06da0a/edumfa-1.5.0.tar.gz
+[2024-04-02 14:58:58] INFO root fetch - processPackages [edumfa]: executing diffoscope
+[2024-04-02 14:58:58] INFO root fetch - processPackages [edumfa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edumfa-1.4.0.tar.gz tmp/edumfa-1.5.0.tar.gz --markdown 20240402/e/edumfa/1.4.0-1.5.0/diff.md --exclude *.pyd
+[2024-04-02 14:58:58] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.842.tar.gz]
+[2024-04-02 14:58:58] INFO root fetch - processPackages [lusid-workflow-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-workflow-sdk-preview-0.1.843.tar.gz]
+[2024-04-02 14:58:58] INFO root fetch - main [MainThread]: End processing [lusid-workflow-sdk-preview]: success
+[2024-04-02 14:59:03] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-1.4.0.tar.gz]
+[2024-04-02 14:59:03] INFO root fetch - processPackages [edumfa]: Remove: archive file [/home/abi/fetcher/tmp/edumfa-1.5.0.tar.gz]
+[2024-04-02 14:59:03] INFO root fetch - main [MainThread]: End processing [edumfa]: success
+[2024-04-02 14:59:03] INFO root fetch - main [MainThread]: Store serial: [22585088]
