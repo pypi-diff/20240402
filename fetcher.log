@@ -18137,3 +18137,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:01:07] INFO root fetch - processPackages [foss-flame]: Remove: archive file [/home/abi/fetcher/tmp/foss-flame-0.19.9.tar.gz]
 [2024-04-02 13:01:07] INFO root fetch - main [MainThread]: End processing [foss-flame]: success
 [2024-04-02 13:01:07] INFO root fetch - main [MainThread]: Store serial: [22583759]
+[2024-04-02 13:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583759]
+[2024-04-02 13:03:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 13:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autocontext
+[2024-04-02 13:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-linstor
+[2024-04-02 13:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testingcgsdk
+[2024-04-02 13:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mayan-importer
+[2024-04-02 13:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sybil-engine
+[2024-04-02 13:03:17] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:03:17] INFO root fetch - processPackages [mayan-importer]: New version: [3.0.1] Old Version: [3.0]
+[2024-04-02 13:03:17] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 13:03:17] WARNING root fetch - processPackages [autocontext]: Skipping, unable to determine old version
+[2024-04-02 13:03:17] INFO root fetch - main [MainThread]: End processing [autocontext] error
+[2024-04-02 13:03:17] INFO root fetch - processPackages [python-linstor]: New version: [1.9.0] Old Version: [1.8.0]
+[2024-04-02 13:03:17] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/05/a5/858c9a445bc41103d036d5e7d3d331b0eabb7f2a091e61638000c7ea1679/mayan-importer-3.0.tar.gz
+[2024-04-02 13:03:17] INFO root fetch - processPackages [sybil-engine]: New version: [6.5.2] Old Version: [6.5.1]
+[2024-04-02 13:03:17] INFO root fetch - processPackages [python-linstor]: Downloading https://files.pythonhosted.org/packages/6e/89/49b3e1fa8c3b6bc6a3de5416574d9e459391ec78f369412237762f3d3893/python-linstor-1.8.0.tar.gz
+[2024-04-02 13:03:17] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 13:03:17] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 13:03:17] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:03:17] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/92/71/8db9a8aca7969466118809a60dd250f2b4b1599b68e1da5379aa379ae205/sybil_engine-6.5.1.tar.gz
+[2024-04-02 13:03:17] INFO root fetch - processPackages [mayan-importer]: Downloading https://files.pythonhosted.org/packages/41/b6/7155a3a7988602752e4a89d7102740780551055c2c76939acab0ff6633bc/mayan-importer-3.0.1.tar.gz
+[2024-04-02 13:03:17] INFO root fetch - processPackages [python-linstor]: Downloading https://files.pythonhosted.org/packages/68/93/587ffa4a6e4d076d382c7c9c7f8ccf52a557d6f1fb8619bd5523d292faa0/python-linstor-1.9.0.tar.gz
+[2024-04-02 13:03:18] INFO root fetch - processPackages [mayan-importer]: executing diffoscope
+[2024-04-02 13:03:18] INFO root fetch - processPackages [mayan-importer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mayan-importer-3.0.tar.gz tmp/mayan-importer-3.0.1.tar.gz --markdown 20240402/m/mayan-importer/3.0-3.0.1/diff.md --exclude *.pyd
+[2024-04-02 13:03:18] INFO root fetch - processPackages [sybil-engine]: Downloading https://files.pythonhosted.org/packages/e6/5d/0d461313d3606b5fdbdaaea50fe69db6753531b0df73f907e6376e9f56c7/sybil_engine-6.5.2-py3-none-any.whl
+[2024-04-02 13:03:18] INFO root fetch - processPackages [python-linstor]: executing diffoscope
+[2024-04-02 13:03:18] INFO root fetch - processPackages [python-linstor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-linstor-1.8.0.tar.gz tmp/python-linstor-1.9.0.tar.gz --markdown 20240402/p/python-linstor/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:03:18] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 13:03:18] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 13:03:18] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 13:03:18] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-3.0.tar.gz]
+[2024-04-02 13:03:18] INFO root fetch - processPackages [mayan-importer]: Remove: archive file [/home/abi/fetcher/tmp/mayan-importer-3.0.1.tar.gz]
+[2024-04-02 13:03:18] INFO root fetch - main [MainThread]: End processing [mayan-importer]: success
+[2024-04-02 13:03:18] INFO root fetch - processPackages [sybil-engine]: executing diffoscope
+[2024-04-02 13:03:18] INFO root fetch - processPackages [sybil-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sybil_engine-6.5.1.tar.gz tmp/sybil_engine-6.5.2-py3-none-any.whl.zip --markdown 20240402/s/sybil-engine/6.5.1-6.5.2/diff.md --exclude *.pyd
+[2024-04-02 13:03:19] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.5.1.tar.gz]
+[2024-04-02 13:03:19] INFO root fetch - processPackages [sybil-engine]: Remove: archive file [/home/abi/fetcher/tmp/sybil_engine-6.5.2-py3-none-any.whl.zip]
+[2024-04-02 13:03:19] INFO root fetch - main [MainThread]: End processing [sybil-engine]: success
+[2024-04-02 13:03:21] INFO root fetch - processPackages [python-linstor]: Remove: archive file [/home/abi/fetcher/tmp/python-linstor-1.8.0.tar.gz]
+[2024-04-02 13:03:21] INFO root fetch - processPackages [python-linstor]: Remove: archive file [/home/abi/fetcher/tmp/python-linstor-1.9.0.tar.gz]
+[2024-04-02 13:03:21] INFO root fetch - main [MainThread]: End processing [python-linstor]: success
+[2024-04-02 13:03:21] INFO root fetch - main [MainThread]: Store serial: [22583789]
