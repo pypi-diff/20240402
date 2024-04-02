@@ -12422,3 +12422,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:06:24] INFO root fetch - processPackages [azure-cli]: Remove: archive file [/home/abi/fetcher/tmp/azure-cli-2.9.1.tar.gz]
 [2024-04-02 09:06:24] INFO root fetch - main [MainThread]: End processing [azure-cli]: success
 [2024-04-02 09:06:24] INFO root fetch - main [MainThread]: Store serial: [22581419]
+[2024-04-02 09:08:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581419]
+[2024-04-02 09:08:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: archerdfu.core
+[2024-04-02 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlfactory
+[2024-04-02 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pr-properties
+[2024-04-02 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ng2web
+[2024-04-02 09:08:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: validators
+[2024-04-02 09:08:35] INFO root fetch - processPackages [validators]: New version: [0.9] Old Version: [0.8]
+[2024-04-02 09:08:35] INFO root fetch - processPackages [ng2web]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 09:08:35] WARNING root fetch - processPackages [sqlfactory]: Skipping, unable to determine old version
+[2024-04-02 09:08:35] INFO root fetch - main [MainThread]: End processing [sqlfactory] error
+[2024-04-02 09:08:35] INFO root fetch - processPackages [pr-properties]: New version: [1.8.5] Old Version: [1.8.4]
+[2024-04-02 09:08:35] INFO root fetch - processPackages [archerdfu.core]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 09:08:35] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/01/fd/252e65efd602dabab848e05cb1abdb6327c680d9e4734fcbd1a098faf738/validators-0.8.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [ng2web]: Downloading https://files.pythonhosted.org/packages/6a/e5/f5949e925c61a6a5abaea4404c088766c61b89d21d69209291b503d795b6/ng2web-0.1.0.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [pr-properties]: Downloading https://files.pythonhosted.org/packages/ef/04/74b6654cb7adb5278e00031c77e8404181f357568bff36296d2ba44ac890/pr_properties-1.8.4.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [archerdfu.core]: Downloading https://files.pythonhosted.org/packages/de/02/b69ae5346910b1bac74e66371db17eff5ec66bf3e5de9eecdf671f38bd8e/archerdfu.core-1.0.1.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [validators]: Downloading https://files.pythonhosted.org/packages/70/e1/23fa50c66483b57e75ab945f5a5df1627f52df7b34aa3b6376a822ba9eaf/validators-0.9.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [archerdfu.core]: Downloading https://files.pythonhosted.org/packages/9d/f0/97fe3059bc27c37a4a26a31c0d7e4dbc822f15a8451789e151fe409c9617/archerdfu.core-1.0.2.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [ng2web]: Downloading https://files.pythonhosted.org/packages/78/5b/5b0229a24d08859adeccdd698b39051e21b50bc1d0fd9793162425e68d34/ng2web-0.1.1.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [pr-properties]: Downloading https://files.pythonhosted.org/packages/8b/1c/dc2f2744e17bde2518d310362011777c2cc322d2781af2a7d51f9fb172ce/pr_properties-1.8.5.tar.gz
+[2024-04-02 09:08:35] INFO root fetch - processPackages [archerdfu.core]: executing diffoscope
+[2024-04-02 09:08:35] INFO root fetch - processPackages [archerdfu.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archerdfu.core-1.0.1.tar.gz tmp/archerdfu.core-1.0.2.tar.gz --markdown 20240402/a/archerdfu.core/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:08:35] INFO root fetch - processPackages [validators]: executing diffoscope
+[2024-04-02 09:08:35] INFO root fetch - processPackages [validators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validators-0.8.tar.gz tmp/validators-0.9.tar.gz --markdown 20240402/v/validators/0.8-0.9/diff.md --exclude *.pyd
+[2024-04-02 09:08:35] INFO root fetch - processPackages [pr-properties]: executing diffoscope
+[2024-04-02 09:08:35] INFO root fetch - processPackages [pr-properties]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pr_properties-1.8.4.tar.gz tmp/pr_properties-1.8.5.tar.gz --markdown 20240402/p/pr-properties/1.8.4-1.8.5/diff.md --exclude *.pyd
+[2024-04-02 09:08:35] INFO root fetch - processPackages [ng2web]: executing diffoscope
+[2024-04-02 09:08:35] INFO root fetch - processPackages [ng2web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ng2web-0.1.0.tar.gz tmp/ng2web-0.1.1.tar.gz --markdown 20240402/n/ng2web/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 09:08:36] INFO root fetch - processPackages [pr-properties]: Remove: archive file [/home/abi/fetcher/tmp/pr_properties-1.8.4.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - processPackages [pr-properties]: Remove: archive file [/home/abi/fetcher/tmp/pr_properties-1.8.5.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - main [MainThread]: End processing [pr-properties]: success
+[2024-04-02 09:08:36] INFO root fetch - processPackages [ng2web]: Remove: archive file [/home/abi/fetcher/tmp/ng2web-0.1.0.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - processPackages [ng2web]: Remove: archive file [/home/abi/fetcher/tmp/ng2web-0.1.1.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - main [MainThread]: End processing [ng2web]: success
+[2024-04-02 09:08:36] INFO root fetch - processPackages [archerdfu.core]: Remove: archive file [/home/abi/fetcher/tmp/archerdfu.core-1.0.1.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - processPackages [archerdfu.core]: Remove: archive file [/home/abi/fetcher/tmp/archerdfu.core-1.0.2.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - main [MainThread]: End processing [archerdfu.core]: success
+[2024-04-02 09:08:36] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.8.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - processPackages [validators]: Remove: archive file [/home/abi/fetcher/tmp/validators-0.9.tar.gz]
+[2024-04-02 09:08:36] INFO root fetch - main [MainThread]: End processing [validators]: success
+[2024-04-02 09:08:36] INFO root fetch - main [MainThread]: Store serial: [22581437]
