@@ -12008,3 +12008,21 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:35:49] INFO root fetch - processPackages [maling]: Remove: archive file [/home/abi/fetcher/tmp/maling-2.1.5.tar.gz]
 [2024-04-02 08:35:49] INFO root fetch - main [MainThread]: End processing [maling]: success
 [2024-04-02 08:35:49] INFO root fetch - main [MainThread]: Store serial: [22581266]
+[2024-04-02 08:37:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581266]
+[2024-04-02 08:37:58] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muti.numer
+[2024-04-02 08:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: musicAlgLib
+[2024-04-02 08:37:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sweagent
+[2024-04-02 08:37:58] WARNING root fetch - processPackages [muti.numer]: Skipping, unable to determine old version
+[2024-04-02 08:37:58] INFO root fetch - main [MainThread]: End processing [muti.numer] error
+[2024-04-02 08:37:58] INFO root fetch - processPackages [musicAlgLib]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 08:37:58] ERROR root fetch - processPackages [sweagent]: Unable to get metadata: No such project 'sweagent'
+[2024-04-02 08:37:58] INFO root fetch - main [MainThread]: End processing [sweagent] error
+[2024-04-02 08:37:58] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/81/00/70ea5b673aa3e185c72a4f98264a2d12527d5159e1a7a611287baf78f281/musicAlgLib-1.0.1.tar.gz
+[2024-04-02 08:37:58] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/1f/bb/42b1248c7b2db8f99ce628f630502c2b416e831e74f00fa177ffc5e03442/musicAlgLib-1.0.2.tar.gz
+[2024-04-02 08:37:59] INFO root fetch - processPackages [musicAlgLib]: executing diffoscope
+[2024-04-02 08:37:59] INFO root fetch - processPackages [musicAlgLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicAlgLib-1.0.1.tar.gz tmp/musicAlgLib-1.0.2.tar.gz --markdown 20240402/m/musicAlgLib/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 08:37:59] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.1.tar.gz]
+[2024-04-02 08:37:59] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.2.tar.gz]
+[2024-04-02 08:37:59] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
+[2024-04-02 08:37:59] INFO root fetch - main [MainThread]: Store serial: [22581276]
