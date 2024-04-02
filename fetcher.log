@@ -13509,3 +13509,90 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:56:27] INFO root fetch - processPackages [picaso]: Remove: archive file [/home/abi/fetcher/tmp/picaso-3.2.tar.gz]
 [2024-04-02 09:56:27] INFO root fetch - main [MainThread]: End processing [picaso]: success
 [2024-04-02 09:56:27] INFO root fetch - main [MainThread]: Store serial: [22581826]
+[2024-04-02 09:58:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581826]
+[2024-04-02 09:58:36] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: acb
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: selestium
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: testingcgsdk
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: delphai-utils
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: finbourne-access-sdk
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ts-type
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: BMPboot
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jinja2-async-environment
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: finbourne-insights-sdk-preview
+[2024-04-02 09:58:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-configuration-sdk-preview
+[2024-04-02 09:58:37] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [selestium]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 09:58:37] WARNING root fetch - processPackages [BMPboot]: Skipping, unable to determine old version
+[2024-04-02 09:58:37] INFO root fetch - main [MainThread]: End processing [BMPboot] error
+[2024-04-02 09:58:37] INFO root fetch - processPackages [ts-type]: New version: [0.3.0] Old Version: [0.2.9]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [acb]: New version: [0.5.9] Old Version: [0.5.8]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [jinja2-async-environment]: New version: [0.7.1] Old Version: [0.7.0]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: New version: [0.0.764] Old Version: [0.0.763]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/43/c2/57e8bf85d118de8818761d2feb27e53da4f319e94f7c0fa308ea8cf9d37e/selestium-0.2.3.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [delphai-utils]: New version: [4.0.0] Old Version: [3.4.2]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [finbourne-access-sdk]: New version: [2.0.99] Old Version: [2.0.98]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: New version: [0.1.517] Old Version: [0.1.516]
+[2024-04-02 09:58:37] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/55/7f/2d0c7d2b31619856256c25e01468a3341aab954845653bccf4e7f0122e1b/testingcgsdk-0.0.4-py3-none-any.whl
+[2024-04-02 09:58:37] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/80/d5/4ecbfa2d8ee11286912872c85e41a0fde450de103f538e155a883656ef15/acb-0.5.8.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/fd/67/d2e98404cdaab57222e15237907a836a61564694937b128d4fe52a06c6d2/ts_type-0.2.9.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/86/3b/10126239854627ead5ad9584c70f092d0e3f592fd7b8108ac030eea8a454/finbourne-insights-sdk-preview-0.0.763.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/1b/37/d2e944715a96c6f319267d39cc04bbd0b6f471dcafe3fa881703e453efc5/jinja2_async_environment-0.7.0.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/d1/24/6ffb03a8bd3538c5dcb1744499227208379d87fed46ceccb20be3766784b/delphai_utils-3.4.2.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [selestium]: Downloading https://files.pythonhosted.org/packages/81/8e/eac2e9279026980a49080da19fc82b9c29a4d8bd6ce356856e0a8fbf0bc2/selestium-0.2.4.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/ee/03/dd6de1963bc47d899c6e5de50b8e5791bca7a494fead33833b13134d29ea/finbourne_access_sdk-2.0.98.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/fb/d8/71685a32eda12a0c8efebbd5b4cb7593aa0a63719f0f5ad646ca53b198f7/lusid-configuration-sdk-preview-0.1.516.tar.gz
+[2024-04-02 09:58:37] INFO root fetch - processPackages [selestium]: executing diffoscope
+[2024-04-02 09:58:37] INFO root fetch - processPackages [selestium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selestium-0.2.3.tar.gz tmp/selestium-0.2.4.tar.gz --markdown 20240402/s/selestium/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 09:58:37] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/06/e8/e6e6fb2c8def4ea5a927816dd6d5a41c3ff2a0b9432d2f458ed7f660f11b/testingcgsdk-0.0.5-py3-none-any.whl
+[2024-04-02 09:58:37] INFO root fetch - processPackages [acb]: Downloading https://files.pythonhosted.org/packages/b5/f5/39ede17ab765abc34045bfa50de2b3f0e5623063ab516cc694299140ef50/acb-0.5.9.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [ts-type]: Downloading https://files.pythonhosted.org/packages/25/d0/59aba7a6bb01b4ef3d6036ad8d3f56f3bd3789fa3733e9e08ce088d13225/ts_type-0.3.0.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [jinja2-async-environment]: Downloading https://files.pythonhosted.org/packages/b6/6c/63b6f7a8257f6d03e6499865cfdc34b66aea97eafde88de44c1a8212fbeb/jinja2_async_environment-0.7.1.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.4-py3-none-any.whl.zip tmp/testingcgsdk-0.0.5-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [delphai-utils]: Downloading https://files.pythonhosted.org/packages/93/38/f216b77a0c5e02f71a17dec1a04846835f8515efc2e427b60267de40375e/delphai_utils-4.0.0.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Downloading https://files.pythonhosted.org/packages/9a/a9/faca781191be5c1bcee11ca9dc02068520c556116aeb0ab9043afc3d970c/finbourne-insights-sdk-preview-0.0.764.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [acb]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [acb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acb-0.5.8.tar.gz tmp/acb-0.5.9.tar.gz --markdown 20240402/a/acb/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Downloading https://files.pythonhosted.org/packages/35/cd/df04763089717cfa953c16b4e2edf9428af3bc32e900f0ba5e2997139929/lusid-configuration-sdk-preview-0.1.517.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [finbourne-access-sdk]: Downloading https://files.pythonhosted.org/packages/b9/9d/d9e34bbe69c5c09e1bebcf6e1fb0172dabee5038a4993f822163ff8df7cf/finbourne_access_sdk-2.0.99.tar.gz
+[2024-04-02 09:58:38] INFO root fetch - processPackages [ts-type]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [ts-type]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ts_type-0.2.9.tar.gz tmp/ts_type-0.3.0.tar.gz --markdown 20240402/t/ts-type/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [delphai-utils]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [delphai-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/delphai_utils-3.4.2.tar.gz tmp/delphai_utils-4.0.0.tar.gz --markdown 20240402/d/delphai-utils/3.4.2-4.0.0/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne-insights-sdk-preview-0.0.763.tar.gz tmp/finbourne-insights-sdk-preview-0.0.764.tar.gz --markdown 20240402/f/finbourne-insights-sdk-preview/0.0.763-0.0.764/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [finbourne-access-sdk]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [finbourne-access-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finbourne_access_sdk-2.0.98.tar.gz tmp/finbourne_access_sdk-2.0.99.tar.gz --markdown 20240402/f/finbourne-access-sdk/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: executing diffoscope
+[2024-04-02 09:58:38] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-configuration-sdk-preview-0.1.516.tar.gz tmp/lusid-configuration-sdk-preview-0.1.517.tar.gz --markdown 20240402/l/lusid-configuration-sdk-preview/0.1.516-0.1.517/diff.md --exclude *.pyd
+[2024-04-02 09:58:38] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.3.tar.gz]
+[2024-04-02 09:58:38] INFO root fetch - processPackages [selestium]: Remove: archive file [/home/abi/fetcher/tmp/selestium-0.2.4.tar.gz]
+[2024-04-02 09:58:38] INFO root fetch - main [MainThread]: End processing [selestium]: success
+[2024-04-02 09:58:39] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.4-py3-none-any.whl.zip]
+[2024-04-02 09:58:39] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.5-py3-none-any.whl.zip]
+[2024-04-02 09:58:39] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 09:58:39] INFO root fetch - processPackages [jinja2-async-environment]: executing diffoscope
+[2024-04-02 09:58:39] INFO root fetch - processPackages [jinja2-async-environment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_async_environment-0.7.0.tar.gz tmp/jinja2_async_environment-0.7.1.tar.gz --markdown 20240402/j/jinja2-async-environment/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2024-04-02 09:58:39] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.5.8.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - processPackages [acb]: Remove: archive file [/home/abi/fetcher/tmp/acb-0.5.9.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - main [MainThread]: End processing [acb]: success
+[2024-04-02 09:58:39] INFO root fetch - processPackages [ts-type]: Remove: archive file [/home/abi/fetcher/tmp/ts_type-0.2.9.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - processPackages [ts-type]: Remove: archive file [/home/abi/fetcher/tmp/ts_type-0.3.0.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - main [MainThread]: End processing [ts-type]: success
+[2024-04-02 09:58:39] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-3.4.2.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - processPackages [delphai-utils]: Remove: archive file [/home/abi/fetcher/tmp/delphai_utils-4.0.0.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - main [MainThread]: End processing [delphai-utils]: success
+[2024-04-02 09:58:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.98.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - processPackages [finbourne-access-sdk]: Remove: archive file [/home/abi/fetcher/tmp/finbourne_access_sdk-2.0.99.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - main [MainThread]: End processing [finbourne-access-sdk]: success
+[2024-04-02 09:58:39] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.516.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - processPackages [lusid-configuration-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-configuration-sdk-preview-0.1.517.tar.gz]
+[2024-04-02 09:58:39] INFO root fetch - main [MainThread]: End processing [lusid-configuration-sdk-preview]: success
+[2024-04-02 09:58:40] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.763.tar.gz]
+[2024-04-02 09:58:40] INFO root fetch - processPackages [finbourne-insights-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/finbourne-insights-sdk-preview-0.0.764.tar.gz]
+[2024-04-02 09:58:40] INFO root fetch - main [MainThread]: End processing [finbourne-insights-sdk-preview]: success
+[2024-04-02 09:58:40] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.0.tar.gz]
+[2024-04-02 09:58:40] INFO root fetch - processPackages [jinja2-async-environment]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_async_environment-0.7.1.tar.gz]
+[2024-04-02 09:58:40] INFO root fetch - main [MainThread]: End processing [jinja2-async-environment]: success
+[2024-04-02 09:58:40] INFO root fetch - main [MainThread]: Store serial: [22581851]
