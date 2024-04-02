@@ -11747,3 +11747,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:15:46] INFO root fetch - processPackages [fake-bpy-module]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-20240402.tar.gz]
 [2024-04-02 08:15:46] INFO root fetch - main [MainThread]: End processing [fake-bpy-module]: success
 [2024-04-02 08:15:46] INFO root fetch - main [MainThread]: Store serial: [22581174]
+[2024-04-02 08:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581174]
+[2024-04-02 08:17:55] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 08:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tipg
+[2024-04-02 08:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2024-04-02 08:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: guan
+[2024-04-02 08:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: musicAlgLib
+[2024-04-02 08:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genice2-cif
+[2024-04-02 08:17:55] INFO root fetch - processPackages [guan]: New version: [0.1.93] Old Version: [0.1.92]
+[2024-04-02 08:17:55] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402022341] Old Version: [3.3.1.dev20240401115342]
+[2024-04-02 08:17:55] WARNING root fetch - processPackages [musicAlgLib]: Skipping, unable to determine old version
+[2024-04-02 08:17:55] INFO root fetch - main [MainThread]: End processing [musicAlgLib] error
+[2024-04-02 08:17:55] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/ab/1c/0aa6211ebc14a39199d95c10b49b69f7f32ad071f563d36bffd55adb03b8/guan-0.1.92.tar.gz
+[2024-04-02 08:17:55] INFO root fetch - processPackages [genice2-cif]: New version: [2.2] Old Version: [2.1.1]
+[2024-04-02 08:17:55] INFO root fetch - processPackages [tipg]: New version: [0.7.0] Old Version: [0.6.3]
+[2024-04-02 08:17:55] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/e4/17/36507d17decdcc5360d1a00912ba268e21b2b787c884d117afda10abb8ef/localstack-core-3.3.1.dev20240401115342.tar.gz
+[2024-04-02 08:17:55] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/8f/56/b64fc9d63eed1cc868a1b673aa908e5c0f0691afefc9e418da48836e5835/tipg-0.6.3.tar.gz
+[2024-04-02 08:17:55] INFO root fetch - processPackages [guan]: Downloading https://files.pythonhosted.org/packages/d5/96/04cb635e4bc046faa40fa38b97d6e0ad54a11c2a11d04e8dcb8e0b9b6455/guan-0.1.93.tar.gz
+[2024-04-02 08:17:55] INFO root fetch - processPackages [genice2-cif]: Downloading https://files.pythonhosted.org/packages/0f/0b/c17f346ad047ce619fff2c2605d06c15b33ccb101ad3e58d292b4a6dc6f0/genice2-cif-2.1.1.tar.gz
+[2024-04-02 08:17:55] INFO root fetch - processPackages [guan]: executing diffoscope
+[2024-04-02 08:17:55] INFO root fetch - processPackages [guan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/guan-0.1.92.tar.gz tmp/guan-0.1.93.tar.gz --markdown 20240402/g/guan/0.1.92-0.1.93/diff.md --exclude *.pyd
+[2024-04-02 08:17:56] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b0/26/9cc1d7c1b0564f2603f7a4bf87ce3b3f9ba81b5c5a8c512a179466edfff6/localstack-core-3.3.1.dev20240402022341.tar.gz
+[2024-04-02 08:17:56] INFO root fetch - processPackages [genice2-cif]: Downloading https://files.pythonhosted.org/packages/6e/aa/da8cf0c3369ff64e8c19fe8924e0517ba38260a54e2ca5b5aeec597c2f93/genice2_cif-2.2.tar.gz
+[2024-04-02 08:17:56] INFO root fetch - processPackages [tipg]: Downloading https://files.pythonhosted.org/packages/48/72/a4bf5fffeed4003241fbf58ef16941706f5d034ad2db235d355fdc70c2cd/tipg-0.7.0.tar.gz
+[2024-04-02 08:17:56] INFO root fetch - processPackages [tipg]: executing diffoscope
+[2024-04-02 08:17:56] INFO root fetch - processPackages [tipg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tipg-0.6.3.tar.gz tmp/tipg-0.7.0.tar.gz --markdown 20240402/t/tipg/0.6.3-0.7.0/diff.md --exclude *.pyd
+[2024-04-02 08:17:56] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 08:17:56] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240401115342.tar.gz tmp/localstack-core-3.3.1.dev20240402022341.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240401115342-3.3.1.dev20240402022341/diff.md --exclude *.pyd
+[2024-04-02 08:17:56] INFO root fetch - processPackages [genice2-cif]: executing diffoscope
+[2024-04-02 08:17:56] INFO root fetch - processPackages [genice2-cif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genice2-cif-2.1.1.tar.gz tmp/genice2_cif-2.2.tar.gz --markdown 20240402/g/genice2-cif/2.1.1-2.2/diff.md --exclude *.pyd
+[2024-04-02 08:17:56] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.92.tar.gz]
+[2024-04-02 08:17:56] INFO root fetch - processPackages [guan]: Remove: archive file [/home/abi/fetcher/tmp/guan-0.1.93.tar.gz]
+[2024-04-02 08:17:56] INFO root fetch - main [MainThread]: End processing [guan]: success
+[2024-04-02 08:17:56] INFO root fetch - processPackages [genice2-cif]: Remove: archive file [/home/abi/fetcher/tmp/genice2-cif-2.1.1.tar.gz]
+[2024-04-02 08:17:56] INFO root fetch - processPackages [genice2-cif]: Remove: archive file [/home/abi/fetcher/tmp/genice2_cif-2.2.tar.gz]
+[2024-04-02 08:17:56] INFO root fetch - main [MainThread]: End processing [genice2-cif]: success
+[2024-04-02 08:17:57] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.6.3.tar.gz]
+[2024-04-02 08:17:57] INFO root fetch - processPackages [tipg]: Remove: archive file [/home/abi/fetcher/tmp/tipg-0.7.0.tar.gz]
+[2024-04-02 08:17:57] INFO root fetch - main [MainThread]: End processing [tipg]: success
+[2024-04-02 08:17:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240401115342.tar.gz]
+[2024-04-02 08:17:59] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402022341.tar.gz]
+[2024-04-02 08:17:59] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 08:17:59] INFO root fetch - main [MainThread]: Store serial: [22581190]
