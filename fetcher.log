@@ -8176,3 +8176,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:52:47] INFO root fetch - processPackages [hydra-zen]: Remove: archive file [/home/abi/fetcher/tmp/hydra_zen-0.9.1.tar.gz]
 [2024-04-02 03:52:47] INFO root fetch - main [MainThread]: End processing [hydra-zen]: success
 [2024-04-02 03:52:47] INFO root fetch - main [MainThread]: Store serial: [22579756]
+[2024-04-02 03:54:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579756]
+[2024-04-02 03:54:58] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 03:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oxenai
+[2024-04-02 03:54:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: feno
+[2024-04-02 03:54:58] INFO root fetch - processPackages [feno]: New version: [0.0.6] Old Version: [0.0.5]
+[2024-04-02 03:54:58] INFO root fetch - processPackages [oxenai]: New version: [0.5.3] Old Version: [0.5.2]
+[2024-04-02 03:54:58] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/23/23/fdadc9485fdc171e06e8d42172036a23fad71e19e6656c7e910bc2a0352d/feno-0.0.5.tar.gz
+[2024-04-02 03:54:58] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/74/e2/ece2d2fd4941a6f6da268d1a6873bc27654841ff8f23161ed8b9946e23cf/oxenai-0.5.2.tar.gz
+[2024-04-02 03:54:58] INFO root fetch - processPackages [feno]: Downloading https://files.pythonhosted.org/packages/54/ca/cd3f1a683253113fb2c43160299065dc76e6e733a383f5007dded76da437/feno-0.0.6.tar.gz
+[2024-04-02 03:54:58] INFO root fetch - processPackages [feno]: executing diffoscope
+[2024-04-02 03:54:58] INFO root fetch - processPackages [feno]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feno-0.0.5.tar.gz tmp/feno-0.0.6.tar.gz --markdown 20240402/f/feno/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2024-04-02 03:54:58] INFO root fetch - processPackages [oxenai]: Downloading https://files.pythonhosted.org/packages/02/13/50862fb1ca323a44308af7dfb7f87669eafb8b39b6d43e1867a967b5cf9b/oxenai-0.5.3.tar.gz
+[2024-04-02 03:54:59] INFO root fetch - processPackages [oxenai]: executing diffoscope
+[2024-04-02 03:54:59] INFO root fetch - processPackages [oxenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oxenai-0.5.2.tar.gz tmp/oxenai-0.5.3.tar.gz --markdown 20240402/o/oxenai/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2024-04-02 03:54:59] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.0.5.tar.gz]
+[2024-04-02 03:54:59] INFO root fetch - processPackages [feno]: Remove: archive file [/home/abi/fetcher/tmp/feno-0.0.6.tar.gz]
+[2024-04-02 03:54:59] INFO root fetch - main [MainThread]: End processing [feno]: success
+[2024-04-02 03:54:59] INFO root fetch - processPackages [oxenai]: Remove: archive file [/home/abi/fetcher/tmp/oxenai-0.5.2.tar.gz]
+[2024-04-02 03:54:59] INFO root fetch - processPackages [oxenai]: Remove: archive file [/home/abi/fetcher/tmp/oxenai-0.5.3.tar.gz]
+[2024-04-02 03:54:59] INFO root fetch - main [MainThread]: End processing [oxenai]: success
+[2024-04-02 03:54:59] INFO root fetch - main [MainThread]: Store serial: [22579787]
