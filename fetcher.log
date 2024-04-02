@@ -18044,3 +18044,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:56:43] INFO root fetch - processPackages [nucliadb-admin-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_admin_assets-1.0.0.post1451-py3-none-any.whl.zip]
 [2024-04-02 12:56:43] INFO root fetch - main [MainThread]: End processing [nucliadb-admin-assets]: success
 [2024-04-02 12:56:43] INFO root fetch - main [MainThread]: Store serial: [22583730]
+[2024-04-02 12:58:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583730]
+[2024-04-02 12:58:54] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 12:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ssb-datadoc
+[2024-04-02 12:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: T_reX_LCA
+[2024-04-02 12:58:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: esa-2scm
+[2024-04-02 12:58:54] INFO root fetch - processPackages [T_reX_LCA]: New version: [0.2.2] Old Version: [0.2]
+[2024-04-02 12:58:54] INFO root fetch - processPackages [esa-2scm]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-02 12:58:54] INFO root fetch - processPackages [ssb-datadoc]: New version: [0.8.2] Old Version: [0.8.1]
+[2024-04-02 12:58:54] INFO root fetch - processPackages [ssb-datadoc]: Downloading https://files.pythonhosted.org/packages/83/30/f8057f56e12decb2a388801afc864f3703cdebd958611001ca601b26f8d5/ssb_datadoc-0.8.1.tar.gz
+[2024-04-02 12:58:54] INFO root fetch - processPackages [T_reX_LCA]: Downloading https://files.pythonhosted.org/packages/92/ac/5e3a0f08ce3ab654eee3d64ebfea7295068b7029a9692808b4f6481bb454/t_rex_lca-0.2.tar.gz
+[2024-04-02 12:58:54] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/fb/dc/f1dbf12d7aa87daf248b8754bc0ac82c661454905d5dadc53d5bfaefd880/esa-2scm-0.2.0.tar.gz
+[2024-04-02 12:58:54] INFO root fetch - processPackages [T_reX_LCA]: Downloading https://files.pythonhosted.org/packages/99/be/5a7c2405c10ae9a95a0bc39038758ab707e2bc5914b8a81b773f488050c9/t_rex_lca-0.2.2.tar.gz
+[2024-04-02 12:58:55] INFO root fetch - processPackages [ssb-datadoc]: Downloading https://files.pythonhosted.org/packages/ce/22/db2d69fa623ad3baff84e11e9155a228ca3b9a1ebdef10bc08d28e50f429/ssb_datadoc-0.8.2.tar.gz
+[2024-04-02 12:58:55] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/dd/c5/82fe5dfc475d90976213c9c9884c516ad3a43f099cf3140f92c5a5e78925/esa-2scm-0.2.1.tar.gz
+[2024-04-02 12:58:55] INFO root fetch - processPackages [T_reX_LCA]: executing diffoscope
+[2024-04-02 12:58:55] INFO root fetch - processPackages [T_reX_LCA]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t_rex_lca-0.2.tar.gz tmp/t_rex_lca-0.2.2.tar.gz --markdown 20240402/T/T_reX_LCA/0.2-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 12:58:55] INFO root fetch - processPackages [esa-2scm]: executing diffoscope
+[2024-04-02 12:58:55] INFO root fetch - processPackages [esa-2scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esa-2scm-0.2.0.tar.gz tmp/esa-2scm-0.2.1.tar.gz --markdown 20240402/e/esa-2scm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 12:58:55] INFO root fetch - processPackages [ssb-datadoc]: executing diffoscope
+[2024-04-02 12:58:55] INFO root fetch - processPackages [ssb-datadoc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ssb_datadoc-0.8.1.tar.gz tmp/ssb_datadoc-0.8.2.tar.gz --markdown 20240402/s/ssb-datadoc/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2024-04-02 12:58:55] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.0.tar.gz]
+[2024-04-02 12:58:55] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.1.tar.gz]
+[2024-04-02 12:58:55] INFO root fetch - main [MainThread]: End processing [esa-2scm]: success
+[2024-04-02 12:58:55] INFO root fetch - processPackages [T_reX_LCA]: Remove: archive file [/home/abi/fetcher/tmp/t_rex_lca-0.2.tar.gz]
+[2024-04-02 12:58:55] INFO root fetch - processPackages [T_reX_LCA]: Remove: archive file [/home/abi/fetcher/tmp/t_rex_lca-0.2.2.tar.gz]
+[2024-04-02 12:58:55] INFO root fetch - main [MainThread]: End processing [T_reX_LCA]: success
+[2024-04-02 12:58:55] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.8.1.tar.gz]
+[2024-04-02 12:58:55] INFO root fetch - processPackages [ssb-datadoc]: Remove: archive file [/home/abi/fetcher/tmp/ssb_datadoc-0.8.2.tar.gz]
+[2024-04-02 12:58:55] INFO root fetch - main [MainThread]: End processing [ssb-datadoc]: success
+[2024-04-02 12:58:55] INFO root fetch - main [MainThread]: Store serial: [22583739]
