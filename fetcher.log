@@ -22878,3 +22878,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:44:06] INFO root fetch - processPackages [clearml-agent]: Remove: archive file [/home/abi/fetcher/tmp/clearml_agent-1.8.0rc0-py3-none-any.whl.zip]
 [2024-04-02 15:44:06] INFO root fetch - main [MainThread]: End processing [clearml-agent]: success
 [2024-04-02 15:44:06] INFO root fetch - main [MainThread]: Store serial: [22585723]
+[2024-04-02 15:46:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585723]
+[2024-04-02 15:46:15] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dt-vsphere-automation-sdk
+[2024-04-02 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: undertext
+[2024-04-02 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tdstone2
+[2024-04-02 15:46:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ggun
+[2024-04-02 15:46:15] WARNING root fetch - processPackages [dt-vsphere-automation-sdk]: Skipping, unable to determine old version
+[2024-04-02 15:46:15] INFO root fetch - main [MainThread]: End processing [dt-vsphere-automation-sdk] error
+[2024-04-02 15:46:15] INFO root fetch - processPackages [undertext]: New version: [0.1.0] Old Version: [0.0.0]
+[2024-04-02 15:46:15] INFO root fetch - processPackages [tdstone2]: New version: [0.1.2.9] Old Version: [0.1.2.8]
+[2024-04-02 15:46:15] INFO root fetch - processPackages [ggun]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 15:46:15] INFO root fetch - processPackages [tdstone2]: Downloading https://files.pythonhosted.org/packages/c3/24/549e96cf0e2031dfdc24def35a2c93de62851b474a8dd5eb208aeeed5c7e/tdstone2-0.1.2.8-py3-none-any.whl
+[2024-04-02 15:46:15] INFO root fetch - processPackages [undertext]: Downloading https://files.pythonhosted.org/packages/74/46/1bff9f3c0f77568d475832ea338c262c4fb5b9b82c3d76c93c0c6e2de88d/undertext-0.0.0.tar.gz
+[2024-04-02 15:46:15] INFO root fetch - processPackages [ggun]: Downloading https://files.pythonhosted.org/packages/3e/f9/af3e8f2e9256b6057cc5ce7fe5524f1710adb2f3d5ce46229f9805a30639/ggun-0.0.2-py3-none-any.whl
+[2024-04-02 15:46:15] INFO root fetch - processPackages [tdstone2]: Downloading https://files.pythonhosted.org/packages/e0/05/60584fa58304ff5bc2944828ec5ec415339acea0541f6189b602171a209c/tdstone2-0.1.2.9-py3-none-any.whl
+[2024-04-02 15:46:15] INFO root fetch - processPackages [undertext]: Downloading https://files.pythonhosted.org/packages/c4/d0/01be892f69f6a31079206673c35f148071866e5f6161fb726c6dbc48f4fd/undertext-0.1.0.tar.gz
+[2024-04-02 15:46:15] INFO root fetch - processPackages [undertext]: executing diffoscope
+[2024-04-02 15:46:15] INFO root fetch - processPackages [undertext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/undertext-0.0.0.tar.gz tmp/undertext-0.1.0.tar.gz --markdown 20240402/u/undertext/0.0.0-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:46:15] INFO root fetch - processPackages [tdstone2]: executing diffoscope
+[2024-04-02 15:46:15] INFO root fetch - processPackages [tdstone2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tdstone2-0.1.2.8-py3-none-any.whl.zip tmp/tdstone2-0.1.2.9-py3-none-any.whl.zip --markdown 20240402/t/tdstone2/0.1.2.8-0.1.2.9/diff.md --exclude *.pyd
+[2024-04-02 15:46:16] INFO root fetch - processPackages [ggun]: Downloading https://files.pythonhosted.org/packages/12/d8/b05dff6562b9916d23c98eb1f4a9f42a1e4e2f74b47a7f0228f27ffad296/ggun-0.0.3-py3-none-any.whl
+[2024-04-02 15:46:16] INFO root fetch - processPackages [ggun]: executing diffoscope
+[2024-04-02 15:46:16] INFO root fetch - processPackages [ggun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ggun-0.0.2-py3-none-any.whl.zip tmp/ggun-0.0.3-py3-none-any.whl.zip --markdown 20240402/g/ggun/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 15:46:16] INFO root fetch - processPackages [undertext]: Remove: archive file [/home/abi/fetcher/tmp/undertext-0.0.0.tar.gz]
+[2024-04-02 15:46:16] INFO root fetch - processPackages [undertext]: Remove: archive file [/home/abi/fetcher/tmp/undertext-0.1.0.tar.gz]
+[2024-04-02 15:46:16] INFO root fetch - main [MainThread]: End processing [undertext]: success
+[2024-04-02 15:46:16] INFO root fetch - processPackages [tdstone2]: Remove: archive file [/home/abi/fetcher/tmp/tdstone2-0.1.2.8-py3-none-any.whl.zip]
+[2024-04-02 15:46:16] INFO root fetch - processPackages [tdstone2]: Remove: archive file [/home/abi/fetcher/tmp/tdstone2-0.1.2.9-py3-none-any.whl.zip]
+[2024-04-02 15:46:16] INFO root fetch - main [MainThread]: End processing [tdstone2]: success
+[2024-04-02 15:46:16] INFO root fetch - processPackages [ggun]: Remove: archive file [/home/abi/fetcher/tmp/ggun-0.0.2-py3-none-any.whl.zip]
+[2024-04-02 15:46:16] INFO root fetch - processPackages [ggun]: Remove: archive file [/home/abi/fetcher/tmp/ggun-0.0.3-py3-none-any.whl.zip]
+[2024-04-02 15:46:16] INFO root fetch - main [MainThread]: End processing [ggun]: success
+[2024-04-02 15:46:16] INFO root fetch - main [MainThread]: Store serial: [22585733]
