@@ -10392,3 +10392,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:35:54] INFO root fetch - processPackages [erlab]: Remove: archive file [/home/abi/fetcher/tmp/erlab-1.5.2.tar.gz]
 [2024-04-02 06:35:54] INFO root fetch - main [MainThread]: End processing [erlab]: success
 [2024-04-02 06:35:54] INFO root fetch - main [MainThread]: Store serial: [22580615]
+[2024-04-02 06:37:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580615]
+[2024-04-02 06:38:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 06:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycaptcha-guard
+[2024-04-02 06:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: solana-token
+[2024-04-02 06:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-maintenance
+[2024-04-02 06:38:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: increff-runner
+[2024-04-02 06:38:04] INFO root fetch - processPackages [increff-runner]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-04-02 06:38:04] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/85/69/dfc87ea27acbf62a4ef9c278cafccebf72ebe7276ec8a85a547c9a437c1b/increff_runner-3.1.5-py3-none-any.whl
+[2024-04-02 06:38:04] WARNING root fetch - processPackages [solana-token]: Skipping, unable to determine old version
+[2024-04-02 06:38:04] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: New version: [16.0.20240401.0] Old Version: [16.0.20240305.1]
+[2024-04-02 06:38:04] INFO root fetch - main [MainThread]: End processing [solana-token] error
+[2024-04-02 06:38:04] INFO root fetch - processPackages [pycaptcha-guard]: New version: [0.3.5] Old Version: [0.3.4]
+[2024-04-02 06:38:04] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/c5/34/617d65904fcf95e73c480ce8f12046e26b56be32764e7cd4952c21338616/increff_runner-3.1.6-py3-none-any.whl
+[2024-04-02 06:38:04] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/b9/00/ddcc6394f6a6796be5aead650b2bf61179ede9e0ce3a3e3730dae88a1764/odoo_addons_oca_maintenance-16.0.20240305.1-py3-none-any.whl
+[2024-04-02 06:38:04] INFO root fetch - processPackages [pycaptcha-guard]: Downloading https://files.pythonhosted.org/packages/8e/a9/db2f9f5b5d982956e2c81231aed75ca44a9a3ccc129708d891ec4c20d1f4/pycaptcha-guard-0.3.4.tar.gz
+[2024-04-02 06:38:04] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-04-02 06:38:04] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.5-py3-none-any.whl.zip tmp/increff_runner-3.1.6-py3-none-any.whl.zip --markdown 20240402/i/increff-runner/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2024-04-02 06:38:04] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Downloading https://files.pythonhosted.org/packages/2b/78/c7c81ef321f0ea83308a64545be132b115b8f914fb4ba6167cd187cae2bc/odoo_addons_oca_maintenance-16.0.20240401.0-py3-none-any.whl
+[2024-04-02 06:38:04] INFO root fetch - processPackages [pycaptcha-guard]: Downloading https://files.pythonhosted.org/packages/3d/8d/e6dc0dab004315bdca7b95d9e9d09ccf2c58799f46fe4c3dd5a3f571d718/pycaptcha-guard-0.3.5.tar.gz
+[2024-04-02 06:38:04] INFO root fetch - processPackages [pycaptcha-guard]: executing diffoscope
+[2024-04-02 06:38:04] INFO root fetch - processPackages [pycaptcha-guard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycaptcha-guard-0.3.4.tar.gz tmp/pycaptcha-guard-0.3.5.tar.gz --markdown 20240402/p/pycaptcha-guard/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2024-04-02 06:38:04] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: executing diffoscope
+[2024-04-02 06:38:04] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_maintenance-16.0.20240305.1-py3-none-any.whl.zip tmp/odoo_addons_oca_maintenance-16.0.20240401.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addons-oca-maintenance/16.0.20240305.1-16.0.20240401.0/diff.md --exclude *.pyd
+[2024-04-02 06:38:05] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.5-py3-none-any.whl.zip]
+[2024-04-02 06:38:05] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.6-py3-none-any.whl.zip]
+[2024-04-02 06:38:05] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-04-02 06:38:05] INFO root fetch - processPackages [pycaptcha-guard]: Remove: archive file [/home/abi/fetcher/tmp/pycaptcha-guard-0.3.4.tar.gz]
+[2024-04-02 06:38:05] INFO root fetch - processPackages [pycaptcha-guard]: Remove: archive file [/home/abi/fetcher/tmp/pycaptcha-guard-0.3.5.tar.gz]
+[2024-04-02 06:38:05] INFO root fetch - main [MainThread]: End processing [pycaptcha-guard]: success
+[2024-04-02 06:38:05] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240305.1-py3-none-any.whl.zip]
+[2024-04-02 06:38:05] INFO root fetch - processPackages [odoo-addons-oca-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_maintenance-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-04-02 06:38:05] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-maintenance]: success
+[2024-04-02 06:38:05] INFO root fetch - main [MainThread]: Store serial: [22580624]
