@@ -14278,3 +14278,107 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:26:11] INFO root fetch - processPackages [rlotp]: Remove: archive file [/home/abi/fetcher/tmp/rlotp-0.0.7.tar.gz]
 [2024-04-02 10:26:11] INFO root fetch - main [MainThread]: End processing [rlotp]: success
 [2024-04-02 10:26:11] INFO root fetch - main [MainThread]: Store serial: [22582132]
+[2024-04-02 10:28:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582132]
+[2024-04-02 10:28:20] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astro-extras
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edsnlp
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: localstack-core
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: djangoldp-energiepartagee
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: certora-cli-alpha-master
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: arm-preprocessing
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ccpn-project-checker
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xalpha
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tigeropen
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: moto
+[2024-04-02 10:28:20] INFO root fetch - processPackages [tigeropen]: New version: [3.2.0] Old Version: [3.1.9]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ccpn-project-checker]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [astro-extras]: New version: [0.0.5] Old Version: [0.0.4]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [arm-preprocessing]: New version: [0.2.2] Old Version: [0.2.1]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/41/d8/d8a57ecf2fb216bd6b4b111681a927c065d46c6566c0ec434f36023279e4/tigeropen-3.1.9.tar.gz
+[2024-04-02 10:28:20] INFO root fetch - processPackages [localstack-core]: New version: [3.3.1.dev20240402061546] Old Version: [3.3.1.dev20240402022341]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [xalpha]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20240402.8.27.571237] Old Version: [20240401.9.41.243436]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [edsnlp]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [djangoldp-energiepartagee]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-02 10:28:20] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/ed/46/2a9361da84c96246dd0cc47567b9cdc7059baf5a4a390c4c1f43decbed34/moto-5.0.5.dev8.tar.gz
+[2024-04-02 10:28:20] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/b0/26/9cc1d7c1b0564f2603f7a4bf87ce3b3f9ba81b5c5a8c512a179466edfff6/localstack-core-3.3.1.dev20240402022341.tar.gz
+[2024-04-02 10:28:20] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/9d/86/d4f8faab6192064cfbf2eacead52d051bebeaf215eebfe43b27546d8d4a5/astro_extras-0.0.4.tar.gz
+[2024-04-02 10:28:20] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/fd/d8/1de32454cd3a5ceb92ddb4b8447523ddea68bad30fbd0d47c2715554aff9/ccpn_project_checker-0.1.0.tar.gz
+[2024-04-02 10:28:20] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/c4/ae/916be757119225b9a00d9e7568aae5774af79399041ae39e632ba07317bc/certora-cli-alpha-master-20240401.9.41.243436.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [arm-preprocessing]: Downloading https://files.pythonhosted.org/packages/79/bc/9e9ad37244915e2431b27815b67c15a58bf97d478d6b364ecaa5695be023/arm_preprocessing-0.2.1.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/5a/56/71e4ae44c1944b21e5e05a8cfb06236ad188712cf99b3766a0f221ad4d95/djangoldp_energiepartagee-1.2.8.tar.gz
+[2024-04-02 10:28:21] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 14465504>=10485760
+[2024-04-02 10:28:21] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: moto
+[2024-04-02 10:28:21] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2024-04-02 10:28:21] INFO root fetch - processPackages [xalpha]: Downloading https://files.pythonhosted.org/packages/d2/98/7d07b81e6c8c5c911d4b6df4552362a0d6a7610ace9921f3010fc2ac8813/xalpha-0.9.3.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [edsnlp]: Downloading https://files.pythonhosted.org/packages/dc/b9/8029a03f917e17fc8f045d4499135193814e1cc94ecc7d8a28470a46af99/edsnlp-0.9.0.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/13/98/65f0a6a3d17da01b46942483a5b3114ee768b71f26bc92a71970da0fc6e3/tigeropen-3.2.0.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: New version: [5.0.5.dev9] Old Version: [5.0.5.dev8]
+[2024-04-02 10:28:21] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-3.1.9.tar.gz tmp/tigeropen-3.2.0.tar.gz --markdown 20240402/t/tigeropen/3.1.9-3.2.0/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [astro-extras]: Downloading https://files.pythonhosted.org/packages/0e/2b/7f8996a4825ce30c6a1d8217903943f1ecfb8deddfeb9702679ef8f54c6e/astro_extras-0.0.5.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/08/c1/f93b75265b5128856f763bdb046a348f3952cca0dc9de2e9c1268050b7ba/moto-5.0.5.dev9.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/94/14/c561e7926c86a46e8b1312c6114934348dadd5b33e598b85eabadc108a54/localstack-core-3.3.1.dev20240402061546.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [astro-extras]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [astro-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro_extras-0.0.4.tar.gz tmp/astro_extras-0.0.5.tar.gz --markdown 20240402/a/astro-extras/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [arm-preprocessing]: Downloading https://files.pythonhosted.org/packages/a8/ac/6d78edbe4b17e3afa5dfbe501e32d988005ce2f7d9d8263f81077f7f18a4/arm_preprocessing-0.2.2.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: Downloading https://files.pythonhosted.org/packages/2a/1b/58f77d87bcb4ec0a7af553c2fb7be48be9400ba01e2a9ab3905f3ed45f74/djangoldp_energiepartagee-1.2.9.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [ccpn-project-checker]: Downloading https://files.pythonhosted.org/packages/27/21/e179a1ff27e7aabc6b7884e0ac738725cf4c662cc1cfefbf03a83caf5e12/ccpn_project_checker-0.1.1.tar.gz
+[2024-04-02 10:28:21] INFO root fetch - processPackages [arm-preprocessing]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [arm-preprocessing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arm_preprocessing-0.2.1.tar.gz tmp/arm_preprocessing-0.2.2.tar.gz --markdown 20240402/a/arm-preprocessing/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-3.3.1.dev20240402022341.tar.gz tmp/localstack-core-3.3.1.dev20240402061546.tar.gz --markdown 20240402/l/localstack-core/3.3.1.dev20240402022341-3.3.1.dev20240402061546/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [djangoldp-energiepartagee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_energiepartagee-1.2.8.tar.gz tmp/djangoldp_energiepartagee-1.2.9.tar.gz --markdown 20240402/d/djangoldp-energiepartagee/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [ccpn-project-checker]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [ccpn-project-checker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccpn_project_checker-0.1.0.tar.gz tmp/ccpn_project_checker-0.1.1.tar.gz --markdown 20240402/c/ccpn-project-checker/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240402/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: executing diffoscope
+[2024-04-02 10:28:21] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-5.0.5.dev8.tar.gz tmp/moto-5.0.5.dev9.tar.gz --markdown 20240402/m/moto/5.0.5.dev8-5.0.5.dev9/diff.md --exclude *.pyd
+[2024-04-02 10:28:22] INFO root fetch - processPackages [edsnlp]: Downloading https://files.pythonhosted.org/packages/ba/57/f142ef7568ddb79fbdcec24c49d68b1c8ade9fea7cfa631b6302cddf6016/edsnlp-0.9.1.tar.gz
+[2024-04-02 10:28:22] INFO root fetch - processPackages [xalpha]: Downloading https://files.pythonhosted.org/packages/6d/2e/5ec08494e33360465b70093b9baea8784c105b8e5d5ea56c1d12e86ce55a/xalpha-0.9.4.tar.gz
+[2024-04-02 10:28:22] INFO root fetch - processPackages [xalpha]: executing diffoscope
+[2024-04-02 10:28:22] INFO root fetch - processPackages [xalpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xalpha-0.9.3.tar.gz tmp/xalpha-0.9.4.tar.gz --markdown 20240402/x/xalpha/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-02 10:28:22] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.4.tar.gz]
+[2024-04-02 10:28:22] INFO root fetch - processPackages [astro-extras]: Remove: archive file [/home/abi/fetcher/tmp/astro_extras-0.0.5.tar.gz]
+[2024-04-02 10:28:22] INFO root fetch - processPackages [astro-extras]: Start processing: RTSAI
+[2024-04-02 10:28:22] INFO root fetch - main [MainThread]: End processing [astro-extras]: success
+[2024-04-02 10:28:22] INFO root fetch - processPackages [arm-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/arm_preprocessing-0.2.1.tar.gz]
+[2024-04-02 10:28:22] INFO root fetch - processPackages [arm-preprocessing]: Remove: archive file [/home/abi/fetcher/tmp/arm_preprocessing-0.2.2.tar.gz]
+[2024-04-02 10:28:22] INFO root fetch - main [MainThread]: End processing [arm-preprocessing]: success
+[2024-04-02 10:28:22] INFO root fetch - processPackages [RTSAI]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 10:28:22] INFO root fetch - processPackages [edsnlp]: executing diffoscope
+[2024-04-02 10:28:22] INFO root fetch - processPackages [edsnlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edsnlp-0.9.0.tar.gz tmp/edsnlp-0.9.1.tar.gz --markdown 20240402/e/edsnlp/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 10:28:23] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/26/5f/38277ca3bf3e2353ea674f32c5d60ec538c45d879bd6801f8ace089ce426/RTSAI-0.1.0.tar.gz
+[2024-04-02 10:28:23] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.1.9.tar.gz]
+[2024-04-02 10:28:23] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.2.0.tar.gz]
+[2024-04-02 10:28:23] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2024-04-02 10:28:23] INFO root fetch - processPackages [RTSAI]: Downloading https://files.pythonhosted.org/packages/09/a1/6518477628477f5d5da74f13ff3edc1dafcc9c3a1ce22ab007f657d79267/RTSAI-0.1.1.tar.gz
+[2024-04-02 10:28:23] INFO root fetch - processPackages [RTSAI]: executing diffoscope
+[2024-04-02 10:28:23] INFO root fetch - processPackages [RTSAI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RTSAI-0.1.0.tar.gz tmp/RTSAI-0.1.1.tar.gz --markdown 20240402/R/RTSAI/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 10:28:23] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-1.2.8.tar.gz]
+[2024-04-02 10:28:23] INFO root fetch - processPackages [djangoldp-energiepartagee]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_energiepartagee-1.2.9.tar.gz]
+[2024-04-02 10:28:23] INFO root fetch - main [MainThread]: End processing [djangoldp-energiepartagee]: success
+[2024-04-02 10:28:24] INFO root fetch - processPackages [xalpha]: Remove: archive file [/home/abi/fetcher/tmp/xalpha-0.9.3.tar.gz]
+[2024-04-02 10:28:24] INFO root fetch - processPackages [xalpha]: Remove: archive file [/home/abi/fetcher/tmp/xalpha-0.9.4.tar.gz]
+[2024-04-02 10:28:24] INFO root fetch - main [MainThread]: End processing [xalpha]: success
+[2024-04-02 10:28:24] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.0.tar.gz]
+[2024-04-02 10:28:24] INFO root fetch - processPackages [RTSAI]: Remove: archive file [/home/abi/fetcher/tmp/RTSAI-0.1.1.tar.gz]
+[2024-04-02 10:28:24] INFO root fetch - main [MainThread]: End processing [RTSAI]: success
+[2024-04-02 10:28:25] INFO root fetch - processPackages [edsnlp]: Remove: archive file [/home/abi/fetcher/tmp/edsnlp-0.9.0.tar.gz]
+[2024-04-02 10:28:25] INFO root fetch - processPackages [edsnlp]: Remove: archive file [/home/abi/fetcher/tmp/edsnlp-0.9.1.tar.gz]
+[2024-04-02 10:28:25] INFO root fetch - main [MainThread]: End processing [edsnlp]: success
+[2024-04-02 10:28:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402022341.tar.gz]
+[2024-04-02 10:28:27] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-3.3.1.dev20240402061546.tar.gz]
+[2024-04-02 10:28:27] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2024-04-02 10:28:31] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.0.tar.gz]
+[2024-04-02 10:28:31] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.1.tar.gz]
+[2024-04-02 10:28:31] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
+[2024-04-02 10:28:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev8.tar.gz]
+[2024-04-02 10:28:36] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-5.0.5.dev9.tar.gz]
+[2024-04-02 10:28:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-02 10:28:36] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2024-04-02 10:28:36] INFO root fetch - main [MainThread]: Store serial: [22582194]
