@@ -2056,3 +2056,24 @@
 [2024-04-02 02:02:14] INFO root fetch - processPackages [cybrid-api-bank-python]: Remove: archive file [/home/abi/fetcher/tmp/cybrid-api-bank-python-0.99.0.tar.gz]
 [2024-04-02 02:02:14] INFO root fetch - main [MainThread]: End processing [cybrid-api-bank-python]: success
 [2024-04-02 02:02:14] INFO root fetch - main [MainThread]: Store serial: [22577413]
+[2024-04-02 02:04:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577413]
+[2024-04-02 02:04:23] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 02:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spark-dql-tools
+[2024-04-02 02:04:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2024-04-02 02:04:23] INFO root fetch - processPackages [spark-dql-tools]: New version: [0.7.2] Old Version: [0.7.1]
+[2024-04-02 02:04:23] INFO root fetch - processPackages [mct-nightly]: New version: [2.0.0.20240402.404] Old Version: [1.9.0.20230927.post404]
+[2024-04-02 02:04:23] INFO root fetch - processPackages [spark-dql-tools]: Downloading https://files.pythonhosted.org/packages/7e/f7/088a0702733f72586f2ec9b1af790e1c55121ed7e73a02a15658a70c2146/spark_dql_tools-0.7.1.tar.gz
+[2024-04-02 02:04:23] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/4e/8e/01d5f98f83d86b8174d497acd5f1684bd8b55136a74099cfc9b5ef154fc6/mct-nightly-1.9.0.20230927.post404.tar.gz
+[2024-04-02 02:04:24] INFO root fetch - processPackages [spark-dql-tools]: Downloading https://files.pythonhosted.org/packages/5a/3e/6e3c69104d6c08fc2e8423746eb693f180d84fb2c63cb08350c8380afcf3/spark_dql_tools-0.7.2.tar.gz
+[2024-04-02 02:04:24] INFO root fetch - processPackages [spark-dql-tools]: executing diffoscope
+[2024-04-02 02:04:24] INFO root fetch - processPackages [spark-dql-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_dql_tools-0.7.1.tar.gz tmp/spark_dql_tools-0.7.2.tar.gz --markdown 20240402/s/spark-dql-tools/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2024-04-02 02:04:24] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/20/b5/b817bd84997497d4e201e6b20195f4e9ec1aa9f9a46077e45e8e63c1abe2/mct-nightly-2.0.0.20240402.404.tar.gz
+[2024-04-02 02:04:24] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2024-04-02 02:04:24] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230927.post404.tar.gz tmp/mct-nightly-2.0.0.20240402.404.tar.gz --markdown 20240402/m/mct-nightly/1.9.0.20230927.post404-2.0.0.20240402.404/diff.md --exclude *.pyd
+[2024-04-02 02:04:24] INFO root fetch - processPackages [spark-dql-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dql_tools-0.7.1.tar.gz]
+[2024-04-02 02:04:24] INFO root fetch - processPackages [spark-dql-tools]: Remove: archive file [/home/abi/fetcher/tmp/spark_dql_tools-0.7.2.tar.gz]
+[2024-04-02 02:04:24] INFO root fetch - main [MainThread]: End processing [spark-dql-tools]: success
+[2024-04-02 02:04:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230927.post404.tar.gz]
+[2024-04-02 02:04:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240402.404.tar.gz]
+[2024-04-02 02:04:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2024-04-02 02:04:27] INFO root fetch - main [MainThread]: Store serial: [22577419]
