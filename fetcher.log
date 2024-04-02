@@ -9707,3 +9707,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:29:09] INFO root fetch - processPackages [magic-wormhole]: Remove: archive file [/home/abi/fetcher/tmp/magic-wormhole-0.9.2.tar.gz]
 [2024-04-02 05:29:09] INFO root fetch - main [MainThread]: End processing [magic-wormhole]: success
 [2024-04-02 05:29:09] INFO root fetch - main [MainThread]: Store serial: [22580326]
+[2024-04-02 05:31:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580326]
+[2024-04-02 05:31:18] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: keras-nlp-nightly
+[2024-04-02 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ovp-docker-utils
+[2024-04-02 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: countess
+[2024-04-02 05:31:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lessweb
+[2024-04-02 05:31:18] INFO root fetch - processPackages [ovp-docker-utils]: New version: [1.0.4] Old Version: [1.0.3]
+[2024-04-02 05:31:18] INFO root fetch - processPackages [lessweb]: New version: [1.1.0] Old Version: [1.0.8]
+[2024-04-02 05:31:18] INFO root fetch - processPackages [countess]: New version: [0.0.55] Old Version: [0.0.54]
+[2024-04-02 05:31:18] INFO root fetch - processPackages [keras-nlp-nightly]: New version: [0.9.0.dev2024040203] Old Version: [0.9.0.dev2024040103]
+[2024-04-02 05:31:19] INFO root fetch - processPackages [lessweb]: Downloading https://files.pythonhosted.org/packages/34/26/3a4d9ae390c0b32d60b10e2a5659e018355545266e5012e57e16eb1d00f0/lessweb-1.0.8.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [ovp-docker-utils]: Downloading https://files.pythonhosted.org/packages/3c/99/e11cd05e19a8aaaa18c5fdac61cfda18ebbc3ef3b816620a5b5a2bab470b/ovp_docker_utils-1.0.3.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/e5/fe/2b72a07c33f0cec975aad2c2c381051f4559c80b2326a0322424249e68b2/keras-nlp-nightly-0.9.0.dev2024040103.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/2b/d8/846eea990960880fc6c8c12dabbb00e501da1d7776fc771c2db38e4d338e/countess-0.0.54.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [lessweb]: Downloading https://files.pythonhosted.org/packages/a2/e5/aab2ce724d047f3a7262421c282f069e5113b612d5da8b5360690d33e2a3/lessweb-1.1.0.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [ovp-docker-utils]: Downloading https://files.pythonhosted.org/packages/2b/79/1cc589d9d50cf38eab2672b979a3da7b766ebef9dc24c0c397ffc4b515ef/ovp_docker_utils-1.0.4.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [countess]: Downloading https://files.pythonhosted.org/packages/e3/ad/060fea4340cda97c2475a4f7d1a3457202fb287da674f97fbe277143a522/countess-0.0.55.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [keras-nlp-nightly]: Downloading https://files.pythonhosted.org/packages/56/42/c3574757925303335896bd1cf2e7f30e32ca2072d91640b3578b331bf844/keras-nlp-nightly-0.9.0.dev2024040203.tar.gz
+[2024-04-02 05:31:19] INFO root fetch - processPackages [ovp-docker-utils]: executing diffoscope
+[2024-04-02 05:31:19] INFO root fetch - processPackages [ovp-docker-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovp_docker_utils-1.0.3.tar.gz tmp/ovp_docker_utils-1.0.4.tar.gz --markdown 20240402/o/ovp-docker-utils/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2024-04-02 05:31:19] INFO root fetch - processPackages [lessweb]: executing diffoscope
+[2024-04-02 05:31:19] INFO root fetch - processPackages [lessweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lessweb-1.0.8.tar.gz tmp/lessweb-1.1.0.tar.gz --markdown 20240402/l/lessweb/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 05:31:19] INFO root fetch - processPackages [countess]: executing diffoscope
+[2024-04-02 05:31:19] INFO root fetch - processPackages [countess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/countess-0.0.54.tar.gz tmp/countess-0.0.55.tar.gz --markdown 20240402/c/countess/0.0.54-0.0.55/diff.md --exclude *.pyd
+[2024-04-02 05:31:19] INFO root fetch - processPackages [keras-nlp-nightly]: executing diffoscope
+[2024-04-02 05:31:19] INFO root fetch - processPackages [keras-nlp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keras-nlp-nightly-0.9.0.dev2024040103.tar.gz tmp/keras-nlp-nightly-0.9.0.dev2024040203.tar.gz --markdown 20240402/k/keras-nlp-nightly/0.9.0.dev2024040103-0.9.0.dev2024040203/diff.md --exclude *.pyd
+[2024-04-02 05:31:20] INFO root fetch - processPackages [ovp-docker-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovp_docker_utils-1.0.3.tar.gz]
+[2024-04-02 05:31:20] INFO root fetch - processPackages [ovp-docker-utils]: Remove: archive file [/home/abi/fetcher/tmp/ovp_docker_utils-1.0.4.tar.gz]
+[2024-04-02 05:31:20] INFO root fetch - main [MainThread]: End processing [ovp-docker-utils]: success
+[2024-04-02 05:31:20] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.0.8.tar.gz]
+[2024-04-02 05:31:20] INFO root fetch - processPackages [lessweb]: Remove: archive file [/home/abi/fetcher/tmp/lessweb-1.1.0.tar.gz]
+[2024-04-02 05:31:20] INFO root fetch - main [MainThread]: End processing [lessweb]: success
+[2024-04-02 05:31:20] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.54.tar.gz]
+[2024-04-02 05:31:20] INFO root fetch - processPackages [countess]: Remove: archive file [/home/abi/fetcher/tmp/countess-0.0.55.tar.gz]
+[2024-04-02 05:31:20] INFO root fetch - main [MainThread]: End processing [countess]: success
+[2024-04-02 05:31:21] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040103.tar.gz]
+[2024-04-02 05:31:21] INFO root fetch - processPackages [keras-nlp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/keras-nlp-nightly-0.9.0.dev2024040203.tar.gz]
+[2024-04-02 05:31:21] INFO root fetch - main [MainThread]: End processing [keras-nlp-nightly]: success
+[2024-04-02 05:31:21] INFO root fetch - main [MainThread]: Store serial: [22580339]
