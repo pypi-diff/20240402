@@ -16078,3 +16078,48 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:33:33] INFO root fetch - processPackages [kiara]: Remove: archive file [/home/abi/fetcher/tmp/kiara-0.5.9.tar.gz]
 [2024-04-02 11:33:33] INFO root fetch - main [MainThread]: End processing [kiara]: success
 [2024-04-02 11:33:33] INFO root fetch - main [MainThread]: Store serial: [22582885]
+[2024-04-02 11:35:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582885]
+[2024-04-02 11:35:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentimentAnalizis
+[2024-04-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lumaCLI
+[2024-04-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: polars-distance
+[2024-04-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: agogos
+[2024-04-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:35:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gg-release-notes
+[2024-04-02 11:35:44] INFO root fetch - processPackages [agogos]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-02 11:35:44] WARNING root fetch - processPackages [lightning-whisper-mlx]: Skipping, unable to determine old version
+[2024-04-02 11:35:44] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx] error
+[2024-04-02 11:35:44] INFO root fetch - processPackages [gg-release-notes]: New version: [1.7.0] Old Version: [1.6.3]
+[2024-04-02 11:35:44] WARNING root fetch - processPackages [sentimentAnalizis]: Skipping, unable to determine old version
+[2024-04-02 11:35:44] INFO root fetch - main [MainThread]: End processing [sentimentAnalizis] error
+[2024-04-02 11:35:44] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/cc/10/f3e7a6b6114104a152a2360300219f3c734d1bb5c9e72b95634ec916ad1f/gg-release-notes-1.6.3.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [lumaCLI]: New version: [0.1.0] Old Version: [0.0.9]
+[2024-04-02 11:35:44] INFO root fetch - processPackages [agogos]: Downloading https://files.pythonhosted.org/packages/a5/35/d494f794c897c690b0c81a10d44d32afc11edd24806e809444bb79fc3b58/agogos-0.3.2.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [polars-distance]: New version: [0.4.3] Old Version: [0.4.2]
+[2024-04-02 11:35:44] INFO root fetch - processPackages [lumaCLI]: Downloading https://files.pythonhosted.org/packages/04/e0/99a522e0977afbd976fc2c7d58a5f52beabd76db2e2fe593adf8fb3a6fc1/lumacli-0.0.9.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [agogos]: Downloading https://files.pythonhosted.org/packages/e8/75/7b58e8a6f8c21d1b850f6d31e0bb1a9abe6069c39544dc2e9d988a08c151/agogos-0.3.3.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/f6/7f/8297a0cb1857dc1384ec1fff40e4731a772eb973ff2224feb8d84f95410c/gg-release-notes-1.7.0.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [polars-distance]: Downloading https://files.pythonhosted.org/packages/eb/e5/a4bab3553930bdb14d2cdb6442ca607a4f1ca532d52b7fa5e60b8203d0c4/polars_distance-0.4.2.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [agogos]: executing diffoscope
+[2024-04-02 11:35:44] INFO root fetch - processPackages [agogos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agogos-0.3.2.tar.gz tmp/agogos-0.3.3.tar.gz --markdown 20240402/a/agogos/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-02 11:35:44] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2024-04-02 11:35:44] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg-release-notes-1.6.3.tar.gz tmp/gg-release-notes-1.7.0.tar.gz --markdown 20240402/g/gg-release-notes/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2024-04-02 11:35:44] INFO root fetch - processPackages [lumaCLI]: Downloading https://files.pythonhosted.org/packages/7f/56/82406bc9a11b9ebf1808a8e6d65c0aa21bcdd8f1db329b0f0580c9f61e2b/lumacli-0.1.0.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [polars-distance]: Downloading https://files.pythonhosted.org/packages/23/0f/d1187c5b43989ae2a31c13437cd63050239e051094060fd2431032249bab/polars_distance-0.4.3.tar.gz
+[2024-04-02 11:35:44] INFO root fetch - processPackages [lumaCLI]: executing diffoscope
+[2024-04-02 11:35:44] INFO root fetch - processPackages [lumaCLI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lumacli-0.0.9.tar.gz tmp/lumacli-0.1.0.tar.gz --markdown 20240402/l/lumaCLI/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 11:35:45] INFO root fetch - processPackages [polars-distance]: executing diffoscope
+[2024-04-02 11:35:45] INFO root fetch - processPackages [polars-distance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polars_distance-0.4.2.tar.gz tmp/polars_distance-0.4.3.tar.gz --markdown 20240402/p/polars-distance/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2024-04-02 11:35:45] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.3.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.7.0.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2024-04-02 11:35:45] INFO root fetch - processPackages [agogos]: Remove: archive file [/home/abi/fetcher/tmp/agogos-0.3.2.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - processPackages [agogos]: Remove: archive file [/home/abi/fetcher/tmp/agogos-0.3.3.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - main [MainThread]: End processing [agogos]: success
+[2024-04-02 11:35:45] INFO root fetch - processPackages [lumaCLI]: Remove: archive file [/home/abi/fetcher/tmp/lumacli-0.0.9.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - processPackages [lumaCLI]: Remove: archive file [/home/abi/fetcher/tmp/lumacli-0.1.0.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - main [MainThread]: End processing [lumaCLI]: success
+[2024-04-02 11:35:45] INFO root fetch - processPackages [polars-distance]: Remove: archive file [/home/abi/fetcher/tmp/polars_distance-0.4.2.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - processPackages [polars-distance]: Remove: archive file [/home/abi/fetcher/tmp/polars_distance-0.4.3.tar.gz]
+[2024-04-02 11:35:45] INFO root fetch - main [MainThread]: End processing [polars-distance]: success
+[2024-04-02 11:35:45] INFO root fetch - main [MainThread]: Store serial: [22582914]
