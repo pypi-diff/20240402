@@ -8068,3 +8068,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:46:11] INFO root fetch - processPackages [sapphyre-tools]: Remove: archive file [/home/abi/fetcher/tmp/sapphyre_tools-0.8.3-cp312-cp312-manylinux_2_28_x86_64.whl.zip]
 [2024-04-02 03:46:11] INFO root fetch - main [MainThread]: End processing [sapphyre-tools]: success
 [2024-04-02 03:46:11] INFO root fetch - main [MainThread]: Store serial: [22579697]
+[2024-04-02 03:48:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579697]
+[2024-04-02 03:48:22] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 03:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: akasaka
+[2024-04-02 03:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyclipmgr
+[2024-04-02 03:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gwcelery
+[2024-04-02 03:48:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tiny-match-snapshot
+[2024-04-02 03:48:22] INFO root fetch - processPackages [akasaka]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 03:48:22] INFO root fetch - processPackages [pyclipmgr]: New version: [2.0] Old Version: [1.2]
+[2024-04-02 03:48:22] WARNING root fetch - processPackages [tiny-match-snapshot]: Skipping, unable to determine old version
+[2024-04-02 03:48:22] INFO root fetch - main [MainThread]: End processing [tiny-match-snapshot] error
+[2024-04-02 03:48:22] INFO root fetch - processPackages [gwcelery]: New version: [2.3.3] Old Version: [2.3.2]
+[2024-04-02 03:48:22] INFO root fetch - processPackages [akasaka]: Downloading https://files.pythonhosted.org/packages/80/2b/7fe0e6c9031b55386d26ae5d896e4206932521bdbc442a7d2b4114f1b7e3/akasaka-0.1.0.tar.gz
+[2024-04-02 03:48:22] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/b3/7a/0e8b415041daee809b1ffdfaafc43aba74fd8e252518e3ac7731bea915ba/pyclipmgr-1.2.tar.gz
+[2024-04-02 03:48:22] INFO root fetch - processPackages [gwcelery]: Downloading https://files.pythonhosted.org/packages/8f/29/3bce0895262aec13dd26c1e29fc7fc50a0a7899c1a63eb0cb3bea01b8213/gwcelery-2.3.2.tar.gz
+[2024-04-02 03:48:22] INFO root fetch - processPackages [akasaka]: Downloading https://files.pythonhosted.org/packages/05/33/1b94431a4aea4853b5307864139d128a7a5b911756e1fab61a1ecd1da6b2/akasaka-0.1.1.tar.gz
+[2024-04-02 03:48:22] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0a/36/e7fb9ae694eae366905a42a162d2d2b7e9a5d676f47c0f9b958baeaf48b9/pyclipmgr-2.0.tar.gz
+[2024-04-02 03:48:23] INFO root fetch - processPackages [akasaka]: executing diffoscope
+[2024-04-02 03:48:23] INFO root fetch - processPackages [akasaka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akasaka-0.1.0.tar.gz tmp/akasaka-0.1.1.tar.gz --markdown 20240402/a/akasaka/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 03:48:23] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 03:48:23] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-1.2.tar.gz tmp/pyclipmgr-2.0.tar.gz --markdown 20240402/p/pyclipmgr/1.2-2.0/diff.md --exclude *.pyd
+[2024-04-02 03:48:23] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-1.2.tar.gz]
+[2024-04-02 03:48:23] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-2.0.tar.gz]
+[2024-04-02 03:48:23] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 03:48:23] INFO root fetch - processPackages [akasaka]: Remove: archive file [/home/abi/fetcher/tmp/akasaka-0.1.0.tar.gz]
+[2024-04-02 03:48:23] INFO root fetch - processPackages [akasaka]: Remove: archive file [/home/abi/fetcher/tmp/akasaka-0.1.1.tar.gz]
+[2024-04-02 03:48:23] INFO root fetch - main [MainThread]: End processing [akasaka]: success
+[2024-04-02 03:48:23] INFO root fetch - processPackages [gwcelery]: Downloading https://files.pythonhosted.org/packages/cd/03/4225e594b3f07e71e400d0d26231a60d163de464d14c23cbd5fca04464d1/gwcelery-2.3.3.tar.gz
+[2024-04-02 03:48:24] INFO root fetch - processPackages [gwcelery]: executing diffoscope
+[2024-04-02 03:48:24] INFO root fetch - processPackages [gwcelery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwcelery-2.3.2.tar.gz tmp/gwcelery-2.3.3.tar.gz --markdown 20240402/g/gwcelery/2.3.2-2.3.3/diff.md --exclude *.pyd
+[2024-04-02 03:48:25] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.3.2.tar.gz]
+[2024-04-02 03:48:25] INFO root fetch - processPackages [gwcelery]: Remove: archive file [/home/abi/fetcher/tmp/gwcelery-2.3.3.tar.gz]
+[2024-04-02 03:48:25] INFO root fetch - main [MainThread]: End processing [gwcelery]: success
+[2024-04-02 03:48:25] INFO root fetch - main [MainThread]: Store serial: [22579714]
