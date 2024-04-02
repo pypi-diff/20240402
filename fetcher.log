@@ -17467,3 +17467,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:32:00] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
 [2024-04-02 12:32:00] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
 [2024-04-02 12:32:00] INFO root fetch - main [MainThread]: Store serial: [22583526]
+[2024-04-02 12:34:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583526]
+[2024-04-02 12:34:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flask-variable-manager
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: RL-OM
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: medialoopster
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ring-doorbell
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvvideoplayer
+[2024-04-02 12:34:10] INFO root fetch - processPackages [medialoopster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:34:10] WARNING root fetch - processPackages [cvvideoplayer]: Skipping, unable to determine old version
+[2024-04-02 12:34:10] INFO root fetch - main [MainThread]: End processing [cvvideoplayer] error
+[2024-04-02 12:34:10] INFO root fetch - processPackages [RL-OM]: New version: [0.7.9] Old Version: [0.7.83]
+[2024-04-02 12:34:10] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/1c/0c/66496a5615318f18eb988da0d164764efc2e48d1e079f1bff85b32880753/medialoopster-0.0.8.tar.gz
+[2024-04-02 12:34:10] INFO root fetch - processPackages [flask-variable-manager]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ring-doorbell]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-02 12:34:10] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/cd/cd/3e4a53471b37a1f48d646b9705b997d2ca5109f57de686eb50ad41f2b4b6/RL_OM-0.7.83.tar.gz
+[2024-04-02 12:34:10] INFO root fetch - processPackages [flask-variable-manager]: Downloading https://files.pythonhosted.org/packages/11/fc/5a5b78e97c60d23f527ade7b3e74d5babf7bf8b8f37c623b74c0b8c67b8b/flask-variable-manager-0.0.1.tar.gz
+[2024-04-02 12:34:10] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/c1/3e/a4179f41caf4368dd57457489a0ec6c958b1c5f0f1682474fb152891d64a/medialoopster-0.0.9.tar.gz
+[2024-04-02 12:34:10] INFO root fetch - processPackages [ring-doorbell]: Downloading https://files.pythonhosted.org/packages/13/c4/36f3a8ad37c0f644924042fab9baf6a7be32c2decd880b7438e2f1a3e51f/ring_doorbell-0.8.8.tar.gz
+[2024-04-02 12:34:10] INFO root fetch - processPackages [medialoopster]: executing diffoscope
+[2024-04-02 12:34:10] INFO root fetch - processPackages [medialoopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medialoopster-0.0.8.tar.gz tmp/medialoopster-0.0.9.tar.gz --markdown 20240402/m/medialoopster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:34:10] INFO root fetch - processPackages [RL-OM]: Downloading https://files.pythonhosted.org/packages/60/c3/87dd050cb3e40501c945f9c2e6c04e5d56c18565b74ab235d86ea2c9d24a/RL_OM-0.7.9.tar.gz
+[2024-04-02 12:34:10] INFO root fetch - processPackages [flask-variable-manager]: Downloading https://files.pythonhosted.org/packages/0b/b8/675355b5bfe148823f07a1e208baade3134d1866681bdd0019008b5baff0/flask-variable-manager-0.1.0.tar.gz
+[2024-04-02 12:34:11] INFO root fetch - processPackages [ring-doorbell]: Downloading https://files.pythonhosted.org/packages/75/05/6fd26e5530aa9784f9a5055cf59f7004cb2e77b143f186c66fbb7f30e044/ring_doorbell-0.8.9.tar.gz
+[2024-04-02 12:34:11] INFO root fetch - processPackages [RL-OM]: executing diffoscope
+[2024-04-02 12:34:11] INFO root fetch - processPackages [RL-OM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RL_OM-0.7.83.tar.gz tmp/RL_OM-0.7.9.tar.gz --markdown 20240402/R/RL-OM/0.7.83-0.7.9/diff.md --exclude *.pyd
+[2024-04-02 12:34:11] INFO root fetch - processPackages [flask-variable-manager]: executing diffoscope
+[2024-04-02 12:34:11] INFO root fetch - processPackages [flask-variable-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-variable-manager-0.0.1.tar.gz tmp/flask-variable-manager-0.1.0.tar.gz --markdown 20240402/f/flask-variable-manager/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 12:34:11] INFO root fetch - processPackages [ring-doorbell]: executing diffoscope
+[2024-04-02 12:34:11] INFO root fetch - processPackages [ring-doorbell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ring_doorbell-0.8.8.tar.gz tmp/ring_doorbell-0.8.9.tar.gz --markdown 20240402/r/ring-doorbell/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-02 12:34:11] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.8.tar.gz]
+[2024-04-02 12:34:11] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.9.tar.gz]
+[2024-04-02 12:34:11] INFO root fetch - main [MainThread]: End processing [medialoopster]: success
+[2024-04-02 12:34:11] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask-variable-manager-0.0.1.tar.gz]
+[2024-04-02 12:34:11] INFO root fetch - processPackages [flask-variable-manager]: Remove: archive file [/home/abi/fetcher/tmp/flask-variable-manager-0.1.0.tar.gz]
+[2024-04-02 12:34:11] INFO root fetch - main [MainThread]: End processing [flask-variable-manager]: success
+[2024-04-02 12:34:12] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.83.tar.gz]
+[2024-04-02 12:34:12] INFO root fetch - processPackages [RL-OM]: Remove: archive file [/home/abi/fetcher/tmp/RL_OM-0.7.9.tar.gz]
+[2024-04-02 12:34:12] INFO root fetch - main [MainThread]: End processing [RL-OM]: success
+[2024-04-02 12:34:12] INFO root fetch - processPackages [ring-doorbell]: Remove: archive file [/home/abi/fetcher/tmp/ring_doorbell-0.8.8.tar.gz]
+[2024-04-02 12:34:12] INFO root fetch - processPackages [ring-doorbell]: Remove: archive file [/home/abi/fetcher/tmp/ring_doorbell-0.8.9.tar.gz]
+[2024-04-02 12:34:12] INFO root fetch - main [MainThread]: End processing [ring-doorbell]: success
+[2024-04-02 12:34:12] INFO root fetch - main [MainThread]: Store serial: [22583542]
