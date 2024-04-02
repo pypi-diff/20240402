@@ -10761,3 +10761,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:04:10] INFO root fetch - processPackages [nltko]: Remove: archive file [/home/abi/fetcher/tmp/nltko-0.0.1-py2.py3-none-any.whl.zip]
 [2024-04-02 07:04:10] INFO root fetch - main [MainThread]: End processing [nltko]: success
 [2024-04-02 07:04:10] INFO root fetch - main [MainThread]: Store serial: [22580804]
+[2024-04-02 07:06:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580804]
+[2024-04-02 07:06:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 07:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-domain-driven-design
+[2024-04-02 07:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: komoutils
+[2024-04-02 07:06:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: haskellian
+[2024-04-02 07:06:19] INFO root fetch - processPackages [komoutils]: New version: [0.0.219] Old Version: [0.0.218]
+[2024-04-02 07:06:19] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/54/a1/a303587fdac321210e592d4aac22a079ddcd2d04d87a7111a4f31f9c15a4/komoutils-0.0.218.tar.gz
+[2024-04-02 07:06:19] INFO root fetch - processPackages [haskellian]: New version: [0.2.0] Old Version: [0.1.9]
+[2024-04-02 07:06:19] INFO root fetch - processPackages [py-domain-driven-design]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2024-04-02 07:06:20] INFO root fetch - processPackages [py-domain-driven-design]: Downloading https://files.pythonhosted.org/packages/6e/fa/d87ae164dccb78f05a223e116a4c461444bb86785cfe17599cc83a5447ff/py-domain-driven-design-1.0.0a1.tar.gz
+[2024-04-02 07:06:20] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/d0/45/4698e775f36b10bc0fd9dd8d413883fdcf9a119115bedb0c6cbc7885307f/haskellian-0.1.9-py3-none-any.whl
+[2024-04-02 07:06:20] INFO root fetch - processPackages [komoutils]: Downloading https://files.pythonhosted.org/packages/c6/98/d1c45b1b3a1d8b395087d9b6be823ee6853bd8461cee47d73bc9b46528b2/komoutils-0.0.219.tar.gz
+[2024-04-02 07:06:20] INFO root fetch - processPackages [komoutils]: executing diffoscope
+[2024-04-02 07:06:20] INFO root fetch - processPackages [komoutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komoutils-0.0.218.tar.gz tmp/komoutils-0.0.219.tar.gz --markdown 20240402/k/komoutils/0.0.218-0.0.219/diff.md --exclude *.pyd
+[2024-04-02 07:06:20] INFO root fetch - processPackages [haskellian]: Downloading https://files.pythonhosted.org/packages/ff/2c/d93ba9f84396c0aeba7f9488a8478974b0dc70d78d1243744d3ca86665fc/haskellian-0.2.0.tar.gz
+[2024-04-02 07:06:20] INFO root fetch - processPackages [py-domain-driven-design]: Downloading https://files.pythonhosted.org/packages/a7/d2/7a4b3b80d113fb4dcbf02bd1f0e67439c2db861800d6eefdce2ffa449f71/py-domain-driven-design-1.0.0a2.tar.gz
+[2024-04-02 07:06:20] INFO root fetch - processPackages [haskellian]: executing diffoscope
+[2024-04-02 07:06:20] INFO root fetch - processPackages [haskellian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/haskellian-0.1.9-py3-none-any.whl.zip tmp/haskellian-0.2.0.tar.gz --markdown 20240402/h/haskellian/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 07:06:20] INFO root fetch - processPackages [py-domain-driven-design]: executing diffoscope
+[2024-04-02 07:06:20] INFO root fetch - processPackages [py-domain-driven-design]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-domain-driven-design-1.0.0a1.tar.gz tmp/py-domain-driven-design-1.0.0a2.tar.gz --markdown 20240402/p/py-domain-driven-design/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2024-04-02 07:06:20] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.218.tar.gz]
+[2024-04-02 07:06:20] INFO root fetch - processPackages [komoutils]: Remove: archive file [/home/abi/fetcher/tmp/komoutils-0.0.219.tar.gz]
+[2024-04-02 07:06:20] INFO root fetch - main [MainThread]: End processing [komoutils]: success
+[2024-04-02 07:06:21] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.1.9-py3-none-any.whl.zip]
+[2024-04-02 07:06:21] INFO root fetch - processPackages [haskellian]: Remove: archive file [/home/abi/fetcher/tmp/haskellian-0.2.0.tar.gz]
+[2024-04-02 07:06:21] INFO root fetch - main [MainThread]: End processing [haskellian]: success
+[2024-04-02 07:06:21] INFO root fetch - processPackages [py-domain-driven-design]: Remove: archive file [/home/abi/fetcher/tmp/py-domain-driven-design-1.0.0a1.tar.gz]
+[2024-04-02 07:06:21] INFO root fetch - processPackages [py-domain-driven-design]: Remove: archive file [/home/abi/fetcher/tmp/py-domain-driven-design-1.0.0a2.tar.gz]
+[2024-04-02 07:06:21] INFO root fetch - main [MainThread]: End processing [py-domain-driven-design]: success
+[2024-04-02 07:06:21] INFO root fetch - main [MainThread]: Store serial: [22580813]
