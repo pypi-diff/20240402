@@ -14061,3 +14061,41 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:15:15] INFO root fetch - processPackages [drfexts]: Remove: archive file [/home/abi/fetcher/tmp/drfexts-3.7.2.tar.gz]
 [2024-04-02 10:15:15] INFO root fetch - main [MainThread]: End processing [drfexts]: success
 [2024-04-02 10:15:15] INFO root fetch - main [MainThread]: Store serial: [22582026]
+[2024-04-02 10:17:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582026]
+[2024-04-02 10:17:25] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 10:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lalsuite
+[2024-04-02 10:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ccpcli
+[2024-04-02 10:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: politely
+[2024-04-02 10:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unifyai
+[2024-04-02 10:17:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: leadguru-jobs
+[2024-04-02 10:17:25] INFO root fetch - processPackages [leadguru-jobs]: New version: [0.99.0] Old Version: [0.98.0]
+[2024-04-02 10:17:25] WARNING root fetch - processPackages [ccpcli]: Skipping, unable to determine old version
+[2024-04-02 10:17:25] INFO root fetch - main [MainThread]: End processing [ccpcli] error
+[2024-04-02 10:17:25] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/58/0a/904c1f8e92c5b6adf3bf97a755cae87648f67ca82bb52bc30055558e0ce3/leadguru_jobs-0.98.0.tar.gz
+[2024-04-02 10:17:25] INFO root fetch - processPackages [politely]: New version: [3.3.2] Old Version: [3.3.1]
+[2024-04-02 10:17:25] INFO root fetch - processPackages [unifyai]: New version: [0.3.1] Old Version: [0.3.0]
+[2024-04-02 10:17:25] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/1b/9d/04c5b197d109c8a6c81cda2bddf4aec3f11ca91c907f4b0bf7012c861d52/unifyai-0.3.0.tar.gz
+[2024-04-02 10:17:25] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/e6/a8/087209aceb1f600b4604bf33ff23c56ac643b20b4c0064ca41ebbe62abfa/politely-3.3.1.tar.gz
+[2024-04-02 10:17:25] INFO root fetch - processPackages [leadguru-jobs]: Downloading https://files.pythonhosted.org/packages/e4/7f/189fe7a4dc1256297dd1956413531652ee35cd4ee527f02aa7f2d608775a/leadguru_jobs-0.99.0.tar.gz
+[2024-04-02 10:17:25] INFO root fetch - processPackages [leadguru-jobs]: executing diffoscope
+[2024-04-02 10:17:25] INFO root fetch - processPackages [leadguru-jobs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leadguru_jobs-0.98.0.tar.gz tmp/leadguru_jobs-0.99.0.tar.gz --markdown 20240402/l/leadguru-jobs/0.98.0-0.99.0/diff.md --exclude *.pyd
+[2024-04-02 10:17:26] INFO root fetch - processPackages [unifyai]: Downloading https://files.pythonhosted.org/packages/eb/4c/d55df30fb432cf7e1fa6f18cad6e1da1c406b3655270ceca7d46c692c77a/unifyai-0.3.1.tar.gz
+[2024-04-02 10:17:26] INFO root fetch - processPackages [politely]: Downloading https://files.pythonhosted.org/packages/cd/d1/0ce3898ddf7d97036cbd99127e19a98f2bf621e75b8a261e6e0a04bf14f3/politely-3.3.2.tar.gz
+[2024-04-02 10:17:26] INFO root fetch - processPackages [unifyai]: executing diffoscope
+[2024-04-02 10:17:26] INFO root fetch - processPackages [unifyai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unifyai-0.3.0.tar.gz tmp/unifyai-0.3.1.tar.gz --markdown 20240402/u/unifyai/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2024-04-02 10:17:26] INFO root fetch - processPackages [politely]: executing diffoscope
+[2024-04-02 10:17:26] INFO root fetch - processPackages [politely]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/politely-3.3.1.tar.gz tmp/politely-3.3.2.tar.gz --markdown 20240402/p/politely/3.3.1-3.3.2/diff.md --exclude *.pyd
+[2024-04-02 10:17:26] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2024-04-02 10:17:26] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.98.0.tar.gz]
+[2024-04-02 10:17:26] INFO root fetch - processPackages [leadguru-jobs]: Remove: archive file [/home/abi/fetcher/tmp/leadguru_jobs-0.99.0.tar.gz]
+[2024-04-02 10:17:26] INFO root fetch - main [MainThread]: End processing [leadguru-jobs]: success
+[2024-04-02 10:17:26] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2024-04-02 10:17:26] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.3.0.tar.gz]
+[2024-04-02 10:17:26] INFO root fetch - processPackages [unifyai]: Remove: archive file [/home/abi/fetcher/tmp/unifyai-0.3.1.tar.gz]
+[2024-04-02 10:17:26] INFO root fetch - main [MainThread]: End processing [unifyai]: success
+[2024-04-02 10:17:26] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2024-04-02 10:17:26] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2024-04-02 10:17:26] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.1.tar.gz]
+[2024-04-02 10:17:26] INFO root fetch - processPackages [politely]: Remove: archive file [/home/abi/fetcher/tmp/politely-3.3.2.tar.gz]
+[2024-04-02 10:17:26] INFO root fetch - main [MainThread]: End processing [politely]: success
+[2024-04-02 10:17:26] INFO root fetch - main [MainThread]: Store serial: [22582061]
