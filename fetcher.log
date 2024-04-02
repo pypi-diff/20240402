@@ -7963,3 +7963,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:39:28] INFO root fetch - processPackages [py-imgui-redux]: Remove: archive file [/home/abi/fetcher/tmp/py_imgui_redux-2.1.0-cp312-cp312-manylinux_2_28_x86_64.whl.zip]
 [2024-04-02 03:39:28] INFO root fetch - main [MainThread]: End processing [py-imgui-redux]: success
 [2024-04-02 03:39:28] INFO root fetch - main [MainThread]: Store serial: [22579649]
+[2024-04-02 03:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579649]
+[2024-04-02 03:41:37] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 03:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: txdpy
+[2024-04-02 03:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: highlighter-sdk
+[2024-04-02 03:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gepref_text
+[2024-04-02 03:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aiobotocore
+[2024-04-02 03:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zonevu
+[2024-04-02 03:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sesql
+[2024-04-02 03:41:37] INFO root fetch - processPackages [zonevu]: New version: [1.1.5] Old Version: [1.1.4]
+[2024-04-02 03:41:37] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/fa/0c/ec2c50ba9b16ad6f6c104c186b478439db3655706ddbb0042e0efb66afc1/zonevu-1.1.4-py3-none-any.whl
+[2024-04-02 03:41:37] INFO root fetch - processPackages [highlighter-sdk]: New version: [0.5.1.0] Old Version: [0.5.0.3]
+[2024-04-02 03:41:37] INFO root fetch - processPackages [gepref_text]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 03:41:37] INFO root fetch - processPackages [txdpy]: New version: [7.6.5] Old Version: [7.5.4]
+[2024-04-02 03:41:37] INFO root fetch - processPackages [sesql]: New version: [2024.4.0] Old Version: [2024.3.0rc6]
+[2024-04-02 03:41:37] INFO root fetch - processPackages [gepref_text]: Downloading https://files.pythonhosted.org/packages/9a/53/68a5de875827b9ca28c67796c08a0fcc8e412f734d762024459efd64c49d/gepref_text-0.1.1.tar.gz
+[2024-04-02 03:41:37] INFO root fetch - processPackages [highlighter-sdk]: Downloading https://files.pythonhosted.org/packages/76/04/8635a8cabe076c9b4fc58a5cbc892da9d14e63e1aef593f13c88935f9ec1/highlighter_sdk-0.5.0.3.tar.gz
+[2024-04-02 03:41:37] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/ce/5d/fafdd87c25802287b18c2e49bdcb98f15119a3c4ecc6ad75bbc5afa17f25/txdpy-7.5.4.tar.gz
+[2024-04-02 03:41:37] INFO root fetch - processPackages [sesql]: Downloading https://files.pythonhosted.org/packages/05/80/d6a60633ea41c1776d6b122c81fbb975cc42e5754c761ac0ce05229dc04c/sesql-2024.3.0rc6.tar.gz
+[2024-04-02 03:41:37] INFO root fetch - processPackages [aiobotocore]: New version: [2.9.1] Old Version: [2.9.0]
+[2024-04-02 03:41:37] INFO root fetch - processPackages [zonevu]: Downloading https://files.pythonhosted.org/packages/a0/93/2c111d4ce7baac350c2a75f9c2fbd2d20c0526ff86498ce90bfbad8d72e0/zonevu-1.1.5-py3-none-any.whl
+[2024-04-02 03:41:37] INFO root fetch - processPackages [highlighter-sdk]: Downloading https://files.pythonhosted.org/packages/8e/a6/735d68cb057d8a030ee7f81dcf0a6974e510db213388f3993634fb1ea19f/highlighter_sdk-0.5.1.0.tar.gz
+[2024-04-02 03:41:37] INFO root fetch - processPackages [gepref_text]: Downloading https://files.pythonhosted.org/packages/cf/8f/718cddfc7f8e43d191ccafecd6065db08ca3620359bd6a3a309dd85b5fb7/gepref_text-0.1.2.tar.gz
+[2024-04-02 03:41:38] INFO root fetch - processPackages [txdpy]: Downloading https://files.pythonhosted.org/packages/9b/12/fe0785f1d30ce516659d3b074e6e5b0a32f32038ba3bb6d20b0658b06eed/txdpy-7.6.5.tar.gz
+[2024-04-02 03:41:38] INFO root fetch - processPackages [zonevu]: executing diffoscope
+[2024-04-02 03:41:38] INFO root fetch - processPackages [zonevu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zonevu-1.1.4-py3-none-any.whl.zip tmp/zonevu-1.1.5-py3-none-any.whl.zip --markdown 20240402/z/zonevu/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2024-04-02 03:41:38] INFO root fetch - processPackages [highlighter-sdk]: executing diffoscope
+[2024-04-02 03:41:38] INFO root fetch - processPackages [highlighter-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/highlighter_sdk-0.5.0.3.tar.gz tmp/highlighter_sdk-0.5.1.0.tar.gz --markdown 20240402/h/highlighter-sdk/0.5.0.3-0.5.1.0/diff.md --exclude *.pyd
+[2024-04-02 03:41:38] INFO root fetch - processPackages [txdpy]: executing diffoscope
+[2024-04-02 03:41:38] INFO root fetch - processPackages [txdpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txdpy-7.5.4.tar.gz tmp/txdpy-7.6.5.tar.gz --markdown 20240402/t/txdpy/7.5.4-7.6.5/diff.md --exclude *.pyd
+[2024-04-02 03:41:38] INFO root fetch - processPackages [gepref_text]: executing diffoscope
+[2024-04-02 03:41:38] INFO root fetch - processPackages [gepref_text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gepref_text-0.1.1.tar.gz tmp/gepref_text-0.1.2.tar.gz --markdown 20240402/g/gepref_text/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 03:41:38] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/7b/ea/5ee4b3d4dd6d6f7debc5aece4714915b0d3cd1988fb423151bf10d7ae5ce/aiobotocore-2.9.0.tar.gz
+[2024-04-02 03:41:38] INFO root fetch - processPackages [sesql]: Downloading https://files.pythonhosted.org/packages/28/4f/e8bb61e55aa48d5e9c2da24b96651e93758db2fb7b59c6c80888d697ceeb/sesql-2024.4.0.tar.gz
+[2024-04-02 03:41:38] INFO root fetch - processPackages [aiobotocore]: Downloading https://files.pythonhosted.org/packages/c2/e2/bf1efa3d659d1c544b886220d2b28d0e4497260c6f4398671ebd3caca10f/aiobotocore-2.9.1.tar.gz
+[2024-04-02 03:41:38] INFO root fetch - processPackages [aiobotocore]: executing diffoscope
+[2024-04-02 03:41:38] INFO root fetch - processPackages [aiobotocore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiobotocore-2.9.0.tar.gz tmp/aiobotocore-2.9.1.tar.gz --markdown 20240402/a/aiobotocore/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2024-04-02 03:41:38] INFO root fetch - processPackages [sesql]: executing diffoscope
+[2024-04-02 03:41:38] INFO root fetch - processPackages [sesql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesql-2024.3.0rc6.tar.gz tmp/sesql-2024.4.0.tar.gz --markdown 20240402/s/sesql/2024.3.0rc6-2024.4.0/diff.md --exclude *.pyd
+[2024-04-02 03:41:38] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.5.4.tar.gz]
+[2024-04-02 03:41:38] INFO root fetch - processPackages [txdpy]: Remove: archive file [/home/abi/fetcher/tmp/txdpy-7.6.5.tar.gz]
+[2024-04-02 03:41:38] INFO root fetch - main [MainThread]: End processing [txdpy]: success
+[2024-04-02 03:41:38] INFO root fetch - processPackages [gepref_text]: Remove: archive file [/home/abi/fetcher/tmp/gepref_text-0.1.1.tar.gz]
+[2024-04-02 03:41:38] INFO root fetch - processPackages [gepref_text]: Remove: archive file [/home/abi/fetcher/tmp/gepref_text-0.1.2.tar.gz]
+[2024-04-02 03:41:38] INFO root fetch - main [MainThread]: End processing [gepref_text]: success
+[2024-04-02 03:41:39] INFO root fetch - processPackages [highlighter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highlighter_sdk-0.5.0.3.tar.gz]
+[2024-04-02 03:41:39] INFO root fetch - processPackages [highlighter-sdk]: Remove: archive file [/home/abi/fetcher/tmp/highlighter_sdk-0.5.1.0.tar.gz]
+[2024-04-02 03:41:39] INFO root fetch - main [MainThread]: End processing [highlighter-sdk]: success
+[2024-04-02 03:41:39] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.3.0rc6.tar.gz]
+[2024-04-02 03:41:39] INFO root fetch - processPackages [sesql]: Remove: archive file [/home/abi/fetcher/tmp/sesql-2024.4.0.tar.gz]
+[2024-04-02 03:41:39] INFO root fetch - main [MainThread]: End processing [sesql]: success
+[2024-04-02 03:41:39] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.9.0.tar.gz]
+[2024-04-02 03:41:39] INFO root fetch - processPackages [aiobotocore]: Remove: archive file [/home/abi/fetcher/tmp/aiobotocore-2.9.1.tar.gz]
+[2024-04-02 03:41:39] INFO root fetch - main [MainThread]: End processing [aiobotocore]: success
+[2024-04-02 03:41:41] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.4-py3-none-any.whl.zip]
+[2024-04-02 03:41:41] INFO root fetch - processPackages [zonevu]: Remove: archive file [/home/abi/fetcher/tmp/zonevu-1.1.5-py3-none-any.whl.zip]
+[2024-04-02 03:41:41] INFO root fetch - main [MainThread]: End processing [zonevu]: success
+[2024-04-02 03:41:41] INFO root fetch - main [MainThread]: Store serial: [22579677]
