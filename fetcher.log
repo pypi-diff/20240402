@@ -11227,3 +11227,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:40:24] INFO root fetch - processPackages [automl-tools]: Remove: archive file [/home/abi/fetcher/tmp/automl_tools-0.2.0.tar.gz]
 [2024-04-02 07:40:24] INFO root fetch - main [MainThread]: End processing [automl-tools]: success
 [2024-04-02 07:40:24] INFO root fetch - main [MainThread]: Store serial: [22580972]
+[2024-04-02 07:42:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580972]
+[2024-04-02 07:42:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 07:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-processor
+[2024-04-02 07:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pre5g
+[2024-04-02 07:42:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: authx
+[2024-04-02 07:42:33] INFO root fetch - processPackages [pre5g]: New version: [0.91] Old Version: [0.9]
+[2024-04-02 07:42:33] INFO root fetch - processPackages [async-processor]: New version: [0.1.9rc2] Old Version: [0.1.9rc1]
+[2024-04-02 07:42:33] INFO root fetch - processPackages [authx]: New version: [1.0.1b1] Old Version: [1.0.1b0]
+[2024-04-02 07:42:33] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/43/57/1779c79260669527fbb20084102019c028b1ca761789107974b8e9b4a1a6/pre5g-0.9.tar.gz
+[2024-04-02 07:42:34] INFO root fetch - processPackages [async-processor]: Downloading https://files.pythonhosted.org/packages/42/72/1b4b0b41fa3d410a9e4e56c0e576ac2f2d6f38c22de94109690af4019f37/async_processor-0.1.9rc1.tar.gz
+[2024-04-02 07:42:34] INFO root fetch - processPackages [authx]: Downloading https://files.pythonhosted.org/packages/06/15/84ff33d196e20952f2752dafa9e1434a7abb35fdea913ed1800fda220bad/authx-1.0.1b0.tar.gz
+[2024-04-02 07:42:34] INFO root fetch - processPackages [pre5g]: Downloading https://files.pythonhosted.org/packages/52/4d/fa3d1b82318bcd5c7dff066c08a469eec74445a1e5c3748bd0b887c9d73b/pre5g-0.91.tar.gz
+[2024-04-02 07:42:34] INFO root fetch - processPackages [pre5g]: executing diffoscope
+[2024-04-02 07:42:34] INFO root fetch - processPackages [pre5g]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pre5g-0.9.tar.gz tmp/pre5g-0.91.tar.gz --markdown 20240402/p/pre5g/0.9-0.91/diff.md --exclude *.pyd
+[2024-04-02 07:42:34] INFO root fetch - processPackages [async-processor]: Downloading https://files.pythonhosted.org/packages/01/f0/2c879cb84cb24de6c4b29ba6c69839b597fdc5f474b28e4945754716303e/async_processor-0.1.9rc2.tar.gz
+[2024-04-02 07:42:34] INFO root fetch - processPackages [authx]: Downloading https://files.pythonhosted.org/packages/6c/03/0cfae05de616d1ffdad8b3c2c8d260a8e1ea09474e1671e22ddea46003de/authx-1.0.1b1.tar.gz
+[2024-04-02 07:42:34] INFO root fetch - processPackages [async-processor]: executing diffoscope
+[2024-04-02 07:42:34] INFO root fetch - processPackages [async-processor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_processor-0.1.9rc1.tar.gz tmp/async_processor-0.1.9rc2.tar.gz --markdown 20240402/a/async-processor/0.1.9rc1-0.1.9rc2/diff.md --exclude *.pyd
+[2024-04-02 07:42:34] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.9.tar.gz]
+[2024-04-02 07:42:34] INFO root fetch - processPackages [pre5g]: Remove: archive file [/home/abi/fetcher/tmp/pre5g-0.91.tar.gz]
+[2024-04-02 07:42:34] INFO root fetch - main [MainThread]: End processing [pre5g]: success
+[2024-04-02 07:42:34] INFO root fetch - processPackages [authx]: executing diffoscope
+[2024-04-02 07:42:34] INFO root fetch - processPackages [authx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/authx-1.0.1b0.tar.gz tmp/authx-1.0.1b1.tar.gz --markdown 20240402/a/authx/1.0.1b0-1.0.1b1/diff.md --exclude *.pyd
+[2024-04-02 07:42:35] INFO root fetch - processPackages [async-processor]: Remove: archive file [/home/abi/fetcher/tmp/async_processor-0.1.9rc1.tar.gz]
+[2024-04-02 07:42:35] INFO root fetch - processPackages [async-processor]: Remove: archive file [/home/abi/fetcher/tmp/async_processor-0.1.9rc2.tar.gz]
+[2024-04-02 07:42:35] INFO root fetch - main [MainThread]: End processing [async-processor]: success
+[2024-04-02 07:42:35] INFO root fetch - processPackages [authx]: Remove: archive file [/home/abi/fetcher/tmp/authx-1.0.1b0.tar.gz]
+[2024-04-02 07:42:35] INFO root fetch - processPackages [authx]: Remove: archive file [/home/abi/fetcher/tmp/authx-1.0.1b1.tar.gz]
+[2024-04-02 07:42:35] INFO root fetch - main [MainThread]: End processing [authx]: success
+[2024-04-02 07:42:35] INFO root fetch - main [MainThread]: Store serial: [22580982]
