@@ -18310,3 +18310,87 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:10:02] INFO root fetch - processPackages [ccpn-project-checker]: Remove: archive file [/home/abi/fetcher/tmp/ccpn_project_checker-0.1.9.tar.gz]
 [2024-04-02 13:10:02] INFO root fetch - main [MainThread]: End processing [ccpn-project-checker]: success
 [2024-04-02 13:10:02] INFO root fetch - main [MainThread]: Store serial: [22583826]
+[2024-04-02 13:12:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583826]
+[2024-04-02 13:12:11] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxsim
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CtqKit
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edx-enterprise
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: esa-2scm
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testingcgsdk
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-115
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: d-fake-seeder
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: logicplum-ai
+[2024-04-02 13:12:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dclab
+[2024-04-02 13:12:11] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [CtqKit]: New version: [0.1.1b1] Old Version: [0.1.0b1]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [esa-2scm]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [jaxsim]: New version: [0.2.dev92] Old Version: [0.2.dev87]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [python-115]: New version: [0.0.5] Old Version: [0.0.4.9]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [logicplum-ai]: New version: [1.3.8] Old Version: [1.3.7]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 13:12:11] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/b5/e7/f0a9f0d9594e3f358e2d119c4a2c82411a521c9be3337eb24d36f1b9f86d/ctqkit-0.1.0b1.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [edx-enterprise]: New version: [4.9.5] Old Version: [4.9.2]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/fb/dc/f1dbf12d7aa87daf248b8754bc0ac82c661454905d5dadc53d5bfaefd880/esa-2scm-0.2.0.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/b5/25/4a27bb25679ce17fef64a522f1af1c8722d2ec06d59735f1ddf7d16201d9/jaxsim-0.2.dev87.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/80/f5/2f59e5d5bea3e4c5c0e74be20891f4aece90621b369f3ae9836b0f0abb9c/python_115-0.0.4.9.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [dclab]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 13:12:11] INFO root fetch - processPackages [logicplum-ai]: Downloading https://files.pythonhosted.org/packages/77/e5/e1840064418468de4b27bcd9ac5b054813fc938ec5b04a40e4bdc462c35e/logicplum-ai-1.3.7.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 13:12:11] INFO root fetch - processPackages [CtqKit]: Downloading https://files.pythonhosted.org/packages/4d/42/d40e32a687f7847db88a6856cad69449adbe628fda6e198a7dac946c84d9/ctqkit-0.1.1b1.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [esa-2scm]: Downloading https://files.pythonhosted.org/packages/dd/c5/82fe5dfc475d90976213c9c9884c516ad3a43f099cf3140f92c5a5e78925/esa-2scm-0.2.1.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/e4/b3/dc021f2c163a19997e4167718a40d80668c3f4a6aa155975e4fbc7d84bc6/edx-enterprise-4.9.2.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [jaxsim]: Downloading https://files.pythonhosted.org/packages/5f/f3/d7774afb77c6832c188a48524d674234d264ab4e593515aac50ba544ea66/jaxsim-0.2.dev92.tar.gz
+[2024-04-02 13:12:11] INFO root fetch - processPackages [CtqKit]: executing diffoscope
+[2024-04-02 13:12:11] INFO root fetch - processPackages [CtqKit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctqkit-0.1.0b1.tar.gz tmp/ctqkit-0.1.1b1.tar.gz --markdown 20240402/C/CtqKit/0.1.0b1-0.1.1b1/diff.md --exclude *.pyd
+[2024-04-02 13:12:11] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 13:12:11] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/7c/85/1e39b909a273589478001e4ea5a3df8fd5923e2dbc48bc5ded42f984a58f/dclab-0.9.0.tar.gz
+[2024-04-02 13:12:12] INFO root fetch - processPackages [esa-2scm]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [esa-2scm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esa-2scm-0.2.0.tar.gz tmp/esa-2scm-0.2.1.tar.gz --markdown 20240402/e/esa-2scm/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [jaxsim]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [jaxsim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxsim-0.2.dev87.tar.gz tmp/jaxsim-0.2.dev92.tar.gz --markdown 20240402/j/jaxsim/0.2.dev87-0.2.dev92/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [python-115]: Downloading https://files.pythonhosted.org/packages/42/77/94765787e509a51b62c542eb33eecb23fb944f1d8c92947a988c5c6c0575/python_115-0.0.5.tar.gz
+[2024-04-02 13:12:12] INFO root fetch - processPackages [logicplum-ai]: Downloading https://files.pythonhosted.org/packages/e8/a3/19824c159063beb7e394a076928823b599e34ec3c6b349475ad773fa8085/logicplum-ai-1.3.8.tar.gz
+[2024-04-02 13:12:12] INFO root fetch - processPackages [python-115]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [python-115]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_115-0.0.4.9.tar.gz tmp/python_115-0.0.5.tar.gz --markdown 20240402/p/python-115/0.0.4.9-0.0.5/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [logicplum-ai]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [logicplum-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logicplum-ai-1.3.7.tar.gz tmp/logicplum-ai-1.3.8.tar.gz --markdown 20240402/l/logicplum-ai/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [edx-enterprise]: Downloading https://files.pythonhosted.org/packages/38/83/c01344f1866c05fe5671721941192ad2a1ab055d72d2e575ce08b970d4ef/edx-enterprise-4.9.5.tar.gz
+[2024-04-02 13:12:12] INFO root fetch - processPackages [dclab]: Downloading https://files.pythonhosted.org/packages/b7/8f/20dd68d6e832776bab24a9ec17e74b4480bdf3b960f989ada95f9a4387cc/dclab-0.9.1.tar.gz
+[2024-04-02 13:12:12] INFO root fetch - processPackages [edx-enterprise]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [edx-enterprise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edx-enterprise-4.9.2.tar.gz tmp/edx-enterprise-4.9.5.tar.gz --markdown 20240402/e/edx-enterprise/4.9.2-4.9.5/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 13:12:12] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 13:12:12] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 13:12:12] INFO root fetch - processPackages [dclab]: executing diffoscope
+[2024-04-02 13:12:12] INFO root fetch - processPackages [dclab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dclab-0.9.0.tar.gz tmp/dclab-0.9.1.tar.gz --markdown 20240402/d/dclab/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 13:12:12] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.0.tar.gz]
+[2024-04-02 13:12:12] INFO root fetch - processPackages [esa-2scm]: Remove: archive file [/home/abi/fetcher/tmp/esa-2scm-0.2.1.tar.gz]
+[2024-04-02 13:12:12] INFO root fetch - main [MainThread]: End processing [esa-2scm]: success
+[2024-04-02 13:12:12] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.0b1.tar.gz]
+[2024-04-02 13:12:12] INFO root fetch - processPackages [CtqKit]: Remove: archive file [/home/abi/fetcher/tmp/ctqkit-0.1.1b1.tar.gz]
+[2024-04-02 13:12:12] INFO root fetch - main [MainThread]: End processing [CtqKit]: success
+[2024-04-02 13:12:13] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 13:12:13] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev87.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
+[2024-04-02 13:12:13] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.4.9.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - processPackages [python-115]: Remove: archive file [/home/abi/fetcher/tmp/python_115-0.0.5.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - main [MainThread]: End processing [python-115]: success
+[2024-04-02 13:12:13] INFO root fetch - processPackages [logicplum-ai]: Remove: archive file [/home/abi/fetcher/tmp/logicplum-ai-1.3.7.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - processPackages [logicplum-ai]: Remove: archive file [/home/abi/fetcher/tmp/logicplum-ai-1.3.8.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - main [MainThread]: End processing [logicplum-ai]: success
+[2024-04-02 13:12:13] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.0.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - processPackages [dclab]: Remove: archive file [/home/abi/fetcher/tmp/dclab-0.9.1.tar.gz]
+[2024-04-02 13:12:13] INFO root fetch - main [MainThread]: End processing [dclab]: success
+[2024-04-02 13:12:15] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.2.tar.gz]
+[2024-04-02 13:12:15] INFO root fetch - processPackages [edx-enterprise]: Remove: archive file [/home/abi/fetcher/tmp/edx-enterprise-4.9.5.tar.gz]
+[2024-04-02 13:12:15] INFO root fetch - main [MainThread]: End processing [edx-enterprise]: success
+[2024-04-02 13:12:15] INFO root fetch - main [MainThread]: Store serial: [22583854]
