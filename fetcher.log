@@ -11831,3 +11831,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:22:21] INFO root fetch - processPackages [pylips]: Remove: archive file [/home/abi/fetcher/tmp/pylips-0.0.9.tar.gz]
 [2024-04-02 08:22:21] INFO root fetch - main [MainThread]: End processing [pylips]: success
 [2024-04-02 08:22:21] INFO root fetch - main [MainThread]: Store serial: [22581201]
+[2024-04-02 08:24:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581201]
+[2024-04-02 08:24:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 08:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-web-notify
+[2024-04-02 08:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lambkid
+[2024-04-02 08:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: musicAlgLib
+[2024-04-02 08:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wakautosolver
+[2024-04-02 08:24:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: airbyte
+[2024-04-02 08:24:30] INFO root fetch - processPackages [lambkid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 08:24:30] INFO root fetch - processPackages [airbyte]: New version: [0.8.3] Old Version: [0.8.2]
+[2024-04-02 08:24:30] WARNING root fetch - processPackages [musicAlgLib]: Skipping, unable to determine old version
+[2024-04-02 08:24:30] INFO root fetch - main [MainThread]: End processing [musicAlgLib] error
+[2024-04-02 08:24:30] INFO root fetch - processPackages [odoo-addon-web-notify]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.1]
+[2024-04-02 08:24:30] INFO root fetch - processPackages [wakautosolver]: New version: [2024.4.4] Old Version: [2024.4.3]
+[2024-04-02 08:24:31] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/a4/1d/a402c5f85ef6696c76f47780a2a9b4a6d1e22f67e018fac29ed5ab142ba1/lambkid-0.0.8.tar.gz
+[2024-04-02 08:24:31] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/33/54/fbfd45a4fb41d8b66f36352431290c2cba86473e4343407624c12bff9d4a/airbyte-0.8.2.tar.gz
+[2024-04-02 08:24:31] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/9a/3d/d442520364267c43ded169b0ff26fe9c9193ecc14f617173ccdc52ccd94c/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl
+[2024-04-02 08:24:31] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/e1/11/2e72a5cd35711ec79c524c674ed81e720a0da119a8b0f30fc5761c6d4483/wakautosolver-2024.4.3-py3-none-any.whl
+[2024-04-02 08:24:31] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/4f/e8/fe3ffb0ac4fb24b3455167d57cb2cd8ab326fbb2f862aab16c13d38fde49/lambkid-0.0.9.tar.gz
+[2024-04-02 08:24:31] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/ed/18/f77709c6cebd4906bef97cccfc26cc73ddd54dddac01e89c017a1e956a9e/airbyte-0.8.3.tar.gz
+[2024-04-02 08:24:31] INFO root fetch - processPackages [odoo-addon-web-notify]: Downloading https://files.pythonhosted.org/packages/9d/30/57c1f456f8eaf5a4f0fce9bff84cec48e1f6867d18a316d8297bccd7394c/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl
+[2024-04-02 08:24:31] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-02 08:24:31] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.0.8.tar.gz tmp/lambkid-0.0.9.tar.gz --markdown 20240402/l/lambkid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 08:24:31] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2024-04-02 08:24:31] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-0.8.2.tar.gz tmp/airbyte-0.8.3.tar.gz --markdown 20240402/a/airbyte/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2024-04-02 08:24:31] INFO root fetch - processPackages [odoo-addon-web-notify]: executing diffoscope
+[2024-04-02 08:24:31] INFO root fetch - processPackages [odoo-addon-web-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-web-notify/16.0.1.0.1-16.0.2.0.0/diff.md --exclude *.pyd
+[2024-04-02 08:24:31] INFO root fetch - processPackages [wakautosolver]: Downloading https://files.pythonhosted.org/packages/f6/24/8b6f908d53f4388916c812469788da06461dd4deed7e72de4a10e33fe72b/wakautosolver-2024.4.4-py3-none-any.whl
+[2024-04-02 08:24:31] INFO root fetch - processPackages [wakautosolver]: executing diffoscope
+[2024-04-02 08:24:31] INFO root fetch - processPackages [wakautosolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wakautosolver-2024.4.3-py3-none-any.whl.zip tmp/wakautosolver-2024.4.4-py3-none-any.whl.zip --markdown 20240402/w/wakautosolver/2024.4.3-2024.4.4/diff.md --exclude *.pyd
+[2024-04-02 08:24:32] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.8.tar.gz]
+[2024-04-02 08:24:32] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.9.tar.gz]
+[2024-04-02 08:24:32] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-02 08:24:32] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.2.tar.gz]
+[2024-04-02 08:24:32] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.3.tar.gz]
+[2024-04-02 08:24:32] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2024-04-02 08:24:32] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.1.0.1-py3-none-any.whl.zip]
+[2024-04-02 08:24:32] INFO root fetch - processPackages [odoo-addon-web-notify]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_notify-16.0.2.0.0-py3-none-any.whl.zip]
+[2024-04-02 08:24:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-notify]: success
+[2024-04-02 08:24:32] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.3-py3-none-any.whl.zip]
+[2024-04-02 08:24:32] INFO root fetch - processPackages [wakautosolver]: Remove: archive file [/home/abi/fetcher/tmp/wakautosolver-2024.4.4-py3-none-any.whl.zip]
+[2024-04-02 08:24:32] INFO root fetch - main [MainThread]: End processing [wakautosolver]: success
+[2024-04-02 08:24:32] INFO root fetch - main [MainThread]: Store serial: [22581210]
