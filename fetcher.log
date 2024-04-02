@@ -15376,3 +15376,84 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:04:47] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-1.0.1b20240402.tar.gz]
 [2024-04-02 11:04:47] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
 [2024-04-02 11:04:47] INFO root fetch - main [MainThread]: Store serial: [22582554]
+[2024-04-02 11:06:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582554]
+[2024-04-02 11:06:57] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: autogluon.tabular
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydantic-gbnf-grammar-generator
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: autogluon.multimodal
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: autogluon.timeseries
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: autogluon
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zlcyun
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scenario-execution
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LinkMLFormbuilder
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: inmanta
+[2024-04-02 11:06:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: inmanta-core
+[2024-04-02 11:06:58] WARNING root fetch - processPackages [zlcyun]: Skipping, unable to determine old version
+[2024-04-02 11:06:58] INFO root fetch - main [MainThread]: End processing [zlcyun] error
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: New version: [1.0.1b20240402] Old Version: [1.0.1b20240401]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon]: New version: [1.0.1b20240401] Old Version: [1.0.1b20240331]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: New version: [1.0.1b20240402] Old Version: [1.0.1b20240401]
+[2024-04-02 11:06:58] WARNING root fetch - processPackages [pydantic-gbnf-grammar-generator]: Skipping, unable to determine old version
+[2024-04-02 11:06:58] INFO root fetch - main [MainThread]: End processing [pydantic-gbnf-grammar-generator] error
+[2024-04-02 11:06:58] INFO root fetch - processPackages [LinkMLFormbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [scenario-execution]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [inmanta]: New version: [2024.2] Old Version: [2024.1.2]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [inmanta-core]: New version: [9.3.0] Old Version: [8.7.4]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.timeseries]: New version: [1.0.1b20240402] Old Version: [1.0.1b20240401]
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/36/af/c45e2659f8635bd9063c0cd3d97b3f6b77ebf011c7d36cfc511c5a1389e0/autogluon.multimodal-1.0.1b20240401.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/95/22/c7810ae7a660318c704b2d99d350e7ff07e2a9fd07b3334996643e35c1ab/autogluon.tabular-1.0.1b20240401.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/be/75/3c61d7f1e8df8bd0d8fd82f924606fa6566e6bdbf4904c2317a43483aa19/autogluon-1.0.1b20240331.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [scenario-execution]: Downloading https://files.pythonhosted.org/packages/5e/24/c6852681e29f087580a4ca2daf5211446465e8676c54a0991dbef1e1f234/scenario-execution-1.0.0.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/9f/77/4f24b414f89762253dbe110f07c89cc67da25ba3c36be0a73100a63b88c1/autogluon.timeseries-1.0.1b20240401.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [inmanta]: Downloading https://files.pythonhosted.org/packages/3d/b9/4769b2b948d451118667c8667c85679c7e0b9066dc6395d8ac5b370bd0d7/inmanta-2024.1.2.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [LinkMLFormbuilder]: Downloading https://files.pythonhosted.org/packages/c2/a9/eb023f249e41fb16db3267d6c9575d1735af0505eeb46ce2ede8a87312a7/linkmlformbuilder-0.1.8.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [inmanta-core]: Downloading https://files.pythonhosted.org/packages/77/fa/8386bfcf1a223a046251fb6684bce45f4c5a6dc75b5cccce0fc0dc438174/inmanta-core-8.7.4.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/6a/d0/386bad3388f520d19959620f9d4bbde155649d00db13a86d95c9d224e43b/autogluon-1.0.1b20240401.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/b2/53/41e4ea4bc0063c71cdc336dbeb5b8e56c5716bba7665eaffa81568e89ce6/autogluon.timeseries-1.0.1b20240402.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [inmanta]: Downloading https://files.pythonhosted.org/packages/68/f3/b86c0923573885690cecf7cf667fa4126204df0905cb3169674a26e59f7d/inmanta-2024.2.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/22/04/68180fb41c1c7a61bdb4e56c481ec7a1bbbaa87cd77fbeeb139833fb6dec/autogluon.tabular-1.0.1b20240402.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/32/b7/cbbe5184e68766546ac9ca74719c5bdfb322e70ec283076e9efb17a44ec1/autogluon.multimodal-1.0.1b20240402.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [scenario-execution]: Downloading https://files.pythonhosted.org/packages/60/9c/b23e5d9cfeb1754c839023bf9d92a8ed64b60917f50eee056478a443443e/scenario_execution-1.1.0.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [LinkMLFormbuilder]: Downloading https://files.pythonhosted.org/packages/ac/0a/ca2a741672f4434a388e5890c41a516729a4f14633333de9cf770467b18a/linkmlformbuilder-0.1.9.tar.gz
+[2024-04-02 11:06:58] INFO root fetch - processPackages [inmanta-core]: Downloading https://files.pythonhosted.org/packages/86/f6/6ef8a66268f93f28019472acba04a564c30685b0b259f2e0725ad1aabc8b/inmanta-core-9.3.0.tar.gz
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-1.0.1b20240331.tar.gz tmp/autogluon-1.0.1b20240401.tar.gz --markdown 20240402/a/autogluon/1.0.1b20240331-1.0.1b20240401/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-1.0.1b20240401.tar.gz tmp/autogluon.timeseries-1.0.1b20240402.tar.gz --markdown 20240402/a/autogluon.timeseries/1.0.1b20240401-1.0.1b20240402/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-1.0.1b20240401.tar.gz tmp/autogluon.tabular-1.0.1b20240402.tar.gz --markdown 20240402/a/autogluon.tabular/1.0.1b20240401-1.0.1b20240402/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-1.0.1b20240401.tar.gz tmp/autogluon.multimodal-1.0.1b20240402.tar.gz --markdown 20240402/a/autogluon.multimodal/1.0.1b20240401-1.0.1b20240402/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [scenario-execution]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [scenario-execution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scenario-execution-1.0.0.tar.gz tmp/scenario_execution-1.1.0.tar.gz --markdown 20240402/s/scenario-execution/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [inmanta]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [inmanta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-2024.1.2.tar.gz tmp/inmanta-2024.2.tar.gz --markdown 20240402/i/inmanta/2024.1.2-2024.2/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [LinkMLFormbuilder]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [LinkMLFormbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkmlformbuilder-0.1.8.tar.gz tmp/linkmlformbuilder-0.1.9.tar.gz --markdown 20240402/L/LinkMLFormbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [inmanta-core]: executing diffoscope
+[2024-04-02 11:06:59] INFO root fetch - processPackages [inmanta-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inmanta-core-8.7.4.tar.gz tmp/inmanta-core-9.3.0.tar.gz --markdown 20240402/i/inmanta-core/8.7.4-9.3.0/diff.md --exclude *.pyd
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.0.1b20240331.tar.gz]
+[2024-04-02 11:06:59] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-1.0.1b20240401.tar.gz]
+[2024-04-02 11:06:59] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2024-04-02 11:06:59] INFO root fetch - processPackages [inmanta]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-2024.1.2.tar.gz]
+[2024-04-02 11:06:59] INFO root fetch - processPackages [inmanta]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-2024.2.tar.gz]
+[2024-04-02 11:06:59] INFO root fetch - main [MainThread]: End processing [inmanta]: success
+[2024-04-02 11:07:00] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.0.1b20240401.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-1.0.1b20240402.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2024-04-02 11:07:00] INFO root fetch - processPackages [LinkMLFormbuilder]: Remove: archive file [/home/abi/fetcher/tmp/linkmlformbuilder-0.1.8.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - processPackages [LinkMLFormbuilder]: Remove: archive file [/home/abi/fetcher/tmp/linkmlformbuilder-0.1.9.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - main [MainThread]: End processing [LinkMLFormbuilder]: success
+[2024-04-02 11:07:00] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240401.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-1.0.1b20240402.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2024-04-02 11:07:00] INFO root fetch - processPackages [scenario-execution]: Remove: archive file [/home/abi/fetcher/tmp/scenario-execution-1.0.0.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - processPackages [scenario-execution]: Remove: archive file [/home/abi/fetcher/tmp/scenario_execution-1.1.0.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - main [MainThread]: End processing [scenario-execution]: success
+[2024-04-02 11:07:00] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240401.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-1.0.1b20240402.tar.gz]
+[2024-04-02 11:07:00] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2024-04-02 11:07:02] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-8.7.4.tar.gz]
+[2024-04-02 11:07:02] INFO root fetch - processPackages [inmanta-core]: Remove: archive file [/home/abi/fetcher/tmp/inmanta-core-9.3.0.tar.gz]
+[2024-04-02 11:07:02] INFO root fetch - main [MainThread]: End processing [inmanta-core]: success
+[2024-04-02 11:07:02] INFO root fetch - main [MainThread]: Store serial: [22582582]
