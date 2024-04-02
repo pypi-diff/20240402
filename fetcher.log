@@ -12079,3 +12079,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:42:21] WARNING root fetch - processPackages [poll_schumann]: Skipping, unable to determine old version
 [2024-04-02 08:42:21] INFO root fetch - main [MainThread]: End processing [poll_schumann] error
 [2024-04-02 08:42:21] INFO root fetch - main [MainThread]: Store serial: [22581308]
+[2024-04-02 08:44:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581308]
+[2024-04-02 08:44:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 08:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ya360
+[2024-04-02 08:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yunxiao
+[2024-04-02 08:44:29] INFO root fetch - processPackages [ya360]: New version: [3.4.0] Old Version: [3.3.0]
+[2024-04-02 08:44:29] INFO root fetch - processPackages [yunxiao]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-02 08:44:30] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/a8/df/71cd7fd89bcde406a00bd6dbbf9431904e54fd9ed14fce290e412288bcae/ya360-3.3.0.tar.gz
+[2024-04-02 08:44:30] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/58/53/c587ecdbf41a03f60386a5796fbb1f3922d42c5a6afbd739e3e887a173b8/yunxiao-0.4.9.tar.gz
+[2024-04-02 08:44:30] INFO root fetch - processPackages [ya360]: Downloading https://files.pythonhosted.org/packages/e4/4b/9d97419135a1f8358a2536f2b6240136d6eccf8b8f7c2e12f0f6282f3007/ya360-3.4.0.tar.gz
+[2024-04-02 08:44:30] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/16/7d/d9ae5d612cc77a2a0bdfe109678cafdf24d5164e9545a456b87018f0e14e/yunxiao-0.5.0.tar.gz
+[2024-04-02 08:44:30] INFO root fetch - processPackages [ya360]: executing diffoscope
+[2024-04-02 08:44:30] INFO root fetch - processPackages [ya360]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ya360-3.3.0.tar.gz tmp/ya360-3.4.0.tar.gz --markdown 20240402/y/ya360/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2024-04-02 08:44:30] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-04-02 08:44:30] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.4.9.tar.gz tmp/yunxiao-0.5.0.tar.gz --markdown 20240402/y/yunxiao/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2024-04-02 08:44:31] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.4.9.tar.gz]
+[2024-04-02 08:44:31] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.0.tar.gz]
+[2024-04-02 08:44:31] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-04-02 08:44:31] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.3.0.tar.gz]
+[2024-04-02 08:44:31] INFO root fetch - processPackages [ya360]: Remove: archive file [/home/abi/fetcher/tmp/ya360-3.4.0.tar.gz]
+[2024-04-02 08:44:31] INFO root fetch - main [MainThread]: End processing [ya360]: success
+[2024-04-02 08:44:31] INFO root fetch - main [MainThread]: Store serial: [22581314]
