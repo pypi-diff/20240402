@@ -11127,3 +11127,33 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:31:44] INFO root fetch - processPackages [data4co]: Remove: archive file [/home/abi/fetcher/tmp/data4co-0.0.1a9.tar.gz]
 [2024-04-02 07:31:44] INFO root fetch - main [MainThread]: End processing [data4co]: success
 [2024-04-02 07:31:44] INFO root fetch - main [MainThread]: Store serial: [22580929]
+[2024-04-02 07:33:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580929]
+[2024-04-02 07:33:52] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 07:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dolbaram
+[2024-04-02 07:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atap-corpus-loader
+[2024-04-02 07:33:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lambkid
+[2024-04-02 07:33:53] INFO root fetch - processPackages [lambkid]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 07:33:53] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/a4/1d/a402c5f85ef6696c76f47780a2a9b4a6d1e22f67e018fac29ed5ab142ba1/lambkid-0.0.8.tar.gz
+[2024-04-02 07:33:53] INFO root fetch - processPackages [dolbaram]: New version: [0.2.1] Old Version: [0.2.0]
+[2024-04-02 07:33:53] INFO root fetch - processPackages [atap-corpus-loader]: New version: [1.3.0] Old Version: [1.2.3]
+[2024-04-02 07:33:53] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/aa/fc/edd24ab03fa57bc82f8e2f672e0bfbd3d435a9d6ce67fdd40c87e16736ae/dolbaram-0.2.0.tar.gz
+[2024-04-02 07:33:53] INFO root fetch - processPackages [lambkid]: Downloading https://files.pythonhosted.org/packages/4f/e8/fe3ffb0ac4fb24b3455167d57cb2cd8ab326fbb2f862aab16c13d38fde49/lambkid-0.0.9.tar.gz
+[2024-04-02 07:33:53] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/95/80/77b04f25835f7e6cac69747ac96be2726dcfc9a15783ce5e4fce3e59abf2/atap_corpus_loader-1.2.3.tar.gz
+[2024-04-02 07:33:53] INFO root fetch - processPackages [lambkid]: executing diffoscope
+[2024-04-02 07:33:53] INFO root fetch - processPackages [lambkid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lambkid-0.0.8.tar.gz tmp/lambkid-0.0.9.tar.gz --markdown 20240402/l/lambkid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 07:33:53] INFO root fetch - processPackages [dolbaram]: Downloading https://files.pythonhosted.org/packages/9d/c1/8f9a788ca36244b5c0cc3c536ccd191da950674cd6a84b10521340a3d0a9/dolbaram-0.2.1.tar.gz
+[2024-04-02 07:33:53] INFO root fetch - processPackages [atap-corpus-loader]: Downloading https://files.pythonhosted.org/packages/aa/8b/22d9de7b9ce73c73581d28966502819dc42bcb230a03db1bca50adae2985/atap_corpus_loader-1.3.0.tar.gz
+[2024-04-02 07:33:53] INFO root fetch - processPackages [dolbaram]: executing diffoscope
+[2024-04-02 07:33:53] INFO root fetch - processPackages [dolbaram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dolbaram-0.2.0.tar.gz tmp/dolbaram-0.2.1.tar.gz --markdown 20240402/d/dolbaram/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2024-04-02 07:33:53] INFO root fetch - processPackages [atap-corpus-loader]: executing diffoscope
+[2024-04-02 07:33:53] INFO root fetch - processPackages [atap-corpus-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atap_corpus_loader-1.2.3.tar.gz tmp/atap_corpus_loader-1.3.0.tar.gz --markdown 20240402/a/atap-corpus-loader/1.2.3-1.3.0/diff.md --exclude *.pyd
+[2024-04-02 07:33:54] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.8.tar.gz]
+[2024-04-02 07:33:54] INFO root fetch - processPackages [lambkid]: Remove: archive file [/home/abi/fetcher/tmp/lambkid-0.0.9.tar.gz]
+[2024-04-02 07:33:54] INFO root fetch - main [MainThread]: End processing [lambkid]: success
+[2024-04-02 07:33:54] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.0.tar.gz]
+[2024-04-02 07:33:54] INFO root fetch - processPackages [dolbaram]: Remove: archive file [/home/abi/fetcher/tmp/dolbaram-0.2.1.tar.gz]
+[2024-04-02 07:33:54] INFO root fetch - main [MainThread]: End processing [dolbaram]: success
+[2024-04-02 07:33:54] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.2.3.tar.gz]
+[2024-04-02 07:33:54] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.3.0.tar.gz]
+[2024-04-02 07:33:54] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
+[2024-04-02 07:33:54] INFO root fetch - main [MainThread]: Store serial: [22580939]
