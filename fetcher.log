@@ -10500,3 +10500,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:40:17] INFO root fetch - processPackages [sleipnirgroup-jormungandr]: Remove: archive file [/home/abi/fetcher/tmp/sleipnirgroup_jormungandr-0.0.1.dev98.tar.gz]
 [2024-04-02 06:40:17] INFO root fetch - main [MainThread]: End processing [sleipnirgroup-jormungandr]: success
 [2024-04-02 06:40:17] INFO root fetch - main [MainThread]: Store serial: [22580659]
+[2024-04-02 06:42:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580659]
+[2024-04-02 06:42:26] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GPTparser
+[2024-04-02 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spiceai
+[2024-04-02 06:42:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sc-file
+[2024-04-02 06:42:26] INFO root fetch - processPackages [sc-file]: New version: [3.0.5] Old Version: [3.0.4]
+[2024-04-02 06:42:26] INFO root fetch - processPackages [spiceai]: New version: [0.1.0] Old Version: [0.0.1]
+[2024-04-02 06:42:26] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/d2/38/2388a3bb04c919ac20d5af50246f3c53da0bb9bcc467ac633b15bb862d14/sc_file-3.0.4.tar.gz
+[2024-04-02 06:42:26] WARNING root fetch - processPackages [GPTparser]: Skipping, unable to determine old version
+[2024-04-02 06:42:26] INFO root fetch - main [MainThread]: End processing [GPTparser] error
+[2024-04-02 06:42:26] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/3e/3e/ecd8c6994eb43bafd323786c093a94d1019545ee521dc738c1f9b8285e22/spiceai-0.0.1.tar.gz
+[2024-04-02 06:42:26] INFO root fetch - processPackages [sc-file]: Downloading https://files.pythonhosted.org/packages/dc/6f/010daa0dec590ec8ab8b780f3f79ea69856bcf65a17633b2fb2ffdaf6887/sc_file-3.0.5.tar.gz
+[2024-04-02 06:42:26] INFO root fetch - processPackages [spiceai]: Downloading https://files.pythonhosted.org/packages/ea/6c/b9e1db305cb3735254b7a966c99bb3f37e5a0483f1b8acddb865200d6bf8/spiceai-0.1.0.tar.gz
+[2024-04-02 06:42:26] INFO root fetch - processPackages [sc-file]: executing diffoscope
+[2024-04-02 06:42:26] INFO root fetch - processPackages [sc-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sc_file-3.0.4.tar.gz tmp/sc_file-3.0.5.tar.gz --markdown 20240402/s/sc-file/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2024-04-02 06:42:26] INFO root fetch - processPackages [spiceai]: executing diffoscope
+[2024-04-02 06:42:26] INFO root fetch - processPackages [spiceai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiceai-0.0.1.tar.gz tmp/spiceai-0.1.0.tar.gz --markdown 20240402/s/spiceai/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2024-04-02 06:42:27] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.0.1.tar.gz]
+[2024-04-02 06:42:27] INFO root fetch - processPackages [spiceai]: Remove: archive file [/home/abi/fetcher/tmp/spiceai-0.1.0.tar.gz]
+[2024-04-02 06:42:27] INFO root fetch - main [MainThread]: End processing [spiceai]: success
+[2024-04-02 06:42:27] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.0.4.tar.gz]
+[2024-04-02 06:42:27] INFO root fetch - processPackages [sc-file]: Remove: archive file [/home/abi/fetcher/tmp/sc_file-3.0.5.tar.gz]
+[2024-04-02 06:42:27] INFO root fetch - main [MainThread]: End processing [sc-file]: success
+[2024-04-02 06:42:27] INFO root fetch - main [MainThread]: Store serial: [22580670]
