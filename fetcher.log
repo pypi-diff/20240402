@@ -12168,3 +12168,30 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:51:03] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.2.tar.gz]
 [2024-04-02 08:51:03] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
 [2024-04-02 08:51:03] INFO root fetch - main [MainThread]: Store serial: [22581331]
+[2024-04-02 08:53:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581331]
+[2024-04-02 08:53:11] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 08:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: catnekaise.ghrawel
+[2024-04-02 08:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: radosdb
+[2024-04-02 08:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: irisml-tasks-ultralytics
+[2024-04-02 08:53:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioimageio-chatbot
+[2024-04-02 08:53:12] WARNING root fetch - processPackages [radosdb]: Skipping, unable to determine old version
+[2024-04-02 08:53:12] INFO root fetch - main [MainThread]: End processing [radosdb] error
+[2024-04-02 08:53:12] INFO root fetch - processPackages [catnekaise.ghrawel]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 08:53:12] WARNING root fetch - processPackages [irisml-tasks-ultralytics]: Skipping, unable to determine old version
+[2024-04-02 08:53:12] INFO root fetch - main [MainThread]: End processing [irisml-tasks-ultralytics] error
+[2024-04-02 08:53:12] INFO root fetch - processPackages [bioimageio-chatbot]: New version: [0.1.9] Old Version: [0.1.86]
+[2024-04-02 08:53:12] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/b3/f0/12605cefe35814b5a8764a59f0e1e92c3db19a5455e1677b7e9127332839/catnekaise.ghrawel-0.0.7.tar.gz
+[2024-04-02 08:53:12] INFO root fetch - processPackages [bioimageio-chatbot]: Downloading https://files.pythonhosted.org/packages/19/3d/6fdf681edbcef0b8089a155fb5ac4dd01c26d236cc9dc85ba0e75fef87b7/bioimageio-chatbot-0.1.86.tar.gz
+[2024-04-02 08:53:12] INFO root fetch - processPackages [catnekaise.ghrawel]: Downloading https://files.pythonhosted.org/packages/e9/c2/500013a94a1e22cd97723549da88e5f9a837b79f68f80e8cd81b1f54c726/catnekaise.ghrawel-0.0.8.tar.gz
+[2024-04-02 08:53:12] INFO root fetch - processPackages [catnekaise.ghrawel]: executing diffoscope
+[2024-04-02 08:53:12] INFO root fetch - processPackages [catnekaise.ghrawel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/catnekaise.ghrawel-0.0.7.tar.gz tmp/catnekaise.ghrawel-0.0.8.tar.gz --markdown 20240402/c/catnekaise.ghrawel/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 08:53:12] INFO root fetch - processPackages [bioimageio-chatbot]: Downloading https://files.pythonhosted.org/packages/46/24/3d75cc49c62134f17ff70233ecff68a22210ad57197e61afdf38567d13c7/bioimageio-chatbot-0.1.9.tar.gz
+[2024-04-02 08:53:12] INFO root fetch - processPackages [bioimageio-chatbot]: executing diffoscope
+[2024-04-02 08:53:12] INFO root fetch - processPackages [bioimageio-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioimageio-chatbot-0.1.86.tar.gz tmp/bioimageio-chatbot-0.1.9.tar.gz --markdown 20240402/b/bioimageio-chatbot/0.1.86-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 08:53:13] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.7.tar.gz]
+[2024-04-02 08:53:13] INFO root fetch - processPackages [catnekaise.ghrawel]: Remove: archive file [/home/abi/fetcher/tmp/catnekaise.ghrawel-0.0.8.tar.gz]
+[2024-04-02 08:53:13] INFO root fetch - main [MainThread]: End processing [catnekaise.ghrawel]: success
+[2024-04-02 08:53:13] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.86.tar.gz]
+[2024-04-02 08:53:13] INFO root fetch - processPackages [bioimageio-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/bioimageio-chatbot-0.1.9.tar.gz]
+[2024-04-02 08:53:13] INFO root fetch - main [MainThread]: End processing [bioimageio-chatbot]: success
+[2024-04-02 08:53:13] INFO root fetch - main [MainThread]: Store serial: [22581346]
