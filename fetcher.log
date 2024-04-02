@@ -12545,3 +12545,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:14:20] INFO root fetch - processPackages [PyPartMC]: Remove: archive file [/home/abi/fetcher/tmp/PyPartMC-1.1.4.tar.gz]
 [2024-04-02 09:14:20] INFO root fetch - main [MainThread]: End processing [PyPartMC]: success
 [2024-04-02 09:14:20] INFO root fetch - main [MainThread]: Store serial: [22581489]
+[2024-04-02 09:16:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581489]
+[2024-04-02 09:16:30] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AppWrapper
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-green20170823
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radosdb
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wagtail-fedit
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: d-fake-seeder
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ngdb
+[2024-04-02 09:16:30] INFO root fetch - processPackages [AppWrapper]: New version: [0.2.5] Old Version: [0.2.4a0]
+[2024-04-02 09:16:30] INFO root fetch - processPackages [wagtail-fedit]: New version: [1.0.2] Old Version: [1.0.1]
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ngdb]: New version: [0.6.1] Old Version: [0.6.0]
+[2024-04-02 09:16:30] INFO root fetch - processPackages [radosdb]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 09:16:30] INFO root fetch - processPackages [alibabacloud-green20170823]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 09:16:30] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/3c/a9/e59bf892d853d587a4a514ee6a53f1241b984e23eb90a85ccc5fd97091ab/AppWrapper-0.2.4a0.tar.gz
+[2024-04-02 09:16:30] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 09:16:30] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/60/7f/2aa28865c731d879de8a29d763229975a2300587ad41995908a0ee55b78d/wagtail_fedit-1.0.1.tar.gz
+[2024-04-02 09:16:30] INFO root fetch - processPackages [ngdb]: Downloading https://files.pythonhosted.org/packages/13/a1/5c516788ce1aa3d68e2bd4fc98b2e9a4489dc7c1bc343f18b82992667020/ngdb-0.6.0.tar.gz
+[2024-04-02 09:16:30] INFO root fetch - processPackages [radosdb]: Downloading https://files.pythonhosted.org/packages/51/46/d3abc4df23b048dff8009998ef9094fe4bea45ccf9b01995043e44a4b26c/radosdb-0.1.1.tar.gz
+[2024-04-02 09:16:30] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 09:16:30] INFO root fetch - processPackages [alibabacloud-green20170823]: Downloading https://files.pythonhosted.org/packages/5f/e0/659259c47add1c401802e92dca3e04ea91027b5d47a952f478d86e12459a/alibabacloud_green20170823-1.0.0.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [ngdb]: Downloading https://files.pythonhosted.org/packages/e3/30/bc8a8562298481c62bcdc372230c4fbbe41e1e98a4297714ce0399432037/ngdb-0.6.1.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [radosdb]: Downloading https://files.pythonhosted.org/packages/d0/30/2a744d2c2fed5c46fdc32532b0bc130c140a8eb0f0790e1ef21ac05054f3/radosdb-0.1.2.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [wagtail-fedit]: Downloading https://files.pythonhosted.org/packages/91/eb/ab2e4cf87163d516bb180a00c9656bc49c5158d527c851782ecb7fa395e9/wagtail_fedit-1.0.2.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [AppWrapper]: Downloading https://files.pythonhosted.org/packages/41/92/d5af932a875fabf36aad5d8652a2987071ed725be04abc463894cfcce6e5/AppWrapper-0.2.5.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [radosdb]: executing diffoscope
+[2024-04-02 09:16:31] INFO root fetch - processPackages [radosdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/radosdb-0.1.1.tar.gz tmp/radosdb-0.1.2.tar.gz --markdown 20240402/r/radosdb/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 09:16:31] INFO root fetch - processPackages [ngdb]: executing diffoscope
+[2024-04-02 09:16:31] INFO root fetch - processPackages [ngdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ngdb-0.6.0.tar.gz tmp/ngdb-0.6.1.tar.gz --markdown 20240402/n/ngdb/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2024-04-02 09:16:31] INFO root fetch - processPackages [alibabacloud-green20170823]: Downloading https://files.pythonhosted.org/packages/f9/af/e803edd21e868d864a4f99596f1c8ad8949f66a6a72ff42ba89847d442f1/alibabacloud_green20170823-1.0.1.tar.gz
+[2024-04-02 09:16:31] INFO root fetch - processPackages [AppWrapper]: executing diffoscope
+[2024-04-02 09:16:31] INFO root fetch - processPackages [AppWrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AppWrapper-0.2.4a0.tar.gz tmp/AppWrapper-0.2.5.tar.gz --markdown 20240402/A/AppWrapper/0.2.4a0-0.2.5/diff.md --exclude *.pyd
+[2024-04-02 09:16:31] INFO root fetch - processPackages [wagtail-fedit]: executing diffoscope
+[2024-04-02 09:16:31] INFO root fetch - processPackages [wagtail-fedit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail_fedit-1.0.1.tar.gz tmp/wagtail_fedit-1.0.2.tar.gz --markdown 20240402/w/wagtail-fedit/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:16:31] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 09:16:31] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:16:31] INFO root fetch - processPackages [alibabacloud-green20170823]: executing diffoscope
+[2024-04-02 09:16:31] INFO root fetch - processPackages [alibabacloud-green20170823]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_green20170823-1.0.0.tar.gz tmp/alibabacloud_green20170823-1.0.1.tar.gz --markdown 20240402/a/alibabacloud-green20170823/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 09:16:31] INFO root fetch - processPackages [radosdb]: Remove: archive file [/home/abi/fetcher/tmp/radosdb-0.1.1.tar.gz]
+[2024-04-02 09:16:31] INFO root fetch - processPackages [radosdb]: Remove: archive file [/home/abi/fetcher/tmp/radosdb-0.1.2.tar.gz]
+[2024-04-02 09:16:31] INFO root fetch - main [MainThread]: End processing [radosdb]: success
+[2024-04-02 09:16:31] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.4a0.tar.gz]
+[2024-04-02 09:16:31] INFO root fetch - processPackages [AppWrapper]: Remove: archive file [/home/abi/fetcher/tmp/AppWrapper-0.2.5.tar.gz]
+[2024-04-02 09:16:31] INFO root fetch - main [MainThread]: End processing [AppWrapper]: success
+[2024-04-02 09:16:32] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.0.1.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - processPackages [wagtail-fedit]: Remove: archive file [/home/abi/fetcher/tmp/wagtail_fedit-1.0.2.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - main [MainThread]: End processing [wagtail-fedit]: success
+[2024-04-02 09:16:32] INFO root fetch - processPackages [ngdb]: Remove: archive file [/home/abi/fetcher/tmp/ngdb-0.6.0.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - processPackages [ngdb]: Remove: archive file [/home/abi/fetcher/tmp/ngdb-0.6.1.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - main [MainThread]: End processing [ngdb]: success
+[2024-04-02 09:16:32] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 09:16:32] INFO root fetch - processPackages [alibabacloud-green20170823]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_green20170823-1.0.0.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - processPackages [alibabacloud-green20170823]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_green20170823-1.0.1.tar.gz]
+[2024-04-02 09:16:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-green20170823]: success
+[2024-04-02 09:16:32] INFO root fetch - main [MainThread]: Store serial: [22581505]
