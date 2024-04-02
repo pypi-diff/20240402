@@ -18218,3 +18218,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:05:32] INFO root fetch - processPackages [funga-eth]: Remove: archive file [/home/abi/fetcher/tmp/funga-eth-0.8.0.tar.gz]
 [2024-04-02 13:05:32] INFO root fetch - main [MainThread]: End processing [funga-eth]: success
 [2024-04-02 13:05:32] INFO root fetch - main [MainThread]: Store serial: [22583799]
+[2024-04-02 13:07:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583799]
+[2024-04-02 13:07:42] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: obsarray
+[2024-04-02 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: polarismesh-specification
+[2024-04-02 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: prem-utils
+[2024-04-02 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestpython
+[2024-04-02 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testingcgsdk
+[2024-04-02 13:07:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: muti.numer
+[2024-04-02 13:07:42] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:07:42] INFO root fetch - processPackages [nestpython]: New version: [0.3.3] Old Version: [0.3.2]
+[2024-04-02 13:07:42] INFO root fetch - processPackages [muti.numer]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 13:07:42] INFO root fetch - processPackages [polarismesh-specification]: New version: [1.5.0] Old Version: [1.4.2a9]
+[2024-04-02 13:07:42] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 13:07:42] INFO root fetch - processPackages [obsarray]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-02 13:07:42] INFO root fetch - processPackages [prem-utils]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 13:07:42] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/29/a9/b8468f668779bbbad1ef8b02537eede3b7ad742b21a34edc45fc17d9b4c3/muti.numer-0.0.7.tar.gz
+[2024-04-02 13:07:42] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/5e/9d/d6e1928ad6a8e536fd302b76eed881a7df4694ba998383622be7f9b23906/nestpython-0.3.2.tar.gz
+[2024-04-02 13:07:42] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/2c/ba/a46c36fa8b72dd05fd762a5fdfaaeeec538287c00e67fa421ecdc21e1a79/polarismesh_specification-1.4.2a9.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [obsarray]: Downloading https://files.pythonhosted.org/packages/06/f6/757e392c6d9f1e2def7780e916e6e368e65237cdc1d43150fef858a504e7/obsarray-0.2.6.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/0b/c2/ef6412c36b4879b14a69ad4cafc10a7cc7f017db696d2d8e7e978238aaa9/prem-utils-0.0.7.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 13:07:43] INFO root fetch - processPackages [polarismesh-specification]: Downloading https://files.pythonhosted.org/packages/de/37/4355798856690c08df72b99e50210ce0af79ec3137043237c9d11a0ab1a9/polarismesh_specification-1.5.0.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [muti.numer]: Downloading https://files.pythonhosted.org/packages/ad/2d/cac802bba90d18c7231284066d976f973e6ac013fc538198916f83b7bc73/muti.numer-0.0.8.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [nestpython]: Downloading https://files.pythonhosted.org/packages/3b/93/38e11436213cfe7296b01792059f8e6af46269ddf5582f7d112dd0ed0f9a/nestpython-0.3.3.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 13:07:43] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:07:43] INFO root fetch - processPackages [polarismesh-specification]: executing diffoscope
+[2024-04-02 13:07:43] INFO root fetch - processPackages [polarismesh-specification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/polarismesh_specification-1.4.2a9.tar.gz tmp/polarismesh_specification-1.5.0.tar.gz --markdown 20240402/p/polarismesh-specification/1.4.2a9-1.5.0/diff.md --exclude *.pyd
+[2024-04-02 13:07:43] INFO root fetch - processPackages [muti.numer]: executing diffoscope
+[2024-04-02 13:07:43] INFO root fetch - processPackages [muti.numer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muti.numer-0.0.7.tar.gz tmp/muti.numer-0.0.8.tar.gz --markdown 20240402/m/muti.numer/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 13:07:43] INFO root fetch - processPackages [nestpython]: executing diffoscope
+[2024-04-02 13:07:43] INFO root fetch - processPackages [nestpython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestpython-0.3.2.tar.gz tmp/nestpython-0.3.3.tar.gz --markdown 20240402/n/nestpython/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2024-04-02 13:07:43] INFO root fetch - processPackages [prem-utils]: Downloading https://files.pythonhosted.org/packages/33/0f/fc806fe5db50f59926c6cd92925e6ccc6665f01f20e6ba25faabe2d2211d/prem-utils-0.0.8.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [obsarray]: Downloading https://files.pythonhosted.org/packages/dc/f7/2e55b9be373da0927274326186f25b38019c733f9d397a48a587209cae3f/obsarray-0.2.7.tar.gz
+[2024-04-02 13:07:43] INFO root fetch - processPackages [obsarray]: executing diffoscope
+[2024-04-02 13:07:43] INFO root fetch - processPackages [obsarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obsarray-0.2.6.tar.gz tmp/obsarray-0.2.7.tar.gz --markdown 20240402/o/obsarray/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-02 13:07:44] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 13:07:44] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 13:07:44] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 13:07:44] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.2.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - processPackages [nestpython]: Remove: archive file [/home/abi/fetcher/tmp/nestpython-0.3.3.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - main [MainThread]: End processing [nestpython]: success
+[2024-04-02 13:07:44] INFO root fetch - processPackages [prem-utils]: executing diffoscope
+[2024-04-02 13:07:44] INFO root fetch - processPackages [prem-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prem-utils-0.0.7.tar.gz tmp/prem-utils-0.0.8.tar.gz --markdown 20240402/p/prem-utils/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 13:07:44] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.4.2a9.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - processPackages [polarismesh-specification]: Remove: archive file [/home/abi/fetcher/tmp/polarismesh_specification-1.5.0.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - main [MainThread]: End processing [polarismesh-specification]: success
+[2024-04-02 13:07:44] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.7.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - processPackages [muti.numer]: Remove: archive file [/home/abi/fetcher/tmp/muti.numer-0.0.8.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - main [MainThread]: End processing [muti.numer]: success
+[2024-04-02 13:07:44] INFO root fetch - processPackages [obsarray]: Remove: archive file [/home/abi/fetcher/tmp/obsarray-0.2.6.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - processPackages [obsarray]: Remove: archive file [/home/abi/fetcher/tmp/obsarray-0.2.7.tar.gz]
+[2024-04-02 13:07:44] INFO root fetch - main [MainThread]: End processing [obsarray]: success
+[2024-04-02 13:07:45] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.7.tar.gz]
+[2024-04-02 13:07:45] INFO root fetch - processPackages [prem-utils]: Remove: archive file [/home/abi/fetcher/tmp/prem-utils-0.0.8.tar.gz]
+[2024-04-02 13:07:45] INFO root fetch - main [MainThread]: End processing [prem-utils]: success
+[2024-04-02 13:07:45] INFO root fetch - main [MainThread]: Store serial: [22583815]
