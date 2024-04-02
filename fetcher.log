@@ -13341,3 +13341,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:52:03] INFO root fetch - processPackages [DynamicForms]: Remove: archive file [/home/abi/fetcher/tmp/DynamicForms-0.9.9.tar.gz]
 [2024-04-02 09:52:03] INFO root fetch - main [MainThread]: End processing [DynamicForms]: success
 [2024-04-02 09:52:03] INFO root fetch - main [MainThread]: Store serial: [22581781]
+[2024-04-02 09:54:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581781]
+[2024-04-02 09:54:12] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 09:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OctoPrint-FileCheck
+[2024-04-02 09:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aptos-sdk
+[2024-04-02 09:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-web-calendar-slot-duration
+[2024-04-02 09:54:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-project-base
+[2024-04-02 09:54:12] INFO root fetch - processPackages [OctoPrint-FileCheck]: New version: [2024.3.27] Old Version: [2021.2.23]
+[2024-04-02 09:54:12] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: New version: [17.0.1.0.0.2] Old Version: [16.0.1.0.1.1]
+[2024-04-02 09:54:12] INFO root fetch - processPackages [aptos-sdk]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-02 09:54:12] INFO root fetch - processPackages [django-project-base]: New version: [0.4.9] Old Version: [0.4.8]
+[2024-04-02 09:54:12] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Downloading https://files.pythonhosted.org/packages/b5/43/a9491982af0944b167718ebee3c877de1cfef524cfb028394f39b079c6ae/odoo_addon_web_calendar_slot_duration-16.0.1.0.1.1-py3-none-any.whl
+[2024-04-02 09:54:12] INFO root fetch - processPackages [OctoPrint-FileCheck]: Downloading https://files.pythonhosted.org/packages/f8/97/47913acffa6fe701f6141667dcfca49165daffb5416bdcf7b861b14f5701/OctoPrint-FileCheck-2021.2.23.tar.gz
+[2024-04-02 09:54:13] INFO root fetch - processPackages [aptos-sdk]: Downloading https://files.pythonhosted.org/packages/84/16/cea4847d0972f39ca9c4ae63279d61e275a24daaf44faa34496fc55466b0/aptos_sdk-0.8.5.tar.gz
+[2024-04-02 09:54:13] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5e/80/79b654e965ab524a7a7100a2f70a50f2bb4f45f1d1ba3e84e7ae3304382a/django-project-base-0.4.8.tar.gz
+[2024-04-02 09:54:13] INFO root fetch - processPackages [OctoPrint-FileCheck]: Downloading https://files.pythonhosted.org/packages/9f/eb/0a4dc510e66b8e0e3fea8ca385e1010f284d1043ceea7db184cded4ceb5b/OctoPrint-FileCheck-2024.3.27.tar.gz
+[2024-04-02 09:54:13] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Downloading https://files.pythonhosted.org/packages/6d/90/76f496a89e8b4c1447e76a5ad26f3a1ead75fc49c2fe455de8892db8a4b7/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.2-py3-none-any.whl
+[2024-04-02 09:54:13] INFO root fetch - processPackages [aptos-sdk]: Downloading https://files.pythonhosted.org/packages/13/90/da9a2a56fec19b49cf4a5ebac55e2fa2612414745fd2182a2c7489b3e3ef/aptos_sdk-0.8.6.tar.gz
+[2024-04-02 09:54:13] INFO root fetch - processPackages [django-project-base]: Downloading https://files.pythonhosted.org/packages/5f/7e/cb65b3d5c1084b92a5dc2d9e611005fede46a3436e8936d6efbbdef55efd/django-project-base-0.4.9.tar.gz
+[2024-04-02 09:54:13] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: executing diffoscope
+[2024-04-02 09:54:13] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_calendar_slot_duration-16.0.1.0.1.1-py3-none-any.whl.zip tmp/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.2-py3-none-any.whl.zip --markdown 20240402/o/odoo-addon-web-calendar-slot-duration/16.0.1.0.1.1-17.0.1.0.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:54:13] INFO root fetch - processPackages [OctoPrint-FileCheck]: executing diffoscope
+[2024-04-02 09:54:13] INFO root fetch - processPackages [OctoPrint-FileCheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoPrint-FileCheck-2021.2.23.tar.gz tmp/OctoPrint-FileCheck-2024.3.27.tar.gz --markdown 20240402/O/OctoPrint-FileCheck/2021.2.23-2024.3.27/diff.md --exclude *.pyd
+[2024-04-02 09:54:13] INFO root fetch - processPackages [aptos-sdk]: executing diffoscope
+[2024-04-02 09:54:13] INFO root fetch - processPackages [aptos-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aptos_sdk-0.8.5.tar.gz tmp/aptos_sdk-0.8.6.tar.gz --markdown 20240402/a/aptos-sdk/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2024-04-02 09:54:13] INFO root fetch - processPackages [django-project-base]: executing diffoscope
+[2024-04-02 09:54:13] INFO root fetch - processPackages [django-project-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-project-base-0.4.8.tar.gz tmp/django-project-base-0.4.9.tar.gz --markdown 20240402/d/django-project-base/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2024-04-02 09:54:14] INFO root fetch - processPackages [OctoPrint-FileCheck]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-FileCheck-2021.2.23.tar.gz]
+[2024-04-02 09:54:14] INFO root fetch - processPackages [OctoPrint-FileCheck]: Remove: archive file [/home/abi/fetcher/tmp/OctoPrint-FileCheck-2024.3.27.tar.gz]
+[2024-04-02 09:54:14] INFO root fetch - main [MainThread]: End processing [OctoPrint-FileCheck]: success
+[2024-04-02 09:54:14] INFO root fetch - processPackages [aptos-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aptos_sdk-0.8.5.tar.gz]
+[2024-04-02 09:54:14] INFO root fetch - processPackages [aptos-sdk]: Remove: archive file [/home/abi/fetcher/tmp/aptos_sdk-0.8.6.tar.gz]
+[2024-04-02 09:54:14] INFO root fetch - main [MainThread]: End processing [aptos-sdk]: success
+[2024-04-02 09:54:14] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_calendar_slot_duration-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2024-04-02 09:54:14] INFO root fetch - processPackages [odoo-addon-web-calendar-slot-duration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_calendar_slot_duration-17.0.1.0.0.2-py3-none-any.whl.zip]
+[2024-04-02 09:54:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-calendar-slot-duration]: success
+[2024-04-02 09:54:14] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.8.tar.gz]
+[2024-04-02 09:54:14] INFO root fetch - processPackages [django-project-base]: Remove: archive file [/home/abi/fetcher/tmp/django-project-base-0.4.9.tar.gz]
+[2024-04-02 09:54:14] INFO root fetch - main [MainThread]: End processing [django-project-base]: success
+[2024-04-02 09:54:14] INFO root fetch - main [MainThread]: Store serial: [22581792]
