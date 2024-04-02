@@ -10359,3 +10359,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:28:56] INFO root fetch - processPackages [makdo]: Remove: archive file [/home/abi/fetcher/tmp/makdo-7.2.tar.gz]
 [2024-04-02 06:28:56] INFO root fetch - main [MainThread]: End processing [makdo]: success
 [2024-04-02 06:28:56] INFO root fetch - main [MainThread]: Store serial: [22580606]
+[2024-04-02 06:31:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580606]
+[2024-04-02 06:31:05] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 06:31:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: increff-runner
+[2024-04-02 06:31:05] INFO root fetch - processPackages [increff-runner]: New version: [3.1.6] Old Version: [3.1.5]
+[2024-04-02 06:31:05] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/85/69/dfc87ea27acbf62a4ef9c278cafccebf72ebe7276ec8a85a547c9a437c1b/increff_runner-3.1.5-py3-none-any.whl
+[2024-04-02 06:31:05] INFO root fetch - processPackages [increff-runner]: Downloading https://files.pythonhosted.org/packages/c5/34/617d65904fcf95e73c480ce8f12046e26b56be32764e7cd4952c21338616/increff_runner-3.1.6-py3-none-any.whl
+[2024-04-02 06:31:06] INFO root fetch - processPackages [increff-runner]: executing diffoscope
+[2024-04-02 06:31:06] INFO root fetch - processPackages [increff-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/increff_runner-3.1.5-py3-none-any.whl.zip tmp/increff_runner-3.1.6-py3-none-any.whl.zip --markdown 20240402/i/increff-runner/3.1.5-3.1.6/diff.md --exclude *.pyd
+[2024-04-02 06:31:06] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.5-py3-none-any.whl.zip]
+[2024-04-02 06:31:06] INFO root fetch - processPackages [increff-runner]: Remove: archive file [/home/abi/fetcher/tmp/increff_runner-3.1.6-py3-none-any.whl.zip]
+[2024-04-02 06:31:06] INFO root fetch - main [MainThread]: End processing [increff-runner]: success
+[2024-04-02 06:31:06] INFO root fetch - main [MainThread]: Store serial: [22580608]
