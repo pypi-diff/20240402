@@ -2877,3 +2877,24 @@
 [2024-04-02 02:46:28] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.4.dev202404020044.tar.gz]
 [2024-04-02 02:46:28] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2024-04-02 02:46:28] INFO root fetch - main [MainThread]: Store serial: [22577817]
+[2024-04-02 02:48:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577817]
+[2024-04-02 02:48:36] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 02:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deadline-cloud-test-fixtures
+[2024-04-02 02:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hltv-aio
+[2024-04-02 02:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chiasmodon
+[2024-04-02 02:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tendkid-core-library
+[2024-04-02 02:48:37] WARNING root fetch - processPackages [deadline-cloud-test-fixtures]: Skipping, unable to determine old version
+[2024-04-02 02:48:37] INFO root fetch - processPackages [chiasmodon]: New version: [0.2.9] Old Version: [0.2.8]
+[2024-04-02 02:48:37] INFO root fetch - main [MainThread]: End processing [deadline-cloud-test-fixtures] error
+[2024-04-02 02:48:37] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/e0/56/6de17a813232fc63b6232ec2d9a47efe6691cfed7100c28c80fc35b1d3fc/chiasmodon-0.2.8.tar.gz
+[2024-04-02 02:48:37] WARNING root fetch - processPackages [tendkid-core-library]: Skipping, unable to determine old version
+[2024-04-02 02:48:37] INFO root fetch - main [MainThread]: End processing [tendkid-core-library] error
+[2024-04-02 02:48:37] WARNING root fetch - processPackages [hltv-aio]: Skipping, unable to determine old version
+[2024-04-02 02:48:37] INFO root fetch - main [MainThread]: End processing [hltv-aio] error
+[2024-04-02 02:48:37] INFO root fetch - processPackages [chiasmodon]: Downloading https://files.pythonhosted.org/packages/39/ca/9636306ddc925f952b12f92d304c1925cf1d547e4f6db9438dbeef079b20/chiasmodon-0.2.9.tar.gz
+[2024-04-02 02:48:37] INFO root fetch - processPackages [chiasmodon]: executing diffoscope
+[2024-04-02 02:48:37] INFO root fetch - processPackages [chiasmodon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiasmodon-0.2.8.tar.gz tmp/chiasmodon-0.2.9.tar.gz --markdown 20240402/c/chiasmodon/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2024-04-02 02:48:38] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-0.2.8.tar.gz]
+[2024-04-02 02:48:38] INFO root fetch - processPackages [chiasmodon]: Remove: archive file [/home/abi/fetcher/tmp/chiasmodon-0.2.9.tar.gz]
+[2024-04-02 02:48:38] INFO root fetch - main [MainThread]: End processing [chiasmodon]: success
+[2024-04-02 02:48:38] INFO root fetch - main [MainThread]: Store serial: [22577832]
