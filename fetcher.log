@@ -12602,3 +12602,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:16:32] INFO root fetch - processPackages [alibabacloud-green20170823]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_green20170823-1.0.1.tar.gz]
 [2024-04-02 09:16:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-green20170823]: success
 [2024-04-02 09:16:32] INFO root fetch - main [MainThread]: Store serial: [22581505]
+[2024-04-02 09:18:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581505]
+[2024-04-02 09:18:41] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 09:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e6data-python-connector
+[2024-04-02 09:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: keelson
+[2024-04-02 09:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: yunxiao
+[2024-04-02 09:18:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rockai-cli-app
+[2024-04-02 09:18:41] INFO root fetch - processPackages [yunxiao]: New version: [0.5.0] Old Version: [0.4.9]
+[2024-04-02 09:18:41] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/58/53/c587ecdbf41a03f60386a5796fbb1f3922d42c5a6afbd739e3e887a173b8/yunxiao-0.4.9.tar.gz
+[2024-04-02 09:18:41] INFO root fetch - processPackages [rockai-cli-app]: New version: [0.1.4] Old Version: [0.1.3]
+[2024-04-02 09:18:41] INFO root fetch - processPackages [keelson]: New version: [0.3.0rc5] Old Version: [0.3.0rc3]
+[2024-04-02 09:18:41] INFO root fetch - processPackages [e6data-python-connector]: New version: [2.1.9.dev0] Old Version: [2.1.9]
+[2024-04-02 09:18:41] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/9d/8c/04f4e6e6978cc4b1e1d986c14f79112e8de0be728bd896ef5a01ad3824a0/rockai_cli_app-0.1.3.tar.gz
+[2024-04-02 09:18:41] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/93/5d/c42d16356aa95dcd0faca26e1c890905c74ed62fb895cb6f22778f39120e/keelson-0.3.0rc3-py3-none-any.whl
+[2024-04-02 09:18:41] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/3b/f2/73cc111099ae8f8930a9fa380bcf03f07d762a19907bb84bc1e7fb7f5fa0/e6data-python-connector-2.1.9.tar.gz
+[2024-04-02 09:18:41] INFO root fetch - processPackages [yunxiao]: Downloading https://files.pythonhosted.org/packages/16/7d/d9ae5d612cc77a2a0bdfe109678cafdf24d5164e9545a456b87018f0e14e/yunxiao-0.5.0.tar.gz
+[2024-04-02 09:18:42] INFO root fetch - processPackages [yunxiao]: executing diffoscope
+[2024-04-02 09:18:42] INFO root fetch - processPackages [yunxiao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yunxiao-0.4.9.tar.gz tmp/yunxiao-0.5.0.tar.gz --markdown 20240402/y/yunxiao/0.4.9-0.5.0/diff.md --exclude *.pyd
+[2024-04-02 09:18:42] INFO root fetch - processPackages [rockai-cli-app]: Downloading https://files.pythonhosted.org/packages/5b/32/b8a01b170a84c20763044eb66af9d5ca3b6855775c2232d06debd18e8f25/rockai_cli_app-0.1.4.tar.gz
+[2024-04-02 09:18:42] INFO root fetch - processPackages [e6data-python-connector]: Downloading https://files.pythonhosted.org/packages/d5/3e/179dd9991168c94caa30f75b1bb444c7031b437254db41117b698d316f7f/e6data-python-connector-2.1.9.dev0.tar.gz
+[2024-04-02 09:18:42] INFO root fetch - processPackages [keelson]: Downloading https://files.pythonhosted.org/packages/69/82/f5b4050ea19225eabcb0c32022550b4cb9e0dc1c49122d732405e1d7fa0f/keelson-0.3.0rc5-py3-none-any.whl
+[2024-04-02 09:18:42] INFO root fetch - processPackages [rockai-cli-app]: executing diffoscope
+[2024-04-02 09:18:42] INFO root fetch - processPackages [rockai-cli-app]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockai_cli_app-0.1.3.tar.gz tmp/rockai_cli_app-0.1.4.tar.gz --markdown 20240402/r/rockai-cli-app/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2024-04-02 09:18:42] INFO root fetch - processPackages [e6data-python-connector]: executing diffoscope
+[2024-04-02 09:18:42] INFO root fetch - processPackages [e6data-python-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e6data-python-connector-2.1.9.tar.gz tmp/e6data-python-connector-2.1.9.dev0.tar.gz --markdown 20240402/e/e6data-python-connector/2.1.9-2.1.9.dev0/diff.md --exclude *.pyd
+[2024-04-02 09:18:42] INFO root fetch - processPackages [keelson]: executing diffoscope
+[2024-04-02 09:18:42] INFO root fetch - processPackages [keelson]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keelson-0.3.0rc3-py3-none-any.whl.zip tmp/keelson-0.3.0rc5-py3-none-any.whl.zip --markdown 20240402/k/keelson/0.3.0rc3-0.3.0rc5/diff.md --exclude *.pyd
+[2024-04-02 09:18:42] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.4.9.tar.gz]
+[2024-04-02 09:18:42] INFO root fetch - processPackages [yunxiao]: Remove: archive file [/home/abi/fetcher/tmp/yunxiao-0.5.0.tar.gz]
+[2024-04-02 09:18:42] INFO root fetch - main [MainThread]: End processing [yunxiao]: success
+[2024-04-02 09:18:42] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.3.tar.gz]
+[2024-04-02 09:18:42] INFO root fetch - processPackages [rockai-cli-app]: Remove: archive file [/home/abi/fetcher/tmp/rockai_cli_app-0.1.4.tar.gz]
+[2024-04-02 09:18:42] INFO root fetch - main [MainThread]: End processing [rockai-cli-app]: success
+[2024-04-02 09:18:43] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc3-py3-none-any.whl.zip]
+[2024-04-02 09:18:43] INFO root fetch - processPackages [keelson]: Remove: archive file [/home/abi/fetcher/tmp/keelson-0.3.0rc5-py3-none-any.whl.zip]
+[2024-04-02 09:18:43] INFO root fetch - main [MainThread]: End processing [keelson]: success
+[2024-04-02 09:18:43] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.tar.gz]
+[2024-04-02 09:18:43] INFO root fetch - processPackages [e6data-python-connector]: Remove: archive file [/home/abi/fetcher/tmp/e6data-python-connector-2.1.9.dev0.tar.gz]
+[2024-04-02 09:18:43] INFO root fetch - main [MainThread]: End processing [e6data-python-connector]: success
+[2024-04-02 09:18:43] INFO root fetch - main [MainThread]: Store serial: [22581516]
