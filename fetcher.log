@@ -13728,3 +13728,68 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:03:20] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.4.dev90.tar.gz]
 [2024-04-02 10:03:20] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2024-04-02 10:03:20] INFO root fetch - main [MainThread]: Store serial: [22581893]
+[2024-04-02 10:05:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581893]
+[2024-04-02 10:05:28] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: botasaurus-server
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastdup
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: umls-downloader
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: langfun
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyCEPS
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: prosper-nn
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scalifiai-client
+[2024-04-02 10:05:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: genlib
+[2024-04-02 10:05:28] INFO root fetch - processPackages [botasaurus-server]: New version: [4.0.9] Old Version: [4.0.8]
+[2024-04-02 10:05:28] WARNING root fetch - processPackages [genlib]: Skipping, unable to determine old version
+[2024-04-02 10:05:28] INFO root fetch - main [MainThread]: End processing [genlib] error
+[2024-04-02 10:05:28] INFO root fetch - processPackages [fastdup]: New version: [1.85] Old Version: [1.118]
+[2024-04-02 10:05:28] INFO root fetch - processPackages [umls-downloader]: New version: [0.1.3] Old Version: [0.1.2]
+[2024-04-02 10:05:28] INFO root fetch - processPackages [pyCEPS]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 10:05:28] INFO root fetch - processPackages [prosper-nn]: New version: [0.3.0] Old Version: [0.2.3]
+[2024-04-02 10:05:28] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/f0/29/6236cf00c97e9e74fa0c4e7fb1f7ef957e52111b705e85e89defe4ec7de6/botasaurus_server-4.0.8.tar.gz
+[2024-04-02 10:05:28] INFO root fetch - processPackages [langfun]: New version: [0.0.2.dev20240402] Old Version: [0.0.2.dev20240401]
+[2024-04-02 10:05:28] INFO root fetch - processPackages [fastdup]: Downloading https://files.pythonhosted.org/packages/61/85/7c21f214c72340d2c5a065ecaee3312da04977d6621b3ca85d2c689f2ead/fastdup-1.118-cp39-cp39-manylinux_2_31_x86_64.whl
+[2024-04-02 10:05:29] WARNING root fetch - processPackages [fastdup]: Skipping package: exceeds size limit 75233092>=10485760
+[2024-04-02 10:05:29] INFO root fetch - main [MainThread]: End processing [fastdup] error
+[2024-04-02 10:05:29] INFO root fetch - processPackages [pyCEPS]: Downloading https://files.pythonhosted.org/packages/0e/fc/71263c499dad63f47a1a227e15612efe422ae77a4cf98ad575cd9fa9e7d5/pyCEPS-0.1.0.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [umls-downloader]: Downloading https://files.pythonhosted.org/packages/a4/a1/c350d8148c7dc98a118214430317700918647a5bf581dac61abb88f82e32/umls_downloader-0.1.2.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [prosper-nn]: Downloading https://files.pythonhosted.org/packages/74/34/6b0ca8b7f52d085d5d445885d9507f1c2bde9fad889c773f86e97c19b081/prosper_nn-0.2.3.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/2a/81/ee9f1faf6b1ec9523754d129321a0949ce723ff68859ce1ec74055cd8ac3/langfun-0.0.2.dev20240401.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [umls-downloader]: Downloading https://files.pythonhosted.org/packages/54/9b/c6f27a1eac84438b1c39febf03f43115b10aabef352bb5779461293867a2/umls_downloader-0.1.3.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [prosper-nn]: Downloading https://files.pythonhosted.org/packages/a0/8d/cd09a151171becc6155c6fba2f28c52e715f3ef0b0539d3350676ff0f57a/prosper_nn-0.3.0.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [langfun]: Downloading https://files.pythonhosted.org/packages/8b/9c/9331b7581bc9cc58ae4856df5117bc1f40e4d4a05005f2adf6b46c540caa/langfun-0.0.2.dev20240402.tar.gz
+[2024-04-02 10:05:29] INFO root fetch - processPackages [umls-downloader]: executing diffoscope
+[2024-04-02 10:05:29] INFO root fetch - processPackages [umls-downloader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/umls_downloader-0.1.2.tar.gz tmp/umls_downloader-0.1.3.tar.gz --markdown 20240402/u/umls-downloader/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2024-04-02 10:05:29] INFO root fetch - processPackages [prosper-nn]: executing diffoscope
+[2024-04-02 10:05:29] INFO root fetch - processPackages [prosper-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosper_nn-0.2.3.tar.gz tmp/prosper_nn-0.3.0.tar.gz --markdown 20240402/p/prosper-nn/0.2.3-0.3.0/diff.md --exclude *.pyd
+[2024-04-02 10:05:29] INFO root fetch - processPackages [langfun]: executing diffoscope
+[2024-04-02 10:05:29] INFO root fetch - processPackages [langfun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langfun-0.0.2.dev20240401.tar.gz tmp/langfun-0.0.2.dev20240402.tar.gz --markdown 20240402/l/langfun/0.0.2.dev20240401-0.0.2.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 10:05:30] INFO root fetch - processPackages [umls-downloader]: Remove: archive file [/home/abi/fetcher/tmp/umls_downloader-0.1.2.tar.gz]
+[2024-04-02 10:05:30] INFO root fetch - processPackages [umls-downloader]: Remove: archive file [/home/abi/fetcher/tmp/umls_downloader-0.1.3.tar.gz]
+[2024-04-02 10:05:30] INFO root fetch - main [MainThread]: End processing [umls-downloader]: success
+[2024-04-02 10:05:30] INFO root fetch - processPackages [prosper-nn]: Remove: archive file [/home/abi/fetcher/tmp/prosper_nn-0.2.3.tar.gz]
+[2024-04-02 10:05:30] INFO root fetch - processPackages [prosper-nn]: Remove: archive file [/home/abi/fetcher/tmp/prosper_nn-0.3.0.tar.gz]
+[2024-04-02 10:05:30] INFO root fetch - main [MainThread]: End processing [prosper-nn]: success
+[2024-04-02 10:05:30] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240401.tar.gz]
+[2024-04-02 10:05:30] INFO root fetch - processPackages [langfun]: Remove: archive file [/home/abi/fetcher/tmp/langfun-0.0.2.dev20240402.tar.gz]
+[2024-04-02 10:05:30] INFO root fetch - main [MainThread]: End processing [langfun]: success
+[2024-04-02 10:05:38] INFO root fetch - processPackages [scalifiai-client]: New version: [1.3.0a1] Old Version: [1.2.0a9]
+[2024-04-02 10:05:38] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/91/15/c69b6d58a40e4fa97716389e7d9d388c72526a3784cdcab3592ab434de0a/scalifiai-client-1.2.0a9.tar.gz
+[2024-04-02 10:05:39] INFO root fetch - processPackages [scalifiai-client]: Downloading https://files.pythonhosted.org/packages/65/1c/f46355bc0f708563ffa2c4423c3c366721b112a7e0ab1ebeb6eb509551dc/scalifiai-client-1.3.0a1.tar.gz
+[2024-04-02 10:05:39] INFO root fetch - processPackages [scalifiai-client]: executing diffoscope
+[2024-04-02 10:05:39] INFO root fetch - processPackages [scalifiai-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scalifiai-client-1.2.0a9.tar.gz tmp/scalifiai-client-1.3.0a1.tar.gz --markdown 20240402/s/scalifiai-client/1.2.0a9-1.3.0a1/diff.md --exclude *.pyd
+[2024-04-02 10:05:39] INFO root fetch - processPackages [pyCEPS]: Downloading https://files.pythonhosted.org/packages/b5/7c/b9dc8e964da1213bca8e519fd6c83a05723a7debf7b9d10c34a1be6b11c4/pyCEPS-0.1.1.tar.gz
+[2024-04-02 10:05:39] INFO root fetch - processPackages [pyCEPS]: executing diffoscope
+[2024-04-02 10:05:39] INFO root fetch - processPackages [pyCEPS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyCEPS-0.1.0.tar.gz tmp/pyCEPS-0.1.1.tar.gz --markdown 20240402/p/pyCEPS/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 10:05:40] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.2.0a9.tar.gz]
+[2024-04-02 10:05:40] INFO root fetch - processPackages [scalifiai-client]: Remove: archive file [/home/abi/fetcher/tmp/scalifiai-client-1.3.0a1.tar.gz]
+[2024-04-02 10:05:40] INFO root fetch - main [MainThread]: End processing [scalifiai-client]: success
+[2024-04-02 10:05:40] INFO root fetch - processPackages [pyCEPS]: Remove: archive file [/home/abi/fetcher/tmp/pyCEPS-0.1.0.tar.gz]
+[2024-04-02 10:05:40] INFO root fetch - processPackages [pyCEPS]: Remove: archive file [/home/abi/fetcher/tmp/pyCEPS-0.1.1.tar.gz]
+[2024-04-02 10:05:40] INFO root fetch - main [MainThread]: End processing [pyCEPS]: success
+[2024-04-02 10:05:49] INFO root fetch - processPackages [botasaurus-server]: Downloading https://files.pythonhosted.org/packages/03/11/ef707a7fce8129a4d151622283f54a8d7ab9c844defd6f5f294b0bac1632/botasaurus_server-4.0.9.tar.gz
+[2024-04-02 10:05:49] INFO root fetch - processPackages [botasaurus-server]: executing diffoscope
+[2024-04-02 10:05:49] INFO root fetch - processPackages [botasaurus-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/botasaurus_server-4.0.8.tar.gz tmp/botasaurus_server-4.0.9.tar.gz --markdown 20240402/b/botasaurus-server/4.0.8-4.0.9/diff.md --exclude *.pyd
+[2024-04-02 10:05:49] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.8.tar.gz]
+[2024-04-02 10:05:49] INFO root fetch - processPackages [botasaurus-server]: Remove: archive file [/home/abi/fetcher/tmp/botasaurus_server-4.0.9.tar.gz]
+[2024-04-02 10:05:49] INFO root fetch - main [MainThread]: End processing [botasaurus-server]: success
+[2024-04-02 10:05:49] INFO root fetch - main [MainThread]: Store serial: [22581918]
