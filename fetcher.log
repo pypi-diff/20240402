@@ -19948,3 +19948,61 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:09:07] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.0.tar.gz]
 [2024-04-02 14:09:07] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
 [2024-04-02 14:09:07] INFO root fetch - main [MainThread]: Store serial: [22584500]
+[2024-04-02 14:11:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584500]
+[2024-04-02 14:11:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: apscale
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torcheval-nightly
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rpaframework-pdf
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dune-client
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: volstreet
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: KaruhaBot
+[2024-04-02 14:11:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dsFramework
+[2024-04-02 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: New version: [2024.4.1] Old Version: [2024.3.9]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [KaruhaBot]: New version: [0.2.0b3] Old Version: [0.2.0b2]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [rpaframework-pdf]: New version: [7.3.2] Old Version: [7.3.1]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [apscale]: New version: [1.7.0] Old Version: [1.6.3]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [dune-client]: New version: [1.7.0] Old Version: [1.6.0]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [volstreet]: New version: [6.0.6] Old Version: [6.0.3]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/42/f7/783b1d40c27875d1a5df4e1248804fca119fb84c3e74b4a967db52dd53ef/torcheval-nightly-2024.3.9.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [dsFramework]: New version: [0.4.2.1] Old Version: [0.4.2]
+[2024-04-02 14:11:16] INFO root fetch - processPackages [KaruhaBot]: Downloading https://files.pythonhosted.org/packages/c6/23/2c249f7a4daba04b0c361f906cde6bf8a352ee1f0f358ef49d0e2d8c5d6e/KaruhaBot-0.2.0b2.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/e9/df/a3c4febbce173ae2cd826c743eadff69d97f1e36d3e99b801a23f6ff7064/dune_client-1.6.0.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [rpaframework-pdf]: Downloading https://files.pythonhosted.org/packages/ed/53/4deb27b601eaa80f3639978f20c78487913baea451ed48438309a50d7fbf/rpaframework_pdf-7.3.1.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [apscale]: Downloading https://files.pythonhosted.org/packages/fa/fc/7a7fcf93ef8c6f3505d76d4b7c33cd4a08907495e82a0d8ff8079f6cc775/apscale-1.6.3.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/e0/b3/bc99661698a8ef44b52a889feb3aa6b805466654734dbbce281a0557e414/volstreet-6.0.3.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: Downloading https://files.pythonhosted.org/packages/de/82/1d9e6679ac8f83ac468895a4d81790534a61683e20536e861c6168afba2d/torcheval-nightly-2024.4.1.tar.gz
+[2024-04-02 14:11:16] WARNING root fetch - processPackages [volstreet]: Skipping package: exceeds size limit 68295313>=10485760
+[2024-04-02 14:11:16] INFO root fetch - main [MainThread]: End processing [volstreet] error
+[2024-04-02 14:11:16] INFO root fetch - processPackages [dsFramework]: Downloading https://files.pythonhosted.org/packages/12/39/648fc09ced147f40b8a9152fe576558eb38e153cee3b0f0a41780e4f5902/dsFramework-0.4.2.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: executing diffoscope
+[2024-04-02 14:11:16] INFO root fetch - processPackages [torcheval-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torcheval-nightly-2024.3.9.tar.gz tmp/torcheval-nightly-2024.4.1.tar.gz --markdown 20240402/t/torcheval-nightly/2024.3.9-2024.4.1/diff.md --exclude *.pyd
+[2024-04-02 14:11:16] INFO root fetch - processPackages [KaruhaBot]: Downloading https://files.pythonhosted.org/packages/b6/37/8e13a9d6af205b3e6e572d3b4eb7e0d1916954d7a0138dc67a67cc35b384/KaruhaBot-0.2.0b3.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [dune-client]: Downloading https://files.pythonhosted.org/packages/49/6a/3ae586545249c3ab0deef9159f5854a1b544e2869a500fa7d69c97211946/dune_client-1.7.0.tar.gz
+[2024-04-02 14:11:16] INFO root fetch - processPackages [apscale]: Downloading https://files.pythonhosted.org/packages/99/d1/23861004f41f1688e05a77c8cb703888c0d036dfd5cef32d5b4b5a0ac803/apscale-1.7.0.tar.gz
+[2024-04-02 14:11:17] INFO root fetch - processPackages [rpaframework-pdf]: Downloading https://files.pythonhosted.org/packages/ea/2c/f2e89915cd41943970d700fb91e31ab4af4426451fc3a25a38c9e188a748/rpaframework_pdf-7.3.2.tar.gz
+[2024-04-02 14:11:17] INFO root fetch - processPackages [KaruhaBot]: executing diffoscope
+[2024-04-02 14:11:17] INFO root fetch - processPackages [KaruhaBot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/KaruhaBot-0.2.0b2.tar.gz tmp/KaruhaBot-0.2.0b3.tar.gz --markdown 20240402/K/KaruhaBot/0.2.0b2-0.2.0b3/diff.md --exclude *.pyd
+[2024-04-02 14:11:17] INFO root fetch - processPackages [dune-client]: executing diffoscope
+[2024-04-02 14:11:17] INFO root fetch - processPackages [dune-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_client-1.6.0.tar.gz tmp/dune_client-1.7.0.tar.gz --markdown 20240402/d/dune-client/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2024-04-02 14:11:17] INFO root fetch - processPackages [apscale]: executing diffoscope
+[2024-04-02 14:11:17] INFO root fetch - processPackages [apscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apscale-1.6.3.tar.gz tmp/apscale-1.7.0.tar.gz --markdown 20240402/a/apscale/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2024-04-02 14:11:17] INFO root fetch - processPackages [rpaframework-pdf]: executing diffoscope
+[2024-04-02 14:11:17] INFO root fetch - processPackages [rpaframework-pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rpaframework_pdf-7.3.1.tar.gz tmp/rpaframework_pdf-7.3.2.tar.gz --markdown 20240402/r/rpaframework-pdf/7.3.1-7.3.2/diff.md --exclude *.pyd
+[2024-04-02 14:11:17] WARNING root fetch - processPackages [dsFramework]: Skipping package: exceeds size limit 15364676>=10485760
+[2024-04-02 14:11:17] INFO root fetch - main [MainThread]: End processing [dsFramework] error
+[2024-04-02 14:11:18] INFO root fetch - processPackages [apscale]: Remove: archive file [/home/abi/fetcher/tmp/apscale-1.6.3.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - processPackages [apscale]: Remove: archive file [/home/abi/fetcher/tmp/apscale-1.7.0.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - main [MainThread]: End processing [apscale]: success
+[2024-04-02 14:11:18] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.6.0.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - processPackages [dune-client]: Remove: archive file [/home/abi/fetcher/tmp/dune_client-1.7.0.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - main [MainThread]: End processing [dune-client]: success
+[2024-04-02 14:11:18] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.3.9.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - processPackages [torcheval-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torcheval-nightly-2024.4.1.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - main [MainThread]: End processing [torcheval-nightly]: success
+[2024-04-02 14:11:18] INFO root fetch - processPackages [rpaframework-pdf]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_pdf-7.3.1.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - processPackages [rpaframework-pdf]: Remove: archive file [/home/abi/fetcher/tmp/rpaframework_pdf-7.3.2.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - main [MainThread]: End processing [rpaframework-pdf]: success
+[2024-04-02 14:11:18] INFO root fetch - processPackages [KaruhaBot]: Remove: archive file [/home/abi/fetcher/tmp/KaruhaBot-0.2.0b2.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - processPackages [KaruhaBot]: Remove: archive file [/home/abi/fetcher/tmp/KaruhaBot-0.2.0b3.tar.gz]
+[2024-04-02 14:11:18] INFO root fetch - main [MainThread]: End processing [KaruhaBot]: success
+[2024-04-02 14:11:18] INFO root fetch - main [MainThread]: Store serial: [22584521]
