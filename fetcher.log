@@ -18556,3 +18556,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:19:04] INFO root fetch - processPackages [cdktf-cdktf-provider-mongodbatlas]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-cdktf-provider-mongodbatlas-7.1.3.tar.gz]
 [2024-04-02 13:19:04] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-mongodbatlas]: success
 [2024-04-02 13:19:04] INFO root fetch - main [MainThread]: Store serial: [22583925]
+[2024-04-02 13:21:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583925]
+[2024-04-02 13:21:14] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 13:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neo4j-driver
+[2024-04-02 13:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neo4j
+[2024-04-02 13:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: han2kip
+[2024-04-02 13:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: creyPY
+[2024-04-02 13:21:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optjet
+[2024-04-02 13:21:14] INFO root fetch - processPackages [creyPY]: New version: [1.0.0] Old Version: [0.2.1]
+[2024-04-02 13:21:15] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/a2/d1/bfe36899ab7b1f5fcc3bb7e52622137b6ae995ba29465683902efef0b646/creyPY-0.2.1.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [han2kip]: New version: [0.1.2] Old Version: [0.1.1]
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j-driver]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j]: New version: [5.9.0] Old Version: [5.8.1]
+[2024-04-02 13:21:15] WARNING root fetch - processPackages [optjet]: Skipping, unable to determine old version
+[2024-04-02 13:21:15] INFO root fetch - main [MainThread]: End processing [optjet] error
+[2024-04-02 13:21:15] INFO root fetch - processPackages [han2kip]: Downloading https://files.pythonhosted.org/packages/54/0d/a708d3da60f17575e32c269cbcdc83aa8f25a534167d99767054f466259b/han2kip-0.1.1.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/ee/b7/871ed94df9f20f81b87dc6ed0be9e4820ce99103bd15080ec1cc7c514009/neo4j-driver-5.8.1.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/97/9f/8f04fe1e04c832d87283ede166290cc29c1c3aa0d274946f88361d42a9d3/neo4j-5.8.1.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [creyPY]: Downloading https://files.pythonhosted.org/packages/9d/08/344744998b36016e3ca75425a5fb197b269608e835cd02d2d5e553371db5/creyPY-1.0.0.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [creyPY]: executing diffoscope
+[2024-04-02 13:21:15] INFO root fetch - processPackages [creyPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creyPY-0.2.1.tar.gz tmp/creyPY-1.0.0.tar.gz --markdown 20240402/c/creyPY/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j-driver]: Downloading https://files.pythonhosted.org/packages/c9/1e/14751507bec61648b83204fc90b3840d616876294276092a7ebf4dd51a59/neo4j-driver-5.9.0.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j]: Downloading https://files.pythonhosted.org/packages/e9/b7/faa4628ea379f9e43772ca4448356a35e58ce44306a91117f2892487e187/neo4j-5.9.0.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [han2kip]: Downloading https://files.pythonhosted.org/packages/86/71/2f71bb30a794a916f5ad966f99eacbcbd0882334a7af7c3126aa67688d0c/han2kip-0.1.2.tar.gz
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j-driver]: executing diffoscope
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j-driver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-driver-5.8.1.tar.gz tmp/neo4j-driver-5.9.0.tar.gz --markdown 20240402/n/neo4j-driver/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j]: executing diffoscope
+[2024-04-02 13:21:15] INFO root fetch - processPackages [neo4j]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo4j-5.8.1.tar.gz tmp/neo4j-5.9.0.tar.gz --markdown 20240402/n/neo4j/5.8.1-5.9.0/diff.md --exclude *.pyd
+[2024-04-02 13:21:15] INFO root fetch - processPackages [han2kip]: executing diffoscope
+[2024-04-02 13:21:15] INFO root fetch - processPackages [han2kip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/han2kip-0.1.1.tar.gz tmp/han2kip-0.1.2.tar.gz --markdown 20240402/h/han2kip/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2024-04-02 13:21:16] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-0.2.1.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - processPackages [creyPY]: Remove: archive file [/home/abi/fetcher/tmp/creyPY-1.0.0.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - main [MainThread]: End processing [creyPY]: success
+[2024-04-02 13:21:16] INFO root fetch - processPackages [neo4j-driver]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-driver-5.8.1.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - processPackages [neo4j-driver]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-driver-5.9.0.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - main [MainThread]: End processing [neo4j-driver]: success
+[2024-04-02 13:21:16] INFO root fetch - processPackages [neo4j]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-5.8.1.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - processPackages [neo4j]: Remove: archive file [/home/abi/fetcher/tmp/neo4j-5.9.0.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - main [MainThread]: End processing [neo4j]: success
+[2024-04-02 13:21:16] INFO root fetch - processPackages [han2kip]: Remove: archive file [/home/abi/fetcher/tmp/han2kip-0.1.1.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - processPackages [han2kip]: Remove: archive file [/home/abi/fetcher/tmp/han2kip-0.1.2.tar.gz]
+[2024-04-02 13:21:16] INFO root fetch - main [MainThread]: End processing [han2kip]: success
+[2024-04-02 13:21:16] INFO root fetch - main [MainThread]: Store serial: [22583944]
