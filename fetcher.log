@@ -14382,3 +14382,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 10:28:36] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-02 10:28:36] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2024-04-02 10:28:36] INFO root fetch - main [MainThread]: Store serial: [22582194]
+[2024-04-02 10:30:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582194]
+[2024-04-02 10:30:45] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 10:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sunholo
+[2024-04-02 10:30:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pydiverse-pipedag
+[2024-04-02 10:30:45] INFO root fetch - processPackages [sunholo]: New version: [0.8.9] Old Version: [0.8.8]
+[2024-04-02 10:30:45] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/cc/35/0cc2a83f59b1ddd740a568e10894833a89bedfc91b8ebd172a427676694a/sunholo-0.8.8.tar.gz
+[2024-04-02 10:30:45] INFO root fetch - processPackages [pydiverse-pipedag]: New version: [0.8.0] Old Version: [0.7.2]
+[2024-04-02 10:30:45] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/d7/0c/c731aa1eb295c711cacf8b293176e0fa10a1104183e4325f233d05854e44/pydiverse_pipedag-0.7.2.tar.gz
+[2024-04-02 10:30:45] INFO root fetch - processPackages [sunholo]: Downloading https://files.pythonhosted.org/packages/f4/84/78248df3236e593119b75003e77cf5b5bd0761e53dc91c6a148cb0571cf9/sunholo-0.8.9.tar.gz
+[2024-04-02 10:30:46] INFO root fetch - processPackages [sunholo]: executing diffoscope
+[2024-04-02 10:30:46] INFO root fetch - processPackages [sunholo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sunholo-0.8.8.tar.gz tmp/sunholo-0.8.9.tar.gz --markdown 20240402/s/sunholo/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2024-04-02 10:30:46] INFO root fetch - processPackages [pydiverse-pipedag]: Downloading https://files.pythonhosted.org/packages/a0/bd/6ce6fad640b77fd3768ebe0e1d7f8ef2ab78c58f71069e1f83f37cdf090f/pydiverse_pipedag-0.8.0.tar.gz
+[2024-04-02 10:30:46] INFO root fetch - processPackages [pydiverse-pipedag]: executing diffoscope
+[2024-04-02 10:30:46] INFO root fetch - processPackages [pydiverse-pipedag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydiverse_pipedag-0.7.2.tar.gz tmp/pydiverse_pipedag-0.8.0.tar.gz --markdown 20240402/p/pydiverse-pipedag/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2024-04-02 10:30:46] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.8.tar.gz]
+[2024-04-02 10:30:46] INFO root fetch - processPackages [sunholo]: Remove: archive file [/home/abi/fetcher/tmp/sunholo-0.8.9.tar.gz]
+[2024-04-02 10:30:46] INFO root fetch - main [MainThread]: End processing [sunholo]: success
+[2024-04-02 10:30:47] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.7.2.tar.gz]
+[2024-04-02 10:30:47] INFO root fetch - processPackages [pydiverse-pipedag]: Remove: archive file [/home/abi/fetcher/tmp/pydiverse_pipedag-0.8.0.tar.gz]
+[2024-04-02 10:30:47] INFO root fetch - main [MainThread]: End processing [pydiverse-pipedag]: success
+[2024-04-02 10:30:47] INFO root fetch - main [MainThread]: Store serial: [22582203]
