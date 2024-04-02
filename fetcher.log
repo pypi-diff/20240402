@@ -3051,3 +3051,24 @@
 [2024-04-02 02:55:29] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2024-04-02 02:55:29] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2024-04-02 02:55:29] INFO root fetch - main [MainThread]: Store serial: [22577886]
+[2024-04-02 02:57:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577886]
+[2024-04-02 02:57:37] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 02:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: agentops
+[2024-04-02 02:57:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: saphira
+[2024-04-02 02:57:37] INFO root fetch - processPackages [saphira]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 02:57:37] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/65/16/07a6debb9d196e85c530fb0726df4887a4c00936892a7490c335a8597664/saphira-0.0.2.tar.gz
+[2024-04-02 02:57:37] INFO root fetch - processPackages [agentops]: New version: [0.1.0b5] Old Version: [0.1.0b4]
+[2024-04-02 02:57:38] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/10/fe/abb836b04b7eae44383f5616ed1c4c6e9aee9beecc3df4617f69f7e3adc5/agentops-0.1.0b4.tar.gz
+[2024-04-02 02:57:38] INFO root fetch - processPackages [saphira]: Downloading https://files.pythonhosted.org/packages/fd/6f/e77a7bb1476e5cc1771d81634af8bdb3258d9ba5b7c6d98f631c3cbb0a90/saphira-0.0.3.tar.gz
+[2024-04-02 02:57:38] INFO root fetch - processPackages [saphira]: executing diffoscope
+[2024-04-02 02:57:38] INFO root fetch - processPackages [saphira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/saphira-0.0.2.tar.gz tmp/saphira-0.0.3.tar.gz --markdown 20240402/s/saphira/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 02:57:38] INFO root fetch - processPackages [agentops]: Downloading https://files.pythonhosted.org/packages/84/d6/f0bbe5883b86e749f2f02896d94054ebd84b4d66524e4b7004263ae21a6f/agentops-0.1.0b5.tar.gz
+[2024-04-02 02:57:38] INFO root fetch - processPackages [agentops]: executing diffoscope
+[2024-04-02 02:57:38] INFO root fetch - processPackages [agentops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agentops-0.1.0b4.tar.gz tmp/agentops-0.1.0b5.tar.gz --markdown 20240402/a/agentops/0.1.0b4-0.1.0b5/diff.md --exclude *.pyd
+[2024-04-02 02:57:38] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.2.tar.gz]
+[2024-04-02 02:57:38] INFO root fetch - processPackages [saphira]: Remove: archive file [/home/abi/fetcher/tmp/saphira-0.0.3.tar.gz]
+[2024-04-02 02:57:38] INFO root fetch - main [MainThread]: End processing [saphira]: success
+[2024-04-02 02:57:39] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b4.tar.gz]
+[2024-04-02 02:57:39] INFO root fetch - processPackages [agentops]: Remove: archive file [/home/abi/fetcher/tmp/agentops-0.1.0b5.tar.gz]
+[2024-04-02 02:57:39] INFO root fetch - main [MainThread]: End processing [agentops]: success
+[2024-04-02 02:57:39] INFO root fetch - main [MainThread]: Store serial: [22577892]
