@@ -13091,3 +13091,44 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:38:42] INFO root fetch - processPackages [cerc-persistence]: Remove: archive file [/home/abi/fetcher/tmp/cerc-persistence-1.0.0.2.tar.gz]
 [2024-04-02 09:38:42] INFO root fetch - main [MainThread]: End processing [cerc-persistence]: success
 [2024-04-02 09:38:42] INFO root fetch - main [MainThread]: Store serial: [22581682]
+[2024-04-02 09:40:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581682]
+[2024-04-02 09:40:51] INFO root fetch - main [MainThread]: No changed packages found
+[2024-04-02 09:42:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581682]
+[2024-04-02 09:42:56] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refnx
+[2024-04-02 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: payze-pkg
+[2024-04-02 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: itcpr
+[2024-04-02 09:42:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: d-fake-seeder
+[2024-04-02 09:42:56] INFO root fetch - processPackages [payze-pkg]: New version: [2.2] Old Version: [2.1]
+[2024-04-02 09:42:56] INFO root fetch - processPackages [itcpr]: New version: [1.0.9] Old Version: [1.0.8]
+[2024-04-02 09:42:56] INFO root fetch - processPackages [d-fake-seeder]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 09:42:57] INFO root fetch - processPackages [itcpr]: Downloading https://files.pythonhosted.org/packages/6c/30/11eb81111b0398ccc45c445b35952fb676c5bc5cdc5e5146956865db2c0e/itcpr-1.0.8.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/55/c5/d32eda67dac9eed0a69b98f0d2585a3b3138c392bb4aaf2271dad1e0aa49/payze-pkg-2.1.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/5a/3d/dd8859ac650af2eca18fdfe4bee902f66fbac12a9823cd7a7ccde6e0570a/d_fake_seeder-0.0.8.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [refnx]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 09:42:57] INFO root fetch - processPackages [refnx]: Downloading https://files.pythonhosted.org/packages/13/76/d5abf74e726036eff9698aad9d4fc1312f309b9834e5fb78e3c95f05f684/refnx-0.1.8.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [itcpr]: Downloading https://files.pythonhosted.org/packages/f9/40/a7cc942973f9e514f2ab71117552a8131487c9b1711fa47b5bcc6c6e3891/itcpr-1.0.9.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [payze-pkg]: Downloading https://files.pythonhosted.org/packages/35/02/71e25115533f8545160ed00de01fcce22ca287c66117baf1e8411892dbcd/payze-pkg-2.2.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [d-fake-seeder]: Downloading https://files.pythonhosted.org/packages/7a/14/7bd315d0aa9f162efb68e3fa76708564d5e536a6150b1bb427ea1dcb37f6/d_fake_seeder-0.0.9.tar.gz
+[2024-04-02 09:42:57] INFO root fetch - processPackages [itcpr]: executing diffoscope
+[2024-04-02 09:42:57] INFO root fetch - processPackages [itcpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/itcpr-1.0.8.tar.gz tmp/itcpr-1.0.9.tar.gz --markdown 20240402/i/itcpr/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:42:57] INFO root fetch - processPackages [payze-pkg]: executing diffoscope
+[2024-04-02 09:42:57] INFO root fetch - processPackages [payze-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/payze-pkg-2.1.tar.gz tmp/payze-pkg-2.2.tar.gz --markdown 20240402/p/payze-pkg/2.1-2.2/diff.md --exclude *.pyd
+[2024-04-02 09:42:57] INFO root fetch - processPackages [d-fake-seeder]: executing diffoscope
+[2024-04-02 09:42:57] INFO root fetch - processPackages [d-fake-seeder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/d_fake_seeder-0.0.8.tar.gz tmp/d_fake_seeder-0.0.9.tar.gz --markdown 20240402/d/d-fake-seeder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 09:42:58] INFO root fetch - processPackages [itcpr]: Remove: archive file [/home/abi/fetcher/tmp/itcpr-1.0.8.tar.gz]
+[2024-04-02 09:42:58] INFO root fetch - processPackages [itcpr]: Remove: archive file [/home/abi/fetcher/tmp/itcpr-1.0.9.tar.gz]
+[2024-04-02 09:42:58] INFO root fetch - main [MainThread]: End processing [itcpr]: success
+[2024-04-02 09:42:58] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.8.tar.gz]
+[2024-04-02 09:42:58] INFO root fetch - processPackages [d-fake-seeder]: Remove: archive file [/home/abi/fetcher/tmp/d_fake_seeder-0.0.9.tar.gz]
+[2024-04-02 09:42:58] INFO root fetch - main [MainThread]: End processing [d-fake-seeder]: success
+[2024-04-02 09:42:58] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.1.tar.gz]
+[2024-04-02 09:42:58] INFO root fetch - processPackages [payze-pkg]: Remove: archive file [/home/abi/fetcher/tmp/payze-pkg-2.2.tar.gz]
+[2024-04-02 09:42:58] INFO root fetch - main [MainThread]: End processing [payze-pkg]: success
+[2024-04-02 09:42:59] INFO root fetch - processPackages [refnx]: Downloading https://files.pythonhosted.org/packages/00/ea/41c5310e4637fdc34ce783bf02ec315a7590f0dc184dc89291d299fe8857/refnx-0.1.9.tar.gz
+[2024-04-02 09:43:01] INFO root fetch - processPackages [refnx]: executing diffoscope
+[2024-04-02 09:43:01] INFO root fetch - processPackages [refnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refnx-0.1.8.tar.gz tmp/refnx-0.1.9.tar.gz --markdown 20240402/r/refnx/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 09:43:04] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.8.tar.gz]
+[2024-04-02 09:43:04] INFO root fetch - processPackages [refnx]: Remove: archive file [/home/abi/fetcher/tmp/refnx-0.1.9.tar.gz]
+[2024-04-02 09:43:04] INFO root fetch - main [MainThread]: End processing [refnx]: success
+[2024-04-02 09:43:04] INFO root fetch - main [MainThread]: Store serial: [22581712]
