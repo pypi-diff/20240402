@@ -8245,3 +8245,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:58:48] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.14.tar.gz]
 [2024-04-02 03:58:48] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
 [2024-04-02 03:58:48] INFO root fetch - main [MainThread]: Store serial: [22579804]
+[2024-04-02 04:00:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579804]
+[2024-04-02 04:00:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 04:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantes
+[2024-04-02 04:00:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapix-py
+[2024-04-02 04:00:58] INFO root fetch - processPackages [fastapix-py]: New version: [0.7.5] Old Version: [0.7.4]
+[2024-04-02 04:00:58] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/f3/28/df3feb70429c7f3ce0a6656528790518d6e0534c3695f42ce0b50c29056c/fastapix_py-0.7.4-py3-none-any.whl
+[2024-04-02 04:00:58] INFO root fetch - processPackages [quantes]: New version: [2.0.4] Old Version: [2.0.3]
+[2024-04-02 04:00:58] INFO root fetch - processPackages [quantes]: Downloading https://files.pythonhosted.org/packages/5e/9b/1c925e3eae32a04df7c9951839b7913db4fa8df5de398b1b2f97b2ff8d17/quantes-2.0.3.tar.gz
+[2024-04-02 04:00:58] INFO root fetch - processPackages [fastapix-py]: Downloading https://files.pythonhosted.org/packages/c0/bc/c81f3bb590a5f1a0feab4ad57bfc26d97f47d312899a89152aa2ba1cc252/fastapix_py-0.7.5-py3-none-any.whl
+[2024-04-02 04:00:58] INFO root fetch - processPackages [quantes]: Downloading https://files.pythonhosted.org/packages/68/e7/9762f7551d28f1aa1df8251939cb217326c9623e584dcd46e56ce436b47e/quantes-2.0.4.tar.gz
+[2024-04-02 04:00:58] INFO root fetch - processPackages [quantes]: executing diffoscope
+[2024-04-02 04:00:58] INFO root fetch - processPackages [quantes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantes-2.0.3.tar.gz tmp/quantes-2.0.4.tar.gz --markdown 20240402/q/quantes/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2024-04-02 04:00:58] INFO root fetch - processPackages [fastapix-py]: executing diffoscope
+[2024-04-02 04:00:58] INFO root fetch - processPackages [fastapix-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapix_py-0.7.4-py3-none-any.whl.zip tmp/fastapix_py-0.7.5-py3-none-any.whl.zip --markdown 20240402/f/fastapix-py/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2024-04-02 04:00:59] INFO root fetch - processPackages [quantes]: Remove: archive file [/home/abi/fetcher/tmp/quantes-2.0.3.tar.gz]
+[2024-04-02 04:00:59] INFO root fetch - processPackages [quantes]: Remove: archive file [/home/abi/fetcher/tmp/quantes-2.0.4.tar.gz]
+[2024-04-02 04:00:59] INFO root fetch - main [MainThread]: End processing [quantes]: success
+[2024-04-02 04:00:59] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.4-py3-none-any.whl.zip]
+[2024-04-02 04:00:59] INFO root fetch - processPackages [fastapix-py]: Remove: archive file [/home/abi/fetcher/tmp/fastapix_py-0.7.5-py3-none-any.whl.zip]
+[2024-04-02 04:00:59] INFO root fetch - main [MainThread]: End processing [fastapix-py]: success
+[2024-04-02 04:00:59] INFO root fetch - main [MainThread]: Store serial: [22579814]
