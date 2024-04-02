@@ -11157,3 +11157,15 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:33:54] INFO root fetch - processPackages [atap-corpus-loader]: Remove: archive file [/home/abi/fetcher/tmp/atap_corpus_loader-1.3.0.tar.gz]
 [2024-04-02 07:33:54] INFO root fetch - main [MainThread]: End processing [atap-corpus-loader]: success
 [2024-04-02 07:33:54] INFO root fetch - main [MainThread]: Store serial: [22580939]
+[2024-04-02 07:35:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580939]
+[2024-04-02 07:36:03] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 07:36:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: selenium-dolphin
+[2024-04-02 07:36:03] INFO root fetch - processPackages [selenium-dolphin]: New version: [1.0.5] Old Version: [1.0.4]
+[2024-04-02 07:36:03] INFO root fetch - processPackages [selenium-dolphin]: Downloading https://files.pythonhosted.org/packages/56/59/b57958927ff347cf59e07599ac553f33b35f0a3a64ef104afd4c8c35a416/selenium_dolphin-1.0.4.tar.gz
+[2024-04-02 07:36:03] INFO root fetch - processPackages [selenium-dolphin]: Downloading https://files.pythonhosted.org/packages/1c/60/57903cbb4fc90f6a09a916a6cb1d6352173d2f31e68fb9bee56a600dcb2c/selenium_dolphin-1.0.5.tar.gz
+[2024-04-02 07:36:04] INFO root fetch - processPackages [selenium-dolphin]: executing diffoscope
+[2024-04-02 07:36:04] INFO root fetch - processPackages [selenium-dolphin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium_dolphin-1.0.4.tar.gz tmp/selenium_dolphin-1.0.5.tar.gz --markdown 20240402/s/selenium-dolphin/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2024-04-02 07:36:04] INFO root fetch - processPackages [selenium-dolphin]: Remove: archive file [/home/abi/fetcher/tmp/selenium_dolphin-1.0.4.tar.gz]
+[2024-04-02 07:36:04] INFO root fetch - processPackages [selenium-dolphin]: Remove: archive file [/home/abi/fetcher/tmp/selenium_dolphin-1.0.5.tar.gz]
+[2024-04-02 07:36:04] INFO root fetch - main [MainThread]: End processing [selenium-dolphin]: success
+[2024-04-02 07:36:04] INFO root fetch - main [MainThread]: Store serial: [22580943]
