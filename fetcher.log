@@ -8197,3 +8197,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 03:54:59] INFO root fetch - processPackages [oxenai]: Remove: archive file [/home/abi/fetcher/tmp/oxenai-0.5.3.tar.gz]
 [2024-04-02 03:54:59] INFO root fetch - main [MainThread]: End processing [oxenai]: success
 [2024-04-02 03:54:59] INFO root fetch - main [MainThread]: Store serial: [22579787]
+[2024-04-02 03:57:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22579787]
+[2024-04-02 03:57:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deadline-cloud-for-nuke
+[2024-04-02 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fastapi-validation-i18n
+[2024-04-02 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langflow-base
+[2024-04-02 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bughunter9
+[2024-04-02 03:57:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bamboo-stash
+[2024-04-02 03:57:08] INFO root fetch - processPackages [langflow-base]: New version: [0.0.14] Old Version: [0.0.13]
+[2024-04-02 03:57:08] INFO root fetch - processPackages [bamboo-stash]: New version: [0.1.1] Old Version: [0.1.0]
+[2024-04-02 03:57:08] INFO root fetch - processPackages [bughunter9]: New version: [9.9] Old Version: [9.8]
+[2024-04-02 03:57:08] INFO root fetch - processPackages [deadline-cloud-for-nuke]: New version: [0.18.1] Old Version: [0.18.0]
+[2024-04-02 03:57:08] INFO root fetch - processPackages [fastapi-validation-i18n]: New version: [0.4.1] Old Version: [0.4.0]
+[2024-04-02 03:57:08] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/a9/1a/69558b4ca164c04cb9a5b9e2e183e6ecff7cba9e3b25180eaad67252f889/langflow_base-0.0.13.tar.gz
+[2024-04-02 03:57:08] INFO root fetch - processPackages [bamboo-stash]: Downloading https://files.pythonhosted.org/packages/ef/c7/5680205d1685dc4cce7c1ff5bb60385877cf17592b3a891001bc820dc25e/bamboo_stash-0.1.0.tar.gz
+[2024-04-02 03:57:08] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Downloading https://files.pythonhosted.org/packages/da/6b/12e4be6170e4126a451c4e59a470073889da1ed420eed3fb442784492198/deadline_cloud_for_nuke-0.18.0.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bughunter9]: Downloading https://files.pythonhosted.org/packages/54/ec/713909c3c5f3b4641bd6c22fbb06b5b13557f4df10010b62a768ad06d1ab/bughunter9-9.8.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [fastapi-validation-i18n]: Downloading https://files.pythonhosted.org/packages/21/04/11b66c095f857620d46775a7a628fd4fdd04868005f007bded1e0d94bd74/fastapi_validation_i18n-0.4.0.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bamboo-stash]: Downloading https://files.pythonhosted.org/packages/43/82/29c9b4f285aa09972e8347da3d2150c843180f4defbbdadd610a32d3dbed/bamboo_stash-0.1.1.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Downloading https://files.pythonhosted.org/packages/ef/9a/1fa15723aeb8718141fb4d141f956423d2110da7242438d92fc4d4ce545c/deadline_cloud_for_nuke-0.18.1.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bamboo-stash]: executing diffoscope
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bamboo-stash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bamboo_stash-0.1.0.tar.gz tmp/bamboo_stash-0.1.1.tar.gz --markdown 20240402/b/bamboo-stash/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2024-04-02 03:57:09] INFO root fetch - processPackages [fastapi-validation-i18n]: Downloading https://files.pythonhosted.org/packages/db/12/9c4944ec6d663c40c2330e315f23f491b3921dee65dc6faf3594cc184ad3/fastapi_validation_i18n-0.4.1.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [deadline-cloud-for-nuke]: executing diffoscope
+[2024-04-02 03:57:09] INFO root fetch - processPackages [deadline-cloud-for-nuke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deadline_cloud_for_nuke-0.18.0.tar.gz tmp/deadline_cloud_for_nuke-0.18.1.tar.gz --markdown 20240402/d/deadline-cloud-for-nuke/0.18.0-0.18.1/diff.md --exclude *.pyd
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bughunter9]: Downloading https://files.pythonhosted.org/packages/d2/8b/87988905906138f28ca5615c877bd04523b8b02c335addfde66f03b43014/bughunter9-9.9.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [fastapi-validation-i18n]: executing diffoscope
+[2024-04-02 03:57:09] INFO root fetch - processPackages [fastapi-validation-i18n]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_validation_i18n-0.4.0.tar.gz tmp/fastapi_validation_i18n-0.4.1.tar.gz --markdown 20240402/f/fastapi-validation-i18n/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2024-04-02 03:57:09] INFO root fetch - processPackages [langflow-base]: Downloading https://files.pythonhosted.org/packages/14/a7/5f347660a1ea32396293fc424aeec2f70de76af0e0df2a72ab64b554d9b2/langflow_base-0.0.14.tar.gz
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bughunter9]: executing diffoscope
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bughunter9]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bughunter9-9.8.tar.gz tmp/bughunter9-9.9.tar.gz --markdown 20240402/b/bughunter9/9.8-9.9/diff.md --exclude *.pyd
+[2024-04-02 03:57:09] INFO root fetch - processPackages [langflow-base]: executing diffoscope
+[2024-04-02 03:57:09] INFO root fetch - processPackages [langflow-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow_base-0.0.13.tar.gz tmp/langflow_base-0.0.14.tar.gz --markdown 20240402/l/langflow-base/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bamboo-stash]: Remove: archive file [/home/abi/fetcher/tmp/bamboo_stash-0.1.0.tar.gz]
+[2024-04-02 03:57:09] INFO root fetch - processPackages [bamboo-stash]: Remove: archive file [/home/abi/fetcher/tmp/bamboo_stash-0.1.1.tar.gz]
+[2024-04-02 03:57:09] INFO root fetch - main [MainThread]: End processing [bamboo-stash]: success
+[2024-04-02 03:57:10] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_nuke-0.18.0.tar.gz]
+[2024-04-02 03:57:10] INFO root fetch - processPackages [deadline-cloud-for-nuke]: Remove: archive file [/home/abi/fetcher/tmp/deadline_cloud_for_nuke-0.18.1.tar.gz]
+[2024-04-02 03:57:10] INFO root fetch - main [MainThread]: End processing [deadline-cloud-for-nuke]: success
+[2024-04-02 03:57:10] INFO root fetch - processPackages [fastapi-validation-i18n]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_validation_i18n-0.4.0.tar.gz]
+[2024-04-02 03:57:10] INFO root fetch - processPackages [fastapi-validation-i18n]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_validation_i18n-0.4.1.tar.gz]
+[2024-04-02 03:57:10] INFO root fetch - main [MainThread]: End processing [fastapi-validation-i18n]: success
+[2024-04-02 03:57:10] INFO root fetch - processPackages [bughunter9]: Remove: archive file [/home/abi/fetcher/tmp/bughunter9-9.8.tar.gz]
+[2024-04-02 03:57:10] INFO root fetch - processPackages [bughunter9]: Remove: archive file [/home/abi/fetcher/tmp/bughunter9-9.9.tar.gz]
+[2024-04-02 03:57:10] INFO root fetch - main [MainThread]: End processing [bughunter9]: success
+[2024-04-02 03:58:48] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.13.tar.gz]
+[2024-04-02 03:58:48] INFO root fetch - processPackages [langflow-base]: Remove: archive file [/home/abi/fetcher/tmp/langflow_base-0.0.14.tar.gz]
+[2024-04-02 03:58:48] INFO root fetch - main [MainThread]: End processing [langflow-base]: success
+[2024-04-02 03:58:48] INFO root fetch - main [MainThread]: Store serial: [22579804]
