@@ -10584,3 +10584,9 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:46:49] INFO root fetch - processPackages [unstract-adapters]: Remove: archive file [/home/abi/fetcher/tmp/unstract_adapters-0.8.0.tar.gz]
 [2024-04-02 06:46:49] INFO root fetch - main [MainThread]: End processing [unstract-adapters]: success
 [2024-04-02 06:46:49] INFO root fetch - main [MainThread]: Store serial: [22580694]
+[2024-04-02 06:48:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580694]
+[2024-04-02 06:48:58] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2024-04-02 06:48:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysoltoken
+[2024-04-02 06:48:58] WARNING root fetch - processPackages [pysoltoken]: Skipping, unable to determine old version
+[2024-04-02 06:48:58] INFO root fetch - main [MainThread]: End processing [pysoltoken] error
+[2024-04-02 06:48:58] INFO root fetch - main [MainThread]: Store serial: [22580699]
