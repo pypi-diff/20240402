@@ -9866,3 +9866,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 05:44:25] INFO root fetch - processPackages [rongdaVbaAddinsLight]: Remove: archive file [/home/abi/fetcher/tmp/rongdaVbaAddinsLight-0.2.0.61.tar.gz]
 [2024-04-02 05:44:25] INFO root fetch - main [MainThread]: End processing [rongdaVbaAddinsLight]: success
 [2024-04-02 05:44:25] INFO root fetch - main [MainThread]: Store serial: [22580403]
+[2024-04-02 05:46:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580403]
+[2024-04-02 05:46:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 05:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oebuild
+[2024-04-02 05:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: genice2-yaplot
+[2024-04-02 05:46:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moby-distribution
+[2024-04-02 05:46:34] WARNING root fetch - processPackages [genice2-yaplot]: Skipping, unable to determine old version
+[2024-04-02 05:46:34] INFO root fetch - main [MainThread]: End processing [genice2-yaplot] error
+[2024-04-02 05:46:34] INFO root fetch - processPackages [oebuild]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 05:46:34] INFO root fetch - processPackages [moby-distribution]: New version: [0.6.0] Old Version: [0.5.9]
+[2024-04-02 05:46:34] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/00/38/6ff4040fd2fa67770e5f35996109b1d55f669121a678cf84fcacc6e0e83b/oebuild-0.0.8-py3-none-any.whl
+[2024-04-02 05:46:34] INFO root fetch - processPackages [moby-distribution]: Downloading https://files.pythonhosted.org/packages/ef/d2/cb5e3a75b86ff91166bafee32ab962819af9aa6b8219a0c48e0c3c4631a4/moby_distribution-0.5.9.tar.gz
+[2024-04-02 05:46:34] INFO root fetch - processPackages [moby-distribution]: Downloading https://files.pythonhosted.org/packages/c8/bc/be29bff94a99bd218fd075d907263fbf8d815c56076b5c6e2fa2001d239b/moby_distribution-0.6.0.tar.gz
+[2024-04-02 05:46:34] INFO root fetch - processPackages [oebuild]: Downloading https://files.pythonhosted.org/packages/75/82/8f5aaba41319b25523fe1c8b9679c66d3a7f0d17bb02ab0ef6ea4ceb1871/oebuild-0.0.9-py3-none-any.whl
+[2024-04-02 05:46:34] INFO root fetch - processPackages [moby-distribution]: executing diffoscope
+[2024-04-02 05:46:34] INFO root fetch - processPackages [moby-distribution]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moby_distribution-0.5.9.tar.gz tmp/moby_distribution-0.6.0.tar.gz --markdown 20240402/m/moby-distribution/0.5.9-0.6.0/diff.md --exclude *.pyd
+[2024-04-02 05:46:35] INFO root fetch - processPackages [oebuild]: executing diffoscope
+[2024-04-02 05:46:35] INFO root fetch - processPackages [oebuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oebuild-0.0.8-py3-none-any.whl.zip tmp/oebuild-0.0.9-py3-none-any.whl.zip --markdown 20240402/o/oebuild/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 05:46:35] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.5.9.tar.gz]
+[2024-04-02 05:46:35] INFO root fetch - processPackages [moby-distribution]: Remove: archive file [/home/abi/fetcher/tmp/moby_distribution-0.6.0.tar.gz]
+[2024-04-02 05:46:35] INFO root fetch - main [MainThread]: End processing [moby-distribution]: success
+[2024-04-02 05:46:35] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 05:46:35] INFO root fetch - processPackages [oebuild]: Remove: archive file [/home/abi/fetcher/tmp/oebuild-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 05:46:35] INFO root fetch - main [MainThread]: End processing [oebuild]: success
+[2024-04-02 05:46:35] INFO root fetch - main [MainThread]: Store serial: [22580413]
