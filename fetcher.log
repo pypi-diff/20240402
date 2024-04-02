@@ -16541,3 +16541,87 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:53:36] INFO root fetch - processPackages [hestia-earth-models]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-models-0.9.1.tar.gz]
 [2024-04-02 11:53:36] INFO root fetch - main [MainThread]: End processing [hestia-earth-models]: success
 [2024-04-02 11:53:36] INFO root fetch - main [MainThread]: Store serial: [22583104]
+[2024-04-02 11:55:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583104]
+[2024-04-02 11:55:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pdfminer.aemc
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: strings-repository
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sentimentAnalizis
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pin-pink
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: medialoopster
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lightning-whisper-mlx
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: django-smartbase-admin
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: LbAPCommon
+[2024-04-02 11:55:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pdfplumber-aemc
+[2024-04-02 11:55:46] INFO root fetch - processPackages [sentimentAnalizis]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [lightning-whisper-mlx]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [medialoopster]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [pdfminer.aemc]: New version: [20221117] Old Version: [20221116]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [django-smartbase-admin]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/36/a5/ec7001a28277460760097d09eaae7974612e329bb953418ef29222e531ce/lightning-whisper-mlx-0.0.7.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [pdfplumber-aemc]: New version: [0.7.7] Old Version: [0.7.6]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [pin-pink]: New version: [2.1.0] Old Version: [2.0.0]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [strings-repository]: New version: [0.2.0] Old Version: [0.1.0]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [LbAPCommon]: New version: [0.9.9] Old Version: [0.9.8]
+[2024-04-02 11:55:46] INFO root fetch - processPackages [sentimentAnalizis]: Downloading https://files.pythonhosted.org/packages/9a/50/dfa6e0b3be1d3b60c9acb9dd478f41706931f47cbc419138a2e4896f8608/sentimentanalizis-0.0.1.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/1c/0c/66496a5615318f18eb988da0d164764efc2e48d1e079f1bff85b32880753/medialoopster-0.0.8.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [pdfminer.aemc]: Downloading https://files.pythonhosted.org/packages/88/1f/d99ab211af2109aa65a367b1982b8a3a422f55b7b0b22e9fd2c022588bfa/pdfminer.aemc-20221116.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/82/a1/2ea0750e5ebd4e892bc994f5fa3f8888c4263954d9d7c6475fc720ddf123/django_smartbase_admin-0.2.3.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [pin-pink]: Downloading https://files.pythonhosted.org/packages/5c/99/1da6820fca8500fe6135c986382282db337926398a252c3f5e0b73b9ef18/pin_pink-2.0.0.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [strings-repository]: Downloading https://files.pythonhosted.org/packages/eb/89/b9ffd2a0144a0cc056139b41165f89d2469c3ca1d54862f58a91012fcc4b/strings_repository-0.1.0.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/a2/4c/873b2a6b734b48cc0f1cf7b790236c8234e9cba9a7eee71c763e8d1d6296/LbAPCommon-0.9.8.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/11/45/1db032d152258bc4c1d0b2176b7ad414892fa46620682b2074f65556277a/pdfplumber-aemc-0.7.6.tar.gz
+[2024-04-02 11:55:46] INFO root fetch - processPackages [lightning-whisper-mlx]: Downloading https://files.pythonhosted.org/packages/ed/55/5b0acfa646d7290f6ee4bef07c5d709881ce3560ff8eef2fb5e036d884ca/lightning-whisper-mlx-0.0.8.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [sentimentAnalizis]: Downloading https://files.pythonhosted.org/packages/c2/ae/78d806c5627c7f175943c9014a229ab5886dc38376a2d92de09be107d969/sentimentanalizis-0.0.2.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [lightning-whisper-mlx]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [lightning-whisper-mlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lightning-whisper-mlx-0.0.7.tar.gz tmp/lightning-whisper-mlx-0.0.8.tar.gz --markdown 20240402/l/lightning-whisper-mlx/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [medialoopster]: Downloading https://files.pythonhosted.org/packages/c1/3e/a4179f41caf4368dd57457489a0ec6c958b1c5f0f1682474fb152891d64a/medialoopster-0.0.9.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [sentimentAnalizis]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [sentimentAnalizis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentimentanalizis-0.0.1.tar.gz tmp/sentimentanalizis-0.0.2.tar.gz --markdown 20240402/s/sentimentAnalizis/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [strings-repository]: Downloading https://files.pythonhosted.org/packages/f4/ee/f2206e25293597c2e13029e4bf4100dd0deb8016c9e2259609ee029ac34c/strings_repository-0.2.0.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pin-pink]: Downloading https://files.pythonhosted.org/packages/13/e5/ac83e9ce7cefcf7cc7f82f42572ccb8f739ad36072755070ec37b26a8633/pin_pink-2.1.0.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pdfplumber-aemc]: Downloading https://files.pythonhosted.org/packages/ba/14/2964c33d2c7dab9419585ac28f625e1068a1a5d8c9b30e359a9ddd8868a0/pdfplumber-aemc-0.7.7.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [medialoopster]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [medialoopster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medialoopster-0.0.8.tar.gz tmp/medialoopster-0.0.9.tar.gz --markdown 20240402/m/medialoopster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [strings-repository]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [strings-repository]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strings_repository-0.1.0.tar.gz tmp/strings_repository-0.2.0.tar.gz --markdown 20240402/s/strings-repository/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [LbAPCommon]: Downloading https://files.pythonhosted.org/packages/8d/40/270ffe24cea731ed2cbe8e73d29b72ca20b5d707e3aaf201d50d97ac74d4/LbAPCommon-0.9.9.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pin-pink]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pin-pink]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pin_pink-2.0.0.tar.gz tmp/pin_pink-2.1.0.tar.gz --markdown 20240402/p/pin-pink/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pdfplumber-aemc]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pdfplumber-aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfplumber-aemc-0.7.6.tar.gz tmp/pdfplumber-aemc-0.7.7.tar.gz --markdown 20240402/p/pdfplumber-aemc/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [pdfminer.aemc]: Downloading https://files.pythonhosted.org/packages/74/00/6399e4b928ef2877d5b5ea094322ae382516823ad10d6f14a3df2279d597/pdfminer.aemc-20221117.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [django-smartbase-admin]: Downloading https://files.pythonhosted.org/packages/79/85/8d370dbd283d6ebf28530be9e9ad3039e93a9bf7f2d126b456cec75550c8/django_smartbase_admin-0.2.4.tar.gz
+[2024-04-02 11:55:47] INFO root fetch - processPackages [LbAPCommon]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [LbAPCommon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbAPCommon-0.9.8.tar.gz tmp/LbAPCommon-0.9.9.tar.gz --markdown 20240402/L/LbAPCommon/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [django-smartbase-admin]: executing diffoscope
+[2024-04-02 11:55:47] INFO root fetch - processPackages [django-smartbase-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_smartbase_admin-0.2.3.tar.gz tmp/django_smartbase_admin-0.2.4.tar.gz --markdown 20240402/d/django-smartbase-admin/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 11:55:47] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.7.tar.gz]
+[2024-04-02 11:55:47] INFO root fetch - processPackages [lightning-whisper-mlx]: Remove: archive file [/home/abi/fetcher/tmp/lightning-whisper-mlx-0.0.8.tar.gz]
+[2024-04-02 11:55:47] INFO root fetch - main [MainThread]: End processing [lightning-whisper-mlx]: success
+[2024-04-02 11:55:48] INFO root fetch - processPackages [pdfminer.aemc]: executing diffoscope
+[2024-04-02 11:55:48] INFO root fetch - processPackages [pdfminer.aemc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdfminer.aemc-20221116.tar.gz tmp/pdfminer.aemc-20221117.tar.gz --markdown 20240402/p/pdfminer.aemc/20221116-20221117/diff.md --exclude *.pyd
+[2024-04-02 11:55:48] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.8.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - processPackages [medialoopster]: Remove: archive file [/home/abi/fetcher/tmp/medialoopster-0.0.9.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - main [MainThread]: End processing [medialoopster]: success
+[2024-04-02 11:55:48] INFO root fetch - processPackages [strings-repository]: Remove: archive file [/home/abi/fetcher/tmp/strings_repository-0.1.0.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - processPackages [strings-repository]: Remove: archive file [/home/abi/fetcher/tmp/strings_repository-0.2.0.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - main [MainThread]: End processing [strings-repository]: success
+[2024-04-02 11:55:48] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.6.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - processPackages [pdfplumber-aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfplumber-aemc-0.7.7.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - main [MainThread]: End processing [pdfplumber-aemc]: success
+[2024-04-02 11:55:48] INFO root fetch - processPackages [pin-pink]: Remove: archive file [/home/abi/fetcher/tmp/pin_pink-2.0.0.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - processPackages [pin-pink]: Remove: archive file [/home/abi/fetcher/tmp/pin_pink-2.1.0.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - main [MainThread]: End processing [pin-pink]: success
+[2024-04-02 11:55:48] INFO root fetch - processPackages [sentimentAnalizis]: Remove: archive file [/home/abi/fetcher/tmp/sentimentanalizis-0.0.1.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - processPackages [sentimentAnalizis]: Remove: archive file [/home/abi/fetcher/tmp/sentimentanalizis-0.0.2.tar.gz]
+[2024-04-02 11:55:48] INFO root fetch - main [MainThread]: End processing [sentimentAnalizis]: success
+[2024-04-02 11:55:49] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.8.tar.gz]
+[2024-04-02 11:55:49] INFO root fetch - processPackages [LbAPCommon]: Remove: archive file [/home/abi/fetcher/tmp/LbAPCommon-0.9.9.tar.gz]
+[2024-04-02 11:55:49] INFO root fetch - main [MainThread]: End processing [LbAPCommon]: success
+[2024-04-02 11:55:50] INFO root fetch - processPackages [pdfminer.aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer.aemc-20221116.tar.gz]
+[2024-04-02 11:55:50] INFO root fetch - processPackages [pdfminer.aemc]: Remove: archive file [/home/abi/fetcher/tmp/pdfminer.aemc-20221117.tar.gz]
+[2024-04-02 11:55:50] INFO root fetch - main [MainThread]: End processing [pdfminer.aemc]: success
+[2024-04-02 11:55:50] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.3.tar.gz]
+[2024-04-02 11:55:50] INFO root fetch - processPackages [django-smartbase-admin]: Remove: archive file [/home/abi/fetcher/tmp/django_smartbase_admin-0.2.4.tar.gz]
+[2024-04-02 11:55:50] INFO root fetch - main [MainThread]: End processing [django-smartbase-admin]: success
+[2024-04-02 11:55:50] INFO root fetch - main [MainThread]: Store serial: [22583130]
