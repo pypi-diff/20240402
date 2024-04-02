@@ -22575,3 +22575,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:32:15] INFO root fetch - processPackages [goupil]: Remove: archive file [/home/abi/fetcher/tmp/goupil-1.1.0.tar.gz]
 [2024-04-02 15:32:15] INFO root fetch - main [MainThread]: End processing [goupil]: success
 [2024-04-02 15:32:15] INFO root fetch - main [MainThread]: Store serial: [22585588]
+[2024-04-02 15:34:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585588]
+[2024-04-02 15:34:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ai-model-worker
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mydata-client
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhaolinchao
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qa-metrics
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyQtUIkit
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: atomic-bomb-engine
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EasyEmailTemplate
+[2024-04-02 15:34:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: direnumerate
+[2024-04-02 15:34:25] WARNING root fetch - processPackages [mydata-client]: Skipping, unable to determine old version
+[2024-04-02 15:34:25] INFO root fetch - main [MainThread]: End processing [mydata-client] error
+[2024-04-02 15:34:25] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-02 15:34:25] INFO root fetch - processPackages [qa-metrics]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-02 15:34:26] INFO root fetch - processPackages [ai-model-worker]: New version: [0.0.1.dev5] Old Version: [0.0.1.dev4]
+[2024-04-02 15:34:26] INFO root fetch - processPackages [atomic-bomb-engine]: New version: [0.9.1] Old Version: [0.9.0]
+[2024-04-02 15:34:26] WARNING root fetch - processPackages [zhaolinchao]: Skipping, unable to determine old version
+[2024-04-02 15:34:26] INFO root fetch - main [MainThread]: End processing [zhaolinchao] error
+[2024-04-02 15:34:26] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/04/ba/a91092784f271a804440a6fa277a8fc3b00bb0e54e589256416d901070eb/PyQtUIkit-1.6.0.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/5e/9a/6a0341f8d8cc9cca630334922f5ee34bdfcd941b9a7354804c1493e96612/qa_metrics-0.2.6.tar.gz
+[2024-04-02 15:34:26] WARNING root fetch - processPackages [EasyEmailTemplate]: Skipping, unable to determine old version
+[2024-04-02 15:34:26] INFO root fetch - main [MainThread]: End processing [EasyEmailTemplate] error
+[2024-04-02 15:34:26] INFO root fetch - processPackages [direnumerate]: New version: [3.0rc6] Old Version: [3.0rc5]
+[2024-04-02 15:34:26] INFO root fetch - processPackages [ai-model-worker]: Downloading https://files.pythonhosted.org/packages/ea/35/c2fa3d4fcb1e3489bc5d0d28b7c34c38986ebbfdcd8663cc6ff891753143/ai_model_worker-0.0.1.dev4.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/de/47/589c78a3caf02bccdff9d1da27ba01989773662faca9c96280fad2e297e6/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl
+[2024-04-02 15:34:26] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/db/a6/429b971f7efa94e0e501d926ad2f4e861bf3477f94b08ddd3457debd2121/direnumerate-3.0rc5.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [qa-metrics]: Downloading https://files.pythonhosted.org/packages/73/a3/bc15696f86fadd2dee7c5c3dd16a8decf8e417a2c04bee26879461ab7d2c/qa_metrics-0.2.7.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/ce/c2/35b1a67a4a33c48e59a21b7f7a7188cc272e150343c004bb111d212aa3aa/PyQtUIkit-2.0.0.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [qa-metrics]: executing diffoscope
+[2024-04-02 15:34:26] INFO root fetch - processPackages [qa-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qa_metrics-0.2.6.tar.gz tmp/qa_metrics-0.2.7.tar.gz --markdown 20240402/q/qa-metrics/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-02 15:34:26] INFO root fetch - processPackages [ai-model-worker]: Downloading https://files.pythonhosted.org/packages/b5/24/5a74f8c1bce3dc71e5e0b0954c3a223679579bfc4a3c139ee933b6dfb79c/ai_model_worker-0.0.1.dev5.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [ai-model-worker]: executing diffoscope
+[2024-04-02 15:34:26] INFO root fetch - processPackages [ai-model-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_model_worker-0.0.1.dev4.tar.gz tmp/ai_model_worker-0.0.1.dev5.tar.gz --markdown 20240402/a/ai-model-worker/0.0.1.dev4-0.0.1.dev5/diff.md --exclude *.pyd
+[2024-04-02 15:34:26] INFO root fetch - processPackages [direnumerate]: Downloading https://files.pythonhosted.org/packages/22/c1/bb0d71a3efef6aeac68977e47e32d4c6c9a6c019bab493fffae4ed5e7176/direnumerate-3.0rc6.tar.gz
+[2024-04-02 15:34:26] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-02 15:34:26] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-1.6.0.tar.gz tmp/PyQtUIkit-2.0.0.tar.gz --markdown 20240402/P/PyQtUIkit/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 15:34:26] INFO root fetch - processPackages [atomic-bomb-engine]: Downloading https://files.pythonhosted.org/packages/f2/d0/587dc5dedb6e3e81c2ce988350e6322864b47905247529e088c7b811f975/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl
+[2024-04-02 15:34:26] INFO root fetch - processPackages [direnumerate]: executing diffoscope
+[2024-04-02 15:34:26] INFO root fetch - processPackages [direnumerate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/direnumerate-3.0rc5.tar.gz tmp/direnumerate-3.0rc6.tar.gz --markdown 20240402/d/direnumerate/3.0rc5-3.0rc6/diff.md --exclude *.pyd
+[2024-04-02 15:34:27] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.6.tar.gz]
+[2024-04-02 15:34:27] INFO root fetch - processPackages [qa-metrics]: Remove: archive file [/home/abi/fetcher/tmp/qa_metrics-0.2.7.tar.gz]
+[2024-04-02 15:34:27] INFO root fetch - main [MainThread]: End processing [qa-metrics]: success
+[2024-04-02 15:34:27] INFO root fetch - processPackages [atomic-bomb-engine]: executing diffoscope
+[2024-04-02 15:34:27] INFO root fetch - processPackages [atomic-bomb-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip --markdown 20240402/a/atomic-bomb-engine/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2024-04-02 15:34:27] INFO root fetch - processPackages [ai-model-worker]: Remove: archive file [/home/abi/fetcher/tmp/ai_model_worker-0.0.1.dev4.tar.gz]
+[2024-04-02 15:34:27] INFO root fetch - processPackages [ai-model-worker]: Remove: archive file [/home/abi/fetcher/tmp/ai_model_worker-0.0.1.dev5.tar.gz]
+[2024-04-02 15:34:27] INFO root fetch - main [MainThread]: End processing [ai-model-worker]: success
+[2024-04-02 15:34:27] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc5.tar.gz]
+[2024-04-02 15:34:27] INFO root fetch - processPackages [direnumerate]: Remove: archive file [/home/abi/fetcher/tmp/direnumerate-3.0rc6.tar.gz]
+[2024-04-02 15:34:27] INFO root fetch - main [MainThread]: End processing [direnumerate]: success
+[2024-04-02 15:34:27] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.0-cp39-none-win_amd64.whl.zip]
+[2024-04-02 15:34:27] INFO root fetch - processPackages [atomic-bomb-engine]: Remove: archive file [/home/abi/fetcher/tmp/atomic_bomb_engine-0.9.1-cp39-none-win_amd64.whl.zip]
+[2024-04-02 15:34:27] INFO root fetch - main [MainThread]: End processing [atomic-bomb-engine]: success
+[2024-04-02 15:34:28] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-1.6.0.tar.gz]
+[2024-04-02 15:34:28] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.0.tar.gz]
+[2024-04-02 15:34:28] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-02 15:34:28] INFO root fetch - main [MainThread]: Store serial: [22585612]
