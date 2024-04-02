@@ -12850,3 +12850,42 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:27:46] INFO root fetch - processPackages [benchling-sdk]: Remove: archive file [/home/abi/fetcher/tmp/benchling_sdk-1.9.0a5.tar.gz]
 [2024-04-02 09:27:46] INFO root fetch - main [MainThread]: End processing [benchling-sdk]: success
 [2024-04-02 09:27:46] INFO root fetch - main [MainThread]: Store serial: [22581605]
+[2024-04-02 09:29:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581605]
+[2024-04-02 09:29:55] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 09:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-ssi-hr-reimbursement
+[2024-04-02 09:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: robotframework-creartramas
+[2024-04-02 09:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cgatcore
+[2024-04-02 09:29:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: LdShell
+[2024-04-02 09:29:55] INFO root fetch - processPackages [LdShell]: New version: [2.0.1] Old Version: [2.0.0]
+[2024-04-02 09:29:55] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: New version: [14.0.1.9.0] Old Version: [14.0.1.7.0]
+[2024-04-02 09:29:55] INFO root fetch - processPackages [robotframework-creartramas]: New version: [2.2.1] Old Version: [2.1.1]
+[2024-04-02 09:29:55] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/bd/ba/69dd8a1276aa2d560de36d2899a33a20df6a18303519327e8c409d942895/LdShell-2.0.0.tar.gz
+[2024-04-02 09:29:55] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Downloading https://files.pythonhosted.org/packages/47/6f/8a032de8ebb925ab02875ff73f93f5792f2f0dfc694de86c2a8641ed3f83/odoo14_addon_ssi_hr_reimbursement-14.0.1.7.0-py3-none-any.whl
+[2024-04-02 09:29:55] INFO root fetch - processPackages [cgatcore]: New version: [0.6.9] Old Version: [0.6.7]
+[2024-04-02 09:29:55] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/0f/4a/dd9c614b470d910e3c0e2a436dbfd1635c2900c9500124a641ba775b8638/robotframework_creartramas-2.1.1.tar.gz
+[2024-04-02 09:29:55] INFO root fetch - processPackages [cgatcore]: Downloading https://files.pythonhosted.org/packages/41/a5/9e35d7aaf8f461966cdce9dc4515c1d07dbe385d4acc4ef1b4fcd4d28635/cgatcore-0.6.7.tar.gz
+[2024-04-02 09:29:55] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Downloading https://files.pythonhosted.org/packages/e7/37/a12e618edf412f6a40f78980e841f2b468db6310a5cfcef73a824385946d/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl
+[2024-04-02 09:29:55] INFO root fetch - processPackages [LdShell]: Downloading https://files.pythonhosted.org/packages/1d/17/1b104eaebfecae37302a4879fb4d25291b540339275379f0afb07905f6ec/LdShell-2.0.1.tar.gz
+[2024-04-02 09:29:55] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: executing diffoscope
+[2024-04-02 09:29:55] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.7.0-py3-none-any.whl.zip tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl.zip --markdown 20240402/o/odoo14-addon-ssi-hr-reimbursement/14.0.1.7.0-14.0.1.9.0/diff.md --exclude *.pyd
+[2024-04-02 09:29:55] INFO root fetch - processPackages [LdShell]: executing diffoscope
+[2024-04-02 09:29:55] INFO root fetch - processPackages [LdShell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LdShell-2.0.0.tar.gz tmp/LdShell-2.0.1.tar.gz --markdown 20240402/L/LdShell/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2024-04-02 09:29:56] INFO root fetch - processPackages [robotframework-creartramas]: Downloading https://files.pythonhosted.org/packages/eb/c9/d0616e9ec153b8c8a50338816aea7022a2af2759af05fbc2a8edcc23735c/robotframework_creartramas-2.2.1.tar.gz
+[2024-04-02 09:29:56] INFO root fetch - processPackages [cgatcore]: Downloading https://files.pythonhosted.org/packages/be/91/6637adf7c9fd03bbeedce956abfdd5af2c2eb4440aa411009bc660ef00d9/cgatcore-0.6.9.tar.gz
+[2024-04-02 09:29:56] INFO root fetch - processPackages [robotframework-creartramas]: executing diffoscope
+[2024-04-02 09:29:56] INFO root fetch - processPackages [robotframework-creartramas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework_creartramas-2.1.1.tar.gz tmp/robotframework_creartramas-2.2.1.tar.gz --markdown 20240402/r/robotframework-creartramas/2.1.1-2.2.1/diff.md --exclude *.pyd
+[2024-04-02 09:29:56] INFO root fetch - processPackages [cgatcore]: executing diffoscope
+[2024-04-02 09:29:56] INFO root fetch - processPackages [cgatcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cgatcore-0.6.7.tar.gz tmp/cgatcore-0.6.9.tar.gz --markdown 20240402/c/cgatcore/0.6.7-0.6.9/diff.md --exclude *.pyd
+[2024-04-02 09:29:56] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-2.0.0.tar.gz]
+[2024-04-02 09:29:56] INFO root fetch - processPackages [LdShell]: Remove: archive file [/home/abi/fetcher/tmp/LdShell-2.0.1.tar.gz]
+[2024-04-02 09:29:56] INFO root fetch - main [MainThread]: End processing [LdShell]: success
+[2024-04-02 09:29:56] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.7.0-py3-none-any.whl.zip]
+[2024-04-02 09:29:56] INFO root fetch - processPackages [odoo14-addon-ssi-hr-reimbursement]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_ssi_hr_reimbursement-14.0.1.9.0-py3-none-any.whl.zip]
+[2024-04-02 09:29:56] INFO root fetch - main [MainThread]: End processing [odoo14-addon-ssi-hr-reimbursement]: success
+[2024-04-02 09:29:56] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.1.1.tar.gz]
+[2024-04-02 09:29:56] INFO root fetch - processPackages [robotframework-creartramas]: Remove: archive file [/home/abi/fetcher/tmp/robotframework_creartramas-2.2.1.tar.gz]
+[2024-04-02 09:29:56] INFO root fetch - main [MainThread]: End processing [robotframework-creartramas]: success
+[2024-04-02 09:29:56] INFO root fetch - processPackages [cgatcore]: Remove: archive file [/home/abi/fetcher/tmp/cgatcore-0.6.7.tar.gz]
+[2024-04-02 09:29:56] INFO root fetch - processPackages [cgatcore]: Remove: archive file [/home/abi/fetcher/tmp/cgatcore-0.6.9.tar.gz]
+[2024-04-02 09:29:56] INFO root fetch - main [MainThread]: End processing [cgatcore]: success
+[2024-04-02 09:29:56] INFO root fetch - main [MainThread]: Store serial: [22581614]
