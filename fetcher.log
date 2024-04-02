@@ -21291,3 +21291,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:52:19] INFO root fetch - processPackages [unified-planning]: Remove: archive file [/home/abi/fetcher/tmp/unified_planning-1.1.0.9.dev1.tar.gz]
 [2024-04-02 14:52:20] INFO root fetch - main [MainThread]: End processing [unified-planning]: success
 [2024-04-02 14:52:20] INFO root fetch - main [MainThread]: Store serial: [22585033]
+[2024-04-02 14:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585033]
+[2024-04-02 14:54:28] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pandapower
+[2024-04-02 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: run-one
+[2024-04-02 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flashcam
+[2024-04-02 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reactpy-table
+[2024-04-02 14:54:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dbt-llm-tools
+[2024-04-02 14:54:28] INFO root fetch - processPackages [flashcam]: New version: [1.8.9] Old Version: [1.8.8]
+[2024-04-02 14:54:28] INFO root fetch - processPackages [run-one]: New version: [1.2.7] Old Version: [1.2.6]
+[2024-04-02 14:54:28] INFO root fetch - processPackages [pandapower]: New version: [2.9.0] Old Version: [2.8.0]
+[2024-04-02 14:54:29] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/2f/ed/309ce286f0155da1cda509e7d2ccbe76c3ac06a6304044444047b0574054/run_one-1.2.6.tar.gz
+[2024-04-02 14:54:29] WARNING root fetch - processPackages [dbt-llm-tools]: Skipping, unable to determine old version
+[2024-04-02 14:54:29] INFO root fetch - main [MainThread]: End processing [dbt-llm-tools] error
+[2024-04-02 14:54:29] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/12/52/24398f492f68127b302bf378b45fb72ada8592e89b0c0590a01c8448d97b/flashcam-1.8.8.tar.gz
+[2024-04-02 14:54:29] INFO root fetch - processPackages [reactpy-table]: New version: [0.0.13] Old Version: [0.0.12]
+[2024-04-02 14:54:29] INFO root fetch - processPackages [pandapower]: Downloading https://files.pythonhosted.org/packages/ea/89/f9acbe055cc07a18c99f7be74063ae2f239404f6c606b26364a0acd43e12/pandapower-2.8.0.zip
+[2024-04-02 14:54:29] INFO root fetch - processPackages [reactpy-table]: Downloading https://files.pythonhosted.org/packages/b6/94/35fc503d0dec10bc0016494ae95ad6d911e13db6920e914104730beb8ede/reactpy_table-0.0.12.tar.gz
+[2024-04-02 14:54:29] INFO root fetch - processPackages [run-one]: Downloading https://files.pythonhosted.org/packages/3f/9c/8f9cd3bcfca9c4bdc1f914e36e2887ad493e3563f5a420535df3d7388536/run_one-1.2.7.tar.gz
+[2024-04-02 14:54:29] INFO root fetch - processPackages [run-one]: executing diffoscope
+[2024-04-02 14:54:29] INFO root fetch - processPackages [run-one]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/run_one-1.2.6.tar.gz tmp/run_one-1.2.7.tar.gz --markdown 20240402/r/run-one/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2024-04-02 14:54:29] INFO root fetch - processPackages [flashcam]: Downloading https://files.pythonhosted.org/packages/2f/aa/fb748418cf7ee4d2710346f9f9c8c185d2bf4c279d3fd0898f15eba4c501/flashcam-1.8.9.tar.gz
+[2024-04-02 14:54:29] INFO root fetch - processPackages [flashcam]: executing diffoscope
+[2024-04-02 14:54:29] INFO root fetch - processPackages [flashcam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flashcam-1.8.8.tar.gz tmp/flashcam-1.8.9.tar.gz --markdown 20240402/f/flashcam/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2024-04-02 14:54:29] INFO root fetch - processPackages [reactpy-table]: Downloading https://files.pythonhosted.org/packages/c6/62/1ed21559c9e7853feb9cd08eb61ca95102fec87a5e0959ca42f5b6d376b0/reactpy_table-0.0.13.tar.gz
+[2024-04-02 14:54:29] INFO root fetch - processPackages [pandapower]: Downloading https://files.pythonhosted.org/packages/24/99/a23ed1e6bbe9dff0482f2f13542c9a4fdfe6277d8f5351adc7767ab2f336/pandapower-2.9.0.zip
+[2024-04-02 14:54:29] INFO root fetch - processPackages [reactpy-table]: executing diffoscope
+[2024-04-02 14:54:29] INFO root fetch - processPackages [reactpy-table]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_table-0.0.12.tar.gz tmp/reactpy_table-0.0.13.tar.gz --markdown 20240402/r/reactpy-table/0.0.12-0.0.13/diff.md --exclude *.pyd
+[2024-04-02 14:54:30] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.2.6.tar.gz]
+[2024-04-02 14:54:30] INFO root fetch - processPackages [run-one]: Remove: archive file [/home/abi/fetcher/tmp/run_one-1.2.7.tar.gz]
+[2024-04-02 14:54:30] INFO root fetch - main [MainThread]: End processing [run-one]: success
+[2024-04-02 14:54:30] INFO root fetch - processPackages [pandapower]: executing diffoscope
+[2024-04-02 14:54:30] INFO root fetch - processPackages [pandapower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandapower-2.8.0.zip tmp/pandapower-2.9.0.zip --markdown 20240402/p/pandapower/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2024-04-02 14:54:30] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.8.tar.gz]
+[2024-04-02 14:54:30] INFO root fetch - processPackages [flashcam]: Remove: archive file [/home/abi/fetcher/tmp/flashcam-1.8.9.tar.gz]
+[2024-04-02 14:54:30] INFO root fetch - main [MainThread]: End processing [flashcam]: success
+[2024-04-02 14:54:30] INFO root fetch - processPackages [reactpy-table]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_table-0.0.12.tar.gz]
+[2024-04-02 14:54:30] INFO root fetch - processPackages [reactpy-table]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_table-0.0.13.tar.gz]
+[2024-04-02 14:54:30] INFO root fetch - main [MainThread]: End processing [reactpy-table]: success
+[2024-04-02 14:54:34] INFO root fetch - processPackages [pandapower]: Remove: archive file [/home/abi/fetcher/tmp/pandapower-2.8.0.zip]
+[2024-04-02 14:54:34] INFO root fetch - processPackages [pandapower]: Remove: archive file [/home/abi/fetcher/tmp/pandapower-2.9.0.zip]
+[2024-04-02 14:54:34] INFO root fetch - main [MainThread]: End processing [pandapower]: success
+[2024-04-02 14:54:34] INFO root fetch - main [MainThread]: Store serial: [22585048]
