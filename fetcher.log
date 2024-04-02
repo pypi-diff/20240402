@@ -12973,3 +12973,53 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 09:32:08] INFO root fetch - processPackages [forestadmin-datasource-toolkit]: Remove: archive file [/home/abi/fetcher/tmp/forestadmin_datasource_toolkit-1.6.2.tar.gz]
 [2024-04-02 09:32:08] INFO root fetch - main [MainThread]: End processing [forestadmin-datasource-toolkit]: success
 [2024-04-02 09:32:08] INFO root fetch - main [MainThread]: Store serial: [22581637]
+[2024-04-02 09:34:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581637]
+[2024-04-02 09:34:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: redpic
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: BMPboot
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nap-plot-tools
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ai-model-task
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mag-net-hub
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: farm-haystack
+[2024-04-02 09:34:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: wiliot-deployment-tools
+[2024-04-02 09:34:18] INFO root fetch - processPackages [redpic]: New version: [1.0.0.2] Old Version: [1.0.0.1]
+[2024-04-02 09:34:18] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/0f/82/cb7522937cdd7fe09287fa41270efc524051da3700cfe01ce050f90a476f/redpic-1.0.0.1.tar.gz
+[2024-04-02 09:34:18] INFO root fetch - processPackages [mag-net-hub]: New version: [0.0.3] Old Version: [0.0.2]
+[2024-04-02 09:34:18] WARNING root fetch - processPackages [BMPboot]: Skipping, unable to determine old version
+[2024-04-02 09:34:18] INFO root fetch - main [MainThread]: End processing [BMPboot] error
+[2024-04-02 09:34:18] WARNING root fetch - processPackages [ai-model-task]: Skipping, unable to determine old version
+[2024-04-02 09:34:18] INFO root fetch - processPackages [nap-plot-tools]: New version: [0.0.3a0] Old Version: [0.0.3]
+[2024-04-02 09:34:18] INFO root fetch - main [MainThread]: End processing [ai-model-task] error
+[2024-04-02 09:34:18] INFO root fetch - processPackages [farm-haystack]: New version: [1.9.1rc1] Old Version: [1.9.1]
+[2024-04-02 09:34:18] INFO root fetch - processPackages [wiliot-deployment-tools]: New version: [4.1.9] Old Version: [4.1.8]
+[2024-04-02 09:34:18] INFO root fetch - processPackages [nap-plot-tools]: Downloading https://files.pythonhosted.org/packages/09/44/c2ccfa874e115a3d2e539fa40b04f17e80a6014bbd1ba21e73a5278d8929/nap-plot-tools-0.0.3.tar.gz
+[2024-04-02 09:34:18] INFO root fetch - processPackages [mag-net-hub]: Downloading https://files.pythonhosted.org/packages/5e/c8/1824ed4a87392b195989d1d7143629553fdc3060a7ea1639badfe11f192e/mag_net_hub-0.0.2.tar.gz
+[2024-04-02 09:34:18] INFO root fetch - processPackages [redpic]: Downloading https://files.pythonhosted.org/packages/c7/66/10575ff380bee010a101dbfa4f9b43c18fb5b8ff3ae4401b50a6d1c42087/redpic-1.0.0.2.tar.gz
+[2024-04-02 09:34:18] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/94/11/cf9836569f3576a61cd8186a2e448a3c7cd443ac2711bcebab600878af41/farm_haystack-1.9.1.tar.gz
+[2024-04-02 09:34:19] INFO root fetch - processPackages [wiliot-deployment-tools]: Downloading https://files.pythonhosted.org/packages/f8/43/7361f89dc6eda4030eaa950fb500162697c75b0826d57c5834f2562992da/wiliot-deployment-tools-4.1.8.tar.gz
+[2024-04-02 09:34:19] INFO root fetch - processPackages [redpic]: executing diffoscope
+[2024-04-02 09:34:19] INFO root fetch - processPackages [redpic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/redpic-1.0.0.1.tar.gz tmp/redpic-1.0.0.2.tar.gz --markdown 20240402/r/redpic/1.0.0.1-1.0.0.2/diff.md --exclude *.pyd
+[2024-04-02 09:34:19] INFO root fetch - processPackages [nap-plot-tools]: Downloading https://files.pythonhosted.org/packages/9c/93/b6b593747a946d3b61d47c716de010e31520429c644728f4672965a0186b/nap-plot-tools-0.0.3a0.tar.gz
+[2024-04-02 09:34:19] INFO root fetch - processPackages [nap-plot-tools]: executing diffoscope
+[2024-04-02 09:34:19] INFO root fetch - processPackages [nap-plot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nap-plot-tools-0.0.3.tar.gz tmp/nap-plot-tools-0.0.3a0.tar.gz --markdown 20240402/n/nap-plot-tools/0.0.3-0.0.3a0/diff.md --exclude *.pyd
+[2024-04-02 09:34:19] INFO root fetch - processPackages [mag-net-hub]: Downloading https://files.pythonhosted.org/packages/d4/1f/f15b550b079e3db620e57cf35d05600c4d075022a1d400469524027ba030/mag_net_hub-0.0.3.tar.gz
+[2024-04-02 09:34:19] WARNING root fetch - processPackages [wiliot-deployment-tools]: Skipping package: exceeds size limit 19415206>=10485760
+[2024-04-02 09:34:19] INFO root fetch - processPackages [farm-haystack]: Downloading https://files.pythonhosted.org/packages/25/8b/e5381a7ecd8fa8e72c2cfdfe68539c09350180493bee16fb3b800a487c96/farm_haystack-1.9.1rc1.tar.gz
+[2024-04-02 09:34:19] INFO root fetch - main [MainThread]: End processing [wiliot-deployment-tools] error
+[2024-04-02 09:34:19] INFO root fetch - processPackages [farm-haystack]: executing diffoscope
+[2024-04-02 09:34:19] INFO root fetch - processPackages [farm-haystack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/farm_haystack-1.9.1.tar.gz tmp/farm_haystack-1.9.1rc1.tar.gz --markdown 20240402/f/farm-haystack/1.9.1-1.9.1rc1/diff.md --exclude *.pyd
+[2024-04-02 09:34:19] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.1.tar.gz]
+[2024-04-02 09:34:19] INFO root fetch - processPackages [redpic]: Remove: archive file [/home/abi/fetcher/tmp/redpic-1.0.0.2.tar.gz]
+[2024-04-02 09:34:19] INFO root fetch - main [MainThread]: End processing [redpic]: success
+[2024-04-02 09:34:19] INFO root fetch - processPackages [nap-plot-tools]: Remove: archive file [/home/abi/fetcher/tmp/nap-plot-tools-0.0.3.tar.gz]
+[2024-04-02 09:34:19] INFO root fetch - processPackages [nap-plot-tools]: Remove: archive file [/home/abi/fetcher/tmp/nap-plot-tools-0.0.3a0.tar.gz]
+[2024-04-02 09:34:19] INFO root fetch - main [MainThread]: End processing [nap-plot-tools]: success
+[2024-04-02 09:34:20] INFO root fetch - processPackages [mag-net-hub]: executing diffoscope
+[2024-04-02 09:34:20] INFO root fetch - processPackages [mag-net-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mag_net_hub-0.0.2.tar.gz tmp/mag_net_hub-0.0.3.tar.gz --markdown 20240402/m/mag-net-hub/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2024-04-02 09:34:20] INFO root fetch - processPackages [mag-net-hub]: Remove: archive file [/home/abi/fetcher/tmp/mag_net_hub-0.0.2.tar.gz]
+[2024-04-02 09:34:20] INFO root fetch - processPackages [mag-net-hub]: Remove: archive file [/home/abi/fetcher/tmp/mag_net_hub-0.0.3.tar.gz]
+[2024-04-02 09:34:20] INFO root fetch - main [MainThread]: End processing [mag-net-hub]: success
+[2024-04-02 09:34:20] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1.tar.gz]
+[2024-04-02 09:34:20] INFO root fetch - processPackages [farm-haystack]: Remove: archive file [/home/abi/fetcher/tmp/farm_haystack-1.9.1rc1.tar.gz]
+[2024-04-02 09:34:20] INFO root fetch - main [MainThread]: End processing [farm-haystack]: success
+[2024-04-02 09:34:20] INFO root fetch - main [MainThread]: Store serial: [22581658]
