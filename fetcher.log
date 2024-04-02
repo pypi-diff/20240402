@@ -19881,3 +19881,70 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 14:06:55] INFO root fetch - processPackages [jupyter-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-analysis-tools-0.1.7.tar.gz]
 [2024-04-02 14:06:55] INFO root fetch - main [MainThread]: End processing [jupyter-analysis-tools]: success
 [2024-04-02 14:06:55] INFO root fetch - main [MainThread]: Store serial: [22584472]
+[2024-04-02 14:08:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584472]
+[2024-04-02 14:09:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: musicAlgLib
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dapla-statbank-client
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mns-scheduler
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hkube-python-wrapper
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide6-Addons
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: social-interaction-cloud
+[2024-04-02 14:09:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: apache-superset
+[2024-04-02 14:09:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQtUIkit
+[2024-04-02 14:09:04] INFO root fetch - processPackages [dapla-statbank-client]: New version: [1.1.2] Old Version: [1.1.1]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [musicAlgLib]: New version: [1.0.5] Old Version: [1.0.3]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [PyQtUIkit]: New version: [2.0.0] Old Version: [1.6.0]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [apache-superset]: New version: [4.0.0rc2] Old Version: [4.0.0rc1]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/3c/4a/74946617d3c12ced7323e85fcf60f0a91fe986cc204aafaa379d07c823da/musicAlgLib-1.0.3.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/b3/f8/57bc0281a13cdbd429701ad4c65afa3f53820bea7feb655c1b5870da674e/dapla_statbank_client-1.1.1.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [mns-scheduler]: New version: [1.0.1.7] Old Version: [1.0.1.6]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [PySide6-Addons]: New version: [6.6.3.1] Old Version: [6.6.3]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [social-interaction-cloud]: New version: [1.2.0] Old Version: [1.1.2]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [hkube-python-wrapper]: New version: [2.6.0.dev9] Old Version: [2.6.0.dev8]
+[2024-04-02 14:09:04] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/08/05/62f7f30cfc22f52d27f5d631246a110ca88990bce5b939b4ce211b0c7544/mns-scheduler-1.0.1.6.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/04/ba/a91092784f271a804440a6fa277a8fc3b00bb0e54e589256416d901070eb/PyQtUIkit-1.6.0.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/69/ce/6f1f0d2d1129c1d436c123ca357f6c4e0b788393b2cbaf318e12c5f53dcf/social_interaction_cloud-1.1.2.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [apache-superset]: Downloading https://files.pythonhosted.org/packages/f2/8e/3a50c697cc0a4bde393c000dbca38d26af6bc79e7d36342dcd28a2a9e83c/apache-superset-4.0.0rc1.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [hkube-python-wrapper]: Downloading https://files.pythonhosted.org/packages/9e/2a/38a90d83d86cabcef2e9d272b42eadd2b52efe9c007b8381a42916c05aa5/hkube_python_wrapper-2.6.0.dev8.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [PySide6-Addons]: Downloading https://files.pythonhosted.org/packages/e5/46/1c9e3d93c412f5f712a0c530f128346a1b9cb1e2c6d71040cf8d70a13955/PySide6_Addons-6.6.3-cp38-abi3-win_amd64.whl
+[2024-04-02 14:09:04] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/82/e3/83a55b3043056f7e9a5a464151d1ee94d6852bd4a49b8f9c1e1cf190d0b1/dapla_statbank_client-1.1.2.tar.gz
+[2024-04-02 14:09:04] WARNING root fetch - processPackages [PySide6-Addons]: Skipping package: exceeds size limit 104068645>=10485760
+[2024-04-02 14:09:04] INFO root fetch - main [MainThread]: End processing [PySide6-Addons] error
+[2024-04-02 14:09:04] INFO root fetch - processPackages [dapla-statbank-client]: executing diffoscope
+[2024-04-02 14:09:04] INFO root fetch - processPackages [dapla-statbank-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_statbank_client-1.1.1.tar.gz tmp/dapla_statbank_client-1.1.2.tar.gz --markdown 20240402/d/dapla-statbank-client/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2024-04-02 14:09:04] WARNING root fetch - processPackages [apache-superset]: Skipping package: exceeds size limit 49493607>=10485760
+[2024-04-02 14:09:04] INFO root fetch - main [MainThread]: End processing [apache-superset] error
+[2024-04-02 14:09:04] INFO root fetch - processPackages [musicAlgLib]: Downloading https://files.pythonhosted.org/packages/d7/c4/6f06c5a8e2fd341ba3e829787183878a4c8b9fcc3fe14f9f2e1b740edac7/musicAlgLib-1.0.5.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [mns-scheduler]: Downloading https://files.pythonhosted.org/packages/c6/cc/5dc2f25d8852fd304ffd85dc6500a2e3160936ba08eaea351e00a1ca290f/mns-scheduler-1.0.1.7.tar.gz
+[2024-04-02 14:09:04] INFO root fetch - processPackages [hkube-python-wrapper]: Downloading https://files.pythonhosted.org/packages/ed/e9/b53819c3b451ad5f59dc0c70f2007d252adb35bf8cfe74d1fac1c1b05893/hkube_python_wrapper-2.6.0.dev9.tar.gz
+[2024-04-02 14:09:05] INFO root fetch - processPackages [social-interaction-cloud]: Downloading https://files.pythonhosted.org/packages/15/46/a93e0fd9cdd5863d27ae5c0f8974171fb422f92bfd621f61d1d57f9ee231/social_interaction_cloud-1.2.0.tar.gz
+[2024-04-02 14:09:05] INFO root fetch - processPackages [PyQtUIkit]: Downloading https://files.pythonhosted.org/packages/ce/c2/35b1a67a4a33c48e59a21b7f7a7188cc272e150343c004bb111d212aa3aa/PyQtUIkit-2.0.0.tar.gz
+[2024-04-02 14:09:05] INFO root fetch - processPackages [hkube-python-wrapper]: executing diffoscope
+[2024-04-02 14:09:05] INFO root fetch - processPackages [hkube-python-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkube_python_wrapper-2.6.0.dev8.tar.gz tmp/hkube_python_wrapper-2.6.0.dev9.tar.gz --markdown 20240402/h/hkube-python-wrapper/2.6.0.dev8-2.6.0.dev9/diff.md --exclude *.pyd
+[2024-04-02 14:09:05] INFO root fetch - processPackages [musicAlgLib]: executing diffoscope
+[2024-04-02 14:09:05] INFO root fetch - processPackages [musicAlgLib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/musicAlgLib-1.0.3.tar.gz tmp/musicAlgLib-1.0.5.tar.gz --markdown 20240402/m/musicAlgLib/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2024-04-02 14:09:05] INFO root fetch - processPackages [social-interaction-cloud]: executing diffoscope
+[2024-04-02 14:09:05] INFO root fetch - processPackages [social-interaction-cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social_interaction_cloud-1.1.2.tar.gz tmp/social_interaction_cloud-1.2.0.tar.gz --markdown 20240402/s/social-interaction-cloud/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2024-04-02 14:09:05] INFO root fetch - processPackages [mns-scheduler]: executing diffoscope
+[2024-04-02 14:09:05] INFO root fetch - processPackages [mns-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mns-scheduler-1.0.1.6.tar.gz tmp/mns-scheduler-1.0.1.7.tar.gz --markdown 20240402/m/mns-scheduler/1.0.1.6-1.0.1.7/diff.md --exclude *.pyd
+[2024-04-02 14:09:05] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.1.1.tar.gz]
+[2024-04-02 14:09:05] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.1.2.tar.gz]
+[2024-04-02 14:09:05] INFO root fetch - main [MainThread]: End processing [dapla-statbank-client]: success
+[2024-04-02 14:09:05] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.1.2.tar.gz]
+[2024-04-02 14:09:05] INFO root fetch - processPackages [social-interaction-cloud]: Remove: archive file [/home/abi/fetcher/tmp/social_interaction_cloud-1.2.0.tar.gz]
+[2024-04-02 14:09:05] INFO root fetch - main [MainThread]: End processing [social-interaction-cloud]: success
+[2024-04-02 14:09:06] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.1.6.tar.gz]
+[2024-04-02 14:09:06] INFO root fetch - processPackages [mns-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/mns-scheduler-1.0.1.7.tar.gz]
+[2024-04-02 14:09:06] INFO root fetch - main [MainThread]: End processing [mns-scheduler]: success
+[2024-04-02 14:09:06] INFO root fetch - processPackages [PyQtUIkit]: executing diffoscope
+[2024-04-02 14:09:06] INFO root fetch - processPackages [PyQtUIkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQtUIkit-1.6.0.tar.gz tmp/PyQtUIkit-2.0.0.tar.gz --markdown 20240402/P/PyQtUIkit/1.6.0-2.0.0/diff.md --exclude *.pyd
+[2024-04-02 14:09:06] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.6.0.dev8.tar.gz]
+[2024-04-02 14:09:06] INFO root fetch - processPackages [hkube-python-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/hkube_python_wrapper-2.6.0.dev9.tar.gz]
+[2024-04-02 14:09:06] INFO root fetch - main [MainThread]: End processing [hkube-python-wrapper]: success
+[2024-04-02 14:09:06] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.3.tar.gz]
+[2024-04-02 14:09:06] INFO root fetch - processPackages [musicAlgLib]: Remove: archive file [/home/abi/fetcher/tmp/musicAlgLib-1.0.5.tar.gz]
+[2024-04-02 14:09:06] INFO root fetch - main [MainThread]: End processing [musicAlgLib]: success
+[2024-04-02 14:09:07] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-1.6.0.tar.gz]
+[2024-04-02 14:09:07] INFO root fetch - processPackages [PyQtUIkit]: Remove: archive file [/home/abi/fetcher/tmp/PyQtUIkit-2.0.0.tar.gz]
+[2024-04-02 14:09:07] INFO root fetch - main [MainThread]: End processing [PyQtUIkit]: success
+[2024-04-02 14:09:07] INFO root fetch - main [MainThread]: Store serial: [22584500]
