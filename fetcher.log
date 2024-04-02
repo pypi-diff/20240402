@@ -22524,3 +22524,54 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 15:30:03] INFO root fetch - processPackages [qi-compute-api-client]: Remove: archive file [/home/abi/fetcher/tmp/qi_compute_api_client-0.7.0.tar.gz]
 [2024-04-02 15:30:03] INFO root fetch - main [MainThread]: End processing [qi-compute-api-client]: success
 [2024-04-02 15:30:03] INFO root fetch - main [MainThread]: Store serial: [22585569]
+[2024-04-02 15:32:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585569]
+[2024-04-02 15:32:12] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 15:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: b2
+[2024-04-02 15:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gnsstoolbox
+[2024-04-02 15:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fakts
+[2024-04-02 15:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AI-Coach-RLL
+[2024-04-02 15:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: metagpt
+[2024-04-02 15:32:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: goupil
+[2024-04-02 15:32:12] INFO root fetch - processPackages [gnsstoolbox]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-02 15:32:12] WARNING root fetch - processPackages [AI-Coach-RLL]: Skipping, unable to determine old version
+[2024-04-02 15:32:12] INFO root fetch - main [MainThread]: End processing [AI-Coach-RLL] error
+[2024-04-02 15:32:12] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/47/b4/6791998110cbc4045a134281c6af6aa4445230770c8cb21465cba1631805/gnsstoolbox-1.2.8.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [b2]: New version: [3.9.0] Old Version: [3.8.0]
+[2024-04-02 15:32:12] INFO root fetch - processPackages [goupil]: New version: [1.1.0] Old Version: [1.0.0]
+[2024-04-02 15:32:12] INFO root fetch - processPackages [fakts]: New version: [0.4.2] Old Version: [0.4.1]
+[2024-04-02 15:32:12] INFO root fetch - processPackages [metagpt]: New version: [0.8.0] Old Version: [0.7.7]
+[2024-04-02 15:32:12] INFO root fetch - processPackages [b2]: Downloading https://files.pythonhosted.org/packages/ee/24/559591795e8d390a95b1cbc92c212db1baf875336ab5fb9d1b3477ee6ea4/b2-3.8.0.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [fakts]: Downloading https://files.pythonhosted.org/packages/ef/ca/578d9b724466003115670f1d684350e69a4e6bc89d0840e29d49e18cdafe/fakts-0.4.1.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [metagpt]: Downloading https://files.pythonhosted.org/packages/bc/22/732a40ccd2da1164e5ce0b4e57fbf6ac530aae1e390fa475673cf862fb64/metagpt-0.7.7.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [goupil]: Downloading https://files.pythonhosted.org/packages/f1/c2/f65e09eda932a2a0ef776e518c14cc1c35482d8ff0b3ae3d654acac4a161/goupil-1.0.0.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/37/dc/054c5e6a99536f8f6cec037839526e12921cfad7fb3a0f6ba106512e4a08/gnsstoolbox-1.2.9.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [gnsstoolbox]: executing diffoscope
+[2024-04-02 15:32:12] INFO root fetch - processPackages [gnsstoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnsstoolbox-1.2.8.tar.gz tmp/gnsstoolbox-1.2.9.tar.gz --markdown 20240402/g/gnsstoolbox/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-02 15:32:12] INFO root fetch - processPackages [fakts]: Downloading https://files.pythonhosted.org/packages/aa/c9/50fb0348b104a8d732af3bf4f1efd120d371176d9d983d469319248368ee/fakts-0.4.2.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [b2]: Downloading https://files.pythonhosted.org/packages/35/74/0fab7c98aa690cac877a87efa3245b32ffcaf9e9a8311deffd3d3c07e560/b2-3.9.0.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [metagpt]: Downloading https://files.pythonhosted.org/packages/df/3f/3e5660691bfc3f6396f1ee7ad2c616e544dd4765866150acc3dc1861b53b/metagpt-0.8.0.tar.gz
+[2024-04-02 15:32:12] INFO root fetch - processPackages [goupil]: Downloading https://files.pythonhosted.org/packages/f6/1a/4c4e1390c290aba95ff8f148296ea924218eba1538067720ff8d9a9ec067/goupil-1.1.0.tar.gz
+[2024-04-02 15:32:13] INFO root fetch - processPackages [b2]: executing diffoscope
+[2024-04-02 15:32:13] INFO root fetch - processPackages [b2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/b2-3.8.0.tar.gz tmp/b2-3.9.0.tar.gz --markdown 20240402/b/b2/3.8.0-3.9.0/diff.md --exclude *.pyd
+[2024-04-02 15:32:13] INFO root fetch - processPackages [metagpt]: executing diffoscope
+[2024-04-02 15:32:13] INFO root fetch - processPackages [metagpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metagpt-0.7.7.tar.gz tmp/metagpt-0.8.0.tar.gz --markdown 20240402/m/metagpt/0.7.7-0.8.0/diff.md --exclude *.pyd
+[2024-04-02 15:32:13] INFO root fetch - processPackages [fakts]: executing diffoscope
+[2024-04-02 15:32:13] INFO root fetch - processPackages [fakts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakts-0.4.1.tar.gz tmp/fakts-0.4.2.tar.gz --markdown 20240402/f/fakts/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2024-04-02 15:32:13] INFO root fetch - processPackages [goupil]: executing diffoscope
+[2024-04-02 15:32:13] INFO root fetch - processPackages [goupil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goupil-1.0.0.tar.gz tmp/goupil-1.1.0.tar.gz --markdown 20240402/g/goupil/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 15:32:13] INFO root fetch - processPackages [gnsstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/gnsstoolbox-1.2.8.tar.gz]
+[2024-04-02 15:32:13] INFO root fetch - processPackages [gnsstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/gnsstoolbox-1.2.9.tar.gz]
+[2024-04-02 15:32:13] INFO root fetch - main [MainThread]: End processing [gnsstoolbox]: success
+[2024-04-02 15:32:13] INFO root fetch - processPackages [fakts]: Remove: archive file [/home/abi/fetcher/tmp/fakts-0.4.1.tar.gz]
+[2024-04-02 15:32:13] INFO root fetch - processPackages [fakts]: Remove: archive file [/home/abi/fetcher/tmp/fakts-0.4.2.tar.gz]
+[2024-04-02 15:32:13] INFO root fetch - main [MainThread]: End processing [fakts]: success
+[2024-04-02 15:32:14] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-3.8.0.tar.gz]
+[2024-04-02 15:32:14] INFO root fetch - processPackages [b2]: Remove: archive file [/home/abi/fetcher/tmp/b2-3.9.0.tar.gz]
+[2024-04-02 15:32:14] INFO root fetch - main [MainThread]: End processing [b2]: success
+[2024-04-02 15:32:14] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.7.7.tar.gz]
+[2024-04-02 15:32:14] INFO root fetch - processPackages [metagpt]: Remove: archive file [/home/abi/fetcher/tmp/metagpt-0.8.0.tar.gz]
+[2024-04-02 15:32:14] INFO root fetch - main [MainThread]: End processing [metagpt]: success
+[2024-04-02 15:32:15] INFO root fetch - processPackages [goupil]: Remove: archive file [/home/abi/fetcher/tmp/goupil-1.0.0.tar.gz]
+[2024-04-02 15:32:15] INFO root fetch - processPackages [goupil]: Remove: archive file [/home/abi/fetcher/tmp/goupil-1.1.0.tar.gz]
+[2024-04-02 15:32:15] INFO root fetch - main [MainThread]: End processing [goupil]: success
+[2024-04-02 15:32:15] INFO root fetch - main [MainThread]: Store serial: [22585588]
