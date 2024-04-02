@@ -11687,3 +11687,24 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:11:19] INFO root fetch - processPackages [message-ix-models]: Remove: archive file [/home/abi/fetcher/tmp/message-ix-models-2024.4.2rc1.tar.gz]
 [2024-04-02 08:11:19] INFO root fetch - main [MainThread]: End processing [message-ix-models]: success
 [2024-04-02 08:11:19] INFO root fetch - main [MainThread]: Store serial: [22581154]
+[2024-04-02 08:13:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581154]
+[2024-04-02 08:13:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2024-04-02 08:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spaceone-api
+[2024-04-02 08:13:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2024-04-02 08:13:29] INFO root fetch - processPackages [spaceone-api]: New version: [2.0.dev89] Old Version: [2.0.dev78]
+[2024-04-02 08:13:29] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/63/38/896ca815cd9f0d4be5040377b88a5b629fee8eedad29b468c7a50e063060/spaceone-api-2.0.dev78.tar.gz
+[2024-04-02 08:13:29] INFO root fetch - processPackages [pyg-nightly]: New version: [2.6.0.dev20240402] Old Version: [2.6.0.dev20240401]
+[2024-04-02 08:13:30] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/5f/fc/ab1e3f7138191040ecda4757dee85f06b7f6f60c56e0d4fa72c7d15fc89a/pyg_nightly-2.6.0.dev20240401.tar.gz
+[2024-04-02 08:13:30] INFO root fetch - processPackages [spaceone-api]: Downloading https://files.pythonhosted.org/packages/c0/ea/4a6c8347250e808ffcceef19de666ffee1c045761343985127f39a05bc13/spaceone-api-2.0.dev89.tar.gz
+[2024-04-02 08:13:30] INFO root fetch - processPackages [spaceone-api]: executing diffoscope
+[2024-04-02 08:13:30] INFO root fetch - processPackages [spaceone-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spaceone-api-2.0.dev78.tar.gz tmp/spaceone-api-2.0.dev89.tar.gz --markdown 20240402/s/spaceone-api/2.0.dev78-2.0.dev89/diff.md --exclude *.pyd
+[2024-04-02 08:13:30] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/91/24/de325652df2e08189672675d2f3593f7c9c3e99dcf79e676ca1a528a75dc/pyg_nightly-2.6.0.dev20240402.tar.gz
+[2024-04-02 08:13:30] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2024-04-02 08:13:30] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.6.0.dev20240401.tar.gz tmp/pyg_nightly-2.6.0.dev20240402.tar.gz --markdown 20240402/p/pyg-nightly/2.6.0.dev20240401-2.6.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 08:13:31] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev78.tar.gz]
+[2024-04-02 08:13:31] INFO root fetch - processPackages [spaceone-api]: Remove: archive file [/home/abi/fetcher/tmp/spaceone-api-2.0.dev89.tar.gz]
+[2024-04-02 08:13:31] INFO root fetch - main [MainThread]: End processing [spaceone-api]: success
+[2024-04-02 08:13:32] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240401.tar.gz]
+[2024-04-02 08:13:32] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.6.0.dev20240402.tar.gz]
+[2024-04-02 08:13:32] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2024-04-02 08:13:32] INFO root fetch - main [MainThread]: Store serial: [22581161]
