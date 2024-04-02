@@ -23566,3 +23566,51 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 16:07:58] INFO root fetch - processPackages [voila]: Remove: archive file [/home/abi/fetcher/tmp/voila-0.5.6.tar.gz]
 [2024-04-02 16:07:58] INFO root fetch - main [MainThread]: End processing [voila]: success
 [2024-04-02 16:07:58] INFO root fetch - main [MainThread]: Store serial: [22585984]
+[2024-04-02 16:10:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22585984]
+[2024-04-02 16:10:08] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 16:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: deepview-converter
+[2024-04-02 16:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: froggius
+[2024-04-02 16:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: LinkMLFormbuilder
+[2024-04-02 16:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyDbs
+[2024-04-02 16:10:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: YOMAPI
+[2024-04-02 16:10:08] INFO root fetch - processPackages [froggius]: New version: [0.1.4.post1] Old Version: [0.1.3.post2]
+[2024-04-02 16:10:08] INFO root fetch - processPackages [LinkMLFormbuilder]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 16:10:08] INFO root fetch - processPackages [deepview-converter]: New version: [2.6.4] Old Version: [2.6.3]
+[2024-04-02 16:10:08] INFO root fetch - processPackages [pyDbs]: New version: [0.0.8] Old Version: [0.0.7]
+[2024-04-02 16:10:08] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/64/95/d04380db0a7bf639efd29a0e35aecabd937e6cc956387b974772495f74e4/froggius-0.1.3.post2.tar.gz
+[2024-04-02 16:10:08] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/24/f7/74466a9f6b1cc5a3d78dc1ec322350a9fb42121d3cec89b6977012c51a31/deepview_converter-2.6.3-cp39-cp39-win_amd64.whl
+[2024-04-02 16:10:08] INFO root fetch - processPackages [LinkMLFormbuilder]: Downloading https://files.pythonhosted.org/packages/c2/a9/eb023f249e41fb16db3267d6c9575d1735af0505eeb46ce2ede8a87312a7/linkmlformbuilder-0.1.8.tar.gz
+[2024-04-02 16:10:08] INFO root fetch - processPackages [YOMAPI]: New version: [0.1.9] Old Version: [0.1.8]
+[2024-04-02 16:10:08] INFO root fetch - processPackages [pyDbs]: Downloading https://files.pythonhosted.org/packages/bc/3a/19b819d53872e988f45c2f92dc334b924634a75b606f4d696748e1eeddab/pyDbs-0.0.7.tar.gz
+[2024-04-02 16:10:08] INFO root fetch - processPackages [LinkMLFormbuilder]: Downloading https://files.pythonhosted.org/packages/ac/0a/ca2a741672f4434a388e5890c41a516729a4f14633333de9cf770467b18a/linkmlformbuilder-0.1.9.tar.gz
+[2024-04-02 16:10:08] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/da/dd/942f5ea4e1c116a00fe824a73201701c1752370fdbf00c426b0efe7c91ad/YOMAPI-0.1.8.tar.gz
+[2024-04-02 16:10:08] INFO root fetch - processPackages [deepview-converter]: Downloading https://files.pythonhosted.org/packages/dd/0d/a7dd1e2cf650aed4ec4cd996a10e406c22f613f5b01ae3f42e6862ac2e36/deepview_converter-2.6.4-cp39-cp39-win_amd64.whl
+[2024-04-02 16:10:09] INFO root fetch - processPackages [froggius]: Downloading https://files.pythonhosted.org/packages/e5/4a/97202aff2782ced4a302f7b26208959e83c31a968d68ab6bcbbb6062d1bd/froggius-0.1.4.post1.tar.gz
+[2024-04-02 16:10:09] INFO root fetch - processPackages [LinkMLFormbuilder]: executing diffoscope
+[2024-04-02 16:10:09] INFO root fetch - processPackages [LinkMLFormbuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkmlformbuilder-0.1.8.tar.gz tmp/linkmlformbuilder-0.1.9.tar.gz --markdown 20240402/L/LinkMLFormbuilder/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 16:10:09] INFO root fetch - processPackages [deepview-converter]: executing diffoscope
+[2024-04-02 16:10:09] INFO root fetch - processPackages [deepview-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepview_converter-2.6.3-cp39-cp39-win_amd64.whl.zip tmp/deepview_converter-2.6.4-cp39-cp39-win_amd64.whl.zip --markdown 20240402/d/deepview-converter/2.6.3-2.6.4/diff.md --exclude *.pyd
+[2024-04-02 16:10:09] INFO root fetch - processPackages [froggius]: executing diffoscope
+[2024-04-02 16:10:09] INFO root fetch - processPackages [froggius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/froggius-0.1.3.post2.tar.gz tmp/froggius-0.1.4.post1.tar.gz --markdown 20240402/f/froggius/0.1.3.post2-0.1.4.post1/diff.md --exclude *.pyd
+[2024-04-02 16:10:09] INFO root fetch - processPackages [pyDbs]: Downloading https://files.pythonhosted.org/packages/47/53/1b5911d59a20a4b1b7791634f572c9c3d79722aef169b3b15f4af61c89cf/pyDbs-0.0.8.tar.gz
+[2024-04-02 16:10:09] INFO root fetch - processPackages [YOMAPI]: Downloading https://files.pythonhosted.org/packages/af/ed/85eaa4f5d07b5102ac6dda1a57b857d8df1988df8e09fe0f24ddfd81c150/YOMAPI-0.1.9.tar.gz
+[2024-04-02 16:10:09] INFO root fetch - processPackages [pyDbs]: executing diffoscope
+[2024-04-02 16:10:09] INFO root fetch - processPackages [pyDbs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDbs-0.0.7.tar.gz tmp/pyDbs-0.0.8.tar.gz --markdown 20240402/p/pyDbs/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2024-04-02 16:10:09] INFO root fetch - processPackages [YOMAPI]: executing diffoscope
+[2024-04-02 16:10:09] INFO root fetch - processPackages [YOMAPI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YOMAPI-0.1.8.tar.gz tmp/YOMAPI-0.1.9.tar.gz --markdown 20240402/Y/YOMAPI/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2024-04-02 16:10:09] INFO root fetch - processPackages [deepview-converter]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter-2.6.3-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 16:10:09] INFO root fetch - processPackages [deepview-converter]: Remove: archive file [/home/abi/fetcher/tmp/deepview_converter-2.6.4-cp39-cp39-win_amd64.whl.zip]
+[2024-04-02 16:10:09] INFO root fetch - main [MainThread]: End processing [deepview-converter]: success
+[2024-04-02 16:10:09] INFO root fetch - processPackages [LinkMLFormbuilder]: Remove: archive file [/home/abi/fetcher/tmp/linkmlformbuilder-0.1.8.tar.gz]
+[2024-04-02 16:10:09] INFO root fetch - processPackages [LinkMLFormbuilder]: Remove: archive file [/home/abi/fetcher/tmp/linkmlformbuilder-0.1.9.tar.gz]
+[2024-04-02 16:10:09] INFO root fetch - main [MainThread]: End processing [LinkMLFormbuilder]: success
+[2024-04-02 16:10:09] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.3.post2.tar.gz]
+[2024-04-02 16:10:09] INFO root fetch - processPackages [froggius]: Remove: archive file [/home/abi/fetcher/tmp/froggius-0.1.4.post1.tar.gz]
+[2024-04-02 16:10:09] INFO root fetch - main [MainThread]: End processing [froggius]: success
+[2024-04-02 16:10:10] INFO root fetch - processPackages [YOMAPI]: Remove: archive file [/home/abi/fetcher/tmp/YOMAPI-0.1.8.tar.gz]
+[2024-04-02 16:10:10] INFO root fetch - processPackages [YOMAPI]: Remove: archive file [/home/abi/fetcher/tmp/YOMAPI-0.1.9.tar.gz]
+[2024-04-02 16:10:10] INFO root fetch - main [MainThread]: End processing [YOMAPI]: success
+[2024-04-02 16:10:10] INFO root fetch - processPackages [pyDbs]: Remove: archive file [/home/abi/fetcher/tmp/pyDbs-0.0.7.tar.gz]
+[2024-04-02 16:10:10] INFO root fetch - processPackages [pyDbs]: Remove: archive file [/home/abi/fetcher/tmp/pyDbs-0.0.8.tar.gz]
+[2024-04-02 16:10:10] INFO root fetch - main [MainThread]: End processing [pyDbs]: success
+[2024-04-02 16:10:10] INFO root fetch - main [MainThread]: Store serial: [22586009]
