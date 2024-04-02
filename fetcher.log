@@ -11518,3 +11518,27 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:00:13] INFO root fetch - processPackages [quantplay]: Remove: archive file [/home/abi/fetcher/tmp/quantplay-1.5.9.tar.gz]
 [2024-04-02 08:00:13] INFO root fetch - main [MainThread]: End processing [quantplay]: success
 [2024-04-02 08:00:13] INFO root fetch - main [MainThread]: Store serial: [22581091]
+[2024-04-02 08:02:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581091]
+[2024-04-02 08:02:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 08:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: haskellian-either
+[2024-04-02 08:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-gerrit-api
+[2024-04-02 08:02:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genice2-cage
+[2024-04-02 08:02:23] WARNING root fetch - processPackages [haskellian-either]: Skipping, unable to determine old version
+[2024-04-02 08:02:23] INFO root fetch - main [MainThread]: End processing [haskellian-either] error
+[2024-04-02 08:02:23] INFO root fetch - processPackages [genice2-cage]: New version: [2.3] Old Version: [2.2]
+[2024-04-02 08:02:23] INFO root fetch - processPackages [python-gerrit-api]: New version: [3.0.7] Old Version: [3.0.6]
+[2024-04-02 08:02:23] INFO root fetch - processPackages [genice2-cage]: Downloading https://files.pythonhosted.org/packages/47/9d/86cc253a9702b8e6176611cbb056cf867018f696a4dbca144d74bf93dba1/genice2-cage-2.2.tar.gz
+[2024-04-02 08:02:23] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/75/a6/a9929aafa4f5265a4ee45dbec3e2e28bc8c82fcf11e6c64ba26e12cb674b/python-gerrit-api-3.0.6.tar.gz
+[2024-04-02 08:02:24] INFO root fetch - processPackages [genice2-cage]: Downloading https://files.pythonhosted.org/packages/98/f5/9e491c8d11bdf8b323110fb6da7f27558298aaec72b4a9ce73d56cbffdd0/genice2_cage-2.3.tar.gz
+[2024-04-02 08:02:24] INFO root fetch - processPackages [python-gerrit-api]: Downloading https://files.pythonhosted.org/packages/57/3f/ff4518e3141afbff5bd9c260aed19caa83421c6594932c6e9d0fe9ed06ed/python-gerrit-api-3.0.7.tar.gz
+[2024-04-02 08:02:24] INFO root fetch - processPackages [python-gerrit-api]: executing diffoscope
+[2024-04-02 08:02:24] INFO root fetch - processPackages [python-gerrit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-gerrit-api-3.0.6.tar.gz tmp/python-gerrit-api-3.0.7.tar.gz --markdown 20240402/p/python-gerrit-api/3.0.6-3.0.7/diff.md --exclude *.pyd
+[2024-04-02 08:02:25] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.6.tar.gz]
+[2024-04-02 08:02:25] INFO root fetch - processPackages [python-gerrit-api]: Remove: archive file [/home/abi/fetcher/tmp/python-gerrit-api-3.0.7.tar.gz]
+[2024-04-02 08:02:25] INFO root fetch - main [MainThread]: End processing [python-gerrit-api]: success
+[2024-04-02 08:02:27] INFO root fetch - processPackages [genice2-cage]: executing diffoscope
+[2024-04-02 08:02:27] INFO root fetch - processPackages [genice2-cage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genice2-cage-2.2.tar.gz tmp/genice2_cage-2.3.tar.gz --markdown 20240402/g/genice2-cage/2.2-2.3/diff.md --exclude *.pyd
+[2024-04-02 08:02:27] INFO root fetch - processPackages [genice2-cage]: Remove: archive file [/home/abi/fetcher/tmp/genice2-cage-2.2.tar.gz]
+[2024-04-02 08:02:27] INFO root fetch - processPackages [genice2-cage]: Remove: archive file [/home/abi/fetcher/tmp/genice2_cage-2.3.tar.gz]
+[2024-04-02 08:02:27] INFO root fetch - main [MainThread]: End processing [genice2-cage]: success
+[2024-04-02 08:02:27] INFO root fetch - main [MainThread]: Store serial: [22581103]
