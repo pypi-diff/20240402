@@ -2182,3 +2182,81 @@
 [2024-04-02 02:11:04] INFO root fetch - processPackages [cdk-common]: Remove: archive file [/home/abi/fetcher/tmp/cdk-common-2.0.99.tar.gz]
 [2024-04-02 02:11:04] INFO root fetch - main [MainThread]: End processing [cdk-common]: success
 [2024-04-02 02:11:04] INFO root fetch - main [MainThread]: Store serial: [22577454]
+[2024-04-02 02:13:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577454]
+[2024-04-02 02:13:13] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: learningmachine
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-events-notify
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: not1mm
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cpymake
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ragas
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: speakeasy-client-sdk-python
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-nag
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-skylight
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdktf-gitlab-runner
+[2024-04-02 02:13:13] INFO root fetch - processPackages [learningmachine]: New version: [1.1.0] Old Version: [0.2.3]
+[2024-04-02 02:13:13] INFO root fetch - processPackages [not1mm]: New version: [24.4.1] Old Version: [24.3.9]
+[2024-04-02 02:13:13] INFO root fetch - processPackages [learningmachine]: Downloading https://files.pythonhosted.org/packages/8b/ae/7633d5ac9f2bed68c5ad97452c9e420fc8c3bc1e2a2ae3ceab581706122e/learningmachine-0.2.3.tar.gz
+[2024-04-02 02:13:13] WARNING root fetch - processPackages [cpymake]: Skipping, unable to determine old version
+[2024-04-02 02:13:13] INFO root fetch - main [MainThread]: End processing [cpymake] error
+[2024-04-02 02:13:13] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/e2/7e/57f60a859076d7f6370a3c80b496df597af54a5ef2adf3b1ae97b4710a07/not1mm-24.3.9.tar.gz
+[2024-04-02 02:13:13] INFO root fetch - processPackages [ragas]: New version: [0.1.6] Old Version: [0.1.5]
+[2024-04-02 02:13:13] INFO root fetch - processPackages [cdk-skylight]: New version: [1.1.99] Old Version: [1.1.98]
+[2024-04-02 02:13:13] INFO root fetch - processPackages [speakeasy-client-sdk-python]: New version: [5.5.1] Old Version: [5.5.0]
+[2024-04-02 02:13:13] INFO root fetch - processPackages [cdk-events-notify]: New version: [2.2.9] Old Version: [2.2.87]
+[2024-04-02 02:13:13] INFO root fetch - processPackages [learningmachine]: Downloading https://files.pythonhosted.org/packages/19/5a/1df997969806eee77e6c5536c2aa1883d02230443a201481de51c954ddf0/learningmachine-1.1.0.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2024-04-02 02:13:14] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/00/e4/e08e371836ead56cd55deee773093a82a2a1b09bbfc8a68725f76a5cd955/ragas-0.1.5.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: New version: [0.0.99] Old Version: [0.0.98]
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/d1/68/3bec321b437756cdb2311d05af2cfd9331075eec63725b32a60fc31cc0a9/cdk-events-notify-2.2.87.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/86/f2/01b58f6183b48ce1105016a7f5045925a49464b8c20408459bd101fe5f25/cdk-skylight-1.1.98.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [learningmachine]: executing diffoscope
+[2024-04-02 02:13:14] INFO root fetch - processPackages [learningmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/learningmachine-0.2.3.tar.gz tmp/learningmachine-1.1.0.tar.gz --markdown 20240402/l/learningmachine/0.2.3-1.1.0/diff.md --exclude *.pyd
+[2024-04-02 02:13:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/82/74/72eb5e07d7fc93f4c76a433fa1a18d2c7aacc94f3311c6bca4a5736689fa/speakeasy-client-sdk-python-5.5.0.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [not1mm]: Downloading https://files.pythonhosted.org/packages/63/c9/b24ce2123da72d937c6f6a7238af6cc0423632f3d8ba70c15915a50ca6e1/not1mm-24.4.1.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/8a/6e/f1c520e407ce3adf90b51d2d1ca84d283a08c808fc00c9deeff4f4734d82/cdktf-gitlab-runner-0.0.98.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Downloading https://files.pythonhosted.org/packages/a0/7c/2d471495dca77c10f318c4351de999c02353a50bd7836c2f2f5bb9011e41/speakeasy-client-sdk-python-5.5.1.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-skylight]: Downloading https://files.pythonhosted.org/packages/59/49/3e035cb98d5f97f79c174e211129a2dbe596df70c5df50ac701242fabea2/cdk-skylight-1.1.99.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [not1mm]: executing diffoscope
+[2024-04-02 02:13:14] INFO root fetch - processPackages [not1mm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/not1mm-24.3.9.tar.gz tmp/not1mm-24.4.1.tar.gz --markdown 20240402/n/not1mm/24.3.9-24.4.1/diff.md --exclude *.pyd
+[2024-04-02 02:13:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: executing diffoscope
+[2024-04-02 02:13:14] INFO root fetch - processPackages [speakeasy-client-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/speakeasy-client-sdk-python-5.5.0.tar.gz tmp/speakeasy-client-sdk-python-5.5.1.tar.gz --markdown 20240402/s/speakeasy-client-sdk-python/5.5.0-5.5.1/diff.md --exclude *.pyd
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-events-notify]: Downloading https://files.pythonhosted.org/packages/a1/0e/5c24157512e0888da0f9517ac3e7fadfeda39580f53c9d502c41814e9212/cdk-events-notify-2.2.9.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-skylight]: executing diffoscope
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-skylight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-skylight-1.1.98.tar.gz tmp/cdk-skylight-1.1.99.tar.gz --markdown 20240402/c/cdk-skylight/1.1.98-1.1.99/diff.md --exclude *.pyd
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/59/f2/0d7ab5ec05a2b43bd92c00fd237afddb1e2770c7edaf03b1f7ddef6c0793/cdktf-gitlab-runner-0.0.99.tar.gz
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-events-notify]: executing diffoscope
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-events-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-events-notify-2.2.87.tar.gz tmp/cdk-events-notify-2.2.9.tar.gz --markdown 20240402/c/cdk-events-notify/2.2.87-2.2.9/diff.md --exclude *.pyd
+[2024-04-02 02:13:14] INFO root fetch - processPackages [learningmachine]: Remove: archive file [/home/abi/fetcher/tmp/learningmachine-0.2.3.tar.gz]
+[2024-04-02 02:13:14] INFO root fetch - processPackages [learningmachine]: Remove: archive file [/home/abi/fetcher/tmp/learningmachine-1.1.0.tar.gz]
+[2024-04-02 02:13:14] INFO root fetch - main [MainThread]: End processing [learningmachine]: success
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: executing diffoscope
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdktf-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-gitlab-runner-0.0.98.tar.gz tmp/cdktf-gitlab-runner-0.0.99.tar.gz --markdown 20240402/c/cdktf-gitlab-runner/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2024-04-02 02:13:14] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20240402/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2024-04-02 02:13:15] INFO root fetch - processPackages [ragas]: Downloading https://files.pythonhosted.org/packages/6a/75/3dffcaceca0e276cdfedf711c91adbd0e00c9d622ec4a1a5d25342fef268/ragas-0.1.6.tar.gz
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.87.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-events-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-events-notify-2.2.9.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - main [MainThread]: End processing [cdk-events-notify]: success
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.98.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-skylight]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skylight-1.1.99.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - main [MainThread]: End processing [cdk-skylight]: success
+[2024-04-02 02:13:15] INFO root fetch - processPackages [ragas]: executing diffoscope
+[2024-04-02 02:13:15] INFO root fetch - processPackages [ragas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ragas-0.1.5.tar.gz tmp/ragas-0.1.6.tar.gz --markdown 20240402/r/ragas/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.98.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdktf-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-gitlab-runner-0.0.99.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - main [MainThread]: End processing [cdktf-gitlab-runner]: success
+[2024-04-02 02:13:15] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.5.0.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - processPackages [speakeasy-client-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/speakeasy-client-sdk-python-5.5.1.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - main [MainThread]: End processing [speakeasy-client-sdk-python]: success
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2024-04-02 02:13:15] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2024-04-02 02:13:16] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.1.5.tar.gz]
+[2024-04-02 02:13:16] INFO root fetch - processPackages [ragas]: Remove: archive file [/home/abi/fetcher/tmp/ragas-0.1.6.tar.gz]
+[2024-04-02 02:13:16] INFO root fetch - main [MainThread]: End processing [ragas]: success
+[2024-04-02 02:13:18] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.3.9.tar.gz]
+[2024-04-02 02:13:18] INFO root fetch - processPackages [not1mm]: Remove: archive file [/home/abi/fetcher/tmp/not1mm-24.4.1.tar.gz]
+[2024-04-02 02:13:18] INFO root fetch - main [MainThread]: End processing [not1mm]: success
+[2024-04-02 02:13:18] INFO root fetch - main [MainThread]: Store serial: [22577484]
