@@ -2077,3 +2077,27 @@
 [2024-04-02 02:04:27] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-2.0.0.20240402.404.tar.gz]
 [2024-04-02 02:04:27] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2024-04-02 02:04:27] INFO root fetch - main [MainThread]: Store serial: [22577419]
+[2024-04-02 02:06:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22577419]
+[2024-04-02 02:06:36] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2024-04-02 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drawpyo
+[2024-04-02 02:06:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: onnxscript
+[2024-04-02 02:06:36] WARNING root fetch - processPackages [drawpyo]: Skipping, unable to determine old version
+[2024-04-02 02:06:36] INFO root fetch - main [MainThread]: End processing [drawpyo] error
+[2024-04-02 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2024-04-02 02:06:36] INFO root fetch - processPackages [onnxscript]: New version: [0.1.0.dev20240402] Old Version: [0.1.0.dev20240401]
+[2024-04-02 02:06:36] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2024-04-02 02:06:36] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/b9/af/711940d308381f1f23b10c5f19289a7046f267474875b36c350ba475c2f2/onnxscript-0.1.0.dev20240401.tar.gz
+[2024-04-02 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2024-04-02 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2024-04-02 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20240402/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2024-04-02 02:06:37] INFO root fetch - processPackages [onnxscript]: Downloading https://files.pythonhosted.org/packages/ce/35/03a54df46f10543ebf9c0d559f2f019ca96a90311f2bafefb7fd7af54f85/onnxscript-0.1.0.dev20240402.tar.gz
+[2024-04-02 02:06:37] INFO root fetch - processPackages [onnxscript]: executing diffoscope
+[2024-04-02 02:06:37] INFO root fetch - processPackages [onnxscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript-0.1.0.dev20240401.tar.gz tmp/onnxscript-0.1.0.dev20240402.tar.gz --markdown 20240402/o/onnxscript/0.1.0.dev20240401-0.1.0.dev20240402/diff.md --exclude *.pyd
+[2024-04-02 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2024-04-02 02:06:37] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2024-04-02 02:06:37] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2024-04-02 02:06:38] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240401.tar.gz]
+[2024-04-02 02:06:38] INFO root fetch - processPackages [onnxscript]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript-0.1.0.dev20240402.tar.gz]
+[2024-04-02 02:06:38] INFO root fetch - main [MainThread]: End processing [onnxscript]: success
+[2024-04-02 02:06:38] INFO root fetch - main [MainThread]: Store serial: [22577427]
