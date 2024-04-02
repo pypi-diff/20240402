@@ -17804,3 +17804,69 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 12:43:10] INFO root fetch - processPackages [jaxsim]: Remove: archive file [/home/abi/fetcher/tmp/jaxsim-0.2.dev92.tar.gz]
 [2024-04-02 12:43:10] INFO root fetch - main [MainThread]: End processing [jaxsim]: success
 [2024-04-02 12:43:10] INFO root fetch - main [MainThread]: Store serial: [22583654]
+[2024-04-02 12:45:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22583654]
+[2024-04-02 12:45:18] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: MRCpy
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: atomicshop
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: causal-tracer
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: keble-documents-loader
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: 2captcha-python
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: MinVectorDB
+[2024-04-02 12:45:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyclipmgr
+[2024-04-02 12:45:18] INFO root fetch - processPackages [pyclipmgr]: New version: [5.0.1] Old Version: [5.0.0]
+[2024-04-02 12:45:18] INFO root fetch - processPackages [2captcha-python]: New version: [1.2.3] Old Version: [1.2.2]
+[2024-04-02 12:45:18] INFO root fetch - processPackages [keble-documents-loader]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 12:45:18] INFO root fetch - processPackages [atomicshop]: New version: [2.9.9] Old Version: [2.9.8]
+[2024-04-02 12:45:18] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/3f/e1/811d089646fd162e25ea464ef568465095a210335fdeda9b531c2b39292b/pyclipmgr-5.0.0-py3-none-any.whl
+[2024-04-02 12:45:18] INFO root fetch - processPackages [causal-tracer]: New version: [1.0.1] Old Version: [1.0.0]
+[2024-04-02 12:45:18] INFO root fetch - processPackages [MinVectorDB]: New version: [0.2.4] Old Version: [0.2.3]
+[2024-04-02 12:45:18] INFO root fetch - processPackages [2captcha-python]: Downloading https://files.pythonhosted.org/packages/d8/34/a67407e2aba7bf886dfc78f46cecafb6ee3f7fe91a0c6eb4c30ff6ff428a/2captcha-python-1.2.2.tar.gz
+[2024-04-02 12:45:18] INFO root fetch - processPackages [keble-documents-loader]: Downloading https://files.pythonhosted.org/packages/0a/fc/07a0ca8a5199ebed65f0142451458a88cf640c6273f061cdfc549e468944/keble_documents_loader-0.0.8.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/d2/21/28f2fa378fa9384a46ee0bb783f24dada88c68f21215a2f579c4546b4378/atomicshop-2.9.8-py3-none-any.whl
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MRCpy]: New version: [2.1.8] Old Version: [2.1.7]
+[2024-04-02 12:45:19] INFO root fetch - processPackages [causal-tracer]: Downloading https://files.pythonhosted.org/packages/4d/36/94fe29a5af1377fb33c036b4f855f8ba07e8bce411e9b10961c7f3083bb3/causal_tracer-1.0.0.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/db/aa/1a20090b1cce60b59f8fe70c1723d6a442b05fecf0d210c87cca399f0a10/MinVectorDB-0.2.3.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [keble-documents-loader]: Downloading https://files.pythonhosted.org/packages/ae/c8/5a720bdeca450398b25a026432d1cf3cf05d96baa6a7933318f651a75bc9/keble_documents_loader-0.0.9.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [2captcha-python]: Downloading https://files.pythonhosted.org/packages/b2/2b/7858cb17259cb6f9dd052ff75909adc5f019f9269d7385a648ec20dcb668/2captcha-python-1.2.3.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MRCpy]: Downloading https://files.pythonhosted.org/packages/d4/48/6645739202812719121c58db5842f20b08c0ac3bdb4bf7848caebd78c191/MRCpy-2.1.7.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [atomicshop]: Downloading https://files.pythonhosted.org/packages/c7/eb/d8ab161ca5be5b103111d67161f5490ddfc3a3b3ed4b1862ad35a83e0846/atomicshop-2.9.9-py3-none-any.whl
+[2024-04-02 12:45:19] INFO root fetch - processPackages [pyclipmgr]: Downloading https://files.pythonhosted.org/packages/0b/12/c98481890f8bbe19f65deee08a302841c9f6984e3da90c12531aa20a3e2b/pyclipmgr-5.0.1.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [2captcha-python]: executing diffoscope
+[2024-04-02 12:45:19] INFO root fetch - processPackages [2captcha-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/2captcha-python-1.2.2.tar.gz tmp/2captcha-python-1.2.3.tar.gz --markdown 20240402/2/2captcha-python/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2024-04-02 12:45:19] INFO root fetch - processPackages [keble-documents-loader]: executing diffoscope
+[2024-04-02 12:45:19] INFO root fetch - processPackages [keble-documents-loader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keble_documents_loader-0.0.8.tar.gz tmp/keble_documents_loader-0.0.9.tar.gz --markdown 20240402/k/keble-documents-loader/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 12:45:19] INFO root fetch - processPackages [pyclipmgr]: executing diffoscope
+[2024-04-02 12:45:19] INFO root fetch - processPackages [pyclipmgr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyclipmgr-5.0.0-py3-none-any.whl.zip tmp/pyclipmgr-5.0.1.tar.gz --markdown 20240402/p/pyclipmgr/5.0.0-5.0.1/diff.md --exclude *.pyd
+[2024-04-02 12:45:19] INFO root fetch - processPackages [atomicshop]: executing diffoscope
+[2024-04-02 12:45:19] INFO root fetch - processPackages [atomicshop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atomicshop-2.9.8-py3-none-any.whl.zip tmp/atomicshop-2.9.9-py3-none-any.whl.zip --markdown 20240402/a/atomicshop/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2024-04-02 12:45:19] INFO root fetch - processPackages [causal-tracer]: Downloading https://files.pythonhosted.org/packages/4d/c2/c2f985c3cd75387aa29e55ee2005e0837e195238fbf3435484cc5d8cfa8a/causal_tracer-1.0.1.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MinVectorDB]: Downloading https://files.pythonhosted.org/packages/19/96/4ba1294ee4931e6a818aa7b940dca46098d017678bfcfe98809587291a1b/MinVectorDB-0.2.4.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [causal-tracer]: executing diffoscope
+[2024-04-02 12:45:19] INFO root fetch - processPackages [causal-tracer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/causal_tracer-1.0.0.tar.gz tmp/causal_tracer-1.0.1.tar.gz --markdown 20240402/c/causal-tracer/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MRCpy]: Downloading https://files.pythonhosted.org/packages/37/b7/c177fc208b7993eac291c031320aa87d1e47365a3a6bfb5dd9ce1e026327/MRCpy-2.1.8.tar.gz
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MinVectorDB]: executing diffoscope
+[2024-04-02 12:45:19] INFO root fetch - processPackages [MinVectorDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MinVectorDB-0.2.3.tar.gz tmp/MinVectorDB-0.2.4.tar.gz --markdown 20240402/M/MinVectorDB/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2024-04-02 12:45:20] INFO root fetch - processPackages [MRCpy]: executing diffoscope
+[2024-04-02 12:45:20] INFO root fetch - processPackages [MRCpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MRCpy-2.1.7.tar.gz tmp/MRCpy-2.1.8.tar.gz --markdown 20240402/M/MRCpy/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2024-04-02 12:45:20] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.8.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - processPackages [keble-documents-loader]: Remove: archive file [/home/abi/fetcher/tmp/keble_documents_loader-0.0.9.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - main [MainThread]: End processing [keble-documents-loader]: success
+[2024-04-02 12:45:20] INFO root fetch - processPackages [2captcha-python]: Remove: archive file [/home/abi/fetcher/tmp/2captcha-python-1.2.2.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - processPackages [2captcha-python]: Remove: archive file [/home/abi/fetcher/tmp/2captcha-python-1.2.3.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - main [MainThread]: End processing [2captcha-python]: success
+[2024-04-02 12:45:20] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-5.0.0-py3-none-any.whl.zip]
+[2024-04-02 12:45:20] INFO root fetch - processPackages [pyclipmgr]: Remove: archive file [/home/abi/fetcher/tmp/pyclipmgr-5.0.1.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - main [MainThread]: End processing [pyclipmgr]: success
+[2024-04-02 12:45:20] INFO root fetch - processPackages [causal-tracer]: Remove: archive file [/home/abi/fetcher/tmp/causal_tracer-1.0.0.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - processPackages [causal-tracer]: Remove: archive file [/home/abi/fetcher/tmp/causal_tracer-1.0.1.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - main [MainThread]: End processing [causal-tracer]: success
+[2024-04-02 12:45:20] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/MinVectorDB-0.2.3.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - processPackages [MinVectorDB]: Remove: archive file [/home/abi/fetcher/tmp/MinVectorDB-0.2.4.tar.gz]
+[2024-04-02 12:45:20] INFO root fetch - main [MainThread]: End processing [MinVectorDB]: success
+[2024-04-02 12:45:20] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.8-py3-none-any.whl.zip]
+[2024-04-02 12:45:20] INFO root fetch - processPackages [atomicshop]: Remove: archive file [/home/abi/fetcher/tmp/atomicshop-2.9.9-py3-none-any.whl.zip]
+[2024-04-02 12:45:20] INFO root fetch - main [MainThread]: End processing [atomicshop]: success
+[2024-04-02 12:45:25] INFO root fetch - processPackages [MRCpy]: Remove: archive file [/home/abi/fetcher/tmp/MRCpy-2.1.7.tar.gz]
+[2024-04-02 12:45:25] INFO root fetch - processPackages [MRCpy]: Remove: archive file [/home/abi/fetcher/tmp/MRCpy-2.1.8.tar.gz]
+[2024-04-02 12:45:25] INFO root fetch - main [MainThread]: End processing [MRCpy]: success
+[2024-04-02 12:45:25] INFO root fetch - main [MainThread]: Store serial: [22583676]
