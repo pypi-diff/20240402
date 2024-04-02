@@ -10124,3 +10124,23 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 06:06:15] INFO root fetch - processPackages [feliz-db]: Remove: archive file [/home/abi/fetcher/tmp/feliz_db-0.0.5.tar.gz]
 [2024-04-02 06:06:15] INFO root fetch - main [MainThread]: End processing [feliz-db]: success
 [2024-04-02 06:06:15] INFO root fetch - main [MainThread]: Store serial: [22580512]
+[2024-04-02 06:08:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580512]
+[2024-04-02 06:08:23] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2024-04-02 06:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: intel-extension-for-pytorch-deepspeed
+[2024-04-02 06:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opendp
+[2024-04-02 06:08:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fakers
+[2024-04-02 06:08:24] INFO root fetch - processPackages [fakers]: New version: [0.5.0] Old Version: [0.4.0]
+[2024-04-02 06:08:24] WARNING root fetch - processPackages [intel-extension-for-pytorch-deepspeed]: Skipping, unable to determine old version
+[2024-04-02 06:08:24] INFO root fetch - main [MainThread]: End processing [intel-extension-for-pytorch-deepspeed] error
+[2024-04-02 06:08:24] INFO root fetch - processPackages [opendp]: New version: [0.9.2b20240207001] Old Version: [0.9.2a20240401001]
+[2024-04-02 06:08:24] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/7a/24/85f723cfbbff4eb6c069d38a022869735abb53cbd20c95630b8cb3d67cbe/opendp-0.9.2a20240401001-py3-none-any.whl
+[2024-04-02 06:08:24] INFO root fetch - processPackages [fakers]: Downloading https://files.pythonhosted.org/packages/c0/7f/dca2b887ca8a56392cafab60f07e6d474ec3907ab5a1a6c1563d3cbaba0d/fakers-0.4.0-py3-none-any.whl
+[2024-04-02 06:08:24] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 36086237>=10485760
+[2024-04-02 06:08:24] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2024-04-02 06:08:24] INFO root fetch - processPackages [fakers]: Downloading https://files.pythonhosted.org/packages/b0/f3/d8231a8dd5d43929a0e078cc4cb7f51f4ef875143e729d7b65e8767074bc/fakers-0.5.0-py3-none-any.whl
+[2024-04-02 06:08:24] INFO root fetch - processPackages [fakers]: executing diffoscope
+[2024-04-02 06:08:24] INFO root fetch - processPackages [fakers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakers-0.4.0-py3-none-any.whl.zip tmp/fakers-0.5.0-py3-none-any.whl.zip --markdown 20240402/f/fakers/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2024-04-02 06:08:25] INFO root fetch - processPackages [fakers]: Remove: archive file [/home/abi/fetcher/tmp/fakers-0.4.0-py3-none-any.whl.zip]
+[2024-04-02 06:08:25] INFO root fetch - processPackages [fakers]: Remove: archive file [/home/abi/fetcher/tmp/fakers-0.5.0-py3-none-any.whl.zip]
+[2024-04-02 06:08:25] INFO root fetch - main [MainThread]: End processing [fakers]: success
+[2024-04-02 06:08:25] INFO root fetch - main [MainThread]: Store serial: [22580520]
