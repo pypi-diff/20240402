@@ -15510,3 +15510,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 11:09:15] INFO root fetch - processPackages [mwxlib]: Remove: archive file [/home/abi/fetcher/tmp/mwxlib-0.93.8-py3-none-any.whl.zip]
 [2024-04-02 11:09:15] INFO root fetch - main [MainThread]: End processing [mwxlib]: success
 [2024-04-02 11:09:15] INFO root fetch - main [MainThread]: Store serial: [22582601]
+[2024-04-02 11:11:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22582601]
+[2024-04-02 11:11:24] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gg-release-notes
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numexpr
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-ldl
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encrypting
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ydiff
+[2024-04-02 11:11:24] INFO root fetch - processPackages [gg-release-notes]: New version: [1.6.3] Old Version: [1.6.2]
+[2024-04-02 11:11:24] WARNING root fetch - processPackages [encrypting]: Skipping, unable to determine old version
+[2024-04-02 11:11:24] INFO root fetch - main [MainThread]: End processing [encrypting] error
+[2024-04-02 11:11:24] INFO root fetch - processPackages [numexpr]: New version: [2.9.0] Old Version: [2.8.8]
+[2024-04-02 11:11:24] INFO root fetch - processPackages [python-ldl]: New version: [0.0.2] Old Version: [0.0.1]
+[2024-04-02 11:11:24] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/8f/37/ba71f8fe809502f186d6d9b3390aee418ea064324017caeb08630b05bcc1/gg-release-notes-1.6.2.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ydiff]: New version: [1.3] Old Version: [1.2]
+[2024-04-02 11:11:24] INFO root fetch - processPackages [numexpr]: Downloading https://files.pythonhosted.org/packages/f3/b4/367399eeda5a889e0225c175d4ac560167be90653cfb46a448854f09d31a/numexpr-2.8.8.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [python-ldl]: Downloading https://files.pythonhosted.org/packages/0c/8a/c612c348fc6f23541d25c65515431066cd8f1d1b90ee634f0113340860c2/python-ldl-0.0.1.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ydiff]: Downloading https://files.pythonhosted.org/packages/1e/ed/e25e1f4fffbdfd0446f1c45504759e54676da0cde5a844d201181583fce4/ydiff-1.2.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [gg-release-notes]: Downloading https://files.pythonhosted.org/packages/cc/10/f3e7a6b6114104a152a2360300219f3c734d1bb5c9e72b95634ec916ad1f/gg-release-notes-1.6.3.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [gg-release-notes]: executing diffoscope
+[2024-04-02 11:11:24] INFO root fetch - processPackages [gg-release-notes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gg-release-notes-1.6.2.tar.gz tmp/gg-release-notes-1.6.3.tar.gz --markdown 20240402/g/gg-release-notes/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2024-04-02 11:11:24] INFO root fetch - processPackages [python-ldl]: Downloading https://files.pythonhosted.org/packages/91/96/f21203e0f8a8c0b4fe7f49f4d13f049e32b75e7a622ebc0d0b4cf17c7c86/python-ldl-0.0.2.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [ydiff]: Downloading https://files.pythonhosted.org/packages/22/e1/df78c47d98070228bc1589df6aa2b2c7ae1d4b35f9312dbb2d7a122a0f19/ydiff-1.3.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [numexpr]: Downloading https://files.pythonhosted.org/packages/fe/d0/b8e7a2865109630775db4ce981f635bface8909eec4ecd8a2b8b16af1b4d/numexpr-2.9.0.tar.gz
+[2024-04-02 11:11:24] INFO root fetch - processPackages [python-ldl]: executing diffoscope
+[2024-04-02 11:11:24] INFO root fetch - processPackages [python-ldl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-ldl-0.0.1.tar.gz tmp/python-ldl-0.0.2.tar.gz --markdown 20240402/p/python-ldl/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2024-04-02 11:11:25] INFO root fetch - processPackages [ydiff]: executing diffoscope
+[2024-04-02 11:11:25] INFO root fetch - processPackages [ydiff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ydiff-1.2.tar.gz tmp/ydiff-1.3.tar.gz --markdown 20240402/y/ydiff/1.2-1.3/diff.md --exclude *.pyd
+[2024-04-02 11:11:25] INFO root fetch - processPackages [numexpr]: executing diffoscope
+[2024-04-02 11:11:25] INFO root fetch - processPackages [numexpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numexpr-2.8.8.tar.gz tmp/numexpr-2.9.0.tar.gz --markdown 20240402/n/numexpr/2.8.8-2.9.0/diff.md --exclude *.pyd
+[2024-04-02 11:11:25] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.2.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - processPackages [gg-release-notes]: Remove: archive file [/home/abi/fetcher/tmp/gg-release-notes-1.6.3.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - main [MainThread]: End processing [gg-release-notes]: success
+[2024-04-02 11:11:25] INFO root fetch - processPackages [python-ldl]: Remove: archive file [/home/abi/fetcher/tmp/python-ldl-0.0.1.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - processPackages [python-ldl]: Remove: archive file [/home/abi/fetcher/tmp/python-ldl-0.0.2.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - main [MainThread]: End processing [python-ldl]: success
+[2024-04-02 11:11:25] INFO root fetch - processPackages [ydiff]: Remove: archive file [/home/abi/fetcher/tmp/ydiff-1.2.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - processPackages [ydiff]: Remove: archive file [/home/abi/fetcher/tmp/ydiff-1.3.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - main [MainThread]: End processing [ydiff]: success
+[2024-04-02 11:11:25] INFO root fetch - processPackages [numexpr]: Remove: archive file [/home/abi/fetcher/tmp/numexpr-2.8.8.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - processPackages [numexpr]: Remove: archive file [/home/abi/fetcher/tmp/numexpr-2.9.0.tar.gz]
+[2024-04-02 11:11:25] INFO root fetch - main [MainThread]: End processing [numexpr]: success
+[2024-04-02 11:11:25] INFO root fetch - main [MainThread]: Store serial: [22582642]
