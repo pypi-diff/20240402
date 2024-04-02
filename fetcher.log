@@ -18971,3 +18971,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:30:55] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.3.99.tar.gz]
 [2024-04-02 13:30:55] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2024-04-02 13:30:55] INFO root fetch - main [MainThread]: Store serial: [22584108]
+[2024-04-02 13:32:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584108]
+[2024-04-02 13:33:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 13:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LstGen
+[2024-04-02 13:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapegraphai
+[2024-04-02 13:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gnsstoolbox
+[2024-04-02 13:33:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: poetree
+[2024-04-02 13:33:03] INFO root fetch - processPackages [gnsstoolbox]: New version: [1.2.9] Old Version: [1.2.8]
+[2024-04-02 13:33:04] INFO root fetch - processPackages [LstGen]: New version: [0.6.4] Old Version: [0.6.3]
+[2024-04-02 13:33:04] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/47/b4/6791998110cbc4045a134281c6af6aa4445230770c8cb21465cba1631805/gnsstoolbox-1.2.8.tar.gz
+[2024-04-02 13:33:04] WARNING root fetch - processPackages [poetree]: Skipping, unable to determine old version
+[2024-04-02 13:33:04] INFO root fetch - main [MainThread]: End processing [poetree] error
+[2024-04-02 13:33:04] INFO root fetch - processPackages [scrapegraphai]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:33:04] INFO root fetch - processPackages [LstGen]: Downloading https://files.pythonhosted.org/packages/7c/9e/124d7e952962b6ce9fda8ddeb77315402badce5294c712dd6dd231bbc620/LstGen-0.6.3.tar.gz
+[2024-04-02 13:33:04] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/1e/2b/051893dcdd09566d51c200b39ee85f34d8cc6db1f436aea805dac9ccfb98/scrapegraphai-0.0.8.tar.gz
+[2024-04-02 13:33:04] INFO root fetch - processPackages [gnsstoolbox]: Downloading https://files.pythonhosted.org/packages/37/dc/054c5e6a99536f8f6cec037839526e12921cfad7fb3a0f6ba106512e4a08/gnsstoolbox-1.2.9.tar.gz
+[2024-04-02 13:33:04] INFO root fetch - processPackages [gnsstoolbox]: executing diffoscope
+[2024-04-02 13:33:04] INFO root fetch - processPackages [gnsstoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gnsstoolbox-1.2.8.tar.gz tmp/gnsstoolbox-1.2.9.tar.gz --markdown 20240402/g/gnsstoolbox/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2024-04-02 13:33:04] INFO root fetch - processPackages [LstGen]: Downloading https://files.pythonhosted.org/packages/61/f3/1d9c6e7623f892336d9e3eed7a788d17d024cb872bff123c7fb79367c82e/LstGen-0.6.4.tar.gz
+[2024-04-02 13:33:04] INFO root fetch - processPackages [scrapegraphai]: Downloading https://files.pythonhosted.org/packages/b6/f0/b712d898b82aecb6362f2ded28ec2827006f284228da102746567d169661/scrapegraphai-0.0.9.tar.gz
+[2024-04-02 13:33:04] INFO root fetch - processPackages [LstGen]: executing diffoscope
+[2024-04-02 13:33:04] INFO root fetch - processPackages [LstGen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LstGen-0.6.3.tar.gz tmp/LstGen-0.6.4.tar.gz --markdown 20240402/L/LstGen/0.6.3-0.6.4/diff.md --exclude *.pyd
+[2024-04-02 13:33:04] INFO root fetch - processPackages [scrapegraphai]: executing diffoscope
+[2024-04-02 13:33:04] INFO root fetch - processPackages [scrapegraphai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapegraphai-0.0.8.tar.gz tmp/scrapegraphai-0.0.9.tar.gz --markdown 20240402/s/scrapegraphai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:33:05] INFO root fetch - processPackages [gnsstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/gnsstoolbox-1.2.8.tar.gz]
+[2024-04-02 13:33:05] INFO root fetch - processPackages [gnsstoolbox]: Remove: archive file [/home/abi/fetcher/tmp/gnsstoolbox-1.2.9.tar.gz]
+[2024-04-02 13:33:05] INFO root fetch - main [MainThread]: End processing [gnsstoolbox]: success
+[2024-04-02 13:33:05] INFO root fetch - processPackages [LstGen]: Remove: archive file [/home/abi/fetcher/tmp/LstGen-0.6.3.tar.gz]
+[2024-04-02 13:33:05] INFO root fetch - processPackages [LstGen]: Remove: archive file [/home/abi/fetcher/tmp/LstGen-0.6.4.tar.gz]
+[2024-04-02 13:33:05] INFO root fetch - main [MainThread]: End processing [LstGen]: success
+[2024-04-02 13:33:05] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.0.8.tar.gz]
+[2024-04-02 13:33:05] INFO root fetch - processPackages [scrapegraphai]: Remove: archive file [/home/abi/fetcher/tmp/scrapegraphai-0.0.9.tar.gz]
+[2024-04-02 13:33:05] INFO root fetch - main [MainThread]: End processing [scrapegraphai]: success
+[2024-04-02 13:33:05] INFO root fetch - main [MainThread]: Store serial: [22584123]
