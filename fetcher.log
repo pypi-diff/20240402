@@ -10881,3 +10881,60 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 07:12:54] INFO root fetch - processPackages [cdk-skill-management]: Remove: archive file [/home/abi/fetcher/tmp/cdk-skill-management-1.0.9.tar.gz]
 [2024-04-02 07:12:54] INFO root fetch - main [MainThread]: End processing [cdk-skill-management]: success
 [2024-04-02 07:12:54] INFO root fetch - main [MainThread]: Store serial: [22580841]
+[2024-04-02 07:14:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22580841]
+[2024-04-02 07:15:03] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2024-04-02 07:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tablecache
+[2024-04-02 07:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: metaphor-connectors
+[2024-04-02 07:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-purchase-reporting
+[2024-04-02 07:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: olscrypto
+[2024-04-02 07:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: etos-environment-provider
+[2024-04-02 07:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-material
+[2024-04-02 07:15:03] INFO root fetch - processPackages [mkdocs-material]: New version: [9.5.9] Old Version: [9.5.8]
+[2024-04-02 07:15:03] INFO root fetch - processPackages [olscrypto]: New version: [0.1.7] Old Version: [0.1.6]
+[2024-04-02 07:15:03] INFO root fetch - processPackages [metaphor-connectors]: New version: [0.9.4] Old Version: [0.9.3]
+[2024-04-02 07:15:03] INFO root fetch - processPackages [tablecache]: New version: [4.0.0rc0] Old Version: [3.2.0]
+[2024-04-02 07:15:03] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: New version: [16.0.20240401.0] Old Version: [16.0.20231107.0]
+[2024-04-02 07:15:03] INFO root fetch - processPackages [olscrypto]: Downloading https://files.pythonhosted.org/packages/f1/a5/afae6288fd468e5b6001f52dbb2567abfa375ff223144cd7e418a0572535/olscrypto-0.1.6.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [etos-environment-provider]: New version: [4.0.0] Old Version: [3.2.2]
+[2024-04-02 07:15:03] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/92/c2/f775488949e85740917971e97fbd1e7187de61421ac7fbbc9d5485275473/metaphor-connectors-0.9.3.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [tablecache]: Downloading https://files.pythonhosted.org/packages/71/38/86755ab02cce08b0f905f351987bb0f48b922a398c86f1fd1c3cb515d5d0/tablecache-3.2.0.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/af/3b/2e05d9ad24b7f836a4dd8aa6221af8f7c7c9a48021c5300ea9de5f01465e/mkdocs_material-9.5.8.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Downloading https://files.pythonhosted.org/packages/d9/c1/10113bbfc7ad089861da48a327797b49696432563f5960346c65c1eef14c/odoo_addons_oca_purchase_reporting-16.0.20231107.0-py3-none-any.whl
+[2024-04-02 07:15:03] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/a8/f8/af82e6a0a1f8f0eed42a9740411d17da2331fefea74621985437a42f25f3/etos_environment_provider-3.2.2.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [metaphor-connectors]: Downloading https://files.pythonhosted.org/packages/7e/f3/fd51e0c2498f7340487d8eba1ee24a716e8056cce2a496a20f5da0cc11de/metaphor-connectors-0.9.4.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [olscrypto]: Downloading https://files.pythonhosted.org/packages/8a/c0/32bda85b3d8ed5a8f3b12a6e296be4a189593d982a420654b9952a981a3a/olscrypto-0.1.7.tar.gz
+[2024-04-02 07:15:03] INFO root fetch - processPackages [metaphor-connectors]: executing diffoscope
+[2024-04-02 07:15:03] INFO root fetch - processPackages [metaphor-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-connectors-0.9.3.tar.gz tmp/metaphor-connectors-0.9.4.tar.gz --markdown 20240402/m/metaphor-connectors/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2024-04-02 07:15:03] INFO root fetch - processPackages [olscrypto]: executing diffoscope
+[2024-04-02 07:15:03] INFO root fetch - processPackages [olscrypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/olscrypto-0.1.6.tar.gz tmp/olscrypto-0.1.7.tar.gz --markdown 20240402/o/olscrypto/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2024-04-02 07:15:04] INFO root fetch - processPackages [tablecache]: Downloading https://files.pythonhosted.org/packages/99/59/84a011ae0651128ee19a70478b61626f82c861373711c54c7a77d1c8ebe2/tablecache-4.0.0rc0.tar.gz
+[2024-04-02 07:15:04] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Downloading https://files.pythonhosted.org/packages/c4/4c/ebdcad3223d58da4ecda2ded1c9c5fe9162b4a4bdbeb1e1a200119aa302e/odoo_addons_oca_purchase_reporting-16.0.20240401.0-py3-none-any.whl
+[2024-04-02 07:15:04] INFO root fetch - processPackages [etos-environment-provider]: Downloading https://files.pythonhosted.org/packages/e9/1b/94390a9db16a6e5660acbbec6d62c2501a8279e7ca36b8dce9621ec663f3/etos_environment_provider-4.0.0.tar.gz
+[2024-04-02 07:15:04] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: executing diffoscope
+[2024-04-02 07:15:04] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_reporting-16.0.20231107.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_reporting-16.0.20240401.0-py3-none-any.whl.zip --markdown 20240402/o/odoo-addons-oca-purchase-reporting/16.0.20231107.0-16.0.20240401.0/diff.md --exclude *.pyd
+[2024-04-02 07:15:04] INFO root fetch - processPackages [etos-environment-provider]: executing diffoscope
+[2024-04-02 07:15:04] INFO root fetch - processPackages [etos-environment-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etos_environment_provider-3.2.2.tar.gz tmp/etos_environment_provider-4.0.0.tar.gz --markdown 20240402/e/etos-environment-provider/3.2.2-4.0.0/diff.md --exclude *.pyd
+[2024-04-02 07:15:04] INFO root fetch - processPackages [tablecache]: executing diffoscope
+[2024-04-02 07:15:04] INFO root fetch - processPackages [tablecache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tablecache-3.2.0.tar.gz tmp/tablecache-4.0.0rc0.tar.gz --markdown 20240402/t/tablecache/3.2.0-4.0.0rc0/diff.md --exclude *.pyd
+[2024-04-02 07:15:04] INFO root fetch - processPackages [mkdocs-material]: Downloading https://files.pythonhosted.org/packages/7f/87/b416888ac24bc9210f727d59afe528e00b7e037933f3497f6ad17ff5d370/mkdocs_material-9.5.9.tar.gz
+[2024-04-02 07:15:04] INFO root fetch - processPackages [olscrypto]: Remove: archive file [/home/abi/fetcher/tmp/olscrypto-0.1.6.tar.gz]
+[2024-04-02 07:15:04] INFO root fetch - processPackages [olscrypto]: Remove: archive file [/home/abi/fetcher/tmp/olscrypto-0.1.7.tar.gz]
+[2024-04-02 07:15:04] INFO root fetch - main [MainThread]: End processing [olscrypto]: success
+[2024-04-02 07:15:04] INFO root fetch - processPackages [mkdocs-material]: executing diffoscope
+[2024-04-02 07:15:04] INFO root fetch - processPackages [mkdocs-material]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_material-9.5.8.tar.gz tmp/mkdocs_material-9.5.9.tar.gz --markdown 20240402/m/mkdocs-material/9.5.8-9.5.9/diff.md --exclude *.pyd
+[2024-04-02 07:15:04] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.3.tar.gz]
+[2024-04-02 07:15:04] INFO root fetch - processPackages [metaphor-connectors]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-connectors-0.9.4.tar.gz]
+[2024-04-02 07:15:04] INFO root fetch - main [MainThread]: End processing [metaphor-connectors]: success
+[2024-04-02 07:15:04] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-3.2.0.tar.gz]
+[2024-04-02 07:15:04] INFO root fetch - processPackages [tablecache]: Remove: archive file [/home/abi/fetcher/tmp/tablecache-4.0.0rc0.tar.gz]
+[2024-04-02 07:15:04] INFO root fetch - main [MainThread]: End processing [tablecache]: success
+[2024-04-02 07:15:04] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_reporting-16.0.20231107.0-py3-none-any.whl.zip]
+[2024-04-02 07:15:04] INFO root fetch - processPackages [odoo-addons-oca-purchase-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_reporting-16.0.20240401.0-py3-none-any.whl.zip]
+[2024-04-02 07:15:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-reporting]: success
+[2024-04-02 07:15:05] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-3.2.2.tar.gz]
+[2024-04-02 07:15:05] INFO root fetch - processPackages [etos-environment-provider]: Remove: archive file [/home/abi/fetcher/tmp/etos_environment_provider-4.0.0.tar.gz]
+[2024-04-02 07:15:05] INFO root fetch - main [MainThread]: End processing [etos-environment-provider]: success
+[2024-04-02 07:16:05] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.8.tar.gz]
+[2024-04-02 07:16:05] INFO root fetch - processPackages [mkdocs-material]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_material-9.5.9.tar.gz]
+[2024-04-02 07:16:05] INFO root fetch - main [MainThread]: End processing [mkdocs-material]: success
+[2024-04-02 07:16:05] INFO root fetch - main [MainThread]: Store serial: [22580858]
