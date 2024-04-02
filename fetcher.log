@@ -11900,3 +11900,36 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 08:26:42] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-0.8.4.tar.gz]
 [2024-04-02 08:26:42] INFO root fetch - main [MainThread]: End processing [airbyte]: success
 [2024-04-02 08:26:42] INFO root fetch - main [MainThread]: Store serial: [22581228]
+[2024-04-02 08:28:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22581228]
+[2024-04-02 08:28:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2024-04-02 08:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: message-ix-models
+[2024-04-02 08:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gio-importer-v44
+[2024-04-02 08:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vcf-generator
+[2024-04-02 08:28:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rayoptics
+[2024-04-02 08:28:51] WARNING root fetch - processPackages [vcf-generator]: Skipping, unable to determine old version
+[2024-04-02 08:28:51] INFO root fetch - main [MainThread]: End processing [vcf-generator] error
+[2024-04-02 08:28:51] INFO root fetch - processPackages [message-ix-models]: New version: [2024.4.2rc1] Old Version: [2024.1.29rc1]
+[2024-04-02 08:28:51] INFO root fetch - processPackages [message-ix-models]: Downloading https://files.pythonhosted.org/packages/8c/91/5d68e656df0121da1fcf078bdc6e7b39a6ceaf85cf6d635ea209e1a44340/message-ix-models-2024.1.29rc1.tar.gz
+[2024-04-02 08:28:51] INFO root fetch - processPackages [gio-importer-v44]: New version: [1.0.22] Old Version: [1.0.20]
+[2024-04-02 08:28:51] INFO root fetch - processPackages [rayoptics]: New version: [0.8.6] Old Version: [0.8.5]
+[2024-04-02 08:28:51] INFO root fetch - processPackages [gio-importer-v44]: Downloading https://files.pythonhosted.org/packages/f9/46/d34d7a6147fd43500250bd4fd79480251858556235076bea0614ae2e5b52/gio_importer_v44-1.0.20.tar.gz
+[2024-04-02 08:28:51] INFO root fetch - processPackages [message-ix-models]: Downloading https://files.pythonhosted.org/packages/20/21/1750a631325c47a8bfbf4d412d4cdbae2dad398c00ab96dd0599c41030be/message-ix-models-2024.4.2rc1.tar.gz
+[2024-04-02 08:28:51] INFO root fetch - processPackages [rayoptics]: Downloading https://files.pythonhosted.org/packages/ed/27/520e9b4c48420724dcf099e35bfbe4a241fefea2dba6f9ba96df47b103d2/rayoptics-0.8.5.tar.gz
+[2024-04-02 08:28:51] INFO root fetch - processPackages [message-ix-models]: executing diffoscope
+[2024-04-02 08:28:51] INFO root fetch - processPackages [message-ix-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/message-ix-models-2024.1.29rc1.tar.gz tmp/message-ix-models-2024.4.2rc1.tar.gz --markdown 20240402/m/message-ix-models/2024.1.29rc1-2024.4.2rc1/diff.md --exclude *.pyd
+[2024-04-02 08:28:51] INFO root fetch - processPackages [gio-importer-v44]: Downloading https://files.pythonhosted.org/packages/39/0f/6d0d5f2a06f0052c91eea2aaa641462909ca116420363b609c175f38f5d2/gio_importer_v44-1.0.22.tar.gz
+[2024-04-02 08:28:51] INFO root fetch - processPackages [gio-importer-v44]: executing diffoscope
+[2024-04-02 08:28:51] INFO root fetch - processPackages [gio-importer-v44]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gio_importer_v44-1.0.20.tar.gz tmp/gio_importer_v44-1.0.22.tar.gz --markdown 20240402/g/gio-importer-v44/1.0.20-1.0.22/diff.md --exclude *.pyd
+[2024-04-02 08:28:52] INFO root fetch - processPackages [rayoptics]: Downloading https://files.pythonhosted.org/packages/20/88/beda36ee60db9ce476773113fd9e45fc89d1d5f15c44130de73445736fbe/rayoptics-0.8.6-py3-none-any.whl
+[2024-04-02 08:28:52] INFO root fetch - processPackages [gio-importer-v44]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer_v44-1.0.20.tar.gz]
+[2024-04-02 08:28:52] INFO root fetch - processPackages [gio-importer-v44]: Remove: archive file [/home/abi/fetcher/tmp/gio_importer_v44-1.0.22.tar.gz]
+[2024-04-02 08:28:52] INFO root fetch - main [MainThread]: End processing [gio-importer-v44]: success
+[2024-04-02 08:28:53] INFO root fetch - processPackages [message-ix-models]: Remove: archive file [/home/abi/fetcher/tmp/message-ix-models-2024.1.29rc1.tar.gz]
+[2024-04-02 08:28:53] INFO root fetch - processPackages [message-ix-models]: Remove: archive file [/home/abi/fetcher/tmp/message-ix-models-2024.4.2rc1.tar.gz]
+[2024-04-02 08:28:53] INFO root fetch - main [MainThread]: End processing [message-ix-models]: success
+[2024-04-02 08:28:57] INFO root fetch - processPackages [rayoptics]: executing diffoscope
+[2024-04-02 08:28:57] INFO root fetch - processPackages [rayoptics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayoptics-0.8.5.tar.gz tmp/rayoptics-0.8.6-py3-none-any.whl.zip --markdown 20240402/r/rayoptics/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2024-04-02 08:28:58] INFO root fetch - processPackages [rayoptics]: Remove: archive file [/home/abi/fetcher/tmp/rayoptics-0.8.5.tar.gz]
+[2024-04-02 08:28:58] INFO root fetch - processPackages [rayoptics]: Remove: archive file [/home/abi/fetcher/tmp/rayoptics-0.8.6-py3-none-any.whl.zip]
+[2024-04-02 08:28:58] INFO root fetch - main [MainThread]: End processing [rayoptics]: success
+[2024-04-02 08:28:58] INFO root fetch - main [MainThread]: Store serial: [22581239]
