@@ -19565,3 +19565,45 @@ AssertionError: tmp/petrosa-0.0.8-py3-none-any.whl.zip does not exist
 [2024-04-02 13:51:27] INFO root fetch - processPackages [wgd]: Remove: archive file [/home/abi/fetcher/tmp/wgd-2.0.30.tar.gz]
 [2024-04-02 13:51:27] INFO root fetch - main [MainThread]: End processing [wgd]: success
 [2024-04-02 13:51:27] INFO root fetch - main [MainThread]: Store serial: [22584334]
+[2024-04-02 13:53:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [22584334]
+[2024-04-02 13:53:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2024-04-02 13:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: imgori
+[2024-04-02 13:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zenpack
+[2024-04-02 13:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: py-ws-libp2p-proxy
+[2024-04-02 13:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: testingcgsdk
+[2024-04-02 13:53:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: esentity
+[2024-04-02 13:53:36] INFO root fetch - processPackages [testingcgsdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2024-04-02 13:53:36] INFO root fetch - processPackages [esentity]: New version: [0.2.99] Old Version: [0.2.98]
+[2024-04-02 13:53:36] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/ee/5a/69ac4f1713259593a1e5d3b2516940a40104d6f9bba37025d01c8b17f521/testingcgsdk-0.0.8-py3-none-any.whl
+[2024-04-02 13:53:36] WARNING root fetch - processPackages [zenpack]: Skipping, unable to determine old version
+[2024-04-02 13:53:36] INFO root fetch - main [MainThread]: End processing [zenpack] error
+[2024-04-02 13:53:36] INFO root fetch - processPackages [imgori]: New version: [0.2.7] Old Version: [0.2.6]
+[2024-04-02 13:53:36] INFO root fetch - processPackages [py-ws-libp2p-proxy]: New version: [0.1.2b1] Old Version: [0.1.1]
+[2024-04-02 13:53:36] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/1e/9f/e0a6280d40e9cb6e3dfaa2e923b81a0d650931aa948d73ca9a8a3fbf219d/esentity-0.2.98.tar.gz
+[2024-04-02 13:53:36] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/fb/18/5a6bfdc15d43f2a8a0d0d724388875ef1555ff33b7d0b24d5afa21dfaddc/imgori-0.2.6-py3-none-any.whl
+[2024-04-02 13:53:36] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Downloading https://files.pythonhosted.org/packages/3f/95/ea9cfe72aead1ff89f44f751b8cf5e011166505cf9234f129b4bf58d88f1/py_ws_libp2p_proxy-0.1.1.tar.gz
+[2024-04-02 13:53:37] INFO root fetch - processPackages [testingcgsdk]: Downloading https://files.pythonhosted.org/packages/53/b1/7177a65d8ffb724044226b864761d0c2b019b3427358674dfa6b79b0ed6a/testingcgsdk-0.0.9-py3-none-any.whl
+[2024-04-02 13:53:37] INFO root fetch - processPackages [esentity]: Downloading https://files.pythonhosted.org/packages/c8/5b/c12322aa6c71e3e0da12b137cf7fef6f67acbd686b0adeaffba5426fd63b/esentity-0.2.99.tar.gz
+[2024-04-02 13:53:37] INFO root fetch - processPackages [esentity]: executing diffoscope
+[2024-04-02 13:53:37] INFO root fetch - processPackages [testingcgsdk]: executing diffoscope
+[2024-04-02 13:53:37] INFO root fetch - processPackages [esentity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esentity-0.2.98.tar.gz tmp/esentity-0.2.99.tar.gz --markdown 20240402/e/esentity/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2024-04-02 13:53:37] INFO root fetch - processPackages [testingcgsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip --markdown 20240402/t/testingcgsdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2024-04-02 13:53:37] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Downloading https://files.pythonhosted.org/packages/ca/53/b89eff580c70d20305328d7552d7eb105e815e95b3bd1c2b8f382ce06186/py_ws_libp2p_proxy-0.1.2b1.tar.gz
+[2024-04-02 13:53:37] INFO root fetch - processPackages [imgori]: Downloading https://files.pythonhosted.org/packages/06/9b/28284d6c44b75ed453ef6bdd03be31a342c3d15f4e58bfafe52919f9538f/imgori-0.2.7-py3-none-any.whl
+[2024-04-02 13:53:37] INFO root fetch - processPackages [imgori]: executing diffoscope
+[2024-04-02 13:53:37] INFO root fetch - processPackages [imgori]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgori-0.2.6-py3-none-any.whl.zip tmp/imgori-0.2.7-py3-none-any.whl.zip --markdown 20240402/i/imgori/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2024-04-02 13:53:37] INFO root fetch - processPackages [py-ws-libp2p-proxy]: executing diffoscope
+[2024-04-02 13:53:37] INFO root fetch - processPackages [py-ws-libp2p-proxy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20240402:/home/abi/fetcher/20240402:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_ws_libp2p_proxy-0.1.1.tar.gz tmp/py_ws_libp2p_proxy-0.1.2b1.tar.gz --markdown 20240402/p/py-ws-libp2p-proxy/0.1.1-0.1.2b1/diff.md --exclude *.pyd
+[2024-04-02 13:53:37] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.98.tar.gz]
+[2024-04-02 13:53:37] INFO root fetch - processPackages [esentity]: Remove: archive file [/home/abi/fetcher/tmp/esentity-0.2.99.tar.gz]
+[2024-04-02 13:53:37] INFO root fetch - main [MainThread]: End processing [esentity]: success
+[2024-04-02 13:53:37] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.8-py3-none-any.whl.zip]
+[2024-04-02 13:53:37] INFO root fetch - processPackages [testingcgsdk]: Remove: archive file [/home/abi/fetcher/tmp/testingcgsdk-0.0.9-py3-none-any.whl.zip]
+[2024-04-02 13:53:37] INFO root fetch - main [MainThread]: End processing [testingcgsdk]: success
+[2024-04-02 13:53:38] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.6-py3-none-any.whl.zip]
+[2024-04-02 13:53:38] INFO root fetch - processPackages [imgori]: Remove: archive file [/home/abi/fetcher/tmp/imgori-0.2.7-py3-none-any.whl.zip]
+[2024-04-02 13:53:38] INFO root fetch - main [MainThread]: End processing [imgori]: success
+[2024-04-02 13:53:38] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_ws_libp2p_proxy-0.1.1.tar.gz]
+[2024-04-02 13:53:38] INFO root fetch - processPackages [py-ws-libp2p-proxy]: Remove: archive file [/home/abi/fetcher/tmp/py_ws_libp2p_proxy-0.1.2b1.tar.gz]
+[2024-04-02 13:53:38] INFO root fetch - main [MainThread]: End processing [py-ws-libp2p-proxy]: success
+[2024-04-02 13:53:38] INFO root fetch - main [MainThread]: Store serial: [22584348]
